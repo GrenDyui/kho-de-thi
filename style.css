@@ -23,6 +23,58 @@
   padding: 0.25em 0;
 }
 
+/* Vector Diagram & Chemical Structure Container */
+.diagram-container {
+  width: 100%;
+  max-width: 520px;
+  margin: 0.75rem auto;
+  border-radius: 1rem;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.diagram-container svg {
+  max-width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+/* Dark mode adaptation for SVGs */
+.dark .diagram-container {
+  background-color: rgba(15, 23, 42, 0.6);
+  border-color: #334155;
+}
+
+.dark .diagram-container svg text {
+  fill: #f1f5f9 !important;
+}
+
+.dark .diagram-container svg path,
+.dark .diagram-container svg line,
+.dark .diagram-container svg polyline,
+.dark .diagram-container svg polygon {
+  stroke: #cbd5e1;
+}
+
+.dark .diagram-container svg [stroke="#000000"],
+.dark .diagram-container svg [stroke="#000"],
+.dark .diagram-container svg [stroke="#1e293b"],
+.dark .diagram-container svg [stroke="#334155"] {
+  stroke: #e2e8f0 !important;
+}
+
+.dark .diagram-container svg [fill="#000000"],
+.dark .diagram-container svg [fill="#000"],
+.dark .diagram-container svg [fill="#1e293b"] {
+  fill: #f1f5f9 !important;
+}
+
 /* Print Stylesheet for clean paper / PDF export */
 @media print {
   body {
@@ -63,5 +115,12 @@
     background: transparent !important;
     border: none !important;
     padding: 0.15rem 0 !important;
+  }
+
+  .diagram-container {
+    background: transparent !important;
+    border: 1px solid #cbd5e1 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
   }
 }
