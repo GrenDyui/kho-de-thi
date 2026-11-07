@@ -1,0 +1,206 @@
+[
+  {
+    "id": "toan-12-nguyen-ham-tich-phan",
+    "title": "Chuyên đề Nguyên hàm, Tích phân & Ứng dụng",
+    "subject": "Toán",
+    "grade": "Lớp 12",
+    "durationMinutes": 45,
+    "difficulty": "Thông hiểu - Vận dụng",
+    "tags": ["Giải tích", "Nguyên hàm", "Tích phân"],
+    "description": "Tổng hợp các câu hỏi trắc nghiệm trọng tâm về nguyên hàm, tích phân và ứng dụng tính diện tích, thể tích.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Tìm nguyên hàm của hàm số $f(x) = 3x^2 + 2\\sin x$.",
+        "options": [
+          "A. $\\int f(x)dx = x^3 - 2\\cos x + C$",
+          "B. $\\int f(x)dx = x^3 + 2\\cos x + C$",
+          "C. $\\int f(x)dx = 6x - 2\\cos x + C$",
+          "D. $\\int f(x)dx = x^3 + \\sin^2 x + C$"
+        ],
+        "correct": 0,
+        "explanation": "Ta có $\\int (3x^2 + 2\\sin x)dx = 3\\frac{x^3}{3} + 2(-\\cos x) + C = x^3 - 2\\cos x + C$."
+      },
+      {
+        "id": 2,
+        "question": "Tính tích phân $I = \\int_{0}^{1} e^{2x}\\,dx$.",
+        "options": [
+          "A. $I = \\frac{e^2 - 1}{2}$",
+          "B. $I = e^2 - 1$",
+          "C. $I = 2(e^2 - 1)$",
+          "D. $I = \\frac{e^2 + 1}{2}$"
+        ],
+        "correct": 0,
+        "explanation": "Ta có $I = \\left[ \\frac{1}{2} e^{2x} \\right]_0^1 = \\frac{1}{2}(e^2 - e^0) = \\frac{e^2 - 1}{2}$."
+      },
+      {
+        "id": 3,
+        "question": "Cho $\\int_{1}^{3} f(x)dx = 5$ và $\\int_{1}^{3} g(x)dx = -2$. Tính $J = \\int_{1}^{3} [2f(x) - 3g(x)]dx$.",
+        "options": [
+          "A. $J = 16$",
+          "B. $J = 4$",
+          "C. $J = 19$",
+          "D. $J = 7$"
+        ],
+        "correct": 0,
+        "explanation": "Theo tính chất tuyến tính của tích phân: $J = 2\\int_{1}^{3} f(x)dx - 3\\int_{1}^{3} g(x)dx = 2(5) - 3(-2) = 10 + 6 = 16$."
+      },
+      {
+        "id": 4,
+        "question": "Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y = x^2 - 2x$, trục hoành $y=0$ và hai đường thẳng $x = 0, x = 2$ là:",
+        "options": [
+          "A. $S = \\frac{4}{3}$",
+          "B. $S = -\\frac{4}{3}$",
+          "C. $S = \\frac{2}{3}$",
+          "D. $S = 2$"
+        ],
+        "correct": 0,
+        "explanation": "Với mọi $x \\in [0, 2]$, ta có $x^2 - 2x \\le 0$. Do đó $S = \\int_0^2 |x^2 - 2x|dx = -\\int_0^2 (x^2 - 2x)dx = -\\left[\\frac{x^3}{3} - x^2\\right]_0^2 = -\\left(\\frac{8}{3} - 4\\right) = \\frac{4}{3}$."
+      },
+      {
+        "id": 5,
+        "question": "Biết $F(x)$ là một nguyên hàm của hàm số $f(x) = \\frac{1}{2x+1}$ và $F(0) = 1$. Giá trị của $F(1)$ bằng:",
+        "options": [
+          "A. $1 + \\frac{1}{2}\\ln 3$",
+          "B. $1 + \\ln 3$",
+          "C. $\\frac{1}{2}\\ln 3$",
+          "D. $2\\ln 3$"
+        ],
+        "correct": 0,
+        "explanation": "Họ nguyên hàm là $F(x) = \\frac{1}{2}\\ln|2x+1| + C$. Vì $F(0) = 1 \\implies \\frac{1}{2}\\ln 1 + C = 1 \\implies C = 1$. Vậy $F(1) = \\frac{1}{2}\\ln 3 + 1$."
+      }
+    ]
+  },
+  {
+    "id": "tieng-anh-thpt-ngu-phap-trong-tam",
+    "title": "Chuyên đề Ngữ pháp & Trọng âm Tiếng Anh",
+    "subject": "Tiếng Anh",
+    "grade": "Lớp 12",
+    "durationMinutes": 40,
+    "difficulty": "Trung bình",
+    "tags": ["Ngữ pháp", "Phát âm", "Trọng âm", "Từ vựng"],
+    "description": "Luyện tập các dạng bài trọng tâm: Ngữ âm, câu điều kiện, mệnh đề quan hệ và thành ngữ thông dụng.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation:\n\nA. develop**ed**\nB. look**ed**\nC. laugh**ed**\nD. open**ed**",
+        "options": [
+          "A. developed",
+          "B. looked",
+          "C. laughed",
+          "D. opened"
+        ],
+        "correct": 3,
+        "explanation": "Các từ developed (/t/), looked (/t/), laughed (/t/) có đuôi -ed phát âm là /t/ sau các phụ âm vô thanh (/p/, /k/, /f/). Riêng opened (/d/) kết thúc bằng âm hữu thanh /n/ nên phát âm là /d/."
+      },
+      {
+        "id": 2,
+        "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress:\n\nA. decide\nB. protect\nC. manage\nD. avoid",
+        "options": [
+          "A. decide",
+          "B. protect",
+          "C. manage",
+          "D. avoid"
+        ],
+        "correct": 2,
+        "explanation": "'manage' có trọng âm rơi vào âm tiết thứ nhất (/ˈmæn.ɪdʒ/). Các từ còn lại có trọng âm rơi vào âm tiết thứ hai: decide (/dɪˈsaɪd/), protect (/prəˈtekt/), avoid (/əˈvɔɪd/)."
+      },
+      {
+        "id": 3,
+        "question": "If she _______ harder during the course, she would have passed the final exam easily.",
+        "options": [
+          "A. had worked",
+          "B. worked",
+          "C. works",
+          "D. would work"
+        ],
+        "correct": 0,
+        "explanation": "Câu điều kiện loại 3 diễn tả giả định trái ngược với quá khứ. Cấu trúc: If + S + had + V3/ed, S + would + have + V3/ed."
+      },
+      {
+        "id": 4,
+        "question": "The young musician _______ song won first prize last week is only seventeen years old.",
+        "options": [
+          "A. whose",
+          "B. who",
+          "C. whom",
+          "D. which"
+        ],
+        "correct": 0,
+        "explanation": "Dùng đại từ quan hệ sở hữu 'whose' đứng trước danh từ 'song' để chỉ quyền sở hữu (bài hát của nhạc sĩ trẻ đó)."
+      },
+      {
+        "id": 5,
+        "question": "It's raining cats and dogs outside, so you'd better put on your raincoat, _______?",
+        "options": [
+          "A. hadn't you",
+          "B. didn't you",
+          "C. wouldn't you",
+          "D. aren't you"
+        ],
+        "correct": 0,
+        "explanation": "Cụm 'you'd better' là viết tắt của 'you had better'. Trong câu hỏi đuôi (tag question), thể khẳng định của 'had better' sẽ chuyển thành 'hadn't you'."
+      }
+    ]
+  },
+  {
+    "id": "vat-ly-12-dao-dong-co-hoc",
+    "title": "Chuyên đề Dao động cơ & Con lắc lò xo",
+    "subject": "Vật Lý",
+    "grade": "Lớp 12",
+    "durationMinutes": 45,
+    "difficulty": "Thông hiểu",
+    "tags": ["Dao động điều hòa", "Con lắc lò xo", "Con lắc đơn"],
+    "description": "Các bài toán đại cương về phương trình dao động điều hòa, vận tốc, gia tốc, chu kỳ và năng lượng dao động.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Một chất điểm dao động điều hòa theo phương trình $x = 6\\cos(4\\pi t + \\frac{\\pi}{3})$ (cm). Biên độ và chu kỳ dao động của chất điểm là:",
+        "options": [
+          "A. $A = 6\\text{ cm}, T = 0{,}5\\text{ s}$",
+          "B. $A = 6\\text{ cm}, T = 2\\text{ s}$",
+          "C. $A = 12\\text{ cm}, T = 0{,}5\\text{ s}$",
+          "D. $A = 6\\text{ cm}, T = 4\\pi\\text{ s}$"
+        ],
+        "correct": 0,
+        "explanation": "Từ phương trình ta có: Biên độ $A = 6\\text{ cm}$, tần số góc $\\omega = 4\\pi\\text{ rad/s} \\implies T = \\frac{2\\pi}{\\omega} = \\frac{2\\pi}{4\\pi} = 0{,}5\\text{ s}$."
+      },
+      {
+        "id": 2,
+        "question": "Trong dao động điều hòa của con lắc lò xo độ cứng $k$ và vật khối lượng $m$, công thức tính tần số góc $\\omega$ là:",
+        "options": [
+          "A. $\\omega = \\sqrt{\\frac{k}{m}}$",
+          "B. $\\omega = \\sqrt{\\frac{m}{k}}$",
+          "C. $\\omega = 2\\pi \\sqrt{\\frac{k}{m}}$",
+          "D. $\\omega = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}}$"
+        ],
+        "correct": 0,
+        "explanation": "Tần số góc của con lắc lò xo được xác định theo công thức $\\omega = \\sqrt{\\frac{k}{m}}$."
+      },
+      {
+        "id": 3,
+        "question": "Một vật dao động điều hòa, khi đi qua vị trí cân bằng thì:",
+        "options": [
+          "A. Vận tốc có độ lớn cực đại, gia tốc bằng 0",
+          "B. Vận tốc bằng 0, gia tốc có độ lớn cực đại",
+          "C. Cả vận tốc và gia tốc đều đạt cực đại",
+          "D. Cả vận tốc và gia tốc đều bằng 0"
+        ],
+        "correct": 0,
+        "explanation": "Tại VTCB ($x = 0$), li độ triệt tiêu nên gia tốc $a = -\\omega^2 x = 0$. Vận tốc đạt độ lớn cực đại $v_{\\max} = \\omega A$."
+      },
+      {
+        "id": 4,
+        "question": "Một con lắc đơn có chiều dài dây treo $l = 1\\text{ m}$ dao động tại nơi có $g = \\pi^2 \\approx 9{,}8\\text{ m/s}^2$. Chu kỳ dao động của con lắc là:",
+        "options": [
+          "A. $T = 2\\text{ s}$",
+          "B. $T = 1\\text{ s}$",
+          "C. $T = 4\\text{ s}$",
+          "D. $T = 0{,}5\\text{ s}$"
+        ],
+        "correct": 0,
+        "explanation": "Công thức chu kỳ con lắc đơn: $T = 2\\pi \\sqrt{\\frac{l}{g}} = 2\\pi \\sqrt{\\frac{1}{\\pi^2}} = 2\\text{ s}$."
+      }
+    ]
+  }
+]
