@@ -130,6 +130,19 @@ const app = {
   },
 
   /**
+   * Helper to render custom vector diagram or chemical structure
+   */
+  getDiagramHtml(q) {
+    if (!q || !q.diagram) return '';
+    return `
+      <div class="diagram-container">
+        ${q.diagram}
+        ${q.diagramCaption ? `<span class="text-xs font-semibold text-slate-500 dark:text-slate-400 mt-2 text-center">${q.diagramCaption}</span>` : ''}
+      </div>
+    `;
+  },
+
+  /**
    * Dynamic Subject Filters
    */
   renderSubjectFilters() {
@@ -396,6 +409,8 @@ const app = {
             </div>
           </div>
 
+          ${this.getDiagramHtml(q)}
+
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
             ${optionsHtml}
           </div>
@@ -574,6 +589,8 @@ const app = {
             </button>
           </div>
 
+          ${this.getDiagramHtml(q)}
+
           <!-- Options 2 columns -->
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
             ${optionsHtml}
@@ -690,7 +707,9 @@ const app = {
         userChoice,
         correctChoice: q.correct,
         isCorrect,
-        explanation: q.explanation
+        explanation: q.explanation,
+        diagram: q.diagram,
+        diagramCaption: q.diagramCaption
       };
     });
 
@@ -774,6 +793,8 @@ const app = {
               </div>
               <div>${badgeHtml}</div>
             </div>
+
+            ${this.getDiagramHtml(item)}
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
               ${optionsHtml}
@@ -890,6 +911,8 @@ const app = {
               ${q.question}
             </div>
           </div>
+
+          ${this.getDiagramHtml(q)}
 
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
             ${optionsHtml}
