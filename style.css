@@ -1,0 +1,67 @@
+/* Custom styles & KaTeX / Print enhancements for EduVault */
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Smooth transition */
+* {
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+/* Math formula styling */
+.katex-display {
+  margin: 0.75em 0 !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25em 0;
+}
+
+/* Print Stylesheet for clean paper / PDF export */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+    line-height: 1.4 !important;
+  }
+
+  .no-print, header, footer, #navbar, #exam-palette, #top-controls, .action-buttons, #modal-container {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .page-break {
+    page-break-after: always;
+  }
+
+  .exam-print-container {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .question-card {
+    page-break-inside: avoid;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    padding: 0.4rem 0 !important;
+    margin-bottom: 0.8rem !important;
+  }
+
+  .option-item {
+    background: transparent !important;
+    border: none !important;
+    padding: 0.15rem 0 !important;
+  }
+}
