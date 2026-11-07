@@ -1,12 +1,418 @@
 [
   {
+    "id": "hoa-hoc-12-este-cacbohidrat-amin",
+    "title": "Chuyên đề Hóa học 12: Ester, Carbohydrate, Amine & Amino Acid",
+    "subject": "Hóa Học",
+    "grade": "Lớp 12",
+    "durationMinutes": 50,
+    "difficulty": "Đề chuẩn cấu trúc mới GDPT 2018",
+    "tags": [
+      "Ester - Lipid",
+      "Carbohydrate",
+      "Amine",
+      "Amino acid",
+      "Peptide"
+    ],
+    "description": "Tổng hợp 34 câu hỏi và ý phân tích trọng tâm bao gồm Trắc nghiệm 4 lựa chọn, Trắc nghiệm Đúng/Sai và Trả lời ngắn, có giải thích chi tiết.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Trong số các chất sau đây, chất nào có nhiệt độ sôi thấp nhất?",
+        "options": [
+          "A. $\\text{CH}_3\\text{COOH}$",
+          "B. $\\text{HCOOCH}_3$",
+          "C. $\\text{CH}_3\\text{CHO}$",
+          "D. $\\text{C}_2\\text{H}_5\\text{OH}$"
+        ],
+        "correct": 2,
+        "explanation": "So sánh nhiệt độ sôi: Acid > Ancol > Ester > Aldehyde (cùng số nguyên tử C). $\\text{CH}_3\\text{CHO}$ không có liên kết hydrogen liên phân tử và phân tử khối nhỏ nên có nhiệt độ sôi thấp nhất."
+      },
+      {
+        "id": 2,
+        "question": "Để chứng minh trong phân tử glucose có nhiều nhóm -OH kề nhau, ta cho glucose tác dụng với:",
+        "options": [
+          "A. $\\text{Cu(OH)}_2$ ở nhiệt độ thường",
+          "B. Dung dịch bromine",
+          "C. Thuốc thử Tollens",
+          "D. $\\text{Cu(OH)}_2$ ở nhiệt độ cao"
+        ],
+        "correct": 0,
+        "explanation": "Glucose tác dụng với $\\text{Cu(OH)}_2$ ở nhiệt độ thường tạo thành dung dịch phức đồng màu xanh lam, chứng minh phân tử glucose có nhiều nhóm -OH ở vị trí kề nhau."
+      },
+      {
+        "id": 3,
+        "question": "Nhỏ nước bromine vào ống nghiệm đựng dung dịch aniline. Hiện tượng quan sát được là:",
+        "options": [
+          "A. Xuất hiện kết tủa màu vàng",
+          "B. Xuất hiện kết tủa màu xanh",
+          "C. Xuất hiện kết tủa màu trắng",
+          "D. Xuất hiện khí không màu"
+        ],
+        "correct": 2,
+        "explanation": "Aniline phản ứng với nước bromine tạo kết tủa trắng 2,4,6-tribromoaniline."
+      },
+      {
+        "id": 4,
+        "question": "Ở điều kiện thích hợp, hai chất phản ứng với nhau tạo thành ethyl formate là:",
+        "options": [
+          "A. $\\text{HCOOH}$ và $\\text{C}_2\\text{H}_5\\text{OH}$",
+          "B. $\\text{CH}_3\\text{COOH}$ và $\\text{C}_2\\text{H}_5\\text{OH}$",
+          "C. $\\text{CH}_3\\text{COOH}$ và $\\text{CH}_3\\text{OH}$",
+          "D. $\\text{HCOOH}$ và $\\text{CH}_3\\text{OH}$"
+        ],
+        "correct": 0,
+        "explanation": "Ethyl formate có công thức $\\text{HCOOC}_2\\text{H}_5$, được điều chế từ formic acid ($\\text{HCOOH}$) và ethanol ($\\text{C}_2\\text{H}_5\\text{OH}$)."
+      },
+      {
+        "id": 5,
+        "question": "Hợp chất nào sau đây là amine bậc hai?",
+        "options": [
+          "A. $\\text{C}_2\\text{H}_5\\text{NH}_2$",
+          "B. $(\\text{CH}_3)_3\\text{N}$",
+          "C. $\\text{C}_2\\text{H}_5\\text{NHCH}_3$",
+          "D. $\\text{CH}_3\\text{NH}_2$"
+        ],
+        "correct": 2,
+        "explanation": "Amine bậc hai có nguyên tử nitơ liên kết với 2 gốc hydrocarbon và 1 nguyên tử H ($-\\text{NH}-$). Chất đó là $\\text{C}_2\\text{H}_5\\text{NHCH}_3$ (ethylmethylamine)."
+      },
+      {
+        "id": 6,
+        "question": "Tính chất nào sau đây **không** phù hợp?",
+        "options": [
+          "A. Thành phần chất giặt rửa giống như trong xà phòng",
+          "B. Xà phòng có thể tạo kết tủa trong môi trường nước cứng",
+          "C. Xà phòng là muối sodium hoặc potassium của acid béo",
+          "D. Thuỷ phân chất béo trong môi trường kiềm ta thu được xà phòng"
+        ],
+        "correct": 0,
+        "explanation": "Chất giặt rửa tổng hợp thường là muối sodium của alkyl sulfate hoặc alkyl benzene sulfonate, có cấu tạo khác với xà phòng (muối của acid béo). Do đó nhận định A là không phù hợp."
+      },
+      {
+        "id": 7,
+        "question": "Chất nào sau đây có thể tham gia phản ứng tráng gương?",
+        "options": [
+          "A. Cellulose",
+          "B. Saccharose",
+          "C. Glucose",
+          "D. Tinh bột"
+        ],
+        "correct": 2,
+        "explanation": "Glucose ở dạng mạch hở chứa nhóm chức aldehyde ($-CHO$) nên có khả năng tham gia phản ứng tráng gương."
+      },
+      {
+        "id": 8,
+        "question": "Dung dịch chất nào sau đây **không** làm quỳ tím đổi màu?",
+        "options": [
+          "A. Alanine",
+          "B. Glutamic acid",
+          "C. Lysine",
+          "D. Methylamine"
+        ],
+        "correct": 0,
+        "explanation": "Alanine có 1 nhóm $-\\text{NH}_2$ và 1 nhóm $-\\text{COOH}$ nên dung dịch có môi trường gần trung tính ($pH \\approx 6{,}0$), không làm đổi màu quỳ tím."
+      },
+      {
+        "id": 9,
+        "question": "Từ 10 kg gạo nếp (chứa 80% tinh bột), khi lên men sẽ thu được bao nhiêu lít ethyl alcohol nguyên chất? Biết rằng hiệu suất của cả quá trình lên men đạt 80% và ethyl alcohol có khối lượng riêng $D = 0{,}789\\text{ g/mL}$.",
+        "options": [
+          "A. 2,30 lít",
+          "B. 3,61 lít",
+          "C. 5,76 lít",
+          "D. 4,61 lít"
+        ],
+        "correct": 3,
+        "explanation": "Khối lượng tinh bột: $m = 10 \\times 80\\% = 8\\text{ kg} = 8000\\text{ g}$. Phương trình: $(\\text{C}_6\\text{H}_{10}\\text{O}_5)_n \\to 2n\\,\\text{C}_2\\text{H}_5\\text{OH}$. Khối lượng ethanol lý thuyết: $m = \\frac{8000}{162} \\times 2 \\times 46 \\approx 4543{,}2\\text{ g}$. Thực tế với $H = 80\\%$: $m_{\\text{thực tế}} = 4543{,}2 \\times 80\\% \\approx 3634{,}57\\text{ g}$. Thể tích: $V = \\frac{m}{D} = \\frac{3634{,}57}{0{,}789} \\approx 4606{,}5\\text{ mL} \\approx 4{,}61\\text{ lít}$."
+      },
+      {
+        "id": 10,
+        "question": "Phát biểu nào sau đây đúng khi nói về saccharose?",
+        "options": [
+          "A. Saccharose là một polysaccharide",
+          "B. Saccharose được hình thành từ hai gốc glucose",
+          "C. Saccharose có thể mở vòng thành dạng mạch hở",
+          "D. Saccharose thể hiện tính chất của một alcohol đa chức"
+        ],
+        "correct": 3,
+        "explanation": "Saccharose là disaccharide tạo từ một gốc $\\alpha$-glucose và một gốc $\\beta$-fructose qua liên kết $1,2$-glycosidic. Các nhóm hemiacetal/hemiketal đều bị khóa nên saccharose không mở vòng được, nhưng có nhiều nhóm -OH kề nhau nên mang tính chất của alcohol đa chức (hòa tan $\\text{Cu(OH)}_2$ tạo dung dịch xanh lam)."
+      },
+      {
+        "id": 11,
+        "question": "Cơ thể người sử dụng phân tử nào sau đây để xây dựng nên protein?",
+        "options": [
+          "A. Tinh bột",
+          "B. Chất béo",
+          "C. Acid béo",
+          "D. Amino acid"
+        ],
+        "correct": 3,
+        "explanation": "Protein sinh học được tổng hợp từ các đơn phân là các $\\alpha$-amino acid."
+      },
+      {
+        "id": 12,
+        "question": "Trong phân tử chất nào sau đây có chứa 1 nhóm amino ($-\\text{NH}_2$) và 2 nhóm carboxyl ($-\\text{COOH}$)?",
+        "options": [
+          "A. Lysine",
+          "B. Glutamic acid",
+          "C. Formic acid",
+          "D. Alanine"
+        ],
+        "correct": 1,
+        "explanation": "Glutamic acid có công thức $\\text{HOOC}-(\\text{CH}_2)_2-\\text{CH}(\\text{NH}_2)-\\text{COOH}$ chứa 1 nhóm amino và 2 nhóm carboxyl."
+      },
+      {
+        "id": 13,
+        "question": "Thủy phân hoàn toàn 120,9 gam tripalmitin trong dung dịch NaOH dư, đun nóng, thu được dung dịch chứa $b$ gam muối. Giá trị của $b$ là:",
+        "options": [
+          "A. 41,7",
+          "B. 125,1",
+          "C. 45,6",
+          "D. 137,7"
+        ],
+        "correct": 1,
+        "explanation": "Tripalmitin là $(\\text{C}_{15}\\text{H}_{31}\\text{COO})_3\\text{C}_3\\text{H}_5$ ($M = 806$). Số mol = $\\frac{120{,}9}{806} = 0{,}15\\text{ mol}$. Muối là sodium palmitate $\\text{C}_{15}\\text{H}_{31}\\text{COONa}$ ($M = 278$), số mol muối = $3 \\times 0{,}15 = 0{,}45\\text{ mol}$. Khối lượng muối $b = 0{,}45 \\times 278 = 125{,}1\\text{ gam}$."
+      },
+      {
+        "id": 14,
+        "question": "Benzyl acetate là ester có mùi thơm của hoa nhài. Công thức cấu tạo của benzyl acetate là:",
+        "options": [
+          "A. $\\text{CH}_3\\text{COOCH}_3$",
+          "B. $\\text{HCOOC}_6\\text{H}_5$",
+          "C. $\\text{CH}_3\\text{COOCH}_2\\text{C}_6\\text{H}_5$",
+          "D. $\\text{CH}_3\\text{COOC}_6\\text{H}_5$"
+        ],
+        "correct": 2,
+        "explanation": "Gốc acetate là $\\text{CH}_3\\text{COO}-$ và gốc benzyl là $-\\text{CH}_2\\text{C}_6\\text{H}_5$. Vậy benzyl acetate là $\\text{CH}_3\\text{COOCH}_2\\text{C}_6\\text{H}_5$."
+      },
+      {
+        "id": 15,
+        "question": "Cho 3 giọt dung dịch $\\text{CuSO}_4$ 2% và 1 mL dung dịch $\\text{NaOH}$ 30% vào ống nghiệm. Thêm tiếp khoảng 2 mL dung dịch lòng trắng trứng và lắc đều ống nghiệm, dung dịch thu được sẽ có màu gì?",
+        "options": [
+          "A. Màu xanh lam",
+          "B. Màu đỏ",
+          "C. Màu tím",
+          "D. Màu vàng"
+        ],
+        "correct": 2,
+        "explanation": "Đây là phản ứng màu biuret đặc trưng của protein (lòng trắng trứng) với ion $\\text{Cu}^{2+}$ trong môi trường kiềm tạo hợp chất phức màu tím."
+      },
+      {
+        "id": 16,
+        "question": "Stearic acid có công thức phân tử là:",
+        "options": [
+          "A. $\\text{C}_{17}\\text{H}_{33}\\text{COOH}$",
+          "B. $\\text{CH}_3\\text{COOH}$",
+          "C. $\\text{C}_{17}\\text{H}_{35}\\text{COOH}$",
+          "D. $\\text{C}_{15}\\text{H}_{31}\\text{COOH}$"
+        ],
+        "correct": 2,
+        "explanation": "Stearic acid là acid béo no có công thức $\\text{C}_{17}\\text{H}_{35}\\text{COOH}$."
+      },
+      {
+        "id": 17,
+        "question": "Saccharose (Đúng/Sai - Ý a): Thủy phân 200 gam dung dịch saccharose 6,84%, sau một thời gian, lấy hỗn hợp sản phẩm cho tác dụng với dung dịch $\\text{AgNO}_3/\\text{NH}_3$ dư, sau phản ứng thu được 12,96 gam Ag. Hiệu suất phản ứng thủy phân là 85%.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 1,
+        "explanation": "Số mol saccharose ban đầu: $n = \\frac{200 \\times 6{,}84\\%}{342} = 0{,}04\\text{ mol}$. Thủy phân: 1 saccharose $\\to$ 1 glucose + 1 fructose. Mỗi phân tử monosaccharide tráng gương cho 2 Ag $\\implies 1\\text{ saccharose phản ứng} \\to 4\\text{ Ag}$. Số mol Ag lý thuyết = $0{,}04 \\times 4 = 0{,}16\\text{ mol}$. Số mol Ag thực tế = $\\frac{12{,}96}{108} = 0{,}12\\text{ mol}$. Hiệu suất $H = \\frac{0{,}12}{0{,}16} \\times 100\\% = 75\\% \\ne 85\\%$. Do đó mệnh đề này SAI."
+      },
+      {
+        "id": 18,
+        "question": "Saccharose (Đúng/Sai - Ý b): Saccharose có khả năng hòa tan dung dịch copper(II) hydroxide trong môi trường kiềm tạo thành phức màu tím.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 1,
+        "explanation": "Saccharose hòa tan $\\text{Cu(OH)}_2$ tạo dung dịch màu xanh lam đặc trưng của polyalcohol, không phải màu tím (màu tím là phản ứng biuret của peptide/protein). Mệnh đề này SAI."
+      },
+      {
+        "id": 19,
+        "question": "Saccharose (Đúng/Sai - Ý c): Phân tử saccharose có nhóm -OH hemiacetal nên có khả năng mở vòng tạo nhóm aldehyde.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 1,
+        "explanation": "Trong saccharose, nhóm -OH hemiacetal của $\\alpha$-glucose và -OH hemiketal của $\\beta$-fructose đã tham gia liên kết glycosidic nên không còn nhóm -OH hemiacetal tự do và không thể mở vòng. Mệnh đề này SAI."
+      },
+      {
+        "id": 20,
+        "question": "Saccharose (Đúng/Sai - Ý d): Một phân tử saccharose được cấu tạo từ một đơn vị $\\beta$-glucose và một đơn vị $\\alpha$-fructose.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 1,
+        "explanation": "Saccharose cấu tạo từ 1 gốc $\\alpha$-glucose và 1 gốc $\\beta$-fructose (mệnh đề bị tráo ngược cấu hình). Mệnh đề này SAI."
+      },
+      {
+        "id": 21,
+        "question": "Thí nghiệm xà phòng hóa (Đúng/Sai - Ý a): Ở bước 1, nếu thay mỡ lợn bằng dầu ăn thì hiện tượng thí nghiệm sau bước 2 vẫn xảy ra tương tự.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": "Mỡ lợn và dầu ăn đều là chất béo (triglyceride), khi đun với dung dịch NaOH đều bị thủy phân tạo muối sodium của acid béo (xà phòng), sau đó nổi lên khi cho NaCl bão hòa. Mệnh đề này ĐÚNG."
+      },
+      {
+        "id": 22,
+        "question": "Thí nghiệm xà phòng hóa (Đúng/Sai - Ý b): Sau bước 2 thấy có lớp chất rắn màu trắng nổi lên là xà phòng.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": "Lớp chất rắn màu trắng nhẹ hơn dung dịch NaCl bão hòa nổi lên phía trên chính là muối sodium của acid béo (xà phòng). Mệnh đề này ĐÚNG."
+      },
+      {
+        "id": 23,
+        "question": "Thí nghiệm xà phòng hóa (Đúng/Sai - Ý c): Vai trò của dung dịch NaCl bão hòa ở bước 2 là để tăng hiệu suất phản ứng xà phòng hoá.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 1,
+        "explanation": "Phản ứng xà phòng hóa đã hoàn thành ở bước 1. Việc thêm dung dịch NaCl bão hòa làm tăng khối lượng riêng của dung dịch và làm giảm độ tan của muối acid béo, giúp xà phòng tách ra và nổi lên dễ dàng hơn, không phải làm tăng hiệu suất. Mệnh đề này SAI."
+      },
+      {
+        "id": 24,
+        "question": "Thí nghiệm xà phòng hóa (Đúng/Sai - Ý d): Trong công nghiệp, phản ứng ở thí nghiệm trên được ứng dụng để sản xuất xà phòng và glycerol.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": "Đây là quy trình phản ứng xà phòng hóa chất béo để sản xuất xà phòng bánh và thu hồi phụ phẩm glycerol có giá trị cao. Mệnh đề này ĐÚNG."
+      },
+      {
+        "id": 25,
+        "question": "Valine (Đúng/Sai - Ý a): Khi cho valine tác dụng với acid HCl thu được muối có công thức là $\\text{C}_5\\text{H}_{12}\\text{NO}_2\\text{Cl}$.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": "Valine có công thức $\\text{C}_5\\text{H}_{11}\\text{NO}_2$. Khi phản ứng với $\\text{HCl}$, nhóm $-\\text{NH}_2$ nhận proton tạo thành muối $\\text{C}_5\\text{H}_{12}\\text{NO}_2\\text{Cl}$ (Valine hydrochloride). Mệnh đề này ĐÚNG."
+      },
+      {
+        "id": 26,
+        "question": "Valine (Đúng/Sai - Ý b): Valine thuộc loại $\\alpha$-amino acid.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": "Công thức valine là $(\\text{CH}_3)_2\\text{CH}-\\text{CH}(\\text{NH}_2)-\\text{COOH}$. Nhóm $-\\text{NH}_2$ liên kết trực tiếp với nguyên tử carbon số 2 (carbon vị trí $\\alpha$). Mệnh đề này ĐÚNG."
+      },
+      {
+        "id": 27,
+        "question": "Valine (Đúng/Sai - Ý c): Ở pH = 8, ion tồn tại chủ yếu đối với Val là cation. Vì vậy, khi đặt trong điện trường sẽ di chuyển về cực âm.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 1,
+        "explanation": "Điểm đẳng điện của Valine là $pI \\approx 6{,}0$. Tại $pH = 8 > pI$, môi trường kiềm làm phân tử nhường proton trở thành ion âm (anion), do đó sẽ di chuyển về cực dương (anode), không phải cực âm. Mệnh đề này SAI."
+      },
+      {
+        "id": 28,
+        "question": "Valine (Đúng/Sai - Ý d): Công thức phân tử của valine là $\\text{C}_5\\text{H}_{12}\\text{NO}_2$.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 1,
+        "explanation": "Valine có 1 nhóm carboxyl (1 liên kết $\\pi$), mạch no hở nên công thức phân tử là $\\text{C}_n\\text{H}_{2n+1}\\text{NO}_2 \\implies \\text{C}_5\\text{H}_{11}\\text{NO}_2$. Mệnh đề này SAI."
+      },
+      {
+        "id": 29,
+        "question": "Cồn sinh học (Trả lời ngắn - Câu 1): Cồn sinh học được dùng làm nhiên liệu sạch, sản xuất thông qua lên men bột ngô chứa 80% tinh bột. Từ 400 kg bột ngô với hiệu suất 70%, khối lượng ethanol thu được là bao nhiêu kg (làm tròn đến hàng đơn vị)?",
+        "options": [
+          "A. 127 kg",
+          "B. 135 kg",
+          "C. 115 kg",
+          "D. 142 kg"
+        ],
+        "correct": 0,
+        "explanation": "Khối lượng tinh bột nguyên chất: $400 \\times 80\\% = 320\\text{ kg}$. Sơ đồ: $\\text{C}_6\\text{H}_{10}\\text{O}_5 \\to 2\\,\\text{C}_2\\text{H}_5\\text{OH}$. Khối lượng ethanol: $m = \\frac{320}{162} \\times 2 \\times 46 \\times 70\\% \\approx 127{,}21\\text{ kg} \\approx 127\\text{ kg}$. [Đáp án điền: **127**]"
+      },
+      {
+        "id": 30,
+        "question": "Điện di amino acid (Trả lời ngắn - Câu 2): Cho điểm đẳng điện pI của các amino acid: Alanine (6,0), Lysine (9,7), Glutamic acid (3,2), Histidine (7,6), Aspartic acid (2,8). Nếu pH của dung dịch bằng 7 thì khi đặt trong điện trường có bao nhiêu amino acid di chuyển về cực âm?",
+        "options": [
+          "A. 2 amino acid",
+          "B. 1 amino acid",
+          "C. 3 amino acid",
+          "D. 4 amino acid"
+        ],
+        "correct": 0,
+        "explanation": "Để amino acid di chuyển về cực âm (cathode), ion phải mang điện tích dương (cation), tức là $pI > pH_{\\text{dd}} = 7$. Trong bảng, các amino acid thỏa mãn gồm có: Lysine ($pI = 9{,}7$) và Histidine ($pI = 7{,}6$). Vậy có 2 amino acid. [Đáp án điền: **2**]"
+      },
+      {
+        "id": 31,
+        "question": "Phân tử khối của triglyceride (Trả lời ngắn - Câu 3): Xà phòng hóa hoàn toàn triglyceride X trong dung dịch NaOH thu được sodium stearate và sodium oleate theo tỷ lệ mol tương ứng 2 : 1. Phân tử khối của X là bao nhiêu?",
+        "options": [
+          "A. 888",
+          "B. 890",
+          "C. 886",
+          "D. 884"
+        ],
+        "correct": 0,
+        "explanation": "X chứa 2 gốc stearate ($\\text{C}_{17}\\text{H}_{35}\\text{COO}-$, $M=283$) và 1 gốc oleate ($\\text{C}_{17}\\text{H}_{33}\\text{COO}-$, $M=281$). Phân tử khối: $M_X = 2 \\times 283 + 281 + 41 = 888\\text{ g/mol}$. [Đáp án điền: **888**]"
+      },
+      {
+        "id": 32,
+        "question": "Cấu tạo phân tử alcohol (Trả lời ngắn - Câu 4): Thủy phân ester có công thức phân tử $\\text{C}_4\\text{H}_8\\text{O}_2$ trong môi trường acid thu được propionic acid và một alcohol Y. Tổng số nguyên tử các nguyên tố trong Y bằng bao nhiêu?",
+        "options": [
+          "A. 6 nguyên tử",
+          "B. 5 nguyên tử",
+          "C. 7 nguyên tử",
+          "D. 8 nguyên tử"
+        ],
+        "correct": 0,
+        "explanation": "Propionic acid là $\\text{C}_2\\text{H}_5\\text{COOH}$ (3 carbon) $\\implies$ ester là $\\text{C}_2\\text{H}_5\\text{COOCH}_3$. Alcohol Y là $\\text{CH}_3\\text{OH}$ (methanol). Tổng số nguyên tử trong 1 phân tử $\\text{CH}_3\\text{OH}$ gồm: 1 C + 4 H + 1 O = 6 nguyên tử. [Đáp án điền: **6**]"
+      },
+      {
+        "id": 33,
+        "question": "Đếm số amine bậc hai (Trả lời ngắn - Câu 5): Cho các amine: $\\text{CH}_3\\text{NHC}_2\\text{H}_5$, $\\text{CH}_3\\text{NHCH}_3$, $\\text{C}_2\\text{H}_5\\text{NH}_2$, $\\text{CH}_3\\text{NHC}_2\\text{H}_5$, $\\text{C}_6\\text{H}_5\\text{NH}_2$. Có bao nhiêu chất là amine bậc hai trong các chất trên?",
+        "options": [
+          "A. 3 chất",
+          "B. 2 chất",
+          "C. 4 chất",
+          "D. 1 chất"
+        ],
+        "correct": 0,
+        "explanation": "Amine bậc hai có nhóm chức $-\\text{NH}-$ liên kết với 2 gốc hydrocarbon: $\\text{CH}_3\\text{NHC}_2\\text{H}_5$ (bậc 2), $\\text{CH}_3\\text{NHCH}_3$ (bậc 2), $\\text{CH}_3\\text{NHC}_2\\text{H}_5$ (bậc 2). Có 3 chất trong danh sách là amine bậc hai. [Đáp án điền: **3**]"
+      },
+      {
+        "id": 34,
+        "question": "Phân tử khối của peptide (Trả lời ngắn - Câu 6): Phân tử khối của peptide T (Gly-Ala-Val-Glu) có giá trị là bao nhiêu?",
+        "options": [
+          "A. 374",
+          "B. 428",
+          "C. 356",
+          "D. 392"
+        ],
+        "correct": 0,
+        "explanation": "Khối lượng mol của các amino acid cấu thành: Gly = 75, Ala = 89, Val = 117, Glu = 147. Tetrapeptide tạo thành giải phóng 3 phân tử $\\text{H}_2\\text{O}$ ($3 \\times 18 = 54$). Phân tử khối: $M_T = 75 + 89 + 117 + 147 - 54 = 374\\text{ g/mol}$. [Đáp án điền: **374**]"
+      }
+    ]
+  },
+  {
     "id": "toan-12-nguyen-ham-tich-phan",
     "title": "Chuyên đề Nguyên hàm, Tích phân & Ứng dụng",
     "subject": "Toán",
     "grade": "Lớp 12",
     "durationMinutes": 45,
     "difficulty": "Thông hiểu - Vận dụng",
-    "tags": ["Giải tích", "Nguyên hàm", "Tích phân"],
+    "tags": [
+      "Giải tích",
+      "Nguyên hàm",
+      "Tích phân"
+    ],
     "description": "Tổng hợp các câu hỏi trắc nghiệm trọng tâm về nguyên hàm, tích phân và ứng dụng tính diện tích, thể tích.",
     "questions": [
       {
@@ -78,7 +484,12 @@
     "grade": "Lớp 12",
     "durationMinutes": 40,
     "difficulty": "Trung bình",
-    "tags": ["Ngữ pháp", "Phát âm", "Trọng âm", "Từ vựng"],
+    "tags": [
+      "Ngữ pháp",
+      "Phát âm",
+      "Trọng âm",
+      "Từ vựng"
+    ],
     "description": "Luyện tập các dạng bài trọng tâm: Ngữ âm, câu điều kiện, mệnh đề quan hệ và thành ngữ thông dụng.",
     "questions": [
       {
@@ -150,7 +561,11 @@
     "grade": "Lớp 12",
     "durationMinutes": 45,
     "difficulty": "Thông hiểu",
-    "tags": ["Dao động điều hòa", "Con lắc lò xo", "Con lắc đơn"],
+    "tags": [
+      "Dao động điều hòa",
+      "Con lắc lò xo",
+      "Con lắc đơn"
+    ],
     "description": "Các bài toán đại cương về phương trình dao động điều hòa, vận tốc, gia tốc, chu kỳ và năng lượng dao động.",
     "questions": [
       {
