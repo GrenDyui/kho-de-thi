@@ -1,4 +1,4 @@
-/**
+﻿/**
  * EduVault - Core Application Logic
  * Pure client-side, zero server dependencies, fully anonymous
  */
@@ -80,7 +80,7 @@ const app = {
    */
   async loadExams() {
     try {
-      const response = await fetch('./data/exams.json');
+      const response = await fetch('./data/exams.json?v=' + Date.now(), { cache: 'no-store' });
       if (response.ok) {
         this.exams = await response.json();
       } else {
@@ -132,6 +132,37 @@ const app = {
   /**
    * Helper to render custom vector diagram or chemical structure
    */
+  
+  /**
+   * Helper to render shared passage / reading context box
+   */
+  getPassageHtml(q, prevQ) {
+    if (!q || !q.passage) return '';
+    const p = q.passage;
+    const prevP = prevQ ? prevQ.passage : null;
+    
+    // If same passage as previous question, do not re-render
+    if (prevP && ((p.id && prevP.id === p.id) || (p.title && prevP.title === p.title))) {
+      return '';
+    }
+
+    return `
+      <div class="passage-container my-6 p-5 sm:p-6 rounded-3xl bg-slate-50 dark:bg-slate-900/90 border-2 border-blue-200 dark:border-blue-900/60 shadow-sm space-y-4">
+        <div class="flex flex-wrap items-center justify-between gap-3 border-b border-blue-200/80 dark:border-blue-800/80 pb-3">
+          <div class="flex items-center gap-2 text-blue-700 dark:text-blue-300 font-bold text-xs uppercase tracking-wider">
+            <i data-lucide="book-open" class="w-4 h-4 shrink-0"></i>
+            <span>${p.title || 'NGỮ LIỆU ĐỌC DÙNG CHUNG'}</span>
+          </div>
+          ${p.range ? `<span class="px-2.5 py-1 rounded-xl bg-blue-600 text-white font-extrabold text-xs shadow-sm">${p.range}</span>` : ''}
+        </div>
+        ${p.instruction ? `<div class="text-xs text-slate-600 dark:text-slate-400 font-medium italic">${p.instruction}</div>` : ''}
+        <div class="text-sm font-normal text-slate-800 dark:text-slate-200 leading-relaxed font-sans bg-white dark:bg-slate-800/90 p-4 sm:p-5 rounded-2xl border border-slate-200/80 dark:border-slate-700 shadow-inner overflow-x-auto">
+          ${p.content}
+        </div>
+      </div>
+    `;
+  },
+
   getDiagramHtml(q) {
     if (!q || !q.diagram) return '';
     return `
@@ -368,8 +399,77 @@ const app = {
     const container = document.getElementById('reader-questions');
     if (!container || !this.currentExam) return;
 
-    container.innerHTML = (this.currentExam.questions || []).map((q, idx) => {
-      const letters = ['A', 'B', 'C', 'D'];
+    const questions = this.currentExam.questions || [];
+    const letters = ['A', 'B', 'C', 'D'];
+
+    container.innerHTML = questions.map((q, idx) => {
+      const qId = q.id || (idx + 1);
+      const prevQ = questions[idx - 1];
+      const passageHtml = this.getPassageHtml(q, prevQ);
+
+      const explanationHtml = (this.readerShowAnswers && q.explanation) ? `
+        <div class="mt-3 p-3.5 rounded-xl bg-blue-50/80 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-800/80 text-xs text-slate-700 dark:text-slate-200 space-y-1">
+          <div class="font-bold text-blue-700 dark:text-blue-300 flex items-center gap-1.5">
+            <i data-lucide="info" class="w-3.5 h-3.5"></i> Lời giải chi tiết:
+          </div>
+          <div class="leading-relaxed pl-5">${q.explanation}</div>
+        </div>
+      ` : '';
+
+      // CASE 1: True / False Group (GDPT 2018 format)
+      if (q.type === 'true_false' && Array.isArray(q.items)) {
+        const itemsHtml = q.items.map(item => {
+          const isTrue = item.correct === true;
+          const badgeClass = isTrue ? 'bg-emerald-600 text-white' : 'bg-rose-600 text-white';
+          const badgeText = isTrue ? 'ĐÚNG' : 'SAI';
+
+          return `
+            <div class="p-3.5 rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/60 space-y-2">
+              <div class="flex items-start justify-between gap-3">
+                <div class="text-sm font-medium text-slate-800 dark:text-slate-200 flex-1">
+                  <span class="font-bold text-blue-600 dark:text-blue-400 mr-1.5">${item.label || ''})</span>
+                  <span>${item.text}</span>
+                </div>
+                ${this.readerShowAnswers ? `
+                  <span class="px-2.5 py-0.5 rounded-full text-xs font-bold shrink-0 ${badgeClass}">
+                    ${badgeText}
+                  </span>
+                ` : ''}
+              </div>
+              ${this.readerShowAnswers && item.explanation ? `
+                <div class="text-xs text-slate-600 dark:text-slate-400 pl-4 border-l-2 border-blue-400 dark:border-blue-500">
+                  ${item.explanation}
+                </div>
+              ` : ''}
+            </div>
+          `;
+        }).join('');
+
+        return `
+          ${passageHtml}
+          <div class="question-card bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+            <div class="flex items-start gap-3">
+              <span class="px-2.5 py-1 rounded-xl bg-blue-100 dark:bg-blue-950/70 text-blue-700 dark:text-blue-300 font-extrabold text-xs shrink-0">
+                Câu ${idx + 1}
+              </span>
+              <div class="text-sm font-medium text-slate-900 dark:text-slate-100 leading-relaxed flex-1">
+                ${q.question}
+                <div class="text-xs text-blue-600 dark:text-blue-400 font-semibold mt-1">Dạng trắc nghiệm Đúng / Sai (GDPT 2018)</div>
+              </div>
+            </div>
+
+            ${this.getDiagramHtml(q)}
+
+            <div class="space-y-2.5 pt-2">
+              ${itemsHtml}
+            </div>
+
+            ${explanationHtml}
+          </div>
+        `;
+      }
+
+      // CASE 2: Standard 4-choice questions
       const optionsHtml = (q.options || []).map((opt, optIdx) => {
         const isCorrect = this.readerShowAnswers && q.correct === optIdx;
         const letter = letters[optIdx] || '';
@@ -389,16 +489,8 @@ const app = {
         `;
       }).join('');
 
-      const explanationHtml = (this.readerShowAnswers && q.explanation) ? `
-        <div class="mt-3 p-3.5 rounded-xl bg-blue-50/80 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-800/80 text-xs text-slate-700 dark:text-slate-200 space-y-1">
-          <div class="font-bold text-blue-700 dark:text-blue-300 flex items-center gap-1.5">
-            <i data-lucide="info" class="w-3.5 h-3.5"></i> Lời giải chi tiết:
-          </div>
-          <div class="leading-relaxed pl-5">${q.explanation}</div>
-        </div>
-      ` : '';
-
       return `
+        ${passageHtml}
         <div class="question-card bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
           <div class="flex items-start gap-3">
             <span class="px-2.5 py-1 rounded-xl bg-blue-100 dark:bg-blue-950/70 text-blue-700 dark:text-blue-300 font-extrabold text-xs shrink-0">
@@ -536,11 +628,97 @@ const app = {
     const container = document.getElementById('exam-questions-list');
     if (!container || !this.currentExam) return;
 
+    const questions = this.currentExam.questions || [];
     const letters = ['A', 'B', 'C', 'D'];
-    container.innerHTML = (this.currentExam.questions || []).map((q, idx) => {
+
+    container.innerHTML = questions.map((q, idx) => {
       const qId = q.id || (idx + 1);
+      const prevQ = questions[idx - 1];
+      const passageHtml = this.getPassageHtml(q, prevQ);
       const isFlagged = !!this.examFlaggedQuestions[qId];
 
+      // CASE 1: True / False Group (GDPT 2018 format)
+      if (q.type === 'true_false' && Array.isArray(q.items)) {
+        const qAnswers = (typeof this.examUserAnswers[qId] === 'object' && this.examUserAnswers[qId] !== null) 
+          ? this.examUserAnswers[qId] 
+          : {};
+
+        const itemsHtml = q.items.map(item => {
+          const userVal = qAnswers[item.label];
+
+          return `
+            <div class="p-3.5 rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/60 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div class="text-sm font-medium text-slate-800 dark:text-slate-200 flex-1">
+                <span class="font-bold text-blue-600 dark:text-blue-400 mr-1.5">${item.label})</span>
+                <span>${item.text}</span>
+              </div>
+              <div class="flex items-center gap-2 shrink-0 self-end sm:self-center">
+                <button 
+                  type="button" 
+                  onclick="app.selectTrueFalseAnswer(${qId}, '${item.label}', true)"
+                  class="px-4 py-1.5 rounded-xl text-xs font-bold transition-all border ${
+                    userVal === true 
+                      ? 'bg-emerald-600 text-white border-emerald-600 shadow-md shadow-emerald-500/20' 
+                      : 'bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:bg-emerald-50 dark:hover:bg-emerald-950/40'
+                  }"
+                >
+                  Đúng
+                </button>
+                <button 
+                  type="button" 
+                  onclick="app.selectTrueFalseAnswer(${qId}, '${item.label}', false)"
+                  class="px-4 py-1.5 rounded-xl text-xs font-bold transition-all border ${
+                    userVal === false 
+                      ? 'bg-rose-600 text-white border-rose-600 shadow-md shadow-rose-500/20' 
+                      : 'bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:bg-rose-50 dark:hover:bg-rose-950/40'
+                  }"
+                >
+                  Sai
+                </button>
+              </div>
+            </div>
+          `;
+        }).join('');
+
+        return `
+          ${passageHtml}
+          <div id="exam-q-${qId}" class="bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+            <div class="flex items-start justify-between gap-3">
+              <div class="flex items-start gap-3">
+                <span class="px-2.5 py-1 rounded-xl bg-blue-100 dark:bg-blue-950/70 text-blue-700 dark:text-blue-300 font-extrabold text-xs shrink-0">
+                  Câu ${idx + 1}
+                </span>
+                <div class="text-sm font-semibold text-slate-900 dark:text-slate-100 leading-relaxed">
+                  ${q.question}
+                  <div class="text-xs text-blue-600 dark:text-blue-400 font-semibold mt-1">Dạng trắc nghiệm Đúng / Sai (GDPT 2018 - Chọn Đúng hoặc Sai cho mỗi ý a, b, c, d)</div>
+                </div>
+              </div>
+
+              <!-- Flag Question button -->
+              <button 
+                type="button"
+                onclick="app.toggleFlagQuestion(${qId})" 
+                class="shrink-0 p-2 rounded-xl border text-xs font-semibold transition-all ${
+                  isFlagged 
+                    ? 'bg-amber-100 text-amber-700 border-amber-300 dark:bg-amber-950/60 dark:text-amber-300 dark:border-amber-800' 
+                    : 'border-slate-200 dark:border-slate-700 text-slate-400 hover:text-amber-500'
+                }"
+                title="Đánh dấu phân vân / xem lại sau"
+              >
+                <i data-lucide="bookmark" class="w-4 h-4 ${isFlagged ? 'fill-current' : ''}"></i>
+              </button>
+            </div>
+
+            ${this.getDiagramHtml(q)}
+
+            <div class="space-y-2.5 pt-2">
+              ${itemsHtml}
+            </div>
+          </div>
+        `;
+      }
+
+      // CASE 2: Standard 4-choice questions
       const optionsHtml = (q.options || []).map((opt, optIdx) => {
         const isSelected = this.examUserAnswers[qId] === optIdx;
         const letter = letters[optIdx] || '';
@@ -563,6 +741,7 @@ const app = {
       }).join('');
 
       return `
+        ${passageHtml}
         <div id="exam-q-${qId}" class="bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
           <div class="flex items-start justify-between gap-3">
             <div class="flex items-start gap-3">
@@ -581,7 +760,7 @@ const app = {
               class="shrink-0 p-2 rounded-xl border text-xs font-semibold transition-all ${
                 isFlagged 
                   ? 'bg-amber-100 text-amber-700 border-amber-300 dark:bg-amber-950/60 dark:text-amber-300 dark:border-amber-800' 
-                  : 'border-slate-200 dark:border-slate-700 text-slate-400 hover:text-amber-500'
+                    : 'border-slate-200 dark:border-slate-700 text-slate-400 hover:text-amber-500'
               }"
               title="Đánh dấu phân vân / xem lại sau"
             >
@@ -601,6 +780,15 @@ const app = {
 
     this.renderMath(container);
     this.initLucide();
+  },
+
+  selectTrueFalseAnswer(qId, label, val) {
+    if (!this.examUserAnswers[qId] || typeof this.examUserAnswers[qId] !== 'object') {
+      this.examUserAnswers[qId] = {};
+    }
+    this.examUserAnswers[qId][label] = val;
+    this.renderExamQuestions();
+    this.renderExamPalette();
   },
 
   selectExamAnswer(qId, optIdx) {
@@ -625,7 +813,13 @@ const app = {
 
     grid.innerHTML = questions.map((q, idx) => {
       const qId = q.id || (idx + 1);
-      const isAnswered = this.examUserAnswers[qId] !== undefined;
+      let isAnswered = false;
+      if (q.type === 'true_false' && Array.isArray(q.items)) {
+        const ansObj = this.examUserAnswers[qId];
+        isAnswered = ansObj && typeof ansObj === 'object' && q.items.every(it => ansObj[it.label] !== undefined);
+      } else {
+        isAnswered = this.examUserAnswers[qId] !== undefined;
+      }
       const isFlagged = !!this.examFlaggedQuestions[qId];
 
       if (isAnswered) answeredCount++;
@@ -696,12 +890,58 @@ const app = {
 
     const detailedReview = questions.map((q, idx) => {
       const qId = q.id || (idx + 1);
+
+      if (q.type === 'true_false' && Array.isArray(q.items)) {
+        const userObj = (typeof this.examUserAnswers[qId] === 'object' && this.examUserAnswers[qId] !== null) 
+          ? this.examUserAnswers[qId] 
+          : {};
+
+        let subCorrect = 0;
+        const subReview = q.items.map(it => {
+          const userVal = userObj[it.label];
+          const isRight = userVal === it.correct;
+          if (isRight) subCorrect++;
+          return {
+            label: it.label,
+            text: it.text,
+            userChoice: userVal,
+            correctChoice: it.correct,
+            isCorrect: isRight,
+            explanation: it.explanation
+          };
+        });
+
+        // GDPT 2018 grading scale for True/False questions (total 1 pt):
+        // 1 right: 0.1, 2 right: 0.25, 3 right: 0.5, 4 right: 1.0
+        let weight = 0;
+        if (subCorrect === 1) weight = 0.1;
+        else if (subCorrect === 2) weight = 0.25;
+        else if (subCorrect === 3) weight = 0.5;
+        else if (subCorrect === 4) weight = 1.0;
+
+        correctCount += weight;
+
+        return {
+          questionNumber: idx + 1,
+          type: 'true_false',
+          question: q.question,
+          subReview,
+          isCorrect: subCorrect === 4,
+          subCorrect,
+          weight,
+          explanation: q.explanation,
+          diagram: q.diagram,
+          diagramCaption: q.diagramCaption
+        };
+      }
+
       const userChoice = this.examUserAnswers[qId];
       const isCorrect = userChoice === q.correct;
       if (isCorrect) correctCount++;
 
       return {
         questionNumber: idx + 1,
+        type: 'single',
         question: q.question,
         options: q.options,
         userChoice,
@@ -720,7 +960,7 @@ const app = {
     this.lastExamResult = {
       examTitle: this.currentExam.title,
       score,
-      correctCount,
+      correctCount: correctCount.toFixed(1).replace(/\.0$/, ''),
       totalCount: totalQ,
       accuracy,
       timeSpentSeconds,
@@ -730,11 +970,6 @@ const app = {
     this.renderResultScreen();
   },
 
-  /**
-   * ----------------------------------------------------
-   * VIEW: EXAM RESULT SUMMARY
-   * ----------------------------------------------------
-   */
   renderResultScreen() {
     if (!this.lastExamResult) return;
 
@@ -852,9 +1087,96 @@ const app = {
     const container = document.getElementById('practice-questions-list');
     if (!container || !this.currentExam) return;
 
+    const questions = this.currentExam.questions || [];
     const letters = ['A', 'B', 'C', 'D'];
-    container.innerHTML = (this.currentExam.questions || []).map((q, idx) => {
+
+    container.innerHTML = questions.map((q, idx) => {
       const qId = q.id || (idx + 1);
+      const prevQ = questions[idx - 1];
+      const passageHtml = this.getPassageHtml(q, prevQ);
+
+      // CASE 1: True / False Group (GDPT 2018 format)
+      if (q.type === 'true_false' && Array.isArray(q.items)) {
+        const pAns = (this.practiceAnswers[qId] && typeof this.practiceAnswers[qId] === 'object')
+          ? this.practiceAnswers[qId]
+          : {};
+
+        const itemsHtml = q.items.map(item => {
+          const st = pAns[item.label];
+          let trueBtnClass = 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300';
+          let falseBtnClass = 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300';
+
+          if (st) {
+            if (item.correct === true) {
+              trueBtnClass = 'bg-emerald-600 text-white border-emerald-600 ring-2 ring-emerald-400 font-bold';
+            } else {
+              falseBtnClass = 'bg-emerald-600 text-white border-emerald-600 ring-2 ring-emerald-400 font-bold';
+            }
+
+            if (st.selected === true && !st.isCorrect) {
+              trueBtnClass = 'bg-rose-600 text-white border-rose-600 font-bold';
+            } else if (st.selected === false && !st.isCorrect) {
+              falseBtnClass = 'bg-rose-600 text-white border-rose-600 font-bold';
+            }
+          }
+
+          return `
+            <div class="p-4 rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/60 space-y-2">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div class="text-sm font-medium text-slate-800 dark:text-slate-200 flex-1">
+                  <span class="font-bold text-blue-600 dark:text-blue-400 mr-1.5">${item.label})</span>
+                  <span>${item.text}</span>
+                </div>
+                <div class="flex items-center gap-2 shrink-0 self-end sm:self-center">
+                  <button 
+                    type="button" 
+                    onclick="app.handlePracticeTrueFalseSelect(${qId}, '${item.label}', true)"
+                    class="px-4 py-1.5 rounded-xl text-xs font-bold transition-all border ${trueBtnClass}"
+                  >
+                    Đúng
+                  </button>
+                  <button 
+                    type="button" 
+                    onclick="app.handlePracticeTrueFalseSelect(${qId}, '${item.label}', false)"
+                    class="px-4 py-1.5 rounded-xl text-xs font-bold transition-all border ${falseBtnClass}"
+                  >
+                    Sai
+                  </button>
+                </div>
+              </div>
+              ${st ? `
+                <div class="text-xs pt-1.5 border-t border-slate-200 dark:border-slate-700/80 flex items-start gap-1.5 ${st.isCorrect ? 'text-emerald-700 dark:text-emerald-400 font-medium' : 'text-rose-700 dark:text-rose-400'}">
+                  <i data-lucide="${st.isCorrect ? 'check-circle' : 'alert-circle'}" class="w-3.5 h-3.5 shrink-0 mt-0.5"></i>
+                  <span>${st.isCorrect ? 'Chính xác! ' : 'Chưa đúng! '}${item.explanation || ''}</span>
+                </div>
+              ` : ''}
+            </div>
+          `;
+        }).join('');
+
+        return `
+          ${passageHtml}
+          <div class="bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+            <div class="flex items-start gap-3">
+              <span class="px-2.5 py-1 rounded-xl bg-emerald-100 dark:bg-emerald-950/70 text-emerald-700 dark:text-emerald-300 font-extrabold text-xs shrink-0">
+                Câu ${idx + 1}
+              </span>
+              <div class="text-sm font-semibold text-slate-900 dark:text-slate-100 leading-relaxed">
+                ${q.question}
+                <div class="text-xs text-blue-600 dark:text-blue-400 font-semibold mt-1">Luyện tập Đúng / Sai (GDPT 2018 - Chọn Đúng hoặc Sai cho mỗi ý)</div>
+              </div>
+            </div>
+
+            ${this.getDiagramHtml(q)}
+
+            <div class="space-y-3 pt-2">
+              ${itemsHtml}
+            </div>
+          </div>
+        `;
+      }
+
+      // CASE 2: Standard 4-choice questions
       const state = this.practiceAnswers[qId];
 
       const optionsHtml = (q.options || []).map((opt, optIdx) => {
@@ -902,6 +1224,7 @@ const app = {
       ` : '';
 
       return `
+        ${passageHtml}
         <div class="bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
           <div class="flex items-start gap-3">
             <span class="px-2.5 py-1 rounded-xl bg-emerald-100 dark:bg-emerald-950/70 text-emerald-700 dark:text-emerald-300 font-extrabold text-xs shrink-0">
@@ -925,6 +1248,26 @@ const app = {
 
     this.renderMath(container);
     this.initLucide();
+  },
+
+  handlePracticeTrueFalseSelect(qId, label, val) {
+    if (!this.currentExam) return;
+    const q = (this.currentExam.questions || []).find(x => (x.id || 0) === qId);
+    if (!q || !Array.isArray(q.items)) return;
+
+    const item = q.items.find(x => x.label === label);
+    if (!item) return;
+
+    if (!this.practiceAnswers[qId] || typeof this.practiceAnswers[qId] !== 'object') {
+      this.practiceAnswers[qId] = {};
+    }
+
+    this.practiceAnswers[qId][label] = {
+      selected: val,
+      isCorrect: val === item.correct
+    };
+
+    this.renderPracticeQuestions();
   },
 
   handlePracticeSelect(qId, optIdx) {
