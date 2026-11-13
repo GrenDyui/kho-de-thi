@@ -106,7 +106,7 @@
       },
       {
         "id": 9,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>GREEN LIVING – A SUSTAINABLE LIFESTYLE FAIR 2026!</strong><br>Are you ready to discover simple ways to protect our planet? Join our exciting Green Living Fair, where you can explore practical solutions for a greener future. Last year, thousands of visitors <strong>(9) ______</strong> the event and learned how to reduce waste in their daily lives...</div>Chọn đáp án đúng điền vào chỗ trống (9):",
+        "question": "Chọn đáp án đúng nhất điền vào vị trí <strong>(9)</strong>:",
         "options": [
           "A. attended",
           "B. attend",
@@ -114,11 +114,18 @@
           "D. have attended"
         ],
         "correct": 0,
-        "explanation": "Dấu hiệu thời gian 'Last year' diễn tả hành động đã hoàn tất trong quá khứ -> Dùng thì Quá khứ đơn (Past Simple): 'attended'."
+        "explanation": "Dấu hiệu thời gian 'Last year' diễn tả hành động đã hoàn tất trong quá khứ -> Dùng thì Quá khứ đơn (Past Simple): 'attended'.",
+        "passage": {
+          "id": "p-green-lifestyle-fair",
+          "title": "QUẢNG CÁO: GREEN LIVING – A SUSTAINABLE LIFESTYLE FAIR 2026",
+          "instruction": "Read the following advertisement and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 9 to 14.",
+          "range": "Câu 9 - 14",
+          "content": "Are you ready to discover simple ways to protect our planet? Join our exciting Green Living Fair, where you can explore practical solutions for a greener future. Last year, thousands of visitors (9) ______ the event and learned how to reduce waste in their daily lives. This year, we promise an even more inspiring experience!\n\nOur fair offers a wide range of activities, including workshops on recycling, gardening, and energy conservation. You will gain valuable knowledge about the importance of environmental (10) ______ and learn how small changes can make a big difference. Don't forget to bring your own reusable bag to help reduce plastic waste!\n\nThe event will take place at the City Convention Center (11) ______ Saturday, November 14, from 8 a.m. to 5 p.m. Visitors can also join hands-on activities and discover how to (12) ______ a difference in their communities. During last year's fair, many participants were attending a workshop on making useful items from recycled materials when the organizers announced (13) ______ special prize for the most creative project. This year, we hope to welcome even more enthusiastic participants!\n\nWhether you are a student, a parent, or an environmental enthusiast, this fair is the perfect opportunity to gain new skills and make a positive effect on the world around you. (14) ______ now and become part of the green movement!"
+        }
       },
       {
         "id": 10,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...You will gain valuable knowledge about the importance of environmental <strong>(10) ______</strong> and learn how small changes can make a big difference. Don't forget to bring your own reusable bag to help reduce plastic waste!...</div>Chọn đáp án đúng điền vào chỗ trống (10):",
+        "question": "Chọn đáp án đúng nhất điền vào vị trí <strong>(10)</strong>:",
         "options": [
           "A. protect",
           "B. protective",
@@ -126,11 +133,18 @@
           "D. protectively"
         ],
         "correct": 2,
-        "explanation": "Sau tính từ 'environmental' ta cần một danh từ để tạo cụm danh từ 'environmental protection' (bảo vệ môi trường)."
+        "explanation": "Sau tính từ 'environmental' ta cần một danh từ để tạo cụm danh từ 'environmental protection' (bảo vệ môi trường).",
+        "passage": {
+          "id": "p-green-lifestyle-fair",
+          "title": "QUẢNG CÁO: GREEN LIVING – A SUSTAINABLE LIFESTYLE FAIR 2026",
+          "instruction": "Read the following advertisement and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 9 to 14.",
+          "range": "Câu 9 - 14",
+          "content": "Are you ready to discover simple ways to protect our planet? Join our exciting Green Living Fair, where you can explore practical solutions for a greener future. Last year, thousands of visitors (9) ______ the event and learned how to reduce waste in their daily lives. This year, we promise an even more inspiring experience!\n\nOur fair offers a wide range of activities, including workshops on recycling, gardening, and energy conservation. You will gain valuable knowledge about the importance of environmental (10) ______ and learn how small changes can make a big difference. Don't forget to bring your own reusable bag to help reduce plastic waste!\n\nThe event will take place at the City Convention Center (11) ______ Saturday, November 14, from 8 a.m. to 5 p.m. Visitors can also join hands-on activities and discover how to (12) ______ a difference in their communities. During last year's fair, many participants were attending a workshop on making useful items from recycled materials when the organizers announced (13) ______ special prize for the most creative project. This year, we hope to welcome even more enthusiastic participants!\n\nWhether you are a student, a parent, or an environmental enthusiast, this fair is the perfect opportunity to gain new skills and make a positive effect on the world around you. (14) ______ now and become part of the green movement!"
+        }
       },
       {
         "id": 11,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...The event will take place at the City Convention Center <strong>(11) ______</strong> Saturday, November 14, from 8 a.m. to 5 p.m...</div>Chọn đáp án đúng điền vào chỗ trống (11):",
+        "question": "Chọn đáp án đúng nhất điền vào vị trí <strong>(11)</strong>:",
         "options": [
           "A. in",
           "B. on",
@@ -138,11 +152,18 @@
           "D. by"
         ],
         "correct": 1,
-        "explanation": "Đi trước thứ, ngày tháng cụ thể (Saturday, November 14) dùng giới từ 'on'."
+        "explanation": "Đi trước thứ, ngày tháng cụ thể (Saturday, November 14) dùng giới từ 'on'.",
+        "passage": {
+          "id": "p-green-lifestyle-fair",
+          "title": "QUẢNG CÁO: GREEN LIVING – A SUSTAINABLE LIFESTYLE FAIR 2026",
+          "instruction": "Read the following advertisement and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 9 to 14.",
+          "range": "Câu 9 - 14",
+          "content": "Are you ready to discover simple ways to protect our planet? Join our exciting Green Living Fair, where you can explore practical solutions for a greener future. Last year, thousands of visitors (9) ______ the event and learned how to reduce waste in their daily lives. This year, we promise an even more inspiring experience!\n\nOur fair offers a wide range of activities, including workshops on recycling, gardening, and energy conservation. You will gain valuable knowledge about the importance of environmental (10) ______ and learn how small changes can make a big difference. Don't forget to bring your own reusable bag to help reduce plastic waste!\n\nThe event will take place at the City Convention Center (11) ______ Saturday, November 14, from 8 a.m. to 5 p.m. Visitors can also join hands-on activities and discover how to (12) ______ a difference in their communities. During last year's fair, many participants were attending a workshop on making useful items from recycled materials when the organizers announced (13) ______ special prize for the most creative project. This year, we hope to welcome even more enthusiastic participants!\n\nWhether you are a student, a parent, or an environmental enthusiast, this fair is the perfect opportunity to gain new skills and make a positive effect on the world around you. (14) ______ now and become part of the green movement!"
+        }
       },
       {
         "id": 12,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Visitors can also join hands-on activities and discover how to <strong>(12) ______</strong> a difference in their communities...</div>Chọn đáp án đúng điền vào chỗ trống (12):",
+        "question": "Chọn đáp án đúng nhất điền vào vị trí <strong>(12)</strong>:",
         "options": [
           "A. do",
           "B. make",
@@ -150,11 +171,18 @@
           "D. give"
         ],
         "correct": 1,
-        "explanation": "Cụm cố định (Collocation): 'make a difference' mang nghĩa tạo ra sự khác biệt tích cực."
+        "explanation": "Cụm cố định (Collocation): 'make a difference' mang nghĩa tạo ra sự khác biệt tích cực.",
+        "passage": {
+          "id": "p-green-lifestyle-fair",
+          "title": "QUẢNG CÁO: GREEN LIVING – A SUSTAINABLE LIFESTYLE FAIR 2026",
+          "instruction": "Read the following advertisement and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 9 to 14.",
+          "range": "Câu 9 - 14",
+          "content": "Are you ready to discover simple ways to protect our planet? Join our exciting Green Living Fair, where you can explore practical solutions for a greener future. Last year, thousands of visitors (9) ______ the event and learned how to reduce waste in their daily lives. This year, we promise an even more inspiring experience!\n\nOur fair offers a wide range of activities, including workshops on recycling, gardening, and energy conservation. You will gain valuable knowledge about the importance of environmental (10) ______ and learn how small changes can make a big difference. Don't forget to bring your own reusable bag to help reduce plastic waste!\n\nThe event will take place at the City Convention Center (11) ______ Saturday, November 14, from 8 a.m. to 5 p.m. Visitors can also join hands-on activities and discover how to (12) ______ a difference in their communities. During last year's fair, many participants were attending a workshop on making useful items from recycled materials when the organizers announced (13) ______ special prize for the most creative project. This year, we hope to welcome even more enthusiastic participants!\n\nWhether you are a student, a parent, or an environmental enthusiast, this fair is the perfect opportunity to gain new skills and make a positive effect on the world around you. (14) ______ now and become part of the green movement!"
+        }
       },
       {
         "id": 13,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...many participants were attending a workshop on making useful items from recycled materials when the organizers announced <strong>(13) ______</strong> special prize for the most creative project...</div>Chọn đáp án đúng điền vào chỗ trống (13):",
+        "question": "Chọn đáp án đúng nhất điền vào vị trí <strong>(13)</strong>:",
         "options": [
           "A. a",
           "B. an",
@@ -162,11 +190,18 @@
           "D. no article"
         ],
         "correct": 0,
-        "explanation": "'special prize' là danh từ đếm được số ít, được nhắc tới lần đầu với nghĩa 'một giải thưởng đặc biệt', bắt đầu bằng phụ âm /s/ nên dùng mạo từ 'a'."
+        "explanation": "'special prize' là danh từ đếm được số ít, được nhắc tới lần đầu với nghĩa 'một giải thưởng đặc biệt', bắt đầu bằng phụ âm /s/ nên dùng mạo từ 'a'.",
+        "passage": {
+          "id": "p-green-lifestyle-fair",
+          "title": "QUẢNG CÁO: GREEN LIVING – A SUSTAINABLE LIFESTYLE FAIR 2026",
+          "instruction": "Read the following advertisement and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 9 to 14.",
+          "range": "Câu 9 - 14",
+          "content": "Are you ready to discover simple ways to protect our planet? Join our exciting Green Living Fair, where you can explore practical solutions for a greener future. Last year, thousands of visitors (9) ______ the event and learned how to reduce waste in their daily lives. This year, we promise an even more inspiring experience!\n\nOur fair offers a wide range of activities, including workshops on recycling, gardening, and energy conservation. You will gain valuable knowledge about the importance of environmental (10) ______ and learn how small changes can make a big difference. Don't forget to bring your own reusable bag to help reduce plastic waste!\n\nThe event will take place at the City Convention Center (11) ______ Saturday, November 14, from 8 a.m. to 5 p.m. Visitors can also join hands-on activities and discover how to (12) ______ a difference in their communities. During last year's fair, many participants were attending a workshop on making useful items from recycled materials when the organizers announced (13) ______ special prize for the most creative project. This year, we hope to welcome even more enthusiastic participants!\n\nWhether you are a student, a parent, or an environmental enthusiast, this fair is the perfect opportunity to gain new skills and make a positive effect on the world around you. (14) ______ now and become part of the green movement!"
+        }
       },
       {
         "id": 14,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Whether you are a student, a parent, or an environmental enthusiast, this fair is the perfect opportunity to gain new skills and make a positive effect on the world around you. <strong>(14) ______</strong> now and become part of the green movement!</div>Chọn đáp án đúng điền vào chỗ trống (14):",
+        "question": "Chọn đáp án đúng nhất điền vào vị trí <strong>(14)</strong>:",
         "options": [
           "A. Register",
           "B. Confirm",
@@ -174,11 +209,18 @@
           "D. Answer"
         ],
         "correct": 0,
-        "explanation": "Câu mệnh lệnh mời gọi tham gia: 'Register now and become part of the green movement!' (Hãy đăng ký ngay bây giờ...)."
+        "explanation": "Câu mệnh lệnh mời gọi tham gia: 'Register now and become part of the green movement!' (Hãy đăng ký ngay bây giờ...).",
+        "passage": {
+          "id": "p-green-lifestyle-fair",
+          "title": "QUẢNG CÁO: GREEN LIVING – A SUSTAINABLE LIFESTYLE FAIR 2026",
+          "instruction": "Read the following advertisement and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 9 to 14.",
+          "range": "Câu 9 - 14",
+          "content": "Are you ready to discover simple ways to protect our planet? Join our exciting Green Living Fair, where you can explore practical solutions for a greener future. Last year, thousands of visitors (9) ______ the event and learned how to reduce waste in their daily lives. This year, we promise an even more inspiring experience!\n\nOur fair offers a wide range of activities, including workshops on recycling, gardening, and energy conservation. You will gain valuable knowledge about the importance of environmental (10) ______ and learn how small changes can make a big difference. Don't forget to bring your own reusable bag to help reduce plastic waste!\n\nThe event will take place at the City Convention Center (11) ______ Saturday, November 14, from 8 a.m. to 5 p.m. Visitors can also join hands-on activities and discover how to (12) ______ a difference in their communities. During last year's fair, many participants were attending a workshop on making useful items from recycled materials when the organizers announced (13) ______ special prize for the most creative project. This year, we hope to welcome even more enthusiastic participants!\n\nWhether you are a student, a parent, or an environmental enthusiast, this fair is the perfect opportunity to gain new skills and make a positive effect on the world around you. (14) ______ now and become part of the green movement!"
+        }
       },
       {
         "id": 15,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>MARIE CURIE: PIONEER OF MODERN PHYSICS</strong><br>Marie Curie was a trailblazing scientist whose groundbreaking discoveries grabbed the <strong>(15) ______</strong> worldwide and laid the foundation for modern nuclear science...</div>Chọn từ phù hợp điền vào chỗ trống (15):",
+        "question": "Chọn từ/cụm từ đúng nhất điền vào vị trí <strong>(15)</strong>:",
         "options": [
           "A. headlines",
           "B. slogans",
@@ -186,11 +228,18 @@
           "D. copyrights"
         ],
         "correct": 0,
-        "explanation": "Cụm thành ngữ cố định 'grab the headlines' có nghĩa là thu hút sự chú ý mạnh mẽ của báo chí và dư luận toàn cầu."
+        "explanation": "Cụm thành ngữ cố định 'grab the headlines' có nghĩa là thu hút sự chú ý mạnh mẽ của báo chí và dư luận toàn cầu.",
+        "passage": {
+          "id": "p-marie-curie",
+          "title": "LEAFLET: MARIE CURIE – PIONEER OF MODERN PHYSICS",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 15 to 20.",
+          "range": "Câu 15 - 20",
+          "content": "Marie Curie was a trailblazing scientist whose groundbreaking discoveries grabbed the (15) ______ worldwide and laid the foundation for modern nuclear science. Overcoming tremendous adversity, she became the first woman to win a Nobel Prize and remains the only person to receive Nobel Prizes in two distinct scientific fields. Curie strived to (16) ______ humanity with her discoveries in radioactivity.\n\nEarly Life & Education\nBorn in 1867 in Warsaw, Poland, Curie showed an extraordinary intellect from childhood. (17) ______ poverty and gender barriers in education, she persevered and moved to Paris to study at the Sorbonne. Throughout those demanding years, she maintained a passionate (18) ______ in chemical research and mathematics.\n\nEnduring Legacy\nCurie's contribution to medical science and cancer treatment is truly (19) ______. In addition to establishing mobile radiography units during the First World War, her selfless dedication continues to inspire countless (20) ______ to pursue careers in scientific discovery."
+        }
       },
       {
         "id": 16,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Overcoming tremendous adversity, she became the first woman to win a Nobel Prize and remains the only person to receive Nobel Prizes in two distinct scientific fields. Curie strived to <strong>(16) ______</strong> humanity with her discoveries in radioactivity...</div>Chọn cụm từ phù hợp điền vào chỗ trống (16):",
+        "question": "Chọn từ/cụm từ đúng nhất điền vào vị trí <strong>(16)</strong>:",
         "options": [
           "A. build up",
           "B. light up",
@@ -198,11 +247,18 @@
           "D. carry off"
         ],
         "correct": 1,
-        "explanation": "'light up' mang nghĩa soi sáng, khai sáng cho nhân loại thông qua những phát minh khoa học."
+        "explanation": "'light up' mang nghĩa soi sáng, khai sáng cho nhân loại thông qua những phát minh khoa học.",
+        "passage": {
+          "id": "p-marie-curie",
+          "title": "LEAFLET: MARIE CURIE – PIONEER OF MODERN PHYSICS",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 15 to 20.",
+          "range": "Câu 15 - 20",
+          "content": "Marie Curie was a trailblazing scientist whose groundbreaking discoveries grabbed the (15) ______ worldwide and laid the foundation for modern nuclear science. Overcoming tremendous adversity, she became the first woman to win a Nobel Prize and remains the only person to receive Nobel Prizes in two distinct scientific fields. Curie strived to (16) ______ humanity with her discoveries in radioactivity.\n\nEarly Life & Education\nBorn in 1867 in Warsaw, Poland, Curie showed an extraordinary intellect from childhood. (17) ______ poverty and gender barriers in education, she persevered and moved to Paris to study at the Sorbonne. Throughout those demanding years, she maintained a passionate (18) ______ in chemical research and mathematics.\n\nEnduring Legacy\nCurie's contribution to medical science and cancer treatment is truly (19) ______. In addition to establishing mobile radiography units during the First World War, her selfless dedication continues to inspire countless (20) ______ to pursue careers in scientific discovery."
+        }
       },
       {
         "id": 17,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>Early Life & Education</strong><br>Born in 1867 in Warsaw, Poland, Curie showed an extraordinary intellect from childhood. <strong>(17) ______</strong> poverty and gender barriers in education, she persevered and moved to Paris to study at the Sorbonne...</div>Chọn cụm từ phù hợp điền vào chỗ trống (17):",
+        "question": "Chọn từ/cụm từ đúng nhất điền vào vị trí <strong>(17)</strong>:",
         "options": [
           "A. In view of",
           "B. In spite of",
@@ -210,11 +266,18 @@
           "D. In place of"
         ],
         "correct": 1,
-        "explanation": "'In spite of' + Noun phrase: 'In spite of poverty and gender barriers' (Mặc dù đối mặt với nghèo đói và rào cản giới tính)."
+        "explanation": "'In spite of' + Noun phrase: 'In spite of poverty and gender barriers' (Mặc dù đối mặt với nghèo đói và rào cản giới tính).",
+        "passage": {
+          "id": "p-marie-curie",
+          "title": "LEAFLET: MARIE CURIE – PIONEER OF MODERN PHYSICS",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 15 to 20.",
+          "range": "Câu 15 - 20",
+          "content": "Marie Curie was a trailblazing scientist whose groundbreaking discoveries grabbed the (15) ______ worldwide and laid the foundation for modern nuclear science. Overcoming tremendous adversity, she became the first woman to win a Nobel Prize and remains the only person to receive Nobel Prizes in two distinct scientific fields. Curie strived to (16) ______ humanity with her discoveries in radioactivity.\n\nEarly Life & Education\nBorn in 1867 in Warsaw, Poland, Curie showed an extraordinary intellect from childhood. (17) ______ poverty and gender barriers in education, she persevered and moved to Paris to study at the Sorbonne. Throughout those demanding years, she maintained a passionate (18) ______ in chemical research and mathematics.\n\nEnduring Legacy\nCurie's contribution to medical science and cancer treatment is truly (19) ______. In addition to establishing mobile radiography units during the First World War, her selfless dedication continues to inspire countless (20) ______ to pursue careers in scientific discovery."
+        }
       },
       {
         "id": 18,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Throughout those demanding years, she maintained a passionate <strong>(18) ______</strong> in chemical research and mathematics...</div>Chọn từ phù hợp điền vào chỗ trống (18):",
+        "question": "Chọn từ/cụm từ đúng nhất điền vào vị trí <strong>(18)</strong>:",
         "options": [
           "A. relief",
           "B. hobby",
@@ -222,11 +285,18 @@
           "D. interest"
         ],
         "correct": 3,
-        "explanation": "Cụm danh từ 'passionate interest in...' (niềm đam mê/hứng thú sâu sắc đối với lĩnh vực nào)."
+        "explanation": "Cụm danh từ 'passionate interest in...' (niềm đam mê/hứng thú sâu sắc đối với lĩnh vực nào).",
+        "passage": {
+          "id": "p-marie-curie",
+          "title": "LEAFLET: MARIE CURIE – PIONEER OF MODERN PHYSICS",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 15 to 20.",
+          "range": "Câu 15 - 20",
+          "content": "Marie Curie was a trailblazing scientist whose groundbreaking discoveries grabbed the (15) ______ worldwide and laid the foundation for modern nuclear science. Overcoming tremendous adversity, she became the first woman to win a Nobel Prize and remains the only person to receive Nobel Prizes in two distinct scientific fields. Curie strived to (16) ______ humanity with her discoveries in radioactivity.\n\nEarly Life & Education\nBorn in 1867 in Warsaw, Poland, Curie showed an extraordinary intellect from childhood. (17) ______ poverty and gender barriers in education, she persevered and moved to Paris to study at the Sorbonne. Throughout those demanding years, she maintained a passionate (18) ______ in chemical research and mathematics.\n\nEnduring Legacy\nCurie's contribution to medical science and cancer treatment is truly (19) ______. In addition to establishing mobile radiography units during the First World War, her selfless dedication continues to inspire countless (20) ______ to pursue careers in scientific discovery."
+        }
       },
       {
         "id": 19,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>Enduring Legacy</strong><br>Curie's contribution to medical science and cancer treatment is truly <strong>(19) ______</strong>...</div>Chọn từ phù hợp điền vào chỗ trống (19):",
+        "question": "Chọn từ/cụm từ đúng nhất điền vào vị trí <strong>(19)</strong>:",
         "options": [
           "A. negligible",
           "B. immeasurable",
@@ -234,11 +304,18 @@
           "D. unremarkable"
         ],
         "correct": 1,
-        "explanation": "'immeasurable' (vô giá, to lớn không thể đo đếm được) diễn tả sự đóng góp to lớn của Marie Curie đối với y học và điều trị ung thư."
+        "explanation": "'immeasurable' (vô giá, to lớn không thể đo đếm được) diễn tả sự đóng góp to lớn của Marie Curie đối với y học và điều trị ung thư.",
+        "passage": {
+          "id": "p-marie-curie",
+          "title": "LEAFLET: MARIE CURIE – PIONEER OF MODERN PHYSICS",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 15 to 20.",
+          "range": "Câu 15 - 20",
+          "content": "Marie Curie was a trailblazing scientist whose groundbreaking discoveries grabbed the (15) ______ worldwide and laid the foundation for modern nuclear science. Overcoming tremendous adversity, she became the first woman to win a Nobel Prize and remains the only person to receive Nobel Prizes in two distinct scientific fields. Curie strived to (16) ______ humanity with her discoveries in radioactivity.\n\nEarly Life & Education\nBorn in 1867 in Warsaw, Poland, Curie showed an extraordinary intellect from childhood. (17) ______ poverty and gender barriers in education, she persevered and moved to Paris to study at the Sorbonne. Throughout those demanding years, she maintained a passionate (18) ______ in chemical research and mathematics.\n\nEnduring Legacy\nCurie's contribution to medical science and cancer treatment is truly (19) ______. In addition to establishing mobile radiography units during the First World War, her selfless dedication continues to inspire countless (20) ______ to pursue careers in scientific discovery."
+        }
       },
       {
         "id": 20,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...In addition to establishing mobile radiography units during the First World War, her selfless dedication continues to inspire countless <strong>(20) ______</strong> to pursue careers in scientific discovery.</div>Chọn từ phù hợp điền vào chỗ trống (20):",
+        "question": "Chọn từ/cụm từ đúng nhất điền vào vị trí <strong>(20)</strong>:",
         "options": [
           "A. another",
           "B. others",
@@ -246,7 +323,14 @@
           "D. each other"
         ],
         "correct": 1,
-        "explanation": "'others' đại từ đóng vai trò tân ngữ chỉ 'những người khác' (inspire countless others to pursue...)."
+        "explanation": "'others' đại từ đóng vai trò tân ngữ chỉ 'những người khác' (inspire countless others to pursue...).",
+        "passage": {
+          "id": "p-marie-curie",
+          "title": "LEAFLET: MARIE CURIE – PIONEER OF MODERN PHYSICS",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 15 to 20.",
+          "range": "Câu 15 - 20",
+          "content": "Marie Curie was a trailblazing scientist whose groundbreaking discoveries grabbed the (15) ______ worldwide and laid the foundation for modern nuclear science. Overcoming tremendous adversity, she became the first woman to win a Nobel Prize and remains the only person to receive Nobel Prizes in two distinct scientific fields. Curie strived to (16) ______ humanity with her discoveries in radioactivity.\n\nEarly Life & Education\nBorn in 1867 in Warsaw, Poland, Curie showed an extraordinary intellect from childhood. (17) ______ poverty and gender barriers in education, she persevered and moved to Paris to study at the Sorbonne. Throughout those demanding years, she maintained a passionate (18) ______ in chemical research and mathematics.\n\nEnduring Legacy\nCurie's contribution to medical science and cancer treatment is truly (19) ______. In addition to establishing mobile radiography units during the First World War, her selfless dedication continues to inspire countless (20) ______ to pursue careers in scientific discovery."
+        }
       },
       {
         "id": 21,
@@ -310,7 +394,7 @@
       },
       {
         "id": 26,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>Reimagining How We Help Others</strong><br>Traditional charity models have existed for centuries, but they often create dependency rather than empowerment... Many organizations are now rethinking how assistance should be provided, especially in communities <strong>(26) ______</strong>. Sustainable solutions require understanding the root causes of problems...</div>Chọn mệnh đề thích hợp điền vào chỗ trống (26):",
+        "question": "Chọn phương án thích hợp điền vào vị trí <strong>(26)</strong>:",
         "options": [
           "A. where poverty has become a persistent challenge",
           "B. poverty had eliminated by last decade",
@@ -318,11 +402,18 @@
           "D. which donors have forgotten since the crisis"
         ],
         "correct": 0,
-        "explanation": "Mệnh đề quan hệ trạng từ chỉ nơi chốn: 'communities where poverty has become a persistent challenge' (những cộng đồng nơi mà đói nghèo đã trở thành thách thức dai dẳng)."
+        "explanation": "Mệnh đề quan hệ trạng từ chỉ nơi chốn: 'communities where poverty has become a persistent challenge' (những cộng đồng nơi mà đói nghèo đã trở thành thách thức dai dẳng).",
+        "passage": {
+          "id": "p-reimagining-help",
+          "title": "ĐỌC ĐIỀN ĐOẠN VĂN: REIMAGINING HOW WE HELP OTHERS",
+          "instruction": "Read the following passage and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 26 to 30.",
+          "range": "Câu 26 - 30",
+          "content": "Traditional charity models have existed for centuries, but they often create dependency rather than empowerment. Had people considered the long-term effects of charity earlier, different systems might have emerged to address poverty more effectively. Many organizations are now rethinking how assistance should be provided, especially in communities (26) ______. Sustainable solutions require understanding the root causes of problems, which often include limited access to education, healthcare disparities, and economic inequalities.\n\nEmpowerment programs that teach skills are increasingly replacing simple donations of food or money. Communities that receive training and resources to build their own solutions create lasting change and maintain their dignity. The traditional charity model creates temporary relief; (27) ______. These approaches often make donors feel good about themselves; nevertheless, they may inadvertently perpetuate cycles of dependence.\n\nMicrofinance has revolutionized how we think about helping others. Having recognized the entrepreneurial potential in low-income communities, organizations now offer small loans instead of handouts. Social enterprises (28) ______. The future of assistance lies not in giving things to people, but in creating systems where everyone can participate and (29) ______.\n\nTechnology can bridge gaps between those who need help and those who can provide it. Working together across geographical boundaries and combining different perspectives, (30) ______. The true measure of success is not how many people receive aid, but how many no longer need it."
+        }
       },
       {
         "id": 27,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Communities that receive training and resources to build their own solutions create lasting change and maintain their dignity. The traditional charity model creates temporary relief; <strong>(27) ______</strong>. These approaches often make donors feel good about themselves; nevertheless, they may inadvertently perpetuate cycles of dependence...</div>Chọn liên từ và mệnh đề phù hợp điền vào chỗ trống (27):",
+        "question": "Chọn phương án thích hợp điền vào vị trí <strong>(27)</strong>:",
         "options": [
           "A. moreover, it provides long-term sustainable solutions",
           "B. therefore, it attracts substantial corporate funding",
@@ -330,11 +421,18 @@
           "D. however, it rarely addresses underlying issues"
         ],
         "correct": 3,
-        "explanation": "Ngữ cảnh mang tính tương phản: mô hình từ thiện truyền thống chỉ tạo ra sự cứu trợ tạm thời; tuy nhiên, nó hiếm khi giải quyết được gốc rễ vấn đề (however, it rarely addresses underlying issues)."
+        "explanation": "Ngữ cảnh mang tính tương phản: mô hình từ thiện truyền thống chỉ tạo ra sự cứu trợ tạm thời; tuy nhiên, nó hiếm khi giải quyết được gốc rễ vấn đề (however, it rarely addresses underlying issues).",
+        "passage": {
+          "id": "p-reimagining-help",
+          "title": "ĐỌC ĐIỀN ĐOẠN VĂN: REIMAGINING HOW WE HELP OTHERS",
+          "instruction": "Read the following passage and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 26 to 30.",
+          "range": "Câu 26 - 30",
+          "content": "Traditional charity models have existed for centuries, but they often create dependency rather than empowerment. Had people considered the long-term effects of charity earlier, different systems might have emerged to address poverty more effectively. Many organizations are now rethinking how assistance should be provided, especially in communities (26) ______. Sustainable solutions require understanding the root causes of problems, which often include limited access to education, healthcare disparities, and economic inequalities.\n\nEmpowerment programs that teach skills are increasingly replacing simple donations of food or money. Communities that receive training and resources to build their own solutions create lasting change and maintain their dignity. The traditional charity model creates temporary relief; (27) ______. These approaches often make donors feel good about themselves; nevertheless, they may inadvertently perpetuate cycles of dependence.\n\nMicrofinance has revolutionized how we think about helping others. Having recognized the entrepreneurial potential in low-income communities, organizations now offer small loans instead of handouts. Social enterprises (28) ______. The future of assistance lies not in giving things to people, but in creating systems where everyone can participate and (29) ______.\n\nTechnology can bridge gaps between those who need help and those who can provide it. Working together across geographical boundaries and combining different perspectives, (30) ______. The true measure of success is not how many people receive aid, but how many no longer need it."
+        }
       },
       {
         "id": 28,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Having recognized the entrepreneurial potential in low-income communities, organizations now offer small loans instead of handouts. Social enterprises <strong>(28) ______</strong>...</div>Chọn cụm vị ngữ thích hợp điền vào chỗ trống (28):",
+        "question": "Chọn phương án thích hợp điền vào vị trí <strong>(28)</strong>:",
         "options": [
           "A. which operate in developing regions that preserve cultural traditions while attracting foreign investors",
           "B. are being established around the world to create economic opportunities while solving social problems",
@@ -342,11 +440,18 @@
           "D. having accumulated substantial resources to redirect profits while competing with traditional businesses"
         ],
         "correct": 1,
-        "explanation": "Câu đang cần một động từ chính (finite verb) cho chủ ngữ 'Social enterprises': 'are being established around the world to create economic opportunities while solving social problems'."
+        "explanation": "Câu đang cần một động từ chính (finite verb) cho chủ ngữ 'Social enterprises': 'are being established around the world to create economic opportunities while solving social problems'.",
+        "passage": {
+          "id": "p-reimagining-help",
+          "title": "ĐỌC ĐIỀN ĐOẠN VĂN: REIMAGINING HOW WE HELP OTHERS",
+          "instruction": "Read the following passage and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 26 to 30.",
+          "range": "Câu 26 - 30",
+          "content": "Traditional charity models have existed for centuries, but they often create dependency rather than empowerment. Had people considered the long-term effects of charity earlier, different systems might have emerged to address poverty more effectively. Many organizations are now rethinking how assistance should be provided, especially in communities (26) ______. Sustainable solutions require understanding the root causes of problems, which often include limited access to education, healthcare disparities, and economic inequalities.\n\nEmpowerment programs that teach skills are increasingly replacing simple donations of food or money. Communities that receive training and resources to build their own solutions create lasting change and maintain their dignity. The traditional charity model creates temporary relief; (27) ______. These approaches often make donors feel good about themselves; nevertheless, they may inadvertently perpetuate cycles of dependence.\n\nMicrofinance has revolutionized how we think about helping others. Having recognized the entrepreneurial potential in low-income communities, organizations now offer small loans instead of handouts. Social enterprises (28) ______. The future of assistance lies not in giving things to people, but in creating systems where everyone can participate and (29) ______.\n\nTechnology can bridge gaps between those who need help and those who can provide it. Working together across geographical boundaries and combining different perspectives, (30) ______. The true measure of success is not how many people receive aid, but how many no longer need it."
+        }
       },
       {
         "id": 29,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...The future of assistance lies not in giving things to people, but in creating systems where everyone can participate and <strong>(29) ______</strong>...</div>Chọn dạng đúng của động từ điền vào chỗ trống (29):",
+        "question": "Chọn phương án thích hợp điền vào vị trí <strong>(29)</strong>:",
         "options": [
           "A. to contributing",
           "B. contributing",
@@ -354,11 +459,18 @@
           "D. to contribute"
         ],
         "correct": 2,
-        "explanation": "Cấu trúc song hành với động từ nguyên mẫu sau 'can': 'can participate and contribute'."
+        "explanation": "Cấu trúc song hành với động từ nguyên mẫu sau 'can': 'can participate and contribute'.",
+        "passage": {
+          "id": "p-reimagining-help",
+          "title": "ĐỌC ĐIỀN ĐOẠN VĂN: REIMAGINING HOW WE HELP OTHERS",
+          "instruction": "Read the following passage and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 26 to 30.",
+          "range": "Câu 26 - 30",
+          "content": "Traditional charity models have existed for centuries, but they often create dependency rather than empowerment. Had people considered the long-term effects of charity earlier, different systems might have emerged to address poverty more effectively. Many organizations are now rethinking how assistance should be provided, especially in communities (26) ______. Sustainable solutions require understanding the root causes of problems, which often include limited access to education, healthcare disparities, and economic inequalities.\n\nEmpowerment programs that teach skills are increasingly replacing simple donations of food or money. Communities that receive training and resources to build their own solutions create lasting change and maintain their dignity. The traditional charity model creates temporary relief; (27) ______. These approaches often make donors feel good about themselves; nevertheless, they may inadvertently perpetuate cycles of dependence.\n\nMicrofinance has revolutionized how we think about helping others. Having recognized the entrepreneurial potential in low-income communities, organizations now offer small loans instead of handouts. Social enterprises (28) ______. The future of assistance lies not in giving things to people, but in creating systems where everyone can participate and (29) ______.\n\nTechnology can bridge gaps between those who need help and those who can provide it. Working together across geographical boundaries and combining different perspectives, (30) ______. The true measure of success is not how many people receive aid, but how many no longer need it."
+        }
       },
       {
         "id": 30,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Technology can bridge gaps between those who need help and those who can provide it. Working together across geographical boundaries and combining different perspectives, <strong>(30) ______</strong>. The true measure of success is not how many people receive aid, but how many no longer need it.</div>Chọn mệnh đề chính phù hợp điền vào chỗ trống (30):",
+        "question": "Chọn phương án thích hợp điền vào vị trí <strong>(30)</strong>:",
         "options": [
           "A. we are operating satellite offices which monitor local projects without proper supervision",
           "B. we can develop more effective solutions than charity alone could ever achieve",
@@ -366,7 +478,14 @@
           "D. we could reject traditional approaches that succeeded historically in developing countries"
         ],
         "correct": 1,
-        "explanation": "Vế mở đầu là phân từ hiện tại 'Working together... and combining...', chủ ngữ ở mệnh đề chính phải là 'we': 'we can develop more effective solutions than charity alone could ever achieve'."
+        "explanation": "Vế mở đầu là phân từ hiện tại 'Working together... and combining...', chủ ngữ ở mệnh đề chính phải là 'we': 'we can develop more effective solutions than charity alone could ever achieve'.",
+        "passage": {
+          "id": "p-reimagining-help",
+          "title": "ĐỌC ĐIỀN ĐOẠN VĂN: REIMAGINING HOW WE HELP OTHERS",
+          "instruction": "Read the following passage and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 26 to 30.",
+          "range": "Câu 26 - 30",
+          "content": "Traditional charity models have existed for centuries, but they often create dependency rather than empowerment. Had people considered the long-term effects of charity earlier, different systems might have emerged to address poverty more effectively. Many organizations are now rethinking how assistance should be provided, especially in communities (26) ______. Sustainable solutions require understanding the root causes of problems, which often include limited access to education, healthcare disparities, and economic inequalities.\n\nEmpowerment programs that teach skills are increasingly replacing simple donations of food or money. Communities that receive training and resources to build their own solutions create lasting change and maintain their dignity. The traditional charity model creates temporary relief; (27) ______. These approaches often make donors feel good about themselves; nevertheless, they may inadvertently perpetuate cycles of dependence.\n\nMicrofinance has revolutionized how we think about helping others. Having recognized the entrepreneurial potential in low-income communities, organizations now offer small loans instead of handouts. Social enterprises (28) ______. The future of assistance lies not in giving things to people, but in creating systems where everyone can participate and (29) ______.\n\nTechnology can bridge gaps between those who need help and those who can provide it. Working together across geographical boundaries and combining different perspectives, (30) ______. The true measure of success is not how many people receive aid, but how many no longer need it."
+        }
       },
       {
         "id": 31,
@@ -510,7 +629,7 @@
     "questions": [
       {
         "id": 1,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>EMBRACE OUR CULTURAL ROOTS!</strong><br>Have you ever wondered how traditional music and crafts can inspire our daily lives? Over the past few years, our School Cultural Club <strong>(1) ______</strong> several interactive workshops to bring heritage closer to young people...</div>Chọn đáp án đúng điền vào chỗ trống (1):",
+        "question": "Chọn phương án phù hợp điền vào vị trí <strong>(1)</strong>:",
         "options": [
           "A. host",
           "B. hosted",
@@ -518,11 +637,18 @@
           "D. is hosting"
         ],
         "correct": 2,
-        "explanation": "Dấu hiệu 'Over the past few years' diễn tả hành động kéo dài từ quá khứ đến hiện tại -> Dùng thì Hiện tại hoàn thành: 'has hosted'."
+        "explanation": "Dấu hiệu 'Over the past few years' diễn tả hành động kéo dài từ quá khứ đến hiện tại -> Dùng thì Hiện tại hoàn thành: 'has hosted'.",
+        "passage": {
+          "id": "p-cultural-roots",
+          "title": "THÔNG BÁO: EMBRACE OUR CULTURAL ROOTS!",
+          "instruction": "Read the following announcement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 6.",
+          "range": "Câu 1 - 6",
+          "content": "Have you ever wondered how traditional music and crafts can inspire our daily lives? Over the past few years, our School Cultural Club (1) ______ several interactive workshops to bring heritage closer to young people. This term, we are back with the Cultural Exchange Week 2026! We are seeking creative and (2) ______ members to join our organizing committee.\n\nVolunteers will be responsible (3) ______ setting up exhibition booths and guiding visitors through traditional game zones. Participating in this event provides a rare (4) ______ to represent your class and express your artistic talent.\n\nIt is also (5) ______ wonderful opportunity to make lifelong friends and build essential teamwork skills. Don't hesitate to step out of your comfort zone! Register today and help us (6) ______ progress toward a vibrant school community!"
+        }
       },
       {
         "id": 2,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...This term, we are back with the Cultural Exchange Week 2026! We are seeking creative and <strong>(2) ______</strong> members to join our organizing committee...</div>Chọn đáp án đúng điền vào chỗ trống (2):",
+        "question": "Chọn phương án phù hợp điền vào vị trí <strong>(2)</strong>:",
         "options": [
           "A. passion",
           "B. passionately",
@@ -530,11 +656,18 @@
           "D. passional"
         ],
         "correct": 2,
-        "explanation": "Cấu trúc song hành với tính từ 'creative' đứng trước danh từ 'members' -> Cần tính từ 'passionate' (nhiệt huyết)."
+        "explanation": "Cấu trúc song hành với tính từ 'creative' đứng trước danh từ 'members' -> Cần tính từ 'passionate' (nhiệt huyết).",
+        "passage": {
+          "id": "p-cultural-roots",
+          "title": "THÔNG BÁO: EMBRACE OUR CULTURAL ROOTS!",
+          "instruction": "Read the following announcement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 6.",
+          "range": "Câu 1 - 6",
+          "content": "Have you ever wondered how traditional music and crafts can inspire our daily lives? Over the past few years, our School Cultural Club (1) ______ several interactive workshops to bring heritage closer to young people. This term, we are back with the Cultural Exchange Week 2026! We are seeking creative and (2) ______ members to join our organizing committee.\n\nVolunteers will be responsible (3) ______ setting up exhibition booths and guiding visitors through traditional game zones. Participating in this event provides a rare (4) ______ to represent your class and express your artistic talent.\n\nIt is also (5) ______ wonderful opportunity to make lifelong friends and build essential teamwork skills. Don't hesitate to step out of your comfort zone! Register today and help us (6) ______ progress toward a vibrant school community!"
+        }
       },
       {
         "id": 3,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Volunteers will be responsible <strong>(3) ______</strong> setting up exhibition booths and guiding visitors through traditional game zones...</div>Chọn giới từ thích hợp điền vào chỗ trống (3):",
+        "question": "Chọn phương án phù hợp điền vào vị trí <strong>(3)</strong>:",
         "options": [
           "A. with",
           "B. for",
@@ -542,11 +675,18 @@
           "D. from"
         ],
         "correct": 1,
-        "explanation": "Cấu trúc tính từ đi với giới từ: 'be responsible for + V-ing/Noun' (chịu trách nhiệm cho việc gì)."
+        "explanation": "Cấu trúc tính từ đi với giới từ: 'be responsible for + V-ing/Noun' (chịu trách nhiệm cho việc gì).",
+        "passage": {
+          "id": "p-cultural-roots",
+          "title": "THÔNG BÁO: EMBRACE OUR CULTURAL ROOTS!",
+          "instruction": "Read the following announcement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 6.",
+          "range": "Câu 1 - 6",
+          "content": "Have you ever wondered how traditional music and crafts can inspire our daily lives? Over the past few years, our School Cultural Club (1) ______ several interactive workshops to bring heritage closer to young people. This term, we are back with the Cultural Exchange Week 2026! We are seeking creative and (2) ______ members to join our organizing committee.\n\nVolunteers will be responsible (3) ______ setting up exhibition booths and guiding visitors through traditional game zones. Participating in this event provides a rare (4) ______ to represent your class and express your artistic talent.\n\nIt is also (5) ______ wonderful opportunity to make lifelong friends and build essential teamwork skills. Don't hesitate to step out of your comfort zone! Register today and help us (6) ______ progress toward a vibrant school community!"
+        }
       },
       {
         "id": 4,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Participating in this event provides a rare <strong>(4) ______</strong> to represent your class and express your artistic talent...</div>Chọn từ phù hợp điền vào chỗ trống (4):",
+        "question": "Chọn phương án phù hợp điền vào vị trí <strong>(4)</strong>:",
         "options": [
           "A. privilege",
           "B. gratitude",
@@ -554,11 +694,18 @@
           "D. affection"
         ],
         "correct": 0,
-        "explanation": "'a rare privilege' mang nghĩa là một đặc ân / vinh dự hiếm có để đại diện cho lớp học."
+        "explanation": "'a rare privilege' mang nghĩa là một đặc ân / vinh dự hiếm có để đại diện cho lớp học.",
+        "passage": {
+          "id": "p-cultural-roots",
+          "title": "THÔNG BÁO: EMBRACE OUR CULTURAL ROOTS!",
+          "instruction": "Read the following announcement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 6.",
+          "range": "Câu 1 - 6",
+          "content": "Have you ever wondered how traditional music and crafts can inspire our daily lives? Over the past few years, our School Cultural Club (1) ______ several interactive workshops to bring heritage closer to young people. This term, we are back with the Cultural Exchange Week 2026! We are seeking creative and (2) ______ members to join our organizing committee.\n\nVolunteers will be responsible (3) ______ setting up exhibition booths and guiding visitors through traditional game zones. Participating in this event provides a rare (4) ______ to represent your class and express your artistic talent.\n\nIt is also (5) ______ wonderful opportunity to make lifelong friends and build essential teamwork skills. Don't hesitate to step out of your comfort zone! Register today and help us (6) ______ progress toward a vibrant school community!"
+        }
       },
       {
         "id": 5,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...It is also <strong>(5) ______</strong> wonderful opportunity to make lifelong friends and build essential teamwork skills...</div>Chọn mạo từ thích hợp điền vào chỗ trống (5):",
+        "question": "Chọn phương án phù hợp điền vào vị trí <strong>(5)</strong>:",
         "options": [
           "A. a",
           "B. an",
@@ -566,11 +713,18 @@
           "D. Ø (no article)"
         ],
         "correct": 0,
-        "explanation": "'opportunity' là danh từ số ít đếm được, trước nó là tính từ 'wonderful' bắt đầu bằng phụ âm /w/ -> Dùng mạo từ 'a'."
+        "explanation": "'opportunity' là danh từ số ít đếm được, trước nó là tính từ 'wonderful' bắt đầu bằng phụ âm /w/ -> Dùng mạo từ 'a'.",
+        "passage": {
+          "id": "p-cultural-roots",
+          "title": "THÔNG BÁO: EMBRACE OUR CULTURAL ROOTS!",
+          "instruction": "Read the following announcement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 6.",
+          "range": "Câu 1 - 6",
+          "content": "Have you ever wondered how traditional music and crafts can inspire our daily lives? Over the past few years, our School Cultural Club (1) ______ several interactive workshops to bring heritage closer to young people. This term, we are back with the Cultural Exchange Week 2026! We are seeking creative and (2) ______ members to join our organizing committee.\n\nVolunteers will be responsible (3) ______ setting up exhibition booths and guiding visitors through traditional game zones. Participating in this event provides a rare (4) ______ to represent your class and express your artistic talent.\n\nIt is also (5) ______ wonderful opportunity to make lifelong friends and build essential teamwork skills. Don't hesitate to step out of your comfort zone! Register today and help us (6) ______ progress toward a vibrant school community!"
+        }
       },
       {
         "id": 6,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Don't hesitate to step out of your comfort zone! Register today and help us <strong>(6) ______</strong> progress toward a vibrant school community!</div>Chọn động từ phù hợp điền vào chỗ trống (6):",
+        "question": "Chọn phương án phù hợp điền vào vị trí <strong>(6)</strong>:",
         "options": [
           "A. do",
           "B. take",
@@ -578,11 +732,18 @@
           "D. make"
         ],
         "correct": 3,
-        "explanation": "Cụm cố định (Collocation): 'make progress' (tiến bộ, tạo sự phát triển)."
+        "explanation": "Cụm cố định (Collocation): 'make progress' (tiến bộ, tạo sự phát triển).",
+        "passage": {
+          "id": "p-cultural-roots",
+          "title": "THÔNG BÁO: EMBRACE OUR CULTURAL ROOTS!",
+          "instruction": "Read the following announcement and mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 1 to 6.",
+          "range": "Câu 1 - 6",
+          "content": "Have you ever wondered how traditional music and crafts can inspire our daily lives? Over the past few years, our School Cultural Club (1) ______ several interactive workshops to bring heritage closer to young people. This term, we are back with the Cultural Exchange Week 2026! We are seeking creative and (2) ______ members to join our organizing committee.\n\nVolunteers will be responsible (3) ______ setting up exhibition booths and guiding visitors through traditional game zones. Participating in this event provides a rare (4) ______ to represent your class and express your artistic talent.\n\nIt is also (5) ______ wonderful opportunity to make lifelong friends and build essential teamwork skills. Don't hesitate to step out of your comfort zone! Register today and help us (6) ______ progress toward a vibrant school community!"
+        }
       },
       {
         "id": 7,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>OVERCOME CULTURE SHOCK WITH EASE!</strong><br>Moving to a new country or study environment brings exciting opportunities, but it can also trigger culture shock. Every year, a massive <strong>(7) ______</strong> of emotional stress is experienced by exchange students due to language barriers and unfamiliar customs...</div>Chọn từ lượng từ thích hợp điền vào chỗ trống (7):",
+        "question": "Chọn phương án phù hợp điền vào vị trí <strong>(7)</strong>:",
         "options": [
           "A. number",
           "B. amount",
@@ -590,11 +751,18 @@
           "D. count"
         ],
         "correct": 1,
-        "explanation": "'emotional stress' là danh từ không đếm được -> Dùng 'a massive amount of' (một lượng lớn áp lực tâm lý)."
+        "explanation": "'emotional stress' là danh từ không đếm được -> Dùng 'a massive amount of' (một lượng lớn áp lực tâm lý).",
+        "passage": {
+          "id": "p-culture-shock",
+          "title": "LEAFLET: OVERCOME CULTURE SHOCK WITH EASE!",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 7 to 12.",
+          "range": "Câu 7 - 12",
+          "content": "Moving to a new country or study environment brings exciting opportunities, but it can also trigger culture shock. Every year, a massive (7) ______ of emotional stress is experienced by exchange students due to language barriers and unfamiliar customs.\n\nJoin our Student Support Network and let us help you (8) ______ your adjustment period smoothly! We are dedicated advisors (9) ______ understand the challenges of living in a new culture.\n\nHow can we support you?\n• Connect with local mentors for weekly language exchange sessions\n• Join cultural workshops to raise your (10) ______ of social etiquette and norms.\n• Discover practical tips to adapt to a new (11) ______ of life without losing your identity.\n\nDon't let cultural differences overwhelm you. Reach out for support today, (12) ______ you can make the most of your international experience!"
+        }
       },
       {
         "id": 8,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Join our Student Support Network and let us help you <strong>(8) ______</strong> your adjustment period smoothly! We are dedicated advisors...</div>Chọn cụm động từ thích hợp điền vào chỗ trống (8):",
+        "question": "Chọn phương án phù hợp điền vào vị trí <strong>(8)</strong>:",
         "options": [
           "A. get through",
           "B. look into",
@@ -602,11 +770,18 @@
           "D. take after"
         ],
         "correct": 0,
-        "explanation": "'get through' có nghĩa là vượt qua giai đoạn khó khăn (vượt qua thời kỳ thích nghi)."
+        "explanation": "'get through' có nghĩa là vượt qua giai đoạn khó khăn (vượt qua thời kỳ thích nghi).",
+        "passage": {
+          "id": "p-culture-shock",
+          "title": "LEAFLET: OVERCOME CULTURE SHOCK WITH EASE!",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 7 to 12.",
+          "range": "Câu 7 - 12",
+          "content": "Moving to a new country or study environment brings exciting opportunities, but it can also trigger culture shock. Every year, a massive (7) ______ of emotional stress is experienced by exchange students due to language barriers and unfamiliar customs.\n\nJoin our Student Support Network and let us help you (8) ______ your adjustment period smoothly! We are dedicated advisors (9) ______ understand the challenges of living in a new culture.\n\nHow can we support you?\n• Connect with local mentors for weekly language exchange sessions\n• Join cultural workshops to raise your (10) ______ of social etiquette and norms.\n• Discover practical tips to adapt to a new (11) ______ of life without losing your identity.\n\nDon't let cultural differences overwhelm you. Reach out for support today, (12) ______ you can make the most of your international experience!"
+        }
       },
       {
         "id": 9,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...We are dedicated advisors <strong>(9) ______</strong> understand the challenges of living in a new culture...</div>Chọn đại từ quan hệ thích hợp điền vào chỗ trống (9):",
+        "question": "Chọn phương án phù hợp điền vào vị trí <strong>(9)</strong>:",
         "options": [
           "A. which",
           "B. whose",
@@ -614,11 +789,18 @@
           "D. whom"
         ],
         "correct": 2,
-        "explanation": "'advisors' chỉ người làm chủ ngữ cho động từ 'understand', trong các lựa chọn thì 'that' thay thế cho người làm chủ ngữ."
+        "explanation": "'advisors' chỉ người làm chủ ngữ cho động từ 'understand', trong các lựa chọn thì 'that' thay thế cho người làm chủ ngữ.",
+        "passage": {
+          "id": "p-culture-shock",
+          "title": "LEAFLET: OVERCOME CULTURE SHOCK WITH EASE!",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 7 to 12.",
+          "range": "Câu 7 - 12",
+          "content": "Moving to a new country or study environment brings exciting opportunities, but it can also trigger culture shock. Every year, a massive (7) ______ of emotional stress is experienced by exchange students due to language barriers and unfamiliar customs.\n\nJoin our Student Support Network and let us help you (8) ______ your adjustment period smoothly! We are dedicated advisors (9) ______ understand the challenges of living in a new culture.\n\nHow can we support you?\n• Connect with local mentors for weekly language exchange sessions\n• Join cultural workshops to raise your (10) ______ of social etiquette and norms.\n• Discover practical tips to adapt to a new (11) ______ of life without losing your identity.\n\nDon't let cultural differences overwhelm you. Reach out for support today, (12) ______ you can make the most of your international experience!"
+        }
       },
       {
         "id": 10,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Join cultural workshops to raise your <strong>(10) ______</strong> of social etiquette and norms...</div>Chọn từ thích hợp điền vào chỗ trống (10):",
+        "question": "Chọn phương án phù hợp điền vào vị trí <strong>(10)</strong>:",
         "options": [
           "A. awareness",
           "B. attention",
@@ -626,11 +808,18 @@
           "D. experience"
         ],
         "correct": 0,
-        "explanation": "Cụm từ cố định: 'raise awareness of something' (nâng cao nhận thức về chuẩn mực và nghi thức xã hội)."
+        "explanation": "Cụm từ cố định: 'raise awareness of something' (nâng cao nhận thức về chuẩn mực và nghi thức xã hội).",
+        "passage": {
+          "id": "p-culture-shock",
+          "title": "LEAFLET: OVERCOME CULTURE SHOCK WITH EASE!",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 7 to 12.",
+          "range": "Câu 7 - 12",
+          "content": "Moving to a new country or study environment brings exciting opportunities, but it can also trigger culture shock. Every year, a massive (7) ______ of emotional stress is experienced by exchange students due to language barriers and unfamiliar customs.\n\nJoin our Student Support Network and let us help you (8) ______ your adjustment period smoothly! We are dedicated advisors (9) ______ understand the challenges of living in a new culture.\n\nHow can we support you?\n• Connect with local mentors for weekly language exchange sessions\n• Join cultural workshops to raise your (10) ______ of social etiquette and norms.\n• Discover practical tips to adapt to a new (11) ______ of life without losing your identity.\n\nDon't let cultural differences overwhelm you. Reach out for support today, (12) ______ you can make the most of your international experience!"
+        }
       },
       {
         "id": 11,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Discover practical tips to adapt to a new <strong>(11) ______</strong> of life without losing your identity...</div>Chọn danh từ thích hợp điền vào chỗ trống (11):",
+        "question": "Chọn phương án phù hợp điền vào vị trí <strong>(11)</strong>:",
         "options": [
           "A. habit",
           "B. custom",
@@ -638,11 +827,18 @@
           "D. mode"
         ],
         "correct": 2,
-        "explanation": "'a new routine of life' (nhịp sống / nếp sinh hoạt mới) giúp sinh viên hòa nhập mà không đánh mất bản sắc cá nhân."
+        "explanation": "'a new routine of life' (nhịp sống / nếp sinh hoạt mới) giúp sinh viên hòa nhập mà không đánh mất bản sắc cá nhân.",
+        "passage": {
+          "id": "p-culture-shock",
+          "title": "LEAFLET: OVERCOME CULTURE SHOCK WITH EASE!",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 7 to 12.",
+          "range": "Câu 7 - 12",
+          "content": "Moving to a new country or study environment brings exciting opportunities, but it can also trigger culture shock. Every year, a massive (7) ______ of emotional stress is experienced by exchange students due to language barriers and unfamiliar customs.\n\nJoin our Student Support Network and let us help you (8) ______ your adjustment period smoothly! We are dedicated advisors (9) ______ understand the challenges of living in a new culture.\n\nHow can we support you?\n• Connect with local mentors for weekly language exchange sessions\n• Join cultural workshops to raise your (10) ______ of social etiquette and norms.\n• Discover practical tips to adapt to a new (11) ______ of life without losing your identity.\n\nDon't let cultural differences overwhelm you. Reach out for support today, (12) ______ you can make the most of your international experience!"
+        }
       },
       {
         "id": 12,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Don't let cultural differences overwhelm you. Reach out for support today, <strong>(12) ______</strong> you can make the most of your international experience!</div>Chọn liên từ thích hợp điền vào chỗ trống (12):",
+        "question": "Chọn phương án phù hợp điền vào vị trí <strong>(12)</strong>:",
         "options": [
           "A. but",
           "B. so",
@@ -650,7 +846,14 @@
           "D. because"
         ],
         "correct": 1,
-        "explanation": "Liên từ 'so' chỉ mục đích hoặc kết quả: 'Hãy tìm kiếm sự hỗ trợ ngay hôm nay, để bạn có thể tận dụng tối đa trải nghiệm quốc tế!'."
+        "explanation": "Liên từ 'so' chỉ mục đích hoặc kết quả: 'Hãy tìm kiếm sự hỗ trợ ngay hôm nay, để bạn có thể tận dụng tối đa trải nghiệm quốc tế!'.",
+        "passage": {
+          "id": "p-culture-shock",
+          "title": "LEAFLET: OVERCOME CULTURE SHOCK WITH EASE!",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 7 to 12.",
+          "range": "Câu 7 - 12",
+          "content": "Moving to a new country or study environment brings exciting opportunities, but it can also trigger culture shock. Every year, a massive (7) ______ of emotional stress is experienced by exchange students due to language barriers and unfamiliar customs.\n\nJoin our Student Support Network and let us help you (8) ______ your adjustment period smoothly! We are dedicated advisors (9) ______ understand the challenges of living in a new culture.\n\nHow can we support you?\n• Connect with local mentors for weekly language exchange sessions\n• Join cultural workshops to raise your (10) ______ of social etiquette and norms.\n• Discover practical tips to adapt to a new (11) ______ of life without losing your identity.\n\nDon't let cultural differences overwhelm you. Reach out for support today, (12) ______ you can make the most of your international experience!"
+        }
       },
       {
         "id": 13,
@@ -1072,7 +1275,7 @@
       },
       {
         "id": 7,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>GO GREEN – MAKE A DIFFERENCE!</strong><br>Want to live a greener life? Follow these simple tips to protect our planet!<br>• Save Water and Energy: Use less water and turn off unnecessary lights. Try to use <strong>(7) ______</strong> electricity whenever possible...</div>Chọn lượng từ phù hợp điền vào chỗ trống (7):",
+        "question": "Chọn từ/cụm từ thích hợp nhất để điền vào vị trí <strong>(7)</strong>:",
         "options": [
           "A. several",
           "B. many",
@@ -1080,11 +1283,18 @@
           "D. a little"
         ],
         "correct": 3,
-        "explanation": "'electricity' là danh từ không đếm được -> Dùng 'a little' (một lượng nhỏ điện năng)."
+        "explanation": "'electricity' là danh từ không đếm được -> Dùng 'a little' (một lượng nhỏ điện năng).",
+        "passage": {
+          "id": "passage-go-green-leaflet",
+          "title": "THÔNG TIN LEAFLET: GO GREEN – MAKE A DIFFERENCE!",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 7 to 12.",
+          "range": "Câu 7 - 12",
+          "content": "<div class=\"space-y-3 font-sans\">\n  <div class=\"text-center font-bold text-emerald-600 dark:text-emerald-400 text-base\">GO GREEN – MAKE A DIFFERENCE!</div>\n  <div class=\"text-center text-xs italic text-slate-500 dark:text-slate-400\">Small Changes, Big Results! Want to live a greener life? Follow these simple tips to protect our planet!</div>\n  <ul class=\"space-y-2 text-sm mt-3\">\n    <li>• <strong>Save Water and Energy:</strong> Use less water and turn off unnecessary lights. Try to use <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(7) ______</span> electricity whenever possible.</li>\n    <li>• <strong>Reduce Plastic Waste:</strong> Bring reusable bags and bottles. Avoid plastic products <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(8) ______</span> are harmful to the environment.</li>\n    <li>• <strong>Recycle More:</strong> Collect paper, glass, and plastic. You can also <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(9) ______</span> old clothes and books to people in need instead of throwing them away.</li>\n    <li>• <strong>Protect Green Spaces:</strong> Plant trees and join community clean-up activities. These actions help raise public <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(10) ______</span> of environmental problems.</li>\n    <li>• <strong>Choose Eco-friendly Products:</strong> Buy products made from recycled materials. They are often more <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(11) ______</span> than disposable alternatives.</li>\n  </ul>\n  <p class=\"text-sm pt-2\"><span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(12) ______</span>, remember that every small action counts. Together, we can build a cleaner and healthier world!</p>\n  <div class=\"text-center font-bold text-xs text-emerald-700 dark:text-emerald-400 uppercase tracking-wider pt-1\">JOIN THE GREEN LIVING MOVEMENT TODAY!</div>\n</div>"
+        }
       },
       {
         "id": 8,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...• Reduce Plastic Waste: Bring reusable bags and bottles. Avoid plastic products <strong>(8) ______</strong> are harmful to the environment...</div>Chọn đại từ quan hệ thích hợp điền vào chỗ trống (8):",
+        "question": "Chọn từ/cụm từ thích hợp nhất để điền vào vị trí <strong>(8)</strong>:",
         "options": [
           "A. who",
           "B. why",
@@ -1092,11 +1302,18 @@
           "D. which"
         ],
         "correct": 3,
-        "explanation": "'plastic products' là danh từ chỉ vật làm chủ ngữ cho mệnh đề quan hệ -> Dùng 'which'."
+        "explanation": "'plastic products' là danh từ chỉ vật làm chủ ngữ cho mệnh đề quan hệ -> Dùng 'which'.",
+        "passage": {
+          "id": "passage-go-green-leaflet",
+          "title": "THÔNG TIN LEAFLET: GO GREEN – MAKE A DIFFERENCE!",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 7 to 12.",
+          "range": "Câu 7 - 12",
+          "content": "<div class=\"space-y-3 font-sans\">\n  <div class=\"text-center font-bold text-emerald-600 dark:text-emerald-400 text-base\">GO GREEN – MAKE A DIFFERENCE!</div>\n  <div class=\"text-center text-xs italic text-slate-500 dark:text-slate-400\">Small Changes, Big Results! Want to live a greener life? Follow these simple tips to protect our planet!</div>\n  <ul class=\"space-y-2 text-sm mt-3\">\n    <li>• <strong>Save Water and Energy:</strong> Use less water and turn off unnecessary lights. Try to use <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(7) ______</span> electricity whenever possible.</li>\n    <li>• <strong>Reduce Plastic Waste:</strong> Bring reusable bags and bottles. Avoid plastic products <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(8) ______</span> are harmful to the environment.</li>\n    <li>• <strong>Recycle More:</strong> Collect paper, glass, and plastic. You can also <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(9) ______</span> old clothes and books to people in need instead of throwing them away.</li>\n    <li>• <strong>Protect Green Spaces:</strong> Plant trees and join community clean-up activities. These actions help raise public <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(10) ______</span> of environmental problems.</li>\n    <li>• <strong>Choose Eco-friendly Products:</strong> Buy products made from recycled materials. They are often more <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(11) ______</span> than disposable alternatives.</li>\n  </ul>\n  <p class=\"text-sm pt-2\"><span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(12) ______</span>, remember that every small action counts. Together, we can build a cleaner and healthier world!</p>\n  <div class=\"text-center font-bold text-xs text-emerald-700 dark:text-emerald-400 uppercase tracking-wider pt-1\">JOIN THE GREEN LIVING MOVEMENT TODAY!</div>\n</div>"
+        }
       },
       {
         "id": 9,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...• Recycle More: Collect paper, glass, and plastic. You can also <strong>(9) ______</strong> old clothes and books to people in need instead of throwing them away...</div>Chọn cụm động từ thích hợp điền vào chỗ trống (9):",
+        "question": "Chọn từ/cụm từ thích hợp nhất để điền vào vị trí <strong>(9)</strong>:",
         "options": [
           "A. give away",
           "B. look after",
@@ -1104,11 +1321,18 @@
           "D. turn down"
         ],
         "correct": 0,
-        "explanation": "'give away' có nghĩa là quyên góp, cho tặng đồ cũ (quần áo, sách) cho người cần thay vì vứt bỏ."
+        "explanation": "'give away' có nghĩa là quyên góp, cho tặng đồ cũ (quần áo, sách) cho người cần thay vì vứt bỏ.",
+        "passage": {
+          "id": "passage-go-green-leaflet",
+          "title": "THÔNG TIN LEAFLET: GO GREEN – MAKE A DIFFERENCE!",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 7 to 12.",
+          "range": "Câu 7 - 12",
+          "content": "<div class=\"space-y-3 font-sans\">\n  <div class=\"text-center font-bold text-emerald-600 dark:text-emerald-400 text-base\">GO GREEN – MAKE A DIFFERENCE!</div>\n  <div class=\"text-center text-xs italic text-slate-500 dark:text-slate-400\">Small Changes, Big Results! Want to live a greener life? Follow these simple tips to protect our planet!</div>\n  <ul class=\"space-y-2 text-sm mt-3\">\n    <li>• <strong>Save Water and Energy:</strong> Use less water and turn off unnecessary lights. Try to use <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(7) ______</span> electricity whenever possible.</li>\n    <li>• <strong>Reduce Plastic Waste:</strong> Bring reusable bags and bottles. Avoid plastic products <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(8) ______</span> are harmful to the environment.</li>\n    <li>• <strong>Recycle More:</strong> Collect paper, glass, and plastic. You can also <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(9) ______</span> old clothes and books to people in need instead of throwing them away.</li>\n    <li>• <strong>Protect Green Spaces:</strong> Plant trees and join community clean-up activities. These actions help raise public <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(10) ______</span> of environmental problems.</li>\n    <li>• <strong>Choose Eco-friendly Products:</strong> Buy products made from recycled materials. They are often more <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(11) ______</span> than disposable alternatives.</li>\n  </ul>\n  <p class=\"text-sm pt-2\"><span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(12) ______</span>, remember that every small action counts. Together, we can build a cleaner and healthier world!</p>\n  <div class=\"text-center font-bold text-xs text-emerald-700 dark:text-emerald-400 uppercase tracking-wider pt-1\">JOIN THE GREEN LIVING MOVEMENT TODAY!</div>\n</div>"
+        }
       },
       {
         "id": 10,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...• Protect Green Spaces: Plant trees and join community clean-up activities. These actions help raise public <strong>(10) ______</strong> of environmental problems...</div>Chọn từ phù hợp điền vào chỗ trống (10):",
+        "question": "Chọn từ/cụm từ thích hợp nhất để điền vào vị trí <strong>(10)</strong>:",
         "options": [
           "A. awareness",
           "B. permission",
@@ -1116,11 +1340,18 @@
           "D. confidence"
         ],
         "correct": 0,
-        "explanation": "Cụm danh từ quen thuộc: 'public awareness of environmental problems' (nhận thức của công chúng về vấn nạn môi trường)."
+        "explanation": "Cụm danh từ quen thuộc: 'public awareness of environmental problems' (nhận thức của công chúng về vấn nạn môi trường).",
+        "passage": {
+          "id": "passage-go-green-leaflet",
+          "title": "THÔNG TIN LEAFLET: GO GREEN – MAKE A DIFFERENCE!",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 7 to 12.",
+          "range": "Câu 7 - 12",
+          "content": "<div class=\"space-y-3 font-sans\">\n  <div class=\"text-center font-bold text-emerald-600 dark:text-emerald-400 text-base\">GO GREEN – MAKE A DIFFERENCE!</div>\n  <div class=\"text-center text-xs italic text-slate-500 dark:text-slate-400\">Small Changes, Big Results! Want to live a greener life? Follow these simple tips to protect our planet!</div>\n  <ul class=\"space-y-2 text-sm mt-3\">\n    <li>• <strong>Save Water and Energy:</strong> Use less water and turn off unnecessary lights. Try to use <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(7) ______</span> electricity whenever possible.</li>\n    <li>• <strong>Reduce Plastic Waste:</strong> Bring reusable bags and bottles. Avoid plastic products <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(8) ______</span> are harmful to the environment.</li>\n    <li>• <strong>Recycle More:</strong> Collect paper, glass, and plastic. You can also <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(9) ______</span> old clothes and books to people in need instead of throwing them away.</li>\n    <li>• <strong>Protect Green Spaces:</strong> Plant trees and join community clean-up activities. These actions help raise public <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(10) ______</span> of environmental problems.</li>\n    <li>• <strong>Choose Eco-friendly Products:</strong> Buy products made from recycled materials. They are often more <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(11) ______</span> than disposable alternatives.</li>\n  </ul>\n  <p class=\"text-sm pt-2\"><span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(12) ______</span>, remember that every small action counts. Together, we can build a cleaner and healthier world!</p>\n  <div class=\"text-center font-bold text-xs text-emerald-700 dark:text-emerald-400 uppercase tracking-wider pt-1\">JOIN THE GREEN LIVING MOVEMENT TODAY!</div>\n</div>"
+        }
       },
       {
         "id": 11,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...• Choose Eco-friendly Products: Buy products made from recycled materials. They are often more <strong>(11) ______</strong> than disposable alternatives...</div>Chọn tính từ thích hợp điền vào chỗ trống (11):",
+        "question": "Chọn từ/cụm từ thích hợp nhất để điền vào vị trí <strong>(11)</strong>:",
         "options": [
           "A. sustainable",
           "B. temporary",
@@ -1128,11 +1359,18 @@
           "D. careless"
         ],
         "correct": 0,
-        "explanation": "'sustainable' (bền vững, thân thiện với môi trường) đối lập với các sản phẩm dùng một lần ('disposable alternatives')."
+        "explanation": "'sustainable' (bền vững, thân thiện với môi trường) đối lập với các sản phẩm dùng một lần ('disposable alternatives').",
+        "passage": {
+          "id": "passage-go-green-leaflet",
+          "title": "THÔNG TIN LEAFLET: GO GREEN – MAKE A DIFFERENCE!",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 7 to 12.",
+          "range": "Câu 7 - 12",
+          "content": "<div class=\"space-y-3 font-sans\">\n  <div class=\"text-center font-bold text-emerald-600 dark:text-emerald-400 text-base\">GO GREEN – MAKE A DIFFERENCE!</div>\n  <div class=\"text-center text-xs italic text-slate-500 dark:text-slate-400\">Small Changes, Big Results! Want to live a greener life? Follow these simple tips to protect our planet!</div>\n  <ul class=\"space-y-2 text-sm mt-3\">\n    <li>• <strong>Save Water and Energy:</strong> Use less water and turn off unnecessary lights. Try to use <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(7) ______</span> electricity whenever possible.</li>\n    <li>• <strong>Reduce Plastic Waste:</strong> Bring reusable bags and bottles. Avoid plastic products <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(8) ______</span> are harmful to the environment.</li>\n    <li>• <strong>Recycle More:</strong> Collect paper, glass, and plastic. You can also <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(9) ______</span> old clothes and books to people in need instead of throwing them away.</li>\n    <li>• <strong>Protect Green Spaces:</strong> Plant trees and join community clean-up activities. These actions help raise public <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(10) ______</span> of environmental problems.</li>\n    <li>• <strong>Choose Eco-friendly Products:</strong> Buy products made from recycled materials. They are often more <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(11) ______</span> than disposable alternatives.</li>\n  </ul>\n  <p class=\"text-sm pt-2\"><span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(12) ______</span>, remember that every small action counts. Together, we can build a cleaner and healthier world!</p>\n  <div class=\"text-center font-bold text-xs text-emerald-700 dark:text-emerald-400 uppercase tracking-wider pt-1\">JOIN THE GREEN LIVING MOVEMENT TODAY!</div>\n</div>"
+        }
       },
       {
         "id": 12,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...<strong>(12) ______</strong>, remember that every small action counts. Together, we can build a cleaner and healthier world!<br>JOIN THE GREEN LIVING MOVEMENT TODAY!</div>Chọn liên từ phù hợp điền vào chỗ trống (12):",
+        "question": "Chọn từ/cụm từ thích hợp nhất để điền vào vị trí <strong>(12)</strong>:",
         "options": [
           "A. Moreover",
           "B. However",
@@ -1140,7 +1378,14 @@
           "D. For example"
         ],
         "correct": 2,
-        "explanation": "'Therefore' (Do đó/Vì vậy) dùng để đúc kết lại toàn bộ các lời khuyên ở trên trước khi đưa ra thông điệp kết luận."
+        "explanation": "'Therefore' (Do đó/Vì vậy) dùng để đúc kết lại toàn bộ các lời khuyên ở trên trước khi đưa ra thông điệp kết luận.",
+        "passage": {
+          "id": "passage-go-green-leaflet",
+          "title": "THÔNG TIN LEAFLET: GO GREEN – MAKE A DIFFERENCE!",
+          "instruction": "Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 7 to 12.",
+          "range": "Câu 7 - 12",
+          "content": "<div class=\"space-y-3 font-sans\">\n  <div class=\"text-center font-bold text-emerald-600 dark:text-emerald-400 text-base\">GO GREEN – MAKE A DIFFERENCE!</div>\n  <div class=\"text-center text-xs italic text-slate-500 dark:text-slate-400\">Small Changes, Big Results! Want to live a greener life? Follow these simple tips to protect our planet!</div>\n  <ul class=\"space-y-2 text-sm mt-3\">\n    <li>• <strong>Save Water and Energy:</strong> Use less water and turn off unnecessary lights. Try to use <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(7) ______</span> electricity whenever possible.</li>\n    <li>• <strong>Reduce Plastic Waste:</strong> Bring reusable bags and bottles. Avoid plastic products <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(8) ______</span> are harmful to the environment.</li>\n    <li>• <strong>Recycle More:</strong> Collect paper, glass, and plastic. You can also <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(9) ______</span> old clothes and books to people in need instead of throwing them away.</li>\n    <li>• <strong>Protect Green Spaces:</strong> Plant trees and join community clean-up activities. These actions help raise public <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(10) ______</span> of environmental problems.</li>\n    <li>• <strong>Choose Eco-friendly Products:</strong> Buy products made from recycled materials. They are often more <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(11) ______</span> than disposable alternatives.</li>\n  </ul>\n  <p class=\"text-sm pt-2\"><span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(12) ______</span>, remember that every small action counts. Together, we can build a cleaner and healthier world!</p>\n  <div class=\"text-center font-bold text-xs text-emerald-700 dark:text-emerald-400 uppercase tracking-wider pt-1\">JOIN THE GREEN LIVING MOVEMENT TODAY!</div>\n</div>"
+        }
       },
       {
         "id": 13,
@@ -1212,7 +1457,14 @@
           "D. The reasons governments should take full responsibility for environmental protection."
         ],
         "correct": 2,
-        "explanation": "Ý chính toàn bài: Tầm quan trọng của cả hành động cá nhân lẫn nỗ lực tập thể (doanh nghiệp, chính phủ) trong việc thúc đẩy lối sống xanh."
+        "explanation": "Ý chính toàn bài: Tầm quan trọng của cả hành động cá nhân lẫn nỗ lực tập thể (doanh nghiệp, chính phủ) trong việc thúc đẩy lối sống xanh.",
+        "passage": {
+          "id": "passage-green-living-reading",
+          "title": "BÀI ĐỌC HIỂU: GREEN LIVING – MORE THAN A PERSONAL CHOICE",
+          "instruction": "Read the passage and mark the letter A, B, C or D on your answer sheet to indicate the best answer to each of the following questions from 18 to 27.",
+          "range": "Câu 18 - 27",
+          "content": "<div class=\"space-y-3 font-serif leading-relaxed text-sm\">\n  <p><strong>[Đoạn 1]</strong> Green living has become increasingly important as the world faces environmental challenges such as climate change, air pollution, and the depletion of natural resources. Although some people believe that protecting the environment requires major technological advances, everyday choices can also contribute to meaningful change. By adjusting their habits, individuals can reduce their environmental footprint and encourage others to adopt more responsible lifestyles.</p>\n  \n  <p><strong>[Đoạn 2]</strong> One practical way to live sustainably is to reconsider how we consume energy and goods. Using energy-efficient appliances, walking or cycling for short journeys, and choosing reusable products can help reduce waste and carbon emissions. Moreover, buying locally produced food may reduce the environmental costs associated with long-distance transportation. However, consumers should look beyond attractive labels and examine how products are manufactured, packaged, and disposed of. <u>A product advertised as environmentally friendly is not necessarily sustainable throughout its entire life cycle.</u></p>\n  \n  <p><strong>[Đoạn 3]</strong> Nevertheless, individual efforts alone cannot solve every environmental problem. Even when households make considerable changes, <strong>their</strong> progress may be <strong>undermined</strong> by industries that continue to produce excessive waste or governments that fail to enforce environmental regulations. Businesses must invest in cleaner production methods, while authorities should improve public transport and provide reliable recycling facilities. These measures make sustainable choices more accessible to the wider population rather than leaving environmental responsibility entirely to individuals.</p>\n  \n  <p><strong>[Đoạn 4]</strong> Ultimately, green living requires cooperation between citizens, businesses, and governments. Small actions may appear <strong>negligible</strong> when considered separately, but their combined impact can be substantial. More importantly, sustainable habits can influence social attitudes and create pressure for broader environmental reforms. A greener future therefore depends not only on what individuals choose to do today but also on their willingness to support long-term changes in their communities.</p>\n</div>"
+        }
       },
       {
         "id": 19,
@@ -1224,7 +1476,14 @@
           "D. industries'"
         ],
         "correct": 2,
-        "explanation": "Dẫn chứng đoạn 3: 'Even when households make considerable changes, their progress may be undermined by industries...' -> 'their' thay cho 'households''."
+        "explanation": "Dẫn chứng đoạn 3: 'Even when households make considerable changes, their progress may be undermined by industries...' -> 'their' thay cho 'households''.",
+        "passage": {
+          "id": "passage-green-living-reading",
+          "title": "BÀI ĐỌC HIỂU: GREEN LIVING – MORE THAN A PERSONAL CHOICE",
+          "instruction": "Read the passage and mark the letter A, B, C or D on your answer sheet to indicate the best answer to each of the following questions from 18 to 27.",
+          "range": "Câu 18 - 27",
+          "content": "<div class=\"space-y-3 font-serif leading-relaxed text-sm\">\n  <p><strong>[Đoạn 1]</strong> Green living has become increasingly important as the world faces environmental challenges such as climate change, air pollution, and the depletion of natural resources. Although some people believe that protecting the environment requires major technological advances, everyday choices can also contribute to meaningful change. By adjusting their habits, individuals can reduce their environmental footprint and encourage others to adopt more responsible lifestyles.</p>\n  \n  <p><strong>[Đoạn 2]</strong> One practical way to live sustainably is to reconsider how we consume energy and goods. Using energy-efficient appliances, walking or cycling for short journeys, and choosing reusable products can help reduce waste and carbon emissions. Moreover, buying locally produced food may reduce the environmental costs associated with long-distance transportation. However, consumers should look beyond attractive labels and examine how products are manufactured, packaged, and disposed of. <u>A product advertised as environmentally friendly is not necessarily sustainable throughout its entire life cycle.</u></p>\n  \n  <p><strong>[Đoạn 3]</strong> Nevertheless, individual efforts alone cannot solve every environmental problem. Even when households make considerable changes, <strong>their</strong> progress may be <strong>undermined</strong> by industries that continue to produce excessive waste or governments that fail to enforce environmental regulations. Businesses must invest in cleaner production methods, while authorities should improve public transport and provide reliable recycling facilities. These measures make sustainable choices more accessible to the wider population rather than leaving environmental responsibility entirely to individuals.</p>\n  \n  <p><strong>[Đoạn 4]</strong> Ultimately, green living requires cooperation between citizens, businesses, and governments. Small actions may appear <strong>negligible</strong> when considered separately, but their combined impact can be substantial. More importantly, sustainable habits can influence social attitudes and create pressure for broader environmental reforms. A greener future therefore depends not only on what individuals choose to do today but also on their willingness to support long-term changes in their communities.</p>\n</div>"
+        }
       },
       {
         "id": 20,
@@ -1236,7 +1495,14 @@
           "D. weakened"
         ],
         "correct": 3,
-        "explanation": "'undermined' (bị làm suy yếu, làm giảm hiệu quả) đồng nghĩa với 'weakened'."
+        "explanation": "'undermined' (bị làm suy yếu, làm giảm hiệu quả) đồng nghĩa với 'weakened'.",
+        "passage": {
+          "id": "passage-green-living-reading",
+          "title": "BÀI ĐỌC HIỂU: GREEN LIVING – MORE THAN A PERSONAL CHOICE",
+          "instruction": "Read the passage and mark the letter A, B, C or D on your answer sheet to indicate the best answer to each of the following questions from 18 to 27.",
+          "range": "Câu 18 - 27",
+          "content": "<div class=\"space-y-3 font-serif leading-relaxed text-sm\">\n  <p><strong>[Đoạn 1]</strong> Green living has become increasingly important as the world faces environmental challenges such as climate change, air pollution, and the depletion of natural resources. Although some people believe that protecting the environment requires major technological advances, everyday choices can also contribute to meaningful change. By adjusting their habits, individuals can reduce their environmental footprint and encourage others to adopt more responsible lifestyles.</p>\n  \n  <p><strong>[Đoạn 2]</strong> One practical way to live sustainably is to reconsider how we consume energy and goods. Using energy-efficient appliances, walking or cycling for short journeys, and choosing reusable products can help reduce waste and carbon emissions. Moreover, buying locally produced food may reduce the environmental costs associated with long-distance transportation. However, consumers should look beyond attractive labels and examine how products are manufactured, packaged, and disposed of. <u>A product advertised as environmentally friendly is not necessarily sustainable throughout its entire life cycle.</u></p>\n  \n  <p><strong>[Đoạn 3]</strong> Nevertheless, individual efforts alone cannot solve every environmental problem. Even when households make considerable changes, <strong>their</strong> progress may be <strong>undermined</strong> by industries that continue to produce excessive waste or governments that fail to enforce environmental regulations. Businesses must invest in cleaner production methods, while authorities should improve public transport and provide reliable recycling facilities. These measures make sustainable choices more accessible to the wider population rather than leaving environmental responsibility entirely to individuals.</p>\n  \n  <p><strong>[Đoạn 4]</strong> Ultimately, green living requires cooperation between citizens, businesses, and governments. Small actions may appear <strong>negligible</strong> when considered separately, but their combined impact can be substantial. More importantly, sustainable habits can influence social attitudes and create pressure for broader environmental reforms. A greener future therefore depends not only on what individuals choose to do today but also on their willingness to support long-term changes in their communities.</p>\n</div>"
+        }
       },
       {
         "id": 21,
@@ -1248,7 +1514,14 @@
           "D. Products with environmental labels are always sustainable from production to disposal."
         ],
         "correct": 2,
-        "explanation": "Câu C diễn đạt lại chính xác nhất: Tuyên bố thân thiện với môi trường của một sản phẩm không đảm bảo rằng nó thực sự bền vững trong mọi giai đoạn của vòng đời."
+        "explanation": "Câu C diễn đạt lại chính xác nhất: Tuyên bố thân thiện với môi trường của một sản phẩm không đảm bảo rằng nó thực sự bền vững trong mọi giai đoạn của vòng đời.",
+        "passage": {
+          "id": "passage-green-living-reading",
+          "title": "BÀI ĐỌC HIỂU: GREEN LIVING – MORE THAN A PERSONAL CHOICE",
+          "instruction": "Read the passage and mark the letter A, B, C or D on your answer sheet to indicate the best answer to each of the following questions from 18 to 27.",
+          "range": "Câu 18 - 27",
+          "content": "<div class=\"space-y-3 font-serif leading-relaxed text-sm\">\n  <p><strong>[Đoạn 1]</strong> Green living has become increasingly important as the world faces environmental challenges such as climate change, air pollution, and the depletion of natural resources. Although some people believe that protecting the environment requires major technological advances, everyday choices can also contribute to meaningful change. By adjusting their habits, individuals can reduce their environmental footprint and encourage others to adopt more responsible lifestyles.</p>\n  \n  <p><strong>[Đoạn 2]</strong> One practical way to live sustainably is to reconsider how we consume energy and goods. Using energy-efficient appliances, walking or cycling for short journeys, and choosing reusable products can help reduce waste and carbon emissions. Moreover, buying locally produced food may reduce the environmental costs associated with long-distance transportation. However, consumers should look beyond attractive labels and examine how products are manufactured, packaged, and disposed of. <u>A product advertised as environmentally friendly is not necessarily sustainable throughout its entire life cycle.</u></p>\n  \n  <p><strong>[Đoạn 3]</strong> Nevertheless, individual efforts alone cannot solve every environmental problem. Even when households make considerable changes, <strong>their</strong> progress may be <strong>undermined</strong> by industries that continue to produce excessive waste or governments that fail to enforce environmental regulations. Businesses must invest in cleaner production methods, while authorities should improve public transport and provide reliable recycling facilities. These measures make sustainable choices more accessible to the wider population rather than leaving environmental responsibility entirely to individuals.</p>\n  \n  <p><strong>[Đoạn 4]</strong> Ultimately, green living requires cooperation between citizens, businesses, and governments. Small actions may appear <strong>negligible</strong> when considered separately, but their combined impact can be substantial. More importantly, sustainable habits can influence social attitudes and create pressure for broader environmental reforms. A greener future therefore depends not only on what individuals choose to do today but also on their willingness to support long-term changes in their communities.</p>\n</div>"
+        }
       },
       {
         "id": 22,
@@ -1260,7 +1533,14 @@
           "D. insignificant"
         ],
         "correct": 1,
-        "explanation": "'negligible' (nhỏ bé, không đáng kể) trái nghĩa với 'substantial' (đáng kể, to lớn)."
+        "explanation": "'negligible' (nhỏ bé, không đáng kể) trái nghĩa với 'substantial' (đáng kể, to lớn).",
+        "passage": {
+          "id": "passage-green-living-reading",
+          "title": "BÀI ĐỌC HIỂU: GREEN LIVING – MORE THAN A PERSONAL CHOICE",
+          "instruction": "Read the passage and mark the letter A, B, C or D on your answer sheet to indicate the best answer to each of the following questions from 18 to 27.",
+          "range": "Câu 18 - 27",
+          "content": "<div class=\"space-y-3 font-serif leading-relaxed text-sm\">\n  <p><strong>[Đoạn 1]</strong> Green living has become increasingly important as the world faces environmental challenges such as climate change, air pollution, and the depletion of natural resources. Although some people believe that protecting the environment requires major technological advances, everyday choices can also contribute to meaningful change. By adjusting their habits, individuals can reduce their environmental footprint and encourage others to adopt more responsible lifestyles.</p>\n  \n  <p><strong>[Đoạn 2]</strong> One practical way to live sustainably is to reconsider how we consume energy and goods. Using energy-efficient appliances, walking or cycling for short journeys, and choosing reusable products can help reduce waste and carbon emissions. Moreover, buying locally produced food may reduce the environmental costs associated with long-distance transportation. However, consumers should look beyond attractive labels and examine how products are manufactured, packaged, and disposed of. <u>A product advertised as environmentally friendly is not necessarily sustainable throughout its entire life cycle.</u></p>\n  \n  <p><strong>[Đoạn 3]</strong> Nevertheless, individual efforts alone cannot solve every environmental problem. Even when households make considerable changes, <strong>their</strong> progress may be <strong>undermined</strong> by industries that continue to produce excessive waste or governments that fail to enforce environmental regulations. Businesses must invest in cleaner production methods, while authorities should improve public transport and provide reliable recycling facilities. These measures make sustainable choices more accessible to the wider population rather than leaving environmental responsibility entirely to individuals.</p>\n  \n  <p><strong>[Đoạn 4]</strong> Ultimately, green living requires cooperation between citizens, businesses, and governments. Small actions may appear <strong>negligible</strong> when considered separately, but their combined impact can be substantial. More importantly, sustainable habits can influence social attitudes and create pressure for broader environmental reforms. A greener future therefore depends not only on what individuals choose to do today but also on their willingness to support long-term changes in their communities.</p>\n</div>"
+        }
       },
       {
         "id": 23,
@@ -1272,7 +1552,14 @@
           "D. Investing in cleaner production methods."
         ],
         "correct": 1,
-        "explanation": "Bài viết không đề cập đến việc áp dụng hình phạt tài chính đối với hộ gia đình dùng nhiều điện (B)."
+        "explanation": "Bài viết không đề cập đến việc áp dụng hình phạt tài chính đối với hộ gia đình dùng nhiều điện (B).",
+        "passage": {
+          "id": "passage-green-living-reading",
+          "title": "BÀI ĐỌC HIỂU: GREEN LIVING – MORE THAN A PERSONAL CHOICE",
+          "instruction": "Read the passage and mark the letter A, B, C or D on your answer sheet to indicate the best answer to each of the following questions from 18 to 27.",
+          "range": "Câu 18 - 27",
+          "content": "<div class=\"space-y-3 font-serif leading-relaxed text-sm\">\n  <p><strong>[Đoạn 1]</strong> Green living has become increasingly important as the world faces environmental challenges such as climate change, air pollution, and the depletion of natural resources. Although some people believe that protecting the environment requires major technological advances, everyday choices can also contribute to meaningful change. By adjusting their habits, individuals can reduce their environmental footprint and encourage others to adopt more responsible lifestyles.</p>\n  \n  <p><strong>[Đoạn 2]</strong> One practical way to live sustainably is to reconsider how we consume energy and goods. Using energy-efficient appliances, walking or cycling for short journeys, and choosing reusable products can help reduce waste and carbon emissions. Moreover, buying locally produced food may reduce the environmental costs associated with long-distance transportation. However, consumers should look beyond attractive labels and examine how products are manufactured, packaged, and disposed of. <u>A product advertised as environmentally friendly is not necessarily sustainable throughout its entire life cycle.</u></p>\n  \n  <p><strong>[Đoạn 3]</strong> Nevertheless, individual efforts alone cannot solve every environmental problem. Even when households make considerable changes, <strong>their</strong> progress may be <strong>undermined</strong> by industries that continue to produce excessive waste or governments that fail to enforce environmental regulations. Businesses must invest in cleaner production methods, while authorities should improve public transport and provide reliable recycling facilities. These measures make sustainable choices more accessible to the wider population rather than leaving environmental responsibility entirely to individuals.</p>\n  \n  <p><strong>[Đoạn 4]</strong> Ultimately, green living requires cooperation between citizens, businesses, and governments. Small actions may appear <strong>negligible</strong> when considered separately, but their combined impact can be substantial. More importantly, sustainable habits can influence social attitudes and create pressure for broader environmental reforms. A greener future therefore depends not only on what individuals choose to do today but also on their willingness to support long-term changes in their communities.</p>\n</div>"
+        }
       },
       {
         "id": 24,
@@ -1284,7 +1571,14 @@
           "D. Individual actions are sufficient to solve all environmental problems."
         ],
         "correct": 2,
-        "explanation": "Dẫn chứng đoạn 4: 'Ultimately, green living requires cooperation between citizens, businesses, and governments' (Đáp án C đúng)."
+        "explanation": "Dẫn chứng đoạn 4: 'Ultimately, green living requires cooperation between citizens, businesses, and governments' (Đáp án C đúng).",
+        "passage": {
+          "id": "passage-green-living-reading",
+          "title": "BÀI ĐỌC HIỂU: GREEN LIVING – MORE THAN A PERSONAL CHOICE",
+          "instruction": "Read the passage and mark the letter A, B, C or D on your answer sheet to indicate the best answer to each of the following questions from 18 to 27.",
+          "range": "Câu 18 - 27",
+          "content": "<div class=\"space-y-3 font-serif leading-relaxed text-sm\">\n  <p><strong>[Đoạn 1]</strong> Green living has become increasingly important as the world faces environmental challenges such as climate change, air pollution, and the depletion of natural resources. Although some people believe that protecting the environment requires major technological advances, everyday choices can also contribute to meaningful change. By adjusting their habits, individuals can reduce their environmental footprint and encourage others to adopt more responsible lifestyles.</p>\n  \n  <p><strong>[Đoạn 2]</strong> One practical way to live sustainably is to reconsider how we consume energy and goods. Using energy-efficient appliances, walking or cycling for short journeys, and choosing reusable products can help reduce waste and carbon emissions. Moreover, buying locally produced food may reduce the environmental costs associated with long-distance transportation. However, consumers should look beyond attractive labels and examine how products are manufactured, packaged, and disposed of. <u>A product advertised as environmentally friendly is not necessarily sustainable throughout its entire life cycle.</u></p>\n  \n  <p><strong>[Đoạn 3]</strong> Nevertheless, individual efforts alone cannot solve every environmental problem. Even when households make considerable changes, <strong>their</strong> progress may be <strong>undermined</strong> by industries that continue to produce excessive waste or governments that fail to enforce environmental regulations. Businesses must invest in cleaner production methods, while authorities should improve public transport and provide reliable recycling facilities. These measures make sustainable choices more accessible to the wider population rather than leaving environmental responsibility entirely to individuals.</p>\n  \n  <p><strong>[Đoạn 4]</strong> Ultimately, green living requires cooperation between citizens, businesses, and governments. Small actions may appear <strong>negligible</strong> when considered separately, but their combined impact can be substantial. More importantly, sustainable habits can influence social attitudes and create pressure for broader environmental reforms. A greener future therefore depends not only on what individuals choose to do today but also on their willingness to support long-term changes in their communities.</p>\n</div>"
+        }
       },
       {
         "id": 25,
@@ -1296,7 +1590,14 @@
           "D. To ensure that locally produced goods are always cheaper."
         ],
         "correct": 0,
-        "explanation": "Người tiêu dùng cần xem xét cách sản xuất, đóng gói và xử lý rác thải để đánh giá xem sản phẩm có thực sự bền vững trong suốt vòng đời hay không (A)."
+        "explanation": "Người tiêu dùng cần xem xét cách sản xuất, đóng gói và xử lý rác thải để đánh giá xem sản phẩm có thực sự bền vững trong suốt vòng đời hay không (A).",
+        "passage": {
+          "id": "passage-green-living-reading",
+          "title": "BÀI ĐỌC HIỂU: GREEN LIVING – MORE THAN A PERSONAL CHOICE",
+          "instruction": "Read the passage and mark the letter A, B, C or D on your answer sheet to indicate the best answer to each of the following questions from 18 to 27.",
+          "range": "Câu 18 - 27",
+          "content": "<div class=\"space-y-3 font-serif leading-relaxed text-sm\">\n  <p><strong>[Đoạn 1]</strong> Green living has become increasingly important as the world faces environmental challenges such as climate change, air pollution, and the depletion of natural resources. Although some people believe that protecting the environment requires major technological advances, everyday choices can also contribute to meaningful change. By adjusting their habits, individuals can reduce their environmental footprint and encourage others to adopt more responsible lifestyles.</p>\n  \n  <p><strong>[Đoạn 2]</strong> One practical way to live sustainably is to reconsider how we consume energy and goods. Using energy-efficient appliances, walking or cycling for short journeys, and choosing reusable products can help reduce waste and carbon emissions. Moreover, buying locally produced food may reduce the environmental costs associated with long-distance transportation. However, consumers should look beyond attractive labels and examine how products are manufactured, packaged, and disposed of. <u>A product advertised as environmentally friendly is not necessarily sustainable throughout its entire life cycle.</u></p>\n  \n  <p><strong>[Đoạn 3]</strong> Nevertheless, individual efforts alone cannot solve every environmental problem. Even when households make considerable changes, <strong>their</strong> progress may be <strong>undermined</strong> by industries that continue to produce excessive waste or governments that fail to enforce environmental regulations. Businesses must invest in cleaner production methods, while authorities should improve public transport and provide reliable recycling facilities. These measures make sustainable choices more accessible to the wider population rather than leaving environmental responsibility entirely to individuals.</p>\n  \n  <p><strong>[Đoạn 4]</strong> Ultimately, green living requires cooperation between citizens, businesses, and governments. Small actions may appear <strong>negligible</strong> when considered separately, but their combined impact can be substantial. More importantly, sustainable habits can influence social attitudes and create pressure for broader environmental reforms. A greener future therefore depends not only on what individuals choose to do today but also on their willingness to support long-term changes in their communities.</p>\n</div>"
+        }
       },
       {
         "id": 26,
@@ -1308,7 +1609,14 @@
           "D. Paragraph 3"
         ],
         "correct": 3,
-        "explanation": "Đoạn 3 mở đầu bằng 'Nevertheless, individual efforts alone cannot solve every environmental problem...' và thảo luận trách nhiệm của doanh nghiệp và chính quyền."
+        "explanation": "Đoạn 3 mở đầu bằng 'Nevertheless, individual efforts alone cannot solve every environmental problem...' và thảo luận trách nhiệm của doanh nghiệp và chính quyền.",
+        "passage": {
+          "id": "passage-green-living-reading",
+          "title": "BÀI ĐỌC HIỂU: GREEN LIVING – MORE THAN A PERSONAL CHOICE",
+          "instruction": "Read the passage and mark the letter A, B, C or D on your answer sheet to indicate the best answer to each of the following questions from 18 to 27.",
+          "range": "Câu 18 - 27",
+          "content": "<div class=\"space-y-3 font-serif leading-relaxed text-sm\">\n  <p><strong>[Đoạn 1]</strong> Green living has become increasingly important as the world faces environmental challenges such as climate change, air pollution, and the depletion of natural resources. Although some people believe that protecting the environment requires major technological advances, everyday choices can also contribute to meaningful change. By adjusting their habits, individuals can reduce their environmental footprint and encourage others to adopt more responsible lifestyles.</p>\n  \n  <p><strong>[Đoạn 2]</strong> One practical way to live sustainably is to reconsider how we consume energy and goods. Using energy-efficient appliances, walking or cycling for short journeys, and choosing reusable products can help reduce waste and carbon emissions. Moreover, buying locally produced food may reduce the environmental costs associated with long-distance transportation. However, consumers should look beyond attractive labels and examine how products are manufactured, packaged, and disposed of. <u>A product advertised as environmentally friendly is not necessarily sustainable throughout its entire life cycle.</u></p>\n  \n  <p><strong>[Đoạn 3]</strong> Nevertheless, individual efforts alone cannot solve every environmental problem. Even when households make considerable changes, <strong>their</strong> progress may be <strong>undermined</strong> by industries that continue to produce excessive waste or governments that fail to enforce environmental regulations. Businesses must invest in cleaner production methods, while authorities should improve public transport and provide reliable recycling facilities. These measures make sustainable choices more accessible to the wider population rather than leaving environmental responsibility entirely to individuals.</p>\n  \n  <p><strong>[Đoạn 4]</strong> Ultimately, green living requires cooperation between citizens, businesses, and governments. Small actions may appear <strong>negligible</strong> when considered separately, but their combined impact can be substantial. More importantly, sustainable habits can influence social attitudes and create pressure for broader environmental reforms. A greener future therefore depends not only on what individuals choose to do today but also on their willingness to support long-term changes in their communities.</p>\n</div>"
+        }
       },
       {
         "id": 27,
@@ -1320,11 +1628,18 @@
           "D. Paragraph 3"
         ],
         "correct": 2,
-        "explanation": "Đoạn 4 nêu rõ: 'Small actions may appear negligible when considered separately, but their combined impact can be substantial...'."
+        "explanation": "Đoạn 4 nêu rõ: 'Small actions may appear negligible when considered separately, but their combined impact can be substantial...'.",
+        "passage": {
+          "id": "passage-green-living-reading",
+          "title": "BÀI ĐỌC HIỂU: GREEN LIVING – MORE THAN A PERSONAL CHOICE",
+          "instruction": "Read the passage and mark the letter A, B, C or D on your answer sheet to indicate the best answer to each of the following questions from 18 to 27.",
+          "range": "Câu 18 - 27",
+          "content": "<div class=\"space-y-3 font-serif leading-relaxed text-sm\">\n  <p><strong>[Đoạn 1]</strong> Green living has become increasingly important as the world faces environmental challenges such as climate change, air pollution, and the depletion of natural resources. Although some people believe that protecting the environment requires major technological advances, everyday choices can also contribute to meaningful change. By adjusting their habits, individuals can reduce their environmental footprint and encourage others to adopt more responsible lifestyles.</p>\n  \n  <p><strong>[Đoạn 2]</strong> One practical way to live sustainably is to reconsider how we consume energy and goods. Using energy-efficient appliances, walking or cycling for short journeys, and choosing reusable products can help reduce waste and carbon emissions. Moreover, buying locally produced food may reduce the environmental costs associated with long-distance transportation. However, consumers should look beyond attractive labels and examine how products are manufactured, packaged, and disposed of. <u>A product advertised as environmentally friendly is not necessarily sustainable throughout its entire life cycle.</u></p>\n  \n  <p><strong>[Đoạn 3]</strong> Nevertheless, individual efforts alone cannot solve every environmental problem. Even when households make considerable changes, <strong>their</strong> progress may be <strong>undermined</strong> by industries that continue to produce excessive waste or governments that fail to enforce environmental regulations. Businesses must invest in cleaner production methods, while authorities should improve public transport and provide reliable recycling facilities. These measures make sustainable choices more accessible to the wider population rather than leaving environmental responsibility entirely to individuals.</p>\n  \n  <p><strong>[Đoạn 4]</strong> Ultimately, green living requires cooperation between citizens, businesses, and governments. Small actions may appear <strong>negligible</strong> when considered separately, but their combined impact can be substantial. More importantly, sustainable habits can influence social attitudes and create pressure for broader environmental reforms. A greener future therefore depends not only on what individuals choose to do today but also on their willingness to support long-term changes in their communities.</p>\n</div>"
+        }
       },
       {
         "id": 28,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>General Vo Nguyen Giap</strong><br>General Vo Nguyen Giap <strong>(28) ______</strong> on August 25, 1911, in An Xa village, Quang Binh Province. His father was a poor mandarin who passed away in French custody due to his political activities...</div>Chọn cụm từ thích hợp điền vào chỗ trống (28):",
+        "question": "Chọn câu hoặc mệnh đề phù hợp nhất để điền vào vị trí <strong>(28)</strong>:",
         "options": [
           "A. whose family had a strong nationalist tradition",
           "B. to come from a family with a strong nationalist tradition",
@@ -1332,11 +1647,18 @@
           "D. came from a family with a strong nationalist tradition"
         ],
         "correct": 3,
-        "explanation": "Động từ chính của câu: 'General Vo Nguyen Giap came from a family with a strong nationalist tradition, born on August 25, 1911...' (D xuất thân từ một gia đình có truyền thống yêu nước nồng nàn)."
+        "explanation": "Động từ chính của câu: 'General Vo Nguyen Giap came from a family with a strong nationalist tradition, born on August 25, 1911...' (D xuất thân từ một gia đình có truyền thống yêu nước nồng nàn).",
+        "passage": {
+          "id": "passage-giap-cloze",
+          "title": "BÀI ĐỌC ĐIỀN: GENERAL VO NGUYEN GIAP",
+          "instruction": "Mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 28 to 32.",
+          "range": "Câu 28 - 32",
+          "content": "<div class=\"space-y-3 font-serif leading-relaxed text-sm\">\n  <p>General Vo Nguyen Giap <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(28) ______</span> on August 25, 1911, in An Xa village, Quang Binh Province. His father was a poor mandarin who passed away in French custody due to his political activities. At the age of 14, Giap enrolled in the prestigious Quoc Hoc School in Hue, where he began his political activism by participating in protests against French colonial rule and <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(29) ______</span>. This led to his expulsion, after which he continued his studies in Hanoi and later taught history.</p>\n  <p>In 1939, facing increasing persecution from French authorities, Giap fled to China, where he joined Ho Chi Minh and received military training. In May 1941, he co-founded the Viet Minh, a coalition seeking Vietnamese independence. Upon Japan's surrender in 1945, Giap served as Minister of the Interior in the newly established Democratic Republic of Vietnam. He played a crucial role in negotiating with French representatives. <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(30) ______</span>. The agreement aimed to resolve conflicts between Vietnam and France through diplomatic means.</p>\n  <p>Throughout the subsequent decades, General Giap led the Vietnamese military in both the First Indochina War against French forces and the Vietnam War against the United States and South Vietnam. <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(31) ______</span>. His strategic leadership contributed significantly to the victory at the Battle of Dien Bien Phu in 1954, which marked a turning point in the struggle for Vietnamese independence.</p>\n  <p>After Vietnam's reunification in 1975, General Giap continued to influence the country's defence and development policies. He passed away on October 4, 2013, at the age of 102. General Giap, <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(32) ______</span>, left a lasting legacy in Vietnam's history.</p>\n</div>"
+        }
       },
       {
         "id": 29,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...At the age of 14, Giap enrolled in the prestigious Quoc Hoc School in Hue, where he began his political activism by participating in protests against French colonial rule and <strong>(29) ______</strong>...</div>Chọn cụm từ thích hợp điền vào chỗ trống (29):",
+        "question": "Chọn câu hoặc mệnh đề phù hợp nhất để điền vào vị trí <strong>(29)</strong>:",
         "options": [
           "A. to join the Tan Viet Revolutionary Party",
           "B. having joined the Tan Viet Revolutionary Party",
@@ -1344,11 +1666,18 @@
           "D. joined the Tan Viet Revolutionary Party"
         ],
         "correct": 2,
-        "explanation": "Cấu trúc song hành với 'participating in... and joining...' (tham gia các cuộc biểu tình và gia nhập Đảng Tân Việt)."
+        "explanation": "Cấu trúc song hành với 'participating in... and joining...' (tham gia các cuộc biểu tình và gia nhập Đảng Tân Việt).",
+        "passage": {
+          "id": "passage-giap-cloze",
+          "title": "BÀI ĐỌC ĐIỀN: GENERAL VO NGUYEN GIAP",
+          "instruction": "Mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 28 to 32.",
+          "range": "Câu 28 - 32",
+          "content": "<div class=\"space-y-3 font-serif leading-relaxed text-sm\">\n  <p>General Vo Nguyen Giap <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(28) ______</span> on August 25, 1911, in An Xa village, Quang Binh Province. His father was a poor mandarin who passed away in French custody due to his political activities. At the age of 14, Giap enrolled in the prestigious Quoc Hoc School in Hue, where he began his political activism by participating in protests against French colonial rule and <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(29) ______</span>. This led to his expulsion, after which he continued his studies in Hanoi and later taught history.</p>\n  <p>In 1939, facing increasing persecution from French authorities, Giap fled to China, where he joined Ho Chi Minh and received military training. In May 1941, he co-founded the Viet Minh, a coalition seeking Vietnamese independence. Upon Japan's surrender in 1945, Giap served as Minister of the Interior in the newly established Democratic Republic of Vietnam. He played a crucial role in negotiating with French representatives. <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(30) ______</span>. The agreement aimed to resolve conflicts between Vietnam and France through diplomatic means.</p>\n  <p>Throughout the subsequent decades, General Giap led the Vietnamese military in both the First Indochina War against French forces and the Vietnam War against the United States and South Vietnam. <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(31) ______</span>. His strategic leadership contributed significantly to the victory at the Battle of Dien Bien Phu in 1954, which marked a turning point in the struggle for Vietnamese independence.</p>\n  <p>After Vietnam's reunification in 1975, General Giap continued to influence the country's defence and development policies. He passed away on October 4, 2013, at the age of 102. General Giap, <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(32) ______</span>, left a lasting legacy in Vietnam's history.</p>\n</div>"
+        }
       },
       {
         "id": 30,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...He played a crucial role in negotiating with French representatives. <strong>(30) ______</strong>. The agreement aimed to resolve conflicts between Vietnam and France through diplomatic means...</div>Chọn câu văn phù hợp điền vào chỗ trống (30):",
+        "question": "Chọn câu hoặc mệnh đề phù hợp nhất để điền vào vị trí <strong>(30)</strong>:",
         "options": [
           "A. In contrast, he refused to cooperate with the representatives of the French government.",
           "B. However, his diplomatic efforts failed to produce any agreement with the French.",
@@ -1356,11 +1685,18 @@
           "D. Moreover, his diplomatic skills helped him reach an agreement with the French representatives."
         ],
         "correct": 3,
-        "explanation": "Liên kết bổ sung với câu trước về tài ngoại giao: 'Moreover, his diplomatic skills helped him reach an agreement with the French representatives' dẫn tới việc ký kết hiệp định hòa hoãn."
+        "explanation": "Liên kết bổ sung với câu trước về tài ngoại giao: 'Moreover, his diplomatic skills helped him reach an agreement with the French representatives' dẫn tới việc ký kết hiệp định hòa hoãn.",
+        "passage": {
+          "id": "passage-giap-cloze",
+          "title": "BÀI ĐỌC ĐIỀN: GENERAL VO NGUYEN GIAP",
+          "instruction": "Mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 28 to 32.",
+          "range": "Câu 28 - 32",
+          "content": "<div class=\"space-y-3 font-serif leading-relaxed text-sm\">\n  <p>General Vo Nguyen Giap <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(28) ______</span> on August 25, 1911, in An Xa village, Quang Binh Province. His father was a poor mandarin who passed away in French custody due to his political activities. At the age of 14, Giap enrolled in the prestigious Quoc Hoc School in Hue, where he began his political activism by participating in protests against French colonial rule and <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(29) ______</span>. This led to his expulsion, after which he continued his studies in Hanoi and later taught history.</p>\n  <p>In 1939, facing increasing persecution from French authorities, Giap fled to China, where he joined Ho Chi Minh and received military training. In May 1941, he co-founded the Viet Minh, a coalition seeking Vietnamese independence. Upon Japan's surrender in 1945, Giap served as Minister of the Interior in the newly established Democratic Republic of Vietnam. He played a crucial role in negotiating with French representatives. <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(30) ______</span>. The agreement aimed to resolve conflicts between Vietnam and France through diplomatic means.</p>\n  <p>Throughout the subsequent decades, General Giap led the Vietnamese military in both the First Indochina War against French forces and the Vietnam War against the United States and South Vietnam. <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(31) ______</span>. His strategic leadership contributed significantly to the victory at the Battle of Dien Bien Phu in 1954, which marked a turning point in the struggle for Vietnamese independence.</p>\n  <p>After Vietnam's reunification in 1975, General Giap continued to influence the country's defence and development policies. He passed away on October 4, 2013, at the age of 102. General Giap, <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(32) ______</span>, left a lasting legacy in Vietnam's history.</p>\n</div>"
+        }
       },
       {
         "id": 31,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Throughout the subsequent decades, General Giap led the Vietnamese military in both the First Indochina War against French forces and the Vietnam War against the United States and South Vietnam. <strong>(31) ______</strong>. His strategic leadership contributed significantly to the victory at the Battle of Dien Bien Phu in 1954, which marked a turning point in the struggle for Vietnamese independence...</div>Chọn câu văn phù hợp điền vào chỗ trống (31):",
+        "question": "Chọn câu hoặc mệnh đề phù hợp nhất để điền vào vị trí <strong>(31)</strong>:",
         "options": [
           "A. Despite his significant contribution to the country's military victories.",
           "B. Because his strategies were highly effective against the opposing forces.",
@@ -1368,11 +1704,18 @@
           "D. Although he was widely recognised for his military leadership."
         ],
         "correct": 2,
-        "explanation": "Câu hoàn chỉnh về mặt ngữ pháp và nội dung nối tiếp: 'His achievements on the battlefield demonstrated his exceptional military talent' (Những chiến công trên chiến trường đã chứng minh tài năng quân sự xuất chúng của ông)."
+        "explanation": "Câu hoàn chỉnh về mặt ngữ pháp và nội dung nối tiếp: 'His achievements on the battlefield demonstrated his exceptional military talent' (Những chiến công trên chiến trường đã chứng minh tài năng quân sự xuất chúng của ông).",
+        "passage": {
+          "id": "passage-giap-cloze",
+          "title": "BÀI ĐỌC ĐIỀN: GENERAL VO NGUYEN GIAP",
+          "instruction": "Mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 28 to 32.",
+          "range": "Câu 28 - 32",
+          "content": "<div class=\"space-y-3 font-serif leading-relaxed text-sm\">\n  <p>General Vo Nguyen Giap <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(28) ______</span> on August 25, 1911, in An Xa village, Quang Binh Province. His father was a poor mandarin who passed away in French custody due to his political activities. At the age of 14, Giap enrolled in the prestigious Quoc Hoc School in Hue, where he began his political activism by participating in protests against French colonial rule and <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(29) ______</span>. This led to his expulsion, after which he continued his studies in Hanoi and later taught history.</p>\n  <p>In 1939, facing increasing persecution from French authorities, Giap fled to China, where he joined Ho Chi Minh and received military training. In May 1941, he co-founded the Viet Minh, a coalition seeking Vietnamese independence. Upon Japan's surrender in 1945, Giap served as Minister of the Interior in the newly established Democratic Republic of Vietnam. He played a crucial role in negotiating with French representatives. <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(30) ______</span>. The agreement aimed to resolve conflicts between Vietnam and France through diplomatic means.</p>\n  <p>Throughout the subsequent decades, General Giap led the Vietnamese military in both the First Indochina War against French forces and the Vietnam War against the United States and South Vietnam. <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(31) ______</span>. His strategic leadership contributed significantly to the victory at the Battle of Dien Bien Phu in 1954, which marked a turning point in the struggle for Vietnamese independence.</p>\n  <p>After Vietnam's reunification in 1975, General Giap continued to influence the country's defence and development policies. He passed away on October 4, 2013, at the age of 102. General Giap, <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(32) ______</span>, left a lasting legacy in Vietnam's history.</p>\n</div>"
+        }
       },
       {
         "id": 32,
-        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...After Vietnam's reunification in 1975, General Giap continued to influence the country's defence and development policies. He passed away on October 4, 2013, at the age of 102. General Giap, <strong>(32) ______</strong>, left a lasting legacy in Vietnam's history.</div>Chọn mệnh đề quan hệ không xác định phù hợp điền vào chỗ trống (32):",
+        "question": "Chọn câu hoặc mệnh đề phù hợp nhất để điền vào vị trí <strong>(32)</strong>:",
         "options": [
           "A. whose military achievements inspired generations of Vietnamese people",
           "B. who was one of the most influential military leaders in Vietnamese history",
@@ -1380,7 +1723,14 @@
           "D. which made him one of the most influential military leaders in Vietnamese history"
         ],
         "correct": 1,
-        "explanation": "Mệnh đề quan hệ không xác định bổ nghĩa cho danh từ riêng 'General Giap': 'who was one of the most influential military leaders in Vietnamese history' (người là một trong những nhà lãnh đạo quân sự có tầm ảnh hưởng lớn nhất trong lịch sử Việt Nam)."
+        "explanation": "Mệnh đề quan hệ không xác định bổ nghĩa cho danh từ riêng 'General Giap': 'who was one of the most influential military leaders in Vietnamese history' (người là một trong những nhà lãnh đạo quân sự có tầm ảnh hưởng lớn nhất trong lịch sử Việt Nam).",
+        "passage": {
+          "id": "passage-giap-cloze",
+          "title": "BÀI ĐỌC ĐIỀN: GENERAL VO NGUYEN GIAP",
+          "instruction": "Mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 28 to 32.",
+          "range": "Câu 28 - 32",
+          "content": "<div class=\"space-y-3 font-serif leading-relaxed text-sm\">\n  <p>General Vo Nguyen Giap <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(28) ______</span> on August 25, 1911, in An Xa village, Quang Binh Province. His father was a poor mandarin who passed away in French custody due to his political activities. At the age of 14, Giap enrolled in the prestigious Quoc Hoc School in Hue, where he began his political activism by participating in protests against French colonial rule and <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(29) ______</span>. This led to his expulsion, after which he continued his studies in Hanoi and later taught history.</p>\n  <p>In 1939, facing increasing persecution from French authorities, Giap fled to China, where he joined Ho Chi Minh and received military training. In May 1941, he co-founded the Viet Minh, a coalition seeking Vietnamese independence. Upon Japan's surrender in 1945, Giap served as Minister of the Interior in the newly established Democratic Republic of Vietnam. He played a crucial role in negotiating with French representatives. <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(30) ______</span>. The agreement aimed to resolve conflicts between Vietnam and France through diplomatic means.</p>\n  <p>Throughout the subsequent decades, General Giap led the Vietnamese military in both the First Indochina War against French forces and the Vietnam War against the United States and South Vietnam. <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(31) ______</span>. His strategic leadership contributed significantly to the victory at the Battle of Dien Bien Phu in 1954, which marked a turning point in the struggle for Vietnamese independence.</p>\n  <p>After Vietnam's reunification in 1975, General Giap continued to influence the country's defence and development policies. He passed away on October 4, 2013, at the age of 102. General Giap, <span class=\"px-2 py-0.5 rounded-lg bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300 font-bold border border-blue-300 dark:border-blue-700\">(32) ______</span>, left a lasting legacy in Vietnam's history.</p>\n</div>"
+        }
       }
     ]
   },
