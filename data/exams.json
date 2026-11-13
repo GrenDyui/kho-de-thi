@@ -1,5 +1,1390 @@
 [
   {
+    "id": "thpt-tran-van-thanh-minh-hoa-giua-ky-1-tieng-anh-12",
+    "title": "Đề minh họa Giữa kỳ I - Tiếng Anh 12 (THPT Trần Văn Thành)",
+    "subject": "Tiếng Anh",
+    "grade": "Lớp 12",
+    "durationMinutes": 60,
+    "difficulty": "Đề chuẩn cấu trúc mới GDPT 2018",
+    "tags": [
+      "Giữa kỳ 1",
+      "Tiếng Anh 12",
+      "GDPT 2018",
+      "THPT Trần Văn Thành",
+      "Listening",
+      "Đọc hiểu"
+    ],
+    "description": "Đề minh họa kiểm tra giữa học kỳ I môn Tiếng Anh 12 năm học 2026-2027 trường THPT Trần Văn Thành. Cấu trúc 40 câu trắc nghiệm chuẩn GDPT 2018 bao gồm Nghe hiểu, Đọc điền quảng cáo/leaflet, Sắp xếp câu/đoạn văn, Đọc hiểu văn bản và Ngữ pháp - Từ vựng.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "<strong>LISTENING - PART I: New Year Celebrations</strong><br><em>Listen to a talk about New Year celebrations and decide whether the following statement is True (T) or False (F):</em><br><br>In many Western nations, the New Year begins after midnight on December 31st.",
+        "options": [
+          "A. True",
+          "B. False"
+        ],
+        "correct": 0,
+        "explanation": "Tại các nước phương Tây, thời khắc chuyển giao năm mới bắt đầu ngay sau nửa đêm ngày 31 tháng 12 (đêm Giao thừa)."
+      },
+      {
+        "id": 2,
+        "question": "<strong>LISTENING - PART I: New Year Celebrations</strong><br><em>Listen to a talk about New Year celebrations and decide whether the following statement is True (T) or False (F):</em><br><br>The New Year in some Asian countries begins on January 21st and finishes on February 21st.",
+        "options": [
+          "A. True",
+          "B. False"
+        ],
+        "correct": 1,
+        "explanation": "Năm mới âm lịch ở các nước châu Á thường rơi vào khoảng giữa ngày 21/1 và 20/2, chứ không phải bắt đầu vào 21/1 và kết thúc đúng ngày 21/2."
+      },
+      {
+        "id": 3,
+        "question": "<strong>LISTENING - PART I: New Year Celebrations</strong><br><em>Listen to a talk about New Year celebrations and decide whether the following statement is True (T) or False (F):</em><br><br>In Asian countries, people get together with family to welcome the new year.",
+        "options": [
+          "A. True",
+          "B. False"
+        ],
+        "correct": 0,
+        "explanation": "Tại các quốc gia châu Á, sum họp gia đình và đoàn tụ đón năm mới là truyền thống văn hóa cốt lõi."
+      },
+      {
+        "id": 4,
+        "question": "<strong>LISTENING - PART I: New Year Celebrations</strong><br><em>Listen to a talk about New Year celebrations and decide whether the following statement is True (T) or False (F):</em><br><br>Japanese people hold a year-end party to chase away bad luck of the past year.",
+        "options": [
+          "A. True",
+          "B. False"
+        ],
+        "correct": 1,
+        "explanation": "Tiệc tất niên ở Nhật Bản (Bonenkai) mang ý nghĩa 'quên đi những muộn phiền, vất vả của năm cũ' (forget the troubles of the past year) chứ không mang hàm nghĩa xua đuổi vận rủi (chase away bad luck)."
+      },
+      {
+        "id": 5,
+        "question": "<strong>LISTENING - PART II: Sustainable Cooking</strong><br>What is the main reason behind using some specific kinds of cooking methods according to the talk?",
+        "options": [
+          "A. To prepare a proper meal for our family.",
+          "B. To utilise the green ingredients effectively.",
+          "C. To save the time for cooking every day.",
+          "D. To reduce the consumption of energy."
+        ],
+        "correct": 3,
+        "explanation": "Mục đích chính của các phương pháp nấu nướng tiết kiệm và bền vững là giảm thiểu tiêu thụ năng lượng (D. To reduce the consumption of energy)."
+      },
+      {
+        "id": 6,
+        "question": "<strong>LISTENING - PART II: Sustainable Cooking</strong><br>Which action helps in minimising food waste according to the talk?",
+        "options": [
+          "A. Buying food waste from the others if possible.",
+          "B. Storing food in an open-space home area.",
+          "C. Understanding food labels before buying.",
+          "D. Planning meals and using leftovers effectively."
+        ],
+        "correct": 3,
+        "explanation": "Hành động giúp hạn chế lãng phí thực phẩm là lên kế hoạch cho bữa ăn và tận dụng thức ăn thừa hợp lý (D. Planning meals and using leftovers effectively)."
+      },
+      {
+        "id": 7,
+        "question": "<strong>LISTENING - PART II: Sustainable Cooking</strong><br>Which of the following is <strong>NOT</strong> true about local and seasonal ingredients?",
+        "options": [
+          "A. They usually ensure their freshness and better taste.",
+          "B. They provide assistance to local farmers.",
+          "C. They reduce the environmental impact of transportation.",
+          "D. They are always available to buy in the local supermarkets."
+        ],
+        "correct": 3,
+        "explanation": "Thực phẩm theo mùa (seasonal) chỉ có vào một số thời điểm trong năm nên không thể 'luôn luôn có sẵn' trong siêu thị (D là phát biểu không đúng)."
+      },
+      {
+        "id": 8,
+        "question": "<strong>LISTENING - PART II: Sustainable Cooking</strong><br>Which is mentioned as a benefit of incorporating more fruits, vegetables, grains, and legumes into our diet?",
+        "options": [
+          "A. It helps reduce carbon emissions.",
+          "B. It helps us achieve weight loss.",
+          "C. It is perhaps much easier to cook.",
+          "D. It requires less money to buy."
+        ],
+        "correct": 0,
+        "explanation": "Chế độ ăn nhiều thực vật và rau củ quả giúp giảm lượng khí thải carbon phát sinh từ chăn nuôi công nghiệp (A. It helps reduce carbon emissions)."
+      },
+      {
+        "id": 9,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>GREEN LIVING – A SUSTAINABLE LIFESTYLE FAIR 2026!</strong><br>Are you ready to discover simple ways to protect our planet? Join our exciting Green Living Fair, where you can explore practical solutions for a greener future. Last year, thousands of visitors <strong>(9) ______</strong> the event and learned how to reduce waste in their daily lives...</div>Chọn đáp án đúng điền vào chỗ trống (9):",
+        "options": [
+          "A. attended",
+          "B. attend",
+          "C. were attending",
+          "D. have attended"
+        ],
+        "correct": 0,
+        "explanation": "Dấu hiệu thời gian 'Last year' diễn tả hành động đã hoàn tất trong quá khứ -> Dùng thì Quá khứ đơn (Past Simple): 'attended'."
+      },
+      {
+        "id": 10,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...You will gain valuable knowledge about the importance of environmental <strong>(10) ______</strong> and learn how small changes can make a big difference. Don't forget to bring your own reusable bag to help reduce plastic waste!...</div>Chọn đáp án đúng điền vào chỗ trống (10):",
+        "options": [
+          "A. protect",
+          "B. protective",
+          "C. protection",
+          "D. protectively"
+        ],
+        "correct": 2,
+        "explanation": "Sau tính từ 'environmental' ta cần một danh từ để tạo cụm danh từ 'environmental protection' (bảo vệ môi trường)."
+      },
+      {
+        "id": 11,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...The event will take place at the City Convention Center <strong>(11) ______</strong> Saturday, November 14, from 8 a.m. to 5 p.m...</div>Chọn đáp án đúng điền vào chỗ trống (11):",
+        "options": [
+          "A. in",
+          "B. on",
+          "C. at",
+          "D. by"
+        ],
+        "correct": 1,
+        "explanation": "Đi trước thứ, ngày tháng cụ thể (Saturday, November 14) dùng giới từ 'on'."
+      },
+      {
+        "id": 12,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Visitors can also join hands-on activities and discover how to <strong>(12) ______</strong> a difference in their communities...</div>Chọn đáp án đúng điền vào chỗ trống (12):",
+        "options": [
+          "A. do",
+          "B. make",
+          "C. take",
+          "D. give"
+        ],
+        "correct": 1,
+        "explanation": "Cụm cố định (Collocation): 'make a difference' mang nghĩa tạo ra sự khác biệt tích cực."
+      },
+      {
+        "id": 13,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...many participants were attending a workshop on making useful items from recycled materials when the organizers announced <strong>(13) ______</strong> special prize for the most creative project...</div>Chọn đáp án đúng điền vào chỗ trống (13):",
+        "options": [
+          "A. a",
+          "B. an",
+          "C. the",
+          "D. no article"
+        ],
+        "correct": 0,
+        "explanation": "'special prize' là danh từ đếm được số ít, được nhắc tới lần đầu với nghĩa 'một giải thưởng đặc biệt', bắt đầu bằng phụ âm /s/ nên dùng mạo từ 'a'."
+      },
+      {
+        "id": 14,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Whether you are a student, a parent, or an environmental enthusiast, this fair is the perfect opportunity to gain new skills and make a positive effect on the world around you. <strong>(14) ______</strong> now and become part of the green movement!</div>Chọn đáp án đúng điền vào chỗ trống (14):",
+        "options": [
+          "A. Register",
+          "B. Confirm",
+          "C. Announce",
+          "D. Answer"
+        ],
+        "correct": 0,
+        "explanation": "Câu mệnh lệnh mời gọi tham gia: 'Register now and become part of the green movement!' (Hãy đăng ký ngay bây giờ...)."
+      },
+      {
+        "id": 15,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>MARIE CURIE: PIONEER OF MODERN PHYSICS</strong><br>Marie Curie was a trailblazing scientist whose groundbreaking discoveries grabbed the <strong>(15) ______</strong> worldwide and laid the foundation for modern nuclear science...</div>Chọn từ phù hợp điền vào chỗ trống (15):",
+        "options": [
+          "A. headlines",
+          "B. slogans",
+          "C. trademarks",
+          "D. copyrights"
+        ],
+        "correct": 0,
+        "explanation": "Cụm thành ngữ cố định 'grab the headlines' có nghĩa là thu hút sự chú ý mạnh mẽ của báo chí và dư luận toàn cầu."
+      },
+      {
+        "id": 16,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Overcoming tremendous adversity, she became the first woman to win a Nobel Prize and remains the only person to receive Nobel Prizes in two distinct scientific fields. Curie strived to <strong>(16) ______</strong> humanity with her discoveries in radioactivity...</div>Chọn cụm từ phù hợp điền vào chỗ trống (16):",
+        "options": [
+          "A. build up",
+          "B. light up",
+          "C. give away",
+          "D. carry off"
+        ],
+        "correct": 1,
+        "explanation": "'light up' mang nghĩa soi sáng, khai sáng cho nhân loại thông qua những phát minh khoa học."
+      },
+      {
+        "id": 17,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>Early Life & Education</strong><br>Born in 1867 in Warsaw, Poland, Curie showed an extraordinary intellect from childhood. <strong>(17) ______</strong> poverty and gender barriers in education, she persevered and moved to Paris to study at the Sorbonne...</div>Chọn cụm từ phù hợp điền vào chỗ trống (17):",
+        "options": [
+          "A. In view of",
+          "B. In spite of",
+          "C. Instead of",
+          "D. In place of"
+        ],
+        "correct": 1,
+        "explanation": "'In spite of' + Noun phrase: 'In spite of poverty and gender barriers' (Mặc dù đối mặt với nghèo đói và rào cản giới tính)."
+      },
+      {
+        "id": 18,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Throughout those demanding years, she maintained a passionate <strong>(18) ______</strong> in chemical research and mathematics...</div>Chọn từ phù hợp điền vào chỗ trống (18):",
+        "options": [
+          "A. relief",
+          "B. hobby",
+          "C. leisure",
+          "D. interest"
+        ],
+        "correct": 3,
+        "explanation": "Cụm danh từ 'passionate interest in...' (niềm đam mê/hứng thú sâu sắc đối với lĩnh vực nào)."
+      },
+      {
+        "id": 19,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>Enduring Legacy</strong><br>Curie's contribution to medical science and cancer treatment is truly <strong>(19) ______</strong>...</div>Chọn từ phù hợp điền vào chỗ trống (19):",
+        "options": [
+          "A. negligible",
+          "B. immeasurable",
+          "C. superficial",
+          "D. unremarkable"
+        ],
+        "correct": 1,
+        "explanation": "'immeasurable' (vô giá, to lớn không thể đo đếm được) diễn tả sự đóng góp to lớn của Marie Curie đối với y học và điều trị ung thư."
+      },
+      {
+        "id": 20,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...In addition to establishing mobile radiography units during the First World War, her selfless dedication continues to inspire countless <strong>(20) ______</strong> to pursue careers in scientific discovery.</div>Chọn từ phù hợp điền vào chỗ trống (20):",
+        "options": [
+          "A. another",
+          "B. others",
+          "C. other",
+          "D. each other"
+        ],
+        "correct": 1,
+        "explanation": "'others' đại từ đóng vai trò tân ngữ chỉ 'những người khác' (inspire countless others to pursue...)."
+      },
+      {
+        "id": 21,
+        "question": "Sắp xếp các câu sau để tạo thành một đoạn hội thoại hợp lý:<br><br>a. <strong>Zoe:</strong> That's not singing, Max! Those are just happy eating sounds.<br>b. <strong>Max:</strong> Well, I'm going to teach him three songs by next week, and you'll be surprised!<br>c. <strong>Max:</strong> I think my pet turtle can sing! Listen when I give him this lettuce.",
+        "options": [
+          "A. a-b-c",
+          "B. c-a-b",
+          "C. a-c-b",
+          "D. b-c-a"
+        ],
+        "correct": 1,
+        "explanation": "Trình tự hợp lý: Max mở đầu giới thiệu chú rùa biết hát (c) -> Zoe phản bác rằng đó chỉ là âm thanh khi ăn (a) -> Max khẳng định sẽ dạy chú rùa 3 bài hát (b). Đáp án B."
+      },
+      {
+        "id": 22,
+        "question": "Sắp xếp các câu sau để tạo thành đoạn hội thoại hợp lý:<br><br>a. <strong>Jack:</strong> My brother visited yesterday, and he said the dinosaur bones are very big.<br>b. <strong>Jack:</strong> We can go to the museum instead, and we can see the new dinosaur exhibit.<br>c. <strong>Emma:</strong> I want to go to the beach today, but the weather is very cloudy.<br>d. <strong>Emma:</strong> I like dinosaurs because they had sharp teeth, but I'm happy they don't exist now!<br>e. <strong>Emma:</strong> That sounds fun, so I will get my backpack and water bottle.",
+        "options": [
+          "A. c-a-d-b-e",
+          "B. d-a-c-e-b",
+          "C. b-a-c-e-d",
+          "D. c-b-e-a-d"
+        ],
+        "correct": 3,
+        "explanation": "Emma nêu kế hoạch đi biển bị thời tiết xấu (c) -> Jack đề xuất đi bảo tàng khủng long thay thế (b) -> Emma đồng ý chuẩn bị balo (e) -> Jack kể anh trai khen xương khủng long rất to (a) -> Emma chia sẻ cảm nghĩ về khủng long (d). Đáp án D."
+      },
+      {
+        "id": 23,
+        "question": "Sắp xếp các câu sau để tạo thành bức thư hoàn chỉnh:<br><br><em>Dear Oliver,</em><br>a. Seeing ancient temple architecture standing right alongside bustling modern cafes is truly captivating.<br>b. The blend of expatriate and local lifestyles here in Kyoto has given this city an enchanting character.<br>c. You can effortlessly locate tranquil workspaces situated inside authentic wooden townhouses.<br>d. If you get a chance, you should plan a visit soon - it might transform how you balance travel and work.<br>e. You would be amazed at how local craftsmen have incorporated contemporary design into their traditional ceramics.<br><em>Best regards, Minh</em>",
+        "options": [
+          "A. b-c-e-a-d",
+          "B. b-a-c-e-d",
+          "C. a-c-b-e-d",
+          "D. b-e-a-c-d"
+        ],
+        "correct": 1,
+        "explanation": "Mở đầu thư giới thiệu nét quyến rũ của Kyoto (b) -> Miêu tả sự kết hợp đền cổ và quán cafe hiện đại (a) -> Không gian làm việc thanh bình (c) -> Nghệ nhân kết hợp thiết kế đương đại (e) -> Lời kết khuyên bạn nên ghé thăm (d). Đáp án B."
+      },
+      {
+        "id": 24,
+        "question": "Sắp xếp các câu sau để tạo thành đoạn văn hoàn chỉnh:<br><br>a. Rather than working under rigid department walls, we formed interdisciplinary circles for each project.<br>b. In my initial weeks at the creative agency, I was taken aback by their horizontal workplace culture.<br>c. In contrast to my former multinational firm, leadership was decentralized and decisions were made collectively.<br>d. That refreshing environment not only sparked new ideas but also fostered sincere camaraderie among us.<br>e. Reflecting on that chapter, I recognize how fundamentally it altered my approach to team collaboration.",
+        "options": [
+          "A. b-c-a-d-e",
+          "B. b-a-c-d-e",
+          "C. c-a-b-e-d",
+          "D. b-d-a-c-e"
+        ],
+        "correct": 0,
+        "explanation": "Câu mở đầu nêu trải nghiệm đầu tiên tại agency với văn hóa làm việc phẳng (b) -> So sánh với công ty cũ về phân quyền lãnh đạo (c) -> Cụ thể hóa cách làm việc liên ngành (a) -> Đánh giá môi trường đó kích thích sáng tạo và gắn kết (d) -> Đúc kết bài học về sự hợp tác đội nhóm (e). Đáp án A."
+      },
+      {
+        "id": 25,
+        "question": "Sắp xếp các câu sau để tạo thành đoạn văn mạch lạc:<br><br>a. Parents who participate in multicultural activities help their children understand the value of different perspectives.<br>b. When children share ideas from different backgrounds, they develop skills that will be useful in their adult lives.<br>c. Since our world is becoming more connected, students who understand diverse viewpoints will succeed in careers that haven't been invented yet.<br>d. Technology has changed how teachers work with students who learn differently, although traditional methods are still important.<br>e. Schools that embrace diversity create spaces where students learn better, which helps them prepare for the future.",
+        "options": [
+          "A. d-b-e-a-c",
+          "B. b-e-a-d-c",
+          "C. e-b-d-a-c",
+          "D. a-b-d-e-c"
+        ],
+        "correct": 1,
+        "explanation": "Mở đầu với tác động khi trẻ em chia sẻ ý tưởng đa văn hóa (b) -> Trường học đa dạng giúp học sinh học tốt hơn (e) -> Vai trò phụ huynh hỗ trợ (a) -> Công nghệ hỗ trợ phương pháp học (d) -> Kết luận về tương lai nghề nghiệp toàn cầu (c). Đáp án B."
+      },
+      {
+        "id": 26,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>Reimagining How We Help Others</strong><br>Traditional charity models have existed for centuries, but they often create dependency rather than empowerment... Many organizations are now rethinking how assistance should be provided, especially in communities <strong>(26) ______</strong>. Sustainable solutions require understanding the root causes of problems...</div>Chọn mệnh đề thích hợp điền vào chỗ trống (26):",
+        "options": [
+          "A. where poverty has become a persistent challenge",
+          "B. poverty had eliminated by last decade",
+          "C. charities will build permanent offices",
+          "D. which donors have forgotten since the crisis"
+        ],
+        "correct": 0,
+        "explanation": "Mệnh đề quan hệ trạng từ chỉ nơi chốn: 'communities where poverty has become a persistent challenge' (những cộng đồng nơi mà đói nghèo đã trở thành thách thức dai dẳng)."
+      },
+      {
+        "id": 27,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Communities that receive training and resources to build their own solutions create lasting change and maintain their dignity. The traditional charity model creates temporary relief; <strong>(27) ______</strong>. These approaches often make donors feel good about themselves; nevertheless, they may inadvertently perpetuate cycles of dependence...</div>Chọn liên từ và mệnh đề phù hợp điền vào chỗ trống (27):",
+        "options": [
+          "A. moreover, it provides long-term sustainable solutions",
+          "B. therefore, it attracts substantial corporate funding",
+          "C. although, it requires minimal volunteer involvement",
+          "D. however, it rarely addresses underlying issues"
+        ],
+        "correct": 3,
+        "explanation": "Ngữ cảnh mang tính tương phản: mô hình từ thiện truyền thống chỉ tạo ra sự cứu trợ tạm thời; tuy nhiên, nó hiếm khi giải quyết được gốc rễ vấn đề (however, it rarely addresses underlying issues)."
+      },
+      {
+        "id": 28,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Having recognized the entrepreneurial potential in low-income communities, organizations now offer small loans instead of handouts. Social enterprises <strong>(28) ______</strong>...</div>Chọn cụm vị ngữ thích hợp điền vào chỗ trống (28):",
+        "options": [
+          "A. which operate in developing regions that preserve cultural traditions while attracting foreign investors",
+          "B. are being established around the world to create economic opportunities while solving social problems",
+          "C. where entrepreneurs have invested extensively to eliminate poverty while ignoring ecological concerns",
+          "D. having accumulated substantial resources to redirect profits while competing with traditional businesses"
+        ],
+        "correct": 1,
+        "explanation": "Câu đang cần một động từ chính (finite verb) cho chủ ngữ 'Social enterprises': 'are being established around the world to create economic opportunities while solving social problems'."
+      },
+      {
+        "id": 29,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...The future of assistance lies not in giving things to people, but in creating systems where everyone can participate and <strong>(29) ______</strong>...</div>Chọn dạng đúng của động từ điền vào chỗ trống (29):",
+        "options": [
+          "A. to contributing",
+          "B. contributing",
+          "C. contribute",
+          "D. to contribute"
+        ],
+        "correct": 2,
+        "explanation": "Cấu trúc song hành với động từ nguyên mẫu sau 'can': 'can participate and contribute'."
+      },
+      {
+        "id": 30,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Technology can bridge gaps between those who need help and those who can provide it. Working together across geographical boundaries and combining different perspectives, <strong>(30) ______</strong>. The true measure of success is not how many people receive aid, but how many no longer need it.</div>Chọn mệnh đề chính phù hợp điền vào chỗ trống (30):",
+        "options": [
+          "A. we are operating satellite offices which monitor local projects without proper supervision",
+          "B. we can develop more effective solutions than charity alone could ever achieve",
+          "C. we have established formal protocols that eliminate cultural differences between communities",
+          "D. we could reject traditional approaches that succeeded historically in developing countries"
+        ],
+        "correct": 1,
+        "explanation": "Vế mở đầu là phân từ hiện tại 'Working together... and combining...', chủ ngữ ở mệnh đề chính phải là 'we': 'we can develop more effective solutions than charity alone could ever achieve'."
+      },
+      {
+        "id": 31,
+        "question": "<strong>Reading: The Heart of Modern Urban Centers</strong><br>Which of the following is <strong>NOT</strong> mentioned as a challenge facing multicultural neighborhoods?",
+        "options": [
+          "A. Insufficient public transportation systems",
+          "B. Communication barriers between residents",
+          "C. Conflicting cultural practices and expectations",
+          "D. Gentrification and rising housing costs"
+        ],
+        "correct": 0,
+        "explanation": "Trong đoạn 3, tác giả liệt kê các thách thức gồm rào cản ngôn ngữ, xung đột tập quán văn hóa và gentrification (tăng giá nhà), không hề nhắc đến hệ thống giao thông công cộng (A)."
+      },
+      {
+        "id": 32,
+        "question": "The word <strong>'vibrant'</strong> in paragraph 1 is <strong>OPPOSITE</strong> in meaning to ______.",
+        "options": [
+          "A. colorful",
+          "B. traditional",
+          "C. dull",
+          "D. bustling"
+        ],
+        "correct": 2,
+        "explanation": "'vibrant' (sống động, nhộn nhịp, tràn đầy sức sống) trái nghĩa với 'dull' (buồn tẻ, ảm đạm)."
+      },
+      {
+        "id": 33,
+        "question": "The word <strong>'tolerance'</strong> in paragraph 2 could be best replaced by ______.",
+        "options": [
+          "A. patience",
+          "B. resilience",
+          "C. endurance",
+          "D. acceptance"
+        ],
+        "correct": 3,
+        "explanation": "'tolerance' trong bối cảnh đa văn hóa mang nghĩa sự khoan dung, thấu hiểu và chấp nhận sự khác biệt ('acceptance')."
+      },
+      {
+        "id": 34,
+        "question": "According to paragraph 2, what is one benefit for children growing up in multicultural neighborhoods?",
+        "options": [
+          "A. They have more opportunities to travel to different continents.",
+          "B. They can easily find jobs in international companies.",
+          "C. They develop greater tolerance and adaptability.",
+          "D. They are more likely to establish their own businesses."
+        ],
+        "correct": 2,
+        "explanation": "Dẫn chứng đoạn 2: 'Children raised here develop remarkable tolerance and adaptability, crucial skills in our globalized world...'."
+      },
+      {
+        "id": 35,
+        "question": "Which of the following best paraphrases the underlined sentence in paragraph 3: <em>'Despite their appeal, these neighborhoods face significant challenges requiring thoughtful solutions from community leaders.'</em>?",
+        "options": [
+          "A. Community leaders are responsible for resolving the difficulties that make these otherwise popular neighborhoods less appealing to potential residents.",
+          "B. Though attractive to many, these areas encounter problems that community officials must address through careful consideration and planning.",
+          "C. The challenges present in these neighborhoods can be overcome when community leaders implement solutions without disrupting their appeal.",
+          "D. While community leaders recognize these areas' popularity, they struggle to develop effective strategies for addressing underlying problems."
+        ],
+        "correct": 1,
+        "explanation": "Câu B diễn đạt lại trọn vẹn và chính xác nghĩa của câu gốc: dù hấp dẫn nhưng các khu vực này gặp phải nhiều vấn đề mà các nhà lãnh đạo cộng đồng cần giải quyết thông qua sự cân nhắc và quy hoạch chu đáo."
+      },
+      {
+        "id": 36,
+        "question": "The word <strong>'their'</strong> in paragraph 4 refers to ______.",
+        "options": [
+          "A. Cultural considerations",
+          "B. Urban planners",
+          "C. Neighborhood developments",
+          "D. Younger generations"
+        ],
+        "correct": 0,
+        "explanation": "Dẫn chứng: 'Urban planners now deliberately incorporate cultural considerations into neighborhood development, recognizing their significance to city identity...' -> 'their' thay thế cho 'cultural considerations'."
+      },
+      {
+        "id": 37,
+        "question": "Which of the following is <strong>TRUE</strong> according to the passage?",
+        "options": [
+          "A. Children raised in multicultural neighborhoods develop enhanced tolerance and adaptability for globalized society.",
+          "B. Gentrification has helped preserve cultural identity by preventing changes to neighborhood characteristics.",
+          "C. Property values in multicultural areas have declined as young professionals seek more homogeneous communities.",
+          "D. Technology applications have largely failed to address communication barriers between diverse cultural groups."
+        ],
+        "correct": 0,
+        "explanation": "Khẳng định A hoàn toàn chính xác theo nội dung đoạn 2: trẻ em lớn lên trong khu đa văn hóa có lòng khoan dung và khả năng thích ứng vượt trội."
+      },
+      {
+        "id": 38,
+        "question": "In which paragraph does the writer explain how multicultural neighborhoods form?",
+        "options": [
+          "A. Paragraph 2",
+          "B. Paragraph 4",
+          "C. Paragraph 1",
+          "D. Paragraph 3"
+        ],
+        "correct": 2,
+        "explanation": "Đoạn 1 nêu rõ: 'These vibrant areas emerged as immigrants settled in affordable districts, creating cultural mosaics with distinctive architectural styles...'."
+      },
+      {
+        "id": 39,
+        "question": "In which paragraph does the writer mention difficulties faced by multicultural neighborhoods?",
+        "options": [
+          "A. Paragraph 1",
+          "B. Paragraph 3",
+          "C. Paragraph 4",
+          "D. Paragraph 2"
+        ],
+        "correct": 1,
+        "explanation": "Đoạn 3 tập trung phân tích các khó khăn (challenges): rào cản giao tiếp, xung đột tập quán sinh hoạt và hiện tượng tăng giá nhà (gentrification)."
+      },
+      {
+        "id": 40,
+        "question": "What is the main idea of the passage?",
+        "options": [
+          "A. The rapid development of modern cities has made traditional neighborhoods less attractive to tourists.",
+          "B. Multicultural neighborhoods offer cultural and economic benefits but also face challenges that require careful management.",
+          "C. Immigrant communities mainly contribute to urban development by introducing new foods and architectural styles.",
+          "D. Urban planners should focus on economic growth rather than cultural preservation in diverse neighborhoods."
+        ],
+        "correct": 1,
+        "explanation": "Toàn bài phân tích 2 mặt: lợi ích văn hóa & kinh tế song hành cùng các thách thức đòi hỏi quản lý và giải pháp thấu đáo (Đáp án B)."
+      }
+    ]
+  },
+  {
+    "id": "thpt-tran-van-thanh-de-01-giua-ky-1-tieng-anh-12",
+    "title": "Đề kiểm tra Giữa học kỳ I - Đề số 01 - Tiếng Anh 12 (THPT Trần Văn Thành)",
+    "subject": "Tiếng Anh",
+    "grade": "Lớp 12",
+    "durationMinutes": 60,
+    "difficulty": "Đề thi chính thức / Đề số 01",
+    "tags": [
+      "Giữa kỳ 1",
+      "Đề số 01",
+      "Tiếng Anh 12",
+      "THPT Trần Văn Thành",
+      "An Giang",
+      "Listening",
+      "Reading"
+    ],
+    "description": "Đề kiểm tra giữa học kỳ I - Đề minh họa số 01 môn Tiếng Anh lớp 12 trường THPT Trần Văn Thành (Sở GD&ĐT An Giang), năm học 2026-2027. Đề thi gồm 40 câu trắc nghiệm bao quát các chủ đề Embrace our cultural roots, Overcome culture shock, Green living và Listening.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>EMBRACE OUR CULTURAL ROOTS!</strong><br>Have you ever wondered how traditional music and crafts can inspire our daily lives? Over the past few years, our School Cultural Club <strong>(1) ______</strong> several interactive workshops to bring heritage closer to young people...</div>Chọn đáp án đúng điền vào chỗ trống (1):",
+        "options": [
+          "A. host",
+          "B. hosted",
+          "C. has hosted",
+          "D. is hosting"
+        ],
+        "correct": 2,
+        "explanation": "Dấu hiệu 'Over the past few years' diễn tả hành động kéo dài từ quá khứ đến hiện tại -> Dùng thì Hiện tại hoàn thành: 'has hosted'."
+      },
+      {
+        "id": 2,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...This term, we are back with the Cultural Exchange Week 2026! We are seeking creative and <strong>(2) ______</strong> members to join our organizing committee...</div>Chọn đáp án đúng điền vào chỗ trống (2):",
+        "options": [
+          "A. passion",
+          "B. passionately",
+          "C. passionate",
+          "D. passional"
+        ],
+        "correct": 2,
+        "explanation": "Cấu trúc song hành với tính từ 'creative' đứng trước danh từ 'members' -> Cần tính từ 'passionate' (nhiệt huyết)."
+      },
+      {
+        "id": 3,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Volunteers will be responsible <strong>(3) ______</strong> setting up exhibition booths and guiding visitors through traditional game zones...</div>Chọn giới từ thích hợp điền vào chỗ trống (3):",
+        "options": [
+          "A. with",
+          "B. for",
+          "C. about",
+          "D. from"
+        ],
+        "correct": 1,
+        "explanation": "Cấu trúc tính từ đi với giới từ: 'be responsible for + V-ing/Noun' (chịu trách nhiệm cho việc gì)."
+      },
+      {
+        "id": 4,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Participating in this event provides a rare <strong>(4) ______</strong> to represent your class and express your artistic talent...</div>Chọn từ phù hợp điền vào chỗ trống (4):",
+        "options": [
+          "A. privilege",
+          "B. gratitude",
+          "C. sympathy",
+          "D. affection"
+        ],
+        "correct": 0,
+        "explanation": "'a rare privilege' mang nghĩa là một đặc ân / vinh dự hiếm có để đại diện cho lớp học."
+      },
+      {
+        "id": 5,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...It is also <strong>(5) ______</strong> wonderful opportunity to make lifelong friends and build essential teamwork skills...</div>Chọn mạo từ thích hợp điền vào chỗ trống (5):",
+        "options": [
+          "A. a",
+          "B. an",
+          "C. the",
+          "D. Ø (no article)"
+        ],
+        "correct": 0,
+        "explanation": "'opportunity' là danh từ số ít đếm được, trước nó là tính từ 'wonderful' bắt đầu bằng phụ âm /w/ -> Dùng mạo từ 'a'."
+      },
+      {
+        "id": 6,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Don't hesitate to step out of your comfort zone! Register today and help us <strong>(6) ______</strong> progress toward a vibrant school community!</div>Chọn động từ phù hợp điền vào chỗ trống (6):",
+        "options": [
+          "A. do",
+          "B. take",
+          "C. have",
+          "D. make"
+        ],
+        "correct": 3,
+        "explanation": "Cụm cố định (Collocation): 'make progress' (tiến bộ, tạo sự phát triển)."
+      },
+      {
+        "id": 7,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>OVERCOME CULTURE SHOCK WITH EASE!</strong><br>Moving to a new country or study environment brings exciting opportunities, but it can also trigger culture shock. Every year, a massive <strong>(7) ______</strong> of emotional stress is experienced by exchange students due to language barriers and unfamiliar customs...</div>Chọn từ lượng từ thích hợp điền vào chỗ trống (7):",
+        "options": [
+          "A. number",
+          "B. amount",
+          "C. scale",
+          "D. count"
+        ],
+        "correct": 1,
+        "explanation": "'emotional stress' là danh từ không đếm được -> Dùng 'a massive amount of' (một lượng lớn áp lực tâm lý)."
+      },
+      {
+        "id": 8,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Join our Student Support Network and let us help you <strong>(8) ______</strong> your adjustment period smoothly! We are dedicated advisors...</div>Chọn cụm động từ thích hợp điền vào chỗ trống (8):",
+        "options": [
+          "A. get through",
+          "B. look into",
+          "C. turn down",
+          "D. take after"
+        ],
+        "correct": 0,
+        "explanation": "'get through' có nghĩa là vượt qua giai đoạn khó khăn (vượt qua thời kỳ thích nghi)."
+      },
+      {
+        "id": 9,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...We are dedicated advisors <strong>(9) ______</strong> understand the challenges of living in a new culture...</div>Chọn đại từ quan hệ thích hợp điền vào chỗ trống (9):",
+        "options": [
+          "A. which",
+          "B. whose",
+          "C. that",
+          "D. whom"
+        ],
+        "correct": 2,
+        "explanation": "'advisors' chỉ người làm chủ ngữ cho động từ 'understand', trong các lựa chọn thì 'that' thay thế cho người làm chủ ngữ."
+      },
+      {
+        "id": 10,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Join cultural workshops to raise your <strong>(10) ______</strong> of social etiquette and norms...</div>Chọn từ thích hợp điền vào chỗ trống (10):",
+        "options": [
+          "A. awareness",
+          "B. attention",
+          "C. knowledge",
+          "D. experience"
+        ],
+        "correct": 0,
+        "explanation": "Cụm từ cố định: 'raise awareness of something' (nâng cao nhận thức về chuẩn mực và nghi thức xã hội)."
+      },
+      {
+        "id": 11,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Discover practical tips to adapt to a new <strong>(11) ______</strong> of life without losing your identity...</div>Chọn danh từ thích hợp điền vào chỗ trống (11):",
+        "options": [
+          "A. habit",
+          "B. custom",
+          "C. routine",
+          "D. mode"
+        ],
+        "correct": 2,
+        "explanation": "'a new routine of life' (nhịp sống / nếp sinh hoạt mới) giúp sinh viên hòa nhập mà không đánh mất bản sắc cá nhân."
+      },
+      {
+        "id": 12,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Don't let cultural differences overwhelm you. Reach out for support today, <strong>(12) ______</strong> you can make the most of your international experience!</div>Chọn liên từ thích hợp điền vào chỗ trống (12):",
+        "options": [
+          "A. but",
+          "B. so",
+          "C. although",
+          "D. because"
+        ],
+        "correct": 1,
+        "explanation": "Liên từ 'so' chỉ mục đích hoặc kết quả: 'Hãy tìm kiếm sự hỗ trợ ngay hôm nay, để bạn có thể tận dụng tối đa trải nghiệm quốc tế!'."
+      },
+      {
+        "id": 13,
+        "question": "Sắp xếp các câu sau để tạo thành đoạn hội thoại hợp lý:<br><br>a. <strong>Minh:</strong> Nice to meet you too, Tom! Welcome to our school. Hope you enjoy your time here?<br>b. <strong>Tom:</strong> Hi! I'm Tom. I'm a new exchange student from Australia. Nice to meet you!<br>c. <strong>Minh:</strong> Hello! I don't think we've met before.",
+        "options": [
+          "A. c-b-a",
+          "B. b-a-c",
+          "C. c-a-b",
+          "D. b-c-a"
+        ],
+        "correct": 0,
+        "explanation": "Minh chào và mở lời chưa từng gặp (c) -> Tom tự giới thiệu là du học sinh Úc (b) -> Minh chào mừng Tom đến trường (a). Trình tự c-b-a."
+      },
+      {
+        "id": 14,
+        "question": "Sắp xếp các câu sau để tạo thành đoạn hội thoại hợp lý:<br><br>a. <strong>David:</strong> That sounds fascinating! Is there any special rule I should know when entering a temple?<br>b. <strong>Lan:</strong> You should dress politely and take off your shoes before stepping inside.<br>c. <strong>David:</strong> What is the most important traditional custom in your hometown, Lan?<br>d. <strong>Lan:</strong> Well, visiting local pagodas during festivals is a big part of our spiritual life.<br>e. <strong>David:</strong> Thank you for the helpful advice!",
+        "options": [
+          "A. c-b-a-d-e",
+          "B. c-d-a-b-e",
+          "C. d-c-a-b-e",
+          "D. c-d-b-a-e"
+        ],
+        "correct": 1,
+        "explanation": "David hỏi phong tục quan trọng nhất (c) -> Lan trả lời là đi chùa dịp lễ hội (d) -> David hỏi về quy tắc vào chùa (a) -> Lan khuyên ăn mặc lịch sự và cởi giày (b) -> David cảm ơn lời khuyên (e). Trình tự c-d-a-b-e."
+      },
+      {
+        "id": 15,
+        "question": "Sắp xếp các câu sau để tạo thành bức thư hoàn chỉnh:<br><br><em>Dear Alex,</em><br>a. Trying street food like Pho or Banh mi is the best way to experience the daily life of local people.<br>b. Traditional Vietnamese dishes are famous for their balance of fresh herbs, delicate flavours, and healthy ingredients.<br>c. I am writing to tell you about the rich culinary culture of Vietnam.<br>d. I hope you will have a chance to visit Vietnam soon and taste these amazing foods yourself!<br>e. In addition, each region has its own signature dishes, reflecting local history and climate.<br><em>Best wishes,</em>",
+        "options": [
+          "A. d-b-e-a-d",
+          "B. c-a-b-e-d",
+          "C. b-c-e-a-d",
+          "D. c-b-a-e-d"
+        ],
+        "correct": 3,
+        "explanation": "Mở đầu thư nêu mục đích viết về ẩm thực Việt Nam (c) -> Đặc điểm nổi tiếng của món ăn truyền thống (b) -> Trải nghiệm thức ăn đường phố (a) -> Đặc trưng món ăn theo từng vùng miền (e) -> Lời chúc và mong bạn sớm sang thăm (d). Trình tự c-b-a-e-d."
+      },
+      {
+        "id": 16,
+        "question": "Sắp xếp các câu sau để tạo thành đoạn văn hướng dẫn làm phân bón hữu cơ:<br><br>a. Making organic compost at home is a simple yet effective way to reduce household waste.<br>b. First, collect green waste like fruit peels and vegetable scraps, then mix them with dry leaves or shredded paper.<br>c. After a few months, this mixture will turn into nutrient-rich fertilizer for your garden plants.<br>d. Next, place these materials in a compost bin and keep the pile moist by spraying a little water regularly.<br>e. By doing this, you not only enrich your soil naturally but also help protect the environment.",
+        "options": [
+          "A. a-b-c-d-e",
+          "B. a-b-d-c-e",
+          "C. b-d-a-c-e",
+          "D. a-d-b-c-e"
+        ],
+        "correct": 1,
+        "explanation": "Câu mở đầu giới thiệu việc ủ phân hữu cơ tại nhà (a) -> Bước 1: thu thập rác thải xanh và trộn với lá khô (b) -> Bước 2: cho vào thùng và phun nước giữ ẩm (d) -> Kết quả sau vài tháng thành phân bón giàu dinh dưỡng (c) -> Lợi ích tổng kết bảo vệ môi trường (e). Trình tự a-b-d-c-e."
+      },
+      {
+        "id": 17,
+        "question": "Sắp xếp các câu sau để tạo thành đoạn tiểu sử anh hùng Nguyễn Văn Trỗi:<br><br>a. Born in Quang Nam province in 1940, he joined the revolutionary movement at a young age to fight for national independence.<br>b. His courage and ultimate sacrifice made him an enduring symbol of patriotic youth in Vietnam.<br>c. In 1964, he was captured by the enemy while carrying out a daring mission against high-ranking foreign officers.<br>d. Nguyen Van Troi was a legendary Vietnamese national hero and electrician.<br>e. Despite facing execution, he remained brave and shouted anti-imperialist slogans until his final moment.",
+        "options": [
+          "A. d-a-c-e-b",
+          "B. d-c-a-e-b",
+          "C. a-d-c-e-b",
+          "D. d-a-e-c-b"
+        ],
+        "correct": 0,
+        "explanation": "Giới thiệu anh hùng Nguyễn Văn Trỗi (d) -> Xuất thân năm 1940 tại Quảng Nam và sớm tham gia cách mạng (a) -> Bị bắt năm 1964 khi đang thực hiện nhiệm vụ (c) -> Tinh thần bất khuất trước họng súng quân thù (e) -> Ý nghĩa biểu tượng cho lòng yêu nước (b). Trình tự d-a-c-e-b."
+      },
+      {
+        "id": 18,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>In recent years, governments around the globe have implemented <strong>strict</strong> policies to reduce single-use plastics in citizens' daily lives...</div>Từ <strong>'strict'</strong> trong đoạn 1 trái nghĩa (<strong>OPPOSITE</strong>) với từ nào?",
+        "options": [
+          "A. lenient",
+          "B. careful",
+          "C. official",
+          "D. certain"
+        ],
+        "correct": 0,
+        "explanation": "'strict' (nghiêm ngặt, chặt chẽ) trái nghĩa với 'lenient' (khoan dung, nhẹ tay, lỏng lẻo)."
+      },
+      {
+        "id": 19,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...As plastic pollution threatens marine ecosystems and human health, nations are taking bold steps to <strong>curb</strong> plastic consumption...</div>Từ <strong>'curb'</strong> trong đoạn 1 đồng nghĩa (<strong>CLOSEST</strong>) với từ nào?",
+        "options": [
+          "A. expand",
+          "B. reduce",
+          "C. measure",
+          "D. ignore"
+        ],
+        "correct": 1,
+        "explanation": "'curb' có nghĩa là kiềm chế, cắt giảm, hạn chế -> đồng nghĩa với 'reduce'."
+      },
+      {
+        "id": 20,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...banned lightweight plastic bags in supermarkets and retail stores, replacing <strong>them</strong> with biodegradable alternatives...</div>Từ <strong>'them'</strong> trong đoạn 1 đề cập đến:",
+        "options": [
+          "A. governments",
+          "B. supermarkets",
+          "C. alternatives",
+          "D. plastic bags"
+        ],
+        "correct": 3,
+        "explanation": "'them' thay thế cho danh từ số nhiều được nhắc đến ngay trước đó: 'lightweight plastic bags' (các túi nilon dùng một lần)."
+      },
+      {
+        "id": 21,
+        "question": "Theo bài đọc, phát biểu nào sau đây là <strong>ĐÚNG</strong> về các chính sách giảm thiểu rác thải nhựa?",
+        "options": [
+          "A. They are applied equally across all developing regions worldwide.",
+          "B. They include financial rewards for returning plastic bottles.",
+          "C. They completely eliminate plastic waste in major global cities.",
+          "D. They rely solely on public awareness without any legal bans."
+        ],
+        "correct": 1,
+        "explanation": "Dẫn chứng đoạn 2: 'residents receive tax discounts or monetary rewards for returning plastic bottles to designated collection points'."
+      },
+      {
+        "id": 22,
+        "question": "Biện pháp nào sau đây <strong>KHÔNG ĐƯỢC NHẮC TỚI</strong> trong bài viết?",
+        "options": [
+          "A. Banning lightweight plastic bags in retail stores",
+          "B. Giving tax discounts for returning plastic bottles",
+          "C. Organizing international conferences for leaders",
+          "D. Promoting biodegradable packaging materials"
+        ],
+        "correct": 2,
+        "explanation": "Bài viết không đề cập đến việc tổ chức các hội nghị quốc tế cho các nhà lãnh đạo (C)."
+      },
+      {
+        "id": 23,
+        "question": "Câu nào sau đây diễn đạt lại đúng nhất câu: <em>'People are beginning to realize that small daily habits make a significant impact'</em>?",
+        "options": [
+          "A. Citizens now understand that minor everyday actions can create a big difference.",
+          "B. People ignore the fact that daily routines can harm the natural environment.",
+          "C. Everyone knows that large industrial projects can easily solve pollution.",
+          "D. Individuals refuse to change their habits because plastic is very convenient."
+        ],
+        "correct": 0,
+        "explanation": "Câu A đồng nghĩa hoàn toàn: 'Người dân nay đã hiểu rằng những hành động nhỏ hàng ngày có thể tạo nên sự khác biệt lớn'."
+      },
+      {
+        "id": 24,
+        "question": "Dựa vào bài đọc, ta có thể suy ra điều gì về các hộ gia đình thu nhập thấp ở những vùng đang phát triển?",
+        "options": [
+          "A. They never use plastic products in their daily routines.",
+          "B. They find it hard to stop using cheap plastic items.",
+          "C. They completely control local waste management systems.",
+          "D. They refuse to participate in public awareness campaigns."
+        ],
+        "correct": 1,
+        "explanation": "Dẫn chứng đoạn 3: 'In many developing regions, a lack of affordable alternatives makes it difficult for low-income families to stop using cheap plastic products'."
+      },
+      {
+        "id": 25,
+        "question": "Câu nào sau đây tóm tắt đúng nhất ý chính của bài đọc?",
+        "options": [
+          "A. Nations worldwide are adopting policies and community campaigns to reduce plastic waste despite existing challenges.",
+          "B. Environmental experts believe that recycling plastic bottles is the only solution to global pollution.",
+          "C. Developing countries have successfully eliminated all single-use plastic items through strict taxes.",
+          "D. Supermarkets worldwide have stopped selling groceries wrapped in biodegradable materials."
+        ],
+        "correct": 0,
+        "explanation": "Ý chính toàn bài: Các quốc gia trên thế giới đang triển khai chính sách và chiến dịch cộng đồng để giảm rác thải nhựa dù còn nhiều thách thức."
+      },
+      {
+        "id": 26,
+        "question": "Tác giả đề cập đến các ưu đãi tài chính và chiến dịch nâng cao nhận thức cộng đồng ở đoạn văn nào?",
+        "options": [
+          "A. Paragraph 1",
+          "B. Paragraph 2",
+          "C. Paragraph 3",
+          "D. Paragraph 4"
+        ],
+        "correct": 1,
+        "explanation": "Đoạn 2 nêu rõ: 'In addition to government bans, financial incentives have been introduced to promote recycling... Public awareness campaigns also play a crucial role...'"
+      },
+      {
+        "id": 27,
+        "question": "Tác giả thảo luận về những khó khăn, thách thức của các vùng đang phát triển ở đoạn văn nào?",
+        "options": [
+          "A. Paragraph 1",
+          "B. Paragraph 2",
+          "C. Paragraph 3",
+          "D. Paragraph 4"
+        ],
+        "correct": 2,
+        "explanation": "Đoạn 3 mở đầu bằng 'Despite these positive changes, challenges still remain. In many developing regions...'"
+      },
+      {
+        "id": 28,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>Overcoming Cultural Barriers</strong><br>Moving to a new country is an exciting adventure... While some travelers <strong>(28) ______</strong>, others may feel overwhelmed and experience culture shock during their first few months...</div>Chọn dạng đúng của cụm động từ điền vào chỗ trống (28):",
+        "options": [
+          "A. adapt quickly to new customs",
+          "B. adapts quickly to new customs",
+          "C. adapting quickly to new customs",
+          "D. be adapted quickly to new customs"
+        ],
+        "correct": 0,
+        "explanation": "Chủ ngữ là danh từ số nhiều 'some travelers' trong mệnh đề hiện tại đơn chủ động -> Động từ giữ nguyên mẫu 'adapt quickly to new customs'."
+      },
+      {
+        "id": 29,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Understanding cultural differences helps people settle in more smoothly and build meaningful connections. <strong>(29) ______</strong>. Being open-minded and observing how locals interact can prevent embarrassing misunderstandings in daily communication...</div>Chọn câu văn phù hợp điền vào chỗ trống (29):",
+        "options": [
+          "A. Cultural traditions rarely change over time.",
+          "B. Language barriers are the only difficulty travelers face.",
+          "C. Social etiquette can differ significantly between countries.",
+          "D. Moving abroad requires a lot of financial preparation."
+        ],
+        "correct": 2,
+        "explanation": "Câu C bổ sung trực tiếp cho việc thấu hiểu khác biệt văn hóa và cách ứng xử thường ngày: 'Social etiquette can differ significantly between countries' (Nghi thức xã giao có thể khác biệt đáng kể giữa các quốc gia)."
+      },
+      {
+        "id": 30,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Technology also assists newcomers in adjusting to local life, making language learning and navigation much easier. <strong>(30) ______</strong>. Finding ways to integrate into the community can be challenging...</div>Chọn câu văn phù hợp điền vào chỗ trống (30):",
+        "options": [
+          "A. However, building strong relationships with local residents requires genuine patience and active efforts.",
+          "B. Therefore, most travelers decide to isolate themselves from the surrounding community.",
+          "C. Besides, foreign visitors usually spend all their time playing online games.",
+          "D. In contrast, local people always refuse to interact with anyone from abroad."
+        ],
+        "correct": 0,
+        "explanation": "Liên kết tương phản với câu sau 'Finding ways to integrate... can be challenging' -> 'However, building strong relationships with local residents requires genuine patience and active efforts'."
+      },
+      {
+        "id": 31,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Foreigners look for activities that allow them to make new friends. Local communities appreciate newcomers <strong>(31) ______</strong>. By respecting local traditions and staying positive...</div>Chọn mệnh đề quan hệ thích hợp điền vào chỗ trống (31):",
+        "options": [
+          "A. who show respect for their local traditions",
+          "B. be respectful of their local traditions",
+          "C. to show respect for their local traditions",
+          "D. which show respect for their local traditions"
+        ],
+        "correct": 0,
+        "explanation": "'newcomers' (những người mới đến) là danh từ chỉ người làm chủ ngữ -> dùng mệnh đề quan hệ 'who show respect for their local traditions'."
+      },
+      {
+        "id": 32,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Adapting to a new culture helps people grow maturity and <strong>(32) ______</strong>. Experiencing life in another country is not just about traveling; it also provides valuable personal growth and global awareness.</div>Chọn cụm từ thích hợp điền vào chỗ trống (32):",
+        "options": [
+          "A. gained valuable life skills",
+          "B. to gaining valuable life skills",
+          "C. gain valuable life skills",
+          "D. gaining valuable life skills"
+        ],
+        "correct": 2,
+        "explanation": "Cấu trúc song hành sau 'helps people + V (bare)': 'grow maturity and gain valuable life skills'."
+      },
+      {
+        "id": 33,
+        "question": "<strong>LISTENING - Task 1: Neighborhood Clean-up Day</strong><br>When is another neighborhood clean-up day going to be?",
+        "options": [
+          "A. on the 20th of June",
+          "B. on the 25th of June",
+          "C. on the 25th of July",
+          "D. on the 25th of January"
+        ],
+        "correct": 1,
+        "explanation": "Theo bài nghe, ngày dọn vệ sinh khu phố tiếp theo sẽ được tổ chức vào ngày 25 tháng 6 (on the 25th of June)."
+      },
+      {
+        "id": 34,
+        "question": "<strong>LISTENING - Task 1: Neighborhood Clean-up Day</strong><br>What has the man got at three that day?",
+        "options": [
+          "A. an important football match",
+          "B. another neighborhood clean-up activity",
+          "C. an interesting music event",
+          "D. an important presentation"
+        ],
+        "correct": 0,
+        "explanation": "Người đàn ông có một trận đấu bóng đá quan trọng vào lúc 3 giờ chiều hôm đó (an important football match)."
+      },
+      {
+        "id": 35,
+        "question": "<strong>LISTENING - Task 1: Neighborhood Clean-up Day</strong><br>What should the man and the woman bring when they join the clean-up day?",
+        "options": [
+          "A. plastic bags",
+          "B. gloves",
+          "C. handbags",
+          "D. nothing"
+        ],
+        "correct": 1,
+        "explanation": "Hai người cần mang theo găng tay bảo hộ (gloves) khi tham gia buổi dọn dẹp vệ sinh."
+      },
+      {
+        "id": 36,
+        "question": "<strong>LISTENING - Task 1: Neighborhood Clean-up Day</strong><br>What will volunteers also do?",
+        "options": [
+          "A. feed animals around the neighborhood",
+          "B. remove tigers around the neighborhood",
+          "C. remove graffiti around the neighborhood",
+          "D. catch farm animals around the neighborhood"
+        ],
+        "correct": 2,
+        "explanation": "Ngoài nhặt rác, các tình nguyện viên còn xóa các hình vẽ bậy trên tường khu dân cư (remove graffiti around the neighborhood)."
+      },
+      {
+        "id": 37,
+        "question": "<strong>LISTENING - Task 2: Brad's Weekend</strong><br><em>Listen and decide whether the statement is True or False:</em><br><br>Brad had a pretty exciting weekend.",
+        "options": [
+          "A. True",
+          "B. False"
+        ],
+        "correct": 1,
+        "explanation": "Cuối tuần của Brad khá buồn tẻ và tẻ nhạt vì bạn gái bị ốm nên phát biểu này là False."
+      },
+      {
+        "id": 38,
+        "question": "<strong>LISTENING - Task 2: Brad's Weekend</strong><br><em>Listen and decide whether the statement is True or False:</em><br><br>His girlfriend got sick.",
+        "options": [
+          "A. True",
+          "B. False"
+        ],
+        "correct": 0,
+        "explanation": "Bạn gái của Brad bị ốm khiến hai người phải hủy kế hoạch đi chơi -> True."
+      },
+      {
+        "id": 39,
+        "question": "<strong>LISTENING - Task 2: Brad's Weekend</strong><br><em>Listen and decide whether the statement is True or False:</em><br><br>He rented some videos - it was really great.",
+        "options": [
+          "A. True",
+          "B. False"
+        ],
+        "correct": 1,
+        "explanation": "Anh ấy thuê vài cuốn băng video nhưng các bộ phim đều dở và nhàm chán chứ không hề tuyệt vời -> False."
+      },
+      {
+        "id": 40,
+        "question": "<strong>LISTENING - Task 2: Brad's Weekend</strong><br><em>Listen and decide whether the statement is True or False:</em><br><br>He watched videos with his brother instead.",
+        "options": [
+          "A. True",
+          "B. False"
+        ],
+        "correct": 0,
+        "explanation": "Thay vì đi chơi cùng bạn gái, anh ấy ở nhà xem video cùng em/anh trai mình -> True."
+      }
+    ]
+  },
+  {
+    "id": "olm-review-unit-1-2-3-tieng-anh-12",
+    "title": "Bài luyện tập OLM: Review Unit 1, 2, 3 - Tiếng Anh 12 (Ôn Giữa Kỳ I)",
+    "subject": "Tiếng Anh",
+    "grade": "Lớp 12",
+    "durationMinutes": 45,
+    "difficulty": "Ôn tập trọng tâm OLM",
+    "tags": [
+      "OLM",
+      "Review Unit 1-2-3",
+      "Tiếng Anh 12",
+      "Giữa kỳ 1",
+      "Global Success"
+    ],
+    "description": "Bộ đề luyện tập ôn thi giữa học kỳ I môn Tiếng Anh 12 trên OLM tổng hợp toàn diện kiến thức Unit 1 (Life stories), Unit 2 (A multicultural world), Unit 3 (Green living). Bao gồm bài tập ngữ pháp - từ vựng, đọc điền leaflet Go Green, sắp xếp câu logic, đọc hiểu Green Living và tiểu sử Đại tướng Võ Nguyên Giáp.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "When we arrived at the school hall, the students <strong>______</strong> a traditional folk dance.",
+        "options": [
+          "A. are performing",
+          "B. performed",
+          "C. had performed",
+          "D. were performing"
+        ],
+        "correct": 3,
+        "explanation": "Sự phối thì Quá khứ tiếp diễn và Quá khứ đơn: Một hành động đang diễn ra trong quá khứ ('were performing') thì một hành động ngắn khác xen vào ('arrived')."
+      },
+      {
+        "id": 2,
+        "question": "The guest speaker gave an <strong>______</strong> presentation on preserving cultural heritage.",
+        "options": [
+          "A. impression",
+          "B. impressively",
+          "C. impress",
+          "D. impressive"
+        ],
+        "correct": 3,
+        "explanation": "Trước danh từ 'presentation' cần một tính từ bổ nghĩa: 'impressive presentation' (bài thuyết trình ấn tượng)."
+      },
+      {
+        "id": 3,
+        "question": "She has always been enthusiastic <strong>______</strong> participating in community green projects.",
+        "options": [
+          "A. at",
+          "B. about",
+          "C. with",
+          "D. for"
+        ],
+        "correct": 1,
+        "explanation": "Cấu trúc tính từ đi với giới từ: 'be enthusiastic about sth / doing sth' (nhiệt tình, hào hứng về điều gì)."
+      },
+      {
+        "id": 4,
+        "question": "We need to find <strong>______</strong> effective way to reduce single-use plastic waste in our school.",
+        "options": [
+          "A. a",
+          "B. the",
+          "C. an",
+          "D. Ø (no article)"
+        ],
+        "correct": 2,
+        "explanation": "'way' là danh từ đếm được số ít mang nghĩa 'một cách', đi kèm tính từ 'effective' bắt đầu bằng nguyên âm /ɪ/ -> Dùng mạo từ 'an'."
+      },
+      {
+        "id": 5,
+        "question": "Every student should try their best to <strong>______</strong> a contribution to protecting the environment.",
+        "options": [
+          "A. take",
+          "B. have",
+          "C. do",
+          "D. make"
+        ],
+        "correct": 3,
+        "explanation": "Cụm từ cố định (Collocation): 'make a contribution to sth/doing sth' (đóng góp vào việc gì)."
+      },
+      {
+        "id": 6,
+        "question": "Joining these eco-friendly activities helps raise students' <strong>______</strong> of environmental problems.",
+        "options": [
+          "A. permission",
+          "B. ambition",
+          "C. authority",
+          "D. awareness"
+        ],
+        "correct": 3,
+        "explanation": "Cụm danh từ cố định: 'raise awareness of sth' (nâng cao nhận thức về vấn đề môi trường)."
+      },
+      {
+        "id": 7,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>GO GREEN – MAKE A DIFFERENCE!</strong><br>Want to live a greener life? Follow these simple tips to protect our planet!<br>• Save Water and Energy: Use less water and turn off unnecessary lights. Try to use <strong>(7) ______</strong> electricity whenever possible...</div>Chọn lượng từ phù hợp điền vào chỗ trống (7):",
+        "options": [
+          "A. several",
+          "B. many",
+          "C. a few",
+          "D. a little"
+        ],
+        "correct": 3,
+        "explanation": "'electricity' là danh từ không đếm được -> Dùng 'a little' (một lượng nhỏ điện năng)."
+      },
+      {
+        "id": 8,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...• Reduce Plastic Waste: Bring reusable bags and bottles. Avoid plastic products <strong>(8) ______</strong> are harmful to the environment...</div>Chọn đại từ quan hệ thích hợp điền vào chỗ trống (8):",
+        "options": [
+          "A. who",
+          "B. why",
+          "C. whom",
+          "D. which"
+        ],
+        "correct": 3,
+        "explanation": "'plastic products' là danh từ chỉ vật làm chủ ngữ cho mệnh đề quan hệ -> Dùng 'which'."
+      },
+      {
+        "id": 9,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...• Recycle More: Collect paper, glass, and plastic. You can also <strong>(9) ______</strong> old clothes and books to people in need instead of throwing them away...</div>Chọn cụm động từ thích hợp điền vào chỗ trống (9):",
+        "options": [
+          "A. give away",
+          "B. look after",
+          "C. throw away",
+          "D. turn down"
+        ],
+        "correct": 0,
+        "explanation": "'give away' có nghĩa là quyên góp, cho tặng đồ cũ (quần áo, sách) cho người cần thay vì vứt bỏ."
+      },
+      {
+        "id": 10,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...• Protect Green Spaces: Plant trees and join community clean-up activities. These actions help raise public <strong>(10) ______</strong> of environmental problems...</div>Chọn từ phù hợp điền vào chỗ trống (10):",
+        "options": [
+          "A. awareness",
+          "B. permission",
+          "C. ambition",
+          "D. confidence"
+        ],
+        "correct": 0,
+        "explanation": "Cụm danh từ quen thuộc: 'public awareness of environmental problems' (nhận thức của công chúng về vấn nạn môi trường)."
+      },
+      {
+        "id": 11,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...• Choose Eco-friendly Products: Buy products made from recycled materials. They are often more <strong>(11) ______</strong> than disposable alternatives...</div>Chọn tính từ thích hợp điền vào chỗ trống (11):",
+        "options": [
+          "A. sustainable",
+          "B. temporary",
+          "C. harmful",
+          "D. careless"
+        ],
+        "correct": 0,
+        "explanation": "'sustainable' (bền vững, thân thiện với môi trường) đối lập với các sản phẩm dùng một lần ('disposable alternatives')."
+      },
+      {
+        "id": 12,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...<strong>(12) ______</strong>, remember that every small action counts. Together, we can build a cleaner and healthier world!<br>JOIN THE GREEN LIVING MOVEMENT TODAY!</div>Chọn liên từ phù hợp điền vào chỗ trống (12):",
+        "options": [
+          "A. Moreover",
+          "B. However",
+          "C. Therefore",
+          "D. For example"
+        ],
+        "correct": 2,
+        "explanation": "'Therefore' (Do đó/Vì vậy) dùng để đúc kết lại toàn bộ các lời khuyên ở trên trước khi đưa ra thông điệp kết luận."
+      },
+      {
+        "id": 13,
+        "question": "Sắp xếp các câu sau để tạo thành đoạn hội thoại hợp lý:<br><br>a. <strong>Peter:</strong> I’ve just finished reading about Nick Vujicic.<br>b. <strong>Linda:</strong> Really? What do you think of him?<br>c. <strong>Peter:</strong> He’s amazing! His story encourages me to be strong.",
+        "options": [
+          "A. b-c-a",
+          "B. a-c-b",
+          "C. c-b-a",
+          "D. a-b-c"
+        ],
+        "correct": 3,
+        "explanation": "Peter mở đầu vừa đọc xong về Nick Vujicic (a) -> Linda hỏi cảm nghĩ (b) -> Peter chia sẻ sự ngưỡng mộ và câu chuyện truyền cảm hứng (c). Trình tự: a-b-c."
+      },
+      {
+        "id": 14,
+        "question": "Sắp xếp các câu sau để tạo thành đoạn hội thoại mạch lạc:<br><br>a. <strong>David:</strong> Hmm. I think that will be difficult to do.<br>b. <strong>Sophia:</strong> Yeah. I think we should encourage students to take public transport instead of driving to school. If more people use buses or trains, we’ll have less pollution.<br>c. <strong>David:</strong> Well, what if the buses are too crowded or someone lives far away? It won’t be convenient for everyone.<br>d. <strong>David:</strong> Do you have any ideas for our presentation about reducing air pollution?<br>e. <strong>Sophia:</strong> Why do you think so?",
+        "options": [
+          "A. d - e - a - b - c",
+          "B. c - e - d - b - a",
+          "C. d - b - a - e - c",
+          "D. c - b - a - e - d"
+        ],
+        "correct": 2,
+        "explanation": "David hỏi ý tưởng bài thuyết trình (d) -> Sophia đề xuất khuyến khích đi xe buýt (b) -> David e ngại khó thực hiện (a) -> Sophia hỏi lý do (e) -> David giải thích xe buýt có thể quá đông hoặc ở xa (c). Trình tự d-b-a-e-c."
+      },
+      {
+        "id": 15,
+        "question": "Sắp xếp các câu sau để tạo thành đoạn văn hoàn chỉnh:<br><br>a. Finally, these festivals inspire creativity and innovation as they observe various artistic expressions and performances.<br>b. Firstly, they broaden their horizons by exposing them to diverse cultures, traditions, and languages.<br>c. Overall, participating in world festivals enriches the lives of Vietnamese teenagers, fostering global awareness and understanding in an increasingly interconnected world.<br>d. World festivals have significant impacts on Vietnamese young teenagers.<br>e. Teenagers learn to appreciate and respect different ways of life.<br>f. Secondly, festivals cultivate a sense of curiosity and openness towards the world beyond their immediate surroundings.",
+        "options": [
+          "A. d – b – f – c – e – a",
+          "B. d – b – f – e – a – c",
+          "C. c – b – f – e – d – a",
+          "D. d – e – b – f – a – c"
+        ],
+        "correct": 1,
+        "explanation": "Câu mở đầu giới thiệu tác động của lễ hội thế giới (d) -> Luận điểm 1: mở rộng tầm nhìn (b) -> Luận điểm 2: khơi gợi sự tò mò (f) -> Chi tiết bổ trợ: học cách tôn trọng lối sống khác biệt (e) -> Luận điểm cuối: kích thích sáng tạo (a) -> Kết luận tổng quan (c). Trình tự d-b-f-e-a-c."
+      },
+      {
+        "id": 16,
+        "question": "Sắp xếp các câu sau để tạo thành bức thư hoàn chỉnh:<br><br>a. She joined the Viet Minh and became a guerrilla fighter at a very young age.<br>b. Take care, and I look forward to catching up soon! Warm regards, Thanh<br>c. Unfortunately, she was apprehended by the French authorities and executed by firing squad when she was only 19 years old.<br>d. Her grave, located in Hang Duong Cemetery, stands as a symbol of her courage and the revolutionary spirit. It's a place of great historical significance, and I felt honored to pay my respects there.<br>e. Dear Ann, I hope this letter finds you well. I recently had the opportunity to visit Vo Thi Sau's grave in Con Dao, Vietnam.<br>f. Vo Thi Sau was a remarkable Vietnamese schoolgirl who became involved in revolutionary activities.",
+        "options": [
+          "A. e – d – c – a – f – b",
+          "B. e – f – a – c – d – b",
+          "C. b – f – c – e – a – d",
+          "D. d – f – b – a – c – e"
+        ],
+        "correct": 1,
+        "explanation": "Lời chào và kể dịp viếng mộ chị Võ Thị Sáu tại Côn Đảo (e) -> Giới thiệu nữ anh hùng Võ Thị Sáu (f) -> Tham gia Việt Minh từ khi còn rất trẻ (a) -> Bị thực dân Pháp bắt và hy sinh năm 19 tuổi (c) -> Ý nghĩa ngôi mộ tại Nghĩa trang Hàng Dương (d) -> Lời chào kết thư (b). Trình tự e-f-a-c-d-b."
+      },
+      {
+        "id": 17,
+        "question": "Sắp xếp các câu sau để tạo thành đoạn văn logic:<br><br>a. These events provide opportunities for socializing, experiencing new cultures, and enjoying festive atmospheres, which appeal to the younger generation.<br>b. However, some argue that this trend might overshadow traditional Vietnamese festivals, leading to a loss of cultural identity.<br>c. Nowadays, an increasing number of young Vietnamese people have shown a growing interest in celebrating international festivals such as Christmas and Halloween.<br>d. In conclusion, I firmly believe that while participating in international festivals offers valuable experiences, young people in Vietnam should strive to strike a balance by also preserving and honoring their own cultural heritage.<br>e. Moreover, the influence of globalization and social media has made these celebrations more accessible and popular.",
+        "options": [
+          "A. c - a - e - b - d",
+          "B. a - c - b - e - d",
+          "C. a - e - c - d - b",
+          "D. c - e - a - d - b"
+        ],
+        "correct": 0,
+        "explanation": "Hiện tượng giới trẻ thích lễ hội quốc tế như Giáng sinh, Halloween (c) -> Lợi ích giao lưu trải nghiệm (a) -> Ảnh hưởng của toàn cầu hóa và mạng xã hội (e) -> Quan điểm lo ngại mai một bản sắc truyền thống (b) -> Kết luận cần cân bằng hai yếu tố (d). Trình tự c-a-e-b-d."
+      },
+      {
+        "id": 18,
+        "question": "<strong>Reading: Green Living: More Than a Personal Choice</strong><br>What is the passage mainly about?",
+        "options": [
+          "A. The negative effects of modern technology on people's lifestyles.",
+          "B. The economic advantages of purchasing locally produced food.",
+          "C. The importance of individual actions and collective efforts in promoting green living.",
+          "D. The reasons governments should take full responsibility for environmental protection."
+        ],
+        "correct": 2,
+        "explanation": "Ý chính toàn bài: Tầm quan trọng của cả hành động cá nhân lẫn nỗ lực tập thể (doanh nghiệp, chính phủ) trong việc thúc đẩy lối sống xanh."
+      },
+      {
+        "id": 19,
+        "question": "The word <strong>“their”</strong> in paragraph 3 refers to ______.",
+        "options": [
+          "A. businesses'",
+          "B. governments'",
+          "C. households'",
+          "D. industries'"
+        ],
+        "correct": 2,
+        "explanation": "Dẫn chứng đoạn 3: 'Even when households make considerable changes, their progress may be undermined by industries...' -> 'their' thay cho 'households''."
+      },
+      {
+        "id": 20,
+        "question": "The word <strong>“undermined”</strong> in paragraph 3 is closest in meaning to ______.",
+        "options": [
+          "A. publicized",
+          "B. strengthened",
+          "C. maintained",
+          "D. weakened"
+        ],
+        "correct": 3,
+        "explanation": "'undermined' (bị làm suy yếu, làm giảm hiệu quả) đồng nghĩa với 'weakened'."
+      },
+      {
+        "id": 21,
+        "question": "Which of the following best paraphrases the bold sentence in paragraph 2: <em>'A product advertised as environmentally friendly is not necessarily sustainable throughout its entire life cycle.'</em>?",
+        "options": [
+          "A. Consumers should avoid all products that require packaging or transportation.",
+          "B. Manufacturers can ensure sustainability simply by advertising their products as environmentally friendly.",
+          "C. A product's environmental claims do not guarantee that it remains sustainable at every stage of its life cycle.",
+          "D. Products with environmental labels are always sustainable from production to disposal."
+        ],
+        "correct": 2,
+        "explanation": "Câu C diễn đạt lại chính xác nhất: Tuyên bố thân thiện với môi trường của một sản phẩm không đảm bảo rằng nó thực sự bền vững trong mọi giai đoạn của vòng đời."
+      },
+      {
+        "id": 22,
+        "question": "The word <strong>“negligible”</strong> in paragraph 4 is <strong>OPPOSITE</strong> in meaning to ______.",
+        "options": [
+          "A. limited",
+          "B. substantial",
+          "C. minimal",
+          "D. insignificant"
+        ],
+        "correct": 1,
+        "explanation": "'negligible' (nhỏ bé, không đáng kể) trái nghĩa với 'substantial' (đáng kể, to lớn)."
+      },
+      {
+        "id": 23,
+        "question": "According to the passage, which of the following is <strong>NOT</strong> mentioned as a way to promote green living?",
+        "options": [
+          "A. Improving public transport and recycling facilities.",
+          "B. Introducing financial penalties for households that use too much electricity.",
+          "C. Using energy-efficient household appliances.",
+          "D. Investing in cleaner production methods."
+        ],
+        "correct": 1,
+        "explanation": "Bài viết không đề cập đến việc áp dụng hình phạt tài chính đối với hộ gia đình dùng nhiều điện (B)."
+      },
+      {
+        "id": 24,
+        "question": "Which of the following is <strong>TRUE</strong> according to the passage?",
+        "options": [
+          "A. Environmental protection depends mainly on consumers avoiding packaged products.",
+          "B. Buying locally produced food always has no environmental costs.",
+          "C. Cooperation among citizens, businesses, and governments is necessary for lasting environmental progress.",
+          "D. Individual actions are sufficient to solve all environmental problems."
+        ],
+        "correct": 2,
+        "explanation": "Dẫn chứng đoạn 4: 'Ultimately, green living requires cooperation between citizens, businesses, and governments' (Đáp án C đúng)."
+      },
+      {
+        "id": 25,
+        "question": "According to paragraph 2, why should consumers examine how products are manufactured, packaged, and disposed of?",
+        "options": [
+          "A. To assess whether products are sustainable throughout their life cycle.",
+          "B. To reduce the need for public transport and recycling facilities.",
+          "C. To encourage manufacturers to use more attractive environmental labels.",
+          "D. To ensure that locally produced goods are always cheaper."
+        ],
+        "correct": 0,
+        "explanation": "Người tiêu dùng cần xem xét cách sản xuất, đóng gói và xử lý rác thải để đánh giá xem sản phẩm có thực sự bền vững trong suốt vòng đời hay không (A)."
+      },
+      {
+        "id": 26,
+        "question": "In which paragraph does the writer discuss the limitations of relying solely on individual efforts and the responsibilities of businesses and governments?",
+        "options": [
+          "A. Paragraph 4",
+          "B. Paragraph 2",
+          "C. Paragraph 1",
+          "D. Paragraph 3"
+        ],
+        "correct": 3,
+        "explanation": "Đoạn 3 mở đầu bằng 'Nevertheless, individual efforts alone cannot solve every environmental problem...' và thảo luận trách nhiệm của doanh nghiệp và chính quyền."
+      },
+      {
+        "id": 27,
+        "question": "In which paragraph does the writer explain that combined small actions can lead to a much greater impact and encourage wider environmental reforms?",
+        "options": [
+          "A. Paragraph 2",
+          "B. Paragraph 1",
+          "C. Paragraph 4",
+          "D. Paragraph 3"
+        ],
+        "correct": 2,
+        "explanation": "Đoạn 4 nêu rõ: 'Small actions may appear negligible when considered separately, but their combined impact can be substantial...'."
+      },
+      {
+        "id": 28,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'><strong>General Vo Nguyen Giap</strong><br>General Vo Nguyen Giap <strong>(28) ______</strong> on August 25, 1911, in An Xa village, Quang Binh Province. His father was a poor mandarin who passed away in French custody due to his political activities...</div>Chọn cụm từ thích hợp điền vào chỗ trống (28):",
+        "options": [
+          "A. whose family had a strong nationalist tradition",
+          "B. to come from a family with a strong nationalist tradition",
+          "C. coming from a family with a strong nationalist tradition",
+          "D. came from a family with a strong nationalist tradition"
+        ],
+        "correct": 3,
+        "explanation": "Động từ chính của câu: 'General Vo Nguyen Giap came from a family with a strong nationalist tradition, born on August 25, 1911...' (D xuất thân từ một gia đình có truyền thống yêu nước nồng nàn)."
+      },
+      {
+        "id": 29,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...At the age of 14, Giap enrolled in the prestigious Quoc Hoc School in Hue, where he began his political activism by participating in protests against French colonial rule and <strong>(29) ______</strong>...</div>Chọn cụm từ thích hợp điền vào chỗ trống (29):",
+        "options": [
+          "A. to join the Tan Viet Revolutionary Party",
+          "B. having joined the Tan Viet Revolutionary Party",
+          "C. joining the Tan Viet Revolutionary Party",
+          "D. joined the Tan Viet Revolutionary Party"
+        ],
+        "correct": 2,
+        "explanation": "Cấu trúc song hành với 'participating in... and joining...' (tham gia các cuộc biểu tình và gia nhập Đảng Tân Việt)."
+      },
+      {
+        "id": 30,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...He played a crucial role in negotiating with French representatives. <strong>(30) ______</strong>. The agreement aimed to resolve conflicts between Vietnam and France through diplomatic means...</div>Chọn câu văn phù hợp điền vào chỗ trống (30):",
+        "options": [
+          "A. In contrast, he refused to cooperate with the representatives of the French government.",
+          "B. However, his diplomatic efforts failed to produce any agreement with the French.",
+          "C. For example, he abandoned negotiations and focused entirely on military action.",
+          "D. Moreover, his diplomatic skills helped him reach an agreement with the French representatives."
+        ],
+        "correct": 3,
+        "explanation": "Liên kết bổ sung với câu trước về tài ngoại giao: 'Moreover, his diplomatic skills helped him reach an agreement with the French representatives' dẫn tới việc ký kết hiệp định hòa hoãn."
+      },
+      {
+        "id": 31,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...Throughout the subsequent decades, General Giap led the Vietnamese military in both the First Indochina War against French forces and the Vietnam War against the United States and South Vietnam. <strong>(31) ______</strong>. His strategic leadership contributed significantly to the victory at the Battle of Dien Bien Phu in 1954, which marked a turning point in the struggle for Vietnamese independence...</div>Chọn câu văn phù hợp điền vào chỗ trống (31):",
+        "options": [
+          "A. Despite his significant contribution to the country's military victories.",
+          "B. Because his strategies were highly effective against the opposing forces.",
+          "C. His achievements on the battlefield demonstrated his exceptional military talent.",
+          "D. Although he was widely recognised for his military leadership."
+        ],
+        "correct": 2,
+        "explanation": "Câu hoàn chỉnh về mặt ngữ pháp và nội dung nối tiếp: 'His achievements on the battlefield demonstrated his exceptional military talent' (Những chiến công trên chiến trường đã chứng minh tài năng quân sự xuất chúng của ông)."
+      },
+      {
+        "id": 32,
+        "question": "<div class='p-3 mb-2 bg-slate-100 dark:bg-slate-700/50 rounded-xl text-xs leading-relaxed'>...After Vietnam's reunification in 1975, General Giap continued to influence the country's defence and development policies. He passed away on October 4, 2013, at the age of 102. General Giap, <strong>(32) ______</strong>, left a lasting legacy in Vietnam's history.</div>Chọn mệnh đề quan hệ không xác định phù hợp điền vào chỗ trống (32):",
+        "options": [
+          "A. whose military achievements inspired generations of Vietnamese people",
+          "B. who was one of the most influential military leaders in Vietnamese history",
+          "C. whom his military achievements inspired generations of Vietnamese people",
+          "D. which made him one of the most influential military leaders in Vietnamese history"
+        ],
+        "correct": 1,
+        "explanation": "Mệnh đề quan hệ không xác định bổ nghĩa cho danh từ riêng 'General Giap': 'who was one of the most influential military leaders in Vietnamese history' (người là một trong những nhà lãnh đạo quân sự có tầm ảnh hưởng lớn nhất trong lịch sử Việt Nam)."
+      }
+    ]
+  },
+  {
     "id": "hoa-hoc-12-este-cacbohidrat-amin",
     "title": "Chuyên đề Hóa học 12: Ester, Carbohydrate, Amine & Amino Acid",
     "subject": "Hóa Học",
