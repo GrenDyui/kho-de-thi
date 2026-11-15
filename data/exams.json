@@ -5050,5 +5050,986 @@
         "explanation": "Đáp án chính xác: [3]\n​Polyethylene, polybuta-1,3-diene và poly(vinyl chloride) được điều chế từ phản ứng trùng hợp.\nPoly(phenol fomaldehyde) được điều chế bằng phản ứng trùng ngưng.\nPolysaccharide là polymer thiên nhiên."
       }
     ]
+  },
+  {
+    "id": "olm-2371132526",
+    "title": "OLM: ĐỊNH LUẬT BOYLE",
+    "subject": "Vật Lý",
+    "grade": 12,
+    "duration": 45,
+    "teacher": "Lê Thị Phượng",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Vật Lý",
+      "GV: Lê Thị Phượng"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Các thông số trạng thái của một lượng khí không bao gồm đại lượng nào dưới đây của lượng khí đó?",
+        "options": [
+          "A. Khối lượng.",
+          "B. Thể tích.",
+          "C. Nhiệt độ.",
+          "D. Áp suất."
+        ],
+        "correct": 0,
+        "explanation": "Các thông số trạng thái của một lượng khí gồm: thể tích, nhiệt độ và áp suất của lượng khí đó.​"
+      },
+      {
+        "id": 2,
+        "question": "Theo định luật Boyle, khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất gây ra bởi khí",
+        "options": [
+          "A. tỉ lệ nghịch với thể tích của nó.",
+          "B. tỉ lệ thuận với thể tích của nó.",
+          "C. không đổi, thể tích của khí thay đổi.",
+          "D. thay đổi, thể tích của khí không đổi."
+        ],
+        "correct": 0,
+        "explanation": "​Theo định luật Boyle, khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất gây ra bởi khí tỉ lệ nghịch với thể tích của nó."
+      },
+      {
+        "id": 3,
+        "question": "Trong các hệ thức sau đây, hệ thức nào không phù hợp với định luật Boyle?",
+        "options": [
+          "A. p∼1V.",
+          "B. V∼1p.",
+          "C. p1V1=p2V2.",
+          "D. V∼p."
+        ],
+        "correct": 3,
+        "explanation": "Theo định luật Boyle, khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất gây ra bởi khí tỉ lệ nghịch với thể tích của nó  ⇒p∼1V  hay  V∼1p .​\nTa cũng có:  p1V1=p2V2"
+      },
+      {
+        "id": 4,
+        "question": "Tập hợp ba thông số nào sau đây xác định trạng thái của một lượng khí xác định?",
+        "options": [
+          "A. Áp suất, thể tích, khối lượng.",
+          "B. Áp suất, nhiệt độ, thể tích.",
+          "C. Thể tích, trọng lượng, áp suất.",
+          "D. Áp suất, nhiệt độ, khối lượng."
+        ],
+        "correct": 1,
+        "explanation": "Ba thông số trạng thái của một lượng khí xác định: áp suất, nhiệt độ, thể tích.​"
+      },
+      {
+        "id": 5,
+        "question": "Đồ thị nào dưới đây không phù hợp với quá trình đẳng nhiệt?",
+        "options": [
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
+        ],
+        "correct": 1,
+        "explanation": "Quá trình đẳng nhiệt có nhiệt độ không đổi theo thời gian.​\nĐồ thị p - V trên có dạng một nhánh của đường hypebol ⇒ phù hợp với quá trình đẳng nhiệt.\nĐồ thị trên có nhiệt độ tuyệt dối T không đổi theo thời gian ⇒ phù hợp với quá trình đẳng nhiệt.\nĐồ thị trên có nhiệt độ tuyệt dối T không đổi theo thời gian ⇒ phù hợp với quá trình đẳng nhiệt.\nĐồ thị trên có áp suất p không đổi theo thời gian ⇒ không phù hợp với quá trình đẳng nhiệt."
+      },
+      {
+        "id": 6,
+        "question": "Thực hiện nén một khối lượng khí với nhiệt độ không đổi thì số phân tử trong một đơn vị thể tích",
+        "options": [
+          "A. tăng tỉ lệ thuận với áp suất.",
+          "B. không đổi.",
+          "C. tăng tỉ lệ với bình phương áp suất.",
+          "D. giảm tỉ lệ nghịch với áp suất."
+        ],
+        "correct": 0,
+        "explanation": "Do T = hằng số nên p∼1V ​\nMặt khác, số đơn vị trong một đơn vị thể tích:  n=NV\nSuy ra  n∼p"
+      },
+      {
+        "id": 7,
+        "question": "Đẩy pit-tông của một xilanh đủ chậm để nén lượng khí chứa trong xilanh sao cho thể tích của lượng khí này giảm đi 3 lần ở nhiệt độ không đổi. Khi đó áp suất của khí trong xi lanh",
+        "options": [
+          "A. giảm đi 3 lần.",
+          "B. tăng lên 3 lần.",
+          "C. tăng thêm 4 lần.",
+          "D. không thay đổi."
+        ],
+        "correct": 1,
+        "explanation": "Quá trình đã thực hiện là quá trình đẳng nhiệt. Theo định luật Boyle, khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất gây ra bởi khí tỉ lệ nghịch với thể tích của nó.​\n⇒ Khi thể tích giảm đi 3 lần thì áp suất khí trong xilanh tăng lên 3 lần."
+      },
+      {
+        "id": 8,
+        "question": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle?",
+        "options": [
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
+        ],
+        "correct": 1,
+        "explanation": "Theo định luật Boyle:  p∼1V\n⇒ Đồ thị biểu diễn đúng định luật Boyle là đồ thị biểu diễn  p  theo  1V  là một đường thẳng có đường kéo dài đi qua gốc O."
+      },
+      {
+        "id": 9,
+        "question": "Một lượng khí có thể tích là 20 L ở áp suất 105 Pa. Biết nhiệt độ của khí không đổi. Thể tích của lượng khí này ở áp suất 4.105 Pa là bao nhiêu L?",
+        "options": [
+          "Đáp số: 5"
+        ],
+        "correct": 0,
+        "explanation": "Theo định luật Boyle:​\np1V1=p2V2⇒V2=p1V1p2=105.204.105=5  L.",
+        "type": "short_answer",
+        "correctAnswer": "5"
+      },
+      {
+        "id": 10,
+        "question": "Một quả bóng chứa 0,05 m3 không khí ở áp suất 150 kPa. Khi làm giảm thể tích bóng còn 0,02 m3 ở nhiệt độ không đổi thì áp suất của không khí trong bóng là bao nhiêu kPa?",
+        "options": [
+          "A. Xem hướng dẫn giải",
+          "B. Đang cập nhật"
+        ],
+        "correct": 0,
+        "explanation": "​Theo định luật Boyle:\np1V1=p2V2⇒p2=p1V1V2=150000.0,050,02=375000  Pa  =375  kPa"
+      },
+      {
+        "id": 11,
+        "question": "Một bọt khí nổi từ đáy giếng sâu 5 m lên mặt nước. Coi áp suất khí quyển là 1,013.105 Pa; khối lượng riêng của nước giếng là 1003 kg/m3 và nhiệt độ của nước giếng không thay đổi theo độ sâu. Lấy  g  = 9,8 m/s2. Hỏi khi lên tới mặt nước, thể tích của bọt khí tăng lên bao nhiêu lần? (Kết quả lấy đến 1 chữ số có nghĩa).​",
+        "options": [
+          "Đáp số: 1,5  hoặc 1.5"
+        ],
+        "correct": 0,
+        "explanation": "Áp suất tại đáy giếng:​\np1=p0+ρgh=1,013.105+1003.9,8.5=150447  Pa\nTheo định luật Boyle:\np1V1=p2V2⇒V2=p1V1p2=150447.V11,013.105=1,49V1≈1,5V1\nVậy thể tích của bọt khí tăng lên 1,5 lần khi lên tới mặt nước.",
+        "type": "short_answer",
+        "correctAnswer": "1,5  hoặc 1.5"
+      },
+      {
+        "id": 12,
+        "question": "Một lượng khí ở nhiệt độ 25 oC có thể tích 1 m3 và áp suất 1 atm. Người ta nén đẳng nhiệt lượng khí này đến áp suất 2,5 atm. Hỏi thể tích khí sau khi nén là bao nhiêu m3?",
+        "options": [
+          "Đáp số: 0,4  hoặc  0.4"
+        ],
+        "correct": 0,
+        "explanation": "​Quá trình nén khí là đẳng nhiệt nên theo định luật Boyle, ta có:\np1V1=p2V2⇒V2=p1V1p2=1.12,5=0,4  m3",
+        "type": "short_answer",
+        "correctAnswer": "0,4  hoặc  0.4"
+      },
+      {
+        "id": 13,
+        "question": "Định luật Boyle được nhà vật lí và hóa học người Ireland là Robert Boyle (1627 - 1691) tìm ra bằng thực nghiệm năm 1662 khi ông nghiên cứu về quá trình biến đổi trạng thái của một khối lượng khí xác định.",
+        "options": [],
+        "correct": 0,
+        "explanation": "a) Quá trình đẳng nhiệt là quá trình biến đổi trạng thái của một khối lượng khí xác định khi nhiệt độ giữ không đổi.\nb) Định luật Boyle phù hợp với quá trình đẳng nhiệt.\nc) Khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất gây ra bởi khí tỉ lệ nghịch với thể tích của nó.\nd) Đồ thị biểu diễn định luật Boyle là một nhánh của đường hybebol.",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Quá trình đẳng nhiệt là quá trình biến đổi trạng thái của một khối lượng khí xác định khi nhiệt độ giữ không đổi.( T )",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": "Định luật Boyle phù hợp với quá trình đẳng nhiệt.( T )",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "Khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất gây ra bởi khí tỉ lệ thuận với thể tích của nó.( F )",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "Đồ thị biểu diễn định luật Boyle là một nhánh của đường parabol.( F )",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question": "Một xilanh chứa 150 cm3 khí ở áp suất 105 Pa. Pít-tông nén khí trong xilanh xuống còn 100 cm3. Coi nhiệt độ như không đổi.",
+        "options": [],
+        "correct": 0,
+        "explanation": "a) Quá trình thực hiện là quá trình đẳng nhiệt vì nhiệt độ không đổi.\nb) Có thể áp dụng định luật Boyle với quá trình này vì nhiệt độ không đổi.\nc) Đồ thị p - V của quá trình này có dạng là một phần của đường hypebol.\nd) Theo định luật Boyle, áp suất của khí trong xilanh lúc sau là:\np1V1=p2V2⇒p2=p1V1V2=105.150100=1,5.105  Pa",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Quá trình thực hiện là quá trình đẳng nhiệt.( T )",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": "Có thể áp dụng định luật Boyle với quá trình này.( T )",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "Đồ thị p - V của quá trình này có dạng là một đường thẳng có đường nối dài đi qua gốc tọa độ.( F )",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "Áp suất của khí trong xilanh lúc sau là 2.105 Pa.( F )",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question": "Nén khí đẳng nhiệt từ thể tích 10 L đến thể tích 2,5 L thì áp suất của khí tăng lên bao nhiêu lần?",
+        "options": [
+          "Đáp số: 4"
+        ],
+        "correct": 0,
+        "explanation": "Theo định luật Boyle ta có:​\np2=p1V1V2=p1.102,5=4p1",
+        "type": "short_answer",
+        "correctAnswer": "4"
+      },
+      {
+        "id": 16,
+        "question": "Nén khí đẳng nhiệt từ thể tích 15 L đến thể tích 10 L thì thấy áp suất khí tăng lên một lượng  Δp  = 40 kPa. Hỏi áp suất ban đầu của lượng khí là bao nhiêu kPa?",
+        "options": [
+          "Đáp số: 80"
+        ],
+        "correct": 0,
+        "explanation": "Theo định luật Boyle:​\np1p2=V1V2⇒p1+40p1=1510=1,5\n⇒p1=80  kPa.",
+        "type": "short_answer",
+        "correctAnswer": "80"
+      },
+      {
+        "id": 17,
+        "question": "Khí hydrogen được điều chế và chứa vào một bình lớn dưới áp suất 1 atm, ở nhiệt độ 20 oC. Coi nhiệt độ không đổi. Người ta lấy một thể tích  V0  (L) khí hydrogen từ bình lớn ra để nạp vào bình nhỏ thể tích 15 L ở áp suất 30 atm.",
+        "options": [],
+        "correct": 0,
+        "explanation": "a) Quá trình thực hiện là quá trình đẳng nhiệt vì có nhiệt độ không đổi.​\nb) Có thể áp dụng định luật Boyle với quá trình này vì nhiệt độ không đổi.\nc) Đồ thị V - T của quá trình này có dạng một đường thẳng cắt trục OT và song song với trục OV như sau:\nd) Theo định luật Boyle:\np0V0=pV⇒1.V0=30.15\n⇒V0=450  L",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Quá trình thực hiện không phải là quá trình đẳng nhiệt.( F )",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": "Có thể áp dụng định luật Boyle với quá trình này.( T )",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "Đồ thị V - T của quá trình này có dạng một đường thẳng.( T )",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "V0  có giá trị là 450 L.( T )",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question": "Biết ở nhiệt độ 0 oC và áp suất 1 atm thì khối lượng riêng của khí oxygen là 1,43 kg/m3. Hỏi khối lượng khí oxygen đựng trong một bình thể tích 10 L dưới áp suất 100 atm ở nhiệt độ 0 oC là bao nhiêu kg?",
+        "options": [
+          "Đáp số: 1,43  hoặc  1.43"
+        ],
+        "correct": 0,
+        "explanation": "​Ta có:  D0=mV0  và  D=mV  suy ra  D0V0=DV\nÁp dụng định luật Boyle vì nhiệt độ không đổi:  p0V0=pV\nSuy ra:  D=D0.pp0=1,43.1001=143  kg/m3\nKhối lượng khí oxygen là:  m=D.V=143.10.10-3=1,43  kg",
+        "type": "short_answer",
+        "correctAnswer": "1,43  hoặc  1.43"
+      },
+      {
+        "id": 19,
+        "question": "Nếu áp suất của một lượng khí tăng thêm 2.105 Pa thì thể tích giảm 3 L. Nếu áp suất tăng thêm 5.105 Pa thì thể tích giảm 5 L. Biết nhiệt độ khí không đổi, áp suất và thể tích ban đầu của khí lần lượt là bao nhiêu?",
+        "options": [
+          "A. 4.105 Pa; 9 L.",
+          "B. 4.105 Pa; 12 L.",
+          "C. 6.105 Pa; 9 L.",
+          "D. 6.105 Pa; 12 L."
+        ],
+        "correct": 0,
+        "explanation": "Theo định luật Boyle ta có:​\npV=p1V1⇒pV=p+2.105V-3        (1)\nTa lại có:\npV=p2V2⇒pV=p+5.105V-5         (2)\nTừ (1) và (2) suy ra:\np=4.105  Pa;  V=9  L"
+      },
+      {
+        "id": 20,
+        "question": "Cho một khối lượng khí không đổi thực hiện quá trình biến đổi theo đồ thị sau:",
+        "options": [
+          "Đáp số: 2"
+        ],
+        "correct": 0,
+        "explanation": "Theo đồ thị, khí thực hiện quá trình biến đổi đẳng nhiệt.​\nTrạng thái ban đầu:  p=0,5  atm;  V=12  L\nTrạng thái cuối:  p'=3  atm;  V'=?\nTheo định luật Boyle ta có:\nV'=pVp'=0,5.123=2  L",
+        "type": "short_answer",
+        "correctAnswer": "2"
+      },
+      {
+        "id": 21,
+        "question": "Một học sinh khảo sát quá trình đẳng nhiệt của một khối khí và thu được đồ thị có dạng như hình vẽ dưới đây, tuy nhiên học sinh đó lại quên không ghi tên các trục của đồ thị. Hỏi học sinh đó đã sử dụng hệ trục toạ độ nào dưới đây?",
+        "options": [
+          "A. (p, V).",
+          "B. (V, p).",
+          "C. (V, T).",
+          "D. (T, V)."
+        ],
+        "correct": 2,
+        "explanation": "Từ đề bài ta thấy nhiệt độ của khối khí không đổi, do vậy trục trung là trục nhiệt độ.​"
+      },
+      {
+        "id": 22,
+        "question": "Một học sinh khảo sát quá trình đẳng nhiệt của một khối khí và thu được đồ thị có dạng như hình vẽ dưới đây, tuy nhiên học sinh đó lại quên không ghi tên các trục của đồ thị. Hỏi học sinh đó đã sử dụng hệ trục toạ độ nào dưới đây?",
+        "options": [
+          "A. (V, p).",
+          "B. (V, T).",
+          "C. (T, V).",
+          "D. (p, T)."
+        ],
+        "correct": 0,
+        "explanation": "Đồ thị có dạng 1 phần đường hypebol và là đồ thị của quá trình đẳng nhiệt. Vậy hệ tọa độ đã sử dụng là (V, p).​"
+      },
+      {
+        "id": 23,
+        "question": "Gọi  p1  và  D1  là áp suất và khối lượng riêng của một khối khí ở trạng thái ban đầu;  p2  và  D2  là áp suất và khối lượng riêng của khối khí đó ở trạng thái sau khi nén. Coi rằng nhiệt độ của khối khí đó không thay đổi trong suốt quá trình nén, khi đó ta có hệ thức nào dưới đây?",
+        "options": [
+          "A. p1D1=p2D2.",
+          "B. p1p2=D1D2.",
+          "C. p1D2=p2D1.",
+          "D. p1p2=D1D2."
+        ],
+        "correct": 3,
+        "explanation": "Ta có:  D1=mV1  và  D2=mV2\nSuy ra  D1V1=D2V2⇒V1V2=D2D1       (1)\nÁp dụng định luật Boyle vì nhiệt độ không đổi:\np1V1=p2V2⇒V1V2=p2p1          (2)\nTừ (1) và (2) suy ra:  p1p2=D1D2. ​"
+      },
+      {
+        "id": 24,
+        "question": "Cho một khối khí ở nhiệt độ phòng (25 oC), có thể tích 2 m3 và áp suất 1 atm. Người ta nén khối khí trong bình tới áp suất 5 atm. Biết rằng nhiệt độ của khối khí được giữ không đổi trong suốt quá trình nén, thể tích khối khí sau khi nén là bao nhiêu m3?",
+        "options": [
+          "Đáp số: 0,4  hoặc  0.4"
+        ],
+        "correct": 0,
+        "explanation": "​Theo định luật Boyle ta có:\nV2=p1V1p2=2.15=0,4  m3",
+        "type": "short_answer",
+        "correctAnswer": "0,4  hoặc  0.4"
+      },
+      {
+        "id": 25,
+        "question": "Một bong bóng không khí ở dưới đáy một hồ nước có độ sâu 4 m. Khi bong bóng nổi lên mặt hồ, người ta đo được thế tích của nó là 1 mm3. Giả sử rằng nhiệt độ ở dưới đáy hồ và trên mặt hồ là bằng nhau. Biết áp suất khí quyến  p0  = 1,013.105 N/m2 và khối lượng riêng của nước là 1000 kg/m3. Lấy  g  = 9,8 m/s2. Thể tích của bong bóng khi ở dưới đáy hồ bằng bao nhiêu mm3? (Kết quả lấy đến 2 chữ số có nghĩa).​",
+        "options": [
+          "Đáp số: 0,72  hoặc  0.72"
+        ],
+        "correct": 0,
+        "explanation": "Áp suất tại đáy hồ:​\np1=p0+ρgh=1,013.105+1000.9,8.4=140500  N/m2\nTheo định luật Boyle:\np1V1=p2V2⇒V1=p2V2p1=1,013.105.1140500=0,72  mm3",
+        "type": "short_answer",
+        "correctAnswer": "0,72  hoặc  0.72"
+      }
+    ]
+  },
+  {
+    "id": "olm-3836961408",
+    "title": "OLM: TỌA ĐỘ VECTƠ",
+    "subject": "Toán",
+    "grade": 12,
+    "duration": 45,
+    "teacher": "Nguyễn Hoàng Trung",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Toán",
+      "GV: Nguyễn Hoàng Trung"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Trong không gian Oxyz , biết  OM=2i−3j+k  . Toạ độ của điểm M là",
+        "options": [
+          "A. (−2;3;−1)  .",
+          "B. (2;−3;1)  .",
+          "C. (−3;2;1)  .",
+          "D. (2;1;−3)  ."
+        ],
+        "correct": 1,
+        "explanation": "Vì  OM=2i−3j+k  nên  M(2;−3;1)  ."
+      },
+      {
+        "id": 2,
+        "question": "Trong không gian Oxyz , gọi  M′  là hình chiếu vuông góc của điểm  M2; 3; −1  trên trục Oy thì tọa độ  MM′  là",
+        "options": [
+          "A. 0; 2; 3  .",
+          "B. 3; 0; 0.",
+          "C. 0; 3; 0.",
+          "D. −2; 0; 1."
+        ],
+        "correct": 3,
+        "explanation": "Ta có  M′0; 3; 0  nên  MM′=−2; 0; 1  ."
+      },
+      {
+        "id": 3,
+        "question": "Trong không gian Oxyz , cho điểm M(a ; b ; c) . Tọa độ của vectơ  OM  là",
+        "options": [
+          "A. (−a;b;c)  .",
+          "B. (−a;b;−c)  .",
+          "C. (a ; b ; c) .",
+          "D. (−a;−b;−c)  ."
+        ],
+        "correct": 2,
+        "explanation": "Ta có  OM=(a;b;c)  .​"
+      },
+      {
+        "id": 4,
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho  u=2i+3j−k  , khi đó tọa độ vectơ  u  là",
+        "options": [
+          "A. (2;3;1)  .",
+          "B. (2;3;−1)  .",
+          "C. (−2; 3; 1)  .",
+          "D. (2;−3;−1)  ."
+        ],
+        "correct": 1,
+        "explanation": "Theo định nghĩa ta có  i=(1;0;0)  ,  j=(0;1;0)  và  k=(0;0;1)  .\nDo đó,  u=2i+3j−k⇔u=(2;3;−1)  ."
+      },
+      {
+        "id": 5,
+        "question": "Trong không gian Oxyz , cho vectơ  a  được biểu diễn bởi các vectơ đơn vị là  a=2i+k−3j  . Tọa độ của vectơ  a  là",
+        "options": [
+          "A. (2; −3; 1)  .",
+          "B. (1; 2; −3)  .",
+          "C. (1; −3; 2)  .",
+          "D. (2; 1; −3)  ."
+        ],
+        "correct": 0,
+        "explanation": "a=2i+k−3j=2i−3j+k  nên  a=(2;−3;1)  ."
+      },
+      {
+        "id": 6,
+        "question": "Trong không gian Oxyz , gọi  A′  là hình chiếu vuông góc của điểm  A1;2;3  trên mặt phẳng  Oyz  thì tọa độ  AA′  là",
+        "options": [
+          "A. −1; 0; 0  .",
+          "B. 0; 2; 3  .",
+          "C. 1; 0; 0  .",
+          "D. 0; 2; 0  ."
+        ],
+        "correct": 0,
+        "explanation": "Ta có  A′0; 2; 3  nên  AA′=−1; 0; 0  ."
+      },
+      {
+        "id": 7,
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho  OM=(1;5;2)  ,  ON=(3;7;−4)  ,  K(−1;3;1)  . Gọi P là điểm đối xứng với M qua N . Tọa độ vectơ  KP  là",
+        "options": [
+          "A. KP=(6;6;−11)  .",
+          "B. KP=(8;6;−11)  .",
+          "C. KP=(6;6;−4)  .",
+          "D. KP=(3;3;−2)  ."
+        ],
+        "correct": 0,
+        "explanation": "Ta có:  OM=(1;5;2)⇒M(1;5;2)  ,  ON=(3;7;−4)⇒N(3;7;−4)  .\nVì P là điểm đối xứng với M qua N nên N là trung điểm của MP , ta suy ra được\nMN=NP\n⇔xN−xM=xP−xNyN−yM=yP−yNzN−zM=zP−zN\n⇔xP=5yP=9zP=−10⇒P(5;9;−10)  .\nKhi đó  KP=(6;6;−11)  ."
+      },
+      {
+        "id": 8,
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho hai điểm  A(−1;1;−2), B(1;3;0)  . Khi đó tọa độ  AB  bằng",
+        "options": [
+          "A. AB=(2;2;2)  .",
+          "B. AB=(0;2;−1)  .",
+          "C. AB=(0;4;−2)  .",
+          "D. AB=(−2;−2;−2)  ."
+        ],
+        "correct": 0,
+        "explanation": "Ta có:  AB=(2;2;2)  ."
+      },
+      {
+        "id": 9,
+        "question": "Trong không gian với hệ tọa độ  (O, i, j, k)  , cho  OM=(2; −3; −1)  . Khẳng định nào sau đâyđúng?",
+        "options": [
+          "A. M(−1; −3; 2)  .",
+          "B. M(−2; 3; 1)  .",
+          "C. OM=2i−3j−k  .",
+          "D. OM=2i+3j+k  ."
+        ],
+        "correct": 2,
+        "explanation": "Dựa vào định nghĩa tọa độ của vectơ trong không gian,  OM=2i−3j−k  ."
+      },
+      {
+        "id": 10,
+        "question": "Trong không gian Oxyz , cho điểm  A4; −2; 3  . Tọa độ  AO  là",
+        "options": [
+          "A. −4; 2; −3  .",
+          "B. −2; 4; 3  .",
+          "C. 4; 2; −3  .",
+          "D. −2; 3; 4  ."
+        ],
+        "correct": 0,
+        "explanation": "Ta có  AO=(0−4; 0+2; 0−3)=(−4; 2; −3)  .​"
+      },
+      {
+        "id": 11,
+        "question": "Trong không gian Oxyz với  i,j,k  lần lượt là vectơ đơn vị của các trục  Ox, Oy, Oz  , toạ độ của vectơ  a=2i+3k  là",
+        "options": [
+          "A. (3; 0; 2)  .",
+          "B. (0; 2; 3)  .",
+          "C. (2; 0; 3)  .",
+          "D. (2; 3; 0)  ."
+        ],
+        "correct": 2,
+        "explanation": "Toạ độ của vectơ  a=2i+3k  là  (2; 0; 3)  .​"
+      },
+      {
+        "id": 12,
+        "question": "Trong không gian với hệ trục tọa độ O x y z , cho hai điểm  A, B  với  OA=(2;−1;3), OB=(5;2;−1)  . Tọa độ của vectơ  AB  là",
+        "options": [
+          "A. (−3;−3;4).",
+          "B. (3;3;−4).",
+          "C. (7;1;2).",
+          "D. (2;−1;3)."
+        ],
+        "correct": 1,
+        "explanation": "​  AB=OB−OA\n=(5;2;−1)−(2;−1;3)=(3;3;−4)  ."
+      },
+      {
+        "id": 13,
+        "question": "Trong không gian Oxyz , cho điểm M thỏa mãn hệ thức  OM=2i+k  . Tọa độ của điểm M là",
+        "options": [
+          "A. (1;2;0)  .",
+          "B. (2;0;1)  .",
+          "C. (2;1;0)  .",
+          "D. (0;2;1)  ."
+        ],
+        "correct": 1,
+        "explanation": "​Ta có  OM=(2;0;1)  nên điểm M có tọa độ là  (2;0;1)  ."
+      },
+      {
+        "id": 14,
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho  a=−i+2j−3k.  Tọa độ của vectơ  a  là",
+        "options": [
+          "A. a=(−3;2;−1)  .",
+          "B. a=(2;−1;−3)  .",
+          "C. a=(−1;2;−3)  .",
+          "D. a=(2;−3;−1)  ."
+        ],
+        "correct": 2,
+        "explanation": "Ta có  a=xi+yj+zk⇔a=(x;y;z)  nên  a=(−1;2;−3)."
+      },
+      {
+        "id": 15,
+        "question": "Trong không gian Oxyz , tọa độ của điểm A biết điểm A nằm trên tia Oy và  OA=3  là",
+        "options": [
+          "A. A(0; 3; 0)  .",
+          "B. A(3; 0; 0)  .",
+          "C. A(0; 0; 3)  .",
+          "D. A(1; −3; 0)  ."
+        ],
+        "correct": 0,
+        "explanation": "Ta có: A nằm trên tia Oy và  OA=3  nên  OA=3j  suy ra  A(0; 3; 0)  ."
+      },
+      {
+        "id": 16,
+        "question": "Trong không gian Oxyz , cho  a=0; −3; 2  . Mệnh đề nào dưới đây đúng?",
+        "options": [
+          "A. a=−3j+2k  .",
+          "B. a=−3i+2j  .",
+          "C. a=−3i+2j+k  .",
+          "D. a=−3i+2k  ."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "question": "Trong không gian với hệ trục tọa độ Oxyz , các vectơ đơn vị trên các trục Ox , Oy , Oz lần lượt là  i  ,  j  ,  k  , cho điểm  M(2;−1; 1)  . Khẳng định nào sau đâyđúng?",
+        "options": [
+          "A. OM=k+j+2i  .",
+          "B. OM=i+j+2k  .",
+          "C. OM=2k−j+i  .",
+          "D. OM=2i−j+k  ."
+        ],
+        "correct": 3,
+        "explanation": "Theo định nghĩa về tọa độ điểm thì:  OM=2i−j+k  ."
+      },
+      {
+        "id": 18,
+        "question": "Trong không gian O x y z , cho  A(1;2;−3), B(3;−5;2)  . Tọa độ vectơ  AB  là",
+        "options": [
+          "A. (2;−7;−5)  .",
+          "B. (−2;7;−5)",
+          "C. (−2;−7;5)  .",
+          "D. (2;−7;5)  ."
+        ],
+        "correct": 3,
+        "explanation": "AB=3−1;(−5)−2;2−(−3)=(2;−7;5)  .​"
+      },
+      {
+        "id": 19,
+        "question": "Trong không gian với hệ tọa độ Oxyz , có  M1−1; 0; 0, M20; 2; 0, M30; 0; −3  lần lượt là hình chiếu của M trên các trục  Ox, Oy, Oz  , tọa độ điểm M là",
+        "options": [
+          "A. M1; −2; 3  .",
+          "B. M−1; −2; 3  .",
+          "C. M−1; 2; 3  .",
+          "D. M−1; 2; −3  ."
+        ],
+        "correct": 3,
+        "explanation": "M1−1; 0; 0, M20;2;0, M30; 0; −3  lần lượt là hình chiếu của M trên các trục  Ox, Oy, Oz  nên:\nxM=xM1=−1yM=yM1=2zM=zM1=−3⇒M−1; 2; −3  .​"
+      },
+      {
+        "id": 20,
+        "question": "Trong không gian Oxyz , cho  M(8; 4; 3)  .",
+        "options": [],
+        "correct": 0,
+        "explanation": "a) Sai.\nHình chiếu vuông góc của M trên trục Ox là điểm  (8; 0; 0)  .\nb) Đúng.\nHình chiếu vuông góc của M trên trục Oz là điểm  (0; 0; 3)  .\nc) Đúng.\nHình chiếu vuông góc của M trên mặt phẳng Oxz là điểm  (8;0;3)  .\nd) Đúng.\nVì  OM=8 ;4 ;3  nên  OM=8i+4j+3k  .",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Hình chiếu vuông góc của M trên trục Ox là điểm  (0; 4; 3)  .( F )",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": "Hình chiếu vuông góc của M trên trục Oz là điểm  (0; 0; 3)  .( T )",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "Hình chiếu vuông góc của M trên mặt phẳng Oxz là điểm  (8; 0; 3)  .( T )",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "OM=8i+4j+3k  .( T )",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "olm-3836959512",
+    "title": "OLM: TỌA ĐỘ ĐIỂM, HÌNH CHIẾU, TRUNG ĐIỂM, TRỌNG TÂM",
+    "subject": "Toán",
+    "grade": 12,
+    "duration": 45,
+    "teacher": "Nguyễn Hoàng Trung",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Toán",
+      "GV: Nguyễn Hoàng Trung"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  A(3;−2;5)  . Hình chiếu vuông góc của điểm A trên mặt phẳng (Oxz) là",
+        "options": [
+          "A. M(0;2;5)  .",
+          "B. M(3;0;5)  .",
+          "C. M(0;−2;5)  .",
+          "D. M(3;−2;0)  ."
+        ],
+        "correct": 1,
+        "explanation": "Để tìm tọa độ hình chiếu của điểm  A(3;−2;5)  lên mặt phẳng (Oxz) ta chỉ cần giữ nguyên hoành độ và cao độ, cho tung độ bằng 0 .\nDo đó hình chiếu của A có tọa độ  (3;0;5)  ."
+      },
+      {
+        "id": 2,
+        "question": "Trong không gian Oxyz, cho hai điểm  A(−1; 2; 5)  ,  B(3; −6; 3)  . Hình chiếu vuông góc của trung điểm I của đoạn AB trên mặt phẳng (Oyz) là điểm nào dưới đây?",
+        "options": [
+          "A. P(3; 0; 0)  .",
+          "B. M(0; −2; 4)  .",
+          "C. Q(0; 0; 5)  .",
+          "D. N(3; −1; 5)  ."
+        ],
+        "correct": 1,
+        "explanation": "Tọa độ trung điểm I của đoạn AB :  I(1; −2; 4)\nTọa độ hình chiếu của I mặt phẳng (Oyz) :  M(0; −2; 4)  ."
+      },
+      {
+        "id": 3,
+        "question": "Trong không gian với hệ trục tọa độ O x y z , cho điểm M(x ; y ; z) . Khẳng định nào sau đâyđúng?",
+        "options": [
+          "A. Nếu  M’  đối xứng với M qua mặt phẳng (O x z) thì  M’(x;y;−z)  .",
+          "B. Nếu  M’  đối xứng với M qua O y thì  M’(x;y;−z)  .",
+          "C. Nếu  M’  đối xứng với M qua mặt phẳng (O x y) thì  M’(x;y;−z)  .",
+          "D. Nếu  M’  đối xứng với M qua gốc tọa độ O thì  M(2x;2y;0)  ."
+        ],
+        "correct": 2,
+        "explanation": "Nếu  M’  đối xứng với M qua mặt phẳng (O x z) thì  M’(x;−y;z)  . Do đó phương án A sai.\nNếu  M’  đối xứng với M qua  O y thì  M’(−x;y;−z)  . Do đó phương án B sai.\nNếu  M’  đối xứng với M qua gốc tọa độ O thì  M’(−x;−y;−z)  . Do đó phương án D sai."
+      },
+      {
+        "id": 4,
+        "question": "Trong không gian với hệ tọa độ Oxyz, cho hai điểm  M(3;−2;3), I(1;0;4).  Tọa độ điểm N sao cho I là trung điểm của đoạn MN là",
+        "options": [
+          "A. N2;−1;72  .",
+          "B. N(−1;2;5)  .",
+          "C. N(5;−4;2)  .",
+          "D. N(0;1;2)  ."
+        ],
+        "correct": 1,
+        "explanation": "Giả sử N(x;y;z) .\nDo I là trung điểm của MN nên  xI=xM+xN2yI=yM+yN2zI=zM+zN2\n⇔xN=2xI−xMyN=2yI−yMzN=2zI−zM⇔xN=−1yN=2zN=5⇒N(−1;2;5)  ."
+      },
+      {
+        "id": 5,
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  M(1;1−2;2+5)  . Tọa độ điểm  M′∈(Oxz)  sao cho độ dài đoạn thẳng  MM′  ngắn nhất là",
+        "options": [
+          "A. M′(1;0;2+5)  .",
+          "B. M′(1;1−2;0)  .",
+          "C. M′(0;1−2;2+5)  .",
+          "D. M′(1;1+2;2−5)  ."
+        ],
+        "correct": 0,
+        "explanation": "MM′  ngắn nhất khi điểm  M′  là hình chiếu của điểm M trên mặt phẳng (Oxz)\n⇒M′(1;0;2+5)  ."
+      },
+      {
+        "id": 6,
+        "question": "Trong không gian Oxyz , cho hình hộp  ABCD.A′B′C′D′  . Biết  A(1;0;1)  ,  C′(4;5;−5)  . Tọa độ tâm I của hình hộp đó là",
+        "options": [
+          "A. I52;52;−2  .",
+          "B. I52;52;2  .",
+          "C. I−52;52;−2  .",
+          "D. I(5;5;−2)  ."
+        ],
+        "correct": 0,
+        "explanation": "Ta có I là trung điểm của  AC′  suy ra tọa độ điểm  I52;52;−2  ."
+      },
+      {
+        "id": 7,
+        "question": "Trong không gian Oxyz , cho hai điểm  A(1;2;−1)  và  B(2;4;1)  . Trọng tâm của tam giác OAB có tọa độ là",
+        "options": [
+          "A. (3;6;0)  .",
+          "B. (1;3;0)  .",
+          "C. (−1;−2;0)  .",
+          "D. (1;2;0)  ."
+        ],
+        "correct": 3,
+        "explanation": "G0+1+23;0+2+43;0−1+13\n⇒G(1;2;0)  ."
+      },
+      {
+        "id": 8,
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  A(1;1;2)  . Tọa độ điểm  A′∈(Oxy)  sao cho độ dài đoạn thẳng  AA′  ngắn nhất là",
+        "options": [
+          "A. A′(−1;1;0)  .",
+          "B. A′(2;2;0)  .",
+          "C. A′(2;−1;2)  .",
+          "D. A′(1;1;0)  ."
+        ],
+        "correct": 3,
+        "explanation": "AA′  ngắn nhất khi điểm  A′  là hình chiếu của điểm A trên mặt phẳng (Oxy)\n⇒A′(1;1;0)  ."
+      },
+      {
+        "id": 9,
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  M(1;−2;3)  . Tọa độ của điểm  M′∈Ox  sao cho độ dài đoạn thẳng  MM′  ngắn nhất là",
+        "options": [
+          "A. M′(−1;0;0)  .",
+          "B. M′(1;0;0)  .",
+          "C. M′(1;0;3)  .",
+          "D. M′(1;−2;0)  ."
+        ],
+        "correct": 1,
+        "explanation": "MM′  ngắn nhất khi điểm  M′  là hình chiếu của điểm M trên trục Ox\n⇒M′(1;0;0)  ."
+      },
+      {
+        "id": 10,
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho bốn điểm  A(2;0;0), B(0;2;0), C(0;0;2)  và  D(2;2;2)  . Gọi  M, N  lần lượt là trung điểm của AB và CD . Tọa độ trung điểm I của MN là",
+        "options": [
+          "A. I(1;1;0)  .",
+          "B. I(1;1;1)  .",
+          "C. I(1;−1;2)  .",
+          "D. I12;12;1  ."
+        ],
+        "correct": 1,
+        "explanation": "Ta có  M, N  lần lượt là trung điểm của AB và CD nên  M(1;1;0), N(1;1;2)  , từ đó suy ra trung điểm của MN là  I(1;1;1)  ."
+      },
+      {
+        "id": 11,
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho  OM=(1;5;2)  ,  ON=(3;7;−4)  . Gọi P là điểm đối xứng với M qua N . Tọa độ điểm P là",
+        "options": [
+          "A. P(2;6;−1)  .",
+          "B. P(5;9;−10)  .",
+          "C. P(5;9;−3)  .",
+          "D. P(7;9;−10)  ."
+        ],
+        "correct": 1,
+        "explanation": "Ta có:  OM=(1;5;2)⇒M(1;5;2)  ,\nON=(3;7;−4)⇒N(3;7;−4)  .\nVì P là điểm đối xứng với M qua N nên N là trung điểm của MP nên ta suy ra được\nxP=2xN−xM=5yP=2yN−yM=9zP=2zN−zM=−10⇒P(5;9;−10)  ."
+      },
+      {
+        "id": 12,
+        "question": "Trong không gian O x y z , cho hai điểm  A(2;3;−1)  và  B(−4;1;9)  . Trung điểm I của đoạn thẳng A B có tọa độ là",
+        "options": [
+          "A. (−1;2;4)  .",
+          "B. (−6;−2;10)  .",
+          "C. (−2;4;8)  .",
+          "D. (1;−2;−4)  ."
+        ],
+        "correct": 0,
+        "explanation": "Áp dụng công thức trung điểm  I=xA+xB2;yA+yB2;zA+zB2=(−1;2;4)  .​"
+      },
+      {
+        "id": 13,
+        "question": "Cho tứ diện ABCD có G là trọng tâm tam giác BCD . Mệnh đề nào sau đâysai?",
+        "options": [
+          "A. AG−AB=GC+GD  .",
+          "B. GB+GC+GD=0  .",
+          "C. AB+AC+AD=3AG  .",
+          "D. AB+AC+AD=4AG  ."
+        ],
+        "correct": 3,
+        "explanation": "Vì G là trọng tâm tam giác BCD nên  GB+GC+GD=0  .\nDo đó  AB+AC+AD=3AG  ."
+      },
+      {
+        "id": 14,
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  M(1+2;2;1−2)  . Tọa độ điểm  M′∈(Oyz)  sao cho độ dài đoạn thẳng  MM′  ngắn nhất là",
+        "options": [
+          "A. M′(1+2;0;1−2)  .",
+          "B. M′(0;−2;1+2)  .",
+          "C. M′(0;−2;1−2)  .",
+          "D. M′(0;2;1−2)  ."
+        ],
+        "correct": 3,
+        "explanation": "MM′  ngắn nhất khi điểm  M′  là hình chiếu của điểm M trên mặt phẳng (Oyz) .\n⇒M′(0;2;1−2)  ."
+      },
+      {
+        "id": 15,
+        "question": "Trong không gian Oxyz , cho hình hộp chữ nhật  ABCD.A’B’C’D’  có đỉnh  A’  trùng với gốc O và các đỉnh  D’,B’,A  lần lượt thuộc các tia Ox , Oy , Oz như hình vẽ. Giả sử đỉnh C có toạ độ là  (2;3;4)  đối với hệ toạ độ Oxyz . Khi đó toạ độ điểm B là",
+        "options": [
+          "A. B(0;2;4)  .",
+          "B. B(2;4;0)  .",
+          "C. B(0;3;4)  .",
+          "D. B(3;0;4)  ."
+        ],
+        "correct": 2,
+        "explanation": "Ta có B là hình chiếu của C lên mặt phẳng (Oyz) suy ra  B(0;3;4)."
+      },
+      {
+        "id": 16,
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  M(1;2;−3)  . Điểm  M′∈Oz  sao cho độ dài đoạn thẳng  MM′  ngắn nhất có tọa độ là",
+        "options": [
+          "A. M′(0;0;3)  .",
+          "B. M′(1;0;−3)  .",
+          "C. M′(0;0;−3)  .",
+          "D. M′(0;2;−3)  ."
+        ],
+        "correct": 2,
+        "explanation": "MM′  ngắn nhất khi điểm  M′  là hình chiếu của điểm M trên trục Oz\n⇒M′(0;0;−3)  ."
+      },
+      {
+        "id": 17,
+        "question": "Trong không gian với hệ tọa độ O x y z , cho hai điểm  A(1;2;−3)  và  B(−3;4;5)  . Tọa độ trung điểm I của đoạn thẳng A B là",
+        "options": [
+          "A. I(−2;1;4).",
+          "B. I(−1;−3;1).",
+          "C. I(2;−1;−4).",
+          "D. I(−1;3;1)."
+        ],
+        "correct": 3,
+        "explanation": "Tọa độ trung điểm I của đoạn thẳng A B là  xI=xA+xB2=−1yI=yA+yB2=3zI=zA+zB2=1  .​"
+      },
+      {
+        "id": 18,
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho hình chữ nhật OKMN .",
+        "options": [
+          "A. M1;2; 0  .",
+          "B. M1; 2; 2  .",
+          "C. M0; 2; 2  .",
+          "D. M−1;− 2; −2  ."
+        ],
+        "correct": 1,
+        "explanation": "Hình chữ nhật OKMN nên N là hình chiếu của M trên mặt phẳng (Oxy) , K là hình chiếu của M trên trục Oz , do đó tọa độ đỉnh M là:  M1; 2; 2  .​"
+      },
+      {
+        "id": 19,
+        "question": "Trong không gian với hệ toạ độ Oxyz , cho điểm  A(3; −2; 5)  .",
+        "options": [],
+        "correct": 0,
+        "explanation": "a) Sai.\nToạ độ hình chiếu vuông góc của A lên mặt phẳng toạ độ (Oyz) là  M(0; −2; 5)  .\nb) Đúng.\nHình chiếu của A lên trục Oz là  N(0;0;5)  .\nc) Sai.\nGọi  B(xB,yB,zB)  là điểm đối xứng với A qua trục Oz . Khi đó điểm  N(0;0;5)  là trung điểm của AB nên ta có\n3+xB2=0−2+yB2=05+zB2=5⇔xB=−3yB=2zB=5  .\nVậy toạ độ điểm đối xứng với A qua trục Oz là  (−3;2;5)  .\nd) Đúng.\nKhoảng cách từ điểm  A(3; −2; 5)  đến mặt phẳng tọa độ (Oyz) chính là giá trị tuyệt đối của hoành độ x của điểm đó.\n⇒d(A,(Oyz))=|3|=3  .",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Hình chiếu vuông góc của A lên mặt phẳng toạ độ (Oyz) là  M(3; 0; 5)  .( F )",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": "Hình chiếu của A lên trục Oz là  N(0;0;5)  .( T )",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "Điểm đối xứng với A qua trục Oz là  (3;2;5)  .( F )",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "Khoảng cách từ A đến mặt phẳng (Oyz) là 3 .( T )",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question": "Trong không gian Oxyz, cho điểm  A(1;2;−3)  .",
+        "options": [],
+        "correct": 0,
+        "explanation": "a) Đúng.\nTa có:  OA(1;2;−3)  .\nb) Sai.\nHình chiếu vuông góc của A lên trục Ox là  (1;0;0)\nc) Đúng.\nTrung điểm của AO là  I(a;−1;b)  thì  AI=IO⇒I12;1;−32⇒2a+4b=−5\nd) Sai.\nHình chiếu vuông góc của A lên trục Oz là  H(0;0;−3)  .\nĐiểm  A′  đối xứng của A qua trục Oz thì  AH=HA′⇒A′(−1;−2;−3)  .",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "OA(1;2;−3)  .( T )",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": "Hình chiếu vuông góc của A lên trục Ox là  (0;0;1)  .( F )",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "Trung điểm của AO là  I(a;−1;b)  thì  2a+4b=−5  .( T )",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "Điểm  A′  đối xứng của A qua trục Oz có toạ độ là  A′(0;0;−3)  .( F )",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "olm-3834711593",
+    "title": "OLM: TỌA ĐỘ ĐIỂM, TỌA ĐỘ VECTƠ TRONG KHÔNG GIAN",
+    "subject": "Toán",
+    "grade": 12,
+    "duration": 45,
+    "teacher": "Nguyễn Hoàng Trung",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Toán",
+      "GV: Nguyễn Hoàng Trung"
+    ],
+    "questions": [
+      {
+        "id": 2,
+        "question": "Hình vẽ sau mô tả một sân tennis với kích thước theo tiêu chuẩn quốc tế (kích thước được làm tròn đến hàng phần mười của đơn vị mét). Chọn hệ trục Oxyz cho sân đó (đơn vị trên mỗi trục là mét) cùng hai điểm  A, B  .",
+        "options": [
+          "A. A(0;8,2;1,1)  .",
+          "B. A(0;11,9;8,2)  .",
+          "C. A(11,9;1,1;0)  .",
+          "D. A(0;11,9;1,1)  ."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "question": "Trong không gian Oxyz với  i  ;  j  ;  k  lần lượt là vectơ đơn vị của các trục Ox ; Oy ; Oz . Cho  a=2i+j−3k  , tọa độ của  a  là",
+        "options": [
+          "A. (2;0;−3)  .",
+          "B. (2;1;−3)  .",
+          "C. (2;0;3)  .",
+          "D. (2;−1;3)  ."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "question": "Trong không gian Oxyz , hình chiếu vuông góc của  M(2;3;−1)  trên Oy là",
+        "options": [
+          "A. (0;3;0)  .",
+          "B. (2;0;0)  .",
+          "C. (2;0;−1)  .",
+          "D. (0;3;−1)  ."
+        ],
+        "correct": 0,
+        "explanation": ""
+      }
+    ]
   }
 ]
