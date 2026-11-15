@@ -2356,5 +2356,2465 @@
         "explanation": "Công thức chu kỳ con lắc đơn: $T = 2\\pi \\sqrt{\\frac{l}{g}} = 2\\pi \\sqrt{\\frac{1}{\\pi^2}} = 2\\text{ s}$."
       }
     ]
+  },
+  {
+    "id": "olm-8-tn-tlai-25-26-43931797",
+    "lessonId": "43931797",
+    "title": "OLM: 8-TN-TLAI-25-26",
+    "subject": "Tin Học",
+    "grade": "Lớp 12",
+    "durationMinutes": 40,
+    "difficulty": "Luyện tập OLM",
+    "source": "OLM",
+    "teacher": null,
+    "deadline": null,
+    "tags": [
+      "OLM",
+      "Tin Học",
+      "Lớp 12",
+      "Trắc nghiệm OLM"
+    ],
+    "description": "Bài tập trực tuyến OLM: 8-TN-TLAI-25-26. Môn Tin Học - Lớp 12. Tổng số 26 câu hỏi có đáp án và lời giải chi tiết.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Để làm chữ in đậm trong HTML, ta sử dụng thẻ nào?",
+        "options": [
+          "A. <b>",
+          "B. <em>",
+          "C. <i>",
+          "D. <u>"
+        ],
+        "correct": 0,
+        "explanation": "A: Sai – <i> dùng để in nghiêng.\nB: Đúng – <b> dùng để in đậm văn bản.\nC: Sai – <u> dùng để gạch chân.\nD: Sai – <em> nhấn mạnh văn bản, thường hiển thị nghiêng."
+      },
+      {
+        "id": 2,
+        "question": "Muốn văn bản hiển thị dưới dạng chữ nghiêng, ta dùng thẻ nào?",
+        "options": [
+          "A. <u>",
+          "B. <strong>",
+          "C. <i>",
+          "D. <mark>"
+        ],
+        "correct": 2,
+        "explanation": "A: Sai – <strong> dùng để nhấn mạnh, thường hiển thị đậm.\nB: Đúng – <i> hiển thị văn bản dưới dạng chữ nghiêng.\nC: Sai – <mark> dùng để đánh dấu văn bản.\nD: Sai – <u> dùng để gạch chân."
+      },
+      {
+        "id": 3,
+        "question": "Thẻ nào dùng để gạch chân văn bản trong HTML?",
+        "options": [
+          "A. <i>",
+          "B. <u>",
+          "C. <sup>",
+          "D. <b>"
+        ],
+        "correct": 1,
+        "explanation": "A: Đúng – <u> dùng để gạch chân văn bản.\nB: Sai – <b> dùng để in đậm.\nC: Sai – <i> dùng để in nghiêng.\nD: Sai – <sup> dùng để hiển thị chỉ số trên."
+      },
+      {
+        "id": 4,
+        "question": "Để thay đổi màu chữ trong HTML, ta thường sử dụng thuộc tính nào trong thẻ <font>?",
+        "options": [
+          "A. size",
+          "B. face",
+          "C. style",
+          "D. color"
+        ],
+        "correct": 3,
+        "explanation": "A: Sai – size thay đổi kích thước chữ.\nB: Đúng – color thay đổi màu chữ.\nC: Sai – face thay đổi kiểu phông chữ.\nD: Sai – style là thuộc tính tổng quát, không trực tiếp thay đổi màu trong <font>."
+      },
+      {
+        "id": 5,
+        "question": "Nếu muốn hiển thị chữ nhỏ hơn bình thường, ta dùng thẻ nào?",
+        "options": [
+          "A. <sub>",
+          "B. <big>",
+          "C. <small>",
+          "D. <sup>"
+        ],
+        "correct": 2,
+        "explanation": "A: Đúng – <small> hiển thị chữ nhỏ hơn bình thường.\nB: Sai – <big> hiển thị chữ lớn hơn.\nC: Sai – <sub> hiển thị chỉ số dưới.\nD: Sai – <sup> hiển thị chỉ số trên."
+      },
+      {
+        "id": 6,
+        "question": "Để hiển thị chỉ số dưới trong công thức hóa học (ví dụ H₂O), ta dùng thẻ nào?",
+        "options": [
+          "A. <sup>",
+          "B. <small>",
+          "C. <i>",
+          "D. <sub>"
+        ],
+        "correct": 3,
+        "explanation": "A: Sai – <sup> hiển thị chỉ số trên.\nB: Đúng – <sub> hiển thị chỉ số dưới.\nC: Sai – <small> hiển thị chữ nhỏ.\nD: Sai – <i> hiển thị chữ nghiêng."
+      },
+      {
+        "id": 7,
+        "question": "Thẻ nào dùng để hiển thị chỉ số trên trong HTML?",
+        "options": [
+          "A. <sup>",
+          "B. <u>",
+          "C. <b>",
+          "D. <sub>"
+        ],
+        "correct": 0,
+        "explanation": "A: Đúng – <sup> hiển thị chỉ số trên.\nB: Sai – <sub> hiển thị chỉ số dưới.\nC: Sai – <u> gạch chân văn bản.\nD: Sai – <b> in đậm văn bản."
+      },
+      {
+        "id": 8,
+        "question": "Khi muốn thay đổi kiểu phông chữ trong HTML, ta sử dụng thuộc tính nào của thẻ <font>?",
+        "options": [
+          "A. face",
+          "B. size",
+          "C. color",
+          "D. style"
+        ],
+        "correct": 0,
+        "explanation": "A: Sai – color thay đổi màu chữ.\nB: Đúng – face thay đổi kiểu phông chữ.\nC: Sai – size thay đổi kích thước chữ.\nD: Sai – style là thuộc tính tổng quát, không trực tiếp thay đổi phông trong <font>."
+      },
+      {
+        "id": 9,
+        "question": "Để nhấn mạnh văn bản theo chuẩn HTML5, ta nên dùng thẻ nào?",
+        "options": [
+          "A. <b>",
+          "B. <em>",
+          "C. <i>",
+          "D. <u>"
+        ],
+        "correct": 1,
+        "explanation": "A: Sai – <b> chỉ in đậm, không mang ý nghĩa ngữ nghĩa.\nB: Đúng – <em> nhấn mạnh văn bản, thường hiển thị nghiêng.\nC: Sai – <i> chỉ hiển thị nghiêng, không mang ý nghĩa nhấn mạnh.\nD: Sai – <u> gạch chân văn bản."
+      },
+      {
+        "id": 10,
+        "question": "Nếu muốn hiển thị văn bản được đánh dấu nổi bật (highlight), ta dùng thẻ nào?",
+        "options": [
+          "A. <b>",
+          "B. <mark>",
+          "C. <i>",
+          "D. <small>"
+        ],
+        "correct": 1,
+        "explanation": "A: Đúng – <mark> dùng để đánh dấu văn bản nổi bật.\nB: Sai – <b> in đậm văn bản.\nC: Sai – <i> in nghiêng văn bản.\nD: Sai – <small> hiển thị chữ nhỏ."
+      },
+      {
+        "id": 11,
+        "question": "Thẻ nào dùng để tạo một đoạn văn bản mới trong HTML?",
+        "options": [
+          "A. <div>",
+          "B. <br>",
+          "C. <p>",
+          "D. <span>"
+        ],
+        "correct": 2,
+        "explanation": "A: Sai – <div> dùng để tạo khối chứa dữ liệu.\nB: Sai – <span> dùng cho đoạn nhỏ, không xuống dòng.\nC: Đúng – <p> dùng để tạo đoạn văn bản mới.\nD: Sai – <br> chỉ xuống dòng, không tạo đoạn mới."
+      },
+      {
+        "id": 12,
+        "question": "Thẻ nào dùng để xuống dòng trong HTML mà không tạo đoạn mới?",
+        "options": [
+          "A. <div>",
+          "B. <p>",
+          "C. <br>",
+          "D. <span>"
+        ],
+        "correct": 2,
+        "explanation": "A: Sai – <p> tạo đoạn mới.\nB: Đúng – <br> dùng để xuống dòng.\nC: Sai – <div> tạo khối dữ liệu.\nD: Sai – <span> không xuống dòng."
+      },
+      {
+        "id": 13,
+        "question": "Để tạo một khối chứa nhiều phần tử HTML, ta nên dùng thẻ nào?",
+        "options": [
+          "A. <p>",
+          "B. <mark>",
+          "C. <div>",
+          "D. <span>"
+        ],
+        "correct": 2,
+        "explanation": "A: Sai – <span> dùng cho nội dung nhỏ.\nB: Đúng – <div> tạo khối chứa nhiều phần tử.\nC: Sai – <p> dùng cho đoạn văn bản.\nD: Sai – <mark> dùng để đánh dấu văn bản."
+      },
+      {
+        "id": 14,
+        "question": "Thẻ <span> thường được dùng khi nào?",
+        "options": [
+          "A. Khi cần tạo khối chứa nhiều phần tử.",
+          "B. Khi cần định dạng một phần nhỏ trong dòng.",
+          "C. Khi cần tạo đoạn văn bản mới.",
+          "D. Khi cần xuống dòng."
+        ],
+        "correct": 1,
+        "explanation": "A: Sai – dùng <p> để tạo đoạn mới.\nB: Sai – dùng <div> để tạo khối.\nC: Đúng – <span> dùng để định dạng phần nhỏ trong dòng.\nD: Sai – dùng <br> để xuống dòng."
+      },
+      {
+        "id": 15,
+        "question": "Để tạo đường kẻ ngang phân cách nội dung, ta dùng thẻ nào?",
+        "options": [
+          "A. <p>",
+          "B. <br>",
+          "C. <u>",
+          "D. <hr>"
+        ],
+        "correct": 3,
+        "explanation": "A: Đúng – <hr> tạo đường kẻ ngang.\nB: Sai – <br> chỉ xuống dòng.\nC: Sai – <p> tạo đoạn văn bản.\nD: Sai – <u> gạch chân văn bản."
+      },
+      {
+        "id": 16,
+        "question": "Trong HTML, thuộc tính nào dùng để thay đổi màu chữ?",
+        "options": [
+          "A. color",
+          "B. font-family",
+          "C. font-size",
+          "D. text-decoration"
+        ],
+        "correct": 0,
+        "explanation": "A: Sai – font-family thay đổi kiểu phông.\nB: Sai – font-size thay đổi kích thước chữ.\nC: Đúng – color thay đổi màu chữ.\nD: Sai – text-decoration dùng để gạch chân, gạch ngang,..."
+      },
+      {
+        "id": 17,
+        "question": "Để thay đổi kiểu phông chữ trong HTML, ta dùng thuộc tính nào?",
+        "options": [
+          "A. font-size",
+          "B. color",
+          "C. font-style",
+          "D. font-family"
+        ],
+        "correct": 3,
+        "explanation": "A: Sai – font-style dùng cho kiểu như nghiêng, đậm.\nB: Đúng – font-family thay đổi kiểu phông chữ.\nC: Sai – font-size thay đổi kích thước.\nD: Sai – color thay đổi màu chữ."
+      },
+      {
+        "id": 18,
+        "question": "Đơn vị nào sau đây thường dùng để xác định kích thước chữ trong HTML?",
+        "options": [
+          "A. s",
+          "B. kg",
+          "C. px",
+          "D. cm²"
+        ],
+        "correct": 2,
+        "explanation": "A: Sai – kg là đơn vị khối lượng.\nB: Đúng – px là đơn vị pixel, dùng trong HTML.\nC: Sai – s là đơn vị thời gian.\nD: Sai – cm² là đơn vị diện tích."
+      },
+      {
+        "id": 19,
+        "question": "Thẻ nào dùng để hiển thị văn bản bị gạch ngang (xóa)?",
+        "options": [
+          "A. <strike>",
+          "B. <mark>",
+          "C. <u>",
+          "D. <del>"
+        ],
+        "correct": 3,
+        "explanation": "A: Đúng – <del> dùng để gạch ngang văn bản.\nB: Sai – <u> dùng để gạch chân.\nC: Sai – <strike> không còn được khuyến khích dùng trong HTML5.\nD: Sai – <mark> dùng để đánh dấu."
+      },
+      {
+        "id": 20,
+        "question": "Để nhấn mạnh nội dung văn bản theo ngữ nghĩa, ta nên dùng thẻ nào?",
+        "options": [
+          "A. <i>",
+          "B. <b>",
+          "C. <u>",
+          "D. <strong>"
+        ],
+        "correct": 3,
+        "explanation": "A: Sai – <b> chỉ in đậm, không mang ý nghĩa ngữ nghĩa.\nB: Đúng – <strong> nhấn mạnh nội dung theo ngữ nghĩa.\nC: Sai – <i> hiển thị nghiêng, không mang ngữ nghĩa.\nD: Sai – <u> gạch chân, không mang ngữ nghĩa."
+      },
+      {
+        "id": 21,
+        "question": "Trong HTML, để hiển thị chỉ số trên trong công thức toán học, ta dùng thẻ nào?",
+        "options": [
+          "A. <sub>",
+          "B. <small>",
+          "C. <sup>",
+          "D. <strong>"
+        ],
+        "correct": 2,
+        "explanation": "A: Sai – <sub> hiển thị chỉ số dưới.\nB: Đúng – <sup> hiển thị chỉ số trên.\nC: Sai – <small> hiển thị chữ nhỏ.\nD: Sai – <strong> in đậm văn bản."
+      },
+      {
+        "id": 22,
+        "question": "Thẻ nào sau đây KHÔNG dùng để định dạng kiểu chữ trong HTML?",
+        "options": [
+          "A. <em>",
+          "B. <mark>",
+          "C. <div>",
+          "D. <strong>"
+        ],
+        "correct": 2,
+        "explanation": "A: Sai – <em> dùng để in nghiêng.\nB: Sai – <strong> dùng để in đậm.\nC: Đúng – <div> dùng để tạo khối, không định dạng kiểu chữ.\nD: Sai – <mark> dùng để đánh dấu."
+      },
+      {
+        "id": 23,
+        "question": "Để định dạng chữ màu đỏ, kiểu Tahoma, cỡ 15px, ta dùng cú pháp nào?",
+        "options": [
+          "A. <p style=\"color:red;font-family:Tahoma;font-size:15px\">",
+          "B. <p style=\"text:red;font:Tahoma;size:15px\">",
+          "C. <p style=\"font:red;Tahoma;15px\">",
+          "D. <p style=\"font-style:red;font-type:Tahoma;font-size:15px\">"
+        ],
+        "correct": 0,
+        "explanation": "A: Đúng – cú pháp đúng để định dạng màu, kiểu và cỡ chữ.\nB: Sai – cú pháp sai, không đúng thuộc tính.\nC: Sai – không có thuộc tính text và font.\nD: Sai – font-style không dùng để định màu."
+      },
+      {
+        "id": 24,
+        "question": "Trong HTML, màu sắc có thể được định nghĩa bằng cách nào?",
+        "options": [
+          "A. Tên tiếng Việt hoặc mã HEX",
+          "B. Mã RGB hoặc đơn vị mm",
+          "C. Tên tiếng Anh hoặc mã RGB",
+          "D. Mã HEX hoặc đơn vị px"
+        ],
+        "correct": 2,
+        "explanation": "A: Đúng – HTML hỗ trợ tên màu tiếng Anh và mã RGB.\nB: Sai – không hỗ trợ tên màu tiếng Việt.\nC: Sai – mã HEX đúng, nhưng px không phải màu.\nD: Sai – mm là đơn vị độ dài, không phải màu."
+      },
+      {
+        "id": 25,
+        "question": "Thẻ <h1> đến <h6> dùng để làm gì?",
+        "options": [
+          "A. Tạo đoạn văn bản",
+          "B. Tạo danh sách",
+          "C. Tạo bảng dữ liệu",
+          "D. Tạo tiêu đề với mức độ quan trọng giảm dần"
+        ],
+        "correct": 3,
+        "explanation": "A: Sai – dùng <p> để tạo đoạn.\nB: Đúng – <h1> đến <h6> tạo tiêu đề từ lớn đến nhỏ.\nC: Sai – dùng <ul> hoặc <ol> để tạo danh sách.\nD: Sai – dùng <table> để tạo bảng."
+      },
+      {
+        "id": 26,
+        "question": "Trong HTML, thẻ nào dùng để tạo danh sách không thứ tự?",
+        "options": [
+          "A. <dl>",
+          "B. <li>",
+          "C. <ol>",
+          "D. <ul>"
+        ],
+        "correct": 3,
+        "explanation": "A: Sai – <ol> dùng để tạo danh sách có thứ tự (ordered list).\nB: Đúng – <ul> dùng để tạo danh sách không thứ tự (unordered list).\nC: Sai – <li> là phần tử con trong danh sách, không phải thẻ tạo danh sách.\nD: Sai – <dl> dùng để tạo danh sách định nghĩa (definition list), không phải danh sách không thứ tự."
+      }
+    ]
+  },
+  {
+    "id": "olm-luyen-tap-chuong-2-khi-ly-tuong-25203052",
+    "lessonId": "25203052",
+    "title": "OLM: LUYỆN TẬP CHƯƠNG 2 KHÍ LÝ TƯỞNG",
+    "subject": "Vật Lý",
+    "grade": "Lớp 12",
+    "durationMinutes": 90,
+    "difficulty": "Luyện tập OLM",
+    "source": "OLM",
+    "teacher": null,
+    "deadline": null,
+    "tags": [
+      "OLM",
+      "Vật Lý",
+      "Lớp 12",
+      "Trắc nghiệm OLM"
+    ],
+    "description": "Bài tập trực tuyến OLM: LUYỆN TẬP CHƯƠNG 2 KHÍ LÝ TƯỞNG. Môn Vật Lý - Lớp 12. Tổng số 81 câu hỏi có đáp án và lời giải chi tiết.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Phát biểu nào sau đây là sai khi nói về chất khí?",
+        "options": [
+          "A. Các phân tử khí ở rất gần nhau.",
+          "B. Lực liên kết giữa các phân tử là rất yếu.",
+          "C. Chất khí không có hình dạng và thể tích riêng.",
+          "D. Chất khí luôn luôn chiếm toàn bộ thể tích bình chứa và có thể nén được dễ dàng."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "question": "Tính chất nào sau đây không phải là tính chất của chất ở thể khí?",
+        "options": [
+          "A. Có hình dạng và thể tích riêng.",
+          "B. Có các phân tử chuyển động hoàn toàn hỗn loạn",
+          "C. Có thể nén được dễ dàng.",
+          "D. Có lực liên kết giữa các phân tử nhỏ hơn lực liên kết phân tử ở thể rắn và thể lỏng."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "question": "Tính chất nào sau đây không phải là của phân tử vật chất ở thể khí?",
+        "options": [
+          "A. Chuyển động hỗn loạn.",
+          "B. Chuyển động không ngừng.",
+          "C. Chuyển động hỗn loạn xung quanh các vị trí cân bằng cố định.",
+          "D. Chuyển động càng nhanh khi nhiệt độ của khí càng cao."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "question": "Chuyển động Brown xảy ra trong",
+        "options": [
+          "A. chất khí, chất lỏng và chất rắn.",
+          "B. chất lỏng và chất khí.",
+          "C. chất lỏng.",
+          "D. chất khí."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "question": "Các phân tử vật chất ở thể nào luôn chuyển động hỗn loạn, không ngừng?",
+        "options": [
+          "A. Thể khí.",
+          "B. Thể rắn.",
+          "C. Thể lỏng.",
+          "D. Thể khí và thể lỏng."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "question": "Nhận xét nào sau đây về các phân tử khí lí tưởng là không đúng?",
+        "options": [
+          "A. Có lực tương tác đáng kể khi không va chạm.",
+          "B. Tương tác khi va chạm với thành bình.",
+          "C. Được coi là các chất điểm.",
+          "D. Tương tác khi va chạm với nhau."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "question": "Chất khí được cấu tạo từ các phân tử có kích thước như thế nào so với khoảng cách giữa chúng?",
+        "options": [
+          "A. Rất nhỏ.",
+          "B. Lớn.",
+          "C. Nhỏ.",
+          "D. Rất lớn."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "question": "Trong các tính chất sau, tính chất nào không phải của chất khí?",
+        "options": [
+          "A. Chiếm toàn bộ thể tích của bình chứa.",
+          "B. Thể tích giảm đáng kể khi tăng áp suất.",
+          "C. Có hình dạng cố định.",
+          "D. Tác dụng lực lên mọi phần diện tích bình chứa."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "question": "Các phân tử khí lí tưởng tương tác khi",
+        "options": [
+          "A. va chạm với nhau và va chạm với thành bình.",
+          "B. không va chạm.",
+          "C. va chạm với thành bình.",
+          "D. va chạm với nhau."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "question": "Từ hình ảnh về quỹ đạo chuyển động Brown của hạt khói trong không khí dưới đây, có thể thấy các phân tử khí chuyển động",
+        "options": [
+          "A. không liên tục.",
+          "B. hỗn loạn, không liên tục.",
+          "C. hỗn loạn, không ngừng.",
+          "D. có trật tự, liên tục."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "question": "Câu nào sau đây nói về các phân tử khí lí tưởng là không đúng?",
+        "options": [
+          "A. Có thể tích riêng không đáng kể.",
+          "B. Có khối lượng không đáng kể.",
+          "C. Có lực tương tác không đáng kể.",
+          "D. Có khối lượng đáng kể."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "question": "Xét các tính chất sau của phân tử vật chất theo mô hình động học phân tử chất khí:\n(1) Chuyển động không ngừng.\n(2) Coi như chất điểm.\n(3) Tương tác hút và đẩy với các phân tử khác cả khi chưa va chạm.\nCác phân tử khí lí tưởng có các tính chất nào?",
+        "options": [
+          "A. (1) và (2).",
+          "B. (1) và (3).",
+          "C. (1), (2) và (3).",
+          "D. (2) và (3)."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "question": "Trong hệ tọa độ (p,V), đường biểu diễn nào sau đây là đường đẳng nhiệt ?",
+        "options": [
+          "A. Đường thẳng kéo dài qua gốc tọa độ.",
+          "B. Đường hypebol .",
+          "C. Đường thẳng cắt trục p tại điểm p = p0.",
+          "D. Đường thẳng không đi qua gốc tọa độ."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "question": "Trong các hệ thức sau đây, hệ thức nào không phù hợp với định luật Boyle?",
+        "options": [
+          "C.  \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "question": "Tập hợp ba thông số nào sau đây xác định trạng thái của một lượng khí xác định?",
+        "options": [
+          "A. Áp suất, nhiệt độ, thể tích.",
+          "B. Áp suất, nhiệt độ, khối lượng.",
+          "C. Áp suất, thể tích, khối lượng.",
+          "D. Thể tích, trọng lượng, áp suất."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "question": "Theo định luật Boyle, khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất gây ra bởi khí",
+        "options": [
+          "A. thay đổi, thể tích của khí không đổi.",
+          "B. tỉ lệ thuận với thể tích của nó.",
+          "C. tỉ lệ nghịch với thể tích của nó.",
+          "D. không đổi, thể tích của khí thay đổi."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "question": "Trong thí nghiệm khảo sát quá trình đẳng nhiệt không có dụng cụ đo nào sau đây?",
+        "options": [
+          "A. Cân.",
+          "B. Giá đỡ thí nghiệm.",
+          "C. Áp kế.",
+          "D. Pit-tông và xi-lanh."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "question": "Một học sinh khảo sát quá trình đẳng nhiệt của một khối khí và thu được đồ thị có dạng như hình vẽ dưới đây, tuy nhiên học sinh đó lại quên không ghi tên các trục của đồ thị. Hỏi học sinh đó đã sử dụng hệ trục toạ độ nào dưới đây?",
+        "options": [
+          "A. (T, V).",
+          "B. (p, T).",
+          "C. (V, T).",
+          "D. (V, p)."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "question": "Hệ thức nào sau đây là của định luật Bôi-lơ?",
+        "options": [
+          "A.   = hằng số.",
+          "B. pV = hằng số.",
+          "C. p12 = p21.",
+          "D.  = hằng số."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "question": "Các thông số trạng thái của một lượng khí không bao gồm đại lượng nào dưới đây của lượng khí đó?",
+        "options": [
+          "A. Thể tích.",
+          "B. Khối lượng.",
+          "C. Nhiệt độ.",
+          "D. Áp suất."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "question": "Câu 3: Đẳng quá trình là gì?",
+        "options": [
+          "A. Là quá trình chỉ có một thông số biến đổi còn hai thông số không đổi.",
+          "B. Là quá trình cả ba thông số đều thay đổi.",
+          "C. Là quá trình chỉ có hai thông số biến đổi còn một thông số không đổi.",
+          "D. Là quá trình cả ba thông số đều không đổi."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "question": "Trong hệ tọa độ (V,T), đường đẳng nhiệt là:",
+        "options": [
+          "A. Đường thẳng có phương qua O.",
+          "B. Đường thẳng vuông góc trục V.",
+          "C. Đường hypebol.",
+          "D. Đường thằng vuông góc trục T."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "question": "Biểu thức sau p11 = p22 biểu diễn quá trình",
+        "options": [
+          "A. đẳng áp.",
+          "B. đẳng nhiệt.",
+          "C. đẳng tích.",
+          "D. đẳng áp và đẳng nhiệt."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "question": "Định luật Boyle cho biết mối liên hệ giữa các thông số trạng thái của một lượng khí xác định trong điều kiện nào?",
+        "options": [
+          "A. Thể tích không đổi.",
+          "B. Nhiệt độ không đổi.",
+          "C. Cả thể tích và nhiệt độ không đổi.",
+          "D. Áp suất không đổi."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "question": "(VD) Nung nóng một lượng không khí trong điều kiện đẳng áp, người ta thấy nhiệt độ của nó tăng thêm 3 oC, thể tích tăng thêm 1%. Nhiệt độ ban đầu của lượng không khí bằng",
+        "options": [
+          "A. 30 oC.",
+          "B. 25 oC.",
+          "C. 35 oC.",
+          "D. 27 oC."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "question": "Hệ thức nào sau đây không phù hợp với quá trình đẳng áp?",
+        "options": [
+          "C.   hằng số.\t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "question": "Đồ thị nào sau đây phù hợp với định luật Charles?",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "question": "Cho một lượng khí lí tưởng dãn nở đẳng áp thì",
+        "options": [
+          "A. nhiệt độ của khí giảm",
+          "B. thể tích của khí tăng, tỉ lệ thuận với nhiệt độ Celsius.",
+          "C. thể tích của khí tăng, tỉ lệ thuận với nhiệt độ tuyệt đối.",
+          "D. nhiệt độ của khí không đổi."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 29,
+        "question": "Định luật Sác lơ nói về mối liên hệ giữa hai thông số trạng thái nào dưới đây?",
+        "options": [
+          "A. Áp suất p và nhiệt độ t0C.",
+          "B. Áp suất p và nhiệt độ tuyệt đối T(K)",
+          "C. Thể tích V và nhiệt độ tuyệt đối T (K).",
+          "D. Áp suất p và thể tích V."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 30,
+        "question": "Trong hệ tọa độ ( ,  ), đường biểu điễn nào sau đây là đường đẳng áp?",
+        "options": [
+          "A. Đường thẳng song song với trục tung.",
+          "B. Đường thẳng kéo dài đi qua gốc tọa độ.",
+          "C. Đường thẳng song song với trục hoành.",
+          "D. Đường hypebol."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 31,
+        "question": "Đối với một lượng khí xác định, quá trình nào sau đây là đẳng áp?",
+        "options": [
+          "A. nhiệt độ giảm, thể tích tăng tỉ lệ nghịch với nhiệt độ tuyệt đối.",
+          "B. nhiệt độ tăng, thể tích tăng tỉ lệ thuận với nhiệt độ tuyệt đối.",
+          "C. nhiệt độ tăng, thể tích tăng.",
+          "D. nhiệt độ không đổi, thể tích giảm."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 32,
+        "question": "Quá trình biến đổi trạng thái trong đó áp suất được giữ không đổi gọi là quá trình",
+        "options": [
+          "A. đẳng tích.",
+          "B. đẳng áp.",
+          "C. đẳng nhiệt.",
+          "D. đoạn nhiệt."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 33,
+        "question": "Người ta làm nóng đẳng áp một lượng khí lí tưởng, đại lượng nào sau đây là không đổi?",
+        "options": [
+          "C.  \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 34,
+        "question": "Định luật Charles được áp dụng trong quá trình biến đổi trạng thái nào dưới đây?",
+        "options": [
+          "A. Nhiệt độ của khối khí không đổi.",
+          "B. Áp suất của khối khí không đổi.",
+          "C. Khối khí dãn nở tự do.",
+          "D. Khối khí đựng trong bình kín và bình không dãn nở nhiệt."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 35,
+        "question": "Theo định luật Charles, khi áp suất của một khối lượng khí xác định giữ không đổi thì thể tích của khí",
+        "options": [
+          "A. tỉ lệ thuận với nhiệt độ tuyệt đối của nó.",
+          "B. tỉ lệ nghịch với nhiệt độ tuyệt đối của nó.",
+          "C. không đổi, nhiệt độ tuyệt đối của khí thay đổi.",
+          "D. thay đổi, nhiệt độ tuyệt đối của khí không đổi."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 36,
+        "question": "Hệ thức nào dưới đây là phù hợp với định luật Charles?",
+        "options": [
+          "C.  \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 37,
+        "question": "Đường biểu diễn nào sau đây biểu diễn quá trình đẳng áp?",
+        "options": [
+          "A. Hình 1",
+          "B. Hình 2",
+          "C. Hình 4",
+          "D. Hình 3"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 38,
+        "question": "Vì sao chất khí luôn chiếm toàn bộ thể tích của bình chứa?",
+        "options": [
+          "A. Vì khoảng cách giữa các phân tử khí lớn.",
+          "B. Vì lực liên kết giữa các phân tử khí rất yếu.",
+          "C. Vì các phân tử khí chuyển động không ngừng.",
+          "D. Vì các phân tử khí luôn va chạm với nhau."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 39,
+        "question": "Tính chất của chất khí nào dưới đây chứng tỏ khoảng cách giữa các phân tử ở thể khí rất lớn so với ở thể lỏng và thể rắn?",
+        "options": [
+          "A. Chất khí không có hình dạng nhất định.",
+          "B. Chất khí dễ nén.",
+          "C. ​Khối lượng riêng của cùng một chất ở thể khí nhỏ hơn nhiều so với ở thể lỏng và thể rắn.",
+          "D. Chất khí có thể khuếch tán."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 40,
+        "question": "Nhận xét nào dưới đây là không đúng khi nói về tương tác giữa các phân tử khí?",
+        "options": [
+          "A. Giữa các phân tử khí có lực đẩy.",
+          "B. Lực tương tác giữa các phân tử ở thể khí rất mạnh so với ở thể lỏng và thể rắn.",
+          "C. Lực tương tác giữa các phân tử khí gọi chung là lực liên kết.",
+          "D. Giữa các phân tử khí có lực hút."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 41,
+        "question": "Câu nào sau đây nói về khí lí tưởng là không đúng?",
+        "options": [
+          "A. Khí lí tưởng là khí có thể gây áp suất lên thành bình.",
+          "B. Khí lí tưởng là khí mà các phân tử chỉ tương tác khi va chạm.",
+          "C. Khí lí tưởng là khí mà thể tích của các phân tử có thể bỏ qua.",
+          "D. Khí lí tưởng là khí mà khối lượng của các phân tử khí có thể bỏ qua."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 42,
+        "question": "Đặc điểm nào sau đây thể hiện sự khác biệt cơ bản nhất giữa khí thực và khí lí tưởng theo quan điểm của mô hình động học phân tử?",
+        "options": [
+          "A. Khí thực không có động năng, chỉ có thế năng tương tác giữa các phân tử.",
+          "B. Phân tử khí thực có lực tương tác với nhau ở khoảng cách gần, còn phân tử khí lí tưởng chỉ tương tác khi va chạm.",
+          "C. Khí thực có các phân tử chuyển động hỗn loạn, còn khí lí tưởng thì chuyển động có hướng.",
+          "D. Khí thực không tuân theo các định luật Newton khi các phân tử va chạm vào thành bình."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 43,
+        "question": "Từ thí nghiệm quan sát chuyển động Brown trong không khí, có thể rút ra kết luận nào sau đây?",
+        "options": [
+          "A. Nhiệt độ của khí càng thay đổi liên tục thì tốc độ chuyển động hỗn loạn của các phân tử khí càng lớn.",
+          "B. Nhiệt độ của khí càng cao thì tốc độ chuyển động hỗn loạn của các phân tử khí càng nhỏ.",
+          "C. Nhiệt độ của khí càng cao thì tốc độ chuyển động hỗn loạn của các phân tử khí càng lớn.",
+          "D. Nhiệt độ của khí không ảnh hưởng tới tốc độ chuyển động hỗn loạn của các phân tử khí."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 44,
+        "question": "Đâu không phải là tính chất của chất khí?",
+        "options": [
+          "A. Không thay đổi áp suất khi nhiệt độ thay đổi.",
+          "B. Dễ bị nén, có khối lượng riêng nhỏ hơn nhiều so với chất lỏng và chất rắn.",
+          "C. Gây ra áp suất lên thành bình chứa.",
+          "D. Có hình dạng và thể tích của bình chứa nó."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 45,
+        "question": "Để quan sát chuyển động Brown trong không khí, cần sử dụng các dụng cụ thí nghiệm (vật) nào dưới đây?",
+        "options": [
+          "A. Kính hiển vi, nắp đậy thủy tinh, khói, ánh sáng, bình tam giác.",
+          "B. Kính lúp, nắp đậy thủy tinh, khói, ánh sáng, bình tam giác.",
+          "C. Kính hiển vi, nắp đậy thủy tinh, ống thủy tinh, khói, ánh sáng.",
+          "D. Kính lúp, nắp đậy thủy tinh, ống thủy tinh, khói, ánh sáng."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 46,
+        "question": "Trong một bình kín chứa khí lí tưởng đang ở trạng thái cân bằng nhiệt, phát biểu nào sau đây về chuyển động của các phân tử khí ở mức độ vi mô là đúng?",
+        "options": [
+          "A. Các phân tử khí sẽ dần dần dừng lại do va chạm làm phân tán năng lượng.",
+          "B. Vận tốc của mỗi một phân tử khí cụ thể luôn được bảo toàn và không thay đổi theo thời gian.",
+          "C. Tất cả các phân tử khí đều đang chuyển động với cùng một tốc độ như nhau.",
+          "D. Các phân tử khí chuyển động với các tốc độ khác nhau, có thể lớn hơn, bằng hoặc nhỏ hơn tốc độ trung bình."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 47,
+        "question": "Đồ thị biểu diễn hai đường đẳng nhiệt của cùng một lượng khí lí tưởng biểu diễn như hình vẽ. Mối quan hệ về nhiệt độ của hai đường đẳng nhiệt này là:",
+        "options": [
+          "A. 2 ≤ T1",
+          "B. 2 > T1",
+          "C. 2 = T1",
+          "D. 2 < T1"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 48,
+        "question": "Đẩy pit-tông của một xilanh đủ chậm để nén lượng khí chứa trong xilanh sao cho thể tích của lượng khí này giảm đi 3 lần ở nhiệt độ không đổi. Khi đó áp suất của khí trong xi lanh",
+        "options": [
+          "A. giảm đi 3 lần.",
+          "B. không thay đổi.",
+          "C. tăng lên 3 lần.",
+          "D. tăng thêm 4 lần."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 49,
+        "question": "Nén đẳng nhiệt một khối khí xác định từ 12 lít đến 3 lít thì áp suất tăng lên bao nhiêu lần:",
+        "options": [
+          "A. 2",
+          "B. 3",
+          "C. áp suất không đổi.",
+          "D. 4"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 50,
+        "question": "Một lượng khí có thể tích là 10 lít ở áp suất 105 Pa. Biết nhiệt độ của khí không đổi, thể tích của lượng khí này ở áp suất 1,25.105 Pa là",
+        "options": [
+          "A. 5 lít.",
+          "B. 6 lít.",
+          "C. 8 lít.",
+          "D. 12 lít."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 51,
+        "question": "Một xilanh chứa 200cm3 khí ở áp suất 2.105Pa. Pittông nén khí trong xilanh xuống còn 100cm3. Tính áp suất khí trong xilanh lúc này. Coi nhiệt độ không đổi.",
+        "options": [
+          "A. 8.105 Pa",
+          "B. 4.105 Pa",
+          "C. 6.105 Pa",
+          "D. 3.105 Pa"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 52,
+        "question": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle?",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 53,
+        "question": "Đồ thị nào dưới đây không phù hợp với quá trình đẳng nhiệt?",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 54,
+        "question": "Gọi  và  là áp suất và khối lượng riêng của một khối khí ở trạng thái ban đầu;  và  là áp suất và khối lượng riêng của khối khí đó ở trạng thái sau khi nén. Coi rằng nhiệt độ của khối khí đó không thay đổi trong suốt quá trình nén, khi đó ta có hệ thức nào dưới đây?",
+        "options": [
+          "C.  \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 55,
+        "question": "Nhiệt độ của một lượng khí tăng từ 250 K đến 500 K và áp suất không đổi thì thể tích của khí",
+        "options": [
+          "A. giảm đi một nửa.",
+          "B. không đổi.",
+          "C. tăng lên gấp bốn.",
+          "D. tăng lên gấp đôi."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 56,
+        "question": "Một lượng khí lí tưởng biến đổi trạng thái có đồ thị áp suất theo nhiệt độ như hình vẽ. Quá trình nào sau đây là quá trình đẳng áp?",
+        "options": [
+          "A. (4) → (1).",
+          "B. (1) → (2).",
+          "C. (2) → (3).",
+          "D. (3) → (4)."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 57,
+        "question": "Trong quá trình nung nóng đẳng áp một khối lượng khí xác định, khoảng cách giữa các phân tử khí",
+        "options": [
+          "A. giảm đến cực tiểu rồi tăng lên.",
+          "B. không đổi.",
+          "C. tăng lên.",
+          "D. giảm đi."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 58,
+        "question": "Một khối khí lí tưởng xác định có thể tích bằng V. Nếu giữ áp suất của khối khí đó không đổi và làm cho thể tích của khối khí tăng lên 2V thì nhiệt độ tuyệt đối của khối khí",
+        "options": [
+          "A. giảm 4 lần.",
+          "B. tăng 2 lần.",
+          "C. giảm 2 lần.",
+          "D. tăng 4 lần."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 59,
+        "question": "Giữ áp suất của một khối lượng khí nhất định không đổi và giảm nhiệt độ thì khối lượng riêng của khí",
+        "options": [
+          "A. không đổi.",
+          "B. tăng đến cực đại rồi giảm đi.",
+          "C. giảm đi.",
+          "D. tăng lên."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 60,
+        "question": "Người ta thực hiện nén đẳng áp một lượng khí xác định sao cho thể tích khí giảm đi 2 lần. Nhiệt độ tuyệt đối của khối khí khi đó sẽ",
+        "options": [
+          "A. giảm đi 2 lần.",
+          "B. tăng lên 4 lần.",
+          "C. giảm đi 4 lần.",
+          "D. tăng lên 2 lần."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 61,
+        "question": "Một lượng khí có thể tích ở 1,5 m3 ở 70C. Nung nóng đẳng áp lượng khí trên đến nhiệt độ 270C, thể tích lượng khí sau nung nóng là",
+        "options": [
+          "A. 42,91 m3.",
+          "B. 4,29 m3.",
+          "C. 1,61 m3.",
+          "D. 5,78 m3."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 62,
+        "question": "Nén khí đẳng nhiệt từ thể tích 9 lít đến thể tích 6 lít thì áp suất tăng một lượng Δp = 50kPa. Áp suất ban đầu của khí đó là:",
+        "options": [
+          "A. 40kPa",
+          "B. 100kPa",
+          "C. 80kPa",
+          "D. 60kPa"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 63,
+        "question": "Cho một lượng khí được giãn đẳng nhiệt từ thể tích từ 2 lít đến 8 lít, ban đầu áp suất khí là 8.105Pa .Thì áp suất của khí tăng hay giảm bao nhiêu?",
+        "options": [
+          "A. Tăng 6.105 Pa",
+          "B. Tăng 2.105 Pa",
+          "C. Giảm 2.105 Pa",
+          "D. Giảm 6.105 Pa"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 64,
+        "question": "Thực hiện nén một khối lượng khí với nhiệt độ không đổi thì số phân tử trong một đơn vị thể tích",
+        "options": [
+          "A. tăng tỉ lệ với bình phương áp suất.",
+          "B. tăng tỉ lệ thuận với áp suất.",
+          "C. giảm tỉ lệ nghịch với áp suất.",
+          "D. không đổi."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 65,
+        "question": "Một khối khí lí tưởng xác định có áp suất 1 atm được làm tăng áp suất đến 4 atm ở nhiệt độ không đổi thì thể tích biến đổi một lượng 3 lít. Thể tích ban đầu của khối khí đó là:",
+        "options": [
+          "A. 12 lít",
+          "B. 4 lít",
+          "C. 8 lít",
+          "D. 16 lít"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 66,
+        "question": "Trong các nhận định sau đây về cấu trúc chất khí, hãy cho biết câu nào đúng, câu nào sai?",
+        "options": [
+          "A. Chất khí chiếm toàn bộ thể tích của bình chứa",
+          "B. Chuyển động của các hạt phấn hoa trong cốc chứa nước được quan sát bằng kính hiển vi được gọi là chuyển động Brown",
+          "C. Chất khí dễ nén. Khi áp suất tác dụng lên một lượng khí tăng thì thể tích khí tăng đang kể.",
+          "D. Khoảng giữa các phân tử khí rất lớn so với kích thước của chúng do đó giữa các phân tử khí chỉ có lực hút."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 67,
+        "question": "Xét tốc độ chuyển động của phân tử và áp suất chất khí",
+        "options": [
+          "A. . # Nguyên nhân gây ra áp suất chất khí tác dụng lên thành bình là do các phân tử khí khi chuyển động hỗn loạn không ngừng đã va chạm liên tục vào thành bình và tác dụng lực lên thành bình.",
+          "B. . # Tốc độ trung bình v̅ của n phân tử khí có các tốc độ v₁, v₂, ..., vₙ được xác định bằng trung bình cộng tốc độ của các phân tử: v̅ = (v₁ + v₂ + ... + vₙ)/n.",
+          "C. Khi quan sát các hạt bụi nhỏ lơ lửng trong không khí ở cửa sổ có ánh nắng chiếu qua, ta thấy chúng chuyển động không ngừng. Chuyển động của hạt bụi này chính là chuyển động Brown dưới tác dụng va chạm của các phân tử không khí.",
+          "D. . # Ở điều kiện tiêu chuẩn (0°C và 1,01.10⁵ Pa), các phân tử khí oxygen chuyển động với tốc độ trung bình vào khoảng 400 m/s. Điều này chứng tỏ tại một thời điểm xác định, tất cả mọi phân tử khí oxygen trong bình đều chuyển động đúng với tốc độ bằng 400 m/s."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 68,
+        "question": "Theo mô hình động học phân tử chất khí và khí lí tưởng.",
+        "options": [
+          "A. . # Khí lí tưởng coi các phân tử khí là các chất điểm và bỏ qua lực tương tác giữa các phân tử khi chúng chưa va chạm.",
+          "B. . # Các chất khí tồn tại trong thực tế (khí thực như O₂, N₂, CO₂) luôn tuân theo hoàn toàn chính xác mô hình khí lí tưởng ở mọi điều kiện nhiệt độ rất thấp và áp suất rất cao.",
+          "C. . # Trong mô hình khí lí tưởng, các va chạm giữa phân tử khí với nhau và va chạm giữa phân tử khí với thành bình được coi là va chạm hoàn toàn đàn hồi.",
+          "D. . # Một khối lượng khí xác định được giữ ở nhiệt độ không đổi trong một xi-lanh kín. Bằng cách đẩy pít-tông làm giảm thể tích bình chứa đi một nửa (V₂ = V₁/2), mật độ phân tử khí (số phân tử trong một đơn vị thể tích) tăng lên gấp 2 lần. Do đó, số va chạm của các phân tử khí lên một đơn vị diện tích thành bình trong một đơn vị thời gian tăng lên gấp 2 lần, làm cho áp suất khí tác dụng lên thành bình tăng lên 2 lần."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 69,
+        "question": "Trong thí nghiệm quan sát chuyển động Brown của các hạt khói lơ lửng trong không khí bằng kính hiển vi (chiếu sáng qua ống thủy tinh đựng khói)",
+        "options": [
+          "A. . #Xét cùng một chất ở thể khí và thể lỏng ở cùng điều kiện nhiệt độ và áp suất. Khối lượng riêng của nước lỏng lớn gấp khoảng 1000 lần khối lượng riêng của hơi nước, ta có thể suy ra khoảng cách trung bình giữa các phân tử ở thể khí lớn gấp khoảng 10 lần khoảng cách trung bình giữa các phân tử ở thể lỏng.",
+          "B. . # Khi chiếu sáng đun nóng không khí trong ống thủy tinh, các hạt khói chuyển động chậm lại vì khoảng cách giữa các phân tử không khí tăng lên làm lực va chạm yếu đi.",
+          "C. . # Khoảng cách trung bình giữa các phân tử chất khí rất lớn so với kích thước của chúng.",
+          "D. . # Chuyển động của các hạt khói trong không khí là chuyển động Brown."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 70,
+        "question": "Một bọt khí có thể tích 1,5 cm3 được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 100 m dưới mực nước biển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là ρ = 1,00.103 kg/m3. Áp suất khí quyển là ρ0 = 1,00.105 Pa, g = 10 m/s2.",
+        "options": [
+          "A. Áp suất của bọt khí ở độ sâu 100m dưới mực nước biển là 11,0.105 Pa.",
+          "B. Khi bọt khí nổi lên mặt nước, áp suất của bọt khí nhỏ hơn áp suất khí quyển p0 = 1,00.105 Pa",
+          "C. Vì nhiệt độ của bọt khí là không đổi nên có thể áp dụng định luật Boyle đối với trạng thái ở trên mặt nước và dưới mặt nước 100 m.",
+          "D. Khi bọt khí nổi lên mặt nước thì sẽ có thể tích là 16,5 cm3."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 71,
+        "question": "Một bơm tay có chiều cao  đường kính  Người ta dùng bơm này để đưa không khí vào trong săm xe đạp (ban đầu chưa có không khí). Biết thời gian mỗi lần bơm là  và áp suất bằng áp suất khí quyển bằng  trong khi bơm xem như nhiệt độ của không khí không đổi. Sau thời gian bơm là t thì săm có thể tích  và có áp suất  .",
+        "options": [
+          "A. Thể tích của mỗi lần bơm không khí vào săm xe đạp là",
+          "B. Có thể áp dụng định luật Boyle cho quá trình biến đổi trạng thái này.",
+          "C. Thể tích khí cần bơm vào săm xe là",
+          "D. Giá trị của thời gian t xấp xĩ bằng"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 72,
+        "question": "Một khối khí khi đặt ở điều kiện nhiệt độ không đổi thì có sự biến thiên của thể tích theo áp suất như hình vẽ",
+        "options": [
+          "A. Quá trình biến đổi trạng thái của khối khí này là dãn nở đẳng nhiệt.",
+          "B. Khi áp suất khối khí có giá trị 0,50 kN/m2 thì thể tích khối khí là 4,8 m3.",
+          "C. Khi áp suất khối khí thay đổi từ 0,5 kN/m2 đến 1,5 kN/m2 thì thể tích của khối khí tăng một lượng 3,2 m3.",
+          "D. Nếu áp suất khí tăng thêm 20% so với áp suất ban đầu thì thể tích của khối khí sau khi giãn nở bằng 3,5m3"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 73,
+        "question": "Một quả bóng có dung tích  Người ta bơm 45 lần không khí ở áp suất  vào bóng. Mỗi lần bơm được  không khí. Coi quả bóng trước khi bơm không có không khí và trong khi bơm nhiệt độ của không khí không thay đổi.",
+        "options": [
+          "A. Định luật Boyle được áp dụng cho quá trình biến đổi trạng thái này.",
+          "B. Sau 45 lần bơm thể tích không khí người ta đưa vào quả bóng là",
+          "C. Sau khi bơm cả thể tích và áp suất của không khí trong quả bóng đều thay đổi.",
+          "D. Sau 45 lần bơm áp suất cuối cùng của khối khí là"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 74,
+        "question": "Một lượng khí có thể tích 240 cm3 chứa trong một xilanh có pittong đóng kín, diện tích của đáy pit-tông là 24 cm2 (Hình vẽ). Áp suất khí trong xi lanh bằng áp suất ngoài và bằng 100 kPa. Bỏ qua ma sát giữa pit-tông và thành xilanh. Coi các quá trình xảy ra là đẳng nhiệt.",
+        "options": [
+          "A. Khi pit-tông dịch chuyển sang trái 2 cm thì thể tích khí lúc này là 288 cm3.",
+          "B. Khi pit-tông dịch chuyển sang phải 2 cm thể tích khí lúc này là 192 cm3.",
+          "C. Để dịch chuyển pit tông sang trái 2 cm cần một lực 60 N.",
+          "D. Để dịch chuyển pit-tông sang phải 2 cm cần một lực 40 N"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 75,
+        "question": "Trong thí nghiệm minh họa định luật Charles được mô tả ở sách giáo khoa, bộ dụng cụ gồm: xi lanh thủy tinh dung tích 50 mL (có pit-tông), nhiệt kế điện tử, nút cao su bịt kín đầu ra xi lanh, các cốc thủy tinh chứa nước đá, nước ấm, nước nóng và dầu bôi trơn. Các bước thực hiện như sau:\n• Bước 1: Tra dầu bôi trơn vào pit-tông, điều chỉnh pit-tông ở mức 30 mL, bịt kín đầu ra bằng nút cao su.\n• Bước 2: Ghi nhận nhiệt độ phòng t (°C) và thể tích khí ban đầu V (mL).\n• Bước 3: Nhúng xi lanh vào các cốc nước đá, nước ấm, nước nóng. Sau mỗi khoảng thời gian 3 phút, đọc chỉ số t (°C) và V (mL).",
+        "options": [
+          "A. Trong suốt quá trình biến đổi trạng thái của lượng khí nhốt trong xi lanh, thông số trạng thái được giữ không đổi là áp suất p.",
+          "B. Thao tác tra một chút dầu bôi trơn vào pit-tông có tác dụng làm giảm ma sát giữa pit-tông và thành xi lanh, giúp pit-tông di chuyển dễ dàng để áp suất khí trong xi lanh luôn cân bằng với áp suất khí quyển bên ngoài.",
+          "C. Khi nhúng xi lanh vào các cốc nước, việc chờ khoảng 3 phút mới đọc chỉ số V và t nhằm mục đích đảm bảo khối khí trong xi lanh đạt trạng thái cân bằng nhiệt với nước trong cốc.",
+          "D. Số liệu đo ở nhiệt độ phòng thu được t1 = 24,5 °C ứng với V1 = 30 mL. Khi nhúng xi lanh vào cốc nước nóng có nhiệt độ t2 = 59,3 °C, nếu quá trình biến đổi tuân theo đúng định luật Charles thì thể tích khí V2 đo được xấp xỉ 35 mL."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 76,
+        "question": "Một khối lượng khí lí tưởng xác định biến đổi trạng thái đẳng áp từ trạng thái (1) có thể tích V1 = 2 lít, nhiệt độ t1 = 27°C sang trạng thái (2) có thể tích V2 = 4 lít, nhiệt độ t2 được biểu diễn bằng đồ thị V - T như hình 1.\nHình 1.",
+        "options": [
+          "A. Trong hệ tọa độ V - T, đường đẳng áp là một đường thẳng có phương kéo dài đi qua gốc tọa độ O.",
+          "B. Dựa vào đồ thị, quá trình biến đổi từ trạng thái (1) sang trạng thái (2) là quá trình giãn nở đẳng áp, trong đó thể tích của khí tăng tỉ lệ thuận với nhiệt độ tuyệt đối T.",
+          "C. Trong hệ tọa độ V - t (thể tích V theo nhiệt độ Celsius t), đường biểu diễn quá trình đẳng áp cũng là đường thẳng kéo dài đi qua gốc tọa độ O (0°C).",
+          "D. Dựa vào số liệu trên đồ thị Hình 1, nhiệt độ t2 của khối khí ở trạng thái (2) ứng với thể tích V2 = 4 lít bằng 327°C."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 77,
+        "question": "Hai đường đẳng áp (1) và (2) của cùng một khối lượng khí lí tưởng xác định được biểu diễn trong hệ tọa độ V - T như Hình 2, ứng với các giá trị áp suất p1 và p2.\nHình 2.",
+        "options": [
+          "A. Ứng với các giá trị áp suất khác nhau của cùng một khối lượng khí xác định, ta có các đường đẳng áp khác nhau trong hệ tọa độ V - T.",
+          "B. Đường đẳng áp nằm ở phía trên (1) trong hệ tọa độ V - T ứng với giá trị áp suất lớn hơn, do đó ta có p1 > p2.",
+          "C. Khi biểu diễn hai quá trình đẳng áp này trong hệ tọa độ p - V, hai đường đẳng áp (1) và (2) trở thành hai đường thẳng song song với trục thể tích V.",
+          "D. Khối khí ở trạng thái 1 có áp suất p1 = 1 atm, thể tích V1 = 3 lít, nhiệt độ t1 = 27°C. Khối khí biến đổi đẳng áp đến trạng thái 2 có thể tích V2 = 4,5 lít; nhiệt độ t2 = 40,5°C"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 78,
+        "question": "Xét một khối lượng khí lí tưởng xác định biến đổi trạng thái trong điều kiện áp suất giữ không đổi.",
+        "options": [
+          "A. Quá trình biến đổi trạng thái của một khối lượng khí xác định khi áp suất giữ không đổi được gọi là quá trình đẳng áp.",
+          "B. Trong quá trình đẳng áp của một khối lượng khí xác định, thể tích V của khí tỉ lệ thuận với nhiệt độ tuyệt đối T theo hệ thức    hay   .",
+          "C. Khi đun nóng đẳng áp một khối khí lí tưởng từ nhiệt độ t1 = 27°C lên nhiệt độ t2 = 327°C, vì nhiệt độ theo thang Celsius tăng lên 12 lần nên thể tích của khối khí cũng tăng lên đúng 12 lần.",
+          "D. Ban đầu một khối khí trong xilanh ở nhiệt độ t1 = 27°C có thể tích V1 = 150 cm³. Nếu đun nóng đẳng áp khối khí đó đến khi thể tích đạt V2 = 200 cm³ thì nhiệt độ t2 của khối khí sau khi đun nóng là 127°C."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 79,
+        "question": "Cho một khối khí dãn nở đẳng áp từ nhiệt độ t1 = 32 0C đến nhiệt độ t2 = 117 0C, thể tích của khối khi tăng thêm 1,7 lít. Xác định thể tích khối khí sau khi dãn nở là bao nhiêu lít. (Kết quả làm tròn đến hàng phần mười)",
+        "options": [
+          "A. [7,8]"
+        ],
+        "correct": 0,
+        "explanation": "Đáp án chính xác: [7,8]"
+      },
+      {
+        "id": 80,
+        "question": "Ở 270C thể tích của một lượng khí là 6 lít. Khi áp suất không đổi thì thể tích của lượng khí đó ở nhiệt độ 2270C là bao nhiêu lít? (kết quả chỉ lấy phần nguyên).",
+        "options": [
+          "A. [10]"
+        ],
+        "correct": 0,
+        "explanation": "Đáp án chính xác: [10]"
+      },
+      {
+        "id": 81,
+        "question": "nhiệt độ  thể tích của một khối khí là 30 lít. Khi áp suất không đổi, thể tích của khí đó ở  là bao nhiêu lít? (kết quả chỉ lấy phần nguyên).",
+        "options": [
+          "A. [45]"
+        ],
+        "correct": 0,
+        "explanation": "Đáp án chính xác: [45]"
+      }
+    ]
+  },
+  {
+    "id": "olm-on-kiem-tra-thuong-xuyen-lan-2-bai-7-nh-26-27-11824884",
+    "lessonId": "11824884",
+    "title": "OLM: ÔN KIỂM TRA THƯỜNG XUYÊN LẦN 2 BÀI 7- NH 26-27",
+    "subject": "Tin Học",
+    "grade": "Lớp 12",
+    "durationMinutes": 50,
+    "difficulty": "Luyện tập OLM",
+    "source": "OLM",
+    "teacher": null,
+    "deadline": null,
+    "tags": [
+      "OLM",
+      "Tin Học",
+      "Lớp 12",
+      "Trắc nghiệm OLM"
+    ],
+    "description": "Bài tập trực tuyến OLM: ÔN KIỂM TRA THƯỜNG XUYÊN LẦN 2 BÀI 7- NH 26-27. Môn Tin Học - Lớp 12. Tổng số 34 câu hỏi có đáp án và lời giải chi tiết.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Thẻ nào sau đây dùng để khai báo kiểu tài liệu trong một tệp HTML?",
+        "options": [
+          "A. <head>",
+          "B. <!DOCTYPE html>",
+          "C. <html>",
+          "D. <body>"
+        ],
+        "correct": 1,
+        "explanation": "Sai – Thẻ <html> dùng để khai báo phần tử gốc của tài liệu HTML.\nSai – Thẻ <head> chứa thông tin về tài liệu HTML nhưng không khai báo kiểu tài liệu.\nĐúng – <!DOCTYPE html> là khai báo kiểu tài liệu, giúp trình duyệt hiểu đây là tài liệu HTML5.\nSai – Thẻ <body> chứa nội dung hiển thị của trang web, không dùng để khai báo kiểu tài liệu."
+      },
+      {
+        "id": 2,
+        "question": "Trong cấu trúc HTML, phần tử nào chứa nội dung hiển thị chính của trang web?",
+        "options": [
+          "A. <body>",
+          "B. <meta>",
+          "C. <title>",
+          "D. <head>"
+        ],
+        "correct": 0,
+        "explanation": "Sai – <head> chứa thông tin về tài liệu, không hiển thị nội dung chính.\nSai – <title> hiển thị tiêu đề trên tab trình duyệt, không phải nội dung chính.\nĐúng – <body> chứa toàn bộ nội dung hiển thị như văn bản, hình ảnh, liên kết,...\nSai – <meta> cung cấp metadata, không hiển thị nội dung chính."
+      },
+      {
+        "id": 3,
+        "question": "Khi viết một đoạn văn bản trong HTML, thẻ nào sau đây được sử dụng?",
+        "options": [
+          "A. <h1>",
+          "B. <title>",
+          "C. <div>",
+          "D. <p>"
+        ],
+        "correct": 3,
+        "explanation": "Sai – <h1> dùng để tạo tiêu đề lớn, không phải đoạn văn bản.\nĐúng – <p> là thẻ dùng để viết đoạn văn bản trong HTML.\nSai – <title> dùng để đặt tiêu đề trang, không hiển thị đoạn văn bản.\nSai – <div> là thẻ phân vùng, không chuyên dùng để viết đoạn văn bản."
+      },
+      {
+        "id": 4,
+        "question": "Thẻ <title> trong HTML có chức năng gì?",
+        "options": [
+          "A. Hiển thị tiêu đề trong nội dung trang web.",
+          "B. Hiển thị tiêu đề trong phần chân trang web.",
+          "C. Hiển thị tiêu đề trong phần thân trang web.",
+          "D. Hiển thị tiêu đề trên tab trình duyệt."
+        ],
+        "correct": 3,
+        "explanation": "Sai – Tiêu đề trong nội dung trang web thường dùng thẻ <h1> hoặc <h2>.\nĐúng – <title> hiển thị tiêu đề trên tab trình duyệt.\nSai – Nội dung trong phần thân dùng thẻ <body>, không phải <title>.\nSai – HTML không có thẻ riêng cho chân trang như vậy."
+      },
+      {
+        "id": 5,
+        "question": "Trong một tệp HTML, thẻ <head> thường chứa những thành phần nào sau đây?",
+        "options": [
+          "A. Các liên kết và nút bấm.",
+          "B. Các đoạn văn bản và hình ảnh.",
+          "C. Các thông tin như tiêu đề, metadata, liên kết CSS.",
+          "D. Các bảng biểu và danh sách."
+        ],
+        "correct": 2,
+        "explanation": "Sai – Văn bản và hình ảnh nằm trong phần <body>.\nSai – Liên kết và nút bấm là phần nội dung hiển thị, thuộc <body>.\nĐúng – <head> chứa các thông tin như <title>, <meta>, <link> đến CSS,...\nSai – Bảng biểu và danh sách là nội dung hiển thị, không nằm trong <head>."
+      },
+      {
+        "id": 6,
+        "question": "Thẻ nào sau đây dùng để tạo dòng kẻ ngang trong trang web?",
+        "options": [
+          "A. <br>",
+          "B. <hr>",
+          "C. <p>",
+          "D. <h1>"
+        ],
+        "correct": 1,
+        "explanation": "Sai – <br> dùng để xuống dòng, không tạo đường kẻ ngang.\nĐúng – <hr> tạo một đường kẻ ngang phân cách nội dung.\nSai – <p> dùng để tạo đoạn văn bản.\nSai – <h1> dùng để tạo tiêu đề lớn."
+      },
+      {
+        "id": 7,
+        "question": "Thẻ nào sau đây dùng để xuống dòng trong HTML?",
+        "options": [
+          "A. <br>",
+          "B. <hr>",
+          "C. <h2>",
+          "D. <p>"
+        ],
+        "correct": 0,
+        "explanation": "Sai – <hr> tạo đường kẻ ngang, không xuống dòng.\nSai – <p> tạo đoạn văn bản, không xuống dòng tức thời.\nĐúng – <br> là thẻ xuống dòng trong HTML.\nSai – <h2> tạo tiêu đề cấp 2, không dùng để xuống dòng."
+      },
+      {
+        "id": 8,
+        "question": "Cặp thẻ nào sau đây là một phần tử HTML hoàn chỉnh?",
+        "options": [
+          "A. <b>",
+          "B. HTML</b>",
+          "C. <b>HTML>",
+          "D. <b>HTML</b>"
+        ],
+        "correct": 3,
+        "explanation": "Sai – Chỉ là thẻ mở, chưa hoàn chỉnh.\nĐúng – <b>HTML</b> là phần tử HTML gồm thẻ mở, nội dung và thẻ đóng.\nSai – Thiếu thẻ mở.\nSai – Thiếu thẻ đóng."
+      },
+      {
+        "id": 9,
+        "question": "Thẻ nào sau đây dùng để tạo chữ in nghiêng trong HTML?",
+        "options": [
+          "A. <b>",
+          "B. <h1>",
+          "C. <i>",
+          "D. <u>"
+        ],
+        "correct": 2,
+        "explanation": "Sai – <b> tạo chữ in đậm.\nSai – <u> tạo chữ gạch chân.\nĐúng – <i> tạo chữ in nghiêng.\nSai – <h1> tạo tiêu đề lớn."
+      },
+      {
+        "id": 10,
+        "question": "Thẻ nào sau đây dùng để tạo liên kết đến một trang web khác?",
+        "options": [
+          "A. <link>",
+          "B. <href>",
+          "C. <a>",
+          "D. <url>"
+        ],
+        "correct": 2,
+        "explanation": "Sai – <link> dùng để liên kết tài nguyên như CSS, không tạo liên kết hiển thị.\nĐúng – <a> là thẻ tạo liên kết trong HTML.\nSai – href là thuộc tính, không phải thẻ.\nSai – <url> không phải là thẻ HTML hợp lệ."
+      },
+      {
+        "id": 11,
+        "question": "Nội dung nào sau đây thường được đặt trong thẻ <head>?",
+        "options": [
+          "A. Đoạn văn bản mô tả sản phẩm.",
+          "B. Hình ảnh minh họa.",
+          "C. Bảng dữ liệu.",
+          "D. Liên kết đến tập tin CSS."
+        ],
+        "correct": 3,
+        "explanation": "Sai – Đoạn văn bản hiển thị nằm trong <body>.\nSai – Hình ảnh hiển thị nằm trong <body>.\nĐúng – Liên kết đến tập tin CSS thường đặt trong <head> bằng thẻ <link>.\nSai – Bảng dữ liệu hiển thị nằm trong <body>."
+      },
+      {
+        "id": 12,
+        "question": "Thẻ nào sau đây dùng để tạo tiêu đề lớn nhất trong HTML?",
+        "options": [
+          "A. <h3>",
+          "B. <h1>",
+          "C. <h6>",
+          "D. <h4>"
+        ],
+        "correct": 1,
+        "explanation": "Sai – <h6> là tiêu đề nhỏ nhất.\nSai – <h3> là tiêu đề cấp trung bình.\nĐúng – <h1> là tiêu đề lớn nhất trong HTML.\nSai – <h4> là tiêu đề nhỏ hơn <h1>."
+      },
+      {
+        "id": 13,
+        "question": "Trong HTML, thuộc tính nào được dùng để chỉ định địa chỉ liên kết trong thẻ <a>?",
+        "options": [
+          "A. link",
+          "B. src",
+          "C. target",
+          "D. href"
+        ],
+        "correct": 3,
+        "explanation": "Sai – src dùng cho hình ảnh hoặc tập tin đa phương tiện.\nĐúng – href là thuộc tính chỉ định địa chỉ liên kết trong thẻ <a>.\nSai – link không phải là thuộc tính hợp lệ trong thẻ <a>.\nSai – target chỉ định cách mở liên kết, không phải địa chỉ."
+      },
+      {
+        "id": 14,
+        "question": "Khi lưu tệp HTML, phần mở rộng nào sau đây là đúng?",
+        "options": [
+          "A. .docx",
+          "B. .txt",
+          "C. .pdf",
+          "D. .html"
+        ],
+        "correct": 3,
+        "explanation": "Sai – .docx là định dạng của Microsoft Word.\nSai – .txt là định dạng văn bản thuần.\nĐúng – .html là phần mở rộng của tệp HTML.\nSai – .pdf là định dạng tài liệu PDF."
+      },
+      {
+        "id": 15,
+        "question": "Phần tử nào sau đây là phần tử gốc trong một tài liệu HTML?",
+        "options": [
+          "A. <html>",
+          "B. <body>",
+          "C. <head>",
+          "D. <!DOCTYPE html>"
+        ],
+        "correct": 0,
+        "explanation": "Sai – <head> là phần tử con của <html>.\nSai – <body> là phần tử con của <html>.\nĐúng – <html> là phần tử gốc bao gồm <head> và <body>.\nSai – <!DOCTYPE html> là khai báo kiểu tài liệu, không phải phần tử gốc."
+      },
+      {
+        "id": 16,
+        "question": "Thẻ <title> trong HTML có chức năng gì?",
+        "options": [
+          "A. Hiển thị tiêu đề trong phần chân trang web.",
+          "B. Hiển thị tiêu đề trong nội dung trang web.",
+          "C. Hiển thị tiêu đề trên tab trình duyệt.",
+          "D. Hiển thị tiêu đề trong phần thân trang web."
+        ],
+        "correct": 2,
+        "explanation": "Sai – Tiêu đề trong nội dung trang web thường dùng thẻ <h1> hoặc <h2>.\nĐúng – <title> hiển thị tiêu đề trên tab trình duyệt.\nSai – Nội dung trong phần thân dùng thẻ <body>, không phải <title>.\nSai – HTML không có thẻ riêng cho chân trang như vậy."
+      },
+      {
+        "id": 17,
+        "question": "Khi muốn tạo một đoạn văn bản trong HTML, thẻ nào sau đây được sử dụng?",
+        "options": [
+          "A. <meta>",
+          "B. <h1>",
+          "C. <p>",
+          "D. <div>"
+        ],
+        "correct": 2,
+        "explanation": "Sai – <h1> dùng để tạo tiêu đề, không phải đoạn văn.\nSai – <div> dùng để nhóm nội dung, không tạo đoạn văn trực tiếp.\nĐúng – <p> là thẻ tạo đoạn văn bản.\nSai – <meta> dùng để khai báo thông tin metadata, không hiển thị nội dung."
+      },
+      {
+        "id": 18,
+        "question": "Để tạo một dòng chữ in nghiêng trong HTML, thẻ nào sau đây là phù hợp nhất?",
+        "options": [
+          "A. <u>",
+          "B. <h2>",
+          "C. <b>",
+          "D. <i>"
+        ],
+        "correct": 3,
+        "explanation": "Sai – <b> dùng để in đậm, không phải in nghiêng.\nĐúng – <i> là thẻ định dạng chữ in nghiêng.\nSai – <u> dùng để gạch chân.\nSai – <h2> là thẻ tiêu đề cấp 2, không dùng để định dạng chữ nghiêng."
+      },
+      {
+        "id": 19,
+        "question": "Thẻ nào sau đây dùng để khai báo phần nội dung hiển thị trên trang web?",
+        "options": [
+          "A. <head>",
+          "B. <body>",
+          "C. <meta>",
+          "D. <title>"
+        ],
+        "correct": 1,
+        "explanation": "Sai – <head> chứa metadata, không hiển thị nội dung chính.\nSai – <meta> dùng để khai báo mã hóa và thông tin phụ.\nĐúng – <body> chứa toàn bộ nội dung hiển thị trên trang web.\nSai – <title> hiển thị tiêu đề trên tab trình duyệt."
+      },
+      {
+        "id": 20,
+        "question": "Khi muốn tạo một tiêu đề lớn nhất trong nội dung trang HTML, thẻ nào sau đây nên được sử dụng?",
+        "options": [
+          "A. <p>",
+          "B. <title>",
+          "C. <h6>",
+          "D. <h1>"
+        ],
+        "correct": 3,
+        "explanation": "Sai – <h6> là tiêu đề nhỏ nhất.\nĐúng – <h1> là tiêu đề lớn nhất trong HTML.\nSai – <p> dùng để tạo đoạn văn, không phải tiêu đề.\nSai – <title> hiển thị tiêu đề trên tab trình duyệt."
+      },
+      {
+        "id": 21,
+        "question": "Để tạo một dòng mới trong nội dung HTML mà không cần tạo đoạn văn mới, thẻ nào sau đây được sử dụng?",
+        "options": [
+          "A. <p>",
+          "B. <hr>",
+          "C. <br>",
+          "D. <div>"
+        ],
+        "correct": 2,
+        "explanation": "Sai – <hr> tạo đường kẻ ngang, không xuống dòng.\nĐúng – <br> là thẻ ngắt dòng trong HTML.\nSai – <p> tạo đoạn văn, không dùng để xuống dòng đơn lẻ.\nSai – <div> dùng để nhóm nội dung, không tạo dòng mới."
+      },
+      {
+        "id": 22,
+        "question": "Trong cấu trúc HTML, thẻ nào dùng để khai báo mã hóa ký tự của trang web?",
+        "options": [
+          "A. <title>",
+          "B. <h1>",
+          "C. <body>",
+          "D. <meta charset=\"utf-8\">"
+        ],
+        "correct": 3,
+        "explanation": "Sai – <title> chỉ định tiêu đề, không liên quan đến mã hóa.\nĐúng – <meta charset=\"utf-8\"> giúp trình duyệt hiểu đúng mã hóa ký tự.\nSai – <body> chứa nội dung, không khai báo mã hóa.\nSai – <h1> là tiêu đề, không liên quan đến mã hóa."
+      },
+      {
+        "id": 23,
+        "question": "Thẻ nào sau đây thường được dùng để nhóm các phần tử HTML lại với nhau?",
+        "options": [
+          "A. <div>",
+          "B. <p>",
+          "C. <head>",
+          "D. <span>"
+        ],
+        "correct": 0,
+        "explanation": "Sai – <span> dùng để nhóm nội dung nội tuyến, không phải khối.\nĐúng – <div> là thẻ phân vùng nội dung, nhóm các phần tử HTML.\nSai – <p> tạo đoạn văn, không dùng để nhóm phần tử.\nSai – <head> chứa metadata, không dùng để nhóm nội dung hiển thị."
+      },
+      {
+        "id": 24,
+        "question": "Khi tạo một trang HTML, dòng khai báo nào sau đây cần được đặt đầu tiên để trình duyệt hiểu đúng định dạng?",
+        "options": [
+          "A. <html>",
+          "B. <body>",
+          "C. <head>",
+          "D. <!DOCTYPE html>"
+        ],
+        "correct": 3,
+        "explanation": "Sai – <html> là phần tử gốc, nhưng không phải dòng đầu tiên.\nSai – <head> nằm trong <html>, không phải khai báo định dạng.\nĐúng – <!DOCTYPE html> là khai báo định dạng HTML5.\nSai – <body> chứa nội dung, không phải khai báo định dạng."
+      },
+      {
+        "id": 25,
+        "question": "Trong sơ đồ cây HTML, phần tử nào là nút gốc bao quanh toàn bộ nội dung?",
+        "options": [
+          "A. <html>",
+          "B. <body>",
+          "C. <title>",
+          "D. <head>"
+        ],
+        "correct": 0,
+        "explanation": "Sai – <head> là phần tử con của <html>.\nSai – <body> là phần tử con của <html>.\nĐúng – <html> là phần tử gốc bao quanh toàn bộ nội dung HTML.\nSai – <title> nằm trong <head>, không phải nút gốc."
+      },
+      {
+        "id": 26,
+        "question": "Khi phân tích cấu trúc cơ bản của một trang HTML, các nhận định sau đúng hay sai?",
+        "options": [
+          "A. Thẻ <!DOCTYPE html> là phần tử HTML đầu tiên trong tài liệu.",
+          "B. Thẻ <body> chứa các phần tử hiển thị như tiêu đề, đoạn văn, hình ảnh.",
+          "C. Thẻ <head> chứa nội dung hiển thị chính như tiêu đề, hình ảnh và văn bản.",
+          "D. Thẻ <html> là phần tử gốc bao quanh toàn bộ nội dung của trang web."
+        ],
+        "correct": 1,
+        "explanation": "Thẻ <html> là phần tử gốc bao quanh toàn bộ nội dung của trang web.: Đúng → Đây là phần tử bao ngoài toàn bộ tài liệu HTML.\nThẻ <head> chứa nội dung hiển thị chính như tiêu đề, hình ảnh và văn bản.: Sai → <head> chứa siêu dữ liệu, không hiển thị trực tiếp nội dung chính.\nThẻ <body> chứa các phần tử hiển thị như tiêu đề, đoạn văn, hình ảnh.: Đúng → Nội dung hiển thị nằm trong phần <body>.\nThẻ <!DOCTYPE html> là phần tử HTML đầu tiên trong tài liệu.: Sai → Đây là khai báo, không phải phần tử HTML."
+      },
+      {
+        "id": 27,
+        "question": "Khi tìm hiểu về các thẻ HTML định dạng văn bản, các nhận định sau đúng hay sai?",
+        "options": [
+          "A. Thẻ <i> dùng để tạo chữ in nghiêng.",
+          "B. Thẻ <b> dùng để tạo chữ nghiêng.",
+          "C. Thẻ <p> dùng để tạo đoạn văn bản.",
+          "D. Thẻ <h1> dùng để tạo tiêu đề lớn nhất trong trang."
+        ],
+        "correct": 0,
+        "explanation": "Thẻ <h1> dùng để tạo tiêu đề lớn nhất trong trang.: Đúng → <h1> là tiêu đề cấp cao nhất.\nThẻ <p> dùng để tạo đoạn văn bản.: Đúng → <p> là thẻ đoạn văn.\nThẻ <b> dùng để tạo chữ nghiêng.: Sai → <b> tạo chữ in đậm, không phải chữ nghiêng.\nThẻ <i> dùng để tạo chữ in nghiêng.: Đúng → <i> là thẻ định dạng chữ nghiêng."
+      },
+      {
+        "id": 28,
+        "question": "Khi hiểu về cấu trúc cây của một tệp HTML, các nhận định sau đúng hay sai?",
+        "options": [
+          "A. Quan hệ giữa các phần tử HTML có thể hình dung như quan hệ cha – con.",
+          "B. Phần tử <p> là phần tử lá nếu không chứa phần tử con nào.",
+          "C. Phần tử <html> là cha của phần tử <head> và <body>.",
+          "D. Phần tử <title> là phần tử con của <body>."
+        ],
+        "correct": 0,
+        "explanation": "Phần tử <html> là cha của phần tử <head> và <body>.: Đúng → Đây là cấu trúc chuẩn của tài liệu HTML.\nPhần tử <title> là phần tử con của <body>.: Sai → <title> là con của <head>.\nPhần tử <p> là phần tử lá nếu không chứa phần tử con nào.: Đúng → Nếu không chứa phần tử khác, <p> là phần tử lá.\nQuan hệ giữa các phần tử HTML có thể hình dung như quan hệ cha – con.: Đúng → HTML có cấu trúc cây, thể hiện quan hệ cha – con."
+      },
+      {
+        "id": 29,
+        "question": "Khi hiểu về phần mềm soạn thảo HTML, các nhận định sau đúng hay sai?",
+        "options": [
+          "A. Có thể dùng phần mềm Notepad++ để soạn thảo mã HTML.",
+          "B. Các trang web như w3schools.com có thể hỗ trợ học và kiểm tra mã HTML trực tuyến.",
+          "C. Khi viết mã HTML, cần lưu tệp với phần mở rộng là .txt.",
+          "D. HTML chỉ có thể soạn thảo bằng phần mềm chuyên dụng, không thể dùng trình soạn thảo văn bản đơn giản."
+        ],
+        "correct": 0,
+        "explanation": "Có thể dùng phần mềm Notepad++ để soạn thảo mã HTML.: Đúng → Notepad++ là trình soạn thảo mã phổ biến, hỗ trợ HTML.\nHTML chỉ có thể soạn thảo bằng phần mềm chuyên dụng, không thể dùng trình soạn thảo văn bản đơn giản.: Sai → Có thể dùng Notepad hoặc bất kỳ trình soạn thảo văn bản nào.\nCác trang web như w3schools.com có thể hỗ trợ học và kiểm tra mã HTML trực tuyến.: Đúng → Đây là nguồn học HTML phổ biến và hiệu quả.\nKhi viết mã HTML, cần lưu tệp với phần mở rộng là .txt.: Sai → Tệp HTML phải có phần mở rộng .html hoặc .htm."
+      },
+      {
+        "id": 30,
+        "question": "Khi tìm hiểu về các thẻ HTML định dạng văn bản, các nhận định sau đúng hay sai?",
+        "options": [
+          "A. Thẻ <h1> dùng để tạo tiêu đề lớn nhất trong trang.",
+          "B. Thẻ <b> dùng để tạo chữ nghiêng.",
+          "C. Thẻ <i> dùng để tạo chữ in nghiêng.",
+          "D. Thẻ <p> dùng để tạo đoạn văn bản."
+        ],
+        "correct": 0,
+        "explanation": "Thẻ <h1> dùng để tạo tiêu đề lớn nhất trong trang. → Đúng → <h1> là tiêu đề cấp cao nhất.\nThẻ <p> dùng để tạo đoạn văn bản. → Đúng → <p> là thẻ đoạn văn.\nThẻ <b> dùng để tạo chữ nghiêng. → Sai → <b> tạo chữ in đậm, không phải chữ nghiêng.\nThẻ <i> dùng để tạo chữ in nghiêng. → Đúng → <i> là thẻ định dạng chữ nghiêng."
+      },
+      {
+        "id": 31,
+        "question": "Khi trình bày nội dung trang web bằng HTML, học sinh cần sử dụng đúng cú pháp để đảm bảo trang web hiển thị chính xác.",
+        "options": [
+          "A. Thẻ <title> hiển thị tiêu đề trong phần nội dung của trang.",
+          "B. Thẻ <head> chứa nội dung hiển thị chính của trang web.",
+          "C. Thẻ <br> dùng để xuống dòng.",
+          "D. Thẻ <u> dùng để tạo chữ gạch chân."
+        ],
+        "correct": 2,
+        "explanation": "Thẻ <br> dùng để xuống dòng. → Đúng → <br> là thẻ ngắt dòng trong HTML.\nThẻ <u> dùng để tạo chữ gạch chân. → Đúng → <u> là thẻ định dạng chữ gạch chân.\nThẻ <head> chứa nội dung hiển thị chính của trang web. → Sai → <head> chứa metadata, không hiển thị nội dung chính.\nThẻ <title> hiển thị tiêu đề trong phần nội dung của trang. → Sai → <title> hiển thị tiêu đề trên tab trình duyệt, không phải nội dung chính."
+      },
+      {
+        "id": 32,
+        "question": "Khi tạo cấu trúc cơ bản của một tệp HTML, học sinh cần xác định đúng vai trò của từng phần tử.",
+        "options": [
+          "A. Thẻ <body> nằm trong <head> để hiển thị nội dung.",
+          "B. Thẻ <div> dùng để nhóm các phần tử nội dung lại với nhau.",
+          "C. Thẻ <meta charset=\"utf-8\"> giúp trình duyệt hiểu đúng mã hóa ký tự.",
+          "D. Thẻ <html> là phần tử gốc bao quanh toàn bộ nội dung HTML."
+        ],
+        "correct": 1,
+        "explanation": "Thẻ <html> là phần tử gốc bao quanh toàn bộ nội dung HTML. → Đúng → <html> là phần tử bao ngoài cùng.\nThẻ <body> nằm trong <head> để hiển thị nội dung. → Sai → <body> và <head> là hai phần tử con trực tiếp của <html>.\nThẻ <meta charset=\"utf-8\"> giúp trình duyệt hiểu đúng mã hóa ký tự. → Đúng → Giúp hiển thị tiếng Việt và ký tự đặc biệt chính xác.\nThẻ <div> dùng để nhóm các phần tử nội dung lại với nhau. → Đúng → <div> là thẻ phân vùng nội dung."
+      },
+      {
+        "id": 33,
+        "question": "Khi hiểu về phần mềm soạn thảo HTML, các nhận định sau đúng hay sai?",
+        "options": [
+          "A. HTML chỉ có thể soạn thảo bằng phần mềm chuyên dụng, không thể dùng trình soạn thảo văn bản đơn giản.",
+          "B. Các trang web như w3schools.com có thể hỗ trợ học và kiểm tra mã HTML trực tuyến.",
+          "C. Khi viết mã HTML, cần lưu tệp với phần mở rộng là .txt.",
+          "D. Có thể dùng phần mềm Notepad++ để soạn thảo mã HTML."
+        ],
+        "correct": 1,
+        "explanation": "Có thể dùng phần mềm Notepad++ để soạn thảo mã HTML. → Đúng → Notepad++ là trình soạn thảo mã phổ biến, hỗ trợ HTML.\nHTML chỉ có thể soạn thảo bằng phần mềm chuyên dụng, không thể dùng trình soạn thảo văn bản đơn giản. → Sai → Có thể dùng Notepad hoặc bất kỳ trình soạn thảo văn bản nào.\nCác trang web như w3schools.com có thể hỗ trợ học và kiểm tra mã HTML trực tuyến. → Đúng → Đây là nguồn học HTML phổ biến và hiệu quả.\nKhi viết mã HTML, cần lưu tệp với phần mở rộng là .txt. → Sai → Tệp HTML phải có phần mở rộng .html hoặc .htm."
+      },
+      {
+        "id": 34,
+        "question": "Khi biểu diễn cấu trúc HTML dưới dạng sơ đồ cây, các nhận định sau đúng hay sai?",
+        "options": [
+          "A. Thẻ <html> là nút gốc của cây HTML.",
+          "B. Quan hệ giữa các thẻ HTML có thể hình dung như quan hệ cha – con.",
+          "C. Thẻ <head> và <body> là hai nút con trực tiếp của <html>.",
+          "D. Thẻ <p> có thể chứa các thẻ tiêu đề như <h1>."
+        ],
+        "correct": 0,
+        "explanation": "Thẻ <html> là nút gốc của cây HTML. → Đúng → Là phần tử bao ngoài cùng.\nThẻ <head> và <body> là hai nút con trực tiếp của <html>. → Đúng → Là hai phần chính trong cấu trúc HTML.\nThẻ <p> có thể chứa các thẻ tiêu đề như <h1>. → Sai → <p> không nên chứa các thẻ tiêu đề.\nQuan hệ giữa các thẻ HTML có thể hình dung như quan hệ cha – con. → Đúng → HTML có cấu trúc lồng nhau theo dạng cây."
+      }
+    ]
+  },
+  {
+    "id": "olm-on-kiem-tra-thuong-xuyen-lan-2-bai-8-nh-26-27-91352896",
+    "lessonId": "91352896",
+    "title": "OLM: ÔN KIỂM TRA THƯỜNG XUYÊN LẦN 2 BÀI 8- NH 26-27",
+    "subject": "Tin Học",
+    "grade": "Lớp 12",
+    "durationMinutes": 40,
+    "difficulty": "Luyện tập OLM",
+    "source": "OLM",
+    "teacher": null,
+    "deadline": null,
+    "tags": [
+      "OLM",
+      "Tin Học",
+      "Lớp 12",
+      "Trắc nghiệm OLM"
+    ],
+    "description": "Bài tập trực tuyến OLM: ÔN KIỂM TRA THƯỜNG XUYÊN LẦN 2 BÀI 8- NH 26-27. Môn Tin Học - Lớp 12. Tổng số 26 câu hỏi có đáp án và lời giải chi tiết.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Để làm chữ in đậm trong HTML, ta sử dụng thẻ nào?",
+        "options": [
+          "A. <i>",
+          "B. <b>",
+          "C. <em>",
+          "D. <u>"
+        ],
+        "correct": 1,
+        "explanation": "A: Sai – <i> dùng để in nghiêng.\nB: Đúng – <b> dùng để in đậm văn bản.\nC: Sai – <u> dùng để gạch chân.\nD: Sai – <em> nhấn mạnh văn bản, thường hiển thị nghiêng."
+      },
+      {
+        "id": 2,
+        "question": "Muốn văn bản hiển thị dưới dạng chữ nghiêng, ta dùng thẻ nào?",
+        "options": [
+          "A. <u>",
+          "B. <strong>",
+          "C. <i>",
+          "D. <mark>"
+        ],
+        "correct": 2,
+        "explanation": "A: Sai – <strong> dùng để nhấn mạnh, thường hiển thị đậm.\nB: Đúng – <i> hiển thị văn bản dưới dạng chữ nghiêng.\nC: Sai – <mark> dùng để đánh dấu văn bản.\nD: Sai – <u> dùng để gạch chân."
+      },
+      {
+        "id": 3,
+        "question": "Thẻ nào dùng để gạch chân văn bản trong HTML?",
+        "options": [
+          "A. <sup>",
+          "B. <i>",
+          "C. <u>",
+          "D. <b>"
+        ],
+        "correct": 2,
+        "explanation": "A: Đúng – <u> dùng để gạch chân văn bản.\nB: Sai – <b> dùng để in đậm.\nC: Sai – <i> dùng để in nghiêng.\nD: Sai – <sup> dùng để hiển thị chỉ số trên."
+      },
+      {
+        "id": 4,
+        "question": "Để thay đổi màu chữ trong HTML, ta thường sử dụng thuộc tính nào trong thẻ <font>?",
+        "options": [
+          "A. style",
+          "B. size",
+          "C. face",
+          "D. color"
+        ],
+        "correct": 3,
+        "explanation": "A: Sai – size thay đổi kích thước chữ.\nB: Đúng – color thay đổi màu chữ.\nC: Sai – face thay đổi kiểu phông chữ.\nD: Sai – style là thuộc tính tổng quát, không trực tiếp thay đổi màu trong <font>."
+      },
+      {
+        "id": 5,
+        "question": "Nếu muốn hiển thị chữ nhỏ hơn bình thường, ta dùng thẻ nào?",
+        "options": [
+          "A. <small>",
+          "B. <big>",
+          "C. <sub>",
+          "D. <sup>"
+        ],
+        "correct": 0,
+        "explanation": "A: Đúng – <small> hiển thị chữ nhỏ hơn bình thường.\nB: Sai – <big> hiển thị chữ lớn hơn.\nC: Sai – <sub> hiển thị chỉ số dưới.\nD: Sai – <sup> hiển thị chỉ số trên."
+      },
+      {
+        "id": 6,
+        "question": "Để hiển thị chỉ số dưới trong công thức hóa học (ví dụ H₂O), ta dùng thẻ nào?",
+        "options": [
+          "A. <i>",
+          "B. <small>",
+          "C. <sup>",
+          "D. <sub>"
+        ],
+        "correct": 3,
+        "explanation": "A: Sai – <sup> hiển thị chỉ số trên.\nB: Đúng – <sub> hiển thị chỉ số dưới.\nC: Sai – <small> hiển thị chữ nhỏ.\nD: Sai – <i> hiển thị chữ nghiêng."
+      },
+      {
+        "id": 7,
+        "question": "Thẻ nào dùng để hiển thị chỉ số trên trong HTML?",
+        "options": [
+          "A. <b>",
+          "B. <u>",
+          "C. <sup>",
+          "D. <sub>"
+        ],
+        "correct": 2,
+        "explanation": "A: Đúng – <sup> hiển thị chỉ số trên.\nB: Sai – <sub> hiển thị chỉ số dưới.\nC: Sai – <u> gạch chân văn bản.\nD: Sai – <b> in đậm văn bản."
+      },
+      {
+        "id": 8,
+        "question": "Khi muốn thay đổi kiểu phông chữ trong HTML, ta sử dụng thuộc tính nào của thẻ <font>?",
+        "options": [
+          "A. color",
+          "B. face",
+          "C. style",
+          "D. size"
+        ],
+        "correct": 1,
+        "explanation": "A: Sai – color thay đổi màu chữ.\nB: Đúng – face thay đổi kiểu phông chữ.\nC: Sai – size thay đổi kích thước chữ.\nD: Sai – style là thuộc tính tổng quát, không trực tiếp thay đổi phông trong <font>."
+      },
+      {
+        "id": 9,
+        "question": "Để nhấn mạnh văn bản theo chuẩn HTML5, ta nên dùng thẻ nào?",
+        "options": [
+          "A. <em>",
+          "B. <u>",
+          "C. <b>",
+          "D. <i>"
+        ],
+        "correct": 0,
+        "explanation": "A: Sai – <b> chỉ in đậm, không mang ý nghĩa ngữ nghĩa.\nB: Đúng – <em> nhấn mạnh văn bản, thường hiển thị nghiêng.\nC: Sai – <i> chỉ hiển thị nghiêng, không mang ý nghĩa nhấn mạnh.\nD: Sai – <u> gạch chân văn bản."
+      },
+      {
+        "id": 10,
+        "question": "Nếu muốn hiển thị văn bản được đánh dấu nổi bật (highlight), ta dùng thẻ nào?",
+        "options": [
+          "A. <b>",
+          "B. <i>",
+          "C. <mark>",
+          "D. <small>"
+        ],
+        "correct": 2,
+        "explanation": "A: Đúng – <mark> dùng để đánh dấu văn bản nổi bật.\nB: Sai – <b> in đậm văn bản.\nC: Sai – <i> in nghiêng văn bản.\nD: Sai – <small> hiển thị chữ nhỏ."
+      },
+      {
+        "id": 11,
+        "question": "Thẻ nào dùng để tạo một đoạn văn bản mới trong HTML?",
+        "options": [
+          "A. <br>",
+          "B. <span>",
+          "C. <p>",
+          "D. <div>"
+        ],
+        "correct": 2,
+        "explanation": "A: Sai – <div> dùng để tạo khối chứa dữ liệu.\nB: Sai – <span> dùng cho đoạn nhỏ, không xuống dòng.\nC: Đúng – <p> dùng để tạo đoạn văn bản mới.\nD: Sai – <br> chỉ xuống dòng, không tạo đoạn mới."
+      },
+      {
+        "id": 12,
+        "question": "Thẻ nào dùng để xuống dòng trong HTML mà không tạo đoạn mới?",
+        "options": [
+          "A. <span>",
+          "B. <p>",
+          "C. <div>",
+          "D. <br>"
+        ],
+        "correct": 3,
+        "explanation": "A: Sai – <p> tạo đoạn mới.\nB: Đúng – <br> dùng để xuống dòng.\nC: Sai – <div> tạo khối dữ liệu.\nD: Sai – <span> không xuống dòng."
+      },
+      {
+        "id": 13,
+        "question": "Để tạo một khối chứa nhiều phần tử HTML, ta nên dùng thẻ nào?",
+        "options": [
+          "A. <span>",
+          "B. <mark>",
+          "C. <p>",
+          "D. <div>"
+        ],
+        "correct": 3,
+        "explanation": "A: Sai – <span> dùng cho nội dung nhỏ.\nB: Đúng – <div> tạo khối chứa nhiều phần tử.\nC: Sai – <p> dùng cho đoạn văn bản.\nD: Sai – <mark> dùng để đánh dấu văn bản."
+      },
+      {
+        "id": 14,
+        "question": "Thẻ <span> thường được dùng khi nào?",
+        "options": [
+          "A. Khi cần tạo khối chứa nhiều phần tử.",
+          "B. Khi cần tạo đoạn văn bản mới.",
+          "C. Khi cần định dạng một phần nhỏ trong dòng.",
+          "D. Khi cần xuống dòng."
+        ],
+        "correct": 2,
+        "explanation": "A: Sai – dùng <p> để tạo đoạn mới.\nB: Sai – dùng <div> để tạo khối.\nC: Đúng – <span> dùng để định dạng phần nhỏ trong dòng.\nD: Sai – dùng <br> để xuống dòng."
+      },
+      {
+        "id": 15,
+        "question": "Để tạo đường kẻ ngang phân cách nội dung, ta dùng thẻ nào?",
+        "options": [
+          "A. <br>",
+          "B. <hr>",
+          "C. <p>",
+          "D. <u>"
+        ],
+        "correct": 1,
+        "explanation": "A: Đúng – <hr> tạo đường kẻ ngang.\nB: Sai – <br> chỉ xuống dòng.\nC: Sai – <p> tạo đoạn văn bản.\nD: Sai – <u> gạch chân văn bản."
+      },
+      {
+        "id": 16,
+        "question": "Trong HTML, thuộc tính nào dùng để thay đổi màu chữ?",
+        "options": [
+          "A. font-size",
+          "B. text-decoration",
+          "C. color",
+          "D. font-family"
+        ],
+        "correct": 2,
+        "explanation": "A: Sai – font-family thay đổi kiểu phông.\nB: Sai – font-size thay đổi kích thước chữ.\nC: Đúng – color thay đổi màu chữ.\nD: Sai – text-decoration dùng để gạch chân, gạch ngang,..."
+      },
+      {
+        "id": 17,
+        "question": "Để thay đổi kiểu phông chữ trong HTML, ta dùng thuộc tính nào?",
+        "options": [
+          "A. font-family",
+          "B. font-style",
+          "C. color",
+          "D. font-size"
+        ],
+        "correct": 0,
+        "explanation": "A: Sai – font-style dùng cho kiểu như nghiêng, đậm.\nB: Đúng – font-family thay đổi kiểu phông chữ.\nC: Sai – font-size thay đổi kích thước.\nD: Sai – color thay đổi màu chữ."
+      },
+      {
+        "id": 18,
+        "question": "Đơn vị nào sau đây thường dùng để xác định kích thước chữ trong HTML?",
+        "options": [
+          "A. cm²",
+          "B. kg",
+          "C. s",
+          "D. px"
+        ],
+        "correct": 3,
+        "explanation": "A: Sai – kg là đơn vị khối lượng.\nB: Đúng – px là đơn vị pixel, dùng trong HTML.\nC: Sai – s là đơn vị thời gian.\nD: Sai – cm² là đơn vị diện tích."
+      },
+      {
+        "id": 19,
+        "question": "Thẻ nào dùng để hiển thị văn bản bị gạch ngang (xóa)?",
+        "options": [
+          "A. <strike>",
+          "B. <u>",
+          "C. <del>",
+          "D. <mark>"
+        ],
+        "correct": 2,
+        "explanation": "A: Đúng – <del> dùng để gạch ngang văn bản.\nB: Sai – <u> dùng để gạch chân.\nC: Sai – <strike> không còn được khuyến khích dùng trong HTML5.\nD: Sai – <mark> dùng để đánh dấu."
+      },
+      {
+        "id": 20,
+        "question": "Để nhấn mạnh nội dung văn bản theo ngữ nghĩa, ta nên dùng thẻ nào?",
+        "options": [
+          "A. <u>",
+          "B. <strong>",
+          "C. <b>",
+          "D. <i>"
+        ],
+        "correct": 1,
+        "explanation": "A: Sai – <b> chỉ in đậm, không mang ý nghĩa ngữ nghĩa.\nB: Đúng – <strong> nhấn mạnh nội dung theo ngữ nghĩa.\nC: Sai – <i> hiển thị nghiêng, không mang ngữ nghĩa.\nD: Sai – <u> gạch chân, không mang ngữ nghĩa."
+      },
+      {
+        "id": 21,
+        "question": "Trong HTML, để hiển thị chỉ số trên trong công thức toán học, ta dùng thẻ nào?",
+        "options": [
+          "A. <small>",
+          "B. <sub>",
+          "C. <sup>",
+          "D. <strong>"
+        ],
+        "correct": 2,
+        "explanation": "A: Sai – <sub> hiển thị chỉ số dưới.\nB: Đúng – <sup> hiển thị chỉ số trên.\nC: Sai – <small> hiển thị chữ nhỏ.\nD: Sai – <strong> in đậm văn bản."
+      },
+      {
+        "id": 22,
+        "question": "Thẻ nào sau đây KHÔNG dùng để định dạng kiểu chữ trong HTML?",
+        "options": [
+          "A. <strong>",
+          "B. <div>",
+          "C. <em>",
+          "D. <mark>"
+        ],
+        "correct": 1,
+        "explanation": "A: Sai – <em> dùng để in nghiêng.\nB: Sai – <strong> dùng để in đậm.\nC: Đúng – <div> dùng để tạo khối, không định dạng kiểu chữ.\nD: Sai – <mark> dùng để đánh dấu."
+      },
+      {
+        "id": 23,
+        "question": "Để định dạng chữ màu đỏ, kiểu Tahoma, cỡ 15px, ta dùng cú pháp nào?",
+        "options": [
+          "A. <p style=\"text:red;font:Tahoma;size:15px\">",
+          "B. <p style=\"font-style:red;font-type:Tahoma;font-size:15px\">",
+          "C. <p style=\"color:red;font-family:Tahoma;font-size:15px\">",
+          "D. <p style=\"font:red;Tahoma;15px\">"
+        ],
+        "correct": 2,
+        "explanation": "A: Đúng – cú pháp đúng để định dạng màu, kiểu và cỡ chữ.\nB: Sai – cú pháp sai, không đúng thuộc tính.\nC: Sai – không có thuộc tính text và font.\nD: Sai – font-style không dùng để định màu."
+      },
+      {
+        "id": 24,
+        "question": "Trong HTML, màu sắc có thể được định nghĩa bằng cách nào?",
+        "options": [
+          "A. Mã HEX hoặc đơn vị px",
+          "B. Tên tiếng Việt hoặc mã HEX",
+          "C. Tên tiếng Anh hoặc mã RGB",
+          "D. Mã RGB hoặc đơn vị mm"
+        ],
+        "correct": 2,
+        "explanation": "A: Đúng – HTML hỗ trợ tên màu tiếng Anh và mã RGB.\nB: Sai – không hỗ trợ tên màu tiếng Việt.\nC: Sai – mã HEX đúng, nhưng px không phải màu.\nD: Sai – mm là đơn vị độ dài, không phải màu."
+      },
+      {
+        "id": 25,
+        "question": "Thẻ <h1> đến <h6> dùng để làm gì?",
+        "options": [
+          "A. Tạo danh sách",
+          "B. Tạo bảng dữ liệu",
+          "C. Tạo đoạn văn bản",
+          "D. Tạo tiêu đề với mức độ quan trọng giảm dần"
+        ],
+        "correct": 3,
+        "explanation": "A: Sai – dùng <p> để tạo đoạn.\nB: Đúng – <h1> đến <h6> tạo tiêu đề từ lớn đến nhỏ.\nC: Sai – dùng <ul> hoặc <ol> để tạo danh sách.\nD: Sai – dùng <table> để tạo bảng."
+      },
+      {
+        "id": 26,
+        "question": "Trong HTML, thẻ nào dùng để tạo danh sách không thứ tự?",
+        "options": [
+          "A. <ul>",
+          "B. <li>",
+          "C. <dl>",
+          "D. <ol>"
+        ],
+        "correct": 0,
+        "explanation": "A: Sai – <ol> dùng để tạo danh sách có thứ tự (ordered list).\nB: Đúng – <ul> dùng để tạo danh sách không thứ tự (unordered list).\nC: Sai – <li> là phần tử con trong danh sách, không phải thẻ tạo danh sách.\nD: Sai – <dl> dùng để tạo danh sách định nghĩa (definition list), không phải danh sách không thứ tự."
+      }
+    ]
+  },
+  {
+    "id": "olm-review-unit-1-2-3-tieng-anh-12-on-kgki-44923877",
+    "lessonId": "44923877",
+    "title": "OLM: REVIEW UNIT 1,2,3- TIẾNG ANH 12 (ÔN KGKI)",
+    "subject": "Tiếng Anh",
+    "grade": "Lớp 12",
+    "durationMinutes": 50,
+    "difficulty": "Luyện tập OLM",
+    "source": "OLM",
+    "teacher": null,
+    "deadline": null,
+    "tags": [
+      "OLM",
+      "Tiếng Anh",
+      "Lớp 12",
+      "Trắc nghiệm OLM"
+    ],
+    "description": "Bài tập trực tuyến OLM: REVIEW UNIT 1,2,3- TIẾNG ANH 12 (ÔN KGKI). Môn Tiếng Anh - Lớp 12. Tổng số 32 câu hỏi có đáp án và lời giải chi tiết.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Chọn phương án đúng cho câu 1:",
+        "options": [
+          "A. are performing",
+          "B. performed",
+          "C. had performed",
+          "D. were performing"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "question": "Chọn phương án đúng cho câu 2:",
+        "options": [
+          "A. impression",
+          "B. impressively",
+          "C. impress",
+          "D. impressive"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "question": "Chọn phương án đúng cho câu 3:",
+        "options": [
+          "A. at",
+          "B. about",
+          "C. with",
+          "D. for"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "question": "Chọn phương án đúng cho câu 4:",
+        "options": [
+          "A. a",
+          "B. the",
+          "C. an",
+          "D. Ø (no article)"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "question": "Chọn phương án đúng cho câu 5:",
+        "options": [
+          "A. take",
+          "B. have",
+          "C. do",
+          "D. make"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "question": "Chọn phương án đúng cho câu 6:",
+        "options": [
+          "A. permission",
+          "B. ambition",
+          "C. authority",
+          "D. awareness"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 7 to 12.GO GREEN – MAKE A DIFFERENCE!Small Changes, Big Results!Want to live a greener life? Follow these simple tips to protect our planet! Save Water and Energy: Use less water and turn off unnecessary lights. Try to use (7) ______ electricity whenever possible. Reduce Plastic Waste: Bring reusable bags and bottles. Avoid plastic products (8) ______ are harmful to the environment. Recycle More: Collect paper, glass, and plastic. You can also (9) ______ old clothes and books to people in need instead of throwing them away. Protect Green Spaces: Plant trees and join community clean-up activities. These actions help raise public (10) ______ of environmental problems. Choose Eco-friendly Products: Buy products made from recycled materials. They are often more (11) ______ than disposable alternatives.(12) ______, remember that every small action counts. Together, we can build a cleaner and healthier world!JOIN THE GREEN LIVING MOVEMENT TODAY!</div>",
+        "options": [
+          "A. several",
+          "B. many",
+          "C. a few",
+          "D. a little"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "question": "Chọn phương án đúng cho câu 8:",
+        "options": [
+          "A. who",
+          "B. why",
+          "C. whom",
+          "D. which"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "question": "Chọn phương án đúng cho câu 9:",
+        "options": [
+          "A. give away",
+          "B. look after",
+          "C. throw away",
+          "D. turn down"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "question": "Chọn phương án đúng cho câu 10:",
+        "options": [
+          "A. awareness",
+          "B. permission",
+          "C. ambition",
+          "D. confidence"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "question": "Chọn phương án đúng cho câu 11:",
+        "options": [
+          "A. sustainable",
+          "B. temporary",
+          "C. harmful",
+          "D. careless"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "question": "Chọn phương án đúng cho câu 12:",
+        "options": [
+          "A. Moreover",
+          "B. However",
+          "C. Therefore",
+          "D. For example"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">Mark the letter A, B, C, or D on your answer sheet to indicate the correct arrangement of the sentences to make a meaningful paragraph/ letter in each of the following questions.</div>a. Peter: I’ve just finished reading about Nick Vujicic.\nb. Linda: Really? What do you think of him?\nc. Peter: He’s amazing! His story encourages me to be strong.",
+        "options": [
+          "A. b-c-a",
+          "B. a-c-b",
+          "C. c-b-a",
+          "D. a-b-c"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "question": "a. David: Hmm. I think that will be difficult to do.\nc. David: Well, what if the buses are too crowded or someone lives far away? It won’t be convenient for everyone.\nd. David: Do you have any ideas for our presentation about reducing air pollution?\ne. Sophia: Why do you think so?",
+        "options": [
+          "A. d - e - a - b - c",
+          "B. c - e - d - b - a",
+          "C. d - b - a - e - c",
+          "D. c - b - a - e - d"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">b. Sophia: Yeah. I think we should encourage students to take public transport instead of driving to school. If more people use buses or trains, we’ll have less pollution.</div>a. Finally, these festivals inspire creativity and innovation as they observe various artistic expressions and performances.\nb. Firstly, they broaden their horizons by exposing them to diverse cultures, traditions, and languages.\nd. World festivals have significant impacts on Vietnamese young teenagers.\ne. Teenagers learn to appreciate and respect different ways of life.\nf. Secondly, festivals cultivate a sense of curiosity and openness towards the world beyond their immediate surroundings.",
+        "options": [
+          "A. d – b – f – c – e – a",
+          "B. d – b – f – e – a – c",
+          "C. c – b – f – e – d – a",
+          "D. d – e – b – f – a – c"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">c. Overall, participating in world festivals enriches the lives of Vietnamese teenagers, fostering global awareness and understanding in an increasingly interconnected world.</div>a. She joined the Viet Minh and became a guerrilla fighter at a very young age.\nb. Take care, and I look forward to catching up soon! Warm regards, Thanh\nc. Unfortunately, she was apprehended by the French authorities and executed by firing squad when she was only 19 years old.\ne. Dear Ann,\nI hope this letter finds you well. I recently had the opportunity to visit Vo Thi Sau's grave in Con Dao, Vietnam.\nf. Vo Thi Sau was a remarkable Vietnamese schoolgirl who became involved in revolutionary activities.",
+        "options": [
+          "A. e – d – c – a – f – b",
+          "B. e – f – a – c – d – b",
+          "C. b – f – c – e – a – d",
+          "D. d – f – b – a – c – e"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">d. Her grave, located in Hang Duong Cemetery, stands as a symbol of her courage and the revolutionary spirit. It's a place of great historical significance, and I felt honored to pay my respects there.</div>a. These events provide opportunities for socializing, experiencing new cultures, and enjoying festive atmospheres, which appeal to the younger generation.\nb. However, some argue that this trend might overshadow traditional Vietnamese festivals, leading to a loss of cultural identity.\ne. Moreover, the influence of globalization and social media has made these celebrations more accessible and popular.",
+        "options": [
+          "A. c - a - e - b - d",
+          "B. a - c - b - e - d",
+          "C. a - e - c - d - bRead the passage and mark the letter A, B, C or D on your answer sheet to indicate the best answer to each of the following questions from 18 to 27.GREEN LIVING: MORE THAN A PERSONAL CHOICEGreen living has become increasingly important as the world faces environmental challenges such as climate change, air pollution, and the depletion of natural resources. Although some people believe that protecting the environment requires major technological advances, everyday choices can also contribute to meaningful change. By adjusting their habits, individuals can reduce their environmental footprint and encourage others to adopt more responsible lifestyles.One practical way to live sustainably is to reconsider how we consume energy and goods. Using energy-efficient appliances, walking or cycling for short journeys, and choosing reusable products can help reduce waste and carbon emissions. Moreover, buying locally produced food may reduce the environmental costs associated with long-distance transportation. However, consumers should look beyond attractive labels and examine how products are manufactured, packaged, and disposed of. A product advertised as environmentally friendly is not necessarily sustainable throughout its entire life cycle.Nevertheless, individual efforts alone cannot solve every environmental problem. Even when households make considerable changes, their progress may be undermined by industries that continue to produce excessive waste or governments that fail to enforce environmental regulations. Businesses must invest in cleaner production methods, while authorities should improve public transport and provide reliable recycling facilities. These measures make sustainable choices more accessible to the wider population rather than leaving environmental responsibility entirely to individuals.Ultimately, green living requires cooperation between citizens, businesses, and governments. Small actions may appear negligible when considered separately, but their combined impact can be substantial. More importantly, sustainable habits can influence social attitudes and create pressure for broader environmental reforms. A greener future therefore depends not only on what individuals choose to do today but also on their willingness to support long-term changes in their communities.",
+          "D. c - e - a - d - b"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">d. In conclusion, I firmly believe that while participating in international festivals offers valuable experiences, young people in Vietnam should strive to strike a balance by also preserving and honoring their own cultural heritage.</div>What is the passage mainly about?",
+        "options": [
+          "A. The negative effects of modern technology on people's lifestyles.",
+          "B. The economic advantages of purchasing locally produced food.",
+          "C. The importance of individual actions and collective efforts in promoting green living.",
+          "D. The reasons governments should take full responsibility for environmental protection."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "question": "The word “their” in paragraph 3 refers to ______.",
+        "options": [
+          "A. businesses'",
+          "B. governments'",
+          "C. households'",
+          "D. industries'"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "question": "The word “undermined” in paragraph 3 is closest in meaning to ______.",
+        "options": [
+          "A. publicized",
+          "B. strengthened",
+          "C. maintained",
+          "D. weakened"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "question": "Which of the following best paraphrases the bold sentence in paragraph 2?",
+        "options": [
+          "A. Consumers should avoid all products that require packaging or transportation.",
+          "B. Manufacturers can ensure sustainability simply by advertising their products as environmentally friendly.",
+          "C. A product's environmental claims do not guarantee that it remains sustainable at every stage of its life cycle.",
+          "D. Products with environmental labels are always sustainable from production to disposal."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "question": "The word “negligible” in paragraph 4 is OPPOSITE in meaning to ______.",
+        "options": [
+          "A. limited",
+          "B. substantial",
+          "C. minimal",
+          "D. insignificant"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "question": "According to the passage, which of the following is NOT mentioned as a way to promote green living?",
+        "options": [
+          "A. Improving public transport and recycling facilities.",
+          "B. Introducing financial penalties for households that use too much electricity.",
+          "C. Using energy-efficient household appliances.",
+          "D. Investing in cleaner production methods."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "question": "Which of the following is TRUE according to the passage?",
+        "options": [
+          "A. Environmental protection depends mainly on consumers avoiding packaged products.",
+          "B. Buying locally produced food always has no environmental costs.",
+          "C. Cooperation among citizens, businesses, and governments is necessary for lasting environmental progress.",
+          "D. Individual actions are sufficient to solve all environmental problems."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "question": "According to paragraph 2, why should consumers examine how products are manufactured, packaged, and disposed of?",
+        "options": [
+          "A. To assess whether products are sustainable throughout their life cycle.",
+          "B. To reduce the need for public transport and recycling facilities.",
+          "C. To encourage manufacturers to use more attractive environmental labels.",
+          "D. To ensure that locally produced goods are always cheaper."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "question": "In which paragraph does the writer discuss the limitations of relying solely on individual efforts and the responsibilities of businesses and governments?",
+        "options": [
+          "A. Paragraph 4",
+          "B. Paragraph 2",
+          "C. Paragraph 1",
+          "D. Paragraph 3"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "question": "In which paragraph does the writer explain that combined small actions can lead to a much greater impact and encourage wider environmental reforms?",
+        "options": [
+          "A. Paragraph 2",
+          "B. Paragraph 1",
+          "C. Paragraph 4",
+          "D. Paragraph 3"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">Mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 28 to 32.General Vo Nguyen Giap (28) ______ on August 25, 1911, in An Xa village, QuangBinh Province. His father was a poor mandarin who passed away in French custody due to his political activities. At the age of 14, Giap enrolled in the prestigious Quoc Hoc School in Hue, where he began his political activism by participating in protests against French colonial rule and (29) ______. This led to his expulsion, after which he continued his studies in Hanoi and later taught history.In 1939, facing increasing persecution from French authorities, Giap fled to China, where he joined Ho Chi Minh and received military training. In May 1941, he co-founded the Viet Minh, a coalition seeking Vietnamese independence. Upon Japan's surrender in 1945, Giap served as Minister of the Interior in the newly established Democratic Republic of Vietnam. He played a crucial role in negotiating with French representatives. (30) ______. The agreement aimed to resolve conflicts between Vietnam and France through diplomatic means.Throughout the subsequent decades, General Giap led the Vietnamese military in both the First Indochina War against French forces and the Vietnam War against the United States and South Vietnam. (31) ______. His strategic leadership contributed significantly to the victory at the Battle of Dien Bien Phu in 1954, which marked a turning point in the struggle for Vietnamese independence.After Vietnam's reunification in 1975, General Giap continued to influence the country's defence and development policies. He passed away on October 4, 2013, at the age of 102. General Giap, (32) ______, left a lasting legacy in Vietnam's history.(Adapted from wikipedia.org)</div>",
+        "options": [
+          "A. whose family had a strong nationalist tradition",
+          "B. to come from a family with a strong nationalist tradition",
+          "C. coming from a family with a strong nationalist tradition",
+          "D. came from a family with a strong nationalist tradition"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 29,
+        "question": "Chọn phương án đúng cho câu 29:",
+        "options": [
+          "A. to join the Tan Viet Revolutionary Party",
+          "B. having joined the Tan Viet Revolutionary Party",
+          "C. joining the Tan Viet Revolutionary Party",
+          "D. joined the Tan Viet Revolutionary Party"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 30,
+        "question": "Chọn phương án đúng cho câu 30:",
+        "options": [
+          "A. In contrast, he refused to cooperate with the representatives of the French government.",
+          "B. However, his diplomatic efforts failed to produce any agreement with the French.",
+          "C. For example, he abandoned negotiations and focused entirely on military action.",
+          "D. Moreover, his diplomatic skills helped him reach an agreement with the French representatives."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 31,
+        "question": "Chọn phương án đúng cho câu 31:",
+        "options": [
+          "A. Despite his significant contribution to the country's military victories.",
+          "B. Because his strategies were highly effective against the opposing forces.",
+          "C. His achievements on the battlefield demonstrated his exceptional military talent.",
+          "D. Although he was widely recognised for his military leadership."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 32,
+        "question": "Chọn phương án đúng cho câu 32:",
+        "options": [
+          "A. whose military achievements inspired generations of Vietnamese people",
+          "B. who was one of the most influential military leaders in Vietnamese history",
+          "C. whom his military achievements inspired generations of Vietnamese people",
+          "D. which made him one of the most influential military leaders in Vietnamese history"
+        ],
+        "correct": 1,
+        "explanation": ""
+      }
+    ]
   }
 ]
