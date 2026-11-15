@@ -92,6 +92,18 @@ def normalize_subject(name: Optional[str]) -> str:
     return clean.title()
 
 
+def normalize_grade(val: Any) -> str:
+    """Ensure grade is always formatted as a string, e.g. 'Lớp 12'."""
+    if not val:
+        return "Lớp 12"
+    s = str(val).strip()
+    if s.isdigit():
+        return f"Lớp {s}"
+    if not s.lower().startswith("lớp") and not s.lower().startswith("khối"):
+        return f"Lớp {s}"
+    return s
+
+
 def parse_cookie_string(raw: str) -> Dict[str, str]:
     """Parse cookie string or JSON string into cookie dictionary."""
     cookies = {}
@@ -126,81 +138,144 @@ def parse_cookie_string(raw: str) -> Dict[str, str]:
 def get_authenticated_session() -> requests.Session:
     """Initialize a requests Session with OLM authentication cookies and browser headers."""
     session = requests.Session()
-    cookie_val = (os.environ.get("OLM_COOKIES") or os.environ.get("OLM_SESSION") or "").strip()
-    # Strip any enclosing quotes
-    if (cookie_val.startswith("'") and cookie_val.endswith("'")) or (cookie_val.startswith('"') and cookie_val.endswith('"')):
-        cookie_val = cookie_val[1:-1].strip()
-
     session.headers.update({
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
         "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
         "Referer": "https://olm.vn/lop-hoc-cua-toi",
-        "X-Requested-With": "XMLHttpRequest",
     })
-    if cookie_val:
-        session.headers["Cookie"] = cookie_val
-        cookies = parse_cookie_string(cookie_val)
-        for k, v in cookies.items():
-            session.cookies.set(k, v, domain=".olm.vn")
-            session.cookies.set(k, v, domain="olm.vn")
+
+    cookie_val = os.environ.get("OLM_COOKIES") or os.environ.get("OLM_SESSION") or ""
+    cookies = parse_cookie_string(cookie_val)
+    for k, v in cookies.items():
+        session.cookies.set(k, v, domain=".olm.vn")
+        session.cookies.set(k, v, domain="olm.vn")
 
     return session
 
 
 def fetch_assigned_lessons_from_olm(session: requests.Session) -> List[Dict[str, Any]]:
     """
-    Fetch assigned lessons/exams from OLM via student courseware API.
+    Scrape assigned lessons/exams from https://olm.vn/lop-hoc-cua-toi.
+    Returns list of lesson metadata dicts:
+    [{ 'id': '12345', 'title': '...', 'subject': '...', 'teacher': '...', 'deadline': '...' }]
     """
-    api_url = "https://olm.vn/classes/courseware/list-courseware-of-student"
-    print(f"[*] Querying OLM Student Courseware API: {api_url}...")
+    url = "https://olm.vn/lop-hoc-cua-toi"
+    print(f"[*] Fetching assigned lessons from {url}...")
+    try:
+        resp = session.get(url, timeout=25, allow_redirects=True)
+    except Exception as e:
+        print(f"[!] Error connecting to OLM: {e}")
+        return []
+
+    # Check if redirected to login page
+    if "/dangnhap" in resp.url or "redirect=https%3A%2F%2Folm.vn%2Flop-hoc-cua-toi" in resp.url:
+        print("[!] Warning: Redirected to login page. OLM session cookie might be expired or missing.")
+        print("[!] Please check environment variable OLM_COOKIES or OLM_SESSION.")
+        return []
+
+    if resp.status_code != 200:
+        print(f"[!] Warning: HTTP {resp.status_code} received from {url}")
+        return []
+
+    html = resp.text
     lessons = []
     seen_ids = set()
 
-    api_headers = {
-        "Accept": "application/json, text/javascript, */*; q=0.01",
-        "X-Requested-With": "XMLHttpRequest",
-        "Referer": "https://olm.vn/lop-hoc-cua-toi"
-    }
+    # Excluded common non-lesson IDs
+    excluded_ids = {"1", "2", "3", "4", "5", "10", "20", "50", "100"}
 
-    try:
-        resp = session.get(api_url, headers=api_headers, timeout=25)
-        print(f"[*] OLM API Response status: {resp.status_code}")
-        if resp.status_code != 200:
-            print(f"[!] OLM API returned non-200: {resp.text[:250]}")
-        if resp.status_code == 200:
-            data = resp.json()
-            raw_list = data.get("list", [])
-            for item in raw_list:
-                id_skill = str(item.get("id_skill") or item.get("id_cate") or item.get("_id") or "").strip()
-                if not id_skill or id_skill in seen_ids:
-                    continue
-                seen_ids.add(id_skill)
-                title = item.get("title") or f"Bài tập #{id_skill}"
-                options = item.get("options") or {}
-                timedo = options.get("timedo")
-                try:
-                    duration = int(timedo) if timedo and int(timedo) > 0 else 45
-                except (ValueError, TypeError):
-                    duration = 45
+    # Pattern 1: Links to lessons/exercises
+    # e.g., /chu-de/bai-tap-12345 or /bai-tap/ten-bai-67890 or ?id_cate=12345
+    link_regex = re.compile(
+        r'/(?:chu-de|bai-tap|hoc-lieu|luyen-tap|de-thi|kiem-tra|lam-bai|bai-hoc)/([a-zA-Z0-9_-]+?)-(\d{4,12})(?:[/?#"\'\s]|$)',
+        re.IGNORECASE
+    )
+    for match in link_regex.finditer(html):
+        slug_part = match.group(1).replace("-", " ").strip()
+        lesson_id = match.group(2).strip()
+        if lesson_id in seen_ids or lesson_id in excluded_ids:
+            continue
+        seen_ids.add(lesson_id)
+        lessons.append({
+            "lessonId": lesson_id,
+            "title": slug_part.title(),
+            "subject": "",
+            "teacher": None,
+            "deadline": None
+        })
 
-                lessons.append({
-                    "lessonId": id_skill,
-                    "title": title.strip(),
-                    "subject": "",
-                    "teacher": None,
-                    "duration": duration,
-                    "deadline": item.get("expired")
-                })
-            print(f"[+] Found {len(lessons)} assigned exam(s) from OLM Student API.")
-            if lessons:
-                return lessons
-    except Exception as e:
-        st_code = getattr(resp, "status_code", None)
-        print(f"[!] OLM API notice: status={st_code}, error={e}")
+    # Pattern 2: Category ID parameters: id_cate=12345 or cate_id=12345
+    param_regex = re.compile(
+        r'[?&](?:id_cate|cate_id|id_hoclieu|id_hoc_lieu|id_bai|id_de|lesson_id|exam_id)=(\d{4,12})',
+        re.IGNORECASE
+    )
+    for match in param_regex.finditer(html):
+        lesson_id = match.group(1).strip()
+        if lesson_id in seen_ids or lesson_id in excluded_ids:
+            continue
+        seen_ids.add(lesson_id)
+        lessons.append({
+            "lessonId": lesson_id,
+            "title": f"Bài tập #{lesson_id}",
+            "subject": "",
+            "teacher": None,
+            "deadline": None
+        })
 
+    # Pattern 3: JSON data embedded in script tags
+    json_regex = re.compile(
+        r'["\']?(?:id_cate|cate_id|id_hoclieu|hoclieu_id|id_de|exam_id|lesson_id)["\']?\s*[:=]\s*["\']?(\d{4,12})["\']?',
+        re.IGNORECASE
+    )
+    for match in json_regex.finditer(html):
+        lesson_id = match.group(1).strip()
+        if lesson_id not in seen_ids and lesson_id not in excluded_ids:
+            seen_ids.add(lesson_id)
+            lessons.append({
+                "lessonId": lesson_id,
+                "title": f"Bài học #{lesson_id}",
+                "subject": "",
+                "teacher": None,
+                "deadline": None
+            })
+
+    # Pattern 4: Extract card metadata (Teacher, Deadline, Subject, Title) from HTML chunks
+    card_blocks = re.findall(
+        r'(<div[^>]*class=["\'][^"\']*(?:card|item|assignment|bai-tap)[^"\']*["\'][^>]*>.*?</div>(?:\s*</div>)*)',
+        html,
+        re.DOTALL | re.IGNORECASE
+    )
+    for block in card_blocks:
+        id_m = link_regex.search(block) or param_regex.search(block) or json_regex.search(block)
+        if not id_m:
+            continue
+        lesson_id = (id_m.group(2) if id_m.lastindex >= 2 else id_m.group(1)).strip()
+
+        # Teacher
+        t_m = re.search(r'Giáo viên(?:\s*chủ nhiệm)?:\s*<[^>]+>([^<]+)<|Giáo viên:\s*([^\n<]+)', block, re.IGNORECASE)
+        teacher = (t_m.group(1) or t_m.group(2)).strip() if t_m else None
+
+        # Deadline
+        d_m = re.search(r'Hạn nộp:\s*<[^>]+>([^<]+)<|Hạn nộp:\s*([^\n<]+)', block, re.IGNORECASE)
+        deadline = (d_m.group(1) or d_m.group(2)).strip() if d_m else None
+
+        # Subject
+        sub_m = re.search(r'\b(Toán|Vật lí|Vật lý|Hóa học|Sinh học|Tin học|Tiếng Anh|Ngữ văn|Lịch sử|Địa lí|GDCD|Công nghệ)\b', block, re.IGNORECASE)
+        subject = sub_m.group(1).strip() if sub_m else ""
+
+        # Update existing lesson record
+        for item in lessons:
+            if item["lessonId"] == lesson_id:
+                if teacher:
+                    item["teacher"] = teacher
+                if deadline:
+                    item["deadline"] = deadline
+                if subject and not item["subject"]:
+                    item["subject"] = subject
+
+    print(f"[+] Found {len(lessons)} assigned lesson/exam candidate(s) on OLM.")
     return lessons
-
 
 
 def download_word_docx(session: requests.Session, lesson_id: str) -> Optional[bytes]:
@@ -454,12 +529,14 @@ def parse_docx_to_eduvault_exam(
     # Calculate reasonable duration
     duration = max(15, min(90, round(len(questions) * 1.5 / 5) * 5))
 
+    final_grade = normalize_grade(meta.get("grade") or grade)
+
     exam_obj = {
         "id": exam_id,
         "lessonId": str(final_lesson_id),
         "title": f"OLM: {final_title}" if not final_title.upper().startswith("OLM") else final_title,
         "subject": final_subject,
-        "grade": grade,
+        "grade": final_grade,
         "durationMinutes": duration,
         "difficulty": "Luyện tập OLM",
         "source": "OLM",
@@ -468,10 +545,10 @@ def parse_docx_to_eduvault_exam(
         "tags": [
             "OLM",
             final_subject,
-            grade,
+            final_grade,
             "Trắc nghiệm OLM"
         ],
-        "description": f"Bài tập trực tuyến OLM: {final_title}. Môn {final_subject} - {grade}. Tổng số {len(questions)} câu hỏi có đáp án và lời giải chi tiết.",
+        "description": f"Bài tập trực tuyến OLM: {final_title}. Môn {final_subject} - {final_grade}. Tổng số {len(questions)} câu hỏi có đáp án và lời giải chi tiết.",
         "questions": questions
     }
 
@@ -521,6 +598,7 @@ def merge_new_exams(
     updated_count = 0
 
     for new_ex in new_exams:
+        new_ex["grade"] = normalize_grade(new_ex.get("grade"))
         new_id = new_ex.get("id")
         new_lesson_id = new_ex.get("lessonId")
         new_title = slugify(new_ex.get("title", ""))
