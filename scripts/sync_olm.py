@@ -196,7 +196,8 @@ def fetch_assigned_lessons_from_olm(session: requests.Session) -> List[Dict[str,
             if lessons:
                 return lessons
     except Exception as e:
-        print(f"[!] OLM API notice: status={getattr(resp, \'status_code\', None)}, error={e}")
+        st_code = getattr(resp, "status_code", None)
+        print(f"[!] OLM API notice: status={st_code}, error={e}")
 
     return lessons
 
