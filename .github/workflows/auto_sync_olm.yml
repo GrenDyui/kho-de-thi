@@ -34,7 +34,7 @@ jobs:
           OLM_COOKIES: ${{ secrets.OLM_COOKIES }}
           OLM_SESSION: ${{ secrets.OLM_SESSION }}
         run: |
-          python scripts/sync_olm.py --auto-discover --max-lessons 20
+          python scripts/sync_olm.py
 
       - name: Commit and push changes if any
         run: |
