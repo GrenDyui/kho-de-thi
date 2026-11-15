@@ -2386,7 +2386,9 @@
           "D. <u>"
         ],
         "correct": 0,
-        "explanation": "A: Sai – <i> dùng để in nghiêng.\nB: Đúng – <b> dùng để in đậm văn bản.\nC: Sai – <u> dùng để gạch chân.\nD: Sai – <em> nhấn mạnh văn bản, thường hiển thị nghiêng."
+        "explanation": "A: Sai – <i> dùng để in nghiêng.\nB: Đúng – <b> dùng để in đậm văn bản.\nC: Sai – <u> dùng để gạch chân.\nD: Sai – <em> nhấn mạnh văn bản, thường hiển thị nghiêng.",
+        "type": null,
+        "items": []
       },
       {
         "id": 2,
@@ -2398,7 +2400,9 @@
           "D. <mark>"
         ],
         "correct": 2,
-        "explanation": "A: Sai – <strong> dùng để nhấn mạnh, thường hiển thị đậm.\nB: Đúng – <i> hiển thị văn bản dưới dạng chữ nghiêng.\nC: Sai – <mark> dùng để đánh dấu văn bản.\nD: Sai – <u> dùng để gạch chân."
+        "explanation": "A: Sai – <strong> dùng để nhấn mạnh, thường hiển thị đậm.\nB: Đúng – <i> hiển thị văn bản dưới dạng chữ nghiêng.\nC: Sai – <mark> dùng để đánh dấu văn bản.\nD: Sai – <u> dùng để gạch chân.",
+        "type": null,
+        "items": []
       },
       {
         "id": 3,
@@ -2410,7 +2414,9 @@
           "D. <b>"
         ],
         "correct": 1,
-        "explanation": "A: Đúng – <u> dùng để gạch chân văn bản.\nB: Sai – <b> dùng để in đậm.\nC: Sai – <i> dùng để in nghiêng.\nD: Sai – <sup> dùng để hiển thị chỉ số trên."
+        "explanation": "A: Đúng – <u> dùng để gạch chân văn bản.\nB: Sai – <b> dùng để in đậm.\nC: Sai – <i> dùng để in nghiêng.\nD: Sai – <sup> dùng để hiển thị chỉ số trên.",
+        "type": null,
+        "items": []
       },
       {
         "id": 4,
@@ -2422,7 +2428,9 @@
           "D. color"
         ],
         "correct": 3,
-        "explanation": "A: Sai – size thay đổi kích thước chữ.\nB: Đúng – color thay đổi màu chữ.\nC: Sai – face thay đổi kiểu phông chữ.\nD: Sai – style là thuộc tính tổng quát, không trực tiếp thay đổi màu trong <font>."
+        "explanation": "A: Sai – size thay đổi kích thước chữ.\nB: Đúng – color thay đổi màu chữ.\nC: Sai – face thay đổi kiểu phông chữ.\nD: Sai – style là thuộc tính tổng quát, không trực tiếp thay đổi màu trong <font>.",
+        "type": null,
+        "items": []
       },
       {
         "id": 5,
@@ -2434,7 +2442,9 @@
           "D. <sup>"
         ],
         "correct": 2,
-        "explanation": "A: Đúng – <small> hiển thị chữ nhỏ hơn bình thường.\nB: Sai – <big> hiển thị chữ lớn hơn.\nC: Sai – <sub> hiển thị chỉ số dưới.\nD: Sai – <sup> hiển thị chỉ số trên."
+        "explanation": "A: Đúng – <small> hiển thị chữ nhỏ hơn bình thường.\nB: Sai – <big> hiển thị chữ lớn hơn.\nC: Sai – <sub> hiển thị chỉ số dưới.\nD: Sai – <sup> hiển thị chỉ số trên.",
+        "type": null,
+        "items": []
       },
       {
         "id": 6,
@@ -2446,7 +2456,9 @@
           "D. <sub>"
         ],
         "correct": 3,
-        "explanation": "A: Sai – <sup> hiển thị chỉ số trên.\nB: Đúng – <sub> hiển thị chỉ số dưới.\nC: Sai – <small> hiển thị chữ nhỏ.\nD: Sai – <i> hiển thị chữ nghiêng."
+        "explanation": "A: Sai – <sup> hiển thị chỉ số trên.\nB: Đúng – <sub> hiển thị chỉ số dưới.\nC: Sai – <small> hiển thị chữ nhỏ.\nD: Sai – <i> hiển thị chữ nghiêng.",
+        "type": null,
+        "items": []
       },
       {
         "id": 7,
@@ -2458,7 +2470,9 @@
           "D. <sub>"
         ],
         "correct": 0,
-        "explanation": "A: Đúng – <sup> hiển thị chỉ số trên.\nB: Sai – <sub> hiển thị chỉ số dưới.\nC: Sai – <u> gạch chân văn bản.\nD: Sai – <b> in đậm văn bản."
+        "explanation": "A: Đúng – <sup> hiển thị chỉ số trên.\nB: Sai – <sub> hiển thị chỉ số dưới.\nC: Sai – <u> gạch chân văn bản.\nD: Sai – <b> in đậm văn bản.",
+        "type": null,
+        "items": []
       },
       {
         "id": 8,
@@ -2470,7 +2484,9 @@
           "D. style"
         ],
         "correct": 0,
-        "explanation": "A: Sai – color thay đổi màu chữ.\nB: Đúng – face thay đổi kiểu phông chữ.\nC: Sai – size thay đổi kích thước chữ.\nD: Sai – style là thuộc tính tổng quát, không trực tiếp thay đổi phông trong <font>."
+        "explanation": "A: Sai – color thay đổi màu chữ.\nB: Đúng – face thay đổi kiểu phông chữ.\nC: Sai – size thay đổi kích thước chữ.\nD: Sai – style là thuộc tính tổng quát, không trực tiếp thay đổi phông trong <font>.",
+        "type": null,
+        "items": []
       },
       {
         "id": 9,
@@ -2482,7 +2498,9 @@
           "D. <u>"
         ],
         "correct": 1,
-        "explanation": "A: Sai – <b> chỉ in đậm, không mang ý nghĩa ngữ nghĩa.\nB: Đúng – <em> nhấn mạnh văn bản, thường hiển thị nghiêng.\nC: Sai – <i> chỉ hiển thị nghiêng, không mang ý nghĩa nhấn mạnh.\nD: Sai – <u> gạch chân văn bản."
+        "explanation": "A: Sai – <b> chỉ in đậm, không mang ý nghĩa ngữ nghĩa.\nB: Đúng – <em> nhấn mạnh văn bản, thường hiển thị nghiêng.\nC: Sai – <i> chỉ hiển thị nghiêng, không mang ý nghĩa nhấn mạnh.\nD: Sai – <u> gạch chân văn bản.",
+        "type": null,
+        "items": []
       },
       {
         "id": 10,
@@ -2494,7 +2512,9 @@
           "D. <small>"
         ],
         "correct": 1,
-        "explanation": "A: Đúng – <mark> dùng để đánh dấu văn bản nổi bật.\nB: Sai – <b> in đậm văn bản.\nC: Sai – <i> in nghiêng văn bản.\nD: Sai – <small> hiển thị chữ nhỏ."
+        "explanation": "A: Đúng – <mark> dùng để đánh dấu văn bản nổi bật.\nB: Sai – <b> in đậm văn bản.\nC: Sai – <i> in nghiêng văn bản.\nD: Sai – <small> hiển thị chữ nhỏ.",
+        "type": null,
+        "items": []
       },
       {
         "id": 11,
@@ -2506,7 +2526,9 @@
           "D. <span>"
         ],
         "correct": 2,
-        "explanation": "A: Sai – <div> dùng để tạo khối chứa dữ liệu.\nB: Sai – <span> dùng cho đoạn nhỏ, không xuống dòng.\nC: Đúng – <p> dùng để tạo đoạn văn bản mới.\nD: Sai – <br> chỉ xuống dòng, không tạo đoạn mới."
+        "explanation": "A: Sai – <div> dùng để tạo khối chứa dữ liệu.\nB: Sai – <span> dùng cho đoạn nhỏ, không xuống dòng.\nC: Đúng – <p> dùng để tạo đoạn văn bản mới.\nD: Sai – <br> chỉ xuống dòng, không tạo đoạn mới.",
+        "type": null,
+        "items": []
       },
       {
         "id": 12,
@@ -2518,7 +2540,9 @@
           "D. <span>"
         ],
         "correct": 2,
-        "explanation": "A: Sai – <p> tạo đoạn mới.\nB: Đúng – <br> dùng để xuống dòng.\nC: Sai – <div> tạo khối dữ liệu.\nD: Sai – <span> không xuống dòng."
+        "explanation": "A: Sai – <p> tạo đoạn mới.\nB: Đúng – <br> dùng để xuống dòng.\nC: Sai – <div> tạo khối dữ liệu.\nD: Sai – <span> không xuống dòng.",
+        "type": null,
+        "items": []
       },
       {
         "id": 13,
@@ -2530,7 +2554,9 @@
           "D. <span>"
         ],
         "correct": 2,
-        "explanation": "A: Sai – <span> dùng cho nội dung nhỏ.\nB: Đúng – <div> tạo khối chứa nhiều phần tử.\nC: Sai – <p> dùng cho đoạn văn bản.\nD: Sai – <mark> dùng để đánh dấu văn bản."
+        "explanation": "A: Sai – <span> dùng cho nội dung nhỏ.\nB: Đúng – <div> tạo khối chứa nhiều phần tử.\nC: Sai – <p> dùng cho đoạn văn bản.\nD: Sai – <mark> dùng để đánh dấu văn bản.",
+        "type": null,
+        "items": []
       },
       {
         "id": 14,
@@ -2542,7 +2568,9 @@
           "D. Khi cần xuống dòng."
         ],
         "correct": 1,
-        "explanation": "A: Sai – dùng <p> để tạo đoạn mới.\nB: Sai – dùng <div> để tạo khối.\nC: Đúng – <span> dùng để định dạng phần nhỏ trong dòng.\nD: Sai – dùng <br> để xuống dòng."
+        "explanation": "A: Sai – dùng <p> để tạo đoạn mới.\nB: Sai – dùng <div> để tạo khối.\nC: Đúng – <span> dùng để định dạng phần nhỏ trong dòng.\nD: Sai – dùng <br> để xuống dòng.",
+        "type": null,
+        "items": []
       },
       {
         "id": 15,
@@ -2554,7 +2582,9 @@
           "D. <hr>"
         ],
         "correct": 3,
-        "explanation": "A: Đúng – <hr> tạo đường kẻ ngang.\nB: Sai – <br> chỉ xuống dòng.\nC: Sai – <p> tạo đoạn văn bản.\nD: Sai – <u> gạch chân văn bản."
+        "explanation": "A: Đúng – <hr> tạo đường kẻ ngang.\nB: Sai – <br> chỉ xuống dòng.\nC: Sai – <p> tạo đoạn văn bản.\nD: Sai – <u> gạch chân văn bản.",
+        "type": null,
+        "items": []
       },
       {
         "id": 16,
@@ -2566,7 +2596,9 @@
           "D. text-decoration"
         ],
         "correct": 0,
-        "explanation": "A: Sai – font-family thay đổi kiểu phông.\nB: Sai – font-size thay đổi kích thước chữ.\nC: Đúng – color thay đổi màu chữ.\nD: Sai – text-decoration dùng để gạch chân, gạch ngang,..."
+        "explanation": "A: Sai – font-family thay đổi kiểu phông.\nB: Sai – font-size thay đổi kích thước chữ.\nC: Đúng – color thay đổi màu chữ.\nD: Sai – text-decoration dùng để gạch chân, gạch ngang,...",
+        "type": null,
+        "items": []
       },
       {
         "id": 17,
@@ -2578,7 +2610,9 @@
           "D. font-family"
         ],
         "correct": 3,
-        "explanation": "A: Sai – font-style dùng cho kiểu như nghiêng, đậm.\nB: Đúng – font-family thay đổi kiểu phông chữ.\nC: Sai – font-size thay đổi kích thước.\nD: Sai – color thay đổi màu chữ."
+        "explanation": "A: Sai – font-style dùng cho kiểu như nghiêng, đậm.\nB: Đúng – font-family thay đổi kiểu phông chữ.\nC: Sai – font-size thay đổi kích thước.\nD: Sai – color thay đổi màu chữ.",
+        "type": null,
+        "items": []
       },
       {
         "id": 18,
@@ -2590,7 +2624,9 @@
           "D. cm²"
         ],
         "correct": 2,
-        "explanation": "A: Sai – kg là đơn vị khối lượng.\nB: Đúng – px là đơn vị pixel, dùng trong HTML.\nC: Sai – s là đơn vị thời gian.\nD: Sai – cm² là đơn vị diện tích."
+        "explanation": "A: Sai – kg là đơn vị khối lượng.\nB: Đúng – px là đơn vị pixel, dùng trong HTML.\nC: Sai – s là đơn vị thời gian.\nD: Sai – cm² là đơn vị diện tích.",
+        "type": null,
+        "items": []
       },
       {
         "id": 19,
@@ -2602,7 +2638,9 @@
           "D. <del>"
         ],
         "correct": 3,
-        "explanation": "A: Đúng – <del> dùng để gạch ngang văn bản.\nB: Sai – <u> dùng để gạch chân.\nC: Sai – <strike> không còn được khuyến khích dùng trong HTML5.\nD: Sai – <mark> dùng để đánh dấu."
+        "explanation": "A: Đúng – <del> dùng để gạch ngang văn bản.\nB: Sai – <u> dùng để gạch chân.\nC: Sai – <strike> không còn được khuyến khích dùng trong HTML5.\nD: Sai – <mark> dùng để đánh dấu.",
+        "type": null,
+        "items": []
       },
       {
         "id": 20,
@@ -2614,7 +2652,9 @@
           "D. <strong>"
         ],
         "correct": 3,
-        "explanation": "A: Sai – <b> chỉ in đậm, không mang ý nghĩa ngữ nghĩa.\nB: Đúng – <strong> nhấn mạnh nội dung theo ngữ nghĩa.\nC: Sai – <i> hiển thị nghiêng, không mang ngữ nghĩa.\nD: Sai – <u> gạch chân, không mang ngữ nghĩa."
+        "explanation": "A: Sai – <b> chỉ in đậm, không mang ý nghĩa ngữ nghĩa.\nB: Đúng – <strong> nhấn mạnh nội dung theo ngữ nghĩa.\nC: Sai – <i> hiển thị nghiêng, không mang ngữ nghĩa.\nD: Sai – <u> gạch chân, không mang ngữ nghĩa.",
+        "type": null,
+        "items": []
       },
       {
         "id": 21,
@@ -2626,7 +2666,9 @@
           "D. <strong>"
         ],
         "correct": 2,
-        "explanation": "A: Sai – <sub> hiển thị chỉ số dưới.\nB: Đúng – <sup> hiển thị chỉ số trên.\nC: Sai – <small> hiển thị chữ nhỏ.\nD: Sai – <strong> in đậm văn bản."
+        "explanation": "A: Sai – <sub> hiển thị chỉ số dưới.\nB: Đúng – <sup> hiển thị chỉ số trên.\nC: Sai – <small> hiển thị chữ nhỏ.\nD: Sai – <strong> in đậm văn bản.",
+        "type": null,
+        "items": []
       },
       {
         "id": 22,
@@ -2638,7 +2680,9 @@
           "D. <strong>"
         ],
         "correct": 2,
-        "explanation": "A: Sai – <em> dùng để in nghiêng.\nB: Sai – <strong> dùng để in đậm.\nC: Đúng – <div> dùng để tạo khối, không định dạng kiểu chữ.\nD: Sai – <mark> dùng để đánh dấu."
+        "explanation": "A: Sai – <em> dùng để in nghiêng.\nB: Sai – <strong> dùng để in đậm.\nC: Đúng – <div> dùng để tạo khối, không định dạng kiểu chữ.\nD: Sai – <mark> dùng để đánh dấu.",
+        "type": null,
+        "items": []
       },
       {
         "id": 23,
@@ -2650,7 +2694,9 @@
           "D. <p style=\"font-style:red;font-type:Tahoma;font-size:15px\">"
         ],
         "correct": 0,
-        "explanation": "A: Đúng – cú pháp đúng để định dạng màu, kiểu và cỡ chữ.\nB: Sai – cú pháp sai, không đúng thuộc tính.\nC: Sai – không có thuộc tính text và font.\nD: Sai – font-style không dùng để định màu."
+        "explanation": "A: Đúng – cú pháp đúng để định dạng màu, kiểu và cỡ chữ.\nB: Sai – cú pháp sai, không đúng thuộc tính.\nC: Sai – không có thuộc tính text và font.\nD: Sai – font-style không dùng để định màu.",
+        "type": null,
+        "items": []
       },
       {
         "id": 24,
@@ -2662,7 +2708,9 @@
           "D. Mã HEX hoặc đơn vị px"
         ],
         "correct": 2,
-        "explanation": "A: Đúng – HTML hỗ trợ tên màu tiếng Anh và mã RGB.\nB: Sai – không hỗ trợ tên màu tiếng Việt.\nC: Sai – mã HEX đúng, nhưng px không phải màu.\nD: Sai – mm là đơn vị độ dài, không phải màu."
+        "explanation": "A: Đúng – HTML hỗ trợ tên màu tiếng Anh và mã RGB.\nB: Sai – không hỗ trợ tên màu tiếng Việt.\nC: Sai – mã HEX đúng, nhưng px không phải màu.\nD: Sai – mm là đơn vị độ dài, không phải màu.",
+        "type": null,
+        "items": []
       },
       {
         "id": 25,
@@ -2674,7 +2722,9 @@
           "D. Tạo tiêu đề với mức độ quan trọng giảm dần"
         ],
         "correct": 3,
-        "explanation": "A: Sai – dùng <p> để tạo đoạn.\nB: Đúng – <h1> đến <h6> tạo tiêu đề từ lớn đến nhỏ.\nC: Sai – dùng <ul> hoặc <ol> để tạo danh sách.\nD: Sai – dùng <table> để tạo bảng."
+        "explanation": "A: Sai – dùng <p> để tạo đoạn.\nB: Đúng – <h1> đến <h6> tạo tiêu đề từ lớn đến nhỏ.\nC: Sai – dùng <ul> hoặc <ol> để tạo danh sách.\nD: Sai – dùng <table> để tạo bảng.",
+        "type": null,
+        "items": []
       },
       {
         "id": 26,
@@ -2686,7 +2736,9 @@
           "D. <ul>"
         ],
         "correct": 3,
-        "explanation": "A: Sai – <ol> dùng để tạo danh sách có thứ tự (ordered list).\nB: Đúng – <ul> dùng để tạo danh sách không thứ tự (unordered list).\nC: Sai – <li> là phần tử con trong danh sách, không phải thẻ tạo danh sách.\nD: Sai – <dl> dùng để tạo danh sách định nghĩa (definition list), không phải danh sách không thứ tự."
+        "explanation": "A: Sai – <ol> dùng để tạo danh sách có thứ tự (ordered list).\nB: Đúng – <ul> dùng để tạo danh sách không thứ tự (unordered list).\nC: Sai – <li> là phần tử con trong danh sách, không phải thẻ tạo danh sách.\nD: Sai – <dl> dùng để tạo danh sách định nghĩa (definition list), không phải danh sách không thứ tự.",
+        "type": null,
+        "items": []
       }
     ]
   },
@@ -2719,7 +2771,9 @@
           "D. Chất khí luôn luôn chiếm toàn bộ thể tích bình chứa và có thể nén được dễ dàng."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 2,
@@ -2731,7 +2785,9 @@
           "D. Có lực liên kết giữa các phân tử nhỏ hơn lực liên kết phân tử ở thể rắn và thể lỏng."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 3,
@@ -2743,7 +2799,9 @@
           "D. Chuyển động càng nhanh khi nhiệt độ của khí càng cao."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 4,
@@ -2755,7 +2813,9 @@
           "D. chất khí."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 5,
@@ -2767,7 +2827,9 @@
           "D. Thể khí và thể lỏng."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 6,
@@ -2779,7 +2841,9 @@
           "D. Tương tác khi va chạm với nhau."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 7,
@@ -2791,7 +2855,9 @@
           "D. Rất lớn."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 8,
@@ -2803,7 +2869,9 @@
           "D. Tác dụng lực lên mọi phần diện tích bình chứa."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 9,
@@ -2815,11 +2883,13 @@
           "D. va chạm với nhau."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 10,
-        "question": "Từ hình ảnh về quỹ đạo chuyển động Brown của hạt khói trong không khí dưới đây, có thể thấy các phân tử khí chuyển động",
+        "question": "Từ hình ảnh về quỹ đạo chuyển động Brown của hạt khói trong không khí dưới đây, có thể thấy các phân tử khí chuyển động\n<br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image1.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
         "options": [
           "A. không liên tục.",
           "B. hỗn loạn, không liên tục.",
@@ -2827,7 +2897,9 @@
           "D. có trật tự, liên tục."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 11,
@@ -2839,7 +2911,9 @@
           "D. Có khối lượng đáng kể."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 12,
@@ -2851,7 +2925,9 @@
           "D. (2) và (3)."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 13,
@@ -2863,16 +2939,23 @@
           "D. Đường thẳng không đi qua gốc tọa độ."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 14,
         "question": "Trong các hệ thức sau đây, hệ thức nào không phù hợp với định luật Boyle?",
         "options": [
-          "C.  \t   D."
+          "A. $V∼p.$",
+          "B. $p∼\\frac{1}{V}.$",
+          "C. $V∼\\frac{1}{p}.$",
+          "D. ${p}_{1}{V}_{1}={p}_{2}{V}_{2}.$"
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 15,
@@ -2884,7 +2967,9 @@
           "D. Thể tích, trọng lượng, áp suất."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 16,
@@ -2896,7 +2981,9 @@
           "D. không đổi, thể tích của khí thay đổi."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 17,
@@ -2908,11 +2995,13 @@
           "D. Pit-tông và xi-lanh."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 18,
-        "question": "Một học sinh khảo sát quá trình đẳng nhiệt của một khối khí và thu được đồ thị có dạng như hình vẽ dưới đây, tuy nhiên học sinh đó lại quên không ghi tên các trục của đồ thị. Hỏi học sinh đó đã sử dụng hệ trục toạ độ nào dưới đây?",
+        "question": "Một học sinh khảo sát quá trình đẳng nhiệt của một khối khí và thu được đồ thị có dạng như hình vẽ dưới đây, tuy nhiên học sinh đó lại quên không ghi tên các trục của đồ thị. Hỏi học sinh đó đã sử dụng hệ trục toạ độ nào dưới đây?\n<br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image2.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
         "options": [
           "A. (T, V).",
           "B. (p, T).",
@@ -2920,7 +3009,9 @@
           "D. (V, p)."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 19,
@@ -2928,11 +3019,13 @@
         "options": [
           "A.   = hằng số.",
           "B. pV = hằng số.",
-          "C. p12 = p21.",
+          "C. p1$V$2 = p2$V$1.",
           "D.  = hằng số."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 20,
@@ -2944,7 +3037,9 @@
           "D. Áp suất."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 21,
@@ -2956,7 +3051,9 @@
           "D. Là quá trình cả ba thông số đều không đổi."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 22,
@@ -2968,11 +3065,13 @@
           "D. Đường thằng vuông góc trục T."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 23,
-        "question": "Biểu thức sau p11 = p22 biểu diễn quá trình",
+        "question": "Biểu thức sau p1$V$1 = p2$V$2 biểu diễn quá trình",
         "options": [
           "A. đẳng áp.",
           "B. đẳng nhiệt.",
@@ -2980,7 +3079,9 @@
           "D. đẳng áp và đẳng nhiệt."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 24,
@@ -2992,7 +3093,9 @@
           "D. Áp suất không đổi."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 25,
@@ -3004,25 +3107,37 @@
           "D. 27 oC."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 26,
         "question": "Hệ thức nào sau đây không phù hợp với quá trình đẳng áp?",
         "options": [
-          "C.   hằng số.\t   D."
+          "A. $V∼T.$",
+          "B. $\\frac{{V}_{1}}{{T}_{1}}=\\frac{{V}_{2}}{{T}_{2}}.$",
+          "C. $\\frac{V}{T}=$  hằng số.",
+          "D. $V∼p.$"
         ],
-        "correct": 0,
-        "explanation": ""
+        "correct": 3,
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 27,
         "question": "Đồ thị nào sau đây phù hợp với định luật Charles?",
         "options": [
-          "C. \t   D."
+          "A. <br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image5.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+          "B. <br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image6.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+          "C. <br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image7.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+          "D. <br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image8.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>"
         ],
-        "correct": 0,
-        "explanation": ""
+        "correct": 1,
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 28,
@@ -3034,7 +3149,9 @@
           "D. nhiệt độ của khí không đổi."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 29,
@@ -3046,11 +3163,13 @@
           "D. Áp suất p và thể tích V."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 30,
-        "question": "Trong hệ tọa độ ( ,  ), đường biểu điễn nào sau đây là đường đẳng áp?",
+        "question": "Trong hệ tọa độ ($V$ , $T$ ), đường biểu điễn nào sau đây là đường đẳng áp?",
         "options": [
           "A. Đường thẳng song song với trục tung.",
           "B. Đường thẳng kéo dài đi qua gốc tọa độ.",
@@ -3058,7 +3177,9 @@
           "D. Đường hypebol."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 31,
@@ -3070,7 +3191,9 @@
           "D. nhiệt độ không đổi, thể tích giảm."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 32,
@@ -3082,16 +3205,23 @@
           "D. đoạn nhiệt."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 33,
         "question": "Người ta làm nóng đẳng áp một lượng khí lí tưởng, đại lượng nào sau đây là không đổi?",
         "options": [
-          "C.  \t   D."
+          "A. $\\frac{p}{T}.$",
+          "B. $pV.$",
+          "C. $\\frac{V}{T}.$",
+          "D. $VT.$"
         ],
-        "correct": 0,
-        "explanation": ""
+        "correct": 2,
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 34,
@@ -3103,7 +3233,9 @@
           "D. Khối khí đựng trong bình kín và bình không dãn nở nhiệt."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 35,
@@ -3115,20 +3247,27 @@
           "D. thay đổi, nhiệt độ tuyệt đối của khí không đổi."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 36,
         "question": "Hệ thức nào dưới đây là phù hợp với định luật Charles?",
         "options": [
-          "C.  \t   D."
+          "A. $\\frac{{V}_{1}}{{T}_{1}}=\\frac{{V}_{2}}{{T}_{2}}.$",
+          "B. ${V}_{1}.{T}_{1}={V}_{2}.{T}_{2}.$",
+          "C. $\\frac{{p}_{1}}{{V}_{1}}=\\frac{{p}_{2}}{{V}_{2}}.$",
+          "D. ${p}_{1}{V}_{1}={p}_{2}{V}_{2}.$"
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 37,
-        "question": "Đường biểu diễn nào sau đây biểu diễn quá trình đẳng áp?",
+        "question": "Đường biểu diễn nào sau đây biểu diễn quá trình đẳng áp?\n<br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image9.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
         "options": [
           "A. Hình 1",
           "B. Hình 2",
@@ -3136,7 +3275,9 @@
           "D. Hình 3"
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 38,
@@ -3148,7 +3289,9 @@
           "D. Vì các phân tử khí luôn va chạm với nhau."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 39,
@@ -3160,7 +3303,9 @@
           "D. Chất khí có thể khuếch tán."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 40,
@@ -3172,7 +3317,9 @@
           "D. Giữa các phân tử khí có lực hút."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 41,
@@ -3184,7 +3331,9 @@
           "D. Khí lí tưởng là khí mà khối lượng của các phân tử khí có thể bỏ qua."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 42,
@@ -3196,7 +3345,9 @@
           "D. Khí thực không tuân theo các định luật Newton khi các phân tử va chạm vào thành bình."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 43,
@@ -3208,7 +3359,9 @@
           "D. Nhiệt độ của khí không ảnh hưởng tới tốc độ chuyển động hỗn loạn của các phân tử khí."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 44,
@@ -3220,7 +3373,9 @@
           "D. Có hình dạng và thể tích của bình chứa nó."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 45,
@@ -3232,7 +3387,9 @@
           "D. Kính lúp, nắp đậy thủy tinh, ống thủy tinh, khói, ánh sáng."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 46,
@@ -3244,19 +3401,23 @@
           "D. Các phân tử khí chuyển động với các tốc độ khác nhau, có thể lớn hơn, bằng hoặc nhỏ hơn tốc độ trung bình."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 47,
-        "question": "Đồ thị biểu diễn hai đường đẳng nhiệt của cùng một lượng khí lí tưởng biểu diễn như hình vẽ. Mối quan hệ về nhiệt độ của hai đường đẳng nhiệt này là:",
+        "question": "Đồ thị biểu diễn hai đường đẳng nhiệt của cùng một lượng khí lí tưởng biểu diễn như hình vẽ. Mối quan hệ về nhiệt độ của hai đường đẳng nhiệt này là:<br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image10.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
         "options": [
-          "A. 2 ≤ T1",
-          "B. 2 > T1",
-          "C. 2 = T1",
-          "D. 2 < T1"
+          "A. $T$2 ≤ T1",
+          "B. $T$2 > T1",
+          "C. $T$2 = T1",
+          "D. $T$2 < T1"
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 48,
@@ -3268,7 +3429,9 @@
           "D. tăng thêm 4 lần."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 49,
@@ -3280,7 +3443,9 @@
           "D. 4"
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 50,
@@ -3292,7 +3457,9 @@
           "D. 12 lít."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 51,
@@ -3304,34 +3471,51 @@
           "D. 3.105 Pa"
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 52,
         "question": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle?",
         "options": [
-          "C. \t   D."
+          "A. <br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image11.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+          "B. <br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image12.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+          "C. <br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image13.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+          "D. <br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image14.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>"
         ],
-        "correct": 0,
-        "explanation": ""
+        "correct": 3,
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 53,
         "question": "Đồ thị nào dưới đây không phù hợp với quá trình đẳng nhiệt?",
         "options": [
-          "C. \t   D."
+          "A. <br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image15.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+          "B. <br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image16.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+          "C. <br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image17.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+          "D. <br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image18.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>"
         ],
-        "correct": 0,
-        "explanation": ""
+        "correct": 2,
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 54,
-        "question": "Gọi  và  là áp suất và khối lượng riêng của một khối khí ở trạng thái ban đầu;  và  là áp suất và khối lượng riêng của khối khí đó ở trạng thái sau khi nén. Coi rằng nhiệt độ của khối khí đó không thay đổi trong suốt quá trình nén, khi đó ta có hệ thức nào dưới đây?",
+        "question": "Gọi ${p}_{1}$ và ${D}_{1}$ là áp suất và khối lượng riêng của một khối khí ở trạng thái ban đầu; ${p}_{2}$ và ${D}_{2}$ là áp suất và khối lượng riêng của khối khí đó ở trạng thái sau khi nén. Coi rằng nhiệt độ của khối khí đó không thay đổi trong suốt quá trình nén, khi đó ta có hệ thức nào dưới đây?",
         "options": [
-          "C.  \t   D."
+          "A. $\\frac{{p}_{1}}{{D}_{2}}=\\frac{{p}_{2}}{{D}_{1}}$",
+          "B. ${p}_{1}{D}_{1}={p}_{2}{D}_{2}.$",
+          "C. ${p}_{1}{p}_{2}={D}_{1}{D}_{2}.$",
+          "D. $\\frac{{p}_{1}}{{p}_{2}}=\\frac{{D}_{1}}{{D}_{2}}.$"
         ],
-        "correct": 0,
-        "explanation": ""
+        "correct": 3,
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 55,
@@ -3343,19 +3527,23 @@
           "D. tăng lên gấp đôi."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 56,
         "question": "Một lượng khí lí tưởng biến đổi trạng thái có đồ thị áp suất theo nhiệt độ như hình vẽ. Quá trình nào sau đây là quá trình đẳng áp?",
         "options": [
           "A. (4) → (1).",
-          "B. (1) → (2).",
+          "B. (1) → (2). <br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image19.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
           "C. (2) → (3).",
           "D. (3) → (4)."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 57,
@@ -3367,7 +3555,9 @@
           "D. giảm đi."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 58,
@@ -3379,7 +3569,9 @@
           "D. tăng 4 lần."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 59,
@@ -3391,7 +3583,9 @@
           "D. tăng lên."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 60,
@@ -3403,7 +3597,9 @@
           "D. tăng lên 2 lần."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 61,
@@ -3415,7 +3611,9 @@
           "D. 5,78 m3."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 62,
@@ -3427,7 +3625,9 @@
           "D. 60kPa"
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 63,
@@ -3439,7 +3639,9 @@
           "D. Giảm 6.105 Pa"
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 64,
@@ -3451,7 +3653,9 @@
           "D. không đổi."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 65,
@@ -3463,163 +3667,204 @@
           "D. 16 lít"
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 66,
         "question": "Trong các nhận định sau đây về cấu trúc chất khí, hãy cho biết câu nào đúng, câu nào sai?",
-        "options": [
-          "A. Chất khí chiếm toàn bộ thể tích của bình chứa",
-          "B. Chuyển động của các hạt phấn hoa trong cốc chứa nước được quan sát bằng kính hiển vi được gọi là chuyển động Brown",
-          "C. Chất khí dễ nén. Khi áp suất tác dụng lên một lượng khí tăng thì thể tích khí tăng đang kể.",
-          "D. Khoảng giữa các phân tử khí rất lớn so với kích thước của chúng do đó giữa các phân tử khí chỉ có lực hút."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Chất khí chiếm toàn bộ thể tích của bình chứa   b) Chuyển động của các hạt phấn hoa trong cốc chứa nước được quan sát bằng kính hiển vi được gọi là chuyển động Brown   c) Chất khí dễ nén. Khi áp suất tác dụng lên một lượng khí tăng thì thể tích khí tăng đang kể.   d) Khoảng giữa các phân tử khí rất lớn so với kích thước của chúng do đó giữa các phân tử khí chỉ có lực hút.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 67,
         "question": "Xét tốc độ chuyển động của phân tử và áp suất chất khí",
-        "options": [
-          "A. . # Nguyên nhân gây ra áp suất chất khí tác dụng lên thành bình là do các phân tử khí khi chuyển động hỗn loạn không ngừng đã va chạm liên tục vào thành bình và tác dụng lực lên thành bình.",
-          "B. . # Tốc độ trung bình v̅ của n phân tử khí có các tốc độ v₁, v₂, ..., vₙ được xác định bằng trung bình cộng tốc độ của các phân tử: v̅ = (v₁ + v₂ + ... + vₙ)/n.",
-          "C. Khi quan sát các hạt bụi nhỏ lơ lửng trong không khí ở cửa sổ có ánh nắng chiếu qua, ta thấy chúng chuyển động không ngừng. Chuyển động của hạt bụi này chính là chuyển động Brown dưới tác dụng va chạm của các phân tử không khí.",
-          "D. . # Ở điều kiện tiêu chuẩn (0°C và 1,01.10⁵ Pa), các phân tử khí oxygen chuyển động với tốc độ trung bình vào khoảng 400 m/s. Điều này chứng tỏ tại một thời điểm xác định, tất cả mọi phân tử khí oxygen trong bình đều chuyển động đúng với tốc độ bằng 400 m/s."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": ". # Nguyên nhân gây ra áp suất chất khí tác dụng lên thành bình là do các phân tử khí khi chuyển động hỗn loạn không ngừng đã va chạm liên tục vào thành bình và tác dụng lực lên thành bình.   b) . # Tốc độ trung bình v̅ của n phân tử khí có các tốc độ v₁, v₂, ..., vₙ được xác định bằng trung bình cộng tốc độ của các phân tử: v̅ = (v₁ + v₂ + ... + vₙ)/n.   c)  Khi quan sát các hạt bụi nhỏ lơ lửng trong không khí ở cửa sổ có ánh nắng chiếu qua, ta thấy chúng chuyển động không ngừng. Chuyển động của hạt bụi này chính là chuyển động Brown dưới tác dụng va chạm của các phân tử không khí.   d) . # Ở điều kiện tiêu chuẩn (0°C và 1,01.10⁵ Pa), các phân tử khí oxygen chuyển động với tốc độ trung bình vào khoảng 400 m/s. Điều này chứng tỏ tại một thời điểm xác định, tất cả mọi phân tử khí oxygen trong bình đều chuyển động đúng với tốc độ bằng 400 m/s.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 68,
         "question": "Theo mô hình động học phân tử chất khí và khí lí tưởng.",
-        "options": [
-          "A. . # Khí lí tưởng coi các phân tử khí là các chất điểm và bỏ qua lực tương tác giữa các phân tử khi chúng chưa va chạm.",
-          "B. . # Các chất khí tồn tại trong thực tế (khí thực như O₂, N₂, CO₂) luôn tuân theo hoàn toàn chính xác mô hình khí lí tưởng ở mọi điều kiện nhiệt độ rất thấp và áp suất rất cao.",
-          "C. . # Trong mô hình khí lí tưởng, các va chạm giữa phân tử khí với nhau và va chạm giữa phân tử khí với thành bình được coi là va chạm hoàn toàn đàn hồi.",
-          "D. . # Một khối lượng khí xác định được giữ ở nhiệt độ không đổi trong một xi-lanh kín. Bằng cách đẩy pít-tông làm giảm thể tích bình chứa đi một nửa (V₂ = V₁/2), mật độ phân tử khí (số phân tử trong một đơn vị thể tích) tăng lên gấp 2 lần. Do đó, số va chạm của các phân tử khí lên một đơn vị diện tích thành bình trong một đơn vị thời gian tăng lên gấp 2 lần, làm cho áp suất khí tác dụng lên thành bình tăng lên 2 lần."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": ". # Khí lí tưởng coi các phân tử khí là các chất điểm và bỏ qua lực tương tác giữa các phân tử khi chúng chưa va chạm.   b) . # Các chất khí tồn tại trong thực tế (khí thực như O₂, N₂, CO₂) luôn tuân theo hoàn toàn chính xác mô hình khí lí tưởng ở mọi điều kiện nhiệt độ rất thấp và áp suất rất cao.   c) . # Trong mô hình khí lí tưởng, các va chạm giữa phân tử khí với nhau và va chạm giữa phân tử khí với thành bình được coi là va chạm hoàn toàn đàn hồi.   d) . # Một khối lượng khí xác định được giữ ở nhiệt độ không đổi trong một xi-lanh kín. Bằng cách đẩy pít-tông làm giảm thể tích bình chứa đi một nửa (V₂ = V₁/2), mật độ phân tử khí (số phân tử trong một đơn vị thể tích) tăng lên gấp 2 lần. Do đó, số va chạm của các phân tử khí lên một đơn vị diện tích thành bình trong một đơn vị thời gian tăng lên gấp 2 lần, làm cho áp suất khí tác dụng lên thành bình tăng lên 2 lần.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 69,
         "question": "Trong thí nghiệm quan sát chuyển động Brown của các hạt khói lơ lửng trong không khí bằng kính hiển vi (chiếu sáng qua ống thủy tinh đựng khói)",
-        "options": [
-          "A. . #Xét cùng một chất ở thể khí và thể lỏng ở cùng điều kiện nhiệt độ và áp suất. Khối lượng riêng của nước lỏng lớn gấp khoảng 1000 lần khối lượng riêng của hơi nước, ta có thể suy ra khoảng cách trung bình giữa các phân tử ở thể khí lớn gấp khoảng 10 lần khoảng cách trung bình giữa các phân tử ở thể lỏng.",
-          "B. . # Khi chiếu sáng đun nóng không khí trong ống thủy tinh, các hạt khói chuyển động chậm lại vì khoảng cách giữa các phân tử không khí tăng lên làm lực va chạm yếu đi.",
-          "C. . # Khoảng cách trung bình giữa các phân tử chất khí rất lớn so với kích thước của chúng.",
-          "D. . # Chuyển động của các hạt khói trong không khí là chuyển động Brown."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": ". #Xét cùng một chất ở thể khí và thể lỏng ở cùng điều kiện nhiệt độ và áp suất. Khối lượng riêng của nước lỏng lớn gấp khoảng 1000 lần khối lượng riêng của hơi nước, ta có thể suy ra khoảng cách trung bình giữa các phân tử ở thể khí lớn gấp khoảng 10 lần khoảng cách trung bình giữa các phân tử ở thể lỏng.    b) . # Khi chiếu sáng đun nóng không khí trong ống thủy tinh, các hạt khói chuyển động chậm lại vì khoảng cách giữa các phân tử không khí tăng lên làm lực va chạm yếu đi.   c) . # Khoảng cách trung bình giữa các phân tử chất khí rất lớn so với kích thước của chúng.   d) . # Chuyển động của các hạt khói trong không khí là chuyển động Brown.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 70,
-        "question": "Một bọt khí có thể tích 1,5 cm3 được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 100 m dưới mực nước biển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là ρ = 1,00.103 kg/m3. Áp suất khí quyển là ρ0 = 1,00.105 Pa, g = 10 m/s2.",
-        "options": [
-          "A. Áp suất của bọt khí ở độ sâu 100m dưới mực nước biển là 11,0.105 Pa.",
-          "B. Khi bọt khí nổi lên mặt nước, áp suất của bọt khí nhỏ hơn áp suất khí quyển p0 = 1,00.105 Pa",
-          "C. Vì nhiệt độ của bọt khí là không đổi nên có thể áp dụng định luật Boyle đối với trạng thái ở trên mặt nước và dưới mặt nước 100 m.",
-          "D. Khi bọt khí nổi lên mặt nước thì sẽ có thể tích là 16,5 cm3."
-        ],
+        "question": "Một bọt khí có thể tích 1,5 cm3 được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 100 m dưới mực nước biển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là ρ = 1,00.103 kg/m3. Áp suất khí quyển là ρ0 = 1,00.105 Pa, g = 10 m/s2.\n<br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image20.jpeg\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Áp suất của bọt khí ở độ sâu 100m dưới mực nước biển là 11,0.105 Pa.   b) Khi bọt khí nổi lên mặt nước, áp suất của bọt khí nhỏ hơn áp suất khí quyển p0 = 1,00.105 Pa   c) Vì nhiệt độ của bọt khí là không đổi nên có thể áp dụng định luật Boyle đối với trạng thái ở trên mặt nước và dưới mặt nước 100 m.   d) Khi bọt khí nổi lên mặt nước thì sẽ có thể tích là 16,5 cm3.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 71,
         "question": "Một bơm tay có chiều cao  đường kính  Người ta dùng bơm này để đưa không khí vào trong săm xe đạp (ban đầu chưa có không khí). Biết thời gian mỗi lần bơm là  và áp suất bằng áp suất khí quyển bằng  trong khi bơm xem như nhiệt độ của không khí không đổi. Sau thời gian bơm là t thì săm có thể tích  và có áp suất  .",
-        "options": [
-          "A. Thể tích của mỗi lần bơm không khí vào săm xe đạp là",
-          "B. Có thể áp dụng định luật Boyle cho quá trình biến đổi trạng thái này.",
-          "C. Thể tích khí cần bơm vào săm xe là",
-          "D. Giá trị của thời gian t xấp xĩ bằng"
-        ],
-        "correct": 1,
-        "explanation": ""
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Thể tích của mỗi lần bơm không khí vào săm xe đạp là     b) Có thể áp dụng định luật Boyle cho quá trình biến đổi trạng thái này.   c) Thể tích khí cần bơm vào săm xe là     d) Giá trị của thời gian t xấp xĩ bằng",
+            "correct": false
+          }
+        ]
       },
       {
         "id": 72,
-        "question": "Một khối khí khi đặt ở điều kiện nhiệt độ không đổi thì có sự biến thiên của thể tích theo áp suất như hình vẽ",
-        "options": [
-          "A. Quá trình biến đổi trạng thái của khối khí này là dãn nở đẳng nhiệt.",
-          "B. Khi áp suất khối khí có giá trị 0,50 kN/m2 thì thể tích khối khí là 4,8 m3.",
-          "C. Khi áp suất khối khí thay đổi từ 0,5 kN/m2 đến 1,5 kN/m2 thì thể tích của khối khí tăng một lượng 3,2 m3.",
-          "D. Nếu áp suất khí tăng thêm 20% so với áp suất ban đầu thì thể tích của khối khí sau khi giãn nở bằng 3,5m3"
-        ],
-        "correct": 1,
-        "explanation": ""
+        "question": "Một khối khí khi đặt ở điều kiện nhiệt độ không đổi thì có sự biến thiên của thể tích theo áp suất như hình vẽ\n<br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image30.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Quá trình biến đổi trạng thái của khối khí này là dãn nở đẳng nhiệt.   b) Khi áp suất khối khí có giá trị 0,50 kN/m2 thì thể tích khối khí là 4,8 m3.   c) Khi áp suất khối khí thay đổi từ 0,5 kN/m2 đến 1,5 kN/m2 thì thể tích của khối khí tăng một lượng 3,2 m3.   d) Nếu áp suất khí tăng thêm 20% so với áp suất ban đầu thì thể tích của khối khí sau khi giãn nở bằng 3,5m3",
+            "correct": false
+          }
+        ]
       },
       {
         "id": 73,
         "question": "Một quả bóng có dung tích  Người ta bơm 45 lần không khí ở áp suất  vào bóng. Mỗi lần bơm được  không khí. Coi quả bóng trước khi bơm không có không khí và trong khi bơm nhiệt độ của không khí không thay đổi.",
-        "options": [
-          "A. Định luật Boyle được áp dụng cho quá trình biến đổi trạng thái này.",
-          "B. Sau 45 lần bơm thể tích không khí người ta đưa vào quả bóng là",
-          "C. Sau khi bơm cả thể tích và áp suất của không khí trong quả bóng đều thay đổi.",
-          "D. Sau 45 lần bơm áp suất cuối cùng của khối khí là"
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Định luật Boyle được áp dụng cho quá trình biến đổi trạng thái này.   b) Sau 45 lần bơm thể tích không khí người ta đưa vào quả bóng là     c) Sau khi bơm cả thể tích và áp suất của không khí trong quả bóng đều thay đổi.   d) Sau 45 lần bơm áp suất cuối cùng của khối khí là",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 74,
-        "question": "Một lượng khí có thể tích 240 cm3 chứa trong một xilanh có pittong đóng kín, diện tích của đáy pit-tông là 24 cm2 (Hình vẽ). Áp suất khí trong xi lanh bằng áp suất ngoài và bằng 100 kPa. Bỏ qua ma sát giữa pit-tông và thành xilanh. Coi các quá trình xảy ra là đẳng nhiệt.",
-        "options": [
-          "A. Khi pit-tông dịch chuyển sang trái 2 cm thì thể tích khí lúc này là 288 cm3.",
-          "B. Khi pit-tông dịch chuyển sang phải 2 cm thể tích khí lúc này là 192 cm3.",
-          "C. Để dịch chuyển pit tông sang trái 2 cm cần một lực 60 N.",
-          "D. Để dịch chuyển pit-tông sang phải 2 cm cần một lực 40 N"
-        ],
-        "correct": 2,
-        "explanation": ""
+        "question": "Một lượng khí có thể tích 240 cm3 chứa trong một xilanh có pittong đóng kín, diện tích của đáy pit-tông là 24 cm2 (Hình vẽ). Áp suất khí trong xi lanh bằng áp suất ngoài và bằng 100 kPa. Bỏ qua ma sát giữa pit-tông và thành xilanh. Coi các quá trình xảy ra là đẳng nhiệt.\n<br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image36.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Khi pit-tông dịch chuyển sang trái 2 cm thì thể tích khí lúc này là 288 cm3.   b) Khi pit-tông dịch chuyển sang phải 2 cm thể tích khí lúc này là 192 cm3.   c) Để dịch chuyển pit tông sang trái 2 cm cần một lực 60 N.   d) Để dịch chuyển pit-tông sang phải 2 cm cần một lực 40 N",
+            "correct": false
+          }
+        ]
       },
       {
         "id": 75,
         "question": "Trong thí nghiệm minh họa định luật Charles được mô tả ở sách giáo khoa, bộ dụng cụ gồm: xi lanh thủy tinh dung tích 50 mL (có pit-tông), nhiệt kế điện tử, nút cao su bịt kín đầu ra xi lanh, các cốc thủy tinh chứa nước đá, nước ấm, nước nóng và dầu bôi trơn. Các bước thực hiện như sau:\n• Bước 1: Tra dầu bôi trơn vào pit-tông, điều chỉnh pit-tông ở mức 30 mL, bịt kín đầu ra bằng nút cao su.\n• Bước 2: Ghi nhận nhiệt độ phòng t (°C) và thể tích khí ban đầu V (mL).\n• Bước 3: Nhúng xi lanh vào các cốc nước đá, nước ấm, nước nóng. Sau mỗi khoảng thời gian 3 phút, đọc chỉ số t (°C) và V (mL).",
-        "options": [
-          "A. Trong suốt quá trình biến đổi trạng thái của lượng khí nhốt trong xi lanh, thông số trạng thái được giữ không đổi là áp suất p.",
-          "B. Thao tác tra một chút dầu bôi trơn vào pit-tông có tác dụng làm giảm ma sát giữa pit-tông và thành xi lanh, giúp pit-tông di chuyển dễ dàng để áp suất khí trong xi lanh luôn cân bằng với áp suất khí quyển bên ngoài.",
-          "C. Khi nhúng xi lanh vào các cốc nước, việc chờ khoảng 3 phút mới đọc chỉ số V và t nhằm mục đích đảm bảo khối khí trong xi lanh đạt trạng thái cân bằng nhiệt với nước trong cốc.",
-          "D. Số liệu đo ở nhiệt độ phòng thu được t1 = 24,5 °C ứng với V1 = 30 mL. Khi nhúng xi lanh vào cốc nước nóng có nhiệt độ t2 = 59,3 °C, nếu quá trình biến đổi tuân theo đúng định luật Charles thì thể tích khí V2 đo được xấp xỉ 35 mL."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Trong suốt quá trình biến đổi trạng thái của lượng khí nhốt trong xi lanh, thông số trạng thái được giữ không đổi là áp suất p.   b)  Thao tác tra một chút dầu bôi trơn vào pit-tông có tác dụng làm giảm ma sát giữa pit-tông và thành xi lanh, giúp pit-tông di chuyển dễ dàng để áp suất khí trong xi lanh luôn cân bằng với áp suất khí quyển bên ngoài.   c)  Khi nhúng xi lanh vào các cốc nước, việc chờ khoảng 3 phút mới đọc chỉ số V và t nhằm mục đích đảm bảo khối khí trong xi lanh đạt trạng thái cân bằng nhiệt với nước trong cốc.   d)  Số liệu đo ở nhiệt độ phòng thu được t1 = 24,5 °C ứng với V1 = 30 mL. Khi nhúng xi lanh vào cốc nước nóng có nhiệt độ t2 = 59,3 °C, nếu quá trình biến đổi tuân theo đúng định luật Charles thì thể tích khí V2 đo được xấp xỉ 35 mL.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 76,
-        "question": "Một khối lượng khí lí tưởng xác định biến đổi trạng thái đẳng áp từ trạng thái (1) có thể tích V1 = 2 lít, nhiệt độ t1 = 27°C sang trạng thái (2) có thể tích V2 = 4 lít, nhiệt độ t2 được biểu diễn bằng đồ thị V - T như hình 1.\nHình 1.",
-        "options": [
-          "A. Trong hệ tọa độ V - T, đường đẳng áp là một đường thẳng có phương kéo dài đi qua gốc tọa độ O.",
-          "B. Dựa vào đồ thị, quá trình biến đổi từ trạng thái (1) sang trạng thái (2) là quá trình giãn nở đẳng áp, trong đó thể tích của khí tăng tỉ lệ thuận với nhiệt độ tuyệt đối T.",
-          "C. Trong hệ tọa độ V - t (thể tích V theo nhiệt độ Celsius t), đường biểu diễn quá trình đẳng áp cũng là đường thẳng kéo dài đi qua gốc tọa độ O (0°C).",
-          "D. Dựa vào số liệu trên đồ thị Hình 1, nhiệt độ t2 của khối khí ở trạng thái (2) ứng với thể tích V2 = 4 lít bằng 327°C."
-        ],
+        "question": "Một khối lượng khí lí tưởng xác định biến đổi trạng thái đẳng áp từ trạng thái (1) có thể tích V1 = 2 lít, nhiệt độ t1 = 27°C sang trạng thái (2) có thể tích V2 = 4 lít, nhiệt độ t2 được biểu diễn bằng đồ thị V - T như hình 1.\n<br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image37.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\nHình 1.",
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Trong hệ tọa độ V - T, đường đẳng áp là một đường thẳng có phương kéo dài đi qua gốc tọa độ O.   b) Dựa vào đồ thị, quá trình biến đổi từ trạng thái (1) sang trạng thái (2) là quá trình giãn nở đẳng áp, trong đó thể tích của khí tăng tỉ lệ thuận với nhiệt độ tuyệt đối T.   c) Trong hệ tọa độ V - t (thể tích V theo nhiệt độ Celsius t), đường biểu diễn quá trình đẳng áp cũng là đường thẳng kéo dài đi qua gốc tọa độ O (0°C).   d) Dựa vào số liệu trên đồ thị Hình 1, nhiệt độ t2 của khối khí ở trạng thái (2) ứng với thể tích V2 = 4 lít bằng 327°C.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 77,
-        "question": "Hai đường đẳng áp (1) và (2) của cùng một khối lượng khí lí tưởng xác định được biểu diễn trong hệ tọa độ V - T như Hình 2, ứng với các giá trị áp suất p1 và p2.\nHình 2.",
-        "options": [
-          "A. Ứng với các giá trị áp suất khác nhau của cùng một khối lượng khí xác định, ta có các đường đẳng áp khác nhau trong hệ tọa độ V - T.",
-          "B. Đường đẳng áp nằm ở phía trên (1) trong hệ tọa độ V - T ứng với giá trị áp suất lớn hơn, do đó ta có p1 > p2.",
-          "C. Khi biểu diễn hai quá trình đẳng áp này trong hệ tọa độ p - V, hai đường đẳng áp (1) và (2) trở thành hai đường thẳng song song với trục thể tích V.",
-          "D. Khối khí ở trạng thái 1 có áp suất p1 = 1 atm, thể tích V1 = 3 lít, nhiệt độ t1 = 27°C. Khối khí biến đổi đẳng áp đến trạng thái 2 có thể tích V2 = 4,5 lít; nhiệt độ t2 = 40,5°C"
-        ],
+        "question": "Hai đường đẳng áp (1) và (2) của cùng một khối lượng khí lí tưởng xác định được biểu diễn trong hệ tọa độ V - T như Hình 2, ứng với các giá trị áp suất p1 và p2.\n<br><img src=\"./data/images/olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312/image38.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\nHình 2.",
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Ứng với các giá trị áp suất khác nhau của cùng một khối lượng khí xác định, ta có các đường đẳng áp khác nhau trong hệ tọa độ V - T.   b)  Đường đẳng áp nằm ở phía trên (1) trong hệ tọa độ V - T ứng với giá trị áp suất lớn hơn, do đó ta có p1 > p2.   c)  Khi biểu diễn hai quá trình đẳng áp này trong hệ tọa độ p - V, hai đường đẳng áp (1) và (2) trở thành hai đường thẳng song song với trục thể tích V.   d)  Khối khí ở trạng thái 1 có áp suất p1 = 1 atm, thể tích V1 = 3 lít, nhiệt độ t1 = 27°C. Khối khí biến đổi đẳng áp đến trạng thái 2 có thể tích V2 = 4,5 lít; nhiệt độ t2 = 40,5°C",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 78,
         "question": "Xét một khối lượng khí lí tưởng xác định biến đổi trạng thái trong điều kiện áp suất giữ không đổi.",
-        "options": [
-          "A. Quá trình biến đổi trạng thái của một khối lượng khí xác định khi áp suất giữ không đổi được gọi là quá trình đẳng áp.",
-          "B. Trong quá trình đẳng áp của một khối lượng khí xác định, thể tích V của khí tỉ lệ thuận với nhiệt độ tuyệt đối T theo hệ thức    hay   .",
-          "C. Khi đun nóng đẳng áp một khối khí lí tưởng từ nhiệt độ t1 = 27°C lên nhiệt độ t2 = 327°C, vì nhiệt độ theo thang Celsius tăng lên 12 lần nên thể tích của khối khí cũng tăng lên đúng 12 lần.",
-          "D. Ban đầu một khối khí trong xilanh ở nhiệt độ t1 = 27°C có thể tích V1 = 150 cm³. Nếu đun nóng đẳng áp khối khí đó đến khi thể tích đạt V2 = 200 cm³ thì nhiệt độ t2 của khối khí sau khi đun nóng là 127°C."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Quá trình biến đổi trạng thái của một khối lượng khí xác định khi áp suất giữ không đổi được gọi là quá trình đẳng áp.   b)  Trong quá trình đẳng áp của một khối lượng khí xác định, thể tích V của khí tỉ lệ thuận với nhiệt độ tuyệt đối T theo hệ thức $\\frac{V}{T}=hằng số$   hay  $\\frac{{V}_{1}}{{T}_{1}}=\\frac{{V}_{2}}{{T}_{2}}$ .   c)  Khi đun nóng đẳng áp một khối khí lí tưởng từ nhiệt độ t1 = 27°C lên nhiệt độ t2 = 327°C, vì nhiệt độ theo thang Celsius tăng lên 12 lần nên thể tích của khối khí cũng tăng lên đúng 12 lần.   d)  Ban đầu một khối khí trong xilanh ở nhiệt độ t1 = 27°C có thể tích V1 = 150 cm³. Nếu đun nóng đẳng áp khối khí đó đến khi thể tích đạt V2 = 200 cm³ thì nhiệt độ t2 của khối khí sau khi đun nóng là 127°C.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 79,
@@ -3628,7 +3873,10 @@
           "A. [7,8]"
         ],
         "correct": 0,
-        "explanation": "Đáp án chính xác: [7,8]"
+        "explanation": "Đáp án chính xác: [7,8]",
+        "type": "short_answer",
+        "items": [],
+        "correctAnswer": "[7,8]"
       },
       {
         "id": 80,
@@ -3637,7 +3885,10 @@
           "A. [10]"
         ],
         "correct": 0,
-        "explanation": "Đáp án chính xác: [10]"
+        "explanation": "Đáp án chính xác: [10]",
+        "type": "short_answer",
+        "items": [],
+        "correctAnswer": "[10]"
       },
       {
         "id": 81,
@@ -3646,7 +3897,10 @@
           "A. [45]"
         ],
         "correct": 0,
-        "explanation": "Đáp án chính xác: [45]"
+        "explanation": "Đáp án chính xác: [45]",
+        "type": "short_answer",
+        "items": [],
+        "correctAnswer": "[45]"
       }
     ]
   },
@@ -4441,7 +4695,9 @@
           "D. were performing"
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 2,
@@ -4453,7 +4709,9 @@
           "D. impressive"
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 3,
@@ -4465,7 +4723,9 @@
           "D. for"
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 4,
@@ -4477,7 +4737,9 @@
           "D. Ø (no article)"
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 5,
@@ -4489,7 +4751,9 @@
           "D. make"
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 6,
@@ -4498,14 +4762,16 @@
           "A. permission",
           "B. ambition",
           "C. authority",
-          "D. awareness"
+          "D. awareness Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 7 to 12.GO GREEN – MAKE A DIFFERENCE!Small Changes, Big Results!Want to live a greener life? Follow these simple tips to protect our planet! Save Water and Energy: Use less water and turn off unnecessary lights. Try to use (7) ______ electricity whenever possible. Reduce Plastic Waste: Bring reusable bags and bottles. Avoid plastic products (8) ______ are harmful to the environment. Recycle More: Collect paper, glass, and plastic. You can also (9) ______ old clothes and books to people in need instead of throwing them away. Protect Green Spaces: Plant trees and join community clean-up activities. These actions help raise public (10) ______ of environmental problems. Choose Eco-friendly Products: Buy products made from recycled materials. They are often more (11) ______ than disposable alternatives.(12) ______, remember that every small action counts. Together, we can build a cleaner and healthier world!JOIN THE GREEN LIVING MOVEMENT TODAY!"
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 7,
-        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">Read the following leaflet and mark the letter A, B, C or D on your answer sheet to indicate the option that best fits each of the numbered blanks from 7 to 12.GO GREEN – MAKE A DIFFERENCE!Small Changes, Big Results!Want to live a greener life? Follow these simple tips to protect our planet! Save Water and Energy: Use less water and turn off unnecessary lights. Try to use (7) ______ electricity whenever possible. Reduce Plastic Waste: Bring reusable bags and bottles. Avoid plastic products (8) ______ are harmful to the environment. Recycle More: Collect paper, glass, and plastic. You can also (9) ______ old clothes and books to people in need instead of throwing them away. Protect Green Spaces: Plant trees and join community clean-up activities. These actions help raise public (10) ______ of environmental problems. Choose Eco-friendly Products: Buy products made from recycled materials. They are often more (11) ______ than disposable alternatives.(12) ______, remember that every small action counts. Together, we can build a cleaner and healthier world!JOIN THE GREEN LIVING MOVEMENT TODAY!</div>",
+        "question": "Chọn phương án đúng cho câu 7:",
         "options": [
           "A. several",
           "B. many",
@@ -4513,7 +4779,9 @@
           "D. a little"
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 8,
@@ -4525,7 +4793,9 @@
           "D. which"
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 9,
@@ -4537,7 +4807,9 @@
           "D. turn down"
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 10,
@@ -4549,7 +4821,9 @@
           "D. confidence"
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 11,
@@ -4561,7 +4835,9 @@
           "D. careless"
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 12,
@@ -4569,15 +4845,17 @@
         "options": [
           "A. Moreover",
           "B. However",
-          "C. Therefore",
+          "C. ThereforeMark the letter A, B, C, or D on your answer sheet to indicate the correct arrangement of the sentences to make a meaningful paragraph/ letter in each of the following questions.",
           "D. For example"
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 13,
-        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">Mark the letter A, B, C, or D on your answer sheet to indicate the correct arrangement of the sentences to make a meaningful paragraph/ letter in each of the following questions.</div>a. Peter: I’ve just finished reading about Nick Vujicic.\nb. Linda: Really? What do you think of him?\nc. Peter: He’s amazing! His story encourages me to be strong.",
+        "question": "a. Peter: I’ve just finished reading about Nick Vujicic.\nb. Linda: Really? What do you think of him?\nc. Peter: He’s amazing! His story encourages me to be strong.",
         "options": [
           "A. b-c-a",
           "B. a-c-b",
@@ -4585,11 +4863,13 @@
           "D. a-b-c"
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 14,
-        "question": "a. David: Hmm. I think that will be difficult to do.\nc. David: Well, what if the buses are too crowded or someone lives far away? It won’t be convenient for everyone.\nd. David: Do you have any ideas for our presentation about reducing air pollution?\ne. Sophia: Why do you think so?",
+        "question": "a. David: Hmm. I think that will be difficult to do.\nb. Sophia: Yeah. I think we should encourage students to take public transport instead of driving to school. If more people use buses or trains, we’ll have less pollution.\nc. David: Well, what if the buses are too crowded or someone lives far away? It won’t be convenient for everyone.\nd. David: Do you have any ideas for our presentation about reducing air pollution?\ne. Sophia: Why do you think so?",
         "options": [
           "A. d - e - a - b - c",
           "B. c - e - d - b - a",
@@ -4597,11 +4877,13 @@
           "D. c - b - a - e - d"
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 15,
-        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">b. Sophia: Yeah. I think we should encourage students to take public transport instead of driving to school. If more people use buses or trains, we’ll have less pollution.</div>a. Finally, these festivals inspire creativity and innovation as they observe various artistic expressions and performances.\nb. Firstly, they broaden their horizons by exposing them to diverse cultures, traditions, and languages.\nd. World festivals have significant impacts on Vietnamese young teenagers.\ne. Teenagers learn to appreciate and respect different ways of life.\nf. Secondly, festivals cultivate a sense of curiosity and openness towards the world beyond their immediate surroundings.",
+        "question": "a. Finally, these festivals inspire creativity and innovation as they observe various artistic expressions and performances.\nb. Firstly, they broaden their horizons by exposing them to diverse cultures, traditions, and languages.\nc. Overall, participating in world festivals enriches the lives of Vietnamese teenagers, fostering global awareness and understanding in an increasingly interconnected world.\nd. World festivals have significant impacts on Vietnamese young teenagers.\ne. Teenagers learn to appreciate and respect different ways of life.\nf. Secondly, festivals cultivate a sense of curiosity and openness towards the world beyond their immediate surroundings.",
         "options": [
           "A. d – b – f – c – e – a",
           "B. d – b – f – e – a – c",
@@ -4609,11 +4891,13 @@
           "D. d – e – b – f – a – c"
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 16,
-        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">c. Overall, participating in world festivals enriches the lives of Vietnamese teenagers, fostering global awareness and understanding in an increasingly interconnected world.</div>a. She joined the Viet Minh and became a guerrilla fighter at a very young age.\nb. Take care, and I look forward to catching up soon! Warm regards, Thanh\nc. Unfortunately, she was apprehended by the French authorities and executed by firing squad when she was only 19 years old.\ne. Dear Ann,\nI hope this letter finds you well. I recently had the opportunity to visit Vo Thi Sau's grave in Con Dao, Vietnam.\nf. Vo Thi Sau was a remarkable Vietnamese schoolgirl who became involved in revolutionary activities.",
+        "question": "a. She joined the Viet Minh and became a guerrilla fighter at a very young age.\nb. Take care, and I look forward to catching up soon! Warm regards, Thanh\nc. Unfortunately, she was apprehended by the French authorities and executed by firing squad when she was only 19 years old.\nd. Her grave, located in Hang Duong Cemetery, stands as a symbol of her courage and the revolutionary spirit. It's a place of great historical significance, and I felt honored to pay my respects there.\ne. Dear Ann,\nI hope this letter finds you well. I recently had the opportunity to visit Vo Thi Sau's grave in Con Dao, Vietnam.\nf. Vo Thi Sau was a remarkable Vietnamese schoolgirl who became involved in revolutionary activities.",
         "options": [
           "A. e – d – c – a – f – b",
           "B. e – f – a – c – d – b",
@@ -4621,11 +4905,13 @@
           "D. d – f – b – a – c – e"
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 17,
-        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">d. Her grave, located in Hang Duong Cemetery, stands as a symbol of her courage and the revolutionary spirit. It's a place of great historical significance, and I felt honored to pay my respects there.</div>a. These events provide opportunities for socializing, experiencing new cultures, and enjoying festive atmospheres, which appeal to the younger generation.\nb. However, some argue that this trend might overshadow traditional Vietnamese festivals, leading to a loss of cultural identity.\ne. Moreover, the influence of globalization and social media has made these celebrations more accessible and popular.",
+        "question": "a. These events provide opportunities for socializing, experiencing new cultures, and enjoying festive atmospheres, which appeal to the younger generation.\nb. However, some argue that this trend might overshadow traditional Vietnamese festivals, leading to a loss of cultural identity.\nc. Nowadays, an increasing number of young Vietnamese people have shown a growing interest in celebrating international festivals such as Christmas and Halloween.\nd. In conclusion, I firmly believe that while participating in international festivals offers valuable experiences, young people in Vietnam should strive to strike a balance by also preserving and honoring their own cultural heritage.\ne. Moreover, the influence of globalization and social media has made these celebrations more accessible and popular.",
         "options": [
           "A. c - a - e - b - d",
           "B. a - c - b - e - d",
@@ -4633,11 +4919,13 @@
           "D. c - e - a - d - b"
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 18,
-        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">d. In conclusion, I firmly believe that while participating in international festivals offers valuable experiences, young people in Vietnam should strive to strike a balance by also preserving and honoring their own cultural heritage.</div>What is the passage mainly about?",
+        "question": "What is the passage mainly about?",
         "options": [
           "A. The negative effects of modern technology on people's lifestyles.",
           "B. The economic advantages of purchasing locally produced food.",
@@ -4645,7 +4933,9 @@
           "D. The reasons governments should take full responsibility for environmental protection."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 19,
@@ -4657,7 +4947,9 @@
           "D. industries'"
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 20,
@@ -4669,7 +4961,9 @@
           "D. weakened"
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 21,
@@ -4681,7 +4975,9 @@
           "D. Products with environmental labels are always sustainable from production to disposal."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 22,
@@ -4693,7 +4989,9 @@
           "D. insignificant"
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 23,
@@ -4705,7 +5003,9 @@
           "D. Investing in cleaner production methods."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 24,
@@ -4717,7 +5017,9 @@
           "D. Individual actions are sufficient to solve all environmental problems."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 25,
@@ -4729,7 +5031,9 @@
           "D. To ensure that locally produced goods are always cheaper."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 26,
@@ -4741,7 +5045,9 @@
           "D. Paragraph 3"
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 27,
@@ -4750,14 +5056,16 @@
           "A. Paragraph 2",
           "B. Paragraph 1",
           "C. Paragraph 4",
-          "D. Paragraph 3"
+          "D. Paragraph 3Mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 28 to 32.General Vo Nguyen Giap (28) ______ on August 25, 1911, in An Xa village, QuangBinh Province. His father was a poor mandarin who passed away in French custody due to his political activities. At the age of 14, Giap enrolled in the prestigious Quoc Hoc School in Hue, where he began his political activism by participating in protests against French colonial rule and (29) ______. This led to his expulsion, after which he continued his studies in Hanoi and later taught history.In 1939, facing increasing persecution from French authorities, Giap fled to China, where he joined Ho Chi Minh and received military training. In May 1941, he co-founded the Viet Minh, a coalition seeking Vietnamese independence. Upon Japan's surrender in 1945, Giap served as Minister of the Interior in the newly established Democratic Republic of Vietnam. He played a crucial role in negotiating with French representatives. (30) ______. The agreement aimed to resolve conflicts between Vietnam and France through diplomatic means.Throughout the subsequent decades, General Giap led the Vietnamese military in both the First Indochina War against French forces and the Vietnam War against the United States and South Vietnam. (31) ______. His strategic leadership contributed significantly to the victory at the Battle of Dien Bien Phu in 1954, which marked a turning point in the struggle for Vietnamese independence.After Vietnam's reunification in 1975, General Giap continued to influence the country's defence and development policies. He passed away on October 4, 2013, at the age of 102. General Giap, (32) ______, left a lasting legacy in Vietnam's history.(Adapted from wikipedia.org)"
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 28,
-        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">Mark the letter A, B, C, or D on your answer sheet to indicate the correct option that best fits each of the numbered blanks from 28 to 32.General Vo Nguyen Giap (28) ______ on August 25, 1911, in An Xa village, QuangBinh Province. His father was a poor mandarin who passed away in French custody due to his political activities. At the age of 14, Giap enrolled in the prestigious Quoc Hoc School in Hue, where he began his political activism by participating in protests against French colonial rule and (29) ______. This led to his expulsion, after which he continued his studies in Hanoi and later taught history.In 1939, facing increasing persecution from French authorities, Giap fled to China, where he joined Ho Chi Minh and received military training. In May 1941, he co-founded the Viet Minh, a coalition seeking Vietnamese independence. Upon Japan's surrender in 1945, Giap served as Minister of the Interior in the newly established Democratic Republic of Vietnam. He played a crucial role in negotiating with French representatives. (30) ______. The agreement aimed to resolve conflicts between Vietnam and France through diplomatic means.Throughout the subsequent decades, General Giap led the Vietnamese military in both the First Indochina War against French forces and the Vietnam War against the United States and South Vietnam. (31) ______. His strategic leadership contributed significantly to the victory at the Battle of Dien Bien Phu in 1954, which marked a turning point in the struggle for Vietnamese independence.After Vietnam's reunification in 1975, General Giap continued to influence the country's defence and development policies. He passed away on October 4, 2013, at the age of 102. General Giap, (32) ______, left a lasting legacy in Vietnam's history.(Adapted from wikipedia.org)</div>",
+        "question": "Chọn phương án đúng cho câu 28:",
         "options": [
           "A. whose family had a strong nationalist tradition",
           "B. to come from a family with a strong nationalist tradition",
@@ -4765,7 +5073,9 @@
           "D. came from a family with a strong nationalist tradition"
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 29,
@@ -4777,7 +5087,9 @@
           "D. joined the Tan Viet Revolutionary Party"
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 30,
@@ -4789,7 +5101,9 @@
           "D. Moreover, his diplomatic skills helped him reach an agreement with the French representatives."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 31,
@@ -4801,7 +5115,9 @@
           "D. Although he was widely recognised for his military leadership."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 32,
@@ -4813,7 +5129,9 @@
           "D. which made him one of the most influential military leaders in Vietnamese history"
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       }
     ]
   },
@@ -4840,70 +5158,87 @@
         "id": 1,
         "question": "Keo dán là loại vật liệu có khả năng ...(1)... bề mặt của hai vật liệu rắn với nhau, mà không làm biến đổi ...(2)... của các vật liệu được kết dính. Nội dung phù hợp trong các ô trống (1), (2) lần lượt là",
         "options": [
-          "A. hàn gắn, bề mặt.",
-          "B. kết dính, bản chất.",
-          "C. chống thấm, đặc tính.",
-          "D. liên kết, trạng thái."
+          "A. hàn gắn, bề mặt.B. kết dính, bản chất.C. chống thấm, đặc tính.D. liên kết, trạng thái."
         ],
         "correct": 1,
-        "explanation": "​Keo dán là loại vật liệu có khả năng kết dính bề mặt của hai vật liệu rắn với nhau, mà không làm biến đổi bản chất của các vật liệu được kết dính."
+        "explanation": "​Keo dán là loại vật liệu có khả năng kết dính bề mặt của hai vật liệu rắn với nhau, mà không làm biến đổi bản chất của các vật liệu được kết dính.",
+        "type": null,
+        "items": []
       },
       {
         "id": 2,
         "question": "Keo dán poly(urea-formaldehyde) được tổng hợp bằng phản ứng",
         "options": [
-          "A. trùng hợp.",
-          "B. lên men.",
-          "C. trùng ngưng.",
-          "D. ester hóa."
+          "A. trùng hợp.B. lên men.C. trùng ngưng.D. ester hóa."
         ],
         "correct": 2,
-        "explanation": "​Keo dán poly(urea-formaldehyde) là vật liệu polymer nên được tổng hợp bằng phản ứng trùng ngưng."
+        "explanation": "​Keo dán poly(urea-formaldehyde) là vật liệu polymer nên được tổng hợp bằng phản ứng trùng ngưng.",
+        "type": null,
+        "items": []
       },
       {
         "id": 3,
         "question": "Polymer nào sau đây là thành phần chính của keo sữa dán giấy?",
         "options": [
-          "A. Polyacrylonitrile.",
-          "B. Poly(vinyl chloride).",
-          "C. Poly(urea-formaldehyde).",
-          "D. Poly(vinyl acetate)."
+          "A. Polyacrylonitrile.B. Poly(vinyl chloride).C. Poly(urea-formaldehyde).D. Poly(vinyl acetate)."
         ],
         "correct": 3,
-        "explanation": "​Poly(vinyl acetate) là thành phần chính của keo sữa dán giấy.\nPoly(urea-formaldehyde) là thành phần chính của keo dán gỗ UF.\nPoly(vinyl chloride) được ứng dụng trong sản xuất chất dẻo.\nPolyacrylonitrile được ứng dụng trong sản xuất tơ."
+        "explanation": "​Poly(vinyl acetate) là thành phần chính của keo sữa dán giấy.\nPoly(urea-formaldehyde) là thành phần chính của keo dán gỗ UF.\nPoly(vinyl chloride) được ứng dụng trong sản xuất chất dẻo.\nPolyacrylonitrile được ứng dụng trong sản xuất tơ.",
+        "type": null,
+        "items": []
       },
       {
         "id": 4,
         "question": "Keo dán siêu dính 502 là một loại keo được dùng phổ biến trong đời sống để kết dính các bề mặt vật liệu như gỗ, nhựa, da,... Thành phần của keo 502 có chứa methyl cyanoacrylate.",
-        "options": [
-          "A. Công thức cấu tạo của methyl cyanoacrylate là CH3-CH(CN)COOCH3.( F )",
-          "B. Methyl cyanoacrylate có thể tham gia phản ứng trùng hợp tạo thành poly(methyl cyanoacrylate).( T )",
-          "C. Bản chất của keo 502 là dựa vào hơi ẩm trong không khí để trùng hợp methyl cyanoacrylate tạo thành polymer dạng màng mỏng kết dính vật liệu lại với nhau.( T )",
-          "D. Có thể sử dụng acetone để rửa sạch vết keo 502.( T )"
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": "​Công thức cấu tạo của methyl cyanoacrylate là CH3-CH(CN)COOCH3 ⇒ Sai, methyl cyanoacrylate có công thức cấu tạo là  CH2=C(CN)COOCH3.\nMethyl cyanoacrylate có thể tham gia phản ứng trùng hợp tạo thành poly(methyl cyanoacrylate) ⇒ Đúng, bởi vì trong công thức của methyl cyanoacrylate có chứa một liên kết đôi C=C.\nBản chất của keo 502 là dựa vào hơi ẩm trong không khí để trùng hợp methyl cyanoacrylate tạo thành polymer dạng màng mỏng kết dính vật liệu lại với nhau ⇒ Đúng, đây là cơ chế đóng rắn của keo dán 502.\nCó thể sử dụng acetone để rửa sạch vết keo 502 ⇒ Đúng, vì methyl cyanoacrylate có thể tan trong acetone."
+        "explanation": "​Công thức cấu tạo của methyl cyanoacrylate là CH3-CH(CN)COOCH3 ⇒ Sai, methyl cyanoacrylate có công thức cấu tạo là  CH2=C(CN)COOCH3.\nMethyl cyanoacrylate có thể tham gia phản ứng trùng hợp tạo thành poly(methyl cyanoacrylate) ⇒ Đúng, bởi vì trong công thức của methyl cyanoacrylate có chứa một liên kết đôi C=C.\nBản chất của keo 502 là dựa vào hơi ẩm trong không khí để trùng hợp methyl cyanoacrylate tạo thành polymer dạng màng mỏng kết dính vật liệu lại với nhau ⇒ Đúng, đây là cơ chế đóng rắn của keo dán 502.\nCó thể sử dụng acetone để rửa sạch vết keo 502 ⇒ Đúng, vì methyl cyanoacrylate có thể tan trong acetone.",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Công thức cấu tạo của methyl cyanoacrylate là CH3-CH(CN)COOCH3",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": "Methyl cyanoacrylate có thể tham gia phản ứng trùng hợp tạo thành poly(methyl cyanoacrylate)",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": "Bản chất của keo 502 là dựa vào hơi ẩm trong không khí để trùng hợp methyl cyanoacrylate tạo thành polymer dạng màng mỏng kết dính vật liệu lại với nhau",
+            "correct": true
+          },
+          {
+            "label": "d",
+            "text": "Có thể sử dụng acetone để rửa sạch vết keo 502",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 5,
-        "question": "Cho các polymer có công thức cấu tạo như sau:\nGán số thứ tự công thức hóa học trên theo tên gọi: chất dẻo, cao su, tơ, keo dán và sắp xếp theo trình tự thành dãy bốn số (ví dụ: 1234, 4312,...).",
+        "question": "Cho các polymer có công thức cấu tạo như sau:\n<br><img src=\"./data/images/olm-vat-lieu-polymer-phan-5-3158103348/image1.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\n<br><img src=\"./data/images/olm-vat-lieu-polymer-phan-5-3158103348/image2.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\n<br><img src=\"./data/images/olm-vat-lieu-polymer-phan-5-3158103348/image3.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\n<br><img src=\"./data/images/olm-vat-lieu-polymer-phan-5-3158103348/image4.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\nGán số thứ tự công thức hóa học trên theo tên gọi: chất dẻo, cao su, tơ, keo dán và sắp xếp theo trình tự thành dãy bốn số (ví dụ: 1234, 4312,...).",
         "options": [
           "A. [4132]"
         ],
         "correct": 0,
-        "explanation": "Đáp án chính xác: [4132]\n​(1) - Cao su isoprene.\n(2) - Keo dán poly(urea-formaldehyde).\n(3) - Tơ capron.\n(4) - Chất dẻo PVC."
+        "explanation": "Đáp án chính xác: [4132]\n​(1) - Cao su isoprene.\n(2) - Keo dán poly(urea-formaldehyde).\n(3) - Tơ capron.\n(4) - Chất dẻo PVC.",
+        "type": "short_answer",
+        "items": [],
+        "correctAnswer": "[4132]"
       },
       {
         "id": 6,
         "question": "Có thể sử dụng vật liệu nào sau đây để dán hai tấm gỗ lại với nhau?",
         "options": [
-          "A. Composite.",
-          "B. Keo dán.",
-          "C. Chất dẻo.",
-          "D. Tơ."
+          "A. Composite.B. Keo dán.C. Chất dẻo.D. Tơ."
         ],
         "correct": 1,
-        "explanation": "Có thể sử dụng keo dán để gắn hai tấm gỗ lại với nhau bởi vì keo dán có khả năng kết dính bề mặt của hai vật liệu rắn mà không làm thay đổi bản chất của chúng.\nChất dẻo, tơ và composite không có khả năng kết dính nên không thể sử dụng các vật liệu này để dán hai tấm gỗ trên."
+        "explanation": "Có thể sử dụng keo dán để gắn hai tấm gỗ lại với nhau bởi vì keo dán có khả năng kết dính bề mặt của hai vật liệu rắn mà không làm thay đổi bản chất của chúng.\nChất dẻo, tơ và composite không có khả năng kết dính nên không thể sử dụng các vật liệu này để dán hai tấm gỗ trên.",
+        "type": null,
+        "items": []
       }
     ]
   },
@@ -4936,7 +5271,9 @@
           "D. Phản ứng thủy phân."
         ],
         "correct": 2,
-        "explanation": "​Cao su tổng hợp được điều chế bằng phản ứng trùng hợp và phản ứng đồng trùng hợp.\nVí dụ: Cao su buna được điều chế bằng phản ứng trùng hợp buta-1,3-diene theo phương trình hóa học sau:"
+        "explanation": "​Cao su tổng hợp được điều chế bằng phản ứng trùng hợp và phản ứng đồng trùng hợp.\nVí dụ: Cao su buna được điều chế bằng phản ứng trùng hợp buta-1,3-diene theo phương trình hóa học sau:\n<br><img src=\"./data/images/olm-vat-lieu-polymer-phan-4-3158092100/image1.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+        "type": null,
+        "items": []
       },
       {
         "id": 2,
@@ -4948,11 +5285,13 @@
           "D. Polyethylene."
         ],
         "correct": 2,
-        "explanation": "​Polybuta-1,3-diene (cao su buna) có công thức cấu tạo như sau:\n.\nBởi vì trong công thức cấu tạo của polybuta-1,3-diene còn có chứa một nối đôi kém bền nên có khả năng tham gia phản ứng cộng với hydrogen.\nCông thức của polyethylene, poly(vinyl chloride) và polyacrylonitrile không chứa liên kết kém bền nên không có khả năng tham gia phản ứng cộng với hydrogen."
+        "explanation": "​Polybuta-1,3-diene (cao su buna) có công thức cấu tạo như sau:\n<br><img src=\"./data/images/olm-vat-lieu-polymer-phan-4-3158092100/image2.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br> .\nBởi vì trong công thức cấu tạo của polybuta-1,3-diene còn có chứa một nối đôi kém bền nên có khả năng tham gia phản ứng cộng với hydrogen.\nCông thức của polyethylene, poly(vinyl chloride) và polyacrylonitrile không chứa liên kết kém bền nên không có khả năng tham gia phản ứng cộng với hydrogen.",
+        "type": null,
+        "items": []
       },
       {
         "id": 3,
-        "question": "Trong công nghiệp, polymer X được điều chế theo sơ đồ phản ứng sau:\nPolymer X là loại vật liệu có tính đàn hồi nên được ứng dụng trong sản xuất cao su. Tên gọi của polymer X là",
+        "question": "Trong công nghiệp, polymer X được điều chế theo sơ đồ phản ứng sau:\n$C{H}_{2}=CH-CH=C{H}_{2} \\rightarrow C{H}_{2}=CH-CHCl-C{H}_{2}Cl \\rightarrow C{H}_{2}=CH-CCl=C{H}_{2} \\rightarrow X$\nPolymer X là loại vật liệu có tính đàn hồi nên được ứng dụng trong sản xuất cao su. Tên gọi của polymer X là",
         "options": [
           "A. polybuta-1,3-diene.",
           "B. poly(vinyl chloride).",
@@ -4960,28 +5299,36 @@
           "D. polychloroprene."
         ],
         "correct": 3,
-        "explanation": "​Theo sơ đồ phản ứng, polymer X được điều chế từ chloroprene bằng phản ứng trùng hợp ⇒ X là polychloroprene.\nPhương trình phản ứng:"
+        "explanation": "​Theo sơ đồ phản ứng, polymer X được điều chế từ chloroprene bằng phản ứng trùng hợp ⇒ X là polychloroprene.\nPhương trình phản ứng:\n<br><img src=\"./data/images/olm-vat-lieu-polymer-phan-4-3158092100/image3.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+        "type": null,
+        "items": []
       },
       {
         "id": 4,
         "question": "Cao su chloroprene thuộc loại cao su tổng hợp và có rất nhiều ưu điểm nổi trội như không cháy, bền cơ học và không tan trong dầu nên thường được dùng để bọc ống thủy lực công nghiệp, sản xuất vật dụng kháng dầu và ozone.",
-        "options": [
-          "A. Cao su chloroprene có công thức hóa học là .",
-          "B. Cao su chloroprene được tổng hợp bằng phản ứng trùng hợp 3-chlorobuta-1,3-diene.",
-          "C. Chloroprene có đồng phân hình học.",
-          "D. Đun nóng cao su chloroprene với lưu huỳnh thu được cao su lưu hóa có cấu trúc mạng không gian."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": "- Cao su chloroprene có công thức hóa học là  ⇒ Đúng.\n- Cao su chloroprene được tổng hợp bằng phản ứng trùng hợp 3-chlorobuta-1,3-diene ⇒ Sai, cao su chloroprene được tổng hợp từ 2-chlorobuta-1,3-diene theo phương trình hóa học sau:\n- Chloroprene có đồng phân hình học ⇒ Sai, chloroprene không có đồng phân hình học cis- và trans- vì các nhóm thế cùng liên kết với nguyên tử carbon giống nhau.\n- Đun nóng cao su chloroprene với lưu huỳnh thu được cao su lưu hóa có cấu trúc mạng không gian ⇒ Đúng, cao su lưu hóa thu được khi đun nóng cao su thường với lưu huỳnh, từ đó hình thành các cầu nối disulfide liên kết các mạch polymer lại với nhau tạo thành mạng không gian."
+        "explanation": "- Cao su chloroprene có công thức hóa học là <br><img src=\"./data/images/olm-vat-lieu-polymer-phan-4-3158092100/image4.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br> ⇒ Đúng.\n- Cao su chloroprene được tổng hợp bằng phản ứng trùng hợp 3-chlorobuta-1,3-diene ⇒ Sai, cao su chloroprene được tổng hợp từ 2-chlorobuta-1,3-diene theo phương trình hóa học sau:\n<br><img src=\"./data/images/olm-vat-lieu-polymer-phan-4-3158092100/image3.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\n- Chloroprene có đồng phân hình học ⇒ Sai, chloroprene không có đồng phân hình học cis- và trans- vì các nhóm thế cùng liên kết với nguyên tử carbon giống nhau.\n- Đun nóng cao su chloroprene với lưu huỳnh thu được cao su lưu hóa có cấu trúc mạng không gian ⇒ Đúng, cao su lưu hóa thu được khi đun nóng cao su thường với lưu huỳnh, từ đó hình thành các cầu nối disulfide liên kết các mạch polymer lại với nhau tạo thành mạng không gian.",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Cao su chloroprene có công thức hóa học là <br><img src=\"./data/images/olm-vat-lieu-polymer-phan-4-3158092100/image4.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>.   b) Cao su chloroprene được tổng hợp bằng phản ứng trùng hợp 3-chlorobuta-1,3-diene.   c) Chloroprene có đồng phân hình học.   d) Đun nóng cao su chloroprene với lưu huỳnh thu được cao su lưu hóa có cấu trúc mạng không gian.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 5,
-        "question": "Cao su buna được điều chế từ sơ đồ sau:\nGlucose → Ethanol → Buta-1,3-diene → Cao su buna",
+        "question": "Cao su buna được điều chế từ sơ đồ sau:\nGlucose → Ethanol → Buta-1,3-diene → Cao su buna\nCần bao nhiêu kg glucose để có thể điều chế được 108 kg cao su buna (làm tròn kết quả đến chữ số hàng đơn vị)? Giả sử hiệu suất của cả quá trình là 80%.",
         "options": [
           "A. [450]"
         ],
         "correct": 0,
-        "explanation": "Đáp án chính xác: [450]\nTa có sơ đồ điều chế cao su buna như sau:​\nkmol\n⇒  kmol\n⇒  kg."
+        "explanation": "Đáp án chính xác: [450]\nTa có sơ đồ điều chế cao su buna như sau:​\n<br><img src=\"./data/images/olm-vat-lieu-polymer-phan-4-3158092100/image5.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\n${n}_{polybuta-1,3-diene}=\\frac{108}{54n}=\\frac{2}{n}$ kmol\n⇒ ${n}_{{C}_{6}{H}_{12}{O}_{6}}=\\frac{2}{n}.\\frac{100}{80}.n=\\frac{5}{2}$ kmol\n⇒ ${m}_{{C}_{6}{H}_{12}{O}_{6}}=\\frac{5}{2}.180=450$ kg.",
+        "type": "short_answer",
+        "items": [],
+        "correctAnswer": "[450]"
       }
     ]
   },
@@ -5008,37 +5355,53 @@
         "id": 1,
         "question": "Polymer nào sau đây không bị thủy phân trong dung dịch H2SO4 loãng, nóng?",
         "options": [
-          "A. Polyethylene.",
-          "B. Poly(vinyl acetate).",
-          "C. Tơ capron.",
-          "D. Nylon-6,6."
+          "A. Polyethylene.B. Poly(vinyl acetate).C. Tơ capron.D. Nylon-6,6."
         ],
         "correct": 0,
-        "explanation": "​Polyethylene không bị thủy phân trong dung dịch H2SO4 loãng, nóng.\nPoly(vinyl acetate) có chứa nhóm chức ester nên bị thủy phân bởi dung dịch H2SO4 loãng, nóng.\nTơ capron, nylon-6,6 có chứa liên kết -CO-NH- nên bị thủy phân bởi dung dịch H2SO4 loãng, nóng."
+        "explanation": "​Polyethylene không bị thủy phân trong dung dịch H2SO4 loãng, nóng.\nPoly(vinyl acetate) có chứa nhóm chức ester nên bị thủy phân bởi dung dịch H2SO4 loãng, nóng.\nTơ capron, nylon-6,6 có chứa liên kết -CO-NH- nên bị thủy phân bởi dung dịch H2SO4 loãng, nóng.",
+        "type": null,
+        "items": []
       },
       {
         "id": 2,
         "question": "Thuộc da là quá trình xử lí da của động vật để sản xuất da thuộc, là vật liệu bền hơn và khó bị phân hủy hơn. Quá trình thuộc da xử lí với HCHO là phản ứng của protein dưới tác dụng của HCHO tạo thành sản phẩm có cấu trúc không gian.",
-        "options": [
-          "A. Protein thuộc loại polymer thiên nhiên.( T )",
-          "B. Sản phẩm của quá trình thuộc da là polymer.( T )",
-          "C. Phản ứng xảy ra trong quá trình thuộc da là phản ứng giữ nguyên mạch polymer.( F )",
-          "D. Phản ứng thủy phân da động vật bằng dung dịch kiềm thuộc loại phản ứng cắt mạch polymer.( T )"
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": "​Protein thuộc loại polymer thiên nhiên ⇒ Đúng, bởi vì protein có chứa nhiều trong cơ thể con người và động vật.\nSản phẩm của quá trình thuộc da là polymer ⇒ Đúng, sản phẩm của quá trình thuộc da là polymer tồn tại ở dạng mạng không gian.\nPhản ứng xảy ra trong quá trình thuộc da là phản ứng giữ nguyên mạch polymer ⇒ Sai, phản ứng xảy ra trong quá trình thuộc da là phản ứng tăng mạch polymer.\nPhản ứng thủy phân da động vật bằng dung dịch kiềm thuộc loại phản ứng cắt mạch polymer ⇒ Đúng, bởi vì trong protein có chứa liên kết peptide. Liên kết này có thể bị phân cắt trong môi trường kiềm tạo thành các đơn vị amino acid."
+        "explanation": "​Protein thuộc loại polymer thiên nhiên ⇒ Đúng, bởi vì protein có chứa nhiều trong cơ thể con người và động vật.\nSản phẩm của quá trình thuộc da là polymer ⇒ Đúng, sản phẩm của quá trình thuộc da là polymer tồn tại ở dạng mạng không gian.\nPhản ứng xảy ra trong quá trình thuộc da là phản ứng giữ nguyên mạch polymer ⇒ Sai, phản ứng xảy ra trong quá trình thuộc da là phản ứng tăng mạch polymer.\nPhản ứng thủy phân da động vật bằng dung dịch kiềm thuộc loại phản ứng cắt mạch polymer ⇒ Đúng, bởi vì trong protein có chứa liên kết peptide. Liên kết này có thể bị phân cắt trong môi trường kiềm tạo thành các đơn vị amino acid.",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Protein thuộc loại polymer thiên nhiên",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "Sản phẩm của quá trình thuộc da là polymer",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": "Phản ứng xảy ra trong quá trình thuộc da là phản ứng giữ nguyên mạch polymer",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "Phản ứng thủy phân da động vật bằng dung dịch kiềm thuộc loại phản ứng cắt mạch polymer",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 3,
-        "question": "Polymer X được tổng hợp theo phương trình hóa học sau:\nPolymer X được điều chế bằng phản ứng nào?",
+        "question": "Polymer X được tổng hợp theo phương trình hóa học sau:\n$n{H}_{2}N{\\left[ C{H}_{2} \\right]}_{6}N{H}_{2}+nHOOC-{\\left[ C{H}_{2} \\right]}_{4}-COOH \\rightarrow xt,{t}^{o}X+n{H}_{2}O$\nPolymer X được điều chế bằng phản ứng nào?",
         "options": [
-          "A. Trùng ngưng.",
-          "B. Trùng hợp.",
-          "C. Ester hóa.",
-          "D. Thủy phân."
+          "A. Trùng ngưng.B. Trùng hợp.C. Ester hóa.D. Thủy phân."
         ],
         "correct": 0,
-        "explanation": "​Polymer X là nylon-6,6 được điều chế bằng phản ứng trùng ngưng theo phương trình hóa học sau đây:"
+        "explanation": "​Polymer X là nylon-6,6 được điều chế bằng phản ứng trùng ngưng theo phương trình hóa học sau đây:\n<br><img src=\"./data/images/olm-dai-cuong-ve-polymer-phan-2-2991021811/image1.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+        "type": null,
+        "items": []
       },
       {
         "id": 4,
@@ -5047,7 +5410,10 @@
           "A. [3]"
         ],
         "correct": 0,
-        "explanation": "Đáp án chính xác: [3]\n​Polyethylene, polybuta-1,3-diene và poly(vinyl chloride) được điều chế từ phản ứng trùng hợp.\nPoly(phenol fomaldehyde) được điều chế bằng phản ứng trùng ngưng.\nPolysaccharide là polymer thiên nhiên."
+        "explanation": "Đáp án chính xác: [3]\n​Polyethylene, polybuta-1,3-diene và poly(vinyl chloride) được điều chế từ phản ứng trùng hợp.\nPoly(phenol fomaldehyde) được điều chế bằng phản ứng trùng ngưng.\nPolysaccharide là polymer thiên nhiên.",
+        "type": "short_answer",
+        "items": [],
+        "correctAnswer": "[3]"
       }
     ]
   },
@@ -5076,7 +5442,9 @@
           "D. Áp suất."
         ],
         "correct": 0,
-        "explanation": "Các thông số trạng thái của một lượng khí gồm: thể tích, nhiệt độ và áp suất của lượng khí đó.​"
+        "explanation": "Các thông số trạng thái của một lượng khí gồm: thể tích, nhiệt độ và áp suất của lượng khí đó.​",
+        "type": null,
+        "items": []
       },
       {
         "id": 2,
@@ -5088,19 +5456,23 @@
           "D. thay đổi, thể tích của khí không đổi."
         ],
         "correct": 0,
-        "explanation": "​Theo định luật Boyle, khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất gây ra bởi khí tỉ lệ nghịch với thể tích của nó."
+        "explanation": "​Theo định luật Boyle, khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất gây ra bởi khí tỉ lệ nghịch với thể tích của nó.",
+        "type": null,
+        "items": []
       },
       {
         "id": 3,
         "question": "Trong các hệ thức sau đây, hệ thức nào không phù hợp với định luật Boyle?",
         "options": [
-          "A. p∼1V.",
-          "B. V∼1p.",
-          "C. p1V1=p2V2.",
-          "D. V∼p."
+          "A. $p∼\\frac{1}{V}.$",
+          "B. $V∼\\frac{1}{p}.$",
+          "C. ${p}_{1}{V}_{1}={p}_{2}{V}_{2.}$",
+          "D. $V∼p.$"
         ],
         "correct": 3,
-        "explanation": "Theo định luật Boyle, khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất gây ra bởi khí tỉ lệ nghịch với thể tích của nó  ⇒p∼1V  hay  V∼1p .​\nTa cũng có:  p1V1=p2V2"
+        "explanation": "Theo định luật Boyle, khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất gây ra bởi khí tỉ lệ nghịch với thể tích của nó $\\Rightarrow p∼\\frac{1}{V}$ hay $V∼\\frac{1}{p}$.​\nTa cũng có: ${p}_{1}{V}_{1}={p}_{2}{V}_{2}$",
+        "type": null,
+        "items": []
       },
       {
         "id": 4,
@@ -5112,19 +5484,23 @@
           "D. Áp suất, nhiệt độ, khối lượng."
         ],
         "correct": 1,
-        "explanation": "Ba thông số trạng thái của một lượng khí xác định: áp suất, nhiệt độ, thể tích.​"
+        "explanation": "Ba thông số trạng thái của một lượng khí xác định: áp suất, nhiệt độ, thể tích.​",
+        "type": null,
+        "items": []
       },
       {
         "id": 5,
         "question": "Đồ thị nào dưới đây không phù hợp với quá trình đẳng nhiệt?",
         "options": [
-          "A.",
-          "B.",
-          "C.",
-          "D."
+          "A. <br><img src=\"./data/images/olm-2371132526/image1.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+          "B. <br><img src=\"./data/images/olm-2371132526/image2.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+          "C. <br><img src=\"./data/images/olm-2371132526/image3.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+          "D. <br><img src=\"./data/images/olm-2371132526/image4.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>"
         ],
         "correct": 1,
-        "explanation": "Quá trình đẳng nhiệt có nhiệt độ không đổi theo thời gian.​\nĐồ thị p - V trên có dạng một nhánh của đường hypebol ⇒ phù hợp với quá trình đẳng nhiệt.\nĐồ thị trên có nhiệt độ tuyệt dối T không đổi theo thời gian ⇒ phù hợp với quá trình đẳng nhiệt.\nĐồ thị trên có nhiệt độ tuyệt dối T không đổi theo thời gian ⇒ phù hợp với quá trình đẳng nhiệt.\nĐồ thị trên có áp suất p không đổi theo thời gian ⇒ không phù hợp với quá trình đẳng nhiệt."
+        "explanation": "Quá trình đẳng nhiệt có nhiệt độ không đổi theo thời gian.​\n<br><img src=\"./data/images/olm-2371132526/image1.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\nĐồ thị p - V trên có dạng một nhánh của đường hypebol ⇒ phù hợp với quá trình đẳng nhiệt.\n<br><img src=\"./data/images/olm-2371132526/image3.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\nĐồ thị trên có nhiệt độ tuyệt dối T không đổi theo thời gian ⇒ phù hợp với quá trình đẳng nhiệt.\n<br><img src=\"./data/images/olm-2371132526/image4.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\nĐồ thị trên có nhiệt độ tuyệt dối T không đổi theo thời gian ⇒ phù hợp với quá trình đẳng nhiệt.\n<br><img src=\"./data/images/olm-2371132526/image2.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\nĐồ thị trên có áp suất p không đổi theo thời gian ⇒ không phù hợp với quá trình đẳng nhiệt.",
+        "type": null,
+        "items": []
       },
       {
         "id": 6,
@@ -5136,7 +5512,9 @@
           "D. giảm tỉ lệ nghịch với áp suất."
         ],
         "correct": 0,
-        "explanation": "Do T = hằng số nên p∼1V ​\nMặt khác, số đơn vị trong một đơn vị thể tích:  n=NV\nSuy ra  n∼p"
+        "explanation": "Do T = hằng số nên$p∼\\frac{1}{V}$​\nMặt khác, số đơn vị trong một đơn vị thể tích: $n=\\frac{N}{V}$\nSuy ra $n∼p$",
+        "type": null,
+        "items": []
       },
       {
         "id": 7,
@@ -5148,62 +5526,71 @@
           "D. không thay đổi."
         ],
         "correct": 1,
-        "explanation": "Quá trình đã thực hiện là quá trình đẳng nhiệt. Theo định luật Boyle, khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất gây ra bởi khí tỉ lệ nghịch với thể tích của nó.​\n⇒ Khi thể tích giảm đi 3 lần thì áp suất khí trong xilanh tăng lên 3 lần."
+        "explanation": "Quá trình đã thực hiện là quá trình đẳng nhiệt. Theo định luật Boyle, khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất gây ra bởi khí tỉ lệ nghịch với thể tích của nó.​\n⇒ Khi thể tích giảm đi 3 lần thì áp suất khí trong xilanh tăng lên 3 lần.",
+        "type": null,
+        "items": []
       },
       {
         "id": 8,
         "question": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle?",
         "options": [
-          "A.",
-          "B.",
-          "C.",
-          "D."
+          "A. <br><img src=\"./data/images/olm-2371132526/image5.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+          "B. <br><img src=\"./data/images/olm-2371132526/image6.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+          "C. <br><img src=\"./data/images/olm-2371132526/image7.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+          "D. <br><img src=\"./data/images/olm-2371132526/image8.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>"
         ],
         "correct": 1,
-        "explanation": "Theo định luật Boyle:  p∼1V\n⇒ Đồ thị biểu diễn đúng định luật Boyle là đồ thị biểu diễn  p  theo  1V  là một đường thẳng có đường kéo dài đi qua gốc O."
+        "explanation": "Theo định luật Boyle: $p∼\\frac{1}{V}$\n⇒ Đồ thị biểu diễn đúng định luật Boyle là đồ thị biểu diễn $p$ theo $\\frac{1}{V}$ là một đường thẳng có đường kéo dài đi qua gốc O.",
+        "type": null,
+        "items": []
       },
       {
         "id": 9,
         "question": "Một lượng khí có thể tích là 20 L ở áp suất 105 Pa. Biết nhiệt độ của khí không đổi. Thể tích của lượng khí này ở áp suất 4.105 Pa là bao nhiêu L?",
         "options": [
-          "Đáp số: 5"
+          "A. [5]"
         ],
         "correct": 0,
-        "explanation": "Theo định luật Boyle:​\np1V1=p2V2⇒V2=p1V1p2=105.204.105=5  L.",
+        "explanation": "Đáp án chính xác: [5]\nTheo định luật Boyle:​\n${p}_{1}{V}_{1}={p}_{2}{V}_{2} \\Rightarrow {V}_{2}=\\frac{{p}_{1}{V}_{1}}{{p}_{2}}=\\frac{{10}^{5.20}}{{4.10}^{5}}=5$ L.",
         "type": "short_answer",
-        "correctAnswer": "5"
+        "items": [],
+        "correctAnswer": "[5]"
       },
       {
         "id": 10,
         "question": "Một quả bóng chứa 0,05 m3 không khí ở áp suất 150 kPa. Khi làm giảm thể tích bóng còn 0,02 m3 ở nhiệt độ không đổi thì áp suất của không khí trong bóng là bao nhiêu kPa?",
         "options": [
-          "A. Xem hướng dẫn giải",
-          "B. Đang cập nhật"
+          "A. ​ [375]."
         ],
         "correct": 0,
-        "explanation": "​Theo định luật Boyle:\np1V1=p2V2⇒p2=p1V1V2=150000.0,050,02=375000  Pa  =375  kPa"
+        "explanation": "Đáp án chính xác: ​ [375].\n​Theo định luật Boyle:\n${p}_{1}{V}_{1}={p}_{2}{V}_{2} \\Rightarrow {p}_{2}=\\frac{{p}_{1}{V}_{1}}{{V}_{2}}=\\frac{150000.0,05}{0,02}=375000$ Pa $=375$ kPa",
+        "type": "short_answer",
+        "items": [],
+        "correctAnswer": "​ [375]."
       },
       {
         "id": 11,
-        "question": "Một bọt khí nổi từ đáy giếng sâu 5 m lên mặt nước. Coi áp suất khí quyển là 1,013.105 Pa; khối lượng riêng của nước giếng là 1003 kg/m3 và nhiệt độ của nước giếng không thay đổi theo độ sâu. Lấy  g  = 9,8 m/s2. Hỏi khi lên tới mặt nước, thể tích của bọt khí tăng lên bao nhiêu lần? (Kết quả lấy đến 1 chữ số có nghĩa).​",
+        "question": "Một bọt khí nổi từ đáy giếng sâu 5 m lên mặt nước. Coi áp suất khí quyển là 1,013.105 Pa; khối lượng riêng của nước giếng là 1003 kg/m3 và nhiệt độ của nước giếng không thay đổi theo độ sâu. Lấy $g$ = 9,8 m/s2. Hỏi khi lên tới mặt nước, thể tích của bọt khí tăng lên bao nhiêu lần? (Kết quả lấy đến 1 chữ số có nghĩa).​",
         "options": [
-          "Đáp số: 1,5  hoặc 1.5"
+          "A. [1,5  hoặc 1.5]"
         ],
         "correct": 0,
-        "explanation": "Áp suất tại đáy giếng:​\np1=p0+ρgh=1,013.105+1003.9,8.5=150447  Pa\nTheo định luật Boyle:\np1V1=p2V2⇒V2=p1V1p2=150447.V11,013.105=1,49V1≈1,5V1\nVậy thể tích của bọt khí tăng lên 1,5 lần khi lên tới mặt nước.",
+        "explanation": "Đáp án chính xác: [1,5  hoặc 1.5]\nÁp suất tại đáy giếng:​\n${p}_{1}={p}_{0}+ρgh=1,{013.10}^{5}+1003.9,8.5=150447$ Pa\nTheo định luật Boyle:\n${p}_{1}{V}_{1}={p}_{2}{V}_{2} \\Rightarrow {V}_{2}=\\frac{{p}_{1}{V}_{1}}{{p}_{2}}=\\frac{150447.{V}_{1}}{1,{013.10}^{5}}=1,49{V}_{1}≈1,5{V}_{1}$\nVậy thể tích của bọt khí tăng lên 1,5 lần khi lên tới mặt nước.",
         "type": "short_answer",
-        "correctAnswer": "1,5  hoặc 1.5"
+        "items": [],
+        "correctAnswer": "[1,5  hoặc 1.5]"
       },
       {
         "id": 12,
         "question": "Một lượng khí ở nhiệt độ 25 oC có thể tích 1 m3 và áp suất 1 atm. Người ta nén đẳng nhiệt lượng khí này đến áp suất 2,5 atm. Hỏi thể tích khí sau khi nén là bao nhiêu m3?",
         "options": [
-          "Đáp số: 0,4  hoặc  0.4"
+          "A. [0,4  hoặc  0.4]"
         ],
         "correct": 0,
-        "explanation": "​Quá trình nén khí là đẳng nhiệt nên theo định luật Boyle, ta có:\np1V1=p2V2⇒V2=p1V1p2=1.12,5=0,4  m3",
+        "explanation": "Đáp án chính xác: [0,4  hoặc  0.4]\n​Quá trình nén khí là đẳng nhiệt nên theo định luật Boyle, ta có:\n${p}_{1}{V}_{1}={p}_{2}{V}_{2} \\Rightarrow {V}_{2}=\\frac{{p}_{1}{V}_{1}}{{p}_{2}}=\\frac{1.1}{2,5}=0,4$ m3",
         "type": "short_answer",
-        "correctAnswer": "0,4  hoặc  0.4"
+        "items": [],
+        "correctAnswer": "[0,4  hoặc  0.4]"
       },
       {
         "id": 13,
@@ -5215,22 +5602,22 @@
         "items": [
           {
             "label": "a",
-            "text": "Quá trình đẳng nhiệt là quá trình biến đổi trạng thái của một khối lượng khí xác định khi nhiệt độ giữ không đổi.( T )",
-            "correct": false
+            "text": "Quá trình đẳng nhiệt là quá trình biến đổi trạng thái của một khối lượng khí xác định khi nhiệt độ giữ không đổi",
+            "correct": true
           },
           {
             "label": "b",
-            "text": "Định luật Boyle phù hợp với quá trình đẳng nhiệt.( T )",
-            "correct": false
+            "text": "Định luật Boyle phù hợp với quá trình đẳng nhiệt",
+            "correct": true
           },
           {
             "label": "c",
-            "text": "Khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất gây ra bởi khí tỉ lệ thuận với thể tích của nó.( F )",
+            "text": "Khi nhiệt độ của một khối lượng khí xác định giữ không đổi thì áp suất gây ra bởi khí tỉ lệ thuận với thể tích của nó",
             "correct": false
           },
           {
             "label": "d",
-            "text": "Đồ thị biểu diễn định luật Boyle là một nhánh của đường parabol.( F )",
+            "text": "Đồ thị biểu diễn định luật Boyle là một nhánh của đường parabol",
             "correct": false
           }
         ]
@@ -5240,27 +5627,27 @@
         "question": "Một xilanh chứa 150 cm3 khí ở áp suất 105 Pa. Pít-tông nén khí trong xilanh xuống còn 100 cm3. Coi nhiệt độ như không đổi.",
         "options": [],
         "correct": 0,
-        "explanation": "a) Quá trình thực hiện là quá trình đẳng nhiệt vì nhiệt độ không đổi.\nb) Có thể áp dụng định luật Boyle với quá trình này vì nhiệt độ không đổi.\nc) Đồ thị p - V của quá trình này có dạng là một phần của đường hypebol.\nd) Theo định luật Boyle, áp suất của khí trong xilanh lúc sau là:\np1V1=p2V2⇒p2=p1V1V2=105.150100=1,5.105  Pa",
+        "explanation": "a) Quá trình thực hiện là quá trình đẳng nhiệt vì nhiệt độ không đổi.\nb) Có thể áp dụng định luật Boyle với quá trình này vì nhiệt độ không đổi.\nc) Đồ thị p - V của quá trình này có dạng là một phần của đường hypebol.\nd) Theo định luật Boyle, áp suất của khí trong xilanh lúc sau là:\n${p}_{1}{V}_{1}={p}_{2}{V}_{2} \\Rightarrow {p}_{2}=\\frac{{p}_{1}{V}_{1}}{{V}_{2}}=\\frac{{10}^{5.150}}{100}=1,{5.10}^{5}$ Pa",
         "type": "true_false",
         "items": [
           {
             "label": "a",
-            "text": "Quá trình thực hiện là quá trình đẳng nhiệt.( T )",
-            "correct": false
+            "text": "Quá trình thực hiện là quá trình đẳng nhiệt",
+            "correct": true
           },
           {
             "label": "b",
-            "text": "Có thể áp dụng định luật Boyle với quá trình này.( T )",
-            "correct": false
+            "text": "Có thể áp dụng định luật Boyle với quá trình này",
+            "correct": true
           },
           {
             "label": "c",
-            "text": "Đồ thị p - V của quá trình này có dạng là một đường thẳng có đường nối dài đi qua gốc tọa độ.( F )",
+            "text": "Đồ thị p - V của quá trình này có dạng là một đường thẳng có đường nối dài đi qua gốc tọa độ",
             "correct": false
           },
           {
             "label": "d",
-            "text": "Áp suất của khí trong xilanh lúc sau là 2.105 Pa.( F )",
+            "text": "Áp suất của khí trong xilanh lúc sau là 2.105 Pa",
             "correct": false
           }
         ]
@@ -5269,51 +5656,53 @@
         "id": 15,
         "question": "Nén khí đẳng nhiệt từ thể tích 10 L đến thể tích 2,5 L thì áp suất của khí tăng lên bao nhiêu lần?",
         "options": [
-          "Đáp số: 4"
+          "A. [4]"
         ],
         "correct": 0,
-        "explanation": "Theo định luật Boyle ta có:​\np2=p1V1V2=p1.102,5=4p1",
+        "explanation": "Đáp án chính xác: [4]\nTheo định luật Boyle ta có:​\n${p}_{2}=\\frac{{p}_{1}{V}_{1}}{{V}_{2}}=\\frac{{p}_{1.10}}{2,5}=4{p}_{1}$",
         "type": "short_answer",
-        "correctAnswer": "4"
+        "items": [],
+        "correctAnswer": "[4]"
       },
       {
         "id": 16,
-        "question": "Nén khí đẳng nhiệt từ thể tích 15 L đến thể tích 10 L thì thấy áp suất khí tăng lên một lượng  Δp  = 40 kPa. Hỏi áp suất ban đầu của lượng khí là bao nhiêu kPa?",
+        "question": "Nén khí đẳng nhiệt từ thể tích 15 L đến thể tích 10 L thì thấy áp suất khí tăng lên một lượng $\\Delta p$ = 40 kPa. Hỏi áp suất ban đầu của lượng khí là bao nhiêu kPa?",
         "options": [
-          "Đáp số: 80"
+          "A. [80]"
         ],
         "correct": 0,
-        "explanation": "Theo định luật Boyle:​\np1p2=V1V2⇒p1+40p1=1510=1,5\n⇒p1=80  kPa.",
+        "explanation": "Đáp án chính xác: [80]\nTheo định luật Boyle:​\n$\\frac{{p}_{1}}{{p}_{2}}=\\frac{{V}_{1}}{{V}_{2}} \\Rightarrow \\frac{{p}_{1}+40}{{p}_{1}}=\\frac{15}{10}=1,5$\n$\\Rightarrow {p}_{1}=80$ kPa.",
         "type": "short_answer",
-        "correctAnswer": "80"
+        "items": [],
+        "correctAnswer": "[80]"
       },
       {
         "id": 17,
-        "question": "Khí hydrogen được điều chế và chứa vào một bình lớn dưới áp suất 1 atm, ở nhiệt độ 20 oC. Coi nhiệt độ không đổi. Người ta lấy một thể tích  V0  (L) khí hydrogen từ bình lớn ra để nạp vào bình nhỏ thể tích 15 L ở áp suất 30 atm.",
+        "question": "Khí hydrogen được điều chế và chứa vào một bình lớn dưới áp suất 1 atm, ở nhiệt độ 20 oC. Coi nhiệt độ không đổi. Người ta lấy một thể tích ${V}_{0}$ (L) khí hydrogen từ bình lớn ra để nạp vào bình nhỏ thể tích 15 L ở áp suất 30 atm.",
         "options": [],
         "correct": 0,
-        "explanation": "a) Quá trình thực hiện là quá trình đẳng nhiệt vì có nhiệt độ không đổi.​\nb) Có thể áp dụng định luật Boyle với quá trình này vì nhiệt độ không đổi.\nc) Đồ thị V - T của quá trình này có dạng một đường thẳng cắt trục OT và song song với trục OV như sau:\nd) Theo định luật Boyle:\np0V0=pV⇒1.V0=30.15\n⇒V0=450  L",
+        "explanation": "a) Quá trình thực hiện là quá trình đẳng nhiệt vì có nhiệt độ không đổi.​\nb) Có thể áp dụng định luật Boyle với quá trình này vì nhiệt độ không đổi.\nc) Đồ thị V - T của quá trình này có dạng một đường thẳng cắt trục OT và song song với trục OV như sau:\n<br><img src=\"./data/images/olm-2371132526/image9.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\nd) Theo định luật Boyle:\n${p}_{0}{V}_{0}=pV \\Rightarrow 1.{V}_{0}=30.15$\n$\\Rightarrow {V}_{0}=450$ L",
         "type": "true_false",
         "items": [
           {
             "label": "a",
-            "text": "Quá trình thực hiện không phải là quá trình đẳng nhiệt.( F )",
+            "text": "Quá trình thực hiện không phải là quá trình đẳng nhiệt",
             "correct": false
           },
           {
             "label": "b",
-            "text": "Có thể áp dụng định luật Boyle với quá trình này.( T )",
-            "correct": false
+            "text": "Có thể áp dụng định luật Boyle với quá trình này",
+            "correct": true
           },
           {
             "label": "c",
-            "text": "Đồ thị V - T của quá trình này có dạng một đường thẳng.( T )",
-            "correct": false
+            "text": "Đồ thị V - T của quá trình này có dạng một đường thẳng",
+            "correct": true
           },
           {
             "label": "d",
-            "text": "V0  có giá trị là 450 L.( T )",
-            "correct": false
+            "text": "${V}_{0}$ có giá trị là 450 L",
+            "correct": true
           }
         ]
       },
@@ -5321,12 +5710,13 @@
         "id": 18,
         "question": "Biết ở nhiệt độ 0 oC và áp suất 1 atm thì khối lượng riêng của khí oxygen là 1,43 kg/m3. Hỏi khối lượng khí oxygen đựng trong một bình thể tích 10 L dưới áp suất 100 atm ở nhiệt độ 0 oC là bao nhiêu kg?",
         "options": [
-          "Đáp số: 1,43  hoặc  1.43"
+          "A. [1,43  hoặc  1.43]"
         ],
         "correct": 0,
-        "explanation": "​Ta có:  D0=mV0  và  D=mV  suy ra  D0V0=DV\nÁp dụng định luật Boyle vì nhiệt độ không đổi:  p0V0=pV\nSuy ra:  D=D0.pp0=1,43.1001=143  kg/m3\nKhối lượng khí oxygen là:  m=D.V=143.10.10-3=1,43  kg",
+        "explanation": "Đáp án chính xác: [1,43  hoặc  1.43]\n​Ta có: ${D}_{0}=\\frac{m}{{V}_{0}}$ và $D=\\frac{m}{V}$ suy ra ${D}_{0}{V}_{0}=DV$\nÁp dụng định luật Boyle vì nhiệt độ không đổi: ${p}_{0}{V}_{0}=pV$\nSuy ra: $D=\\frac{{D}_{0.}p}{{p}_{0}}=\\frac{1,43.100}{1}=143$ kg/m3\nKhối lượng khí oxygen là: $m=D.V=143.\\left( {10.10}^{-3} \\right)=1,43$ kg",
         "type": "short_answer",
-        "correctAnswer": "1,43  hoặc  1.43"
+        "items": [],
+        "correctAnswer": "[1,43  hoặc  1.43]"
       },
       {
         "id": 19,
@@ -5338,22 +5728,25 @@
           "D. 6.105 Pa; 12 L."
         ],
         "correct": 0,
-        "explanation": "Theo định luật Boyle ta có:​\npV=p1V1⇒pV=p+2.105V-3        (1)\nTa lại có:\npV=p2V2⇒pV=p+5.105V-5         (2)\nTừ (1) và (2) suy ra:\np=4.105  Pa;  V=9  L"
+        "explanation": "Theo định luật Boyle ta có:​\n$pV={p}_{1}{V}_{1} \\Rightarrow pV=\\left( p+{2.10}^{5} \\right)\\left( V-3 \\right)$       (1)\nTa lại có:\n$pV={p}_{2}{V}_{2} \\Rightarrow pV=\\left( p+{5.10}^{5} \\right)\\left( V-5 \\right)$        (2)\nTừ (1) và (2) suy ra:\n$p={4.10}^{5}$ Pa; $V=9$ L",
+        "type": null,
+        "items": []
       },
       {
         "id": 20,
-        "question": "Cho một khối lượng khí không đổi thực hiện quá trình biến đổi theo đồ thị sau:",
+        "question": "Cho một khối lượng khí không đổi thực hiện quá trình biến đổi theo đồ thị sau:\n<br><img src=\"./data/images/olm-2371132526/image10.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\nBiết rằng ban đầu khối khí có thể tích $V$ = 12 L, thể tích của khối khí ở trạng thái cuối là bao nhiêu L?",
         "options": [
-          "Đáp số: 2"
+          "A. [2]"
         ],
         "correct": 0,
-        "explanation": "Theo đồ thị, khí thực hiện quá trình biến đổi đẳng nhiệt.​\nTrạng thái ban đầu:  p=0,5  atm;  V=12  L\nTrạng thái cuối:  p'=3  atm;  V'=?\nTheo định luật Boyle ta có:\nV'=pVp'=0,5.123=2  L",
+        "explanation": "Đáp án chính xác: [2]\nTheo đồ thị, khí thực hiện quá trình biến đổi đẳng nhiệt.​\nTrạng thái ban đầu: $p=0,5$ atm; $V=12$ L\nTrạng thái cuối: ${p}^{'}=3$ atm; ${V}^{'}=?$\nTheo định luật Boyle ta có:\n${V}^{'}=\\frac{pV}{{p}^{'}}=\\frac{0,5.12}{3}=2$ L",
         "type": "short_answer",
-        "correctAnswer": "2"
+        "items": [],
+        "correctAnswer": "[2]"
       },
       {
         "id": 21,
-        "question": "Một học sinh khảo sát quá trình đẳng nhiệt của một khối khí và thu được đồ thị có dạng như hình vẽ dưới đây, tuy nhiên học sinh đó lại quên không ghi tên các trục của đồ thị. Hỏi học sinh đó đã sử dụng hệ trục toạ độ nào dưới đây?",
+        "question": "Một học sinh khảo sát quá trình đẳng nhiệt của một khối khí và thu được đồ thị có dạng như hình vẽ dưới đây, tuy nhiên học sinh đó lại quên không ghi tên các trục của đồ thị. Hỏi học sinh đó đã sử dụng hệ trục toạ độ nào dưới đây?\n<br><img src=\"./data/images/olm-2371132526/image11.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
         "options": [
           "A. (p, V).",
           "B. (V, p).",
@@ -5361,11 +5754,13 @@
           "D. (T, V)."
         ],
         "correct": 2,
-        "explanation": "Từ đề bài ta thấy nhiệt độ của khối khí không đổi, do vậy trục trung là trục nhiệt độ.​"
+        "explanation": "Từ đề bài ta thấy nhiệt độ của khối khí không đổi, do vậy trục trung là trục nhiệt độ.​\n<br><img src=\"./data/images/olm-2371132526/image12.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+        "type": null,
+        "items": []
       },
       {
         "id": 22,
-        "question": "Một học sinh khảo sát quá trình đẳng nhiệt của một khối khí và thu được đồ thị có dạng như hình vẽ dưới đây, tuy nhiên học sinh đó lại quên không ghi tên các trục của đồ thị. Hỏi học sinh đó đã sử dụng hệ trục toạ độ nào dưới đây?",
+        "question": "Một học sinh khảo sát quá trình đẳng nhiệt của một khối khí và thu được đồ thị có dạng như hình vẽ dưới đây, tuy nhiên học sinh đó lại quên không ghi tên các trục của đồ thị. Hỏi học sinh đó đã sử dụng hệ trục toạ độ nào dưới đây?\n<br><img src=\"./data/images/olm-2371132526/image13.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
         "options": [
           "A. (V, p).",
           "B. (V, T).",
@@ -5373,41 +5768,47 @@
           "D. (p, T)."
         ],
         "correct": 0,
-        "explanation": "Đồ thị có dạng 1 phần đường hypebol và là đồ thị của quá trình đẳng nhiệt. Vậy hệ tọa độ đã sử dụng là (V, p).​"
+        "explanation": "Đồ thị có dạng 1 phần đường hypebol và là đồ thị của quá trình đẳng nhiệt. Vậy hệ tọa độ đã sử dụng là (V, p).​\n<br><img src=\"./data/images/olm-2371132526/image14.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
+        "type": null,
+        "items": []
       },
       {
         "id": 23,
-        "question": "Gọi  p1  và  D1  là áp suất và khối lượng riêng của một khối khí ở trạng thái ban đầu;  p2  và  D2  là áp suất và khối lượng riêng của khối khí đó ở trạng thái sau khi nén. Coi rằng nhiệt độ của khối khí đó không thay đổi trong suốt quá trình nén, khi đó ta có hệ thức nào dưới đây?",
+        "question": "Gọi ${p}_{1}$ và ${D}_{1}$ là áp suất và khối lượng riêng của một khối khí ở trạng thái ban đầu; ${p}_{2}$ và ${D}_{2}$ là áp suất và khối lượng riêng của khối khí đó ở trạng thái sau khi nén. Coi rằng nhiệt độ của khối khí đó không thay đổi trong suốt quá trình nén, khi đó ta có hệ thức nào dưới đây?",
         "options": [
-          "A. p1D1=p2D2.",
-          "B. p1p2=D1D2.",
-          "C. p1D2=p2D1.",
-          "D. p1p2=D1D2."
+          "A. ${p}_{1}{D}_{1}={p}_{2}{D}_{2.}$",
+          "B. ${p}_{1}{p}_{2}={D}_{1}{D}_{2.}$",
+          "C. $\\frac{{p}_{1}}{{D}_{2}}=\\frac{{p}_{2}}{{D}_{1}}.$",
+          "D. $\\frac{{p}_{1}}{{p}_{2}}=\\frac{{D}_{1}}{{D}_{2}}.$"
         ],
         "correct": 3,
-        "explanation": "Ta có:  D1=mV1  và  D2=mV2\nSuy ra  D1V1=D2V2⇒V1V2=D2D1       (1)\nÁp dụng định luật Boyle vì nhiệt độ không đổi:\np1V1=p2V2⇒V1V2=p2p1          (2)\nTừ (1) và (2) suy ra:  p1p2=D1D2. ​"
+        "explanation": "Ta có: ${D}_{1}=\\frac{m}{{V}_{1}}$ và ${D}_{2}=\\frac{m}{{V}_{2}}$\nSuy ra ${D}_{1}{V}_{1}={D}_{2}{V}_{2} \\Rightarrow \\frac{{V}_{1}}{{V}_{2}}=\\frac{{D}_{2}}{{D}_{1}}$      (1)\nÁp dụng định luật Boyle vì nhiệt độ không đổi:\n${p}_{1}{V}_{1}={p}_{2}{V}_{2} \\Rightarrow \\frac{{V}_{1}}{{V}_{2}}=\\frac{{p}_{2}}{{p}_{1}}$         (2)\nTừ (1) và (2) suy ra: $\\frac{{p}_{1}}{{p}_{2}}=\\frac{{D}_{1}}{{D}_{2}}.$​",
+        "type": null,
+        "items": []
       },
       {
         "id": 24,
         "question": "Cho một khối khí ở nhiệt độ phòng (25 oC), có thể tích 2 m3 và áp suất 1 atm. Người ta nén khối khí trong bình tới áp suất 5 atm. Biết rằng nhiệt độ của khối khí được giữ không đổi trong suốt quá trình nén, thể tích khối khí sau khi nén là bao nhiêu m3?",
         "options": [
-          "Đáp số: 0,4  hoặc  0.4"
+          "A. [0,4  hoặc  0.4]"
         ],
         "correct": 0,
-        "explanation": "​Theo định luật Boyle ta có:\nV2=p1V1p2=2.15=0,4  m3",
+        "explanation": "Đáp án chính xác: [0,4  hoặc  0.4]\n​Theo định luật Boyle ta có:\n${V}_{2}=\\frac{{p}_{1}{V}_{1}}{{p}_{2}}=\\frac{2.1}{5}=0,4$ m3",
         "type": "short_answer",
-        "correctAnswer": "0,4  hoặc  0.4"
+        "items": [],
+        "correctAnswer": "[0,4  hoặc  0.4]"
       },
       {
         "id": 25,
-        "question": "Một bong bóng không khí ở dưới đáy một hồ nước có độ sâu 4 m. Khi bong bóng nổi lên mặt hồ, người ta đo được thế tích của nó là 1 mm3. Giả sử rằng nhiệt độ ở dưới đáy hồ và trên mặt hồ là bằng nhau. Biết áp suất khí quyến  p0  = 1,013.105 N/m2 và khối lượng riêng của nước là 1000 kg/m3. Lấy  g  = 9,8 m/s2. Thể tích của bong bóng khi ở dưới đáy hồ bằng bao nhiêu mm3? (Kết quả lấy đến 2 chữ số có nghĩa).​",
+        "question": "Một bong bóng không khí ở dưới đáy một hồ nước có độ sâu 4 m. Khi bong bóng nổi lên mặt hồ, người ta đo được thế tích của nó là 1 mm3. Giả sử rằng nhiệt độ ở dưới đáy hồ và trên mặt hồ là bằng nhau. Biết áp suất khí quyến ${p}_{0}$ = 1,013.105 N/m2 và khối lượng riêng của nước là 1000 kg/m3. Lấy $g$ = 9,8 m/s2. Thể tích của bong bóng khi ở dưới đáy hồ bằng bao nhiêu mm3? (Kết quả lấy đến 2 chữ số có nghĩa).​",
         "options": [
-          "Đáp số: 0,72  hoặc  0.72"
+          "A. [0,72  hoặc  0.72]"
         ],
         "correct": 0,
-        "explanation": "Áp suất tại đáy hồ:​\np1=p0+ρgh=1,013.105+1000.9,8.4=140500  N/m2\nTheo định luật Boyle:\np1V1=p2V2⇒V1=p2V2p1=1,013.105.1140500=0,72  mm3",
+        "explanation": "Đáp án chính xác: [0,72  hoặc  0.72]\nÁp suất tại đáy hồ:​\n${p}_{1}={p}_{0}+ρgh=1,{013.10}^{5}+1000.9,8.4=140500$ N/m2\nTheo định luật Boyle:\n${p}_{1}{V}_{1}={p}_{2}{V}_{2} \\Rightarrow {V}_{1}=\\frac{{p}_{2}{V}_{2}}{{p}_{1}}=\\frac{1,{013.10}^{5.1}}{140500}=0,72$ mm3",
         "type": "short_answer",
-        "correctAnswer": "0,72  hoặc  0.72"
+        "items": [],
+        "correctAnswer": "[0,72  hoặc  0.72]"
       }
     ]
   },
@@ -5428,259 +5829,240 @@
     "questions": [
       {
         "id": 1,
-        "question": "Trong không gian Oxyz , biết  OM=2i−3j+k  . Toạ độ của điểm M là",
+        "question": "Trong không gian Oxyz , biết $\\vec{OM}=2\\vec{i}-3\\vec{j}+\\vec{k}$ . Toạ độ của điểm M là",
         "options": [
-          "A. (−2;3;−1)  .",
-          "B. (2;−3;1)  .",
-          "C. (−3;2;1)  .",
-          "D. (2;1;−3)  ."
+          "A. $(-2;3;-1)$ .B. $(2;-3;1)$ .C. $(-3;2;1)$ .D. $(2;1;-3)$ ."
         ],
         "correct": 1,
-        "explanation": "Vì  OM=2i−3j+k  nên  M(2;−3;1)  ."
+        "explanation": "Vì $\\vec{OM}=2\\vec{i}-3\\vec{j}+\\vec{k}$ nên $M(2;-3;1)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 2,
-        "question": "Trong không gian Oxyz , gọi  M′  là hình chiếu vuông góc của điểm  M2; 3; −1  trên trục Oy thì tọa độ  MM′  là",
+        "question": "Trong không gian Oxyz , gọi ${M}^{′}$ là hình chiếu vuông góc của điểm $M\\left( 2; 3; -1 \\right)$ trên trục Oy thì tọa độ $\\vec{M{M}^{′}}$ là",
         "options": [
-          "A. 0; 2; 3  .",
-          "B. 3; 0; 0.",
-          "C. 0; 3; 0.",
-          "D. −2; 0; 1."
+          "A. $\\left( 0; 2; 3 \\right)$ .B. $\\left( 3; 0; 0 \\right).$C. $\\left( 0; 3; 0 \\right).$D. $\\left( -2; 0; 1 \\right).$"
         ],
         "correct": 3,
-        "explanation": "Ta có  M′0; 3; 0  nên  MM′=−2; 0; 1  ."
+        "explanation": "Ta có ${M}^{′}\\left( 0; 3; 0 \\right)$ nên $\\vec{M{M}^{′}}=\\left( -2; 0; 1 \\right)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 3,
-        "question": "Trong không gian Oxyz , cho điểm M(a ; b ; c) . Tọa độ của vectơ  OM  là",
+        "question": "Trong không gian Oxyz , cho điểm M(a ; b ; c) . Tọa độ của vectơ $\\vec{OM}$ là",
         "options": [
-          "A. (−a;b;c)  .",
-          "B. (−a;b;−c)  .",
-          "C. (a ; b ; c) .",
-          "D. (−a;−b;−c)  ."
+          "A. $(-a;b;c)$ .B. $(-a;b;-c)$ .C. (a ; b ; c) .D. $(-a;-b;-c)$ ."
         ],
         "correct": 2,
-        "explanation": "Ta có  OM=(a;b;c)  .​"
+        "explanation": "Ta có $\\vec{OM}=(a;b;c)$ .​",
+        "type": null,
+        "items": []
       },
       {
         "id": 4,
-        "question": "Trong không gian với hệ tọa độ Oxyz , cho  u=2i+3j−k  , khi đó tọa độ vectơ  u  là",
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho $\\vec{u}=2\\vec{i}+3\\vec{j}-\\vec{k}$ , khi đó tọa độ vectơ $\\vec{u}$ là",
         "options": [
-          "A. (2;3;1)  .",
-          "B. (2;3;−1)  .",
-          "C. (−2; 3; 1)  .",
-          "D. (2;−3;−1)  ."
+          "A. $(2;3;1)$ .B. $(2;3;-1)$ .C. $(-2; 3; 1)$ .D. $(2;-3;-1)$ ."
         ],
         "correct": 1,
-        "explanation": "Theo định nghĩa ta có  i=(1;0;0)  ,  j=(0;1;0)  và  k=(0;0;1)  .\nDo đó,  u=2i+3j−k⇔u=(2;3;−1)  ."
+        "explanation": "Theo định nghĩa ta có $\\vec{i}=(1;0;0)$ , $\\vec{j}=(0;1;0)$ và $\\vec{k}=(0;0;1)$ .\nDo đó, $\\vec{u}=2\\vec{i}+3\\vec{j}-\\vec{k} \\Leftrightarrow \\vec{u}=(2;3;-1)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 5,
-        "question": "Trong không gian Oxyz , cho vectơ  a  được biểu diễn bởi các vectơ đơn vị là  a=2i+k−3j  . Tọa độ của vectơ  a  là",
+        "question": "Trong không gian Oxyz , cho vectơ $\\vec{a}$ được biểu diễn bởi các vectơ đơn vị là $\\vec{a}=2\\vec{i}+\\vec{k}-3\\vec{j}$ . Tọa độ của vectơ $\\vec{a}$ là",
         "options": [
-          "A. (2; −3; 1)  .",
-          "B. (1; 2; −3)  .",
-          "C. (1; −3; 2)  .",
-          "D. (2; 1; −3)  ."
+          "A. $(2; -3; 1)$ .B. $(1; 2; -3)$ .C. $(1; -3; 2)$ .D. $(2; 1; -3)$ ."
         ],
         "correct": 0,
-        "explanation": "a=2i+k−3j=2i−3j+k  nên  a=(2;−3;1)  ."
+        "explanation": "$\\vec{a}=2\\vec{i}+\\vec{k}-3\\vec{j}=2\\vec{i}-3\\vec{j}+\\vec{k}$ nên $\\vec{a}=(2;-3;1)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 6,
-        "question": "Trong không gian Oxyz , gọi  A′  là hình chiếu vuông góc của điểm  A1;2;3  trên mặt phẳng  Oyz  thì tọa độ  AA′  là",
+        "question": "Trong không gian Oxyz , gọi ${A}^{′}$ là hình chiếu vuông góc của điểm $A\\left( 1;2;3 \\right)$ trên mặt phẳng $\\left( Oyz \\right)$ thì tọa độ $\\vec{A{A}^{′}}$ là",
         "options": [
-          "A. −1; 0; 0  .",
-          "B. 0; 2; 3  .",
-          "C. 1; 0; 0  .",
-          "D. 0; 2; 0  ."
+          "A. $\\left( -1; 0; 0 \\right)$ .B. $\\left( 0; 2; 3 \\right)$ .C. $\\left( 1; 0; 0 \\right)$ .D. $\\left( 0; 2; 0 \\right)$ ."
         ],
         "correct": 0,
-        "explanation": "Ta có  A′0; 2; 3  nên  AA′=−1; 0; 0  ."
+        "explanation": "Ta có ${A}^{′}\\left( 0; 2; 3 \\right)$ nên $\\vec{A{A}^{′}}=\\left( -1; 0; 0 \\right)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 7,
-        "question": "Trong không gian với hệ tọa độ Oxyz , cho  OM=(1;5;2)  ,  ON=(3;7;−4)  ,  K(−1;3;1)  . Gọi P là điểm đối xứng với M qua N . Tọa độ vectơ  KP  là",
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho $\\vec{OM}=(1;5;2)$ , $\\vec{ON}=(3;7;-4)$ , $K(-1;3;1)$ . Gọi P là điểm đối xứng với M qua N . Tọa độ vectơ $\\vec{KP}$ là",
         "options": [
-          "A. KP=(6;6;−11)  .",
-          "B. KP=(8;6;−11)  .",
-          "C. KP=(6;6;−4)  .",
-          "D. KP=(3;3;−2)  ."
+          "A. $\\vec{KP}=(6;6;-11)$ .B. $\\vec{KP}=(8;6;-11)$ .C. $\\vec{KP}=(6;6;-4)$ .D. $\\vec{KP}=(3;3;-2)$ ."
         ],
         "correct": 0,
-        "explanation": "Ta có:  OM=(1;5;2)⇒M(1;5;2)  ,  ON=(3;7;−4)⇒N(3;7;−4)  .\nVì P là điểm đối xứng với M qua N nên N là trung điểm của MP , ta suy ra được\nMN=NP\n⇔xN−xM=xP−xNyN−yM=yP−yNzN−zM=zP−zN\n⇔xP=5yP=9zP=−10⇒P(5;9;−10)  .\nKhi đó  KP=(6;6;−11)  ."
+        "explanation": "Ta có: $\\vec{OM}=(1;5;2) \\Rightarrow M(1;5;2)$ , $\\vec{ON}=(3;7;-4) \\Rightarrow N(3;7;-4)$ .\nVì P là điểm đối xứng với M qua N nên N là trung điểm của MP , ta suy ra được\n$\\vec{MN}=\\vec{NP}$\n$\\Leftrightarrow \\begin{cases} {x}_{N}-{x}_{M}={x}_{P}-{x}_{N} \\\\ {y}_{N}-{y}_{M}={y}_{P}-{y}_{N} \\\\ {z}_{N}-{z}_{M}={z}_{P}-{z}_{N} \\end{cases}$\n$\\Leftrightarrow \\begin{cases} {x}_{P}=5 \\\\ {y}_{P}=9 \\\\ {z}_{P}=-10 \\end{cases} \\Rightarrow P(5;9;-10)$ .\nKhi đó $\\vec{KP}=(6;6;-11)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 8,
-        "question": "Trong không gian với hệ tọa độ Oxyz , cho hai điểm  A(−1;1;−2), B(1;3;0)  . Khi đó tọa độ  AB  bằng",
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho hai điểm $A(-1;1;-2), B(1;3;0)$ . Khi đó tọa độ $\\vec{AB}$ bằng",
         "options": [
-          "A. AB=(2;2;2)  .",
-          "B. AB=(0;2;−1)  .",
-          "C. AB=(0;4;−2)  .",
-          "D. AB=(−2;−2;−2)  ."
+          "A. $\\vec{AB}=(2;2;2)$ .B. $\\vec{AB}=(0;2;-1)$ .C. $\\vec{AB}=(0;4;-2)$ .D. $\\vec{AB}=(-2;-2;-2)$ ."
         ],
         "correct": 0,
-        "explanation": "Ta có:  AB=(2;2;2)  ."
+        "explanation": "Ta có: $\\vec{AB}=(2;2;2)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 9,
-        "question": "Trong không gian với hệ tọa độ  (O, i, j, k)  , cho  OM=(2; −3; −1)  . Khẳng định nào sau đâyđúng?",
+        "question": "Trong không gian với hệ tọa độ $(O, \\vec{i}, \\vec{j}, \\vec{k})$ , cho $\\vec{OM}=(2; -3; -1)$ . Khẳng định nào sau đâyđúng?",
         "options": [
-          "A. M(−1; −3; 2)  .",
-          "B. M(−2; 3; 1)  .",
-          "C. OM=2i−3j−k  .",
-          "D. OM=2i+3j+k  ."
+          "A. $M(-1; -3; 2)$ .B. $M(-2; 3; 1)$ .C. $\\vec{OM}=2\\vec{i}-3\\vec{j}-\\vec{k}$ .D. $\\vec{OM}=2\\vec{i}+3\\vec{j}+\\vec{k}$ ."
         ],
         "correct": 2,
-        "explanation": "Dựa vào định nghĩa tọa độ của vectơ trong không gian,  OM=2i−3j−k  ."
+        "explanation": "Dựa vào định nghĩa tọa độ của vectơ trong không gian, $\\vec{OM}=2\\vec{i}-3\\vec{j}-\\vec{k}$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 10,
-        "question": "Trong không gian Oxyz , cho điểm  A4; −2; 3  . Tọa độ  AO  là",
+        "question": "Trong không gian Oxyz , cho điểm $A\\left( 4; -2; 3 \\right)$ . Tọa độ $\\vec{AO}$ là",
         "options": [
-          "A. −4; 2; −3  .",
-          "B. −2; 4; 3  .",
-          "C. 4; 2; −3  .",
-          "D. −2; 3; 4  ."
+          "A. $\\left( -4; 2; -3 \\right)$ .B. $\\left( -2; 4; 3 \\right)$ .C. $\\left( 4; 2; -3 \\right)$ .D. $\\left( -2; 3; 4 \\right)$ ."
         ],
         "correct": 0,
-        "explanation": "Ta có  AO=(0−4; 0+2; 0−3)=(−4; 2; −3)  .​"
+        "explanation": "Ta có $\\vec{AO}=(0-4; 0+2; 0-3)=(-4; 2; -3)$ .​",
+        "type": null,
+        "items": []
       },
       {
         "id": 11,
-        "question": "Trong không gian Oxyz với  i,j,k  lần lượt là vectơ đơn vị của các trục  Ox, Oy, Oz  , toạ độ của vectơ  a=2i+3k  là",
+        "question": "Trong không gian Oxyz với $\\vec{i},\\vec{j},\\vec{k}$ lần lượt là vectơ đơn vị của các trục $Ox, Oy, Oz$ , toạ độ của vectơ $\\vec{a}=2\\vec{i}+3\\vec{k}$ là",
         "options": [
-          "A. (3; 0; 2)  .",
-          "B. (0; 2; 3)  .",
-          "C. (2; 0; 3)  .",
-          "D. (2; 3; 0)  ."
+          "A. $(3; 0; 2)$ .B. $(0; 2; 3)$ .C. $(2; 0; 3)$ .D. $(2; 3; 0)$ ."
         ],
         "correct": 2,
-        "explanation": "Toạ độ của vectơ  a=2i+3k  là  (2; 0; 3)  .​"
+        "explanation": "Toạ độ của vectơ $\\vec{a}=2\\vec{i}+3\\vec{k}$ là $(2; 0; 3)$ .​",
+        "type": null,
+        "items": []
       },
       {
         "id": 12,
-        "question": "Trong không gian với hệ trục tọa độ O x y z , cho hai điểm  A, B  với  OA=(2;−1;3), OB=(5;2;−1)  . Tọa độ của vectơ  AB  là",
+        "question": "Trong không gian với hệ trục tọa độ O x y z , cho hai điểm $A, B$ với $\\vec{OA}=(2;-1;3), \\vec{OB}=(5;2;-1)$ . Tọa độ của vectơ $\\vec{AB}$ là",
         "options": [
-          "A. (−3;−3;4).",
-          "B. (3;3;−4).",
-          "C. (7;1;2).",
-          "D. (2;−1;3)."
+          "A. $(-3;-3;4).$B. $(3;3;-4).$C. $(7;1;2).$D. $(2;-1;3).$"
         ],
         "correct": 1,
-        "explanation": "​  AB=OB−OA\n=(5;2;−1)−(2;−1;3)=(3;3;−4)  ."
+        "explanation": "​ $\\vec{AB}=\\vec{OB}-\\vec{OA}$\n$=(5;2;-1)-(2;-1;3)=(3;3;-4)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 13,
-        "question": "Trong không gian Oxyz , cho điểm M thỏa mãn hệ thức  OM=2i+k  . Tọa độ của điểm M là",
+        "question": "Trong không gian Oxyz , cho điểm M thỏa mãn hệ thức $\\vec{OM}=2\\vec{i}+\\vec{k}$ . Tọa độ của điểm M là",
         "options": [
-          "A. (1;2;0)  .",
-          "B. (2;0;1)  .",
-          "C. (2;1;0)  .",
-          "D. (0;2;1)  ."
+          "A. $(1;2;0)$ .B. $(2;0;1)$ .C. $(2;1;0)$ .D. $(0;2;1)$ ."
         ],
         "correct": 1,
-        "explanation": "​Ta có  OM=(2;0;1)  nên điểm M có tọa độ là  (2;0;1)  ."
+        "explanation": "​Ta có $\\vec{OM}=(2;0;1)$ nên điểm M có tọa độ là $(2;0;1)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 14,
-        "question": "Trong không gian với hệ tọa độ Oxyz , cho  a=−i+2j−3k.  Tọa độ của vectơ  a  là",
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho $\\vec{a}=-\\vec{i}+2\\vec{j}-3\\vec{k}.$ Tọa độ của vectơ $\\vec{a}$ là",
         "options": [
-          "A. a=(−3;2;−1)  .",
-          "B. a=(2;−1;−3)  .",
-          "C. a=(−1;2;−3)  .",
-          "D. a=(2;−3;−1)  ."
+          "A. $\\vec{a}=(-3;2;-1)$ .B. $\\vec{a}=(2;-1;-3)$ .C. $\\vec{a}=(-1;2;-3)$ .D. $\\vec{a}=(2;-3;-1)$ ."
         ],
         "correct": 2,
-        "explanation": "Ta có  a=xi+yj+zk⇔a=(x;y;z)  nên  a=(−1;2;−3)."
+        "explanation": "Ta có $\\vec{a}=x\\vec{i}+y\\vec{j}+z\\vec{k} \\Leftrightarrow \\vec{a}=(x;y;z)$ nên $\\vec{a}=(-1;2;-3).$",
+        "type": null,
+        "items": []
       },
       {
         "id": 15,
-        "question": "Trong không gian Oxyz , tọa độ của điểm A biết điểm A nằm trên tia Oy và  OA=3  là",
+        "question": "Trong không gian Oxyz , tọa độ của điểm A biết điểm A nằm trên tia Oy và $OA=3$ là",
         "options": [
-          "A. A(0; 3; 0)  .",
-          "B. A(3; 0; 0)  .",
-          "C. A(0; 0; 3)  .",
-          "D. A(1; −3; 0)  ."
+          "A. $A(0; 3; 0)$ .B. $A(3; 0; 0)$ .C. $A(0; 0; 3)$ .D. $A(1; -3; 0)$ ."
         ],
         "correct": 0,
-        "explanation": "Ta có: A nằm trên tia Oy và  OA=3  nên  OA=3j  suy ra  A(0; 3; 0)  ."
+        "explanation": "Ta có: A nằm trên tia Oy và $OA=3$ nên $\\vec{OA}=3\\vec{j}$ suy ra $A(0; 3; 0)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 16,
-        "question": "Trong không gian Oxyz , cho  a=0; −3; 2  . Mệnh đề nào dưới đây đúng?",
+        "question": "Trong không gian Oxyz , cho $\\vec{a}=\\left( 0; -3; 2 \\right)$ . Mệnh đề nào dưới đây đúng?",
         "options": [
-          "A. a=−3j+2k  .",
-          "B. a=−3i+2j  .",
-          "C. a=−3i+2j+k  .",
-          "D. a=−3i+2k  ."
+          "A. $\\vec{a}=-3\\vec{j}+2\\vec{k}$ .B. $\\vec{a}=-3\\vec{i}+2\\vec{j}$ .C. $\\vec{a}=-3\\vec{i}+2\\vec{j}+\\vec{k}$ .D. $\\vec{a}=-3\\vec{i}+2\\vec{k}$ ."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 17,
-        "question": "Trong không gian với hệ trục tọa độ Oxyz , các vectơ đơn vị trên các trục Ox , Oy , Oz lần lượt là  i  ,  j  ,  k  , cho điểm  M(2;−1; 1)  . Khẳng định nào sau đâyđúng?",
+        "question": "Trong không gian với hệ trục tọa độ Oxyz , các vectơ đơn vị trên các trục Ox , Oy , Oz lần lượt là $\\vec{i}$ , $\\vec{j}$ , $\\vec{k}$ , cho điểm $M(2;-1; 1)$ . Khẳng định nào sau đâyđúng?",
         "options": [
-          "A. OM=k+j+2i  .",
-          "B. OM=i+j+2k  .",
-          "C. OM=2k−j+i  .",
-          "D. OM=2i−j+k  ."
+          "A. $\\vec{OM}=\\vec{k}+\\vec{j}+2\\vec{i}$ .B. $\\vec{OM}=\\vec{i}+\\vec{j}+2\\vec{k}$ .C. $\\vec{OM}=2\\vec{k}-\\vec{j}+\\vec{i}$ .D. $\\vec{OM}=2\\vec{i}-\\vec{j}+\\vec{k}$ ."
         ],
         "correct": 3,
-        "explanation": "Theo định nghĩa về tọa độ điểm thì:  OM=2i−j+k  ."
+        "explanation": "Theo định nghĩa về tọa độ điểm thì: $\\vec{OM}=2\\vec{i}-\\vec{j}+\\vec{k}$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 18,
-        "question": "Trong không gian O x y z , cho  A(1;2;−3), B(3;−5;2)  . Tọa độ vectơ  AB  là",
+        "question": "Trong không gian O x y z , cho $A(1;2;-3), B(3;-5;2)$ . Tọa độ vectơ $\\vec{AB}$ là",
         "options": [
-          "A. (2;−7;−5)  .",
-          "B. (−2;7;−5)",
-          "C. (−2;−7;5)  .",
-          "D. (2;−7;5)  ."
+          "A. $(2;-7;-5)$ .B. $(-2;7;-5)$C. $(-2;-7;5)$ .D. $(2;-7;5)$ ."
         ],
         "correct": 3,
-        "explanation": "AB=3−1;(−5)−2;2−(−3)=(2;−7;5)  .​"
+        "explanation": "$\\vec{AB}=\\left( 3-1;(-5)-2;2-(-3) \\right)=(2;-7;5)$ .​",
+        "type": null,
+        "items": []
       },
       {
         "id": 19,
-        "question": "Trong không gian với hệ tọa độ Oxyz , có  M1−1; 0; 0, M20; 2; 0, M30; 0; −3  lần lượt là hình chiếu của M trên các trục  Ox, Oy, Oz  , tọa độ điểm M là",
+        "question": "Trong không gian với hệ tọa độ Oxyz , có ${M}_{1}\\left( -1; 0; 0 \\right), {M}_{2}\\left( 0; 2; 0 \\right), {M}_{3}\\left( 0; 0; -3 \\right)$ lần lượt là hình chiếu của M trên các trục $Ox, Oy, Oz$ , tọa độ điểm M là",
         "options": [
-          "A. M1; −2; 3  .",
-          "B. M−1; −2; 3  .",
-          "C. M−1; 2; 3  .",
-          "D. M−1; 2; −3  ."
+          "A. $M\\left( 1; -2; 3 \\right)$ .B. $M\\left( -1; -2; 3 \\right)$ .C. $M\\left( -1; 2; 3 \\right)$ .D. $M\\left( -1; 2; -3 \\right)$ ."
         ],
         "correct": 3,
-        "explanation": "M1−1; 0; 0, M20;2;0, M30; 0; −3  lần lượt là hình chiếu của M trên các trục  Ox, Oy, Oz  nên:\nxM=xM1=−1yM=yM1=2zM=zM1=−3⇒M−1; 2; −3  .​"
+        "explanation": "${M}_{1}\\left( -1; 0; 0 \\right), {M}_{2}\\left( 0;2;0 \\right), {M}_{3}\\left( 0; 0; -3 \\right)$ lần lượt là hình chiếu của M trên các trục $Ox, Oy, Oz$ nên:\n$\\begin{cases} {x}_{M}={x}_{{M}_{1}}=-1 \\\\ {y}_{M}={y}_{{M}_{1}}=2 \\\\ {z}_{M}={z}_{{M}_{1}}=-3 \\end{cases} \\Rightarrow M\\left( -1; 2; -3 \\right)$ .​",
+        "type": null,
+        "items": []
       },
       {
         "id": 20,
-        "question": "Trong không gian Oxyz , cho  M(8; 4; 3)  .",
+        "question": "Trong không gian Oxyz , cho $M(8; 4; 3)$ .",
         "options": [],
         "correct": 0,
-        "explanation": "a) Sai.\nHình chiếu vuông góc của M trên trục Ox là điểm  (8; 0; 0)  .\nb) Đúng.\nHình chiếu vuông góc của M trên trục Oz là điểm  (0; 0; 3)  .\nc) Đúng.\nHình chiếu vuông góc của M trên mặt phẳng Oxz là điểm  (8;0;3)  .\nd) Đúng.\nVì  OM=8 ;4 ;3  nên  OM=8i+4j+3k  .",
+        "explanation": "a) Sai.\nHình chiếu vuông góc của M trên trục Ox là điểm $(8; 0; 0)$ .\nb) Đúng.\nHình chiếu vuông góc của M trên trục Oz là điểm $(0; 0; 3)$ .\nc) Đúng.\nHình chiếu vuông góc của M trên mặt phẳng Oxz là điểm $(8;0;3)$ .\nd) Đúng.\nVì $\\vec{OM}=\\left( 8 ;4 ;3 \\right)$ nên $\\vec{OM}=8\\vec{i}+4\\vec{j}+3\\vec{k}$ .",
         "type": "true_false",
         "items": [
           {
             "label": "a",
-            "text": "Hình chiếu vuông góc của M trên trục Ox là điểm  (0; 4; 3)  .( F )",
+            "text": "Hình chiếu vuông góc của M trên trục Ox là điểm $(0; 4; 3)$",
             "correct": false
           },
           {
             "label": "b",
-            "text": "Hình chiếu vuông góc của M trên trục Oz là điểm  (0; 0; 3)  .( T )",
-            "correct": false
+            "text": "Hình chiếu vuông góc của M trên trục Oz là điểm $(0; 0; 3)$",
+            "correct": true
           },
           {
             "label": "c",
-            "text": "Hình chiếu vuông góc của M trên mặt phẳng Oxz là điểm  (8; 0; 3)  .( T )",
-            "correct": false
+            "text": "Hình chiếu vuông góc của M trên mặt phẳng Oxz là điểm $(8; 0; 3)$",
+            "correct": true
           },
           {
             "label": "d",
-            "text": "OM=8i+4j+3k  .( T )",
-            "correct": false
+            "text": "$\\vec{OM}=8\\vec{i}+4\\vec{j}+3\\vec{k}$",
+            "correct": true
           }
         ]
       }
@@ -5703,276 +6085,258 @@
     "questions": [
       {
         "id": 1,
-        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  A(3;−2;5)  . Hình chiếu vuông góc của điểm A trên mặt phẳng (Oxz) là",
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm $A(3;-2;5)$ . Hình chiếu vuông góc của điểm A trên mặt phẳng (Oxz) là",
         "options": [
-          "A. M(0;2;5)  .",
-          "B. M(3;0;5)  .",
-          "C. M(0;−2;5)  .",
-          "D. M(3;−2;0)  ."
+          "A. $M(0;2;5)$ .B. $M(3;0;5)$ .C. $M(0;-2;5)$ .D. $M(3;-2;0)$ ."
         ],
         "correct": 1,
-        "explanation": "Để tìm tọa độ hình chiếu của điểm  A(3;−2;5)  lên mặt phẳng (Oxz) ta chỉ cần giữ nguyên hoành độ và cao độ, cho tung độ bằng 0 .\nDo đó hình chiếu của A có tọa độ  (3;0;5)  ."
+        "explanation": "Để tìm tọa độ hình chiếu của điểm $A(3;-2;5)$ lên mặt phẳng (Oxz) ta chỉ cần giữ nguyên hoành độ và cao độ, cho tung độ bằng 0 .\nDo đó hình chiếu của A có tọa độ $(3;0;5)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 2,
-        "question": "Trong không gian Oxyz, cho hai điểm  A(−1; 2; 5)  ,  B(3; −6; 3)  . Hình chiếu vuông góc của trung điểm I của đoạn AB trên mặt phẳng (Oyz) là điểm nào dưới đây?",
+        "question": "Trong không gian Oxyz, cho hai điểm $A(-1; 2; 5)$ , $B(3; -6; 3)$ . Hình chiếu vuông góc của trung điểm I của đoạn AB trên mặt phẳng (Oyz) là điểm nào dưới đây?",
         "options": [
-          "A. P(3; 0; 0)  .",
-          "B. M(0; −2; 4)  .",
-          "C. Q(0; 0; 5)  .",
-          "D. N(3; −1; 5)  ."
+          "A. $P(3; 0; 0)$ .B. $M(0; -2; 4)$ .C. $Q(0; 0; 5)$ .D. $N(3; -1; 5)$ ."
         ],
         "correct": 1,
-        "explanation": "Tọa độ trung điểm I của đoạn AB :  I(1; −2; 4)\nTọa độ hình chiếu của I mặt phẳng (Oyz) :  M(0; −2; 4)  ."
+        "explanation": "Tọa độ trung điểm I của đoạn AB : $I(1; -2; 4)$\nTọa độ hình chiếu của I mặt phẳng (Oyz) : $M(0; -2; 4)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 3,
         "question": "Trong không gian với hệ trục tọa độ O x y z , cho điểm M(x ; y ; z) . Khẳng định nào sau đâyđúng?",
         "options": [
-          "A. Nếu  M’  đối xứng với M qua mặt phẳng (O x z) thì  M’(x;y;−z)  .",
-          "B. Nếu  M’  đối xứng với M qua O y thì  M’(x;y;−z)  .",
-          "C. Nếu  M’  đối xứng với M qua mặt phẳng (O x y) thì  M’(x;y;−z)  .",
-          "D. Nếu  M’  đối xứng với M qua gốc tọa độ O thì  M(2x;2y;0)  ."
+          "A. Nếu $M’$ đối xứng với M qua mặt phẳng (O x z) thì $M’(x;y;-z)$ .B. Nếu $M’$ đối xứng với M qua O y thì $M’(x;y;-z)$ .C. Nếu $M’$ đối xứng với M qua mặt phẳng (O x y) thì $M’(x;y;-z)$ .D. Nếu $M’$ đối xứng với M qua gốc tọa độ O thì $M(2x;2y;0)$ ."
         ],
         "correct": 2,
-        "explanation": "Nếu  M’  đối xứng với M qua mặt phẳng (O x z) thì  M’(x;−y;z)  . Do đó phương án A sai.\nNếu  M’  đối xứng với M qua  O y thì  M’(−x;y;−z)  . Do đó phương án B sai.\nNếu  M’  đối xứng với M qua gốc tọa độ O thì  M’(−x;−y;−z)  . Do đó phương án D sai."
+        "explanation": "Nếu $M’$ đối xứng với M qua mặt phẳng (O x z) thì $M’(x;-y;z)$ . Do đó phương án A sai.\nNếu $M’$ đối xứng với M qua  O y thì $M’(-x;y;-z)$ . Do đó phương án B sai.\nNếu $M’$ đối xứng với M qua gốc tọa độ O thì $M’(-x;-y;-z)$ . Do đó phương án D sai.",
+        "type": null,
+        "items": []
       },
       {
         "id": 4,
-        "question": "Trong không gian với hệ tọa độ Oxyz, cho hai điểm  M(3;−2;3), I(1;0;4).  Tọa độ điểm N sao cho I là trung điểm của đoạn MN là",
+        "question": "Trong không gian với hệ tọa độ Oxyz, cho hai điểm $M(3;-2;3), I(1;0;4).$ Tọa độ điểm N sao cho I là trung điểm của đoạn MN là",
         "options": [
-          "A. N2;−1;72  .",
-          "B. N(−1;2;5)  .",
-          "C. N(5;−4;2)  .",
-          "D. N(0;1;2)  ."
+          "A. $N\\left( 2;-1;\\frac{7}{2} \\right)$ .B. $N(-1;2;5)$ .C. $N(5;-4;2)$ .D. $N(0;1;2)$ ."
         ],
         "correct": 1,
-        "explanation": "Giả sử N(x;y;z) .\nDo I là trung điểm của MN nên  xI=xM+xN2yI=yM+yN2zI=zM+zN2\n⇔xN=2xI−xMyN=2yI−yMzN=2zI−zM⇔xN=−1yN=2zN=5⇒N(−1;2;5)  ."
+        "explanation": "Giả sử N(x;y;z) .\nDo I là trung điểm của MN nên $\\begin{cases} {x}_{I}=\\frac{{x}_{M}+{x}_{N}}{2} \\\\ {y}_{I}=\\frac{{y}_{M}+{y}_{N}}{2} \\\\ {z}_{I}=\\frac{{z}_{M}+{z}_{N}}{2} \\end{cases}$\n$\\Leftrightarrow \\begin{cases} {x}_{N}=2{x}_{I}-{x}_{M} \\\\ {y}_{N}=2{y}_{I}-{y}_{M} \\\\ {z}_{N}=2{z}_{I}-{z}_{M} \\end{cases} \\Leftrightarrow \\begin{cases} {x}_{N}=-1 \\\\ {y}_{N}=2 \\\\ {z}_{N}=5 \\end{cases} \\Rightarrow N(-1;2;5)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 5,
-        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  M(1;1−2;2+5)  . Tọa độ điểm  M′∈(Oxz)  sao cho độ dài đoạn thẳng  MM′  ngắn nhất là",
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm $M(1;1-\\sqrt{2};2+\\sqrt{5})$ . Tọa độ điểm ${M}^{′} \\in (Oxz)$ sao cho độ dài đoạn thẳng $M{M}^{′}$ ngắn nhất là",
         "options": [
-          "A. M′(1;0;2+5)  .",
-          "B. M′(1;1−2;0)  .",
-          "C. M′(0;1−2;2+5)  .",
-          "D. M′(1;1+2;2−5)  ."
+          "A. ${M}^{′}(1;0;2+\\sqrt{5})$ .B. ${M}^{′}(1;1-\\sqrt{2};0)$ .C. ${M}^{′}(0;1-\\sqrt{2};2+\\sqrt{5})$ .D. ${M}^{′}(1;1+\\sqrt{2};2-\\sqrt{5})$ ."
         ],
         "correct": 0,
-        "explanation": "MM′  ngắn nhất khi điểm  M′  là hình chiếu của điểm M trên mặt phẳng (Oxz)\n⇒M′(1;0;2+5)  ."
+        "explanation": "$M{M}^{′}$ ngắn nhất khi điểm ${M}^{′}$ là hình chiếu của điểm M trên mặt phẳng (Oxz)\n$\\Rightarrow {M}^{′}(1;0;2+\\sqrt{5})$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 6,
-        "question": "Trong không gian Oxyz , cho hình hộp  ABCD.A′B′C′D′  . Biết  A(1;0;1)  ,  C′(4;5;−5)  . Tọa độ tâm I của hình hộp đó là",
+        "question": "Trong không gian Oxyz , cho hình hộp $ABCD.{A}^{′}{B}^{′}{C}^{′}{D}^{′}$ . Biết $A(1;0;1)$ , ${C}^{′}(4;5;-5)$ . Tọa độ tâm I của hình hộp đó là",
         "options": [
-          "A. I52;52;−2  .",
-          "B. I52;52;2  .",
-          "C. I−52;52;−2  .",
-          "D. I(5;5;−2)  ."
+          "A. $I\\left( \\frac{5}{2};\\frac{5}{2};-2 \\right)$ .B. $I\\left( \\frac{5}{2};\\frac{5}{2};2 \\right)$ .C. $I\\left( -\\frac{5}{2};\\frac{5}{2};-2 \\right)$ .D. $I(5;5;-2)$ ."
         ],
         "correct": 0,
-        "explanation": "Ta có I là trung điểm của  AC′  suy ra tọa độ điểm  I52;52;−2  ."
+        "explanation": "<br><img src=\"./data/images/olm-3836959512/image1.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\nTa có I là trung điểm của $A{C}^{′}$ suy ra tọa độ điểm $I\\left( \\frac{5}{2};\\frac{5}{2};-2 \\right)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 7,
-        "question": "Trong không gian Oxyz , cho hai điểm  A(1;2;−1)  và  B(2;4;1)  . Trọng tâm của tam giác OAB có tọa độ là",
+        "question": "Trong không gian Oxyz , cho hai điểm $A(1;2;-1)$ và $B(2;4;1)$ . Trọng tâm của tam giác OAB có tọa độ là",
         "options": [
-          "A. (3;6;0)  .",
-          "B. (1;3;0)  .",
-          "C. (−1;−2;0)  .",
-          "D. (1;2;0)  ."
+          "A. $(3;6;0)$ .B. $(1;3;0)$ .C. $(-1;-2;0)$ .D. $(1;2;0)$ ."
         ],
         "correct": 3,
-        "explanation": "G0+1+23;0+2+43;0−1+13\n⇒G(1;2;0)  ."
+        "explanation": "$G\\left( \\frac{0+1+2}{3};\\frac{0+2+4}{3};\\frac{0-1+1}{3} \\right)$\n$\\Rightarrow G(1;2;0)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 8,
-        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  A(1;1;2)  . Tọa độ điểm  A′∈(Oxy)  sao cho độ dài đoạn thẳng  AA′  ngắn nhất là",
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm $A(1;1;2)$ . Tọa độ điểm ${A}^{′} \\in (Oxy)$ sao cho độ dài đoạn thẳng $A{A}^{′}$ ngắn nhất là",
         "options": [
-          "A. A′(−1;1;0)  .",
-          "B. A′(2;2;0)  .",
-          "C. A′(2;−1;2)  .",
-          "D. A′(1;1;0)  ."
+          "A. ${A}^{′}(-1;1;0)$ .B. ${A}^{′}(2;2;0)$ .C. ${A}^{′}(2;-1;2)$ .D. ${A}^{′}(1;1;0)$ ."
         ],
         "correct": 3,
-        "explanation": "AA′  ngắn nhất khi điểm  A′  là hình chiếu của điểm A trên mặt phẳng (Oxy)\n⇒A′(1;1;0)  ."
+        "explanation": "$A{A}^{′}$ ngắn nhất khi điểm ${A}^{′}$ là hình chiếu của điểm A trên mặt phẳng (Oxy)\n$\\Rightarrow {A}^{′}(1;1;0)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 9,
-        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  M(1;−2;3)  . Tọa độ của điểm  M′∈Ox  sao cho độ dài đoạn thẳng  MM′  ngắn nhất là",
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm $M(1;-\\sqrt{2};\\sqrt{3})$ . Tọa độ của điểm ${M}^{′} \\in Ox$ sao cho độ dài đoạn thẳng $M{M}^{′}$ ngắn nhất là",
         "options": [
-          "A. M′(−1;0;0)  .",
-          "B. M′(1;0;0)  .",
-          "C. M′(1;0;3)  .",
-          "D. M′(1;−2;0)  ."
+          "A. ${M}^{′}(-1;0;0)$ .B. ${M}^{′}(1;0;0)$ .C. ${M}^{′}(1;0;\\sqrt{3})$ .D. ${M}^{′}(1;-\\sqrt{2};0)$ ."
         ],
         "correct": 1,
-        "explanation": "MM′  ngắn nhất khi điểm  M′  là hình chiếu của điểm M trên trục Ox\n⇒M′(1;0;0)  ."
+        "explanation": "$M{M}^{′}$ ngắn nhất khi điểm ${M}^{′}$ là hình chiếu của điểm M trên trục Ox\n$\\Rightarrow {M}^{′}(1;0;0)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 10,
-        "question": "Trong không gian với hệ tọa độ Oxyz , cho bốn điểm  A(2;0;0), B(0;2;0), C(0;0;2)  và  D(2;2;2)  . Gọi  M, N  lần lượt là trung điểm của AB và CD . Tọa độ trung điểm I của MN là",
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho bốn điểm $A(2;0;0), B(0;2;0), C(0;0;2)$ và $D(2;2;2)$ . Gọi $M, N$ lần lượt là trung điểm của AB và CD . Tọa độ trung điểm I của MN là",
         "options": [
-          "A. I(1;1;0)  .",
-          "B. I(1;1;1)  .",
-          "C. I(1;−1;2)  .",
-          "D. I12;12;1  ."
+          "A. $I(1;1;0)$ .B. $I(1;1;1)$ .C. $I(1;-1;2)$ .D. $I\\left( \\frac{1}{2};\\frac{1}{2};1 \\right)$ ."
         ],
         "correct": 1,
-        "explanation": "Ta có  M, N  lần lượt là trung điểm của AB và CD nên  M(1;1;0), N(1;1;2)  , từ đó suy ra trung điểm của MN là  I(1;1;1)  ."
+        "explanation": "Ta có $M, N$ lần lượt là trung điểm của AB và CD nên $M(1;1;0), N(1;1;2)$ , từ đó suy ra trung điểm của MN là $I(1;1;1)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 11,
-        "question": "Trong không gian với hệ tọa độ Oxyz , cho  OM=(1;5;2)  ,  ON=(3;7;−4)  . Gọi P là điểm đối xứng với M qua N . Tọa độ điểm P là",
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho $\\vec{OM}=(1;5;2)$ , $\\vec{ON}=(3;7;-4)$ . Gọi P là điểm đối xứng với M qua N . Tọa độ điểm P là",
         "options": [
-          "A. P(2;6;−1)  .",
-          "B. P(5;9;−10)  .",
-          "C. P(5;9;−3)  .",
-          "D. P(7;9;−10)  ."
+          "A. $P(2;6;-1)$ .B. $P(5;9;-10)$ .C. $P(5;9;-3)$ .D. $P(7;9;-10)$ ."
         ],
         "correct": 1,
-        "explanation": "Ta có:  OM=(1;5;2)⇒M(1;5;2)  ,\nON=(3;7;−4)⇒N(3;7;−4)  .\nVì P là điểm đối xứng với M qua N nên N là trung điểm của MP nên ta suy ra được\nxP=2xN−xM=5yP=2yN−yM=9zP=2zN−zM=−10⇒P(5;9;−10)  ."
+        "explanation": "Ta có: $\\vec{OM}=(1;5;2) \\Rightarrow M(1;5;2)$ ,\n$\\vec{ON}=(3;7;-4) \\Rightarrow N(3;7;-4)$ .\nVì P là điểm đối xứng với M qua N nên N là trung điểm của MP nên ta suy ra được\n$\\begin{cases} {x}_{P}=2{x}_{N}-{x}_{M}=5 \\\\ {y}_{P}=2{y}_{N}-{y}_{M}=9 \\\\ {z}_{P}=2{z}_{N}-{z}_{M}=-10 \\end{cases} \\Rightarrow P(5;9;-10)$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 12,
-        "question": "Trong không gian O x y z , cho hai điểm  A(2;3;−1)  và  B(−4;1;9)  . Trung điểm I của đoạn thẳng A B có tọa độ là",
+        "question": "Trong không gian O x y z , cho hai điểm $A(2;3;-1)$ và $B(-4;1;9)$ . Trung điểm I của đoạn thẳng A B có tọa độ là",
         "options": [
-          "A. (−1;2;4)  .",
-          "B. (−6;−2;10)  .",
-          "C. (−2;4;8)  .",
-          "D. (1;−2;−4)  ."
+          "A. $(-1;2;4)$ .B. $(-6;-2;10)$ .C. $(-2;4;8)$ .D. $(1;-2;-4)$ ."
         ],
         "correct": 0,
-        "explanation": "Áp dụng công thức trung điểm  I=xA+xB2;yA+yB2;zA+zB2=(−1;2;4)  .​"
+        "explanation": "Áp dụng công thức trung điểm $I=\\left( \\frac{{x}_{A}+{x}_{B}}{2};\\frac{{y}_{A}+{y}_{B}}{2};\\frac{{z}_{A}+{z}_{B}}{2} \\right)=(-1;2;4)$ .​",
+        "type": null,
+        "items": []
       },
       {
         "id": 13,
         "question": "Cho tứ diện ABCD có G là trọng tâm tam giác BCD . Mệnh đề nào sau đâysai?",
         "options": [
-          "A. AG−AB=GC+GD  .",
-          "B. GB+GC+GD=0  .",
-          "C. AB+AC+AD=3AG  .",
-          "D. AB+AC+AD=4AG  ."
+          "A. $\\vec{AG}-\\vec{AB}=\\vec{GC}+\\vec{GD}$ .B. $\\vec{GB}+\\vec{GC}+\\vec{GD}=\\vec{0}$ .C. $\\vec{AB}+\\vec{AC}+\\vec{AD}=3\\vec{AG}$ .D. $\\vec{AB}+\\vec{AC}+\\vec{AD}=4\\vec{AG}$ ."
         ],
         "correct": 3,
-        "explanation": "Vì G là trọng tâm tam giác BCD nên  GB+GC+GD=0  .\nDo đó  AB+AC+AD=3AG  ."
+        "explanation": "Vì G là trọng tâm tam giác BCD nên $\\vec{GB}+\\vec{GC}+\\vec{GD}=\\vec{0}$ .\nDo đó $\\vec{AB}+\\vec{AC}+\\vec{AD}=3\\vec{AG}$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 14,
-        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  M(1+2;2;1−2)  . Tọa độ điểm  M′∈(Oyz)  sao cho độ dài đoạn thẳng  MM′  ngắn nhất là",
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm $M(1+\\sqrt{2};2;1-\\sqrt{2})$ . Tọa độ điểm ${M}^{′} \\in (Oyz)$ sao cho độ dài đoạn thẳng $M{M}^{′}$ ngắn nhất là",
         "options": [
-          "A. M′(1+2;0;1−2)  .",
-          "B. M′(0;−2;1+2)  .",
-          "C. M′(0;−2;1−2)  .",
-          "D. M′(0;2;1−2)  ."
+          "A. ${M}^{′}(1+\\sqrt{2};0;1-\\sqrt{2})$ .B. ${M}^{′}(0;-2;1+\\sqrt{2})$ .C. ${M}^{′}(0;-2;1-\\sqrt{2})$ .D. ${M}^{′}(0;2;1-\\sqrt{2})$ ."
         ],
         "correct": 3,
-        "explanation": "MM′  ngắn nhất khi điểm  M′  là hình chiếu của điểm M trên mặt phẳng (Oyz) .\n⇒M′(0;2;1−2)  ."
+        "explanation": "$M{M}^{′}$ ngắn nhất khi điểm ${M}^{′}$ là hình chiếu của điểm M trên mặt phẳng (Oyz) .\n$\\Rightarrow {M}^{′}(0;2;1-\\sqrt{2})$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 15,
-        "question": "Trong không gian Oxyz , cho hình hộp chữ nhật  ABCD.A’B’C’D’  có đỉnh  A’  trùng với gốc O và các đỉnh  D’,B’,A  lần lượt thuộc các tia Ox , Oy , Oz như hình vẽ. Giả sử đỉnh C có toạ độ là  (2;3;4)  đối với hệ toạ độ Oxyz . Khi đó toạ độ điểm B là",
+        "question": "Trong không gian Oxyz , cho hình hộp chữ nhật $ABCD.A’B’C’D’$ có đỉnh $A’$ trùng với gốc O và các đỉnh $D’,B’,A$ lần lượt thuộc các tia Ox , Oy , Oz như hình vẽ. Giả sử đỉnh C có toạ độ là $(2;3;4)$ đối với hệ toạ độ Oxyz . Khi đó toạ độ điểm B là\n<br><img src=\"./data/images/olm-3836959512/image2.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>",
         "options": [
-          "A. B(0;2;4)  .",
-          "B. B(2;4;0)  .",
-          "C. B(0;3;4)  .",
-          "D. B(3;0;4)  ."
+          "A. $B(0;2;4)$ .B. $B(2;4;0)$ .C. $B(0;3;4)$ .D. $B(3;0;4)$ ."
         ],
         "correct": 2,
-        "explanation": "Ta có B là hình chiếu của C lên mặt phẳng (Oyz) suy ra  B(0;3;4)."
+        "explanation": "Ta có B là hình chiếu của C lên mặt phẳng (Oyz) suy ra $B(0;3;4).$",
+        "type": null,
+        "items": []
       },
       {
         "id": 16,
-        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  M(1;2;−3)  . Điểm  M′∈Oz  sao cho độ dài đoạn thẳng  MM′  ngắn nhất có tọa độ là",
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm $M(1;2;-\\sqrt{3})$ . Điểm ${M}^{′} \\in Oz$ sao cho độ dài đoạn thẳng $M{M}^{′}$ ngắn nhất có tọa độ là",
         "options": [
-          "A. M′(0;0;3)  .",
-          "B. M′(1;0;−3)  .",
-          "C. M′(0;0;−3)  .",
-          "D. M′(0;2;−3)  ."
+          "A. ${M}^{′}(0;0;\\sqrt{3})$ .B. ${M}^{′}(1;0;-\\sqrt{3})$ .C. ${M}^{′}(0;0;-\\sqrt{3})$ .D. ${M}^{′}(0;2;-\\sqrt{3})$ ."
         ],
         "correct": 2,
-        "explanation": "MM′  ngắn nhất khi điểm  M′  là hình chiếu của điểm M trên trục Oz\n⇒M′(0;0;−3)  ."
+        "explanation": "$M{M}^{′}$ ngắn nhất khi điểm ${M}^{′}$ là hình chiếu của điểm M trên trục Oz\n$\\Rightarrow {M}^{′}(0;0;-\\sqrt{3})$ .",
+        "type": null,
+        "items": []
       },
       {
         "id": 17,
-        "question": "Trong không gian với hệ tọa độ O x y z , cho hai điểm  A(1;2;−3)  và  B(−3;4;5)  . Tọa độ trung điểm I của đoạn thẳng A B là",
+        "question": "Trong không gian với hệ tọa độ O x y z , cho hai điểm $A(1;2;-3)$ và $B(-3;4;5)$ . Tọa độ trung điểm I của đoạn thẳng A B là",
         "options": [
-          "A. I(−2;1;4).",
-          "B. I(−1;−3;1).",
-          "C. I(2;−1;−4).",
-          "D. I(−1;3;1)."
+          "A. $I(-2;1;4).$B. $I(-1;-3;1).$C. $I(2;-1;-4).$D. $I(-1;3;1).$"
         ],
         "correct": 3,
-        "explanation": "Tọa độ trung điểm I của đoạn thẳng A B là  xI=xA+xB2=−1yI=yA+yB2=3zI=zA+zB2=1  .​"
+        "explanation": "Tọa độ trung điểm I của đoạn thẳng A B là $\\begin{cases} {x}_{I}=\\frac{{x}_{A}+{x}_{B}}{2}=-1 \\\\ {y}_{I}=\\frac{{y}_{A}+{y}_{B}}{2}=3 \\\\ {z}_{I}=\\frac{{z}_{A}+{z}_{B}}{2}=1 \\end{cases}$ .​",
+        "type": null,
+        "items": []
       },
       {
         "id": 18,
-        "question": "Trong không gian với hệ tọa độ Oxyz , cho hình chữ nhật OKMN .",
+        "question": "Trong không gian với hệ tọa độ Oxyz , cho hình chữ nhật OKMN .\n<br><img src=\"./data/images/olm-3836959512/image3.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\nTọa độ đỉnh M của hình chữ nhật là",
         "options": [
-          "A. M1;2; 0  .",
-          "B. M1; 2; 2  .",
-          "C. M0; 2; 2  .",
-          "D. M−1;− 2; −2  ."
+          "A. $M\\left( 1;2; 0 \\right)$ .B. $M\\left( 1; 2; 2 \\right)$ .C. $M\\left( 0; 2; 2 \\right)$ .D. $M\\left( -1;- 2; -2 \\right)$ ."
         ],
         "correct": 1,
-        "explanation": "Hình chữ nhật OKMN nên N là hình chiếu của M trên mặt phẳng (Oxy) , K là hình chiếu của M trên trục Oz , do đó tọa độ đỉnh M là:  M1; 2; 2  .​"
+        "explanation": "Hình chữ nhật OKMN nên N là hình chiếu của M trên mặt phẳng (Oxy) , K là hình chiếu của M trên trục Oz , do đó tọa độ đỉnh M là: $M\\left( 1; 2; 2 \\right)$ .​",
+        "type": null,
+        "items": []
       },
       {
         "id": 19,
-        "question": "Trong không gian với hệ toạ độ Oxyz , cho điểm  A(3; −2; 5)  .",
+        "question": "Trong không gian với hệ toạ độ Oxyz , cho điểm $A(3; -2; 5)$ .",
         "options": [],
         "correct": 0,
-        "explanation": "a) Sai.\nToạ độ hình chiếu vuông góc của A lên mặt phẳng toạ độ (Oyz) là  M(0; −2; 5)  .\nb) Đúng.\nHình chiếu của A lên trục Oz là  N(0;0;5)  .\nc) Sai.\nGọi  B(xB,yB,zB)  là điểm đối xứng với A qua trục Oz . Khi đó điểm  N(0;0;5)  là trung điểm của AB nên ta có\n3+xB2=0−2+yB2=05+zB2=5⇔xB=−3yB=2zB=5  .\nVậy toạ độ điểm đối xứng với A qua trục Oz là  (−3;2;5)  .\nd) Đúng.\nKhoảng cách từ điểm  A(3; −2; 5)  đến mặt phẳng tọa độ (Oyz) chính là giá trị tuyệt đối của hoành độ x của điểm đó.\n⇒d(A,(Oyz))=|3|=3  .",
+        "explanation": "a) Sai.\nToạ độ hình chiếu vuông góc của A lên mặt phẳng toạ độ (Oyz) là $M(0; -2; 5)$ .\nb) Đúng.\nHình chiếu của A lên trục Oz là $N(0;0;5)$ .\nc) Sai.\nGọi $B({x}_{B},{y}_{B},{z}_{B})$ là điểm đối xứng với A qua trục Oz . Khi đó điểm $N(0;0;5)$ là trung điểm của AB nên ta có\n$\\begin{cases} \\frac{3+{x}_{B}}{2}=0 \\\\ \\frac{-2+{y}_{B}}{2}=0 \\\\ \\frac{5+{z}_{B}}{2}=5 \\end{cases} \\Leftrightarrow \\begin{cases} {x}_{B}=-3 \\\\ {y}_{B}=2 \\\\ {z}_{B}=5 \\end{cases}$ .\nVậy toạ độ điểm đối xứng với A qua trục Oz là $(-3;2;5)$ .\nd) Đúng.\nKhoảng cách từ điểm $A(3; -2; 5)$ đến mặt phẳng tọa độ (Oyz) chính là giá trị tuyệt đối của hoành độ x của điểm đó.\n$\\Rightarrow d(A,(Oyz))=|3|=3$ .",
         "type": "true_false",
         "items": [
           {
             "label": "a",
-            "text": "Hình chiếu vuông góc của A lên mặt phẳng toạ độ (Oyz) là  M(3; 0; 5)  .( F )",
+            "text": "Hình chiếu vuông góc của A lên mặt phẳng toạ độ (Oyz) là $M(3; 0; 5)$",
             "correct": false
           },
           {
             "label": "b",
-            "text": "Hình chiếu của A lên trục Oz là  N(0;0;5)  .( T )",
-            "correct": false
+            "text": "Hình chiếu của A lên trục Oz là $N(0;0;5)$",
+            "correct": true
           },
           {
             "label": "c",
-            "text": "Điểm đối xứng với A qua trục Oz là  (3;2;5)  .( F )",
+            "text": "Điểm đối xứng với A qua trục Oz là $(3;2;5)$",
             "correct": false
           },
           {
             "label": "d",
-            "text": "Khoảng cách từ A đến mặt phẳng (Oyz) là 3 .( T )",
-            "correct": false
+            "text": "Khoảng cách từ A đến mặt phẳng (Oyz) là 3",
+            "correct": true
           }
         ]
       },
       {
         "id": 20,
-        "question": "Trong không gian Oxyz, cho điểm  A(1;2;−3)  .",
+        "question": "Trong không gian Oxyz, cho điểm $A(1;2;-3)$ .",
         "options": [],
         "correct": 0,
-        "explanation": "a) Đúng.\nTa có:  OA(1;2;−3)  .\nb) Sai.\nHình chiếu vuông góc của A lên trục Ox là  (1;0;0)\nc) Đúng.\nTrung điểm của AO là  I(a;−1;b)  thì  AI=IO⇒I12;1;−32⇒2a+4b=−5\nd) Sai.\nHình chiếu vuông góc của A lên trục Oz là  H(0;0;−3)  .\nĐiểm  A′  đối xứng của A qua trục Oz thì  AH=HA′⇒A′(−1;−2;−3)  .",
+        "explanation": "a) Đúng.\nTa có: $\\vec{OA}(1;2;-3)$ .\nb) Sai.\nHình chiếu vuông góc của A lên trục Ox là $(1;0;0)$\nc) Đúng.\nTrung điểm của AO là $I(a;-1;b)$ thì $\\vec{AI}=\\vec{IO} \\Rightarrow I\\left( \\frac{1}{2};1;\\frac{-3}{2} \\right) \\Rightarrow 2a+4b=-5$\nd) Sai.\nHình chiếu vuông góc của A lên trục Oz là $H(0;0;-3)$ .\nĐiểm ${A}^{′}$ đối xứng của A qua trục Oz thì $\\vec{AH}=\\vec{H{A}^{′}} \\Rightarrow {A}^{′}(-1;-2;-3)$ .",
         "type": "true_false",
         "items": [
           {
             "label": "a",
-            "text": "OA(1;2;−3)  .( T )",
-            "correct": false
+            "text": "$\\vec{OA}(1;2;-3)$",
+            "correct": true
           },
           {
             "label": "b",
-            "text": "Hình chiếu vuông góc của A lên trục Ox là  (0;0;1)  .( F )",
+            "text": "Hình chiếu vuông góc của A lên trục Ox là $(0;0;1)$",
             "correct": false
           },
           {
             "label": "c",
-            "text": "Trung điểm của AO là  I(a;−1;b)  thì  2a+4b=−5  .( T )",
-            "correct": false
+            "text": "Trung điểm của AO là $I(a;-1;b)$ thì $2a+4b=-5$",
+            "correct": true
           },
           {
             "label": "d",
-            "text": "Điểm  A′  đối xứng của A qua trục Oz có toạ độ là  A′(0;0;−3)  .( F )",
+            "text": "Điểm ${A}^{′}$ đối xứng của A qua trục Oz có toạ độ là ${A}^{′}(0;0;-3)$",
             "correct": false
           }
         ]
@@ -5995,40 +6359,46 @@
     ],
     "questions": [
       {
+        "id": 1,
+        "question": "Không gian với hệ tọa độ Oxyz còn gọi là không gian Oxyz , có:\n⚡Điểm O là(gốc tọa độ) ;\n⚡Các trục Ox ; Oy ; Oz là các(trục tọa độ) ;\n⚡Các mặt phẳng (Oxy) ; (Oyz) ; (Oxz) là các(mặt phẳng tọa độ  hoặc  vectơ đơn vị) .",
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "type": null,
+        "items": []
+      },
+      {
         "id": 2,
-        "question": "Hình vẽ sau mô tả một sân tennis với kích thước theo tiêu chuẩn quốc tế (kích thước được làm tròn đến hàng phần mười của đơn vị mét). Chọn hệ trục Oxyz cho sân đó (đơn vị trên mỗi trục là mét) cùng hai điểm  A, B  .",
+        "question": "Hình vẽ sau mô tả một sân tennis với kích thước theo tiêu chuẩn quốc tế (kích thước được làm tròn đến hàng phần mười của đơn vị mét). Chọn hệ trục Oxyz cho sân đó (đơn vị trên mỗi trục là mét) cùng hai điểm $A, B$ .\n<br><img src=\"./data/images/olm-3834711593/image1.png\" class=\"my-3 max-w-full rounded-lg shadow-sm\" alt=\"Hình vẽ\" /><br>\nTọa độ điểm A là",
         "options": [
-          "A. A(0;8,2;1,1)  .",
-          "B. A(0;11,9;8,2)  .",
-          "C. A(11,9;1,1;0)  .",
-          "D. A(0;11,9;1,1)  ."
+          "A. $A(0;8,2;1,1)$ .B. $A(0;11,9;8,2)$ .C. $A(11,9;1,1;0)$ .D. $A(0;11,9;1,1)$ ."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 3,
-        "question": "Trong không gian Oxyz với  i  ;  j  ;  k  lần lượt là vectơ đơn vị của các trục Ox ; Oy ; Oz . Cho  a=2i+j−3k  , tọa độ của  a  là",
+        "question": "Trong không gian Oxyz với $\\vec{i}$ ; $\\vec{j}$ ; $\\vec{k}$ lần lượt là vectơ đơn vị của các trục Ox ; Oy ; Oz . Cho $\\vec{a}=2\\vec{i}+\\vec{j}-3\\vec{k}$ , tọa độ của $\\vec{a}$ là",
         "options": [
-          "A. (2;0;−3)  .",
-          "B. (2;1;−3)  .",
-          "C. (2;0;3)  .",
-          "D. (2;−1;3)  ."
+          "A. $(2;0;-3)$ .B. $(2;1;-3)$ .C. $(2;0;3)$ .D. $(2;-1;3)$ ."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       },
       {
         "id": 4,
-        "question": "Trong không gian Oxyz , hình chiếu vuông góc của  M(2;3;−1)  trên Oy là",
+        "question": "Trong không gian Oxyz , hình chiếu vuông góc của $M(2;3;-1)$ trên Oy là",
         "options": [
-          "A. (0;3;0)  .",
-          "B. (2;0;0)  .",
-          "C. (2;0;−1)  .",
-          "D. (0;3;−1)  ."
+          "A. $(0;3;0)$ .B. $(2;0;0)$ .C. $(2;0;-1)$ .D. $(0;3;-1)$ ."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": null,
+        "items": []
       }
     ]
   }
