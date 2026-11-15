@@ -5055,7 +5055,7 @@
     "id": "olm-2371132526",
     "title": "OLM: ĐỊNH LUẬT BOYLE",
     "subject": "Vật Lý",
-    "grade": 12,
+    "grade": "Lớp 12",
     "duration": 45,
     "teacher": "Lê Thị Phượng",
     "source": "OLM",
@@ -5118,10 +5118,10 @@
         "id": 5,
         "question": "Đồ thị nào dưới đây không phù hợp với quá trình đẳng nhiệt?",
         "options": [
-          "A. ",
-          "B. ",
-          "C. ",
-          "D. "
+          "A.",
+          "B.",
+          "C.",
+          "D."
         ],
         "correct": 1,
         "explanation": "Quá trình đẳng nhiệt có nhiệt độ không đổi theo thời gian.​\nĐồ thị p - V trên có dạng một nhánh của đường hypebol ⇒ phù hợp với quá trình đẳng nhiệt.\nĐồ thị trên có nhiệt độ tuyệt dối T không đổi theo thời gian ⇒ phù hợp với quá trình đẳng nhiệt.\nĐồ thị trên có nhiệt độ tuyệt dối T không đổi theo thời gian ⇒ phù hợp với quá trình đẳng nhiệt.\nĐồ thị trên có áp suất p không đổi theo thời gian ⇒ không phù hợp với quá trình đẳng nhiệt."
@@ -5154,10 +5154,10 @@
         "id": 8,
         "question": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle?",
         "options": [
-          "A. ",
-          "B. ",
-          "C. ",
-          "D. "
+          "A.",
+          "B.",
+          "C.",
+          "D."
         ],
         "correct": 1,
         "explanation": "Theo định luật Boyle:  p∼1V\n⇒ Đồ thị biểu diễn đúng định luật Boyle là đồ thị biểu diễn  p  theo  1V  là một đường thẳng có đường kéo dài đi qua gốc O."
@@ -5415,7 +5415,7 @@
     "id": "olm-3836961408",
     "title": "OLM: TỌA ĐỘ VECTƠ",
     "subject": "Toán",
-    "grade": 12,
+    "grade": "Lớp 12",
     "duration": 45,
     "teacher": "Nguyễn Hoàng Trung",
     "source": "OLM",
@@ -5690,7 +5690,7 @@
     "id": "olm-3836959512",
     "title": "OLM: TỌA ĐỘ ĐIỂM, HÌNH CHIẾU, TRUNG ĐIỂM, TRỌNG TÂM",
     "subject": "Toán",
-    "grade": 12,
+    "grade": "Lớp 12",
     "duration": 45,
     "teacher": "Nguyễn Hoàng Trung",
     "source": "OLM",
@@ -5983,7 +5983,7 @@
     "id": "olm-3834711593",
     "title": "OLM: TỌA ĐỘ ĐIỂM, TỌA ĐỘ VECTƠ TRONG KHÔNG GIAN",
     "subject": "Toán",
-    "grade": 12,
+    "grade": "Lớp 12",
     "duration": 45,
     "teacher": "Nguyễn Hoàng Trung",
     "source": "OLM",
