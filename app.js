@@ -955,342 +955,287 @@ const app = {
    * Build pure OpenXML .docx Document using docx.js
    */
   buildDocxDocument(exam) {
-    if (typeof docx === 'undefined') throw new Error('docx engine is not loaded');
+  const rawTitle = exam.title ? String(exam.title) : 'ĐỀ THI';
+  const title = rawTitle.replace(/^OLM:\s*/i, '').trim() || 'Đề thi trắc nghiệm';
+  const subject = exam.subject ? String(exam.subject).trim() : 'Chung';
+  const grade = typeof exam.grade === 'number' ? ('Lớp ' + exam.grade) : String(exam.grade || 'Lớp 12');
+  const questions = Array.isArray(exam.questions) ? exam.questions : [];
 
-    const borderNone = { style: docx.BorderStyle.NONE, size: 0, color: 'auto' };
-    const borderThin = { style: docx.BorderStyle.SINGLE, size: 4, color: '333333' };
-    const cellBordersGrid = { top: borderThin, bottom: borderThin, left: borderThin, right: borderThin };
+  const children = [];
 
-    const rawTitle = exam.title ? String(exam.title) : 'ĐỀ THI';
-    const title = rawTitle.replace(/^OLM:\s*/i, '').trim() || 'Đề thi trắc nghiệm';
-    const subject = exam.subject ? String(exam.subject).trim() : 'Chung';
-    const grade = typeof exam.grade === 'number' ? ('Lớp ' + exam.grade) : String(exam.grade || 'Lớp 12');
-    const duration = Number(exam.duration || exam.durationMinutes) || 45;
-    const teacher = exam.teacher ? String(exam.teacher).trim() : '';
-    const questions = Array.isArray(exam.questions) ? exam.questions : [];
+  // Standard OLM Header
+  children.push(new docx.Paragraph({
+    spacing: { before: 0, after: 30 },
+    children: [
+      new docx.TextRun({ text: 'BÀI LUYỆN TẬP OLM', bold: true, color: '0000FF', font: 'Times New Roman', size: 24 })
+    ]
+  }));
+  children.push(new docx.Paragraph({
+    spacing: { before: 0, after: 30 },
+    children: [
+      new docx.TextRun({ text: `MÔN ${subject.toUpperCase()} ${grade.toUpperCase()}`, bold: true, color: '0000FF', font: 'Times New Roman', size: 24 })
+    ]
+  }));
+  children.push(new docx.Paragraph({
+    spacing: { before: 0, after: 60 },
+    children: [
+      new docx.TextRun({ text: `Bài học: ${title.toUpperCase()}`, bold: true, color: '0000FF', font: 'Times New Roman', size: 24 })
+    ]
+  }));
 
-    const children = [];
+  // Student Info
+  children.push(new docx.Paragraph({
+    spacing: { before: 40, after: 30 },
+    children: [
+      new docx.TextRun({ text: 'Họ, tên: .....................................................................', font: 'Times New Roman', size: 24 }),
+      new docx.TextRun({ text: 'Lớp: ..........................................................................', font: 'Times New Roman', size: 24 })
+    ]
+  }));
 
-    // 1. Header Table (2 columns, borderless)
-    const leftHeaderParagraphs = [
-      new docx.Paragraph({
-        alignment: docx.AlignmentType.CENTER,
-        spacing: { after: 40 },
-        children: [
-          new docx.TextRun({ text: teacher ? 'GIÁO VIÊN: ' + teacher.toUpperCase() : 'TRƯỜNG THPT TRẦN VĂN THÀNH', bold: true, size: 22 })
-        ]
-      }),
-      new docx.Paragraph({
-        alignment: docx.AlignmentType.CENTER,
-        spacing: { after: 40 },
-        children: [
-          new docx.TextRun({ text: 'TỔ CHUYÊN MÔN', bold: false, size: 22 })
-        ]
-      }),
-      new docx.Paragraph({
-        alignment: docx.AlignmentType.CENTER,
-        children: [
-          new docx.TextRun({ text: `(Đề thi gồm ${questions.length} câu hỏi)`, italics: true, size: 20 })
-        ]
-      })
+  children.push(new docx.Paragraph({ spacing: { before: 40, after: 60 }, children: [] }));
+
+  // Questions
+  questions.forEach((q, idx) => {
+    const qNum = idx + 1;
+
+    // Passage (if any)
+    if (q.passage) {
+      children.push(new docx.Paragraph({
+        spacing: { before: 80, after: 60 },
+        shading: { type: docx.ShadingType.CLEAR, fill: 'F3F4F6' },
+        children: this.parseFormattedRuns(q.passage, 22)
+      }));
+    }
+
+    // Question line: Câu X. (Bold Blue) + text
+    const qRuns = [
+      new docx.TextRun({ text: `Câu ${qNum}. `, bold: true, color: '0000FF', font: 'Times New Roman', size: 24 })
     ];
+    qRuns.push(...this.parseFormattedRuns(q.question, 24));
 
-    const rightHeaderParagraphs = [
-      new docx.Paragraph({
-        alignment: docx.AlignmentType.CENTER,
-        spacing: { after: 40 },
+    children.push(new docx.Paragraph({
+      spacing: { before: 80, after: 40 },
+      children: qRuns
+    }));
+
+    // Answers integrated into question
+    if (q.type === 'true_false' && Array.isArray(q.items) && q.items.length > 0) {
+      q.items.forEach(it => {
+        if (!it) return;
+        const label = '   ' + String(it.label || 'a').toLowerCase() + ') ';
+        const isTrue = Boolean(it.correct);
+        const textRuns = this.parseFormattedRuns(it.text, 24);
+        children.push(new docx.Paragraph({
+          spacing: { before: 20, after: 20 },
+          children: [
+            new docx.TextRun({
+              text: label,
+              bold: true,
+              underline: isTrue ? { type: docx.UnderlineType.SINGLE } : undefined,
+              color: '0000FF',
+              font: 'Times New Roman',
+              size: 24
+            }),
+            ...textRuns
+          ]
+        }));
+      });
+    } else if (q.type === 'short_answer' || (Array.isArray(q.options) && q.options.length === 1 && String(q.options[0]).includes('Đáp số:'))) {
+      const rawAns = q.correctAnswer || (q.options && q.options[0] ? this.stripHtml(q.options[0]).replace('Đáp số:', '').trim() : '');
+      const cleanAns = rawAns.replace(/^[\[\(]/, '').replace(/[\]\)]$/, '').trim();
+      children.push(new docx.Paragraph({
+        spacing: { before: 30, after: 40 },
         children: [
-          new docx.TextRun({ text: 'KIỂM TRA ĐỊNH KỲ - ' + grade.toUpperCase(), bold: true, size: 22 })
+          new docx.TextRun({ text: 'Trả lời: [', bold: true, font: 'Times New Roman', size: 24 }),
+          new docx.TextRun({ text: cleanAns || '......', bold: true, color: '0000FF', font: 'Times New Roman', size: 24 }),
+          new docx.TextRun({ text: ']', bold: true, font: 'Times New Roman', size: 24 })
         ]
-      }),
-      new docx.Paragraph({
-        alignment: docx.AlignmentType.CENTER,
-        spacing: { after: 40 },
+      }));
+    } else if (Array.isArray(q.options) && q.options.length > 0) {
+      const letters = ['A', 'B', 'C', 'D'];
+      const correctIdx = typeof q.correct === 'number' ? q.correct : -1;
+
+      const cleanOpts = q.options.map((opt, oIdx) => {
+        let str = this.stripHtml(opt).trim();
+        const letter = letters[oIdx] || 'A';
+        str = str.replace(/^[A-D][\.\:\s]+/i, '').trim();
+        return { letter: letter + '.', text: str, isCorrect: (oIdx === correctIdx) };
+      });
+
+      const maxLen = Math.max(...cleanOpts.map(o => (o.letter + ' ' + o.text).length));
+
+      function makeOptRuns(opt) {
+        return [
+          new docx.TextRun({
+            text: '   ' + opt.letter + ' ',
+            bold: true,
+            underline: opt.isCorrect ? { type: docx.UnderlineType.SINGLE } : undefined,
+            color: '0000FF',
+            font: 'Times New Roman',
+            size: 24
+          }),
+          new docx.TextRun({
+            text: opt.text,
+            font: 'Times New Roman',
+            size: 24
+          })
+        ];
+      }
+
+      if (cleanOpts.length === 4 && maxLen <= 26) {
+        // 1 row 4 columns
+        const optCells = cleanOpts.map(opt => new docx.TableCell({
+          width: { size: 25, type: docx.WidthType.PERCENTAGE },
+          borders: { top: borderNone, bottom: borderNone, left: borderNone, right: borderNone },
+          children: [new docx.Paragraph({ spacing: { before: 20, after: 20 }, children: makeOptRuns(opt) })]
+        }));
+        children.push(new docx.Table({
+          width: { size: 100, type: docx.WidthType.PERCENTAGE },
+          borders: { top: borderNone, bottom: borderNone, left: borderNone, right: borderNone, insideHorizontal: borderNone, insideVertical: borderNone },
+          rows: [new docx.TableRow({ children: optCells })]
+        }));
+      } else if (cleanOpts.length === 4 && maxLen <= 50) {
+        // 2 rows 2 columns
+        const row1 = new docx.TableRow({
+          children: [
+            new docx.TableCell({ width: { size: 50, type: docx.WidthType.PERCENTAGE }, borders: { top: borderNone, bottom: borderNone, left: borderNone, right: borderNone }, children: [new docx.Paragraph({ spacing: { before: 20, after: 20 }, children: makeOptRuns(cleanOpts[0]) })] }),
+            new docx.TableCell({ width: { size: 50, type: docx.WidthType.PERCENTAGE }, borders: { top: borderNone, bottom: borderNone, left: borderNone, right: borderNone }, children: [new docx.Paragraph({ spacing: { before: 20, after: 20 }, children: makeOptRuns(cleanOpts[1]) })] })
+          ]
+        });
+        const row2 = new docx.TableRow({
+          children: [
+            new docx.TableCell({ width: { size: 50, type: docx.WidthType.PERCENTAGE }, borders: { top: borderNone, bottom: borderNone, left: borderNone, right: borderNone }, children: [new docx.Paragraph({ spacing: { before: 20, after: 20 }, children: makeOptRuns(cleanOpts[2]) })] }),
+            new docx.TableCell({ width: { size: 50, type: docx.WidthType.PERCENTAGE }, borders: { top: borderNone, bottom: borderNone, left: borderNone, right: borderNone }, children: [new docx.Paragraph({ spacing: { before: 20, after: 20 }, children: makeOptRuns(cleanOpts[3]) })] })
+          ]
+        });
+        children.push(new docx.Table({
+          width: { size: 100, type: docx.WidthType.PERCENTAGE },
+          borders: { top: borderNone, bottom: borderNone, left: borderNone, right: borderNone, insideHorizontal: borderNone, insideVertical: borderNone },
+          rows: [row1, row2]
+        }));
+      } else {
+        // Individual paragraphs
+        cleanOpts.forEach(opt => {
+          children.push(new docx.Paragraph({
+            spacing: { before: 20, after: 20 },
+            children: makeOptRuns(opt)
+          }));
+        });
+      }
+    }
+
+    // Explanation (if present)
+    const expText = this.stripHtml(q.explanation);
+    if (expText && !expText.startsWith('Đáp án chính xác:')) {
+      children.push(new docx.Paragraph({
+        spacing: { before: 30, after: 20 },
         children: [
-          new docx.TextRun({ text: 'MÔN: ' + subject.toUpperCase(), bold: true, size: 22 })
+          new docx.TextRun({ text: '   Hướng dẫn giải: ', bold: true, italics: true, color: '1E40AF', font: 'Times New Roman', size: 22 })
         ]
-      }),
-      new docx.Paragraph({
-        alignment: docx.AlignmentType.CENTER,
-        children: [
-          new docx.TextRun({ text: `Thời gian làm bài: ${duration} phút (Không kể phát đề)`, italics: true, size: 20 })
-        ]
-      })
-    ];
+      }));
+      children.push(new docx.Paragraph({
+        indent: { left: 400 },
+        spacing: { before: 10, after: 40 },
+        children: this.parseFormattedRuns(q.explanation, 22)
+      }));
+    }
+  });
+
+  // End marker
+  children.push(new docx.Paragraph({
+    alignment: docx.AlignmentType.CENTER,
+    spacing: { before: 200, after: 200 },
+    children: [
+      new docx.TextRun({ text: '---------- HẾT ----------', bold: true, font: 'Times New Roman', size: 24 })
+    ]
+  }));
+
+  // Page break for summary matrix
+  children.push(new docx.Paragraph({
+    children: [new docx.PageBreak()]
+  }));
+
+  // Summary answers table
+  children.push(new docx.Paragraph({
+    alignment: docx.AlignmentType.CENTER,
+    spacing: { before: 100, after: 120 },
+    children: [
+      new docx.TextRun({ text: 'BẢNG ĐÁP ÁN TỔNG HỢP', bold: true, color: '0000FF', font: 'Times New Roman', size: 26 })
+    ]
+  }));
+
+  const letters = ['A', 'B', 'C', 'D'];
+  const totalQ = questions.length;
+
+  for (let rowStart = 0; rowStart < totalQ; rowStart += 10) {
+    const rowEnd = Math.min(rowStart + 10, totalQ);
+    const colCount = rowEnd - rowStart;
+    const colWidthPct = Math.floor(100 / colCount);
+
+    const headerCells = [];
+    const dataCells = [];
+
+    for (let i = rowStart; i < rowEnd; i++) {
+      const q = questions[i];
+      let ansText = '-';
+      if (q) {
+        if (q.type === 'true_false' && Array.isArray(q.items)) {
+          ansText = q.items.map(it => it.correct ? 'Đ' : 'S').join('/');
+        } else if (q.type === 'short_answer') {
+          ansText = q.correctAnswer || (q.options && q.options[0] ? this.stripHtml(q.options[0]).replace('Đáp số:', '').trim() : '-');
+        } else {
+          const cIdx = typeof q.correct === 'number' ? q.correct : 0;
+          ansText = letters[cIdx] || 'A';
+        }
+      }
+
+      headerCells.push(new docx.TableCell({
+        width: { size: colWidthPct, type: docx.WidthType.PERCENTAGE },
+        borders: cellBordersGrid,
+        shading: { type: docx.ShadingType.CLEAR, fill: 'E5E7EB' },
+        children: [new docx.Paragraph({ alignment: docx.AlignmentType.CENTER, children: [new docx.TextRun({ text: 'Câu ' + (i + 1), bold: true, font: 'Times New Roman', size: 22 })] })]
+      }));
+
+      dataCells.push(new docx.TableCell({
+        width: { size: colWidthPct, type: docx.WidthType.PERCENTAGE },
+        borders: cellBordersGrid,
+        children: [new docx.Paragraph({ alignment: docx.AlignmentType.CENTER, children: [new docx.TextRun({ text: ansText, bold: true, color: '0000FF', font: 'Times New Roman', size: 22 })] })]
+      }));
+    }
 
     children.push(new docx.Table({
       width: { size: 100, type: docx.WidthType.PERCENTAGE },
-      borders: {
-        top: borderNone, bottom: borderNone, left: borderNone, right: borderNone,
-        insideHorizontal: borderNone, insideVertical: borderNone
-      },
+      borders: cellBordersGrid,
       rows: [
-        new docx.TableRow({
-          children: [
-            new docx.TableCell({ width: { size: 50, type: docx.WidthType.PERCENTAGE }, children: leftHeaderParagraphs }),
-            new docx.TableCell({ width: { size: 50, type: docx.WidthType.PERCENTAGE }, children: rightHeaderParagraphs })
-          ]
-        })
+        new docx.TableRow({ children: headerCells }),
+        new docx.TableRow({ children: dataCells })
       ]
     }));
 
-    // Candidate Info Line
-    children.push(new docx.Paragraph({
-      spacing: { before: 140, after: 120 },
-      children: [
-        new docx.TextRun({ text: 'Họ và tên thí sinh: ..................................................................................  Số báo danh: ........................', italics: true, size: 22 })
-      ]
-    }));
+    children.push(new docx.Paragraph({ spacing: { before: 60, after: 60 }, children: [] }));
+  }
 
-    // Main Exam Title
-    children.push(new docx.Paragraph({
-      alignment: docx.AlignmentType.CENTER,
-      spacing: { before: 100, after: 160 },
-      children: [
-        new docx.TextRun({ text: title.toUpperCase(), bold: true, size: 28 })
-      ]
-    }));
-
-    // Questions List
-    questions.forEach((q, idx) => {
-      const qNum = idx + 1;
-
-      // Passage (if present)
-      if (q.passage) {
-        children.push(new docx.Paragraph({
-          spacing: { before: 120, after: 80 },
-          shading: { type: docx.ShadingType.CLEAR, fill: 'F3F4F6' },
-          children: this.parseFormattedRuns(q.passage, 24)
-        }));
-      }
-
-      // Question body
-      const qRuns = [
-        new docx.TextRun({ text: `Câu ${qNum}. `, bold: true, size: 26 })
-      ];
-      qRuns.push(...this.parseFormattedRuns(q.question, 26));
-
-      children.push(new docx.Paragraph({
-        spacing: { before: 100, after: 60 },
-        children: qRuns
-      }));
-
-      // Options
-      if (q.type === 'true_false' && Array.isArray(q.items) && q.items.length > 0) {
-        q.items.forEach(it => {
-          if (!it) return;
-          const label = String(it.label || 'a').toLowerCase() + ') ';
-          const textRuns = this.parseFormattedRuns(it.text, 26);
-          children.push(new docx.Paragraph({
-            indent: { left: 400 },
-            spacing: { before: 30, after: 30 },
-            children: [new docx.TextRun({ text: label, bold: true, size: 26 }), ...textRuns]
-          }));
-        });
-      } else if (q.type === 'short_answer' || (Array.isArray(q.options) && q.options.length === 1 && String(q.options[0]).includes('Đáp số:'))) {
-        children.push(new docx.Paragraph({
-          indent: { left: 400 },
-          spacing: { before: 40, after: 60 },
-          children: [
-            new docx.TextRun({ text: 'Trả lời: [ ............................................................................ ]', italics: true, size: 26 })
-          ]
-        }));
-      } else if (Array.isArray(q.options) && q.options.length > 0) {
-        const letters = ['A', 'B', 'C', 'D'];
-        const cleanOpts = q.options.map((opt, oIdx) => {
-          let str = this.stripHtml(opt);
-          const letter = letters[oIdx] || 'A';
-          if (!str.match(/^[A-D][\.\:\s]/i)) {
-            str = letter + '. ' + str;
-          }
-          return str;
-        });
-
-        const maxLen = Math.max(...cleanOpts.map(o => o.length));
-
-        if (cleanOpts.length === 4 && maxLen <= 32) {
-          // 1 row 4 columns
-          const optCells = cleanOpts.map(optStr => new docx.TableCell({
-            width: { size: 25, type: docx.WidthType.PERCENTAGE },
-            borders: { top: borderNone, bottom: borderNone, left: borderNone, right: borderNone },
-            children: [new docx.Paragraph({ spacing: { before: 20, after: 20 }, children: [new docx.TextRun({ text: optStr, size: 26 })] })]
-          }));
-          children.push(new docx.Table({
-            width: { size: 100, type: docx.WidthType.PERCENTAGE },
-            borders: { top: borderNone, bottom: borderNone, left: borderNone, right: borderNone, insideHorizontal: borderNone, insideVertical: borderNone },
-            rows: [new docx.TableRow({ children: optCells })]
-          }));
-        } else if (cleanOpts.length === 4 && maxLen <= 55) {
-          // 2 rows 2 columns
-          const row1 = new docx.TableRow({
-            children: [
-              new docx.TableCell({ width: { size: 50, type: docx.WidthType.PERCENTAGE }, borders: { top: borderNone, bottom: borderNone, left: borderNone, right: borderNone }, children: [new docx.Paragraph({ spacing: { before: 20, after: 20 }, children: [new docx.TextRun({ text: cleanOpts[0], size: 26 })] })] }),
-              new docx.TableCell({ width: { size: 50, type: docx.WidthType.PERCENTAGE }, borders: { top: borderNone, bottom: borderNone, left: borderNone, right: borderNone }, children: [new docx.Paragraph({ spacing: { before: 20, after: 20 }, children: [new docx.TextRun({ text: cleanOpts[1], size: 26 })] })] })
-            ]
-          });
-          const row2 = new docx.TableRow({
-            children: [
-              new docx.TableCell({ width: { size: 50, type: docx.WidthType.PERCENTAGE }, borders: { top: borderNone, bottom: borderNone, left: borderNone, right: borderNone }, children: [new docx.Paragraph({ spacing: { before: 20, after: 20 }, children: [new docx.TextRun({ text: cleanOpts[2], size: 26 })] })] }),
-              new docx.TableCell({ width: { size: 50, type: docx.WidthType.PERCENTAGE }, borders: { top: borderNone, bottom: borderNone, left: borderNone, right: borderNone }, children: [new docx.Paragraph({ spacing: { before: 20, after: 20 }, children: [new docx.TextRun({ text: cleanOpts[3], size: 26 })] })] })
-            ]
-          });
-          children.push(new docx.Table({
-            width: { size: 100, type: docx.WidthType.PERCENTAGE },
-            borders: { top: borderNone, bottom: borderNone, left: borderNone, right: borderNone, insideHorizontal: borderNone, insideVertical: borderNone },
-            rows: [row1, row2]
-          }));
-        } else {
-          // Separate paragraphs
-          cleanOpts.forEach(optStr => {
-            children.push(new docx.Paragraph({
-              indent: { left: 400 },
-              spacing: { before: 20, after: 20 },
-              children: [new docx.TextRun({ text: optStr, size: 26 })]
-            }));
-          });
+  return new docx.Document({
+    styles: {
+      default: {
+        document: {
+          run: { font: 'Times New Roman', size: 24 },
+          paragraph: { spacing: { line: 276, before: 30, after: 30 } }
         }
       }
-    });
-
-    // End marker
-    children.push(new docx.Paragraph({
-      alignment: docx.AlignmentType.CENTER,
-      spacing: { before: 200, after: 200 },
-      children: [
-        new docx.TextRun({ text: '---------- HẾT ----------', bold: true, size: 24 })
-      ]
-    }));
-
-    // PAGE BREAK for Answers & Solutions
-    children.push(new docx.Paragraph({
-      children: [new docx.PageBreak()]
-    }));
-
-    // Answer Section Header
-    children.push(new docx.Paragraph({
-      alignment: docx.AlignmentType.CENTER,
-      spacing: { before: 100, after: 120 },
-      children: [
-        new docx.TextRun({ text: 'ĐÁP ÁN VÀ HƯỚNG DẪN GIẢI CHI TIẾT', bold: true, size: 28 })
-      ]
-    }));
-
-    // Part I: Answer Key Table
-    children.push(new docx.Paragraph({
-      spacing: { before: 100, after: 80 },
-      children: [
-        new docx.TextRun({ text: 'I. BẢNG ĐÁP ÁN NHANH:', bold: true, size: 26 })
-      ]
-    }));
-
-    const letters = ['A', 'B', 'C', 'D'];
-    const totalQ = questions.length;
-
-    for (let rowStart = 0; rowStart < totalQ; rowStart += 10) {
-      const rowEnd = Math.min(rowStart + 10, totalQ);
-      const colCount = rowEnd - rowStart;
-      const colWidthPct = Math.floor(100 / colCount);
-
-      const headerCells = [];
-      const dataCells = [];
-
-      for (let i = rowStart; i < rowEnd; i++) {
-        const q = questions[i];
-        let ansText = '-';
-        if (q) {
-          if (q.type === 'true_false' && Array.isArray(q.items)) {
-            ansText = q.items.map(it => it.correct ? 'Đ' : 'S').join('/');
-          } else if (q.type === 'short_answer') {
-            ansText = q.correctAnswer || (q.options && q.options[0] ? this.stripHtml(q.options[0]).replace('Đáp số:', '').trim() : '-');
-          } else {
-            const cIdx = typeof q.correct === 'number' ? q.correct : 0;
-            ansText = letters[cIdx] || 'A';
-          }
-        }
-
-        headerCells.push(new docx.TableCell({
-          width: { size: colWidthPct, type: docx.WidthType.PERCENTAGE },
-          borders: cellBordersGrid,
-          shading: { type: docx.ShadingType.CLEAR, fill: 'E5E7EB' },
-          children: [new docx.Paragraph({ alignment: docx.AlignmentType.CENTER, children: [new docx.TextRun({ text: 'Câu ' + (i + 1), bold: true, size: 22 })] })]
-        }));
-
-        dataCells.push(new docx.TableCell({
-          width: { size: colWidthPct, type: docx.WidthType.PERCENTAGE },
-          borders: cellBordersGrid,
-          children: [new docx.Paragraph({ alignment: docx.AlignmentType.CENTER, children: [new docx.TextRun({ text: ansText, bold: true, size: 22 })] })]
-        }));
-      }
-
-      children.push(new docx.Table({
-        width: { size: 100, type: docx.WidthType.PERCENTAGE },
-        borders: cellBordersGrid,
-        rows: [
-          new docx.TableRow({ children: headerCells }),
-          new docx.TableRow({ children: dataCells })
-        ]
-      }));
-
-      children.push(new docx.Paragraph({ spacing: { before: 60, after: 60 }, children: [] }));
-    }
-
-    // Part II: Detailed Solutions
-    children.push(new docx.Paragraph({
-      spacing: { before: 120, after: 100 },
-      children: [
-        new docx.TextRun({ text: 'II. HƯỚNG DẪN GIẢI CHI TIẾT:', bold: true, size: 26 })
-      ]
-    }));
-
-    let hasExp = false;
-    questions.forEach((q, idx) => {
-      if (!q) return;
-      const exp = this.stripHtml(q.explanation).trim();
-      if (exp) {
-        hasExp = true;
-        children.push(new docx.Paragraph({
-          spacing: { before: 60, after: 60 },
-          children: [
-            new docx.TextRun({ text: `Câu ${idx + 1}: `, bold: true, size: 24 }),
-            ...this.parseFormattedRuns(q.explanation, 24)
-          ]
-        }));
-      }
-    });
-
-    if (!hasExp) {
-      children.push(new docx.Paragraph({
-        children: [
-          new docx.TextRun({ text: '(Đang cập nhật hướng dẫn giải chi tiết cho các câu hỏi)', italics: true, size: 24 })
-        ]
-      }));
-    }
-
-    return new docx.Document({
-      styles: {
-        default: {
-          document: {
-            run: { font: 'Times New Roman', size: 26 },
-            paragraph: { spacing: { line: 276, before: 40, after: 40 } }
-          }
+    },
+    sections: [{
+      properties: {
+        page: {
+          size: { width: 11906, height: 16838 },
+          margin: { top: 1134, bottom: 1134, left: 1417, right: 1134 }
         }
       },
-      sections: [{
-        properties: {
-          page: {
-            size: { width: 11906, height: 16838 }, // A4
-            margin: { top: 1134, bottom: 1134, left: 1417, right: 1134 }
-          }
-        },
-        children
-      }]
-    });
+      children
+    }]
+  });
   },
 
-  /**
-   * Main Download Function: Exclusively Genuine .docx Format
-   * 100% compatible with Mobile phones (iOS/Android) and Desktop Office
-   */
   async downloadExamDocx(targetExam = null) {
     const exam = targetExam || this.currentExam;
     if (!exam) {
