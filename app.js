@@ -118,20 +118,62 @@ const app = {
   },
 
   /**
-   * Render KaTeX formulas in an element
+   * Render KaTeX formulas in an element with retry mechanism
    */
   renderMath(element) {
-    if (window.renderMathInElement && element) {
-      renderMathInElement(element, {
-        delimiters: [
-          { left: '$$', right: '$$', display: true },
-          { left: '$', right: '$', display: false },
-          { left: '\\(', right: '\\)', display: false },
-          { left: '\\[', right: '\\]', display: true }
-        ],
-        throwOnError: false
-      });
+    if (!element) return;
+    const run = () => {
+      if (window.renderMathInElement) {
+        try {
+          renderMathInElement(element, {
+            delimiters: [
+              { left: '$$', right: '$$', display: true },
+              { left: '$', right: '$', display: false },
+              { left: '\\(', right: '\\)', display: false },
+              { left: '\\[', right: '\\]', display: true }
+            ],
+            throwOnError: false,
+            ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+          });
+        } catch (e) {
+          console.warn('KaTeX render warning:', e);
+        }
+      }
+    };
+
+    if (window.renderMathInElement) {
+      run();
+    } else {
+      setTimeout(run, 150);
+      setTimeout(run, 500);
     }
+  },
+
+  /**
+   * Helper to clean True/False item text from leftover .( T ), .( F ), ( T ), ( F ) markers
+   */
+  cleanItemText(text) {
+    if (!text) return '';
+    return String(text)
+      .replace(/\s*\.?\s*\(\s*[TFtf]\s*\)\s*$/g, '')
+      .replace(/\s*\.?\s*\(\s*(True|False|Đúng|Sai)\s*\)\s*$/gi, '')
+      .trim();
+  },
+
+  /**
+   * Helper to determine if a True/False sub-item is correct with multi-tier heuristic
+   */
+  isItemCorrect(item) {
+    if (!item) return false;
+    if (item.correct === true) return true;
+    const rawText = String(item.text || '');
+    if (/\(\s*[Tt]\s*\)|\(\s*True\s*\)|\.\(\s*[Tt]\s*\)/i.test(rawText)) {
+      return true;
+    }
+    if (item.explanation && /^(?:[a-d]\s*[\)\.]\s*)?Đúng/i.test(item.explanation.trim())) {
+      return true;
+    }
+    return false;
   },
 
   /**
@@ -695,16 +737,17 @@ const app = {
       // CASE 1: True / False Group (GDPT 2018 format)
       if (q.type === 'true_false' && Array.isArray(q.items)) {
         const itemsHtml = q.items.map(item => {
-          const isTrue = item.correct === true;
-          const badgeClass = isTrue ? 'bg-emerald-600 text-white' : 'bg-rose-600 text-white';
+          const isTrue = this.isItemCorrect(item);
+          const badgeClass = isTrue ? 'bg-emerald-600 text-white shadow-sm shadow-emerald-500/20' : 'bg-rose-600 text-white shadow-sm shadow-rose-500/20';
           const badgeText = isTrue ? 'ĐÚNG' : 'SAI';
+          const cleanText = this.cleanItemText(item.text);
 
           return `
             <div class="p-3.5 rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/60 space-y-2">
               <div class="flex items-start justify-between gap-3">
                 <div class="text-sm font-medium text-slate-800 dark:text-slate-200 flex-1">
                   <span class="font-bold text-blue-600 dark:text-blue-400 mr-1.5">${item.label || ''})</span>
-                  <span>${item.text}</span>
+                  <span>${cleanText}</span>
                 </div>
                 ${this.readerShowAnswers ? `
                   <span class="px-2.5 py-0.5 rounded-full text-xs font-bold shrink-0 ${badgeClass}">
@@ -1023,8 +1066,9 @@ const app = {
       q.items.forEach(it => {
         if (!it) return;
         const label = '   ' + String(it.label || 'a').toLowerCase() + ') ';
-        const isTrue = Boolean(it.correct);
-        const textRuns = this.parseFormattedRuns(it.text, 24);
+        const isTrue = this.isItemCorrect(it);
+        const cleanText = this.cleanItemText(it.text);
+        const textRuns = this.parseFormattedRuns(cleanText, 24);
         children.push(new docx.Paragraph({
           spacing: { before: 20, after: 20 },
           children: [
@@ -1180,7 +1224,7 @@ const app = {
       let ansText = '-';
       if (q) {
         if (q.type === 'true_false' && Array.isArray(q.items)) {
-          ansText = q.items.map(it => it.correct ? 'Đ' : 'S').join('/');
+          ansText = q.items.map(it => this.isItemCorrect(it) ? 'Đ' : 'S').join('/');
         } else if (q.type === 'short_answer') {
           ansText = q.correctAnswer || (q.options && q.options[0] ? this.stripHtml(q.options[0]).replace('Đáp số:', '').trim() : '-');
         } else {
@@ -1431,7 +1475,7 @@ const app = {
             <div class="p-3.5 rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/60 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
               <div class="text-sm font-medium text-slate-800 dark:text-slate-200 flex-1">
                 <span class="font-bold text-blue-600 dark:text-blue-400 mr-1.5">${item.label})</span>
-                <span>${item.text}</span>
+                <span>${this.cleanItemText(item.text)}</span>
               </div>
               <div class="flex items-center gap-2 shrink-0 self-end sm:self-center">
                 <button 
@@ -1680,13 +1724,14 @@ const app = {
         let subCorrect = 0;
         const subReview = q.items.map(it => {
           const userVal = userObj[it.label];
-          const isRight = userVal === it.correct;
+          const correctVal = this.isItemCorrect(it);
+          const isRight = userVal === correctVal;
           if (isRight) subCorrect++;
           return {
             label: it.label,
-            text: it.text,
+            text: this.cleanItemText(it.text),
             userChoice: userVal,
-            correctChoice: it.correct,
+            correctChoice: correctVal,
             isCorrect: isRight,
             explanation: it.explanation
           };
@@ -1887,8 +1932,11 @@ const app = {
           let trueBtnClass = 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300';
           let falseBtnClass = 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300';
 
+          const correctVal = this.isItemCorrect(item);
+          const cleanText = this.cleanItemText(item.text);
+
           if (st) {
-            if (item.correct === true) {
+            if (correctVal === true) {
               trueBtnClass = 'bg-emerald-600 text-white border-emerald-600 ring-2 ring-emerald-400 font-bold';
             } else {
               falseBtnClass = 'bg-emerald-600 text-white border-emerald-600 ring-2 ring-emerald-400 font-bold';
@@ -1906,7 +1954,7 @@ const app = {
               <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div class="text-sm font-medium text-slate-800 dark:text-slate-200 flex-1">
                   <span class="font-bold text-blue-600 dark:text-blue-400 mr-1.5">${item.label})</span>
-                  <span>${item.text}</span>
+                  <span>${cleanText}</span>
                 </div>
                 <div class="flex items-center gap-2 shrink-0 self-end sm:self-center">
                   <button 
@@ -2043,9 +2091,11 @@ const app = {
       this.practiceAnswers[qId] = {};
     }
 
+    const correctVal = this.isItemCorrect(item);
+
     this.practiceAnswers[qId][label] = {
       selected: val,
-      isCorrect: val === item.correct
+      isCorrect: val === correctVal
     };
 
     this.renderPracticeQuestions();
