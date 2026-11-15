@@ -126,18 +126,24 @@ def parse_cookie_string(raw: str) -> Dict[str, str]:
 def get_authenticated_session() -> requests.Session:
     """Initialize a requests Session with OLM authentication cookies and browser headers."""
     session = requests.Session()
+    cookie_val = (os.environ.get("OLM_COOKIES") or os.environ.get("OLM_SESSION") or "").strip()
+    # Strip any enclosing quotes
+    if (cookie_val.startswith("'") and cookie_val.endswith("'")) or (cookie_val.startswith('"') and cookie_val.endswith('"')):
+        cookie_val = cookie_val[1:-1].strip()
+
     session.headers.update({
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
         "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
         "Referer": "https://olm.vn/lop-hoc-cua-toi",
+        "X-Requested-With": "XMLHttpRequest",
     })
-
-    cookie_val = os.environ.get("OLM_COOKIES") or os.environ.get("OLM_SESSION") or ""
-    cookies = parse_cookie_string(cookie_val)
-    for k, v in cookies.items():
-        session.cookies.set(k, v, domain=".olm.vn")
-        session.cookies.set(k, v, domain="olm.vn")
+    if cookie_val:
+        session.headers["Cookie"] = cookie_val
+        cookies = parse_cookie_string(cookie_val)
+        for k, v in cookies.items():
+            session.cookies.set(k, v, domain=".olm.vn")
+            session.cookies.set(k, v, domain="olm.vn")
 
     return session
 
@@ -159,6 +165,9 @@ def fetch_assigned_lessons_from_olm(session: requests.Session) -> List[Dict[str,
 
     try:
         resp = session.get(api_url, headers=api_headers, timeout=25)
+        print(f"[*] OLM API Response status: {resp.status_code}")
+        if resp.status_code != 200:
+            print(f"[!] OLM API returned non-200: {resp.text[:250]}")
         if resp.status_code == 200:
             data = resp.json()
             raw_list = data.get("list", [])
@@ -187,7 +196,7 @@ def fetch_assigned_lessons_from_olm(session: requests.Session) -> List[Dict[str,
             if lessons:
                 return lessons
     except Exception as e:
-        print(f"[!] OLM API notice: {e}")
+        print(f"[!] OLM API notice: status={getattr(resp, \'status_code\', None)}, error={e}")
 
     return lessons
 
