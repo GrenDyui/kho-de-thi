@@ -24,8 +24,11 @@ const app = {
   // State for Result
   lastExamResult: null,
 
-  // Active Filters
+  // Active Filters & State
+  activeSource: 'ALL', // 'ALL' | 'OLM' | 'SCHOOL'
   activeSubject: 'ALL',
+  activeTeacher: 'ALL',
+  activeDuration: 'ALL',
   activeGrade: 'ALL',
   searchQuery: '',
 
@@ -35,8 +38,10 @@ const app = {
   async init() {
     this.initTheme();
     await this.loadExams();
+    this.renderTeacherFilter();
     this.renderSubjectFilters();
-    this.renderExamsList();
+    this.updateTabCounts();
+    this.setSourceTab('ALL');
     this.initLucide();
   },
 
@@ -174,34 +179,157 @@ const app = {
   },
 
   /**
-   * Dynamic Subject Filters
+   * Helper to identify OLM exams
+   */
+  isOlmExam(exam) {
+    if (!exam) return false;
+    if (exam.source && exam.source.toUpperCase() === 'OLM') return true;
+    if (exam.id && exam.id.toLowerCase().startsWith('olm-')) return true;
+    if (exam.title && exam.title.toLowerCase().includes('olm')) return true;
+    return false;
+  },
+
+  /**
+   * Helper to format teacher name
+   */
+  getExamTeacher(exam) {
+    if (!exam) return 'Ban Chuyên Môn';
+    if (exam.teacher && exam.teacher.trim()) return exam.teacher.trim();
+    if (exam.author && exam.author.trim()) return exam.author.trim();
+    return this.isOlmExam(exam) ? 'Ban Cố Vấn OLM' : 'Tổ Chuyên Môn';
+  },
+
+  /**
+   * Source Tab Switching ([Tất cả] | [Kho Đề OLM] | [Đề Trường Học])
+   */
+  setSourceTab(source) {
+    this.activeSource = source;
+    
+    const tabs = [
+      { id: 'tab-source-all', key: 'ALL', activeClass: 'bg-white dark:bg-slate-700 text-blue-600 dark:text-blue-400 shadow-sm' },
+      { id: 'tab-source-olm', key: 'OLM', activeClass: 'bg-white dark:bg-slate-700 text-amber-600 dark:text-amber-400 shadow-sm' },
+      { id: 'tab-source-school', key: 'SCHOOL', activeClass: 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-400 shadow-sm' }
+    ];
+
+    tabs.forEach(t => {
+      const el = document.getElementById(t.id);
+      if (!el) return;
+      if (t.key === source) {
+        el.className = `source-tab flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all ${t.activeClass}`;
+      } else {
+        el.className = 'source-tab flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white';
+      }
+    });
+
+    this.renderExamsList();
+  },
+
+  /**
+   * Update badge counters on Source tabs
+   */
+  updateTabCounts() {
+    const total = this.exams.length;
+    const olmCount = this.exams.filter(e => this.isOlmExam(e)).length;
+    const schoolCount = total - olmCount;
+
+    const bAll = document.getElementById('badge-count-all');
+    const bOlm = document.getElementById('badge-count-olm');
+    const bSchool = document.getElementById('badge-count-school');
+
+    if (bAll) bAll.textContent = total;
+    if (bOlm) bOlm.textContent = olmCount;
+    if (bSchool) bSchool.textContent = schoolCount;
+  },
+
+  /**
+   * Dynamic Subject Filters (Dropdown & Quick Pills)
    */
   renderSubjectFilters() {
-    const subjects = ['ALL', ...new Set(this.exams.map(e => e.subject).filter(Boolean))];
-    const container = document.getElementById('subject-filters');
-    if (!container) return;
+    const subjects = ['ALL', ...new Set(this.exams.map(e => (e.subject || '').trim()).filter(Boolean))].sort();
+    
+    // 1. Update Dropdown
+    const select = document.getElementById('subject-filter');
+    if (select) {
+      select.innerHTML = subjects.map(sub => {
+        const sel = this.activeSubject === sub ? 'selected' : '';
+        const label = sub === 'ALL' ? 'Tất cả môn học' : sub;
+        return `<option value="${sub}" ${sel}>${label}</option>`;
+      }).join('');
+    }
 
-    container.innerHTML = subjects.map(sub => {
-      const isActive = this.activeSubject === sub;
-      const label = sub === 'ALL' ? 'Tất cả môn' : sub;
-      return `
-        <button 
-          onclick="app.selectSubject('${sub}')" 
-          class="px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
-            isActive 
-              ? 'bg-blue-600 text-white shadow-sm shadow-blue-500/20' 
-              : 'bg-slate-100 hover:bg-slate-200 dark:bg-slate-700/60 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300'
-          }"
-        >
-          ${label}
-        </button>
-      `;
-    }).join('');
+    // 2. Update Quick pills
+    const container = document.getElementById('subject-filters');
+    if (container) {
+      container.innerHTML = subjects.map(sub => {
+        const isActive = this.activeSubject === sub;
+        const label = sub === 'ALL' ? 'Tất cả môn' : sub;
+        return `
+          <button 
+            type="button"
+            onclick="app.selectSubject('${sub}')" 
+            class="px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+              isActive 
+                ? 'bg-blue-600 text-white shadow-sm shadow-blue-500/20' 
+                : 'bg-slate-100 hover:bg-slate-200 dark:bg-slate-700/60 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300'
+            }"
+          >
+            ${label}
+          </button>
+        `;
+      }).join('');
+    }
+  },
+
+  /**
+   * Dynamic Teacher Filter (Dropdown)
+   */
+  renderTeacherFilter() {
+    const select = document.getElementById('teacher-filter');
+    if (!select) return;
+
+    const teacherSet = new Set();
+    this.exams.forEach(e => {
+      const t = (e.teacher || e.author || '').trim();
+      if (t) teacherSet.add(t);
+    });
+
+    const teachers = [...teacherSet].sort();
+    let html = '<option value="ALL">Tất cả giáo viên</option>';
+    teachers.forEach(t => {
+      const sel = this.activeTeacher === t ? 'selected' : '';
+      html += `<option value="${t}" ${sel}>${t}</option>`;
+    });
+
+    const hasUnassigned = this.exams.some(e => !(e.teacher || e.author || '').trim());
+    if (hasUnassigned && teachers.length > 0) {
+      const sel = this.activeTeacher === 'OTHER' ? 'selected' : '';
+      html += `<option value="OTHER" ${sel}>Tổ bộ môn / Chưa ghi GV</option>`;
+    }
+
+    select.innerHTML = html;
+  },
+
+  handleSubjectDropdown(val) {
+    this.activeSubject = val;
+    this.renderSubjectFilters();
+    this.renderExamsList();
   },
 
   selectSubject(sub) {
     this.activeSubject = sub;
+    const select = document.getElementById('subject-filter');
+    if (select) select.value = sub;
     this.renderSubjectFilters();
+    this.renderExamsList();
+  },
+
+  handleTeacherDropdown(val) {
+    this.activeTeacher = val;
+    this.renderExamsList();
+  },
+
+  handleDurationDropdown(val) {
+    this.activeDuration = val;
     this.renderExamsList();
   },
 
@@ -213,7 +341,50 @@ const app = {
 
   handleSearch() {
     const input = document.getElementById('search-input');
+    const clearBtn = document.getElementById('search-clear-btn');
     this.searchQuery = (input ? input.value : '').trim().toLowerCase();
+    if (clearBtn) {
+      if (this.searchQuery) {
+        clearBtn.classList.remove('hidden');
+      } else {
+        clearBtn.classList.add('hidden');
+      }
+    }
+    this.renderExamsList();
+  },
+
+  clearSearch() {
+    const input = document.getElementById('search-input');
+    if (input) input.value = '';
+    this.handleSearch();
+  },
+
+  resetAllFilters() {
+    this.activeSource = 'ALL';
+    this.activeSubject = 'ALL';
+    this.activeTeacher = 'ALL';
+    this.activeDuration = 'ALL';
+    this.activeGrade = 'ALL';
+    this.searchQuery = '';
+
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) searchInput.value = '';
+
+    const subSelect = document.getElementById('subject-filter');
+    if (subSelect) subSelect.value = 'ALL';
+
+    const teachSelect = document.getElementById('teacher-filter');
+    if (teachSelect) teachSelect.value = 'ALL';
+
+    const durSelect = document.getElementById('duration-filter');
+    if (durSelect) durSelect.value = 'ALL';
+
+    const gradeSelect = document.getElementById('grade-filter');
+    if (gradeSelect) gradeSelect.value = 'ALL';
+
+    this.setSourceTab('ALL');
+    this.renderSubjectFilters();
+    this.renderTeacherFilter();
     this.renderExamsList();
   },
 
@@ -224,17 +395,56 @@ const app = {
     const container = document.getElementById('exams-container');
     if (!container) return;
 
+    this.updateTabCounts();
+
     let filtered = this.exams.filter(exam => {
-      // Subject filter
+      // 1. Source Tab Filter
+      if (this.activeSource !== 'ALL') {
+        const isOlm = this.isOlmExam(exam);
+        if (this.activeSource === 'OLM' && !isOlm) return false;
+        if (this.activeSource === 'SCHOOL' && isOlm) return false;
+      }
+
+      // 2. Subject filter
       if (this.activeSubject !== 'ALL' && exam.subject !== this.activeSubject) return false;
-      // Grade filter
+
+      // 3. Teacher filter
+      if (this.activeTeacher !== 'ALL') {
+        const t = (exam.teacher || exam.author || '').trim();
+        if (this.activeTeacher === 'OTHER') {
+          if (t) return false;
+        } else {
+          if (t !== this.activeTeacher) return false;
+        }
+      }
+
+      // 4. Duration filter
+      if (this.activeDuration !== 'ALL') {
+        const dur = Number(exam.durationMinutes) || 45;
+        if (this.activeDuration === '15') {
+          if (dur > 20) return false;
+        } else if (this.activeDuration === '45') {
+          if (dur < 25 || dur > 50) return false;
+        } else if (this.activeDuration === '60') {
+          if (dur < 55 || dur > 75) return false;
+        } else if (this.activeDuration === '90') {
+          if (dur < 80) return false;
+        } else if (dur !== Number(this.activeDuration)) {
+          return false;
+        }
+      }
+
+      // 5. Grade filter
       if (this.activeGrade !== 'ALL' && exam.grade !== this.activeGrade) return false;
-      // Search keyword filter
+
+      // 6. Search keyword filter
       if (this.searchQuery) {
         const textToSearch = [
           exam.title,
           exam.subject,
           exam.grade,
+          exam.teacher || '',
+          exam.author || '',
           exam.description || '',
           (exam.tags || []).join(' ')
         ].join(' ').toLowerCase();
@@ -243,14 +453,25 @@ const app = {
       return true;
     });
 
+    const statusEl = document.getElementById('filtered-exams-status');
+    if (statusEl) {
+      statusEl.textContent = `Hiển thị ${filtered.length}/${this.exams.length} đề thi`;
+    }
+
     if (filtered.length === 0) {
       container.innerHTML = `
-        <div class="col-span-full py-16 text-center space-y-3">
-          <div class="w-16 h-16 mx-auto rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-400">
+        <div class="col-span-full py-16 text-center space-y-3 bg-white dark:bg-slate-800/60 rounded-3xl border border-slate-200 dark:border-slate-700/60 p-8">
+          <div class="w-16 h-16 mx-auto rounded-full bg-slate-100 dark:bg-slate-700 flex items-center justify-center text-slate-400">
             <i data-lucide="file-question" class="w-8 h-8"></i>
           </div>
-          <p class="font-bold text-slate-700 dark:text-slate-300">Không tìm thấy đề thi phù hợp</p>
-          <p class="text-xs text-slate-400">Hãy thử tìm từ khóa khác hoặc bấm nút "Nhập Đề Nhanh" để nạp đề mới.</p>
+          <p class="font-bold text-base text-slate-700 dark:text-slate-300">Không tìm thấy đề thi phù hợp</p>
+          <p class="text-xs text-slate-400 max-w-sm mx-auto">Không có đề nào khớp với các bộ lọc bạn đang chọn. Hãy thử xóa bộ lọc hoặc tìm từ khóa khác.</p>
+          <div class="pt-2">
+            <button onclick="app.resetAllFilters()" class="px-4 py-2 rounded-xl text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white shadow-sm inline-flex items-center gap-1.5 transition-all">
+              <i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i>
+              <span>Đặt lại bộ lọc</span>
+            </button>
+          </div>
         </div>
       `;
       this.initLucide();
@@ -260,19 +481,40 @@ const app = {
     container.innerHTML = filtered.map(exam => {
       const qCount = (exam.questions || []).length;
       const duration = exam.durationMinutes || 45;
+      const isOlm = this.isOlmExam(exam);
+      const teacherName = this.getExamTeacher(exam);
       const tags = (exam.tags || []).slice(0, 3).map(t => `<span class="px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700/80 text-[11px] text-slate-600 dark:text-slate-300 font-medium">#${t}</span>`).join('');
+
+      // Stylish OLM badge vs School badge
+      const sourceBadge = isOlm
+        ? `
+          <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl text-xs font-black bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 text-white shadow-sm shadow-orange-500/25">
+            <span class="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span>
+            <i data-lucide="zap" class="w-3.5 h-3.5 fill-current text-yellow-200"></i>
+            <span>Kho Đề OLM</span>
+          </span>
+        `
+        : `
+          <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl text-xs font-semibold bg-indigo-50 text-indigo-700 dark:bg-indigo-950/70 dark:text-indigo-300 border border-indigo-200/70 dark:border-indigo-800">
+            <i data-lucide="graduation-cap" class="w-3.5 h-3.5 text-indigo-500"></i>
+            <span>Đề Trường Học</span>
+          </span>
+        `;
 
       return `
         <div class="bg-white dark:bg-slate-800 rounded-3xl p-6 border border-slate-200 dark:border-slate-700/80 hover:border-blue-400 dark:hover:border-blue-500 shadow-sm hover:shadow-xl transition-all flex flex-col justify-between group">
           <div class="space-y-4">
             <!-- Badges -->
             <div class="flex items-center justify-between gap-2">
-              <span class="px-2.5 py-1 rounded-lg text-xs font-bold bg-blue-50 text-blue-700 dark:bg-blue-950/70 dark:text-blue-300 border border-blue-200/60 dark:border-blue-800">
-                ${exam.subject}
-              </span>
-              <span class="text-xs font-semibold px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300">
-                ${exam.grade || 'THPT'}
-              </span>
+              <div class="flex items-center gap-1.5">
+                <span class="px-2.5 py-1 rounded-xl text-xs font-extrabold bg-blue-50 text-blue-700 dark:bg-blue-950/70 dark:text-blue-300 border border-blue-200/60 dark:border-blue-800">
+                  ${exam.subject}
+                </span>
+                <span class="text-xs font-semibold px-2 py-0.5 rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300">
+                  ${exam.grade || 'THPT'}
+                </span>
+              </div>
+              ${sourceBadge}
             </div>
 
             <!-- Title -->
@@ -280,20 +522,31 @@ const app = {
               ${exam.title}
             </h3>
 
+            <!-- Teacher Name Tag -->
+            <div class="flex items-center gap-2.5 text-xs text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-900/60 p-2.5 rounded-2xl border border-slate-100 dark:border-slate-800">
+              <div class="w-7 h-7 rounded-xl bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 flex items-center justify-center shrink-0 shadow-sm">
+                <i data-lucide="user-check" class="w-4 h-4"></i>
+              </div>
+              <div class="truncate flex-1">
+                <span class="text-slate-400 text-[10px] block font-medium uppercase tracking-wider">Giáo viên / Biên soạn</span>
+                <span class="font-bold text-slate-800 dark:text-slate-200 truncate block">${teacherName}</span>
+              </div>
+            </div>
+
             <!-- Description -->
             <p class="text-xs text-slate-500 dark:text-slate-400 line-clamp-2 leading-relaxed">
               ${exam.description || 'Bộ đề thi chọn lọc nội dung bài thi, lược bỏ thông tin rườm rà, tập trung luyện tập.'}
             </p>
 
             <!-- Meta statistics -->
-            <div class="flex items-center gap-4 text-xs font-medium text-slate-500 dark:text-slate-400 pt-2 border-t border-slate-100 dark:border-slate-700/50">
+            <div class="flex items-center justify-between text-xs font-semibold text-slate-500 dark:text-slate-400 pt-2 border-t border-slate-100 dark:border-slate-700/50">
+              <div class="flex items-center gap-1.5 text-blue-600 dark:text-blue-400 font-bold">
+                <i data-lucide="clock" class="w-4 h-4 text-blue-500"></i>
+                <span>${duration} phút</span>
+              </div>
               <div class="flex items-center gap-1.5">
                 <i data-lucide="help-circle" class="w-4 h-4 text-slate-400"></i>
                 <span>${qCount} câu hỏi</span>
-              </div>
-              <div class="flex items-center gap-1.5">
-                <i data-lucide="clock" class="w-4 h-4 text-slate-400"></i>
-                <span>${duration} phút</span>
               </div>
             </div>
 
@@ -307,7 +560,7 @@ const app = {
           <div class="grid grid-cols-3 gap-2 mt-6 pt-4 border-t border-slate-100 dark:border-slate-700/60">
             <button 
               onclick="app.openReader('${exam.id}')" 
-              class="px-2 py-2 rounded-xl text-xs font-semibold bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-200 flex items-center justify-center gap-1"
+              class="px-2 py-2 rounded-xl text-xs font-semibold bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-200 flex items-center justify-center gap-1 transition-all"
               title="Xem và tải đề thi"
             >
               <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
@@ -316,7 +569,7 @@ const app = {
 
             <button 
               onclick="app.startPractice('${exam.id}')" 
-              class="px-2 py-2 rounded-xl text-xs font-semibold bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/50 dark:hover:bg-emerald-900/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200/60 dark:border-emerald-800 flex items-center justify-center gap-1"
+              class="px-2 py-2 rounded-xl text-xs font-semibold bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/50 dark:hover:bg-emerald-900/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200/60 dark:border-emerald-800 flex items-center justify-center gap-1 transition-all"
               title="Ôn tập có giải thích tức thì"
             >
               <i data-lucide="zap" class="w-3.5 h-3.5"></i>
@@ -325,7 +578,7 @@ const app = {
 
             <button 
               onclick="app.startExam('${exam.id}')" 
-              class="px-2 py-2 rounded-xl text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-600/20 flex items-center justify-center gap-1"
+              class="px-2 py-2 rounded-xl text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-600/20 flex items-center justify-center gap-1 transition-all"
               title="Thi thử có bấm giờ"
             >
               <i data-lucide="play" class="w-3.5 h-3.5"></i>
@@ -374,16 +627,22 @@ const app = {
     this.readerShowAnswers = false;
     document.getElementById('toggle-answers-text').textContent = 'Hiện Đáp Án';
 
+    const isOlm = this.isOlmExam(this.currentExam);
+    const teacherName = this.getExamTeacher(this.currentExam);
+    const sourceLabel = isOlm ? 'Kho Đề OLM.VN' : 'Đề Trường Học';
+
     document.getElementById('reader-title').textContent = this.currentExam.title;
     document.getElementById('reader-meta').innerHTML = `
-      <span>${this.currentExam.subject}</span> • 
+      <span class="font-bold text-blue-600 dark:text-blue-400">${this.currentExam.subject}</span> • 
       <span>${this.currentExam.grade}</span> • 
+      <span class="inline-flex items-center gap-1 font-medium"><i data-lucide="user-check" class="w-3.5 h-3.5 text-indigo-500"></i> GV: ${teacherName}</span> • 
       <span>${(this.currentExam.questions || []).length} câu hỏi</span> • 
-      <span>Thời gian: ${this.currentExam.durationMinutes || 45} phút</span>
+      <span>Thời gian: ${this.currentExam.durationMinutes || 45} phút</span> • 
+      <span class="px-2 py-0.5 rounded-full text-[11px] font-bold ${isOlm ? 'bg-amber-100 text-amber-800 dark:bg-amber-900/60 dark:text-amber-300' : 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900/60 dark:text-indigo-300'}">${sourceLabel}</span>
     `;
 
     document.getElementById('print-exam-title').textContent = this.currentExam.title;
-    document.getElementById('print-exam-meta').textContent = `Môn: ${this.currentExam.subject} | ${this.currentExam.grade} | Số câu: ${(this.currentExam.questions || []).length} | Thời gian: ${this.currentExam.durationMinutes || 45} phút`;
+    document.getElementById('print-exam-meta').textContent = `Môn: ${this.currentExam.subject} | ${this.currentExam.grade} | GV: ${teacherName} | Nguồn: ${sourceLabel} | Số câu: ${(this.currentExam.questions || []).length} | Thời gian: ${this.currentExam.durationMinutes || 45} phút`;
 
     this.renderReaderQuestions();
     this.showView('view-reader');
@@ -1342,7 +1601,9 @@ const app = {
       alert(`Đã nạp thành công ${newExams.length} đề thi mới!`);
       this.closeImportModal();
       document.getElementById('import-json-input').value = '';
+      this.renderTeacherFilter();
       this.renderSubjectFilters();
+      this.updateTabCounts();
       this.renderExamsList();
     } catch (err) {
       alert('Mã JSON không hợp lệ! Vui lòng kiểm tra lại định dạng JSON.');
