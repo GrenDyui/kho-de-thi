@@ -144,126 +144,53 @@ def get_authenticated_session() -> requests.Session:
 
 def fetch_assigned_lessons_from_olm(session: requests.Session) -> List[Dict[str, Any]]:
     """
-    Scrape assigned lessons/exams from https://olm.vn/lop-hoc-cua-toi.
-    Returns list of lesson metadata dicts:
-    [{ 'id': '12345', 'title': '...', 'subject': '...', 'teacher': '...', 'deadline': '...' }]
+    Fetch assigned lessons/exams from OLM via student courseware API.
     """
-    url = "https://olm.vn/lop-hoc-cua-toi"
-    print(f"[*] Fetching assigned lessons from {url}...")
-    try:
-        resp = session.get(url, timeout=25, allow_redirects=True)
-    except Exception as e:
-        print(f"[!] Error connecting to OLM: {e}")
-        return []
-
-    # Check if redirected to login page
-    if "/dangnhap" in resp.url or "redirect=https%3A%2F%2Folm.vn%2Flop-hoc-cua-toi" in resp.url:
-        print("[!] Warning: Redirected to login page. OLM session cookie might be expired or missing.")
-        print("[!] Please check environment variable OLM_COOKIES or OLM_SESSION.")
-        return []
-
-    if resp.status_code != 200:
-        print(f"[!] Warning: HTTP {resp.status_code} received from {url}")
-        return []
-
-    html = resp.text
+    api_url = "https://olm.vn/classes/courseware/list-courseware-of-student"
+    print(f"[*] Querying OLM Student Courseware API: {api_url}...")
     lessons = []
     seen_ids = set()
 
-    # Excluded common non-lesson IDs
-    excluded_ids = {"1", "2", "3", "4", "5", "10", "20", "50", "100"}
+    api_headers = {
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": "https://olm.vn/lop-hoc-cua-toi"
+    }
 
-    # Pattern 1: Links to lessons/exercises
-    # e.g., /chu-de/bai-tap-12345 or /bai-tap/ten-bai-67890 or ?id_cate=12345
-    link_regex = re.compile(
-        r'/(?:chu-de|bai-tap|hoc-lieu|luyen-tap|de-thi|kiem-tra|lam-bai|bai-hoc)/([a-zA-Z0-9_-]+?)-(\d{4,12})(?:[/?#"\'\s]|$)',
-        re.IGNORECASE
-    )
-    for match in link_regex.finditer(html):
-        slug_part = match.group(1).replace("-", " ").strip()
-        lesson_id = match.group(2).strip()
-        if lesson_id in seen_ids or lesson_id in excluded_ids:
-            continue
-        seen_ids.add(lesson_id)
-        lessons.append({
-            "lessonId": lesson_id,
-            "title": slug_part.title(),
-            "subject": "",
-            "teacher": None,
-            "deadline": None
-        })
+    try:
+        resp = session.get(api_url, headers=api_headers, timeout=25)
+        if resp.status_code == 200:
+            data = resp.json()
+            raw_list = data.get("list", [])
+            for item in raw_list:
+                id_skill = str(item.get("id_skill") or item.get("id_cate") or item.get("_id") or "").strip()
+                if not id_skill or id_skill in seen_ids:
+                    continue
+                seen_ids.add(id_skill)
+                title = item.get("title") or f"Bài tập #{id_skill}"
+                options = item.get("options") or {}
+                timedo = options.get("timedo")
+                try:
+                    duration = int(timedo) if timedo and int(timedo) > 0 else 45
+                except (ValueError, TypeError):
+                    duration = 45
 
-    # Pattern 2: Category ID parameters: id_cate=12345 or cate_id=12345
-    param_regex = re.compile(
-        r'[?&](?:id_cate|cate_id|id_hoclieu|id_hoc_lieu|id_bai|id_de|lesson_id|exam_id)=(\d{4,12})',
-        re.IGNORECASE
-    )
-    for match in param_regex.finditer(html):
-        lesson_id = match.group(1).strip()
-        if lesson_id in seen_ids or lesson_id in excluded_ids:
-            continue
-        seen_ids.add(lesson_id)
-        lessons.append({
-            "lessonId": lesson_id,
-            "title": f"Bài tập #{lesson_id}",
-            "subject": "",
-            "teacher": None,
-            "deadline": None
-        })
+                lessons.append({
+                    "lessonId": id_skill,
+                    "title": title.strip(),
+                    "subject": "",
+                    "teacher": None,
+                    "duration": duration,
+                    "deadline": item.get("expired")
+                })
+            print(f"[+] Found {len(lessons)} assigned exam(s) from OLM Student API.")
+            if lessons:
+                return lessons
+    except Exception as e:
+        print(f"[!] OLM API notice: {e}")
 
-    # Pattern 3: JSON data embedded in script tags
-    json_regex = re.compile(
-        r'["\']?(?:id_cate|cate_id|id_hoclieu|hoclieu_id|id_de|exam_id|lesson_id)["\']?\s*[:=]\s*["\']?(\d{4,12})["\']?',
-        re.IGNORECASE
-    )
-    for match in json_regex.finditer(html):
-        lesson_id = match.group(1).strip()
-        if lesson_id not in seen_ids and lesson_id not in excluded_ids:
-            seen_ids.add(lesson_id)
-            lessons.append({
-                "lessonId": lesson_id,
-                "title": f"Bài học #{lesson_id}",
-                "subject": "",
-                "teacher": None,
-                "deadline": None
-            })
-
-    # Pattern 4: Extract card metadata (Teacher, Deadline, Subject, Title) from HTML chunks
-    card_blocks = re.findall(
-        r'(<div[^>]*class=["\'][^"\']*(?:card|item|assignment|bai-tap)[^"\']*["\'][^>]*>.*?</div>(?:\s*</div>)*)',
-        html,
-        re.DOTALL | re.IGNORECASE
-    )
-    for block in card_blocks:
-        id_m = link_regex.search(block) or param_regex.search(block) or json_regex.search(block)
-        if not id_m:
-            continue
-        lesson_id = (id_m.group(2) if id_m.lastindex >= 2 else id_m.group(1)).strip()
-
-        # Teacher
-        t_m = re.search(r'Giáo viên(?:\s*chủ nhiệm)?:\s*<[^>]+>([^<]+)<|Giáo viên:\s*([^\n<]+)', block, re.IGNORECASE)
-        teacher = (t_m.group(1) or t_m.group(2)).strip() if t_m else None
-
-        # Deadline
-        d_m = re.search(r'Hạn nộp:\s*<[^>]+>([^<]+)<|Hạn nộp:\s*([^\n<]+)', block, re.IGNORECASE)
-        deadline = (d_m.group(1) or d_m.group(2)).strip() if d_m else None
-
-        # Subject
-        sub_m = re.search(r'\b(Toán|Vật lí|Vật lý|Hóa học|Sinh học|Tin học|Tiếng Anh|Ngữ văn|Lịch sử|Địa lí|GDCD|Công nghệ)\b', block, re.IGNORECASE)
-        subject = sub_m.group(1).strip() if sub_m else ""
-
-        # Update existing lesson record
-        for item in lessons:
-            if item["lessonId"] == lesson_id:
-                if teacher:
-                    item["teacher"] = teacher
-                if deadline:
-                    item["deadline"] = deadline
-                if subject and not item["subject"]:
-                    item["subject"] = subject
-
-    print(f"[+] Found {len(lessons)} assigned lesson/exam candidate(s) on OLM.")
     return lessons
+
 
 
 def download_word_docx(session: requests.Session, lesson_id: str) -> Optional[bytes]:
