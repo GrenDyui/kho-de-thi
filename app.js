@@ -557,33 +557,50 @@ const app = {
           </div>
 
           <!-- Action Buttons -->
-          <div class="grid grid-cols-3 gap-2 mt-6 pt-4 border-t border-slate-100 dark:border-slate-700/60">
+          <div class="space-y-2 mt-6 pt-4 border-t border-slate-100 dark:border-slate-700/60">
+            <!-- Direct 1-Click Download Word Button -->
             <button 
-              onclick="app.openReader('${exam.id}')" 
-              class="px-2 py-2 rounded-xl text-xs font-semibold bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-200 flex items-center justify-center gap-1 transition-all"
-              title="Xem và tải đề thi"
+              type="button"
+              onclick="app.downloadExamWordById('${exam.id}', event)" 
+              class="w-full py-2.5 px-3 rounded-xl text-xs font-bold bg-blue-50 hover:bg-blue-100 dark:bg-blue-950/60 dark:hover:bg-blue-900/70 text-blue-700 dark:text-blue-300 border border-blue-200/80 dark:border-blue-800 shadow-sm flex items-center justify-center gap-1.5 transition-all group/dl hover:scale-[1.01]"
+              title="Tải đề thi về máy dưới dạng Word (.doc) có đáp án & lời giải"
             >
-              <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
-              <span>Xem Đề</span>
+              <i data-lucide="file-down" class="w-4 h-4 text-blue-600 dark:text-blue-400 group-hover/dl:-translate-y-0.5 transition-transform"></i>
+              <span>Tải Đề Word (.doc)</span>
             </button>
 
-            <button 
-              onclick="app.startPractice('${exam.id}')" 
-              class="px-2 py-2 rounded-xl text-xs font-semibold bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/50 dark:hover:bg-emerald-900/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200/60 dark:border-emerald-800 flex items-center justify-center gap-1 transition-all"
-              title="Ôn tập có giải thích tức thì"
-            >
-              <i data-lucide="zap" class="w-3.5 h-3.5"></i>
-              <span>Ôn Tập</span>
-            </button>
+            <!-- Secondary Actions: Xem Đề | Ôn Tập | Thi Thử -->
+            <div class="grid grid-cols-3 gap-2">
+              <button 
+                type="button"
+                onclick="app.openReader('${exam.id}')" 
+                class="px-2 py-2 rounded-xl text-xs font-semibold bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-200 flex items-center justify-center gap-1 transition-all"
+                title="Xem đề trên web"
+              >
+                <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
+                <span>Xem Đề</span>
+              </button>
 
-            <button 
-              onclick="app.startExam('${exam.id}')" 
-              class="px-2 py-2 rounded-xl text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-600/20 flex items-center justify-center gap-1 transition-all"
-              title="Thi thử có bấm giờ"
-            >
-              <i data-lucide="play" class="w-3.5 h-3.5"></i>
-              <span>Thi Thử</span>
-            </button>
+              <button 
+                type="button"
+                onclick="app.startPractice('${exam.id}')" 
+                class="px-2 py-2 rounded-xl text-xs font-semibold bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/50 dark:hover:bg-emerald-900/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200/60 dark:border-emerald-800 flex items-center justify-center gap-1 transition-all"
+                title="Ôn tập có giải thích tức thì"
+              >
+                <i data-lucide="zap" class="w-3.5 h-3.5"></i>
+                <span>Ôn Tập</span>
+              </button>
+
+              <button 
+                type="button"
+                onclick="app.startExam('${exam.id}')" 
+                class="px-2 py-2 rounded-xl text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-600/20 flex items-center justify-center gap-1 transition-all"
+                title="Thi thử có bấm giờ"
+              >
+                <i data-lucide="play" class="w-3.5 h-3.5"></i>
+                <span>Thi Thử</span>
+              </button>
+            </div>
           </div>
         </div>
       `;
@@ -784,16 +801,83 @@ const app = {
     dlAnchorElem.click();
   },
 
-  downloadExamWord() {
-    if (!this.currentExam) return;
-    const exam = this.currentExam;
-    const title = (exam.title || 'ĐỀ THI').trim();
-    const cleanTitle = title.replace(/^OLM:\\s*/i, '').trim();
-    const subject = (exam.subject || 'Chung').trim();
-    const grade = exam.grade || 'Lớp 12';
-    const duration = exam.duration || exam.durationMinutes || 45;
-    const isOlm = exam.source === 'OLM' || title.toUpperCase().includes('OLM');
-    const teacher = exam.teacher ? `Giáo viên: ${exam.teacher}` : '';
+  /**
+   * Direct 1-Click Download Word by Exam ID (from Home screen card)
+   */
+  downloadExamWordById(examId, event) {
+    if (event) {
+      if (typeof event.stopPropagation === 'function') event.stopPropagation();
+      if (typeof event.preventDefault === 'function') event.preventDefault();
+    }
+    const exam = (this.exams || []).find(e => e && e.id === examId);
+    if (!exam) {
+      this.showToast('Không tìm thấy dữ liệu đề thi!', 'error');
+      return;
+    }
+    this.downloadExamWord(exam);
+  },
+
+  /**
+   * Universal Toast Notification System
+   */
+  showToast(message, type = 'info') {
+    let container = document.getElementById('toast-container');
+    if (!container) {
+      container = document.createElement('div');
+      container.id = 'toast-container';
+      container.className = 'fixed bottom-6 right-6 z-50 flex flex-col gap-2 pointer-events-none';
+      document.body.appendChild(container);
+    }
+
+    const toast = document.createElement('div');
+    const bgClass = type === 'success' 
+      ? 'bg-slate-900 dark:bg-slate-800 text-white border border-emerald-500/60 shadow-lg shadow-emerald-500/10' 
+      : (type === 'error' ? 'bg-rose-600 text-white shadow-lg shadow-rose-600/20' : 'bg-slate-800 text-white');
+    
+    toast.className = `pointer-events-auto flex items-center gap-2.5 px-4 py-3 rounded-2xl shadow-xl text-xs sm:text-sm font-semibold transition-all transform duration-300 translate-y-3 opacity-0 ${bgClass}`;
+
+    const iconName = type === 'success' ? 'check-circle' : (type === 'error' ? 'alert-triangle' : 'info');
+    toast.innerHTML = `
+      <i data-lucide="${iconName}" class="w-4 h-4 shrink-0 ${type === 'success' ? 'text-emerald-400' : ''}"></i>
+      <span class="truncate max-w-sm">${message}</span>
+    `;
+
+    container.appendChild(toast);
+    this.initLucide();
+
+    requestAnimationFrame(() => {
+      toast.classList.remove('translate-y-3', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+    });
+
+    setTimeout(() => {
+      toast.classList.remove('translate-y-0', 'opacity-100');
+      toast.classList.add('translate-y-3', 'opacity-0');
+      setTimeout(() => {
+        if (toast.parentNode) toast.parentNode.removeChild(toast);
+      }, 300);
+    }, 3200);
+  },
+
+  /**
+   * Export Exam as standard Microsoft Word (.doc) with complete Answer Key & Explanations
+   */
+  downloadExamWord(targetExam) {
+    const exam = targetExam || this.currentExam;
+    if (!exam) {
+      this.showToast('Không có dữ liệu đề thi để xuất Word!', 'error');
+      return;
+    }
+
+    // Defensive type guards for all metadata
+    const rawTitle = exam.title ? String(exam.title) : 'ĐỀ THI';
+    const title = rawTitle.trim();
+    const cleanTitle = title.replace(/^OLM:\s*/i, '').trim() || 'Đề thi trắc nghiệm';
+    const subject = exam.subject ? String(exam.subject).trim() : 'Chung';
+    const grade = typeof exam.grade === 'number' ? ('Lớp ' + exam.grade) : String(exam.grade || 'Lớp 12');
+    const duration = Number(exam.duration || exam.durationMinutes) || 45;
+    const isOlm = this.isOlmExam(exam);
+    const teacher = exam.teacher ? `Giáo viên: ${String(exam.teacher).trim()}` : '';
 
     let docHtml = `
       <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
@@ -912,15 +996,22 @@ const app = {
         <hr style="border: 0; border-top: 1.5px solid #000000; margin-bottom: 14px;" />
     `;
 
-    (exam.questions || []).forEach((q, idx) => {
+    const questionsList = Array.isArray(exam.questions) ? exam.questions : [];
+
+    questionsList.forEach((q, idx) => {
+      if (!q) return;
       const qNum = idx + 1;
-      let rawQ = (q.question || `Câu hỏi ${qNum}:`).trim();
+      let rawQ = q.question ? String(q.question).trim() : `Câu hỏi ${qNum}:`;
       let passageHtml = '';
 
-      const passageMatch = rawQ.match(/<div class=["']passage[^"']*["']>(.*?)<\/div>/s);
-      if (passageMatch) {
-        passageHtml = `<div class="q-passage">[ĐOẠN VĂN THAM KHẢO]:<br>${passageMatch[1].replace(/<[^>]+>/g, '').trim()}</div>`;
-        rawQ = rawQ.replace(/<div class=["']passage[^"']*["']>(.*?)<\/div>/s, '').trim();
+      if (q.passage && q.passage.content) {
+        passageHtml = `<div class="q-passage"><b>[${String(q.passage.title || 'ĐOẠN VĂN THAM KHẢO').toUpperCase()}]:</b><br>${String(q.passage.content).replace(/<[^>]+>/g, '').trim()}</div>`;
+      } else {
+        const passageMatch = rawQ.match(/<div class=["']passage[^"']*["']>(.*?)<\/div>/s);
+        if (passageMatch) {
+          passageHtml = `<div class="q-passage"><b>[ĐOẠN VĂN THAM KHẢO]:</b><br>${passageMatch[1].replace(/<[^>]+>/g, '').trim()}</div>`;
+          rawQ = rawQ.replace(/<div class=["']passage[^"']*["']>(.*?)<\/div>/s, '').trim();
+        }
       }
       const cleanQ = rawQ.replace(/<[^>]+>/g, '').trim();
 
@@ -933,26 +1024,27 @@ const app = {
       if (q.type === 'true_false' && Array.isArray(q.items) && q.items.length > 0) {
         docHtml += '<div class="tf-list">';
         q.items.forEach(it => {
-          const itText = (it.text || '').replace(/<[^>]+>/g, '').trim();
-          docHtml += `<div class="tf-item"><b>${(it.label || 'a').toLowerCase()})</b> ${itText}</div>`;
+          if (!it) return;
+          const itText = String(it.text || '').replace(/<[^>]+>/g, '').trim();
+          docHtml += `<div class="tf-item"><b>${String(it.label || 'a').toLowerCase()})</b> ${itText}</div>`;
         });
         docHtml += '</div>';
       }
-      else if (q.type === 'short_answer' || (Array.isArray(q.options) && q.options.length === 1 && q.options[0].includes('Đáp số:'))) {
+      else if (q.type === 'short_answer' || (Array.isArray(q.options) && q.options.length === 1 && String(q.options[0]).includes('Đáp số:'))) {
         docHtml += '<div style="margin-left: 20px; font-style: italic;">Trả lời: [ ............................................................ ]</div>';
       }
       else if (Array.isArray(q.options) && q.options.length > 0) {
-        const cleanOpts = q.options.map(opt => opt.replace(/<[^>]+>/g, '').trim());
-        const maxLen = Math.max(...cleanOpts.map(o => o.length));
+        const cleanOpts = q.options.map(opt => String(opt || '').replace(/<[^>]+>/g, '').trim()).filter(Boolean);
+        const maxLen = cleanOpts.length > 0 ? Math.max(...cleanOpts.map(o => o.length)) : 0;
 
         if (cleanOpts.length === 4 && maxLen <= 32) {
           docHtml += `
             <table class="opt-table">
               <tr>
-                <td style="width: 25%;">${cleanOpts[0]}</td>
-                <td style="width: 25%;">${cleanOpts[1]}</td>
-                <td style="width: 25%;">${cleanOpts[2]}</td>
-                <td style="width: 25%;">${cleanOpts[3]}</td>
+                <td style="width: 25%;">${cleanOpts[0] || ''}</td>
+                <td style="width: 25%;">${cleanOpts[1] || ''}</td>
+                <td style="width: 25%;">${cleanOpts[2] || ''}</td>
+                <td style="width: 25%;">${cleanOpts[3] || ''}</td>
               </tr>
             </table>
           `;
@@ -960,12 +1052,12 @@ const app = {
           docHtml += `
             <table class="opt-table">
               <tr>
-                <td style="width: 50%;">${cleanOpts[0]}</td>
-                <td style="width: 50%;">${cleanOpts[1]}</td>
+                <td style="width: 50%;">${cleanOpts[0] || ''}</td>
+                <td style="width: 50%;">${cleanOpts[1] || ''}</td>
               </tr>
               <tr>
-                <td style="width: 50%;">${cleanOpts[2]}</td>
-                <td style="width: 50%;">${cleanOpts[3]}</td>
+                <td style="width: 50%;">${cleanOpts[2] || ''}</td>
+                <td style="width: 50%;">${cleanOpts[3] || ''}</td>
               </tr>
             </table>
           `;
@@ -989,41 +1081,48 @@ const app = {
         <div style="font-weight: bold; margin-bottom: 6px;">I. BẢNG ĐÁP ÁN NHANH:</div>
     `;
 
-    const questionsList = exam.questions || [];
     const letters = ['A', 'B', 'C', 'D'];
     const totalQ = questionsList.length;
 
-    for (let rowStart = 0; rowStart < totalQ; rowStart += 10) {
-      const rowEnd = Math.min(rowStart + 10, totalQ);
-      let rowHeader = '<tr>';
-      let rowData = '<tr>';
+    if (totalQ > 0) {
+      for (let rowStart = 0; rowStart < totalQ; rowStart += 10) {
+        const rowEnd = Math.min(rowStart + 10, totalQ);
+        let rowHeader = '<tr>';
+        let rowData = '<tr>';
 
-      for (let i = rowStart; i < rowEnd; i++) {
-        const q = questionsList[i];
-        rowHeader += `<th>Câu ${i + 1}</th>`;
-        if (q.type === 'true_false' && Array.isArray(q.items)) {
-          const tfStr = q.items.map(it => it.correct ? 'Đ' : 'S').join('/');
-          rowData += `<td><b>${tfStr}</b></td>`;
-        } else if (q.type === 'short_answer') {
-          rowData += `<td><b>${q.correctAnswer || (q.options && q.options[0] ? q.options[0].replace('Đáp số:', '').trim() : '')}</b></td>`;
-        } else {
-          const cIdx = typeof q.correct === 'number' ? q.correct : 0;
-          rowData += `<td><b>${letters[cIdx] || 'A'}</b></td>`;
+        for (let i = rowStart; i < rowEnd; i++) {
+          const q = questionsList[i];
+          rowHeader += `<th>Câu ${i + 1}</th>`;
+          if (!q) {
+            rowData += '<td>-</td>';
+          } else if (q.type === 'true_false' && Array.isArray(q.items)) {
+            const tfStr = q.items.map(it => it.correct ? 'Đ' : 'S').join('/');
+            rowData += `<td><b>${tfStr || '-'}</b></td>`;
+          } else if (q.type === 'short_answer') {
+            const rawAns = q.correctAnswer || (q.options && q.options[0] ? String(q.options[0]).replace('Đáp số:', '').trim() : '-');
+            rowData += `<td><b>${rawAns}</b></td>`;
+          } else {
+            const cIdx = typeof q.correct === 'number' ? q.correct : 0;
+            rowData += `<td><b>${letters[cIdx] || 'A'}</b></td>`;
+          }
         }
-      }
-      rowHeader += '</tr>';
-      rowData += '</tr>';
+        rowHeader += '</tr>';
+        rowData += '</tr>';
 
-      docHtml += `<table class="answer-table">${rowHeader}${rowData}</table>`;
+        docHtml += `<table class="answer-table">${rowHeader}${rowData}</table>`;
+      }
+    } else {
+      docHtml += '<div style="font-style: italic; color: #555;">(Chưa có câu hỏi nào trong đề)</div>';
     }
 
     docHtml += '<div style="font-weight: bold; margin-top: 14px; margin-bottom: 8px;">II. HƯỚNG DẪN GIẢI CHI TIẾT:</div>';
     let hasExp = false;
     questionsList.forEach((q, idx) => {
-      const exp = (q.explanation || '').trim();
+      if (!q) return;
+      const exp = String(q.explanation || '').trim();
       if (exp) {
         hasExp = true;
-        docHtml += `<div class="exp-box"><b>Câu ${idx + 1}:</b> ${exp.replace(/\\n/g, '<br>')}</div>`;
+        docHtml += `<div class="exp-box"><b>Câu ${idx + 1}:</b> ${exp.replace(/\n/g, '<br>')}</div>`;
       }
     });
     if (!hasExp) {
@@ -1036,12 +1135,21 @@ const app = {
       </html>
     `;
 
-    const blob = new Blob(['\\ufeff' + docHtml], { type: 'application/msword;charset=utf-8' });
+    const blob = new Blob(['\ufeff' + docHtml], { type: 'application/msword;charset=utf-8' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    const safeName = (cleanTitle || 'de-thi').replace(/[/\\\\:*?"<>|]+/g, '_').slice(0, 80);
-    link.download = `${safeName}.doc`;
-    link.click();
+    const safeName = (cleanTitle || 'de-thi').replace(/[/\\:*?"<>|]+/g, '_').slice(0, 80);
+    link.download = `${safeName || 'de-thi'}.doc`;
+    if (typeof document !== 'undefined' && document.body) {
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } else {
+      link.click();
+    }
+    setTimeout(() => URL.revokeObjectURL(link.href), 10000);
+
+    this.showToast(`Đang tải file Word: ${cleanTitle}`, 'success');
   },
 
   downloadExamText() {
