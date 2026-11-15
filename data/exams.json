@@ -2358,8 +2358,8 @@
     ]
   },
   {
-    "id": "olm-8-tn-tlai-25-26-43931797",
-    "lessonId": "43931797",
+    "id": "olm-8-tn-tlai-25-26-21945068",
+    "lessonId": "21945068",
     "title": "OLM: 8-TN-TLAI-25-26",
     "subject": "Tin Học",
     "grade": "Lớp 12",
@@ -2691,8 +2691,8 @@
     ]
   },
   {
-    "id": "olm-luyen-tap-chuong-2-khi-ly-tuong-25203052",
-    "lessonId": "25203052",
+    "id": "olm-luyen-tap-chuong-2-khi-ly-tuong-5326085312",
+    "lessonId": "5326085312",
     "title": "OLM: LUYỆN TẬP CHƯƠNG 2 KHÍ LÝ TƯỞNG",
     "subject": "Vật Lý",
     "grade": "Lớp 12",
@@ -2700,7 +2700,7 @@
     "difficulty": "Luyện tập OLM",
     "source": "OLM",
     "teacher": null,
-    "deadline": null,
+    "deadline": "2026-11-22 15:25:00",
     "tags": [
       "OLM",
       "Vật Lý",
@@ -3651,8 +3651,8 @@
     ]
   },
   {
-    "id": "olm-on-kiem-tra-thuong-xuyen-lan-2-bai-7-nh-26-27-11824884",
-    "lessonId": "11824884",
+    "id": "olm-on-kiem-tra-thuong-xuyen-lan-2-bai-7-nh-26-27-5317753412",
+    "lessonId": "5317753412",
     "title": "OLM: ÔN KIỂM TRA THƯỜNG XUYÊN LẦN 2 BÀI 7- NH 26-27",
     "subject": "Tin Học",
     "grade": "Lớp 12",
@@ -3660,7 +3660,7 @@
     "difficulty": "Luyện tập OLM",
     "source": "OLM",
     "teacher": null,
-    "deadline": null,
+    "deadline": "0",
     "tags": [
       "OLM",
       "Tin Học",
@@ -4080,8 +4080,8 @@
     ]
   },
   {
-    "id": "olm-on-kiem-tra-thuong-xuyen-lan-2-bai-8-nh-26-27-91352896",
-    "lessonId": "91352896",
+    "id": "olm-on-kiem-tra-thuong-xuyen-lan-2-bai-8-nh-26-27-5317750592",
+    "lessonId": "5317750592",
     "title": "OLM: ÔN KIỂM TRA THƯỜNG XUYÊN LẦN 2 BÀI 8- NH 26-27",
     "subject": "Tin Học",
     "grade": "Lớp 12",
@@ -4089,7 +4089,7 @@
     "difficulty": "Luyện tập OLM",
     "source": "OLM",
     "teacher": null,
-    "deadline": null,
+    "deadline": "0",
     "tags": [
       "OLM",
       "Tin Học",
@@ -4413,8 +4413,8 @@
     ]
   },
   {
-    "id": "olm-review-unit-1-2-3-tieng-anh-12-on-kgki-44923877",
-    "lessonId": "44923877",
+    "id": "olm-review-unit-1-2-3-tieng-anh-12-on-kgki-5317194566",
+    "lessonId": "5317194566",
     "title": "OLM: REVIEW UNIT 1,2,3- TIẾNG ANH 12 (ÔN KGKI)",
     "subject": "Tiếng Anh",
     "grade": "Lớp 12",
@@ -4422,7 +4422,7 @@
     "difficulty": "Luyện tập OLM",
     "source": "OLM",
     "teacher": null,
-    "deadline": null,
+    "deadline": "0",
     "tags": [
       "OLM",
       "Tiếng Anh",
@@ -4814,6 +4814,240 @@
         ],
         "correct": 1,
         "explanation": ""
+      }
+    ]
+  },
+  {
+    "id": "olm-vat-lieu-polymer-phan-5-3158103348",
+    "lessonId": "3158103348",
+    "title": "OLM: Vật liệu polymer (phần 5)",
+    "subject": "Hóa Học",
+    "grade": "Lớp 12",
+    "durationMinutes": 15,
+    "difficulty": "Luyện tập OLM",
+    "source": "OLM",
+    "teacher": null,
+    "deadline": "0",
+    "tags": [
+      "OLM",
+      "Hóa Học",
+      "Lớp 12",
+      "Trắc nghiệm OLM"
+    ],
+    "description": "Bài tập trực tuyến OLM: Vật liệu polymer (phần 5). Môn Hóa Học - Lớp 12. Tổng số 6 câu hỏi có đáp án và lời giải chi tiết.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Keo dán là loại vật liệu có khả năng ...(1)... bề mặt của hai vật liệu rắn với nhau, mà không làm biến đổi ...(2)... của các vật liệu được kết dính. Nội dung phù hợp trong các ô trống (1), (2) lần lượt là",
+        "options": [
+          "A. hàn gắn, bề mặt.",
+          "B. kết dính, bản chất.",
+          "C. chống thấm, đặc tính.",
+          "D. liên kết, trạng thái."
+        ],
+        "correct": 1,
+        "explanation": "​Keo dán là loại vật liệu có khả năng kết dính bề mặt của hai vật liệu rắn với nhau, mà không làm biến đổi bản chất của các vật liệu được kết dính."
+      },
+      {
+        "id": 2,
+        "question": "Keo dán poly(urea-formaldehyde) được tổng hợp bằng phản ứng",
+        "options": [
+          "A. trùng hợp.",
+          "B. lên men.",
+          "C. trùng ngưng.",
+          "D. ester hóa."
+        ],
+        "correct": 2,
+        "explanation": "​Keo dán poly(urea-formaldehyde) là vật liệu polymer nên được tổng hợp bằng phản ứng trùng ngưng."
+      },
+      {
+        "id": 3,
+        "question": "Polymer nào sau đây là thành phần chính của keo sữa dán giấy?",
+        "options": [
+          "A. Polyacrylonitrile.",
+          "B. Poly(vinyl chloride).",
+          "C. Poly(urea-formaldehyde).",
+          "D. Poly(vinyl acetate)."
+        ],
+        "correct": 3,
+        "explanation": "​Poly(vinyl acetate) là thành phần chính của keo sữa dán giấy.\nPoly(urea-formaldehyde) là thành phần chính của keo dán gỗ UF.\nPoly(vinyl chloride) được ứng dụng trong sản xuất chất dẻo.\nPolyacrylonitrile được ứng dụng trong sản xuất tơ."
+      },
+      {
+        "id": 4,
+        "question": "Keo dán siêu dính 502 là một loại keo được dùng phổ biến trong đời sống để kết dính các bề mặt vật liệu như gỗ, nhựa, da,... Thành phần của keo 502 có chứa methyl cyanoacrylate.",
+        "options": [
+          "A. Công thức cấu tạo của methyl cyanoacrylate là CH3-CH(CN)COOCH3.( F )",
+          "B. Methyl cyanoacrylate có thể tham gia phản ứng trùng hợp tạo thành poly(methyl cyanoacrylate).( T )",
+          "C. Bản chất của keo 502 là dựa vào hơi ẩm trong không khí để trùng hợp methyl cyanoacrylate tạo thành polymer dạng màng mỏng kết dính vật liệu lại với nhau.( T )",
+          "D. Có thể sử dụng acetone để rửa sạch vết keo 502.( T )"
+        ],
+        "correct": 0,
+        "explanation": "​Công thức cấu tạo của methyl cyanoacrylate là CH3-CH(CN)COOCH3 ⇒ Sai, methyl cyanoacrylate có công thức cấu tạo là  CH2=C(CN)COOCH3.\nMethyl cyanoacrylate có thể tham gia phản ứng trùng hợp tạo thành poly(methyl cyanoacrylate) ⇒ Đúng, bởi vì trong công thức của methyl cyanoacrylate có chứa một liên kết đôi C=C.\nBản chất của keo 502 là dựa vào hơi ẩm trong không khí để trùng hợp methyl cyanoacrylate tạo thành polymer dạng màng mỏng kết dính vật liệu lại với nhau ⇒ Đúng, đây là cơ chế đóng rắn của keo dán 502.\nCó thể sử dụng acetone để rửa sạch vết keo 502 ⇒ Đúng, vì methyl cyanoacrylate có thể tan trong acetone."
+      },
+      {
+        "id": 5,
+        "question": "Cho các polymer có công thức cấu tạo như sau:\nGán số thứ tự công thức hóa học trên theo tên gọi: chất dẻo, cao su, tơ, keo dán và sắp xếp theo trình tự thành dãy bốn số (ví dụ: 1234, 4312,...).",
+        "options": [
+          "A. [4132]"
+        ],
+        "correct": 0,
+        "explanation": "Đáp án chính xác: [4132]\n​(1) - Cao su isoprene.\n(2) - Keo dán poly(urea-formaldehyde).\n(3) - Tơ capron.\n(4) - Chất dẻo PVC."
+      },
+      {
+        "id": 6,
+        "question": "Có thể sử dụng vật liệu nào sau đây để dán hai tấm gỗ lại với nhau?",
+        "options": [
+          "A. Composite.",
+          "B. Keo dán.",
+          "C. Chất dẻo.",
+          "D. Tơ."
+        ],
+        "correct": 1,
+        "explanation": "Có thể sử dụng keo dán để gắn hai tấm gỗ lại với nhau bởi vì keo dán có khả năng kết dính bề mặt của hai vật liệu rắn mà không làm thay đổi bản chất của chúng.\nChất dẻo, tơ và composite không có khả năng kết dính nên không thể sử dụng các vật liệu này để dán hai tấm gỗ trên."
+      }
+    ]
+  },
+  {
+    "id": "olm-vat-lieu-polymer-phan-4-3158092100",
+    "lessonId": "3158092100",
+    "title": "OLM: Vật liệu polymer (phần 4)",
+    "subject": "Hóa Học",
+    "grade": "Lớp 12",
+    "durationMinutes": 15,
+    "difficulty": "Luyện tập OLM",
+    "source": "OLM",
+    "teacher": null,
+    "deadline": "0",
+    "tags": [
+      "OLM",
+      "Hóa Học",
+      "Lớp 12",
+      "Trắc nghiệm OLM"
+    ],
+    "description": "Bài tập trực tuyến OLM: Vật liệu polymer (phần 4). Môn Hóa Học - Lớp 12. Tổng số 5 câu hỏi có đáp án và lời giải chi tiết.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Cao su tổng hợp được điều chế bằng phản ứng nào sau đây?",
+        "options": [
+          "A. Phản ứng trùng ngưng.",
+          "B. Phản ứng lên men.",
+          "C. Phản ứng thủy phân.",
+          "D. Phản ứng trùng hợp."
+        ],
+        "correct": 3,
+        "explanation": "​Cao su tổng hợp được điều chế bằng phản ứng trùng hợp và phản ứng đồng trùng hợp.\nVí dụ: Cao su buna được điều chế bằng phản ứng trùng hợp buta-1,3-diene theo phương trình hóa học sau:"
+      },
+      {
+        "id": 2,
+        "question": "Polymer nào sau đây có thể tham gia phản ứng cộng với hydrogen?",
+        "options": [
+          "A. Poly(vinyl chloride).",
+          "B. Polybuta-1,3-diene.",
+          "C. Polyacrylonitrile.",
+          "D. Polyethylene."
+        ],
+        "correct": 1,
+        "explanation": "​Polybuta-1,3-diene (cao su buna) có công thức cấu tạo như sau:\n.\nBởi vì trong công thức cấu tạo của polybuta-1,3-diene còn có chứa một nối đôi kém bền nên có khả năng tham gia phản ứng cộng với hydrogen.\nCông thức của polyethylene, poly(vinyl chloride) và polyacrylonitrile không chứa liên kết kém bền nên không có khả năng tham gia phản ứng cộng với hydrogen."
+      },
+      {
+        "id": 3,
+        "question": "Trong công nghiệp, polymer X được điều chế theo sơ đồ phản ứng sau:\nPolymer X là loại vật liệu có tính đàn hồi nên được ứng dụng trong sản xuất cao su. Tên gọi của polymer X là",
+        "options": [
+          "A. polybuta-1,3-diene.",
+          "B. polychloroprene.",
+          "C. polyisoprene.",
+          "D. poly(vinyl chloride)."
+        ],
+        "correct": 1,
+        "explanation": "​Theo sơ đồ phản ứng, polymer X được điều chế từ chloroprene bằng phản ứng trùng hợp ⇒ X là polychloroprene.\nPhương trình phản ứng:"
+      },
+      {
+        "id": 4,
+        "question": "Cao su chloroprene thuộc loại cao su tổng hợp và có rất nhiều ưu điểm nổi trội như không cháy, bền cơ học và không tan trong dầu nên thường được dùng để bọc ống thủy lực công nghiệp, sản xuất vật dụng kháng dầu và ozone.",
+        "options": [
+          "A. Cao su chloroprene có công thức hóa học là .",
+          "B. Cao su chloroprene được tổng hợp bằng phản ứng trùng hợp 3-chlorobuta-1,3-diene.",
+          "C. Chloroprene có đồng phân hình học.",
+          "D. Đun nóng cao su chloroprene với lưu huỳnh thu được cao su lưu hóa có cấu trúc mạng không gian."
+        ],
+        "correct": 0,
+        "explanation": "- Cao su chloroprene có công thức hóa học là  ⇒ Đúng.\n- Cao su chloroprene được tổng hợp bằng phản ứng trùng hợp 3-chlorobuta-1,3-diene ⇒ Sai, cao su chloroprene được tổng hợp từ 2-chlorobuta-1,3-diene theo phương trình hóa học sau:\n- Chloroprene có đồng phân hình học ⇒ Sai, chloroprene không có đồng phân hình học cis- và trans- vì các nhóm thế cùng liên kết với nguyên tử carbon giống nhau.\n- Đun nóng cao su chloroprene với lưu huỳnh thu được cao su lưu hóa có cấu trúc mạng không gian ⇒ Đúng, cao su lưu hóa thu được khi đun nóng cao su thường với lưu huỳnh, từ đó hình thành các cầu nối disulfide liên kết các mạch polymer lại với nhau tạo thành mạng không gian."
+      },
+      {
+        "id": 5,
+        "question": "Cao su buna được điều chế từ sơ đồ sau:\nGlucose → Ethanol → Buta-1,3-diene → Cao su buna",
+        "options": [
+          "A. [450]"
+        ],
+        "correct": 0,
+        "explanation": "Đáp án chính xác: [450]\nTa có sơ đồ điều chế cao su buna như sau:​\nkmol\n⇒  kmol\n⇒  kg."
+      }
+    ]
+  },
+  {
+    "id": "olm-dai-cuong-ve-polymer-phan-2-2991021811",
+    "lessonId": "2991021811",
+    "title": "OLM: Đại cương về polymer (phần 2)",
+    "subject": "Hóa Học",
+    "grade": "Lớp 12",
+    "durationMinutes": 15,
+    "difficulty": "Luyện tập OLM",
+    "source": "OLM",
+    "teacher": null,
+    "deadline": "0",
+    "tags": [
+      "OLM",
+      "Hóa Học",
+      "Lớp 12",
+      "Trắc nghiệm OLM"
+    ],
+    "description": "Bài tập trực tuyến OLM: Đại cương về polymer (phần 2). Môn Hóa Học - Lớp 12. Tổng số 4 câu hỏi có đáp án và lời giải chi tiết.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Polymer nào sau đây không bị thủy phân trong dung dịch H2SO4 loãng, nóng?",
+        "options": [
+          "A. Polyethylene.",
+          "B. Poly(vinyl acetate).",
+          "C. Tơ capron.",
+          "D. Nylon-6,6."
+        ],
+        "correct": 0,
+        "explanation": "​Polyethylene không bị thủy phân trong dung dịch H2SO4 loãng, nóng.\nPoly(vinyl acetate) có chứa nhóm chức ester nên bị thủy phân bởi dung dịch H2SO4 loãng, nóng.\nTơ capron, nylon-6,6 có chứa liên kết -CO-NH- nên bị thủy phân bởi dung dịch H2SO4 loãng, nóng."
+      },
+      {
+        "id": 2,
+        "question": "Thuộc da là quá trình xử lí da của động vật để sản xuất da thuộc, là vật liệu bền hơn và khó bị phân hủy hơn. Quá trình thuộc da xử lí với HCHO là phản ứng của protein dưới tác dụng của HCHO tạo thành sản phẩm có cấu trúc không gian.",
+        "options": [
+          "A. Protein thuộc loại polymer thiên nhiên.( T )",
+          "B. Sản phẩm của quá trình thuộc da là polymer.( T )",
+          "C. Phản ứng xảy ra trong quá trình thuộc da là phản ứng giữ nguyên mạch polymer.( F )",
+          "D. Phản ứng thủy phân da động vật bằng dung dịch kiềm thuộc loại phản ứng cắt mạch polymer.( T )"
+        ],
+        "correct": 0,
+        "explanation": "​Protein thuộc loại polymer thiên nhiên ⇒ Đúng, bởi vì protein có chứa nhiều trong cơ thể con người và động vật.\nSản phẩm của quá trình thuộc da là polymer ⇒ Đúng, sản phẩm của quá trình thuộc da là polymer tồn tại ở dạng mạng không gian.\nPhản ứng xảy ra trong quá trình thuộc da là phản ứng giữ nguyên mạch polymer ⇒ Sai, phản ứng xảy ra trong quá trình thuộc da là phản ứng tăng mạch polymer.\nPhản ứng thủy phân da động vật bằng dung dịch kiềm thuộc loại phản ứng cắt mạch polymer ⇒ Đúng, bởi vì trong protein có chứa liên kết peptide. Liên kết này có thể bị phân cắt trong môi trường kiềm tạo thành các đơn vị amino acid."
+      },
+      {
+        "id": 3,
+        "question": "Polymer X được tổng hợp theo phương trình hóa học sau:\nPolymer X được điều chế bằng phản ứng nào?",
+        "options": [
+          "A. Trùng ngưng.",
+          "B. Trùng hợp.",
+          "C. Ester hóa.",
+          "D. Thủy phân."
+        ],
+        "correct": 0,
+        "explanation": "​Polymer X là nylon-6,6 được điều chế bằng phản ứng trùng ngưng theo phương trình hóa học sau đây:"
+      },
+      {
+        "id": 4,
+        "question": "Cho các polymer sau: polyethylene, poly(phenol fomaldehyde), poly(vinyl chloride), polysaccharide, polybuta-1,3-diene. Có bao nhiêu polymer được điều chế từ phản ứng trùng hợp?",
+        "options": [
+          "A. [3]"
+        ],
+        "correct": 0,
+        "explanation": "Đáp án chính xác: [3]\n​Polyethylene, polybuta-1,3-diene và poly(vinyl chloride) được điều chế từ phản ứng trùng hợp.\nPoly(phenol fomaldehyde) được điều chế bằng phản ứng trùng ngưng.\nPolysaccharide là polymer thiên nhiên."
       }
     ]
   }
