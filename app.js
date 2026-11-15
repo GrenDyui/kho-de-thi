@@ -784,33 +784,385 @@ const app = {
     dlAnchorElem.click();
   },
 
-  downloadExamText() {
+  downloadExamWord() {
     if (!this.currentExam) return;
-    let content = `BÀI THI: ${this.currentExam.title}\n`;
-    content += `Môn: ${this.currentExam.subject} | ${this.currentExam.grade} | Thời gian: ${this.currentExam.durationMinutes || 45} phút\n`;
-    content += `----------------------------------------------------\n\n`;
+    const exam = this.currentExam;
+    const title = (exam.title || 'ĐỀ THI').trim();
+    const cleanTitle = title.replace(/^OLM:\\s*/i, '').trim();
+    const subject = (exam.subject || 'Chung').trim();
+    const grade = exam.grade || 'Lớp 12';
+    const duration = exam.duration || exam.durationMinutes || 45;
+    const isOlm = exam.source === 'OLM' || title.toUpperCase().includes('OLM');
+    const teacher = exam.teacher ? `Giáo viên: ${exam.teacher}` : '';
 
-    (this.currentExam.questions || []).forEach((q, idx) => {
-      content += `Câu ${idx + 1}: ${q.question}\n`;
-      (q.options || []).forEach((opt, oIdx) => {
-        content += `  ${opt}\n`;
-      });
-      content += `\n`;
+    let docHtml = `
+      <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+      <head>
+        <meta charset='utf-8'>
+        <title>${cleanTitle}</title>
+        <!--[if gte mso 9]>
+        <xml>
+          <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>100</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+          </w:WordDocument>
+        </xml>
+        <![endif]-->
+        <style>
+          @page Section1 {
+            size: 21.0cm 29.7cm;
+            margin: 2.0cm 2.0cm 2.0cm 2.5cm;
+            mso-header-margin: 1.0cm;
+            mso-footer-margin: 1.0cm;
+            mso-paper-source: 0;
+          }
+          div.Section1 { page: Section1; }
+          body {
+            font-family: 'Times New Roman', serif;
+            font-size: 13pt;
+            line-height: 1.35;
+            color: #000000;
+          }
+          table.header-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 12px;
+          }
+          table.header-table td {
+            vertical-align: top;
+            font-family: 'Times New Roman', serif;
+            font-size: 12pt;
+          }
+          .title-main {
+            text-align: center;
+            font-size: 14.5pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 12px 0 6px 0;
+          }
+          .q-item {
+            margin-bottom: 12px;
+          }
+          .q-title {
+            font-weight: bold;
+            margin-bottom: 4px;
+          }
+          .q-passage {
+            background-color: #f8fafc;
+            border-left: 3px solid #2563eb;
+            padding: 8px 12px;
+            margin: 8px 0 10px 0;
+            font-style: italic;
+            font-size: 12pt;
+          }
+          table.opt-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 4px;
+            margin-bottom: 6px;
+          }
+          table.opt-table td {
+            padding: 3px 6px;
+            vertical-align: top;
+            font-size: 13pt;
+          }
+          .tf-list {
+            margin-left: 20px;
+            margin-top: 4px;
+          }
+          .tf-item {
+            margin-bottom: 3px;
+          }
+          table.answer-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            margin-bottom: 16px;
+          }
+          table.answer-table th, table.answer-table td {
+            border: 1px solid #333333;
+            padding: 5px 8px;
+            text-align: center;
+            font-size: 11.5pt;
+          }
+          table.answer-table th {
+            background-color: #f1f5f9;
+            font-weight: bold;
+          }
+          .exp-box {
+            margin-bottom: 8px;
+            font-size: 12pt;
+          }
+        </style>
+      </head>
+      <body>
+      <div class="Section1">
+        <table class="header-table">
+          <tr>
+            <td style="width: 55%;">
+              ${isOlm ? `<b>BÀI LUYỆN TẬP OLM</b><br>MÔN ${subject.toUpperCase()} ${grade.toUpperCase()}<br>Bài học: <b>${cleanTitle}</b>${teacher ? '<br>' + teacher : ''}` : `<b>SỞ GD&ĐT AN GIANG / THPT TRẦN VĂN THÀNH</b><br>ĐỀ KIỂM TRA ĐỊNH KỲ - KHỐI 12<br>MÔN: <b>${subject.toUpperCase()}</b> (Thời gian: ${duration} phút)`}
+            </td>
+            <td style="width: 45%; text-align: right;">
+              Họ, tên: .....................................................................<br>
+              Lớp / SBD: ................................................................
+            </td>
+          </tr>
+        </table>
+        <hr style="border: 0; border-top: 1.5px solid #000000; margin-bottom: 14px;" />
+    `;
+
+    (exam.questions || []).forEach((q, idx) => {
+      const qNum = idx + 1;
+      let rawQ = (q.question || `Câu hỏi ${qNum}:`).trim();
+      let passageHtml = '';
+
+      const passageMatch = rawQ.match(/<div class=["']passage[^"']*["']>(.*?)<\/div>/s);
+      if (passageMatch) {
+        passageHtml = `<div class="q-passage">[ĐOẠN VĂN THAM KHẢO]:<br>${passageMatch[1].replace(/<[^>]+>/g, '').trim()}</div>`;
+        rawQ = rawQ.replace(/<div class=["']passage[^"']*["']>(.*?)<\/div>/s, '').trim();
+      }
+      const cleanQ = rawQ.replace(/<[^>]+>/g, '').trim();
+
+      docHtml += `
+        <div class="q-item">
+          ${passageHtml}
+          <div class="q-title">Câu ${qNum}. ${cleanQ}</div>
+      `;
+
+      if (q.type === 'true_false' && Array.isArray(q.items) && q.items.length > 0) {
+        docHtml += '<div class="tf-list">';
+        q.items.forEach(it => {
+          const itText = (it.text || '').replace(/<[^>]+>/g, '').trim();
+          docHtml += `<div class="tf-item"><b>${(it.label || 'a').toLowerCase()})</b> ${itText}</div>`;
+        });
+        docHtml += '</div>';
+      }
+      else if (q.type === 'short_answer' || (Array.isArray(q.options) && q.options.length === 1 && q.options[0].includes('Đáp số:'))) {
+        docHtml += '<div style="margin-left: 20px; font-style: italic;">Trả lời: [ ............................................................ ]</div>';
+      }
+      else if (Array.isArray(q.options) && q.options.length > 0) {
+        const cleanOpts = q.options.map(opt => opt.replace(/<[^>]+>/g, '').trim());
+        const maxLen = Math.max(...cleanOpts.map(o => o.length));
+
+        if (cleanOpts.length === 4 && maxLen <= 32) {
+          docHtml += `
+            <table class="opt-table">
+              <tr>
+                <td style="width: 25%;">${cleanOpts[0]}</td>
+                <td style="width: 25%;">${cleanOpts[1]}</td>
+                <td style="width: 25%;">${cleanOpts[2]}</td>
+                <td style="width: 25%;">${cleanOpts[3]}</td>
+              </tr>
+            </table>
+          `;
+        } else if (cleanOpts.length === 4 && maxLen <= 55) {
+          docHtml += `
+            <table class="opt-table">
+              <tr>
+                <td style="width: 50%;">${cleanOpts[0]}</td>
+                <td style="width: 50%;">${cleanOpts[1]}</td>
+              </tr>
+              <tr>
+                <td style="width: 50%;">${cleanOpts[2]}</td>
+                <td style="width: 50%;">${cleanOpts[3]}</td>
+              </tr>
+            </table>
+          `;
+        } else {
+          docHtml += '<table class="opt-table">';
+          cleanOpts.forEach(opt => {
+            docHtml += `<tr><td>${opt}</td></tr>`;
+          });
+          docHtml += '</table>';
+        }
+      }
+
+      docHtml += '</div>';
     });
 
-    content += `\n----------------- ĐÁP ÁN THAM KHẢO -----------------\n`;
+    docHtml += `
+        <br clear="all" style="page-break-before: always;" />
+        <div class="title-main">ĐÁP ÁN VÀ HƯỚNG DẪN GIẢI CHI TIẾT</div>
+        <hr style="border: 0; border-top: 1.5px solid #000000; margin-bottom: 12px;" />
+
+        <div style="font-weight: bold; margin-bottom: 6px;">I. BẢNG ĐÁP ÁN NHANH:</div>
+    `;
+
+    const questionsList = exam.questions || [];
     const letters = ['A', 'B', 'C', 'D'];
-    (this.currentExam.questions || []).forEach((q, idx) => {
-      content += `Câu ${idx + 1}: ${letters[q.correct] || 'Chưa có'}\n`;
-      if (q.explanation) {
-        content += `  Lời giải: ${q.explanation}\n`;
+    const totalQ = questionsList.length;
+
+    for (let rowStart = 0; rowStart < totalQ; rowStart += 10) {
+      const rowEnd = Math.min(rowStart + 10, totalQ);
+      let rowHeader = '<tr>';
+      let rowData = '<tr>';
+
+      for (let i = rowStart; i < rowEnd; i++) {
+        const q = questionsList[i];
+        rowHeader += `<th>Câu ${i + 1}</th>`;
+        if (q.type === 'true_false' && Array.isArray(q.items)) {
+          const tfStr = q.items.map(it => it.correct ? 'Đ' : 'S').join('/');
+          rowData += `<td><b>${tfStr}</b></td>`;
+        } else if (q.type === 'short_answer') {
+          rowData += `<td><b>${q.correctAnswer || (q.options && q.options[0] ? q.options[0].replace('Đáp số:', '').trim() : '')}</b></td>`;
+        } else {
+          const cIdx = typeof q.correct === 'number' ? q.correct : 0;
+          rowData += `<td><b>${letters[cIdx] || 'A'}</b></td>`;
+        }
+      }
+      rowHeader += '</tr>';
+      rowData += '</tr>';
+
+      docHtml += `<table class="answer-table">${rowHeader}${rowData}</table>`;
+    }
+
+    docHtml += '<div style="font-weight: bold; margin-top: 14px; margin-bottom: 8px;">II. HƯỚNG DẪN GIẢI CHI TIẾT:</div>';
+    let hasExp = false;
+    questionsList.forEach((q, idx) => {
+      const exp = (q.explanation || '').trim();
+      if (exp) {
+        hasExp = true;
+        docHtml += `<div class="exp-box"><b>Câu ${idx + 1}:</b> ${exp.replace(/\\n/g, '<br>')}</div>`;
+      }
+    });
+    if (!hasExp) {
+      docHtml += '<div style="font-style: italic; color: #555555;">(Đang cập nhật hướng dẫn giải chi tiết cho các câu hỏi)</div>';
+    }
+
+    docHtml += `
+      </div>
+      </body>
+      </html>
+    `;
+
+    const blob = new Blob(['\\ufeff' + docHtml], { type: 'application/msword;charset=utf-8' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    const safeName = (cleanTitle || 'de-thi').replace(/[/\\\\:*?"<>|]+/g, '_').slice(0, 80);
+    link.download = `${safeName}.doc`;
+    link.click();
+  },
+
+  downloadExamText() {
+    if (!this.currentExam) return;
+    const exam = this.currentExam;
+    const title = (exam.title || 'ĐỀ THI').trim();
+    const cleanTitle = title.replace(/^OLM:\\s*/i, '').trim();
+    const subject = (exam.subject || 'Chung').toUpperCase();
+    const grade = (exam.grade || 'Lớp 12').toString();
+    const duration = exam.duration || exam.durationMinutes || 45;
+    const isOlm = exam.source === 'OLM' || title.toUpperCase().includes('OLM');
+    const teacher = exam.teacher ? `Giáo viên: ${exam.teacher}` : '';
+
+    const lines = [];
+    if (isOlm) {
+      lines.push('BÀI LUYỆN TẬP OLM');
+      lines.push(`MÔN ${subject} LỚP ${grade.toUpperCase()}`);
+      lines.push(`Bài học: ${cleanTitle}`);
+      if (teacher) lines.push(teacher);
+      lines.push('Họ, tên: .....................................................................Lớp: ..........................................................................');
+    } else {
+      lines.push('SỞ GD&ĐT AN GIANG / TRƯỜNG THPT TRẦN VĂN THÀNH');
+      lines.push(`ĐỀ KIỂM TRA ĐỊNH KỲ - ${grade.toUpperCase()}`);
+      lines.push(`MÔN ${subject} - Thời gian làm bài: ${duration} phút`);
+      lines.push('Họ, tên thí sinh: .....................................................................Số báo danh: ..........................................................................');
+    }
+    lines.push('');
+
+    (exam.questions || []).forEach((q, idx) => {
+      const qNum = idx + 1;
+      let rawQ = (q.question || `Câu hỏi ${qNum}:`).trim();
+
+      const passageMatch = rawQ.match(/<div class=["']passage[^"']*["']>(.*?)<\/div>/s);
+      if (passageMatch) {
+        const passageContent = passageMatch[1].replace(/<[^>]+>/g, '').trim();
+        rawQ = rawQ.replace(/<div class=["']passage[^"']*["']>(.*?)<\/div>/s, '').trim();
+        lines.push(`[ĐOẠN VĂN THAM KHẢO]:\\n${passageContent}\\n`);
+      }
+      const cleanQ = rawQ.replace(/<[^>]+>/g, '').trim();
+      lines.push(`Câu ${qNum}. ${cleanQ}`);
+
+      // True / False
+      if (q.type === 'true_false' && Array.isArray(q.items) && q.items.length > 0) {
+        q.items.forEach(it => {
+          const itText = (it.text || '').replace(/<[^>]+>/g, '').trim();
+          lines.push(`   ${(it.label || 'a').toLowerCase()}) ${itText}`);
+        });
+      }
+      // Short answer
+      else if (q.type === 'short_answer' || (Array.isArray(q.options) && q.options.length === 1 && q.options[0].includes('Đáp số:'))) {
+        lines.push('   Trả lời: [ .......... ]');
+      }
+      // Multiple choice options
+      else if (Array.isArray(q.options) && q.options.length > 0) {
+        const cleanOpts = q.options.map(opt => opt.replace(/<[^>]+>/g, '').trim());
+        const maxLen = Math.max(...cleanOpts.map(o => o.length));
+
+        if (cleanOpts.length === 4 && maxLen <= 32) {
+          lines.push(`   ${cleanOpts[0]}   ${cleanOpts[1]}   ${cleanOpts[2]}   ${cleanOpts[3]}`);
+        } else if (cleanOpts.length === 4 && maxLen <= 55) {
+          lines.push(`   ${cleanOpts[0]}   ${cleanOpts[1]}`);
+          lines.push(`   ${cleanOpts[2]}   ${cleanOpts[3]}`);
+        } else {
+          cleanOpts.forEach(opt => {
+            lines.push(`   ${opt}`);
+          });
+        }
+      }
+
+      lines.push('');
+    });
+
+    lines.push('================================================================================');
+    lines.push('                        ĐÁP ÁN VÀ HƯỚNG DẪN GIẢI CHI TIẾT');
+    lines.push('================================================================================');
+    lines.push('');
+    lines.push('I. BẢNG ĐÁP ÁN NHANH:');
+    lines.push('--------------------------------------------------------------------------------');
+
+    const ansChunks = [];
+    const letters = ['A', 'B', 'C', 'D'];
+    (exam.questions || []).forEach((q, idx) => {
+      const qNum = idx + 1;
+      if (q.type === 'true_false' && Array.isArray(q.items)) {
+        const subAns = q.items.map(it => it.correct ? 'Đ' : 'S').join('/');
+        ansChunks.push(`${qNum}. ${subAns}`);
+      } else if (q.type === 'short_answer') {
+        const corAns = (q.correctAnswer || (q.options && q.options[0] ? q.options[0].replace('Đáp số:', '').trim() : '')).trim();
+        ansChunks.push(`${qNum}. [${corAns}]`);
+      } else {
+        const cIdx = typeof q.correct === 'number' ? q.correct : 0;
+        const letChar = letters[cIdx] || 'A';
+        ansChunks.push(`${qNum}. ${letChar}`);
       }
     });
 
-    const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+    for (let i = 0; i < ansChunks.length; i += 10) {
+      const chunk = ansChunks.slice(i, i + 10);
+      lines.push('   ' + chunk.join('   '));
+    }
+    lines.push('--------------------------------------------------------------------------------');
+    lines.push('');
+
+    lines.push('II. HƯỚNG DẪN GIẢI CHI TIẾT:');
+    let hasAnyExp = false;
+    (exam.questions || []).forEach((q, idx) => {
+      const exp = (q.explanation || '').trim();
+      if (exp) {
+        hasAnyExp = true;
+        lines.push(`Câu ${idx + 1}: ${exp}`);
+      }
+    });
+    if (!hasAnyExp) {
+      lines.push('(Đang cập nhật hướng dẫn giải chi tiết cho các câu hỏi)');
+    }
+
+    const blob = new Blob([lines.join('\\n')], { type: 'text/plain;charset=utf-8' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.download = `${this.currentExam.id || 'de-thi'}.txt`;
+    const safeName = (cleanTitle || 'de-thi').replace(/[/\\\\:*?"<>|]+/g, '_').slice(0, 80);
+    link.download = `${safeName}.txt`;
     link.click();
   },
 
