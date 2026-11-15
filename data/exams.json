@@ -4930,36 +4930,36 @@
         "id": 1,
         "question": "Cao su tổng hợp được điều chế bằng phản ứng nào sau đây?",
         "options": [
-          "A. Phản ứng trùng ngưng.",
-          "B. Phản ứng lên men.",
-          "C. Phản ứng thủy phân.",
-          "D. Phản ứng trùng hợp."
+          "A. Phản ứng thủy phân.",
+          "B. Phản ứng trùng hợp.",
+          "C. Phản ứng lên men.",
+          "D. Phản ứng trùng ngưng."
         ],
-        "correct": 3,
+        "correct": 1,
         "explanation": "​Cao su tổng hợp được điều chế bằng phản ứng trùng hợp và phản ứng đồng trùng hợp.\nVí dụ: Cao su buna được điều chế bằng phản ứng trùng hợp buta-1,3-diene theo phương trình hóa học sau:"
       },
       {
         "id": 2,
         "question": "Polymer nào sau đây có thể tham gia phản ứng cộng với hydrogen?",
         "options": [
-          "A. Poly(vinyl chloride).",
-          "B. Polybuta-1,3-diene.",
-          "C. Polyacrylonitrile.",
-          "D. Polyethylene."
+          "A. Polyacrylonitrile.",
+          "B. Poly(vinyl chloride).",
+          "C. Polyethylene.",
+          "D. Polybuta-1,3-diene."
         ],
-        "correct": 1,
+        "correct": 3,
         "explanation": "​Polybuta-1,3-diene (cao su buna) có công thức cấu tạo như sau:\n.\nBởi vì trong công thức cấu tạo của polybuta-1,3-diene còn có chứa một nối đôi kém bền nên có khả năng tham gia phản ứng cộng với hydrogen.\nCông thức của polyethylene, poly(vinyl chloride) và polyacrylonitrile không chứa liên kết kém bền nên không có khả năng tham gia phản ứng cộng với hydrogen."
       },
       {
         "id": 3,
         "question": "Trong công nghiệp, polymer X được điều chế theo sơ đồ phản ứng sau:\nPolymer X là loại vật liệu có tính đàn hồi nên được ứng dụng trong sản xuất cao su. Tên gọi của polymer X là",
         "options": [
-          "A. polybuta-1,3-diene.",
-          "B. polychloroprene.",
+          "A. poly(vinyl chloride).",
+          "B. polybuta-1,3-diene.",
           "C. polyisoprene.",
-          "D. poly(vinyl chloride)."
+          "D. polychloroprene."
         ],
-        "correct": 1,
+        "correct": 3,
         "explanation": "​Theo sơ đồ phản ứng, polymer X được điều chế từ chloroprene bằng phản ứng trùng hợp ⇒ X là polychloroprene.\nPhương trình phản ứng:"
       },
       {
