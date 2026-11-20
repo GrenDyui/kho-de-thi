@@ -6986,22 +6986,22 @@
         "id": 1,
         "question": "Để tạo danh sách có thứ tự trong HTML, ta sử dụng thẻ nào?",
         "options": [
-          "A. <table>",
-          "B. <ol>",
+          "A. <li>",
+          "B. <table>",
           "C. <ul>",
-          "D. <li>"
+          "D. <ol>"
         ],
-        "correct": 1,
+        "correct": 3,
         "explanation": "Sai – <ul> dùng cho danh sách không thứ tự.\nĐúng – <ol> tạo danh sách có thứ tự.\nSai – <li> chỉ định từng mục trong danh sách.\nSai – <table> dùng để tạo bảng, không phải danh sách."
       },
       {
         "id": 2,
         "question": "Trong HTML, thẻ nào dùng để xác định từng mục trong danh sách?",
         "options": [
-          "A. <ul>",
+          "A. <ol>",
           "B. <li>",
-          "C. <tr>",
-          "D. <ol>"
+          "C. <ul>",
+          "D. <tr>"
         ],
         "correct": 1,
         "explanation": "Đúng – <li> (list item) xác định từng mục trong danh sách.\nSai – <ol> tạo danh sách có thứ tự, không phải từng mục.\nSai – <ul> tạo danh sách không thứ tự.\nSai – <tr> dùng trong bảng để tạo hàng."
@@ -7010,24 +7010,24 @@
         "id": 3,
         "question": "Để tạo bảng trong HTML, thẻ nào được sử dụng?",
         "options": [
-          "A. <table>",
-          "B. <th>",
-          "C. <tr>",
-          "D. <td>"
+          "A. <td>",
+          "B. <tr>",
+          "C. <th>",
+          "D. <table>"
         ],
-        "correct": 0,
+        "correct": 3,
         "explanation": "Đúng – <table> là thẻ chính để tạo bảng.\nSai – <tr> tạo hàng trong bảng.\nSai – <td> tạo ô dữ liệu trong bảng.\nSai – <th> tạo ô tiêu đề trong bảng."
       },
       {
         "id": 4,
         "question": "Trong bảng HTML, thẻ nào dùng để tạo một hàng mới?",
         "options": [
-          "A. <th>",
-          "B. <ul>",
+          "A. <ul>",
+          "B. <tr>",
           "C. <td>",
-          "D. <tr>"
+          "D. <th>"
         ],
-        "correct": 3,
+        "correct": 1,
         "explanation": "Sai – <td> tạo ô dữ liệu, không phải hàng.\nĐúng – <tr> (table row) tạo hàng mới.\nSai – <th> tạo ô tiêu đề.\nSai – <ul> dùng cho danh sách không thứ tự."
       },
       {
@@ -7035,9 +7035,9 @@
         "question": "Để tạo ô dữ liệu trong bảng HTML, ta dùng thẻ nào?",
         "options": [
           "A. <td>",
-          "B. <th>",
-          "C. <tr>",
-          "D. <ol>"
+          "B. <tr>",
+          "C. <ol>",
+          "D. <th>"
         ],
         "correct": 0,
         "explanation": "Sai – <tr> tạo hàng, không phải ô dữ liệu.\nĐúng – <td> (table data) tạo ô dữ liệu.\nSai – <th> tạo ô tiêu đề.\nSai – <ol> tạo danh sách có thứ tự."
@@ -7046,24 +7046,24 @@
         "id": 6,
         "question": "Nếu muốn tạo ô tiêu đề trong bảng HTML, ta dùng thẻ nào?",
         "options": [
-          "A. <td>",
-          "B. <li>",
-          "C. <th>",
-          "D. <tr>"
+          "A. <th>",
+          "B. <td>",
+          "C. <tr>",
+          "D. <li>"
         ],
-        "correct": 2,
+        "correct": 0,
         "explanation": "Sai – <td> tạo ô dữ liệu thường.\nSai – <tr> tạo hàng.\nĐúng – <th> tạo ô tiêu đề.\nSai – <li> dùng cho danh sách."
       },
       {
         "id": 7,
         "question": "Để tạo danh sách không thứ tự trong HTML, ta dùng thẻ nào?",
         "options": [
-          "A. <ul>",
-          "B. <ol>",
-          "C. <li>",
+          "A. <ol>",
+          "B. <li>",
+          "C. <ul>",
           "D. <table>"
         ],
-        "correct": 0,
+        "correct": 2,
         "explanation": "Sai – <ol> tạo danh sách có thứ tự.\nĐúng – <ul> tạo danh sách không thứ tự.\nSai – <li> chỉ định từng mục trong danh sách.\nSai – <table> tạo bảng."
       },
       {
@@ -7072,118 +7072,118 @@
         "options": [
           "A. Tạo danh sách có thứ tự.",
           "B. Tạo ô dữ liệu trong bảng.",
-          "C. Tạo hàng trong bảng.",
-          "D. Tạo tiêu đề cho bảng."
+          "C. Tạo tiêu đề cho bảng.",
+          "D. Tạo hàng trong bảng."
         ],
-        "correct": 3,
+        "correct": 2,
         "explanation": "Đúng – <caption> tạo tiêu đề cho bảng.\nSai – Hàng trong bảng dùng <tr>.\nSai – Ô dữ liệu dùng <td>.\nSai – Danh sách có thứ tự dùng <ol>."
       },
       {
         "id": 9,
         "question": "Để tạo danh sách lồng nhau (nested list), ta cần:",
         "options": [
-          "A. Đặt <li> bên trong <caption>.",
-          "B. Đặt <ul> hoặc <ol> bên trong một <li>.",
+          "A. Đặt <ul> hoặc <ol> bên trong một <li>.",
+          "B. Đặt <table> bên trong <tr>.",
           "C. Đặt <tr> bên trong <td>.",
-          "D. Đặt <table> bên trong <tr>."
+          "D. Đặt <li> bên trong <caption>."
         ],
-        "correct": 1,
+        "correct": 0,
         "explanation": "Đúng – Danh sách lồng nhau được tạo bằng cách đặt <ul> hoặc <ol> trong <li>.\nSai – <tr> không đặt trong <td>.\nSai – <table> không đặt trong <tr>.\nSai – <caption> chỉ tạo tiêu đề bảng, không chứa <li>."
       },
       {
         "id": 10,
         "question": "Để gộp nhiều cột trong bảng HTML, ta dùng thuộc tính nào?",
         "options": [
-          "A. align",
-          "B. colspan",
+          "A. colspan",
+          "B. align",
           "C. rowspan",
           "D. border"
         ],
-        "correct": 1,
+        "correct": 0,
         "explanation": "Sai – rowspan gộp nhiều hàng.\nĐúng – colspan gộp nhiều cột.\nSai – align dùng để căn chỉnh nội dung.\nSai – border tạo đường viền cho bảng."
       },
       {
         "id": 11,
         "question": "Muốn tạo bảng có tiêu đề “Danh sách học sinh” hiển thị phía trên bảng, ta cần thẻ nào?",
         "options": [
-          "A. <title>",
-          "B. <thead>",
-          "C. <caption>",
-          "D. <h1>"
+          "A. <caption>",
+          "B. <h1>",
+          "C. <thead>",
+          "D. <title>"
         ],
-        "correct": 2,
+        "correct": 0,
         "explanation": "Sai – <thead> tạo phần đầu bảng, không phải tiêu đề.\nĐúng – <caption> tạo tiêu đề cho bảng.\nSai – <title> hiển thị tiêu đề trên tab trình duyệt.\nSai – <h1> hiển thị tiêu đề trong nội dung trang, không gắn với bảng."
       },
       {
         "id": 12,
         "question": "Để tạo bảng có 2 hàng, mỗi hàng gồm 3 ô dữ liệu, ta cần bao nhiêu thẻ <td>?",
         "options": [
-          "A. 3",
-          "B. 9",
-          "C. 2",
-          "D. 6"
+          "A. 2",
+          "B. 6",
+          "C. 9",
+          "D. 3"
         ],
-        "correct": 3,
+        "correct": 1,
         "explanation": "Sai – 2 ô không đủ.\nSai – 3 ô chỉ cho một hàng.\nĐúng – 2 hàng × 3 ô = 6 thẻ <td>.\nSai – 9 ô là thừa."
       },
       {
         "id": 13,
         "question": "Khi muốn gộp 2 ô theo chiều dọc trong bảng HTML, ta dùng thuộc tính nào?",
         "options": [
-          "A. rowspan=\"2\"",
-          "B. colspan=\"2\"",
-          "C. merge=\"2\"",
-          "D. align=\"center\""
+          "A. merge=\"2\"",
+          "B. align=\"center\"",
+          "C. colspan=\"2\"",
+          "D. rowspan=\"2\""
         ],
-        "correct": 0,
+        "correct": 3,
         "explanation": "Sai – colspan gộp theo chiều ngang.\nĐúng – rowspan gộp theo chiều dọc.\nSai – HTML không có thuộc tính merge.\nSai – align chỉ căn chỉnh nội dung."
       },
       {
         "id": 14,
         "question": "Để tạo danh sách có thứ tự bắt đầu từ số 5, ta dùng cú pháp nào?",
         "options": [
-          "A. <ul start=\"5\">",
-          "B. <ol start=\"5\">",
-          "C. <li start=\"5\">",
-          "D. <ol begin=\"5\">"
+          "A. <li start=\"5\">",
+          "B. <ol begin=\"5\">",
+          "C. <ul start=\"5\">",
+          "D. <ol start=\"5\">"
         ],
-        "correct": 1,
+        "correct": 3,
         "explanation": "Đúng – <ol start=\"5\"> bắt đầu từ số 5.\nSai – <ul> không có thứ tự số.\nSai – <li> không có thuộc tính start.\nSai – HTML không có thuộc tính begin."
       },
       {
         "id": 15,
         "question": "Muốn tạo danh sách có thứ tự bằng chữ cái La Mã (I, II, III…), ta dùng thuộc tính nào?",
         "options": [
-          "A. type=\"I\"",
-          "B. type=\"1\"",
-          "C. type=\"A\"",
-          "D. type=\"i\""
+          "A. type=\"i\"",
+          "B. type=\"I\"",
+          "C. type=\"1\"",
+          "D. type=\"A\""
         ],
-        "correct": 0,
+        "correct": 1,
         "explanation": "Sai – A hiển thị bằng chữ cái.\nSai – i hiển thị số La Mã thường.\nĐúng – I hiển thị số La Mã in hoa.\nSai – 1 hiển thị số thường."
       },
       {
         "id": 16,
         "question": "Trong bảng HTML, muốn tạo phần đầu bảng chứa tiêu đề cột, ta dùng thẻ nào?",
         "options": [
-          "A. <tfoot>",
+          "A. <thead>",
           "B. <caption>",
-          "C. <thead>",
-          "D. <tbody>"
+          "C. <tbody>",
+          "D. <tfoot>"
         ],
-        "correct": 2,
+        "correct": 0,
         "explanation": "Đúng – <thead> chứa tiêu đề cột.\nSai – <tbody> chứa nội dung chính.\nSai – <tfoot> chứa phần cuối bảng.\nSai – <caption> tạo tiêu đề bảng, không phải phần đầu."
       },
       {
         "id": 17,
         "question": "Để tạo danh sách không thứ tự với ký hiệu hình vuông, ta dùng cú pháp nào?",
         "options": [
-          "A. <ul type=\"disc\">",
-          "B. <ul type=\"circle\">",
-          "C. <ul type=\"square\">",
-          "D. <ul type=\"dot\">"
+          "A. <ul type=\"dot\">",
+          "B. <ul type=\"square\">",
+          "C. <ul type=\"circle\">",
+          "D. <ul type=\"disc\">"
         ],
-        "correct": 2,
+        "correct": 1,
         "explanation": "Sai – circle tạo ký hiệu hình tròn rỗng.\nĐúng – square tạo ký hiệu hình vuông.\nSai – disc tạo hình tròn đặc.\nSai – HTML không có dot."
       },
       {
@@ -7191,23 +7191,23 @@
         "question": "Nếu muốn tạo bảng có đường viền dày 2 pixel, ta dùng cú pháp nào?",
         "options": [
           "A. <table border-style=\"2\">",
-          "B. <table border=\"2\">",
+          "B. <table border-width=\"2\">",
           "C. <table border-size=\"2\">",
-          "D. <table border-width=\"2\">"
+          "D. <table border=\"2\">"
         ],
-        "correct": 1,
+        "correct": 3,
         "explanation": "Đúng – border=\"2\" tạo đường viền dày 2 pixel.\nSai – HTML không có thuộc tính border-width.\nSai – Không có border-size.\nSai – Không có border-style với giá trị số."
       },
       {
         "id": 19,
         "question": "Để căn giữa nội dung trong ô dữ liệu bảng, ta dùng thuộc tính nào?",
         "options": [
-          "A. align=\"center\"",
-          "B. align=\"right\"",
-          "C. align=\"justify\"",
-          "D. align=\"left\""
+          "A. align=\"justify\"",
+          "B. align=\"left\"",
+          "C. align=\"right\"",
+          "D. align=\"center\""
         ],
-        "correct": 0,
+        "correct": 3,
         "explanation": "Sai – căn trái.\nSai – căn phải.\nĐúng – align=\"center\" căn giữa nội dung.\nSai – justify căn đều hai bên."
       },
       {
@@ -7215,55 +7215,55 @@
         "question": "Khi muốn tạo danh sách có thứ tự bằng chữ cái thường (a, b, c…), ta dùng cú pháp nào?",
         "options": [
           "A. <ol type=\"I\">",
-          "B. <ol type=\"A\">",
-          "C. <ol type=\"a\">",
-          "D. <ol type=\"i\">"
+          "B. <ol type=\"i\">",
+          "C. <ol type=\"A\">",
+          "D. <ol type=\"a\">"
         ],
-        "correct": 2,
+        "correct": 3,
         "explanation": "Đúng – type=\"a\" tạo danh sách bằng chữ cái thường.\nSai – A tạo chữ cái in hoa.\nSai – i tạo số La Mã thường.\nSai – I tạo số La Mã in hoa."
       },
       {
         "id": 21,
         "question": "Muốn tạo bảng có 3 cột, trong đó cột đầu tiên là tiêu đề, ta cần thẻ nào trong hàng đầu tiên?",
         "options": [
-          "A. <td>",
-          "B. <tr>",
-          "C. <th>",
-          "D. <caption>"
+          "A. <tr>",
+          "B. <caption>",
+          "C. <td>",
+          "D. <th>"
         ],
-        "correct": 2,
+        "correct": 3,
         "explanation": "Sai – <td> tạo ô dữ liệu thường.\nĐúng – <th> tạo ô tiêu đề cho cột.\nSai – <tr> tạo hàng, không phải ô.\nSai – <caption> tạo tiêu đề bảng, không phải tiêu đề cột."
       },
       {
         "id": 22,
         "question": "Khi muốn tạo bảng có phần cuối ghi chú “Tổng kết”, ta dùng thẻ nào?",
         "options": [
-          "A. <caption>",
-          "B. <tbody>",
-          "C. <tfoot>",
-          "D. <thead>"
+          "A. <tbody>",
+          "B. <tfoot>",
+          "C. <thead>",
+          "D. <caption>"
         ],
-        "correct": 2,
+        "correct": 1,
         "explanation": "Đúng – <tfoot> tạo phần cuối bảng.\nSai – <thead> tạo phần đầu bảng.\nSai – <tbody> chứa nội dung chính.\nSai – <caption> tạo tiêu đề bảng."
       },
       {
         "id": 23,
         "question": "Để tạo danh sách có thứ tự hiển thị bằng chữ cái in hoa (A, B, C…), ta dùng cú pháp nào?",
         "options": [
-          "A. <ol type=\"a\">",
-          "B. <ol type=\"A\">",
-          "C. <ol type=\"I\">",
-          "D. <ol type=\"i\">"
+          "A. <ol type=\"I\">",
+          "B. <ol type=\"i\">",
+          "C. <ol type=\"A\">",
+          "D. <ol type=\"a\">"
         ],
-        "correct": 1,
+        "correct": 2,
         "explanation": "Sai – a hiển thị chữ cái thường.\nĐúng – A hiển thị chữ cái in hoa.\nSai – i hiển thị số La Mã thường.\nSai – I hiển thị số La Mã in hoa."
       },
       {
         "id": 24,
         "question": "Muốn tạo bảng có 4 hàng, mỗi hàng gồm 2 ô dữ liệu, ta cần bao nhiêu thẻ <tr> và <td>?",
         "options": [
-          "A. 2 <tr> và 4 <td>",
-          "B. 8 <tr> và 16 <td>",
+          "A. 8 <tr> và 16 <td>",
+          "B. 2 <tr> và 4 <td>",
           "C. 1 <tr> và 2 <td>",
           "D. 4 <tr> và 8 <td>"
         ],
@@ -7274,12 +7274,12 @@
         "id": 25,
         "question": "Khi muốn tạo danh sách có thứ tự bắt đầu bằng chữ cái “C”, ta dùng cú pháp nào?",
         "options": [
-          "A. <ol type=\"I\" start=\"3\">",
+          "A. <ol type=\"a\" start=\"3\">",
           "B. <ol type=\"1\" start=\"3\">",
-          "C. <ol type=\"a\" start=\"3\">",
-          "D. <ol type=\"A\" start=\"3\">"
+          "C. <ol type=\"A\" start=\"3\">",
+          "D. <ol type=\"I\" start=\"3\">"
         ],
-        "correct": 3,
+        "correct": 2,
         "explanation": "Đúng – type=\"A\" tạo chữ cái in hoa, start=\"3\" bắt đầu từ C.\nSai – a tạo chữ cái thường.\nSai – I tạo số La Mã in hoa.\nSai – 1 tạo số thường."
       },
       {
@@ -7287,9 +7287,9 @@
         "question": "Trong bảng HTML, muốn gộp 3 ô theo chiều ngang, ta dùng cú pháp nào?",
         "options": [
           "A. <td colspan=\"3\">",
-          "B. <td merge=\"3\">",
-          "C. <td rowspan=\"3\">",
-          "D. <td align=\"3\">"
+          "B. <td align=\"3\">",
+          "C. <td merge=\"3\">",
+          "D. <td rowspan=\"3\">"
         ],
         "correct": 0,
         "explanation": "Đúng – colspan=\"3\" gộp 3 ô theo chiều ngang.\nSai – rowspan gộp theo chiều dọc.\nSai – HTML không có merge.\nSai – align chỉ căn chỉnh nội dung."
@@ -7300,22 +7300,22 @@
         "options": [
           "A. <ul type=\"square\">",
           "B. <ul type=\"dot\">",
-          "C. <ul type=\"disc\">",
-          "D. <ul type=\"circle\">"
+          "C. <ul type=\"circle\">",
+          "D. <ul type=\"disc\">"
         ],
-        "correct": 3,
+        "correct": 2,
         "explanation": "Sai – disc tạo hình tròn đặc.\nĐúng – circle tạo hình tròn rỗng.\nSai – square tạo hình vuông.\nSai – HTML không có dot."
       },
       {
         "id": 28,
         "question": "Khi muốn tạo bảng có phần nội dung chính nằm trong thẻ nào?",
         "options": [
-          "A. <caption>",
-          "B. <tbody>",
-          "C. <thead>",
+          "A. <thead>",
+          "B. <caption>",
+          "C. <tbody>",
           "D. <tfoot>"
         ],
-        "correct": 1,
+        "correct": 2,
         "explanation": "Sai – <thead> tạo phần đầu bảng.\nĐúng – <tbody> chứa nội dung chính.\nSai – <tfoot> tạo phần cuối bảng.\nSai – <caption> tạo tiêu đề bảng."
       },
       {
@@ -7323,9 +7323,9 @@
         "question": "Muốn tạo danh sách lồng nhau, trong đó danh sách con là danh sách có thứ tự, ta cần cú pháp nào?",
         "options": [
           "A. <ul><ol>...</ol></ul>",
-          "B. <ol><ul>...</ul></ol>",
+          "B. <ol><li><ul>...</ul></li></ol>",
           "C. <ul><li><ol>...</ol></li></ul>",
-          "D. <ol><li><ul>...</ul></li></ol>"
+          "D. <ol><ul>...</ul></ol>"
         ],
         "correct": 2,
         "explanation": "Đúng – danh sách cha <ul>, trong <li> có danh sách con <ol>.\nSai – danh sách cha là <ol>, không đúng yêu cầu.\nSai – không có <li> bao quanh.\nSai – không có cấu trúc hợp lệ."
@@ -7334,12 +7334,12 @@
         "id": 30,
         "question": "Khi muốn tạo bảng có đường viền màu đỏ, ta cần kết hợp với thuộc tính nào?",
         "options": [
-          "A. <table border=\"1\" bordercolor=\"blue\">",
-          "B. <table border=\"red\">",
-          "C. <table border=\"1\" color=\"red\">",
-          "D. <table border=\"1\" style=\"border-color:red;\">"
+          "A. <table border=\"1\" color=\"red\">",
+          "B. <table border=\"1\" style=\"border-color:red;\">",
+          "C. <table border=\"red\">",
+          "D. <table border=\"1\" bordercolor=\"blue\">"
         ],
-        "correct": 3,
+        "correct": 1,
         "explanation": "Đúng – dùng CSS style=\"border-color:red;\".\nSai – border không nhận giá trị màu.\nSai – HTML không có thuộc tính color cho bảng.\nSai – bordercolor là cú pháp cũ, không chuẩn."
       }
     ],
