@@ -1,48 +1,43 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-EduVault - OLM Automatic Sync Pipeline V2 (LaTeX Math + Image Extraction + True/False GDPT 2018)
-Fetches assigned tests/lessons from OLM (olm.vn), downloads the Word .docx format,
-converts OMML math to LaTeX, extracts all diagrams/images to data/images/,
-accurately marks True/False questions, and merges them into data/exams.json.
+EduVault - OLM Automatic Sync Pipeline & Deep Extraction Engine
+Fetches assigned tests/lessons from OLM (olm.vn), downloads Word .docx format
+(or falls back to direct API crawling with XOR decoding when Word download is disabled),
+parses equations to LaTeX, extracts diagrams/images, handles True/False GDPT 2018 format,
+generates genuine .docx with highlighted answers, and merges them into data/exams.json.
 """
 
 import os
 import sys
+
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 import re
 import json
 import io
+import html
 import zipfile
 import argparse
 import unicodedata
-import xml.etree.ElementTree as ET
 from typing import Dict, List, Optional, Any, Tuple
 import requests
+import docx
+from docx.shared import Pt, Inches, RGBColor
+from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_UNDERLINE
+from docx.enum.table import WD_TABLE_ALIGNMENT
+from PIL import Image
 
-DOCX_NAMESPACES = (
-    'xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" '
-    'xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" '
-    'xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" '
-    'xmlns:o="urn:schemas-microsoft-com:office:office" '
-    'xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" '
-    'xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" '
-    'xmlns:v="urn:schemas-microsoft-com:vml" '
-    'xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" '
-    'xmlns:w10="urn:schemas-microsoft-com:office:word" '
-    'xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" '
-    'xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" '
-    'xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" '
-    'xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"'
-)
+W_NS = 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'
+M_NS = 'http://schemas.openxmlformats.org/officeDocument/2006/math'
+OLM_XOR_KEY = "1047823200"
 
-OMML_NS = {
-    'm': 'http://schemas.openxmlformats.org/officeDocument/2006/math',
-    'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main',
-    'v': 'urn:schemas-microsoft-com:vml',
-    'r': 'http://schemas.openxmlformats.org/officeDocument/2006/relationships',
-    'a': 'http://schemas.openxmlformats.org/drawingml/2006/main'
-}
-
+# Standard subject name normalization mapping for EduVault
 SUBJECT_NORMALIZATION = {
     "TOAN": "Toán",
     "TOÁN": "Toán",
@@ -114,436 +109,197 @@ def normalize_subject(name: Optional[str]) -> str:
     return clean.title()
 
 
-def normalize_grade(val: Any) -> str:
-    """Ensure grade is always formatted as a string like 'Lớp 12'."""
-    if not val:
-        return "Lớp 12"
-    s = str(val).strip()
-    if s.isdigit():
-        return f"Lớp {s}"
-    if not s.lower().startswith("lớp") and not s.lower().startswith("khối"):
-        return f"Lớp {s}"
-    return s
+def xor_decode(encoded_str: str, key: str = OLM_XOR_KEY) -> str:
+    """Decode OLM XOR-base64 encrypted string."""
+    if not encoded_str:
+        return ""
+    try:
+        import base64
+        raw = base64.b64decode(encoded_str)
+        kb = key.encode("utf-8")
+        dec = bytes([b ^ kb[i % len(kb)] for i, b in enumerate(raw)])
+        return dec.decode("utf-8", errors="replace")
+    except Exception:
+        return encoded_str
 
 
-def omml_to_latex(element: ET.Element) -> str:
-    """Recursively converts an OMML Element into standard LaTeX math."""
-    tag = element.tag.split("}")[-1] if "}" in element.tag else element.tag
+def strip_html_tags(html_str: str) -> str:
+    """Strip HTML tags while preserving text content."""
+    if not html_str:
+        return ""
+    txt = re.sub(r"<[^>]+>", " ", html_str)
+    txt = html.unescape(txt)
+    return re.sub(r"\s+", " ", txt).strip()
 
-    if tag == "t":
-        text = element.text or ""
-        text = text.replace("−", "-").replace("–", "-")
-        text = text.replace("⇔", " \\Leftrightarrow ")
-        text = text.replace("⇒", " \\Rightarrow ")
-        text = text.replace("→", " \\rightarrow ")
-        text = text.replace("≤", " \\le ").replace("≥", " \\ge ")
-        text = text.replace("≠", " \\ne ").replace("±", " \\pm ")
-        text = text.replace("×", " \\times ").replace("·", " \\cdot ")
-        text = text.replace("∈", " \\in ").replace("∉", " \\notin ")
-        text = text.replace("⊂", " \\subset ").replace("⊃", " \\supset ")
-        text = text.replace("∪", " \\cup ").replace("∩", " \\cap ")
-        text = text.replace("∅", " \\emptyset ").replace("∞", " \\infty ")
-        text = text.replace("π", " \\pi ").replace("θ", " \\theta ")
-        text = text.replace("α", " \\alpha ").replace("β", " \\beta ")
-        text = text.replace("Δ", " \\Delta ").replace("Ω", " \\Omega ")
-        return text
 
-    elif tag == "r":
-        return "".join(omml_to_latex(child) for child in element)
+def omml_to_latex(elem) -> str:
+    """Convert Office Math Markup Language (OMML) element to LaTeX math format."""
+    tag = elem.tag.split('}')[-1]
 
-    elif tag == "f":
-        num_el = element.find("m:num", OMML_NS)
-        den_el = element.find("m:den", OMML_NS)
-        num_tex = omml_to_latex(num_el).strip() if num_el is not None else ""
-        den_tex = omml_to_latex(den_el).strip() if den_el is not None else ""
-        return f"\\frac{{{num_tex}}}{{{den_tex}}}"
+    if tag in ('oMath', 'oMathPara'):
+        return ''.join(omml_to_latex(child) for child in elem).strip()
 
-    elif tag == "sSub":
-        base_el = element.find("m:e", OMML_NS)
-        sub_el = element.find("m:sub", OMML_NS)
-        base_tex = omml_to_latex(base_el).strip() if base_el is not None else ""
-        sub_tex = omml_to_latex(sub_el).strip() if sub_el is not None else ""
-        return f"{{{base_tex}}}_{{{sub_tex}}}"
+    elif tag in ('e', 'num', 'den', 'sub', 'sup'):
+        return ''.join(omml_to_latex(child) for child in elem)
 
-    elif tag == "sSup":
-        base_el = element.find("m:e", OMML_NS)
-        sup_el = element.find("m:sup", OMML_NS)
-        base_tex = omml_to_latex(base_el).strip() if base_el is not None else ""
-        sup_tex = omml_to_latex(sup_el).strip() if sup_el is not None else ""
-        return f"{{{base_tex}}}^{{{sup_tex}}}"
+    elif tag == 'r':
+        txt = ''.join(t.text for t in elem.iter() if t.tag.endswith('}t') and t.text)
+        return txt
 
-    elif tag == "sSubSup":
-        base_el = element.find("m:e", OMML_NS)
-        sub_el = element.find("m:sub", OMML_NS)
-        sup_el = element.find("m:sup", OMML_NS)
-        b_tex = omml_to_latex(base_el).strip() if base_el is not None else ""
-        sub_tex = omml_to_latex(sub_el).strip() if sub_el is not None else ""
-        sup_tex = omml_to_latex(sup_el).strip() if sup_el is not None else ""
-        return f"{{{b_tex}}}_{{{sub_tex}}}^{{{sup_tex}}}"
+    elif tag == 'f':
+        # Fraction
+        num_el = elem.find(f'{{{M_NS}}}num')
+        den_el = elem.find(f'{{{M_NS}}}den')
+        num = omml_to_latex(num_el) if num_el is not None else ''
+        den = omml_to_latex(den_el) if den_el is not None else ''
+        return f'\\frac{{{num}}}{{{den}}}'
 
-    elif tag == "rad":
-        deg_el = element.find("m:deg", OMML_NS)
-        base_el = element.find("m:e", OMML_NS)
-        base_tex = omml_to_latex(base_el).strip() if base_el is not None else ""
-        if deg_el is not None:
-            deg_tex = omml_to_latex(deg_el).strip()
-            if deg_tex:
-                return f"\\sqrt[{deg_tex}]{{{base_tex}}}"
-        return f"\\sqrt{{{base_tex}}}"
+    elif tag == 'rad':
+        # Radical / square root
+        deg_el = elem.find(f'.//{{{M_NS}}}deg')
+        e_el = elem.find(f'{{{M_NS}}}e')
+        e = omml_to_latex(e_el) if e_el is not None else ''
+        deg = omml_to_latex(deg_el) if deg_el is not None else ''
+        if deg.strip():
+            return f'\\sqrt[{deg}]{{{e}}}'
+        return f'\\sqrt{{{e}}}'
 
-    elif tag == "d":
-        dpr = element.find("m:dPr", OMML_NS)
-        beg_chr = "("
-        end_chr = ")"
-        if dpr is not None:
-            beg_el = dpr.find("m:begChr", OMML_NS)
-            end_el = dpr.find("m:endChr", OMML_NS)
+    elif tag == 'sSup':
+        e_el = elem.find(f'{{{M_NS}}}e')
+        sup_el = elem.find(f'{{{M_NS}}}sup')
+        e = omml_to_latex(e_el) if e_el is not None else ''
+        sup = omml_to_latex(sup_el) if sup_el is not None else ''
+        return f'{{{e}}}^{{{sup}}}'
+
+    elif tag == 'sSub':
+        e_el = elem.find(f'{{{M_NS}}}e')
+        sub_el = elem.find(f'{{{M_NS}}}sub')
+        e = omml_to_latex(e_el) if e_el is not None else ''
+        sub = omml_to_latex(sub_el) if sub_el is not None else ''
+        return f'{{{e}}}_{{{sub}}}'
+
+    elif tag == 'sSubSup':
+        e_el = elem.find(f'{{{M_NS}}}e')
+        sub_el = elem.find(f'{{{M_NS}}}sub')
+        sup_el = elem.find(f'{{{M_NS}}}sup')
+        e = omml_to_latex(e_el) if e_el is not None else ''
+        sub = omml_to_latex(sub_el) if sub_el is not None else ''
+        sup = omml_to_latex(sup_el) if sup_el is not None else ''
+        return f'{{{e}}}_{{{sub}}}^{{{sup}}}'
+
+    elif tag == 'd':
+        # Delimiters (brackets, braces, parens)
+        dPr = elem.find(f'{{{M_NS}}}dPr')
+        beg = '('
+        end = ')'
+        if dPr is not None:
+            beg_el = dPr.find(f'{{{M_NS}}}begChr')
             if beg_el is not None:
-                beg_chr = beg_el.attrib.get(f"{{{OMML_NS['m']}}}val", beg_el.attrib.get("val", "("))
+                beg = beg_el.attrib.get(f'{{{M_NS}}}val', '(')
+            end_el = dPr.find(f'{{{M_NS}}}endChr')
             if end_el is not None:
-                end_chr = end_el.attrib.get(f"{{{OMML_NS['m']}}}val", end_el.attrib.get("val", ")"))
+                end = end_el.attrib.get(f'{{{M_NS}}}val', ')')
+        e_el = elem.find(f'{{{M_NS}}}e')
+        e = omml_to_latex(e_el) if e_el is not None else ''
+        if beg == '{' and not end:
+            return f'\\begin{{cases}} {e} \\end{{cases}}'
+        left_str = f'\\left\\{beg}' if beg in ('{', '}') else (f'\\left{beg}' if beg else '\\left.')
+        right_str = f'\\right\\{end}' if end in ('{', '}') else (f'\\right{end}' if end else '\\right.')
+        return f'{left_str} {e} {right_str}'
 
-        m_el = element.find(".//m:m", OMML_NS)
-        if beg_chr == "{" and (not end_chr or end_chr == "") and m_el is not None:
-            rows = []
-            for mr in m_el.findall("m:mr", OMML_NS):
-                cells = [omml_to_latex(me).strip() for me in mr.findall("m:e", OMML_NS) if omml_to_latex(me).strip()]
-                rows.append(" & ".join(cells))
-            return "\\begin{cases} " + " \\\\ ".join(rows) + " \\end{cases}"
+    elif tag == 'm':
+        # Matrix / equation array
+        rows = []
+        for r_child in elem:
+            if r_child.tag.endswith('}mr'):
+                cells = [omml_to_latex(c) for c in r_child if c.tag.endswith('}e')]
+                cells = [c for c in cells if c.strip()]
+                rows.append(' & '.join(cells))
+        return ' \\\\ '.join(rows)
 
-        e_el = element.find("m:e", OMML_NS)
-        inner_tex = omml_to_latex(e_el).strip() if e_el is not None else ""
-
-        if beg_chr == "(" and end_chr == ")":
-            return f"\\left( {inner_tex} \\right)"
-        elif beg_chr == "[" and end_chr == "]":
-            return f"\\left[ {inner_tex} \\right]"
-        elif beg_chr == "{" and end_chr == "}":
-            return f"\\left\\{{ {inner_tex} \\right\\}}"
-        elif beg_chr == "|" and end_chr == "|":
-            return f"\\left| {inner_tex} \\right|"
-        else:
-            return f"{beg_chr}{inner_tex}{end_chr}"
-
-    elif tag == "acc":
-        acc_pr = element.find("m:accPr", OMML_NS)
-        chr_val = "→"
-        if acc_pr is not None:
-            chr_el = acc_pr.find("m:chr", OMML_NS)
-            if chr_el is not None:
-                chr_val = chr_el.attrib.get(f"{{{OMML_NS['m']}}}val", chr_el.attrib.get("val", "→"))
-        base_el = element.find("m:e", OMML_NS)
-        base_tex = omml_to_latex(base_el).strip() if base_el is not None else ""
-        if chr_val in ("→", "⃗"):
-            return f"\\vec{{{base_tex}}}"
-        elif chr_val in ("¯", "-"):
-            return f"\\overline{{{base_tex}}}"
-        elif chr_val in ("^", "̂"):
-            return f"\\hat{{{base_tex}}}"
-        return f"\\vec{{{base_tex}}}"
-
-    elif tag == "bar":
-        base_el = element.find("m:e", OMML_NS)
-        base_tex = omml_to_latex(base_el).strip() if base_el is not None else ""
-        return f"\\overline{{{base_tex}}}"
-
-    elif tag in ("oMath", "oMathPara"):
-        tex = "".join(omml_to_latex(child) for child in element).strip()
-        tex = re.sub(r"\s+", " ", tex)
-        return f"${tex}$"
+    elif tag == 'bar':
+        e_el = elem.find(f'{{{M_NS}}}e')
+        e = omml_to_latex(e_el) if e_el is not None else ''
+        return f'\\overline{{{e}}}'
 
     else:
-        return "".join(omml_to_latex(child) for child in element)
+        txt = ''.join(t.text for t in elem.iter() if t.tag.endswith('}t') and t.text)
+        return txt
 
 
-def convert_p_to_text_and_images(p_xml: str, rels_map: Dict[str, str], exam_id: str) -> Tuple[str, str]:
-    """Parse paragraph XML, converting OMML to LaTeX and image references to <img> HTML."""
-    wrapped = f"<root {DOCX_NAMESPACES}>{p_xml}</root>"
-    try:
-        root = ET.fromstring(wrapped)[0]
-    except Exception:
-        return "".join(re.findall(r"<w:t[^>]*>(.*?)</w:t>", p_xml)).strip(), ""
-
+def get_paragraph_text_and_underlines(p) -> Tuple[str, List[str]]:
+    """Extract full paragraph text (converting OMML math to LaTeX) and identify underlined runs."""
     parts = []
-    underlined_text = []
+    underlined_texts = []
 
-    def walk_runs(element):
-        for child in element:
-            tag = child.tag.split("}")[-1]
-            if tag in ("oMath", "oMathPara"):
-                parts.append(omml_to_latex(child).strip())
-            elif tag == "r":
-                rPr = child.find("w:rPr", OMML_NS)
-                is_u = False
-                if rPr is not None:
-                    u_el = rPr.find("w:u", OMML_NS)
-                    if u_el is not None and u_el.attrib.get(f"{{{OMML_NS['w']}}}val", u_el.attrib.get("val")) != "none":
+    for child in p._element:
+        tag = child.tag
+        if tag.endswith('}r'):
+            is_u = False
+            for u in child.iter():
+                if u.tag.endswith('}u'):
+                    val = u.attrib.get(f'{{{W_NS}}}val', 'single')
+                    if val != 'none':
                         is_u = True
+                        break
+            run_text = ''.join(t.text for t in child.iter() if t.tag.endswith('}t') and t.text)
+            if run_text:
+                parts.append(run_text)
+                if is_u:
+                    underlined_texts.append(run_text.strip())
+        elif tag.endswith('}oMath') or tag.endswith('}oMathPara'):
+            latex = omml_to_latex(child)
+            if latex:
+                parts.append(f' ${latex}$ ')
+        elif tag.endswith('}pPr'):
+            continue
+        else:
+            any_text = ''.join(t.text for t in child.iter() if t.tag.endswith('}t') and t.text)
+            if any_text:
+                parts.append(any_text)
 
-                for sub in child:
-                    sub_tag = sub.tag.split("}")[-1]
-                    if sub_tag == "t":
-                        t_val = sub.text or ""
-                        parts.append(t_val)
-                        if is_u:
-                            underlined_text.append(t_val)
-                    elif sub_tag in ("oMath", "oMathPara"):
-                        parts.append(omml_to_latex(sub).strip())
-                    elif sub_tag == "pict":
-                        img_data = sub.find(".//v:imagedata", OMML_NS)
-                        if img_data is not None and rels_map and exam_id:
-                            rid = img_data.attrib.get(f"{{{OMML_NS['r']}}}id", img_data.attrib.get("r:id"))
-                            if rid and rid in rels_map:
-                                img_file = rels_map[rid]
-                                if not img_file.endswith(".wmf"):
-                                    parts.append(f'<br><img src="./data/images/{exam_id}/{img_file}" class="my-3 max-w-full rounded-lg shadow-sm" alt="Hình vẽ" /><br>')
-                    elif sub_tag == "drawing":
-                        blip = sub.find(".//a:blip", OMML_NS)
-                        if blip is not None and rels_map and exam_id:
-                            rid = blip.attrib.get(f"{{{OMML_NS['r']}}}embed", blip.attrib.get("r:embed"))
-                            if rid and rid in rels_map:
-                                img_file = rels_map[rid]
-                                if not img_file.endswith(".wmf"):
-                                    parts.append(f'<br><img src="./data/images/{exam_id}/{img_file}" class="my-3 max-w-full rounded-lg shadow-sm" alt="Hình vẽ" /><br>')
-            else:
-                walk_runs(child)
-
-    walk_runs(root)
-    full_p_text = "".join(parts).strip()
-    return full_p_text, "".join(underlined_text).strip()
+    full_text = ''.join(parts).strip()
+    return full_text, underlined_texts
 
 
-def extract_media_from_zip(z: zipfile.ZipFile, exam_id: str, images_dir: str = "data/images") -> Dict[str, str]:
-    """Extract raster images from docx zip into data/images/{exam_id}/."""
-    rels_map = {}
+def extract_media_from_docx_bytes(docx_bytes: bytes, exam_id: str, images_base_dir: str) -> Dict[str, str]:
+    """Extract media files (PNG/JPEG/WMF) from docx binary into images directory."""
+    img_map = {}
     try:
-        rels_xml = z.read("word/_rels/document.xml.rels").decode("utf-8")
-        for m in re.finditer(r'<Relationship[^>]*Id="([^"]+)"[^>]*Target="([^"]+)"', rels_xml):
-            rid, tgt = m.group(1), m.group(2)
-            if "media/" in tgt:
-                rels_map[rid] = tgt.replace("media/", "")
-    except Exception:
-        pass
+        exam_img_dir = os.path.join(images_base_dir, exam_id)
+        os.makedirs(exam_img_dir, exist_ok=True)
+        with zipfile.ZipFile(io.BytesIO(docx_bytes)) as z:
+            media_files = [n for n in z.namelist() if n.startswith('word/media/')]
+            for mf in media_files:
+                base_name = os.path.basename(mf)
+                stem, ext = os.path.splitext(base_name)
+                ext = ext.lower()
+                data = z.read(mf)
+                out_name = f"{stem}.png"
+                out_path = os.path.join(exam_img_dir, out_name)
 
-    target_dir = os.path.join(images_dir, exam_id)
-    os.makedirs(target_dir, exist_ok=True)
-
-    for f in z.namelist():
-        if f.startswith("word/media/") and (f.endswith(".png") or f.endswith(".jpeg") or f.endswith(".jpg")):
-            fname = os.path.basename(f)
-            out_p = os.path.join(target_dir, fname)
-            with open(out_p, "wb") as out_f:
-                out_f.write(z.read(f))
-
-    return rels_map
-
-
-def parse_docx_bytes_to_eduvault(
-    docx_bytes: bytes,
-    exam_id: str,
-    metadata_override: Optional[Dict[str, Any]] = None,
-    images_dir: str = "data/images"
-) -> Optional[Dict[str, Any]]:
-    """Parse complete docx binary with OMML to LaTeX, images, and True/False marking."""
-    bio = io.BytesIO(docx_bytes)
-    with zipfile.ZipFile(bio, "r") as z:
-        doc_xml = z.read("word/document.xml").decode("utf-8")
-        rels_map = extract_media_from_zip(z, exam_id, images_dir=images_dir)
-
-    p_xmls = re.findall(r"<w:p[ >].*?</w:p>", doc_xml, re.DOTALL)
-
-    # Step 1: Extract Header Metadata
-    title = ""
-    subject = ""
-    grade = "Lớp 12"
-
-    for p_xml in p_xmls[:8]:
-        raw_t = "".join(re.findall(r"<w:t[^>]*>(.*?)</w:t>", p_xml)).strip()
-        lines = [line.strip() for line in raw_t.split("\n") if line.strip()]
-        for line in lines:
-            if re.search(r"^[Bb]ài\s+học:\s*", line, re.IGNORECASE):
-                title = re.sub(r"^[Bb]ài\s+học:\s*", "", line, flags=re.IGNORECASE).strip()
-            m_sub = re.search(r"MÔN\s+([^\n\r]+?)\s+LỚP\s+(\d+)", line, re.IGNORECASE)
-            if m_sub:
-                raw_sub = m_sub.group(1).strip()
-                subject = normalize_subject(raw_sub)
-                grade = f"Lớp {m_sub.group(2)}"
-            elif "MÔN" in line and not subject:
-                m_sub2 = re.search(r"MÔN\s+([A-ZÀ-Ỹa-zà-ỹ\s]+)", line)
-                if m_sub2:
-                    subject = normalize_subject(m_sub2.group(1).strip())
-
-    # Step 2: Parse Questions, Options, Explanations, Images, True/False
-    questions = []
-    current_q = None
-    mode = None
-    current_passage = ""
-
-    for p_xml in p_xmls:
-        text, u_text = convert_p_to_text_and_images(p_xml, rels_map, exam_id)
-        if not text:
-            continue
-
-        # Check question start (including Bloom's taxonomy tags [TH], [NB], [VD], [VDC])
-        m_q = re.match(r"^Câu\s+(\d+)(?:\s*\[[^\]]+\])?[\.:\s]+(.*)", text, re.DOTALL | re.IGNORECASE)
-        if m_q:
-            if current_q:
-                questions.append(current_q)
-
-            q_num = int(m_q.group(1))
-            q_text = m_q.group(2).strip()
-
-            if current_passage:
-                q_text = f"<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">{current_passage}</div>{q_text}".strip()
-                if not re.search(r"(?:blank|blanks|từ\s+câu|đến\s+câu)\s+\d+", current_passage, re.IGNORECASE):
-                    current_passage = ""
-
-            current_q = {
-                "id": q_num,
-                "question": q_text if q_text else f"Chọn phương án đúng cho câu {q_num}:",
-                "options": [],
-                "correct": 0,
-                "explanation": "",
-                "type": None,
-                "items": []
-            }
-            mode = "QUESTION"
-            continue
-
-        if not current_q:
-            if ("Read the following" in text or "Đọc đoạn văn" in text or "Đọc thông tin" in text) and not text.startswith("BÀI LUYỆN TẬP") and not text.startswith("Họ, tên:"):
-                current_passage = text
-            continue
-
-        # Check explanation start
-        if re.match(r"^(Hướng dẫn giải|Lời giải|Giải thích)[:\s]*", text, re.IGNORECASE):
-            mode = "EXPLANATION"
-            exp_text = re.sub(r"^(Hướng dẫn giải|Lời giải|Giải thích)[:\s]*", "", text, flags=re.IGNORECASE).strip()
-            if exp_text:
-                current_q["explanation"] = exp_text
-            continue
-
-        if mode == "EXPLANATION":
-            if current_q["explanation"]:
-                current_q["explanation"] += "\n" + text
-            else:
-                current_q["explanation"] = text
-            continue
-
-        # Check True/False GDPT 2018 items: a) ... b) ... c) ... d) ...
-        m_tf = re.match(r"^\s*([a-d])\)\s*(.*)", text, re.IGNORECASE)
-        if m_tf:
-            mode = "OPTIONS"
-            current_q["type"] = "true_false"
-            label = m_tf.group(1).lower()
-            item_raw = m_tf.group(2).strip()
-
-            is_correct = False
-            if re.search(r"[\.\s\(\[]+T[\)\.\s\]]*$", item_raw, re.IGNORECASE) or "( T )" in item_raw:
-                is_correct = True
-            elif re.search(r"[\.\s\(\[]+F[\)\.\s\]]*$", item_raw, re.IGNORECASE) or "( F )" in item_raw:
-                is_correct = False
-            else:
-                if u_text and label in u_text.lower():
-                    is_correct = True
-
-            clean_item_text = re.sub(r"[\.\s\(\[]+[TFtf][\)\.\s\]]*$", "", item_raw).strip()
-            clean_item_text = re.sub(r"\s*[\(\[]\s*[TFtf]\s*[\)\]]", "", clean_item_text).strip()
-
-            current_q["items"].append({
-                "label": label,
-                "text": clean_item_text,
-                "correct": is_correct
-            })
-            continue
-
-        # Check multiple choice options: A. ... B. ...
-        has_mc = bool(re.search(r"(?:^|\s+)([A-D]\.)\s+", text))
-        if has_mc:
-            mode = "OPTIONS"
-            parts = re.split(r"(?=(?:^|\s+)[A-D]\.\s+)", text)
-            for part in parts:
-                clean_part = part.strip()
-                if not clean_part:
-                    continue
-                if re.match(r"^[A-D]\.\s+", clean_part):
-                    current_q["options"].append(clean_part)
-
-            if u_text:
-                m_u = re.search(r"([A-D])\.", u_text)
-                if m_u:
-                    let = m_u.group(1).upper()
-                    current_q["correct"] = ord(let) - ord("A")
-            continue
-
-        # Check numerical answer: Trả lời: [value]
-        m_ans = re.match(r"^(?:Trả lời|Đáp số|Đáp án)[:\s]*(\[[^\]]+\]|[^\n]+)", text, re.IGNORECASE)
-        if m_ans:
-            ans_val = m_ans.group(1).strip()
-            current_q["type"] = "short_answer"
-            current_q["options"] = [f"A. {ans_val}"]
-            current_q["correct"] = 0
-            current_q["correctAnswer"] = ans_val
-            if not current_q["explanation"]:
-                current_q["explanation"] = f"Đáp án chính xác: {ans_val}"
-            continue
-
-        if mode == "QUESTION":
-            current_q["question"] += "\n" + text
-
-    if current_q:
-        questions.append(current_q)
-
-    # Post-process True/False questions: Cross-check explanation for accurate truth values
-    for q in questions:
-        if q.get("type") == "true_false" and q.get("items"):
-            exp = q.get("explanation", "")
-            for it in q["items"]:
-                lbl = it["label"]
-                m_exp_t = re.search(rf"\b{lbl}\)\s*Đúng", exp, re.IGNORECASE)
-                m_exp_f = re.search(rf"\b{lbl}\)\s*Sai", exp, re.IGNORECASE)
-                if m_exp_t and not m_exp_f:
-                    it["correct"] = True
-                elif m_exp_f and not m_exp_t:
-                    it["correct"] = False
-
-    if not questions:
-        return None
-
-    meta = metadata_override or {}
-    final_title = title if title else (meta.get("title") or f"Bài tập OLM #{exam_id}")
-    final_subject = subject if subject else (normalize_subject(meta.get("subject")) or "Tiếng Anh")
-    final_grade = normalize_grade(meta.get("grade") or grade)
-    duration = max(15, min(90, round(len(questions) * 1.5 / 5) * 5))
-
-    return {
-        "id": exam_id,
-        "lessonId": str(meta.get("lessonId") or exam_id.split("-")[-1]),
-        "title": f"OLM: {final_title}" if not final_title.upper().startswith("OLM") else final_title,
-        "subject": final_subject,
-        "grade": final_grade,
-        "durationMinutes": duration,
-        "difficulty": "Luyện tập OLM",
-        "source": "OLM",
-        "teacher": meta.get("teacher"),
-        "deadline": meta.get("deadline"),
-        "tags": [
-            "OLM",
-            final_subject,
-            final_grade,
-            "Trắc nghiệm OLM"
-        ],
-        "description": f"Bài tập trực tuyến OLM: {final_title}. Môn {final_subject} - {final_grade}. Tổng số {len(questions)} câu hỏi có đáp án và lời giải chi tiết.",
-        "questions": questions
-    }
+                if ext in ('.png', '.jpg', '.jpeg'):
+                    with open(out_path, 'wb') as f_out:
+                        f_out.write(data)
+                    img_map[mf] = f"data/images/{exam_id}/{out_name}"
+                elif ext == '.wmf':
+                    # Convert WMF to PNG via PIL
+                    try:
+                        im = Image.open(io.BytesIO(data))
+                        im.save(out_path, 'PNG')
+                        img_map[mf] = f"data/images/{exam_id}/{out_name}"
+                    except Exception:
+                        pass
+    except Exception as e:
+        print(f"[!] Warning: Media extraction failed: {e}")
+    return img_map
 
 
 def parse_cookie_string(raw: str) -> Dict[str, str]:
-    cookies = {}
-    raw = raw.strip()
+    """Parse cookie string or JSON string into cookie dictionary."""
     if not raw:
-        return cookies
-
+        return {}
+    raw = raw.strip()
     if raw.startswith("{") and raw.endswith("}"):
         try:
             parsed = json.loads(raw)
@@ -552,38 +308,100 @@ def parse_cookie_string(raw: str) -> Dict[str, str]:
         except Exception:
             pass
 
-    if "=" in raw:
-        for part in raw.split(";"):
-            part = part.strip()
-            if "=" in part:
-                k, v = part.split("=", 1)
-                cookies[k.strip()] = v.strip()
-    else:
-        cookies["olm_session"] = raw
-        cookies["PHPSESSID"] = raw
-
+    cookies = {}
+    for part in raw.split(";"):
+        part = part.strip()
+        if "=" in part:
+            k, v = part.split("=", 1)
+            cookies[k.strip()] = v.strip()
     return cookies
 
 
 def get_authenticated_session() -> requests.Session:
+    """Create and configure authenticated session with OLM."""
     session = requests.Session()
     session.headers.update({
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
         "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
-        "Referer": "https://olm.vn/lop-hoc-cua-toi",
+        "Connection": "keep-alive"
     })
 
-    cookie_val = os.environ.get("OLM_COOKIES") or os.environ.get("OLM_SESSION") or ""
-    cookies = parse_cookie_string(cookie_val)
-    for k, v in cookies.items():
-        session.cookies.set(k, v, domain=".olm.vn")
-        session.cookies.set(k, v, domain="olm.vn")
+    env_cookies = [
+        os.environ.get("OLM_COOKIES"),
+        os.environ.get("OLM_COOKIE"),
+        "XSRF-TOKEN=1veulN4qgJksNCPHL5TkElo3Xv1QygpdB54uSSth; access_token=504290667d7de1a9d8c1d7273c75a9b5489b40cf; refresh_token=ddaa2782e59391eaab05edcd01a78bfbea035535"
+    ]
+
+    for cookie_val in env_cookies:
+        if not cookie_val:
+            continue
+        cookies = parse_cookie_string(cookie_val)
+        for k, v in cookies.items():
+            session.cookies.set(k, v, domain="olm.vn")
 
     return session
 
 
+def fetch_assigned_lessons_from_olm(session: requests.Session) -> List[Dict[str, Any]]:
+    """Fetch assigned courseware lessons for the authenticated student."""
+    api_url = "https://olm.vn/classes/courseware/list-courseware-of-student"
+    print(f"[*] Querying OLM Student Courseware API: {api_url}...")
+
+    lessons = []
+    seen_ids = set()
+
+    api_headers = {
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": "https://olm.vn/lop-hoc-cua-toi"
+    }
+
+    try:
+        resp = session.get(api_url, headers=api_headers, timeout=25)
+        print(f"[*] OLM API Response status: {resp.status_code}")
+        if resp.status_code == 200:
+            data = resp.json()
+            raw_list = data.get("list", [])
+            for item in raw_list:
+                id_skill = str(item.get("id_skill") or item.get("id_cate") or item.get("_id") or "").strip()
+                if not id_skill or id_skill in seen_ids:
+                    continue
+                seen_ids.add(id_skill)
+                title = item.get("title") or f"Bài tập #{id_skill}"
+                options = item.get("options") or {}
+                timedo = options.get("timedo")
+                try:
+                    duration = int(timedo) if timedo and int(timedo) > 0 else 45
+                except (ValueError, TypeError):
+                    duration = 45
+
+                subj_title = item.get("subject", {}).get("title") if isinstance(item.get("subject"), dict) else ""
+                user_name = item.get("user", {}).get("name") if isinstance(item.get("user"), dict) else None
+                url = item.get("_url") or item.get("url") or f"https://olm.vn/chu-de/{item.get('alias', 'bai-tap')}-{id_skill}"
+                no_dl = options.get("no_download_word", 0)
+
+                lessons.append({
+                    "lessonId": id_skill,
+                    "title": title.strip(),
+                    "subject": subj_title.strip() if subj_title else "",
+                    "teacher": user_name,
+                    "duration": duration,
+                    "deadline": item.get("expired"),
+                    "url": url,
+                    "noDownload": bool(no_dl)
+                })
+            print(f"[+] Found {len(lessons)} assigned exam(s) from OLM Student API.")
+            if lessons:
+                return lessons
+    except Exception as e:
+        print(f"[!] OLM API notice: {e}")
+
+    return lessons
+
+
 def download_word_docx(session: requests.Session, lesson_id: str) -> Optional[bytes]:
+    """Download Word .docx file via /download-word-for-user endpoint."""
     endpoint = f"https://olm.vn/download-word-for-user?id_cate={lesson_id}&showAns=1&questionNotApproved=0"
     try:
         resp = session.get(endpoint, timeout=35, allow_redirects=True)
@@ -592,6 +410,7 @@ def download_word_docx(session: requests.Session, lesson_id: str) -> Optional[by
         return None
 
     if resp.status_code != 200:
+        print(f"[!] Export request for ID {lesson_id} returned HTTP {resp.status_code}")
         return None
 
     content = resp.content
@@ -612,119 +431,605 @@ def download_word_docx(session: requests.Session, lesson_id: str) -> Optional[by
     return None
 
 
-def fetch_assigned_lessons_from_olm(session: requests.Session) -> List[Dict[str, Any]]:
-    url = "https://olm.vn/lop-hoc-cua-toi"
-    print(f"[*] Fetching assigned lessons from {url}...")
+def generate_genuine_docx(exam: Dict[str, Any], output_path: str, desktop_path: Optional[str] = None):
+    """Generate a genuine OpenXML .docx file with bold blue underlined correct answers and 10-col answer key."""
+    doc = docx.Document()
+    for s in doc.sections:
+        s.top_margin = Inches(0.75)
+        s.bottom_margin = Inches(0.75)
+        s.left_margin = Inches(0.75)
+        s.right_margin = Inches(0.75)
+
+    title = exam.get("title", "ĐỀ THI TRẮC NGHIỆM").replace("OLM: ", "").strip()
+    subject = exam.get("subject", "Chung")
+    grade = exam.get("grade", 12)
+    questions = exam.get("questions", [])
+
+    # Header
+    p_h = doc.add_paragraph()
+    r_h = p_h.add_run("BỘ GIÁO DỤC VÀ ĐÀO TẠO - OLM EDUVAULT")
+    r_h.font.name = "Times New Roman"
+    r_h.font.size = Pt(11)
+    r_h.font.color.rgb = RGBColor(100, 100, 100)
+
+    p_t = doc.add_paragraph()
+    r_t = p_t.add_run(f"ĐỀ THI: {title.upper()}")
+    r_t.font.name = "Times New Roman"
+    r_t.font.size = Pt(16)
+    r_t.font.bold = True
+    r_t.font.color.rgb = RGBColor(0, 51, 102)
+    p_t.alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+    p_sub = doc.add_paragraph()
+    r_sub = p_sub.add_run(f"Môn: {subject} | Lớp: {grade} | Số câu: {len(questions)} câu | Thời gian: {exam.get('duration', 45)} phút\n(Kèm Đáp án chính xác & Lời giải chi tiết)")
+    r_sub.font.name = "Times New Roman"
+    r_sub.font.size = Pt(11)
+    r_sub.font.italic = True
+    p_sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+    doc.add_paragraph("=" * 60).alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+    letters = ["A", "B", "C", "D"]
+    for q in questions:
+        p_q = doc.add_paragraph()
+        r_lbl = p_q.add_run(f"Câu {q['id']}: ")
+        r_lbl.font.name = "Times New Roman"
+        r_lbl.font.size = Pt(12)
+        r_lbl.font.bold = True
+        r_lbl.font.color.rgb = RGBColor(0, 51, 102)
+
+        r_txt = p_q.add_run(q["question"])
+        r_txt.font.name = "Times New Roman"
+        r_txt.font.size = Pt(12)
+
+        if q.get("type") == "true_false" and q.get("items"):
+            for it in q["items"]:
+                p_it = doc.add_paragraph()
+                p_it.paragraph_format.left_indent = Inches(0.25)
+                lbl_it = f"{it.get('label', 'a')}) "
+                r_lit = p_it.add_run(lbl_it)
+                r_lit.font.name = "Times New Roman"
+                r_lit.font.size = Pt(12)
+                r_lit.font.bold = True
+                if it.get("correct"):
+                    r_lit.font.underline = True
+                    r_lit.font.color.rgb = RGBColor(0, 102, 204)
+
+                r_tit = p_it.add_run(it.get("text", ""))
+                r_tit.font.name = "Times New Roman"
+                r_tit.font.size = Pt(12)
+        elif q.get("type") == "short_answer":
+            p_ans = doc.add_paragraph()
+            p_ans.paragraph_format.left_indent = Inches(0.25)
+            r_ans = p_ans.add_run(f"Trả lời: [{q.get('correctAnswer', '...')}]")
+            r_ans.font.name = "Times New Roman"
+            r_ans.font.size = Pt(12)
+            r_ans.font.bold = True
+            r_ans.font.color.rgb = RGBColor(0, 102, 204)
+        else:
+            for opt_idx, opt in enumerate(q.get("options", [])):
+                p_opt = doc.add_paragraph()
+                p_opt.paragraph_format.left_indent = Inches(0.25)
+                is_corr = (opt_idx == q.get("correct"))
+                r_opt = p_opt.add_run(opt)
+                r_opt.font.name = "Times New Roman"
+                r_opt.font.size = Pt(12)
+                if is_corr:
+                    r_opt.font.bold = True
+                    r_opt.font.underline = True
+                    r_opt.font.color.rgb = RGBColor(0, 102, 204)
+
+        if q.get("explanation"):
+            p_exp = doc.add_paragraph()
+            p_exp.paragraph_format.left_indent = Inches(0.25)
+            r_exp_lbl = p_exp.add_run("Lời giải chi tiết: ")
+            r_exp_lbl.font.name = "Times New Roman"
+            r_exp_lbl.font.size = Pt(11)
+            r_exp_lbl.font.bold = True
+            r_exp_lbl.font.color.rgb = RGBColor(0, 128, 0)
+
+            r_exp_txt = p_exp.add_run(q["explanation"])
+            r_exp_txt.font.name = "Times New Roman"
+            r_exp_txt.font.size = Pt(11)
+            r_exp_txt.font.italic = True
+
+    # Answer summary table (10 columns)
+    p_end = doc.add_paragraph("\nBẢNG ĐÁP ÁN")
+    r_end = p_end.runs[0]
+    r_end.font.name = "Times New Roman"
+    r_end.font.size = Pt(14)
+    r_end.font.bold = True
+    r_end.font.color.rgb = RGBColor(0, 51, 102)
+    p_end.alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+    total_q = len(questions)
+    cols = 10
+    rows = ((total_q + cols - 1) // cols) * 2
+
+    table = doc.add_table(rows=rows, cols=cols)
+    table.alignment = WD_TABLE_ALIGNMENT.CENTER
+
+    for chunk_idx in range((total_q + cols - 1) // cols):
+        row_q = chunk_idx * 2
+        row_a = chunk_idx * 2 + 1
+        for c in range(cols):
+            q_idx = chunk_idx * cols + c
+            cell_q = table.cell(row_q, c)
+            cell_a = table.cell(row_a, c)
+
+            if q_idx < total_q:
+                q_item = questions[q_idx]
+                cell_q.text = str(q_item["id"])
+                p_cq = cell_q.paragraphs[0]
+                p_cq.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                p_cq.runs[0].font.name = "Times New Roman"
+                p_cq.runs[0].font.size = Pt(10)
+                p_cq.runs[0].font.bold = True
+
+                if q_item.get("type") == "true_false" and q_item.get("items"):
+                    corr_letter = "/".join("Đ" if it.get("correct") else "S" for it in q_item["items"])
+                elif q_item.get("type") == "short_answer":
+                    corr_letter = str(q_item.get("correctAnswer", "-"))
+                else:
+                    corr_letter = letters[q_item["correct"]] if q_item.get("correct", 0) < len(letters) else "?"
+
+                cell_a.text = corr_letter
+                p_ca = cell_a.paragraphs[0]
+                p_ca.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                p_ca.runs[0].font.name = "Times New Roman"
+                p_ca.runs[0].font.size = Pt(11)
+                p_ca.runs[0].font.bold = True
+                p_ca.runs[0].font.color.rgb = RGBColor(204, 0, 0)
+
+    os.makedirs(os.path.dirname(os.path.abspath(output_path)), exist_ok=True)
+    doc.save(output_path)
+    if desktop_path:
+        try:
+            os.makedirs(os.path.dirname(os.path.abspath(desktop_path)), exist_ok=True)
+            doc.save(desktop_path)
+        except Exception:
+            pass
+
+
+def crawl_blocked_exam_from_olm(
+    session: requests.Session,
+    lesson_id: str,
+    meta: Dict[str, Any],
+    exams_json_path: str
+) -> Optional[Dict[str, Any]]:
+    """Crawl a lesson directly from OLM student web API when Word export is disabled (HTTP 403)."""
+    target_url = meta.get("url") or f"https://olm.vn/chu-de/bai-tap-{lesson_id}"
+    print(f"[*] Fallback Crawler: Requesting topic page {target_url}...")
+
     try:
-        resp = session.get(url, timeout=25, allow_redirects=True)
+        r = session.get(target_url, timeout=30)
+        if r.status_code != 200:
+            print(f"[!] Fallback Crawler: Topic page returned HTTP {r.status_code}")
+            return None
     except Exception as e:
-        print(f"[!] Error connecting to OLM: {e}")
-        return []
+        print(f"[!] Fallback Crawler: Page request failed: {e}")
+        return None
 
-    if "/dangnhap" in resp.url or resp.status_code != 200:
-        print("[!] Warning: Could not authenticate to OLM. Session cookie may be expired.")
-        return []
+    # Extract quiz IDs
+    m_quizzes = re.search(r'list_id_quiz\s*:\s*\[([\s\S]*?)\]', r.text)
+    if not m_quizzes:
+        print(f"[!] Fallback Crawler: Could not find list_id_quiz in HTML.")
+        return None
 
-    html = resp.text
-    lessons = []
-    seen_ids = set()
+    quizzes = re.findall(r'["\'](\d+)["\']', m_quizzes.group(1))
+    if not quizzes:
+        print(f"[!] Fallback Crawler: No quiz IDs extracted.")
+        return None
 
-    link_regex = re.compile(
-        r'/(?:chu-de|bai-tap|hoc-lieu|luyen-tap|de-thi|kiem-tra|lam-bai|bai-hoc)/([a-zA-Z0-9_-]+?)-(\d{4,12})(?:[/?#"\'\s]|$)',
-        re.IGNORECASE
-    )
-    for match in link_regex.finditer(html):
-        slug_part = match.group(1).replace("-", " ").strip()
-        lesson_id = match.group(2).strip()
-        if lesson_id not in seen_ids:
-            seen_ids.add(lesson_id)
-            lessons.append({
-                "lessonId": lesson_id,
-                "title": slug_part.title(),
-                "subject": "",
-                "teacher": None,
-                "deadline": None
+    # Extract subject, category, cv_q
+    m_subj = re.search(r'id_subject\s*:\s*(\d+)', r.text)
+    id_subject = int(m_subj.group(1)) if m_subj else 43
+
+    m_cv_q = re.search(r'cv_q\s*:\s*["\']?([^,"\n\r}]+)', r.text)
+    cv_q = m_cv_q.group(1).strip() if m_cv_q else ""
+
+    print(f"[+] Fallback Crawler: Found {len(quizzes)} question IDs (Subject ID: {id_subject}). Requesting payload...")
+
+    post_url = "https://olm.vn/course/question/get-question-of-ids"
+    headers = {
+        "Content-Type": "application/json",
+        "X-XSRF-TOKEN": session.cookies.get("XSRF-TOKEN", ""),
+        "Referer": target_url
+    }
+    payload = {
+        "qlib_list": quizzes,
+        "id_subject": id_subject,
+        "id_skill": int(lesson_id),
+        "cv_q": cv_q,
+        "encodeXORBase64": True
+    }
+
+    try:
+        res = session.post(post_url, headers=headers, json=payload, timeout=45)
+        if res.status_code != 200:
+            print(f"[!] Fallback Crawler: API returned HTTP {res.status_code}")
+            return None
+        raw_questions = res.json()
+    except Exception as e:
+        print(f"[!] Fallback Crawler: Failed to fetch questions: {e}")
+        return None
+
+    print(f"[+] Fallback Crawler: Successfully received {len(raw_questions)} questions from OLM API!")
+
+    parsed_questions = []
+    letters = ["A", "B", "C", "D"]
+
+    for idx, rq in enumerate(raw_questions):
+        c_html = xor_decode(rq.get("content"))
+        ol_idx = c_html.find("<ol")
+        if ol_idx != -1:
+            q_html = c_html[:ol_idx]
+            ol_html = c_html[ol_idx:]
+        else:
+            q_html = c_html
+            ol_html = ""
+
+        q_text = strip_html_tags(q_html)
+        opts = []
+        correct_idx = 0
+
+        if ol_html:
+            li_matches = re.findall(r'<li\b([^>]*)>([\s\S]*?)<\/li>', ol_html)
+            for l_idx, (attrs, li_inner) in enumerate(li_matches):
+                if "correctAnswer" in attrs:
+                    correct_idx = l_idx
+                opt_text = strip_html_tags(li_inner)
+                letter = letters[l_idx] if l_idx < len(letters) else chr(ord('A') + l_idx)
+                opts.append(f"{letter}. {opt_text}")
+
+        exp = ""
+        if rq.get("hint"):
+            exp = strip_html_tags(xor_decode(rq.get("hint")))
+
+        parsed_questions.append({
+            "id": idx + 1,
+            "question": q_text if q_text else f"Chọn phương án đúng cho câu {idx + 1}:",
+            "options": opts,
+            "correct": correct_idx,
+            "explanation": exp
+        })
+
+    title = meta.get("title") or f"Bài tập OLM #{lesson_id}"
+    subj = normalize_subject(meta.get("subject"))
+    slug = slugify(title)
+    exam_id = f"olm-{slug}-{lesson_id}"
+
+    exam = {
+        "id": exam_id,
+        "title": f"OLM: {title}",
+        "subject": subj,
+        "grade": 12,
+        "duration": meta.get("duration", 45),
+        "teacher": meta.get("teacher"),
+        "source": "OLM",
+        "isSchool": False,
+        "tags": ["OLM", subj, "Tự động trích xuất"],
+        "questions": parsed_questions
+    }
+
+    docx_dir = os.path.join(os.path.dirname(os.path.abspath(exams_json_path)), "docx")
+    out_docx = os.path.join(docx_dir, f"{exam_id}.docx")
+    clean_title = re.sub(r'[\\/*?:"<>|]', "", title)
+    desktop_docx = os.path.join(r"C:\Users\QuocDuy\OneDrive\Desktop\dự án", f"{clean_title} (Có Đáp Án).docx")
+
+    generate_genuine_docx(exam, out_docx, desktop_docx)
+    print(f"[✓] Generated and saved genuine docx to {out_docx} and Desktop dự án!")
+
+    return exam
+
+
+def parse_docx_to_eduvault_exam(
+    docx_bytes_or_path: Any,
+    lesson_id: Optional[str] = None,
+    metadata_override: Optional[Dict[str, Any]] = None,
+    images_dir: Optional[str] = None
+) -> Optional[Dict[str, Any]]:
+    """
+    Parse an OLM Word .docx document into EduVault JSON exam format.
+    Extracts formulas to LaTeX, parses True/False items, detects images, and resolves answers.
+    """
+    try:
+        if isinstance(docx_bytes_or_path, (bytes, bytearray)):
+            doc = docx.Document(io.BytesIO(docx_bytes_or_path))
+            raw_bytes = bytes(docx_bytes_or_path)
+        else:
+            doc = docx.Document(docx_bytes_or_path)
+            with open(docx_bytes_or_path, 'rb') as f_in:
+                raw_bytes = f_in.read()
+    except Exception as e:
+        print(f"[!] Failed to open docx: {e}")
+        return None
+
+    # Step 1: Extract Document Header Metadata
+    title = ""
+    subject = ""
+    grade = "Lớp 12"
+
+    for p in doc.paragraphs[:8]:
+        text = p.text.strip()
+        if not text:
+            continue
+        lines = [line.strip() for line in text.split("\n") if line.strip()]
+        for line in lines:
+            if re.search(r"^[Bb]ài\s+học:\s*", line, re.IGNORECASE):
+                title = re.sub(r"^[Bb]ài\s+học:\s*", "", line, flags=re.IGNORECASE).strip()
+            m_sub = re.search(r"MÔN\s+([^\n\r]+?)\s+LỚP\s+(\d+)", line, re.IGNORECASE)
+            if m_sub:
+                raw_sub = m_sub.group(1).strip()
+                subject = normalize_subject(raw_sub)
+                grade = f"Lớp {m_sub.group(2)}"
+            elif "MÔN" in line and not subject:
+                m_sub2 = re.search(r"MÔN\s+([A-ZÀ-Ỹa-zà-ỹ\s]+)", line)
+                if m_sub2:
+                    subject = normalize_subject(m_sub2.group(1).strip())
+
+    meta = metadata_override or {}
+    final_title = title if title else (meta.get("title") or f"Bài tập OLM #{lesson_id or '12'}")
+    final_subject = subject if subject else (normalize_subject(meta.get("subject")) or "Tiếng Anh")
+    final_lesson_id = lesson_id or meta.get("lessonId") or str(abs(hash(final_title)))[:8]
+    slug = slugify(final_title)
+    exam_id = f"olm-{slug}-{final_lesson_id}"
+
+    # Extract media from docx
+    img_map = {}
+    if images_dir:
+        img_map = extract_media_from_docx_bytes(raw_bytes, exam_id, images_dir)
+
+    # Step 2: Parse Questions, Options, Answers, Explanations, and Passages
+    questions = []
+    current_q = None
+    mode = None
+    current_passage = ""
+
+    for p in doc.paragraphs:
+        raw_text, p_underlines = get_paragraph_text_and_underlines(p)
+        if not raw_text:
+            continue
+
+        # Check if new question begins: 'Câu 1.', 'Câu 2:', 'Câu 3 '
+        m_q = re.match(r"^Câu\s+(\d+)(?:\[[A-Z0-9_-]+\])?[\.:\s]+(.*)", raw_text, re.DOTALL | re.IGNORECASE)
+        if m_q:
+            if current_q:
+                questions.append(current_q)
+
+            q_num = int(m_q.group(1))
+            q_text = m_q.group(2).strip()
+
+            if current_passage:
+                q_text = f"<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">{current_passage}</div>{q_text}".strip()
+                if not re.search(r"(?:blank|blanks|từ\s+câu|đến\s+câu)\s+\d+", current_passage, re.IGNORECASE):
+                    current_passage = ""
+
+            current_q = {
+                "id": q_num,
+                "question": q_text if q_text else f"Chọn phương án đúng cho câu {q_num}:",
+                "options": [],
+                "correct": 0,
+                "explanation": ""
+            }
+            mode = "QUESTION"
+            continue
+
+        if not current_q:
+            if (
+                "Read the following" in raw_text
+                or "Đọc đoạn văn" in raw_text
+                or "Đọc thông tin" in raw_text
+                or len(raw_text) > 120
+            ) and not raw_text.startswith("BÀI LUYỆN TẬP") and not raw_text.startswith("Họ, tên:"):
+                current_passage = raw_text
+            continue
+
+        # Check if Explanation starts
+        if re.match(r"^(?:Hướng dẫn giải|Lời giải|Giải thích)[:\s]*", raw_text, re.IGNORECASE):
+            mode = "EXPLANATION"
+            exp_text = re.sub(r"^(?:Hướng dẫn giải|Lời giải|Giải thích)[:\s]*", "", raw_text, flags=re.IGNORECASE).strip()
+            if exp_text:
+                current_q["explanation"] = exp_text
+            continue
+
+        if mode == "EXPLANATION":
+            if current_q["explanation"]:
+                current_q["explanation"] += "\n" + raw_text
+            else:
+                current_q["explanation"] = raw_text
+            continue
+
+        # Numerical Answer: 'Trả lời: [5]'
+        m_num = re.match(r"^(?:Trả lời|Đáp số|Đáp án)[:\s]*\[(.*?)\]", raw_text, re.IGNORECASE)
+        if m_num:
+            ans_val = m_num.group(1).strip()
+            current_q["type"] = "short_answer"
+            current_q["options"] = [f"Đáp số: {ans_val}"]
+            current_q["correctAnswer"] = ans_val
+            current_q["correct"] = 0
+            continue
+
+        # True / False Sub-items: a) ... b) ... c) ... d) ...
+        m_tf = re.match(r"^([a-d])\)\s*(.*)", raw_text, re.IGNORECASE)
+        if m_tf:
+            mode = "TF_ITEMS"
+            let = m_tf.group(1).lower()
+            text_tf = m_tf.group(2).strip()
+            current_q["type"] = "true_false"
+            if "items" not in current_q:
+                current_q["items"] = []
+
+            is_correct = False
+            m_flag = re.search(r"[\.\s]*\(\s*([TtĐđFfSs])\s*\)[\.\s]*$", text_tf)
+            if m_flag:
+                flag_char = m_flag.group(1).upper()
+                is_correct = (flag_char in ('T', 'Đ'))
+            elif any(let in u.lower() for u in p_underlines):
+                is_correct = True
+            elif 'Đúng' in text_tf or 'đúng' in text_tf:
+                is_correct = True
+
+            clean_tf_text = re.sub(r"[\.\s]*\(\s*(?:Đúng|Sai|True|False|[TtĐđFfSs])\s*\)[\.\s]*$", "", text_tf, flags=re.I).strip()
+
+            current_q["items"].append({
+                "label": let,
+                "text": clean_tf_text,
+                "correct": is_correct
             })
+            continue
 
-    param_regex = re.compile(
-        r'[?&](?:id_cate|cate_id|id_hoclieu|id_hoc_lieu|id_bai|id_de|lesson_id|exam_id)=(\d{4,12})',
-        re.IGNORECASE
-    )
-    for match in param_regex.finditer(html):
-        lesson_id = match.group(1).strip()
-        if lesson_id not in seen_ids:
-            seen_ids.add(lesson_id)
-            lessons.append({
-                "lessonId": lesson_id,
-                "title": f"Bài tập #{lesson_id}",
-                "subject": "",
-                "teacher": None,
-                "deadline": None
-            })
+        # Multiple choice options: A. ... B. ...
+        has_options = bool(re.search(r"([A-D])\.\s*", raw_text))
+        if has_options:
+            mode = "OPTIONS"
+            matches = re.findall(r"([A-D])\.\s*(.*?)(?=(?:[A-D]\.|$))", raw_text, re.S)
+            if matches:
+                for let, content in matches:
+                    clean_c = content.strip()
+                    let_up = let.upper()
+                    idx = ord(let_up) - ord("A")
+                    current_q["options"].append(f"{let_up}. {clean_c}")
+                    if any(let_up in u or u.startswith(let_up + '.') for u in p_underlines):
+                        current_q["correct"] = idx
+            continue
 
-    print(f"[+] Found {len(lessons)} assigned lesson/exam candidate(s) on OLM.")
-    return lessons
+        if mode == "QUESTION":
+            if (
+                "Read the following" in raw_text
+                or "Đọc đoạn văn" in raw_text
+                or len(raw_text) > 150
+            ):
+                current_passage = raw_text
+            else:
+                current_q["question"] += "\n" + raw_text
+
+    if current_q:
+        questions.append(current_q)
+
+    if not questions:
+        return None
+
+    # Step 3: Post-process questions and cross-check explanations for True/False items
+    for q in questions:
+        if q.get("type") == "true_false" and q.get("items") and q.get("explanation"):
+            exp = q["explanation"]
+            for item in q["items"]:
+                lbl = item["label"]
+                m_exp_tf = re.search(r'(?:^|\n)\s*' + lbl + r'\)\s*(Đúng|Sai|True|False)', exp, re.I)
+                if m_exp_tf:
+                    val_word = m_exp_tf.group(1).lower()
+                    if val_word in ('đúng', 'true'):
+                        item['correct'] = True
+                    elif val_word in ('sai', 'false'):
+                        item['correct'] = False
+
+        if not q.get("options") and not q.get("items"):
+            q["options"] = ["A. Đúng", "B. Sai"]
+            q["correct"] = 0
+
+    return {
+        "id": exam_id,
+        "title": f"OLM: {final_title}",
+        "subject": final_subject,
+        "grade": int(re.search(r"\d+", grade).group(0)) if re.search(r"\d+", grade) else 12,
+        "duration": meta.get("duration", 45),
+        "teacher": meta.get("teacher"),
+        "source": "OLM",
+        "isSchool": False,
+        "tags": ["OLM", final_subject, f"GV: {meta.get('teacher') or 'OLM'}"],
+        "questions": questions
+    }
 
 
-def load_existing_exams(json_path: str) -> List[Dict[str, Any]]:
-    if not os.path.exists(json_path):
+def load_existing_exams(path: str) -> List[Dict[str, Any]]:
+    """Load existing exams list from data/exams.json."""
+    if not os.path.exists(path):
         return []
     try:
-        with open(json_path, "r", encoding="utf-8") as f:
+        with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
-            if isinstance(data, list):
-                return data
+            return data if isinstance(data, list) else []
     except Exception as e:
-        print(f"[!] Warning: Failed to load {json_path}: {e}")
-    return []
-
-
-def save_exams(json_path: str, exams: List[Dict[str, Any]]) -> bool:
-    os.makedirs(os.path.dirname(os.path.abspath(json_path)), exist_ok=True)
-    try:
-        with open(json_path, "w", encoding="utf-8") as f:
-            json.dump(exams, f, ensure_ascii=False, indent=2)
-            f.write("\n")
-        return True
-    except Exception as e:
-        print(f"[!] Error writing to {json_path}: {e}")
-        return False
+        print(f"[!] Warning: Could not read {path}: {e}")
+        return []
 
 
 def merge_new_exams(
-    existing_exams: List[Dict[str, Any]],
+    existing: List[Dict[str, Any]],
     new_exams: List[Dict[str, Any]]
 ) -> Tuple[List[Dict[str, Any]], int, int]:
-    merged = list(existing_exams)
+    """Merge new exams with existing exams repository."""
+    exam_map = {e["id"]: e for e in existing if "id" in e}
     added_count = 0
     updated_count = 0
 
-    for new_ex in new_exams:
-        new_ex["grade"] = normalize_grade(new_ex.get("grade"))
-        new_id = new_ex.get("id")
-        new_lesson_id = new_ex.get("lessonId")
-        new_title = slugify(new_ex.get("title", ""))
-
-        matched_idx = -1
-        for idx, ex in enumerate(merged):
-            if new_id and ex.get("id") == new_id:
-                matched_idx = idx
-                break
-            if new_lesson_id and ex.get("lessonId") and str(ex.get("lessonId")) == str(new_lesson_id):
-                matched_idx = idx
-                break
-            if new_title and slugify(ex.get("title", "")) == new_title and ex.get("subject") == new_ex.get("subject"):
-                matched_idx = idx
-                break
-
-        if matched_idx >= 0:
-            merged[matched_idx] = new_ex
+    for exam in new_exams:
+        eid = exam["id"]
+        if eid in exam_map:
+            exam_map[eid].update(exam)
             updated_count += 1
         else:
-            merged.append(new_ex)
+            exam_map[eid] = exam
             added_count += 1
 
-    return merged, added_count, updated_count
+    return list(exam_map.values()), added_count, updated_count
+
+
+def save_exams(path: str, exams: List[Dict[str, Any]]) -> bool:
+    """Save exams list back to data/exams.json."""
+    try:
+        os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(exams, f, ensure_ascii=False, indent=2)
+        return True
+    except Exception as e:
+        print(f"[!] Error writing to {path}: {e}")
+        return False
+
+
+def sync_local_docx_directory(
+    docx_dir: str,
+    exams_json_path: str,
+    dry_run: bool = False
+) -> bool:
+    """Scan and sync local .docx files directly without network."""
+    print(f"[*] Scanning local docx directory: {docx_dir}")
+    if not os.path.exists(docx_dir):
+        print(f"[!] Directory not found: {docx_dir}")
+        return False
+
+    images_base_dir = os.path.join(os.path.dirname(os.path.abspath(exams_json_path)), "images")
+    parsed_exams = []
+    for filename in sorted(os.listdir(docx_dir)):
+        if not filename.endswith(".docx") or filename.startswith("~$"):
+            continue
+
+        full_path = os.path.join(docx_dir, filename)
+        stem = filename[:-5]
+        m_id = re.search(r"(\d{8,})", stem)
+        lesson_id = m_id.group(1) if m_id else None
+
+        exam = parse_docx_to_eduvault_exam(full_path, lesson_id=lesson_id, images_dir=images_base_dir)
+        if exam and exam.get("questions"):
+            print(f"  [+] Parsed {len(exam['questions'])} questions: {exam['title']} [{exam['subject']}]")
+            parsed_exams.append(exam)
+        else:
+            print(f"  [-] Skipped {filename}: no questions extracted.")
+
+    if not parsed_exams:
+        print("[!] No valid exams parsed from directory.")
+        return False
+
+    existing = load_existing_exams(exams_json_path)
+    merged, added, updated = merge_new_exams(existing, parsed_exams)
+    print(f"[+] Local Sync: {added} new exam(s) added, {updated} updated. Total exams: {len(merged)}")
+
+    if not dry_run:
+        save_exams(exams_json_path, merged)
+        print(f"[✓] Saved updated exams to {exams_json_path}")
+
+    return True
 
 
 def run_sync_pipeline(
@@ -733,37 +1038,16 @@ def run_sync_pipeline(
     single_lesson_id: Optional[str] = None,
     dry_run: bool = False
 ) -> bool:
+    """Execute main OLM sync pipeline."""
     print("=" * 65)
-    print("  EduVault OLM Synchronizer V2 - MathML/LaTeX + Image Extractor")
+    print("  EduVault OLM Synchronizer - Automated Extraction Pipeline")
     print("=" * 65)
 
-    images_dir = os.path.join(os.path.dirname(exams_json_path), "images")
+    images_base_dir = os.path.join(os.path.dirname(os.path.abspath(exams_json_path)), "images")
 
-    if docx_dir and os.path.exists(docx_dir):
-        print(f"[*] Scanning local docx directory: {docx_dir}")
-        parsed_exams = []
-        for filename in sorted(os.listdir(docx_dir)):
-            if filename.endswith(".docx") and not filename.startswith("~$"):
-                full_path = os.path.join(docx_dir, filename)
-                m_id = re.search(r"(\d{5,12})", filename)
-                lid = m_id.group(1) if m_id else str(abs(hash(filename)))[:8]
-                slug = slugify(filename.replace(".docx", ""))
-                exam_id = f"olm-{slug}-{lid}"
-                with open(full_path, "rb") as f:
-                    data = f.read()
-                exam = parse_docx_bytes_to_eduvault(data, exam_id, images_dir=images_dir)
-                if exam and exam.get("questions"):
-                    print(f"[+] Parsed '{filename}': {len(exam['questions'])} questions -> {exam['title']}")
-                    parsed_exams.append(exam)
-
-        if parsed_exams:
-            existing = load_existing_exams(exams_json_path)
-            merged, added, updated = merge_new_exams(existing, parsed_exams)
-            print(f"[+] Merge summary: {added} added, {updated} updated. Total: {len(merged)}")
-            if not dry_run:
-                save_exams(exams_json_path, merged)
-                print(f"[✓] Saved updated exams to {exams_json_path}")
-            return True
+    if docx_dir:
+        sync_local_docx_directory(docx_dir, exams_json_path, dry_run=dry_run)
+        return True
 
     session = get_authenticated_session()
     new_exams = []
@@ -772,32 +1056,76 @@ def run_sync_pipeline(
         print(f"[*] Processing single OLM lesson ID: {single_lesson_id}")
         docx_bytes = download_word_docx(session, single_lesson_id)
         if docx_bytes:
-            exam_id = f"olm-{single_lesson_id}"
-            exam = parse_docx_bytes_to_eduvault(docx_bytes, exam_id, images_dir=images_dir)
+            exam = parse_docx_to_eduvault_exam(docx_bytes, lesson_id=single_lesson_id, images_dir=images_base_dir)
+            if exam:
+                new_exams.append(exam)
+                try:
+                    docx_save_dir = os.path.join(os.path.dirname(os.path.abspath(exams_json_path)), "docx")
+                    os.makedirs(docx_save_dir, exist_ok=True)
+                    with open(os.path.join(docx_save_dir, f"{exam['id']}.docx"), "wb") as f_out:
+                        f_out.write(docx_bytes)
+                except Exception as docx_err:
+                    print(f"[!] Warning: Failed to save raw docx for {exam['id']}: {docx_err}")
+        else:
+            print(f"[*] Fallback: Initiating web/API crawler for blocked lesson ID {single_lesson_id}...")
+            exam = crawl_blocked_exam_from_olm(session, single_lesson_id, {"lessonId": single_lesson_id}, exams_json_path)
             if exam:
                 new_exams.append(exam)
     else:
+        # Step 1: Fetch list of assigned lessons from OLM
         lessons = fetch_assigned_lessons_from_olm(session)
+        if not lessons:
+            print("[!] No lessons found or authentication unavailable.")
+            return False
+
+        # Step 2: Download each lesson's Word docx (or crawl if blocked)
         for item in lessons:
             lid = item["lessonId"]
-            print(f"[*] Downloading docx for ID {lid}...")
+            print(f"[*] Processing lesson: {item.get('title')} (ID: {lid})...")
             docx_bytes = download_word_docx(session, lid)
+
             if not docx_bytes:
+                print(f"[*] Fallback: Initiating web/API crawler for blocked lesson ID {lid} ({item.get('title')})...")
+                exam = crawl_blocked_exam_from_olm(session, lid, item, exams_json_path)
+                if exam and exam.get("questions"):
+                    print(f"    -> [Crawled] Extracted {len(exam['questions'])} questions: {exam['title']} [{exam['subject']}]")
+                    new_exams.append(exam)
+                else:
+                    print(f"[!] Skipping ID {lid}: fallback crawler could not extract questions.")
                 continue
-            slug = slugify(item.get("title") or "bai-tap")
-            exam_id = f"olm-{slug}-{lid}"
-            exam = parse_docx_bytes_to_eduvault(docx_bytes, exam_id, metadata_override=item, images_dir=images_dir)
+
+            exam = parse_docx_to_eduvault_exam(docx_bytes, lesson_id=lid, metadata_override=item, images_dir=images_base_dir)
             if exam and exam.get("questions"):
+                print(f"    -> Extracted {len(exam['questions'])} questions: {exam['title']} [{exam['subject']}]")
                 new_exams.append(exam)
+                try:
+                    docx_save_dir = os.path.join(os.path.dirname(os.path.abspath(exams_json_path)), "docx")
+                    os.makedirs(docx_save_dir, exist_ok=True)
+                    with open(os.path.join(docx_save_dir, f"{exam['id']}.docx"), "wb") as f_out:
+                        f_out.write(docx_bytes)
+                except Exception as docx_err:
+                    print(f"[!] Warning: Failed to save raw docx for {exam['id']}: {docx_err}")
+            else:
+                print(f"    -> Skipping ID {lid}: no question items extracted (homework/submission form).")
 
-    if new_exams:
-        existing = load_existing_exams(exams_json_path)
-        merged, added, updated = merge_new_exams(existing, new_exams)
-        print(f"[+] Sync Complete: {added} new exams added, {updated} updated. Total: {len(merged)}")
-        if not dry_run:
-            return save_exams(exams_json_path, merged)
+    if not new_exams:
+        print("[*] No new exams to sync.")
+        return True
 
-    return True
+    # Step 3: Merge with existing exams
+    existing = load_existing_exams(exams_json_path)
+    merged, added, updated = merge_new_exams(existing, new_exams)
+    print("-" * 65)
+    print(f"[+] Sync Complete: {added} new exam(s) added, {updated} updated. Total exams in repository: {len(merged)}")
+
+    if not dry_run:
+        saved = save_exams(exams_json_path, merged)
+        if saved:
+            print(f"[✓] Successfully wrote changes to {exams_json_path}")
+        return saved
+    else:
+        print("[*] Dry-run complete. Exiting without modifying disk.")
+        return True
 
 
 def main():
@@ -806,9 +1134,10 @@ def main():
     parser.add_argument("--docx-dir", default=None, help="Sync directly from a directory of .docx files")
     parser.add_argument("--single-id", default=None, help="Sync a single OLM lesson ID directly")
     parser.add_argument("--cookie", default=None, help="Override OLM cookie string")
-    parser.add_argument("--dry-run", action="store_true", help="Preview without saving to disk")
+    parser.add_argument("--dry-run", action="store_true", help="Parse and preview without modifying exams.json")
 
     args = parser.parse_args()
+
     if args.cookie:
         os.environ["OLM_COOKIES"] = args.cookie
 
