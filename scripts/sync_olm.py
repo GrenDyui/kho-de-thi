@@ -381,6 +381,11 @@ def fetch_assigned_lessons_from_olm(session: requests.Session) -> List[Dict[str,
                 url = item.get("_url") or item.get("url") or f"https://olm.vn/chu-de/{item.get('alias', 'bai-tap')}-{id_skill}"
                 no_dl = options.get("no_download_word", 0)
 
+                cate = item.get("cate") or {}
+                cate_type = cate.get("type")
+                prefix = cate.get("prefix") or ""
+                is_essay = (cate_type == 6 or "[Tự luận]" in prefix)
+
                 lessons.append({
                     "lessonId": id_skill,
                     "title": title.strip(),
@@ -389,7 +394,9 @@ def fetch_assigned_lessons_from_olm(session: requests.Session) -> List[Dict[str,
                     "duration": duration,
                     "deadline": item.get("expired"),
                     "url": url,
-                    "noDownload": bool(no_dl)
+                    "noDownload": bool(no_dl),
+                    "isEssay": is_essay,
+                    "typePrefix": prefix
                 })
             print(f"[+] Found {len(lessons)} assigned exam(s) from OLM Student API.")
             if lessons:
@@ -861,16 +868,17 @@ def parse_docx_to_eduvault_exam(
                 current_q["items"] = []
 
             is_correct = False
-            m_flag = re.search(r"[\.\s]*\(\s*([TtĐđFfSs])\s*\)[\.\s]*$", text_tf)
+            pattern_tf_flag = r"[\.\s,;]*[\(\[]\s*([TtĐđFfSs]|Đúng|Sai|True|False)\s*[\)\]][\.\s,;]*$"
+            m_flag = re.search(pattern_tf_flag, text_tf, re.I)
             if m_flag:
                 flag_char = m_flag.group(1).upper()
-                is_correct = (flag_char in ('T', 'Đ'))
+                is_correct = flag_char in ('T', 'Đ', 'ĐÚNG', 'TRUE')
             elif any(let in u.lower() for u in p_underlines):
                 is_correct = True
             elif 'Đúng' in text_tf or 'đúng' in text_tf:
                 is_correct = True
 
-            clean_tf_text = re.sub(r"[\.\s]*\(\s*(?:Đúng|Sai|True|False|[TtĐđFfSs])\s*\)[\.\s]*$", "", text_tf, flags=re.I).strip()
+            clean_tf_text = re.sub(pattern_tf_flag, "", text_tf, flags=re.I).strip()
 
             current_q["items"].append({
                 "label": let,
@@ -916,12 +924,12 @@ def parse_docx_to_eduvault_exam(
             exp = q["explanation"]
             for item in q["items"]:
                 lbl = item["label"]
-                m_exp_tf = re.search(r'(?:^|\n)\s*' + lbl + r'\)\s*(Đúng|Sai|True|False)', exp, re.I)
+                m_exp_tf = re.search(r'(?:^|[\n\.\;\s])' + lbl + r'[\)\.]\s*(Đúng|Sai|True|False|[ĐđSsTtFf])\b', exp, re.I)
                 if m_exp_tf:
                     val_word = m_exp_tf.group(1).lower()
-                    if val_word in ('đúng', 'true'):
+                    if val_word in ('đúng', 'true', 'đ', 't'):
                         item['correct'] = True
-                    elif val_word in ('sai', 'false'):
+                    elif val_word in ('sai', 'false', 's', 'f'):
                         item['correct'] = False
 
         if not q.get("options") and not q.get("items"):
@@ -966,14 +974,43 @@ def merge_new_exams(
 
     for exam in new_exams:
         eid = exam["id"]
+        # Match by exact id or by lesson id
+        m_id = re.search(r"(\d{8,})", eid)
+        lid = m_id.group(1) if m_id else None
+
+        target_id = None
         if eid in exam_map:
-            exam_map[eid].update(exam)
+            target_id = eid
+        elif lid:
+            for existing_id in exam_map.keys():
+                if existing_id.endswith(f"-{lid}") or existing_id == f"olm-{lid}":
+                    target_id = existing_id
+                    break
+
+        if target_id:
+            exam["id"] = target_id
+            exam_map[target_id].update(exam)
             updated_count += 1
         else:
             exam_map[eid] = exam
             added_count += 1
 
     return list(exam_map.values()), added_count, updated_count
+
+
+def find_existing_exam_for_lesson(item: Dict[str, Any], existing_exams: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    """Check if an assigned OLM lesson is already synchronized in the repository with valid questions."""
+    lid = str(item.get("lessonId", "")).strip()
+    title = str(item.get("title", "")).strip().lower()
+
+    for ex in existing_exams:
+        eid = str(ex.get("id", ""))
+        etitle = str(ex.get("title", "")).lower()
+        if lid and (eid.endswith(f"-{lid}") or eid == f"olm-{lid}" or f"-{lid}-" in eid or eid == lid or lid in eid):
+            return ex
+        if title and len(title) > 6 and (title in etitle or etitle in title):
+            return ex
+    return None
 
 
 def save_exams(path: str, exams: List[Dict[str, Any]]) -> bool:
@@ -1036,6 +1073,7 @@ def run_sync_pipeline(
     exams_json_path: str = "data/exams.json",
     docx_dir: Optional[str] = None,
     single_lesson_id: Optional[str] = None,
+    force: bool = False,
     dry_run: bool = False
 ) -> bool:
     """Execute main OLM sync pipeline."""
@@ -1049,6 +1087,7 @@ def run_sync_pipeline(
         sync_local_docx_directory(docx_dir, exams_json_path, dry_run=dry_run)
         return True
 
+    existing = load_existing_exams(exams_json_path)
     session = get_authenticated_session()
     new_exams = []
 
@@ -1081,11 +1120,25 @@ def run_sync_pipeline(
         # Step 2: Download each lesson's Word docx (or crawl if blocked)
         for item in lessons:
             lid = item["lessonId"]
-            print(f"[*] Processing lesson: {item.get('title')} (ID: {lid})...")
+            title = item.get("title", f"Bài tập {lid}")
+
+            # Check if this assignment is an essay/homework submission form
+            if item.get("isEssay") or item.get("typePrefix") == "[Tự luận]":
+                print(f"[-] Bỏ qua bài tự luận/nộp bài: {title} (ID: {lid})")
+                continue
+
+            # Check if already present and updated in repository
+            if not force:
+                matched = find_existing_exam_for_lesson(item, existing)
+                if matched and len(matched.get("questions", [])) > 0:
+                    print(f"[✓] Bỏ qua (Đã cập nhật): {title} (ID: {lid}) - Đã có {len(matched['questions'])} câu.")
+                    continue
+
+            print(f"[*] Processing lesson: {title} (ID: {lid})...")
             docx_bytes = download_word_docx(session, lid)
 
             if not docx_bytes:
-                print(f"[*] Fallback: Initiating web/API crawler for blocked lesson ID {lid} ({item.get('title')})...")
+                print(f"[*] Fallback: Initiating web/API crawler for blocked lesson ID {lid} ({title})...")
                 exam = crawl_blocked_exam_from_olm(session, lid, item, exams_json_path)
                 if exam and exam.get("questions"):
                     print(f"    -> [Crawled] Extracted {len(exam['questions'])} questions: {exam['title']} [{exam['subject']}]")
@@ -1109,11 +1162,10 @@ def run_sync_pipeline(
                 print(f"    -> Skipping ID {lid}: no question items extracted (homework/submission form).")
 
     if not new_exams:
-        print("[*] No new exams to sync.")
+        print("[*] No new exams to sync (tất cả các bài đều đã cập nhật).")
         return True
 
     # Step 3: Merge with existing exams
-    existing = load_existing_exams(exams_json_path)
     merged, added, updated = merge_new_exams(existing, new_exams)
     print("-" * 65)
     print(f"[+] Sync Complete: {added} new exam(s) added, {updated} updated. Total exams in repository: {len(merged)}")
@@ -1134,6 +1186,7 @@ def main():
     parser.add_argument("--docx-dir", default=None, help="Sync directly from a directory of .docx files")
     parser.add_argument("--single-id", default=None, help="Sync a single OLM lesson ID directly")
     parser.add_argument("--cookie", default=None, help="Override OLM cookie string")
+    parser.add_argument("--force", action="store_true", help="Bắt buộc quét và tải lại toàn bộ, không bỏ qua bài cũ")
     parser.add_argument("--dry-run", action="store_true", help="Parse and preview without modifying exams.json")
 
     args = parser.parse_args()
@@ -1145,6 +1198,7 @@ def main():
         exams_json_path=args.exams_json,
         docx_dir=args.docx_dir,
         single_lesson_id=args.single_id,
+        force=args.force,
         dry_run=args.dry_run
     )
     sys.exit(0 if success else 1)
