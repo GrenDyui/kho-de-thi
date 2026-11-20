@@ -7030,5 +7030,2062 @@
         "level": "Nhận biết"
       }
     ]
+  },
+  {
+    "id": "olm-9-tn-tlai2-25-26-5172524987",
+    "lessonId": "5172524987",
+    "title": "OLM: 9-TN-TLAI2-25-26",
+    "subject": "Tin Học",
+    "grade": "Lớp 12",
+    "durationMinutes": 45,
+    "difficulty": "Luyện tập OLM",
+    "source": "OLM",
+    "teacher": null,
+    "deadline": "0",
+    "tags": [
+      "OLM",
+      "Tin Học",
+      "Lớp 12",
+      "Trắc nghiệm OLM"
+    ],
+    "description": "Bài tập trực tuyến OLM: 9-TN-TLAI2-25-26. Môn Tin Học - Lớp 12. Tổng số 30 câu hỏi có đáp án và lời giải chi tiết.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Để tạo danh sách có thứ tự trong HTML, ta sử dụng thẻ nào?",
+        "options": [
+          "A. <table>",
+          "B. <ul>",
+          "C. <li>",
+          "D. <ol>"
+        ],
+        "correct": 3,
+        "explanation": "Sai – <ul> dùng cho danh sách không thứ tự.\nĐúng – <ol> tạo danh sách có thứ tự.\nSai – <li> chỉ định từng mục trong danh sách.\nSai – <table> dùng để tạo bảng, không phải danh sách."
+      },
+      {
+        "id": 2,
+        "question": "Trong HTML, thẻ nào dùng để xác định từng mục trong danh sách?",
+        "options": [
+          "A. <ul>",
+          "B. <li>",
+          "C. <ol>",
+          "D. <tr>"
+        ],
+        "correct": 1,
+        "explanation": "Đúng – <li> (list item) xác định từng mục trong danh sách.\nSai – <ol> tạo danh sách có thứ tự, không phải từng mục.\nSai – <ul> tạo danh sách không thứ tự.\nSai – <tr> dùng trong bảng để tạo hàng."
+      },
+      {
+        "id": 3,
+        "question": "Để tạo bảng trong HTML, thẻ nào được sử dụng?",
+        "options": [
+          "A. <tr>",
+          "B. <td>",
+          "C. <table>",
+          "D. <th>"
+        ],
+        "correct": 2,
+        "explanation": "Đúng – <table> là thẻ chính để tạo bảng.\nSai – <tr> tạo hàng trong bảng.\nSai – <td> tạo ô dữ liệu trong bảng.\nSai – <th> tạo ô tiêu đề trong bảng."
+      },
+      {
+        "id": 4,
+        "question": "Trong bảng HTML, thẻ nào dùng để tạo một hàng mới?",
+        "options": [
+          "A. <ul>",
+          "B. <td>",
+          "C. <tr>",
+          "D. <th>"
+        ],
+        "correct": 2,
+        "explanation": "Sai – <td> tạo ô dữ liệu, không phải hàng.\nĐúng – <tr> (table row) tạo hàng mới.\nSai – <th> tạo ô tiêu đề.\nSai – <ul> dùng cho danh sách không thứ tự."
+      },
+      {
+        "id": 5,
+        "question": "Để tạo ô dữ liệu trong bảng HTML, ta dùng thẻ nào?",
+        "options": [
+          "A. <ol>",
+          "B. <th>",
+          "C. <td>",
+          "D. <tr>"
+        ],
+        "correct": 2,
+        "explanation": "Sai – <tr> tạo hàng, không phải ô dữ liệu.\nĐúng – <td> (table data) tạo ô dữ liệu.\nSai – <th> tạo ô tiêu đề.\nSai – <ol> tạo danh sách có thứ tự."
+      },
+      {
+        "id": 6,
+        "question": "Nếu muốn tạo ô tiêu đề trong bảng HTML, ta dùng thẻ nào?",
+        "options": [
+          "A. <tr>",
+          "B. <li>",
+          "C. <th>",
+          "D. <td>"
+        ],
+        "correct": 2,
+        "explanation": "Sai – <td> tạo ô dữ liệu thường.\nSai – <tr> tạo hàng.\nĐúng – <th> tạo ô tiêu đề.\nSai – <li> dùng cho danh sách."
+      },
+      {
+        "id": 7,
+        "question": "Để tạo danh sách không thứ tự trong HTML, ta dùng thẻ nào?",
+        "options": [
+          "A. <ol>",
+          "B. <ul>",
+          "C. <table>",
+          "D. <li>"
+        ],
+        "correct": 1,
+        "explanation": "Sai – <ol> tạo danh sách có thứ tự.\nĐúng – <ul> tạo danh sách không thứ tự.\nSai – <li> chỉ định từng mục trong danh sách.\nSai – <table> tạo bảng."
+      },
+      {
+        "id": 8,
+        "question": "Trong HTML, thẻ <caption> có chức năng gì khi tạo bảng?",
+        "options": [
+          "A. Tạo tiêu đề cho bảng.",
+          "B. Tạo hàng trong bảng.",
+          "C. Tạo danh sách có thứ tự.",
+          "D. Tạo ô dữ liệu trong bảng."
+        ],
+        "correct": 0,
+        "explanation": "Đúng – <caption> tạo tiêu đề cho bảng.\nSai – Hàng trong bảng dùng <tr>.\nSai – Ô dữ liệu dùng <td>.\nSai – Danh sách có thứ tự dùng <ol>."
+      },
+      {
+        "id": 9,
+        "question": "Để tạo danh sách lồng nhau (nested list), ta cần:",
+        "options": [
+          "A. Đặt <tr> bên trong <td>.",
+          "B. Đặt <ul> hoặc <ol> bên trong một <li>.",
+          "C. Đặt <li> bên trong <caption>.",
+          "D. Đặt <table> bên trong <tr>."
+        ],
+        "correct": 1,
+        "explanation": "Đúng – Danh sách lồng nhau được tạo bằng cách đặt <ul> hoặc <ol> trong <li>.\nSai – <tr> không đặt trong <td>.\nSai – <table> không đặt trong <tr>.\nSai – <caption> chỉ tạo tiêu đề bảng, không chứa <li>."
+      },
+      {
+        "id": 10,
+        "question": "Để gộp nhiều cột trong bảng HTML, ta dùng thuộc tính nào?",
+        "options": [
+          "A. border",
+          "B. colspan",
+          "C. align",
+          "D. rowspan"
+        ],
+        "correct": 1,
+        "explanation": "Sai – rowspan gộp nhiều hàng.\nĐúng – colspan gộp nhiều cột.\nSai – align dùng để căn chỉnh nội dung.\nSai – border tạo đường viền cho bảng."
+      },
+      {
+        "id": 11,
+        "question": "Muốn tạo bảng có tiêu đề “Danh sách học sinh” hiển thị phía trên bảng, ta cần thẻ nào?",
+        "options": [
+          "A. <caption>",
+          "B. <h1>",
+          "C. <title>",
+          "D. <thead>"
+        ],
+        "correct": 0,
+        "explanation": "Sai – <thead> tạo phần đầu bảng, không phải tiêu đề.\nĐúng – <caption> tạo tiêu đề cho bảng.\nSai – <title> hiển thị tiêu đề trên tab trình duyệt.\nSai – <h1> hiển thị tiêu đề trong nội dung trang, không gắn với bảng."
+      },
+      {
+        "id": 12,
+        "question": "Để tạo bảng có 2 hàng, mỗi hàng gồm 3 ô dữ liệu, ta cần bao nhiêu thẻ <td>?",
+        "options": [
+          "A. 9",
+          "B. 2",
+          "C. 3",
+          "D. 6"
+        ],
+        "correct": 3,
+        "explanation": "Sai – 2 ô không đủ.\nSai – 3 ô chỉ cho một hàng.\nĐúng – 2 hàng × 3 ô = 6 thẻ <td>.\nSai – 9 ô là thừa."
+      },
+      {
+        "id": 13,
+        "question": "Khi muốn gộp 2 ô theo chiều dọc trong bảng HTML, ta dùng thuộc tính nào?",
+        "options": [
+          "A. merge=\"2\"",
+          "B. colspan=\"2\"",
+          "C. rowspan=\"2\"",
+          "D. align=\"center\""
+        ],
+        "correct": 2,
+        "explanation": "Sai – colspan gộp theo chiều ngang.\nĐúng – rowspan gộp theo chiều dọc.\nSai – HTML không có thuộc tính merge.\nSai – align chỉ căn chỉnh nội dung."
+      },
+      {
+        "id": 14,
+        "question": "Để tạo danh sách có thứ tự bắt đầu từ số 5, ta dùng cú pháp nào?",
+        "options": [
+          "A. <ol start=\"5\">",
+          "B. <ol begin=\"5\">",
+          "C. <li start=\"5\">",
+          "D. <ul start=\"5\">"
+        ],
+        "correct": 0,
+        "explanation": "Đúng – <ol start=\"5\"> bắt đầu từ số 5.\nSai – <ul> không có thứ tự số.\nSai – <li> không có thuộc tính start.\nSai – HTML không có thuộc tính begin."
+      },
+      {
+        "id": 15,
+        "question": "Muốn tạo danh sách có thứ tự bằng chữ cái La Mã (I, II, III…), ta dùng thuộc tính nào?",
+        "options": [
+          "A. type=\"1\"",
+          "B. type=\"i\"",
+          "C. type=\"A\"",
+          "D. type=\"I\""
+        ],
+        "correct": 3,
+        "explanation": "Sai – A hiển thị bằng chữ cái.\nSai – i hiển thị số La Mã thường.\nĐúng – I hiển thị số La Mã in hoa.\nSai – 1 hiển thị số thường."
+      },
+      {
+        "id": 16,
+        "question": "Trong bảng HTML, muốn tạo phần đầu bảng chứa tiêu đề cột, ta dùng thẻ nào?",
+        "options": [
+          "A. <tbody>",
+          "B. <thead>",
+          "C. <tfoot>",
+          "D. <caption>"
+        ],
+        "correct": 1,
+        "explanation": "Đúng – <thead> chứa tiêu đề cột.\nSai – <tbody> chứa nội dung chính.\nSai – <tfoot> chứa phần cuối bảng.\nSai – <caption> tạo tiêu đề bảng, không phải phần đầu."
+      },
+      {
+        "id": 17,
+        "question": "Để tạo danh sách không thứ tự với ký hiệu hình vuông, ta dùng cú pháp nào?",
+        "options": [
+          "A. <ul type=\"disc\">",
+          "B. <ul type=\"dot\">",
+          "C. <ul type=\"square\">",
+          "D. <ul type=\"circle\">"
+        ],
+        "correct": 2,
+        "explanation": "Sai – circle tạo ký hiệu hình tròn rỗng.\nĐúng – square tạo ký hiệu hình vuông.\nSai – disc tạo hình tròn đặc.\nSai – HTML không có dot."
+      },
+      {
+        "id": 18,
+        "question": "Nếu muốn tạo bảng có đường viền dày 2 pixel, ta dùng cú pháp nào?",
+        "options": [
+          "A. <table border-width=\"2\">",
+          "B. <table border=\"2\">",
+          "C. <table border-size=\"2\">",
+          "D. <table border-style=\"2\">"
+        ],
+        "correct": 1,
+        "explanation": "Đúng – border=\"2\" tạo đường viền dày 2 pixel.\nSai – HTML không có thuộc tính border-width.\nSai – Không có border-size.\nSai – Không có border-style với giá trị số."
+      },
+      {
+        "id": 19,
+        "question": "Để căn giữa nội dung trong ô dữ liệu bảng, ta dùng thuộc tính nào?",
+        "options": [
+          "A. align=\"right\"",
+          "B. align=\"left\"",
+          "C. align=\"justify\"",
+          "D. align=\"center\""
+        ],
+        "correct": 3,
+        "explanation": "Sai – căn trái.\nSai – căn phải.\nĐúng – align=\"center\" căn giữa nội dung.\nSai – justify căn đều hai bên."
+      },
+      {
+        "id": 20,
+        "question": "Khi muốn tạo danh sách có thứ tự bằng chữ cái thường (a, b, c…), ta dùng cú pháp nào?",
+        "options": [
+          "A. <ol type=\"a\">",
+          "B. <ol type=\"i\">",
+          "C. <ol type=\"I\">",
+          "D. <ol type=\"A\">"
+        ],
+        "correct": 0,
+        "explanation": "Đúng – type=\"a\" tạo danh sách bằng chữ cái thường.\nSai – A tạo chữ cái in hoa.\nSai – i tạo số La Mã thường.\nSai – I tạo số La Mã in hoa."
+      },
+      {
+        "id": 21,
+        "question": "Muốn tạo bảng có 3 cột, trong đó cột đầu tiên là tiêu đề, ta cần thẻ nào trong hàng đầu tiên?",
+        "options": [
+          "A. <td>",
+          "B. <th>",
+          "C. <tr>",
+          "D. <caption>"
+        ],
+        "correct": 1,
+        "explanation": "Sai – <td> tạo ô dữ liệu thường.\nĐúng – <th> tạo ô tiêu đề cho cột.\nSai – <tr> tạo hàng, không phải ô.\nSai – <caption> tạo tiêu đề bảng, không phải tiêu đề cột."
+      },
+      {
+        "id": 22,
+        "question": "Khi muốn tạo bảng có phần cuối ghi chú “Tổng kết”, ta dùng thẻ nào?",
+        "options": [
+          "A. <tfoot>",
+          "B. <thead>",
+          "C. <caption>",
+          "D. <tbody>"
+        ],
+        "correct": 0,
+        "explanation": "Đúng – <tfoot> tạo phần cuối bảng.\nSai – <thead> tạo phần đầu bảng.\nSai – <tbody> chứa nội dung chính.\nSai – <caption> tạo tiêu đề bảng."
+      },
+      {
+        "id": 23,
+        "question": "Để tạo danh sách có thứ tự hiển thị bằng chữ cái in hoa (A, B, C…), ta dùng cú pháp nào?",
+        "options": [
+          "A. <ol type=\"I\">",
+          "B. <ol type=\"A\">",
+          "C. <ol type=\"i\">",
+          "D. <ol type=\"a\">"
+        ],
+        "correct": 1,
+        "explanation": "Sai – a hiển thị chữ cái thường.\nĐúng – A hiển thị chữ cái in hoa.\nSai – i hiển thị số La Mã thường.\nSai – I hiển thị số La Mã in hoa."
+      },
+      {
+        "id": 24,
+        "question": "Muốn tạo bảng có 4 hàng, mỗi hàng gồm 2 ô dữ liệu, ta cần bao nhiêu thẻ <tr> và <td>?",
+        "options": [
+          "A. 2 <tr> và 4 <td>",
+          "B. 4 <tr> và 8 <td>",
+          "C. 8 <tr> và 16 <td>",
+          "D. 1 <tr> và 2 <td>"
+        ],
+        "correct": 1,
+        "explanation": "Đúng – 4 hàng cần 4 <tr>, mỗi hàng 2 ô → 8 <td>.\nSai – chỉ có 2 hàng.\nSai – số lượng thẻ quá nhiều.\nSai – chỉ tạo được 1 hàng."
+      },
+      {
+        "id": 25,
+        "question": "Khi muốn tạo danh sách có thứ tự bắt đầu bằng chữ cái “C”, ta dùng cú pháp nào?",
+        "options": [
+          "A. <ol type=\"a\" start=\"3\">",
+          "B. <ol type=\"1\" start=\"3\">",
+          "C. <ol type=\"I\" start=\"3\">",
+          "D. <ol type=\"A\" start=\"3\">"
+        ],
+        "correct": 3,
+        "explanation": "Đúng – type=\"A\" tạo chữ cái in hoa, start=\"3\" bắt đầu từ C.\nSai – a tạo chữ cái thường.\nSai – I tạo số La Mã in hoa.\nSai – 1 tạo số thường."
+      },
+      {
+        "id": 26,
+        "question": "Trong bảng HTML, muốn gộp 3 ô theo chiều ngang, ta dùng cú pháp nào?",
+        "options": [
+          "A. <td align=\"3\">",
+          "B. <td merge=\"3\">",
+          "C. <td colspan=\"3\">",
+          "D. <td rowspan=\"3\">"
+        ],
+        "correct": 2,
+        "explanation": "Đúng – colspan=\"3\" gộp 3 ô theo chiều ngang.\nSai – rowspan gộp theo chiều dọc.\nSai – HTML không có merge.\nSai – align chỉ căn chỉnh nội dung."
+      },
+      {
+        "id": 27,
+        "question": "Để tạo danh sách không thứ tự với ký hiệu hình tròn rỗng, ta dùng cú pháp nào?",
+        "options": [
+          "A. <ul type=\"square\">",
+          "B. <ul type=\"circle\">",
+          "C. <ul type=\"dot\">",
+          "D. <ul type=\"disc\">"
+        ],
+        "correct": 1,
+        "explanation": "Sai – disc tạo hình tròn đặc.\nĐúng – circle tạo hình tròn rỗng.\nSai – square tạo hình vuông.\nSai – HTML không có dot."
+      },
+      {
+        "id": 28,
+        "question": "Khi muốn tạo bảng có phần nội dung chính nằm trong thẻ nào?",
+        "options": [
+          "A. <tfoot>",
+          "B. <caption>",
+          "C. <tbody>",
+          "D. <thead>"
+        ],
+        "correct": 2,
+        "explanation": "Sai – <thead> tạo phần đầu bảng.\nĐúng – <tbody> chứa nội dung chính.\nSai – <tfoot> tạo phần cuối bảng.\nSai – <caption> tạo tiêu đề bảng."
+      },
+      {
+        "id": 29,
+        "question": "Muốn tạo danh sách lồng nhau, trong đó danh sách con là danh sách có thứ tự, ta cần cú pháp nào?",
+        "options": [
+          "A. <ul><ol>...</ol></ul>",
+          "B. <ul><li><ol>...</ol></li></ul>",
+          "C. <ol><li><ul>...</ul></li></ol>",
+          "D. <ol><ul>...</ul></ol>"
+        ],
+        "correct": 1,
+        "explanation": "Đúng – danh sách cha <ul>, trong <li> có danh sách con <ol>.\nSai – danh sách cha là <ol>, không đúng yêu cầu.\nSai – không có <li> bao quanh.\nSai – không có cấu trúc hợp lệ."
+      },
+      {
+        "id": 30,
+        "question": "Khi muốn tạo bảng có đường viền màu đỏ, ta cần kết hợp với thuộc tính nào?",
+        "options": [
+          "A. <table border=\"1\" bordercolor=\"blue\">",
+          "B. <table border=\"1\" style=\"border-color:red;\">",
+          "C. <table border=\"red\">",
+          "D. <table border=\"1\" color=\"red\">"
+        ],
+        "correct": 1,
+        "explanation": "Đúng – dùng CSS style=\"border-color:red;\".\nSai – border không nhận giá trị màu.\nSai – HTML không có thuộc tính color cho bảng.\nSai – bordercolor là cú pháp cũ, không chuẩn."
+      }
+    ]
+  },
+  {
+    "id": "olm-bai-9-tao-danh-sach-bang-5314987581",
+    "lessonId": "5314987581",
+    "title": "OLM: Bài 9-Tạo danh sách-bảng",
+    "subject": "Tin Học",
+    "grade": "Lớp 12",
+    "durationMinutes": 40,
+    "difficulty": "Luyện tập OLM",
+    "source": "OLM",
+    "teacher": null,
+    "deadline": "0",
+    "tags": [
+      "OLM",
+      "Tin Học",
+      "Lớp 12",
+      "Trắc nghiệm OLM"
+    ],
+    "description": "Bài tập trực tuyến OLM: Bài 9-Tạo danh sách-bảng. Môn Tin Học - Lớp 12. Tổng số 25 câu hỏi có đáp án và lời giải chi tiết.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Trong thẻ tạo danh sách có thứ tự, thuộc tính start dùng để",
+        "options": [
+          "A. kết thúc danh sách không có thứ tự.",
+          "B. thay đổi ký hiệu đầu dòng.",
+          "C. xác định giá trị bắt đầu đánh số.",
+          "D. xác định số lượng các thẻ <li>."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "question": "Trong thẻ tạo danh sách có thứ tự, thuộc tính start mặc định là số",
+        "options": [
+          "A. nguyên.",
+          "B. 0.",
+          "C. 1.",
+          "D. thập phân."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "question": "Để thêm thông tin cá nhân vào một mục trong trang web, bạn nên sử dụng thẻ nào để tạo danh sách các thông tin đó?",
+        "options": [
+          "A. <ul> và <li>",
+          "B. <div>",
+          "C. <p>",
+          "D. <table>"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "question": "Cho đoạn HTML như hình bên dưới\nHãy chọn kết quả đúng khi hiển thị trên trình duyệt.",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "question": "Trong HTML, danh sách mô tả được bắt đầu bằng thẻ",
+        "options": [
+          "A. <dt>",
+          "B. <td>",
+          "C. <dd>",
+          "D. <dl>"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "question": "Nội dung mô tả của một mục trong danh sách mô tả được đặt trong thẻ",
+        "options": [
+          "A. <td>",
+          "B. <dl>",
+          "C. <dt>",
+          "D. <dd>"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "question": "Cho đoạn HTML như hình bên\nHãy chọn kết quả hiển thị đúng trên trình duyệt.",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "question": "Cho đoạn mã HTML sau\nHãy chọn kết quả đúng khi hiển thị trên trình duyệt.",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "question": "Cho đoạn mã HTML sau\nHãy chọn kết quả hiển thị đúng trên trình duyệt.",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "question": "Trong thẻ tạo danh sách không có thứ tự, thuộc tính list-style-type dùng để",
+        "options": [
+          "A. thay đổi ký tự đầu dòng.",
+          "B. xác định số lượng các thẻ <li>.",
+          "C. xác định giá trị bắt đầu đánh số.",
+          "D. kết thúc danh sách không có thứ tự."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "question": "Cho đoạn mã HTML như sau :\nHãy chọn đúng kết quả hiển thị trên trình duyệt .",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "question": "Cho đoạn mã HTML sau:\nHãy chọn kết quả hiển thị đúng trên trình duyệt.",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "question": "Thuộc tính định dạng rowspan=\"3\" có chức năng",
+        "options": [
+          "A. ghép 3 ô kề nhau ở các hàng thành một ô.",
+          "B. mở rộng toàn bộ các ô ở các",
+          "C. mở rộng toàn bộ các ô ở các hàng.",
+          "D. ghép 3 ô kề nhau ở các cột thành một ô."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "question": "Thuộc tính định dạng colspan=\"3\" có chức năng",
+        "options": [
+          "A. ghép 3 ô kề nhau ở các hàng thành một ô.",
+          "B. ghép 3 ô kề nhau ở các cột thành một ô.",
+          "C. mở rộng toàn bộ các ô ở các hàng.",
+          "D. mở rộng toàn bộ các ô ở các cột."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "question": "Cho đoạn HTML sau:\nHãy chọn phát biểu đúng khi nói về kết quả hiển thị trên trình duyệt.",
+        "options": [
+          "A. Bảng trên có một hàng.",
+          "B. Bảng trên có chiều cao là 300px.",
+          "C. \"Nguyễn Văn An\" có kết quả in đậm.",
+          "D. Một trong các ô tiêu đề của bảng là ô có giá trị \"Họ tên\"."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "question": "Cho đoạn mã HTML sau:\nHãy chọn phát biểu đúng khi nói về kết quả hiển thị trên trình duyệt.",
+        "options": [
+          "A. Bảng trên có chiều rộng là 300px.",
+          "B. Bảng trên có một hàng.",
+          "C. Một trong các tiêu đề của bảng là ô có giá trị \"Nguyễn Văn An\".",
+          "D. \"Nguyễn Văn An\" có kết quả in đậm."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "question": "Thuộc tính định dạng colspan=\"5\" có chức năng",
+        "options": [
+          "A. mở rộng toàn bộ các ô ở các hàng.",
+          "B. ghép 5 ô kề nhau ở các cột thành một ô.",
+          "C. mở rộng toàn bộ các ô ở các cột.",
+          "D. ghép 5 ô kề nhau  ở các hàng thành một ô."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "question": "Cho đoạn mã HTML như sau:\nHãy chọn phát biểu ĐÚNG.",
+        "options": [
+          "A. Mặc định, các nội dung từ hàng thứ hai được canh giữa và in đậm.",
+          "B. Bảng trên có 3 hàng.",
+          "C. Ô STT được canh giữa và in đậm.",
+          "D. Hàng đầu tiên của bảng là tiêu đề bảng."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "question": "Đoạn mã HTML sau đây cho kết quả nào?",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "question": "Cho đoạn mã nguồn HTML như sau:",
+        "options": [
+          "A. Thẻ ảnh sử dụng sai thuộc tính xác định địa chỉ ảnh.",
+          "B. Trong ô đầu tiên của dòng thứ 2, các món ăn được liệt kê theo một danh sách xác định thứ tự, bắt đầu bằng 1.",
+          "C. Chương trình sẽ hiển thị văn bản trong 1 bảng có 2 hàng và mỗi hàng có 2 cột.",
+          "D. Cần bổ sung thêm một cặp thẻ <td></td> cho dòng đầu tiên của bảng."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "question": "Một nhóm sinh viên thực hiện trang web kinh doanh thức uống online như hình bên.\nMột bạn đưa ra nhận xét về cách làm như sau:",
+        "options": [
+          "A. Nội dung giới thiệu về thức uống, giá và Order được đặt trong hai thẻ <dd>.",
+          "B. Order là một liên kết, khi nhấn vào sẽ giúp khách hàng đặt hàng. Thẻ liên kết này được nằm trong mục mô tả của từng loại thức uống.",
+          "C. Trang menu trên được sử dụng chức năng định dạng danh sách mô tả.",
+          "D. Dùng thẻ <ul> để định dạng danh sách cho tên thức uống."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "question": "TF] Cho một bảng như hình bên.\nMột học sinh đưa ra các nhận định sau:",
+        "options": [
+          "A. Giá trị của thuộc tính rowspan ở ô Môn Tin học phải được xác định trước nghĩa là phải biết được số lượng học sinh trong bảng điểm.",
+          "B. Nội dung trên được sử dụng định dạng bảng có thuộc tính border.",
+          "C. Các nội dung số thứ tự, họ tên, điểm của từng học sinh nằm trong thẻ <td> và </td>.",
+          "D. Các nội dung Môn Tin học, STT, Họ tên, Điểm GK nằm hai thẻ <th> và </th> được mặc định là không in đậm, canh lề trái nên cần được thêm các thuộc tính định dạng."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "question": "Lớp 12A đang dự định tạo một trang web giúp cả lớp xem thông tin thời khóa biểu của lớp mình. Thời khóa biểu được hiển thị tương tự như mẫu bên dưới:\nMột học sinh nhận định như sau:",
+        "options": [
+          "A. Các ô từng tiết học được nằm trong thẻ <td>, mặc định được canh giữa.",
+          "B. Để định dạng tương tự như mẫu trên và buổi sáng học 5 tiết,  tại ô B.Sáng dùng thuộc tính colspan=\"6\".",
+          "C. Dùng chức năng tạo table có thuộc tính border để tạo bảng thời khóa biểu trên.",
+          "D. Các ô có nội dung là tiêu đề của bảng được nằm trong thẻ <th>."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "question": "Một nhóm người dùng tìm hiểu về sự phát triển của trí tuệ nhân tạo A.I., mọi người đã trình bày trang web theo mẫu bên:\nMột học sinh nhận định như sau:",
+        "options": [
+          "A. Sản phẩm trên là sự kết hợp của danh sách có thứ tự và danh sách không có thứ tự.",
+          "B. Dùng thẻ <ul> để định dạng các dòng có nội dung là Chat GPT, OpenAI Sora:",
+          "C. Để thêm liên kết vào nội dung Chat GPT ở mục 1 thì thẻ <a href=\"https://chatgpt.com\" target=\"_blank\">Chat GPT:</a> phải đặt ngay sau thẻ <li> đầu tiên của danh sách không có thứ tự.",
+          "D. Danh sách không có thứ tự được nằm bên trong mỗi mục của danh sách có thứ tự."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "question": "Một nhóm học sinh đang dự định tạo một trang web đơn giản để hiển thị điểm của các thành viên. Cả nhóm quyết định dùng chức năng table trong ngôn ngữ HTML để thực hiện việc làm trên, mọi người quyết định lên ý tưởng như hình bên dưới.\nMọi người nhận định việc làm như sau:",
+        "options": [
+          "A. Các nội dung từ hàng thứ hai trở đi là dữ liệu của bảng, chúng được nằm trong thẻ <dt>, mặc định canh lề trái.",
+          "B. Ở hàng cuối cùng, dùng thuộc tính rowspan=“4” và thuộc tính style=“text-align:right;”.",
+          "C. Bảng trên định dạng có thuộc tính boder.",
+          "D. Các nội dung ở hàng tiêu đề đầu tiên được nằm trong thẻ <td>."
+        ],
+        "correct": 2,
+        "explanation": ""
+      }
+    ]
+  },
+  {
+    "id": "olm-on-kttx-5328901765",
+    "lessonId": "5328901765",
+    "title": "OLM: ÔN KTTX",
+    "subject": "Tin Học",
+    "grade": "Lớp 12",
+    "durationMinutes": 40,
+    "difficulty": "Luyện tập OLM",
+    "source": "OLM",
+    "teacher": null,
+    "deadline": "0",
+    "tags": [
+      "OLM",
+      "Tin Học",
+      "Lớp 12",
+      "Trắc nghiệm OLM"
+    ],
+    "description": "Bài tập trực tuyến OLM: ÔN KTTX. Môn Tin Học - Lớp 12. Tổng số 27 câu hỏi có đáp án và lời giải chi tiết.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Một học sinh viết <H2>Tin tức</H2> thay cho <h2>Tin tức</h2>. Trong HTML, hai cách viết này được hiểu như thế nào?",
+        "options": [
+          "A. Cả hai chỉ tạo đoạn văn thông thường.",
+          "B. Hai cách viết có cùng ý nghĩa.",
+          "C. Chỉ mã dùng chữ hoa là hợp lệ.",
+          "D. Chỉ mã dùng chữ thường là hợp lệ."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "question": "Bạn Bình cần hiển thị hai đoạn “Giới thiệu” và “Tổng kết”, có một đường kẻ ngang ở giữa. Đoạn mã nào sau đây đáp ứng đúng?",
+        "options": [
+          "A. <p>Giới thiệu</p><br><p>Tổng kết</p>",
+          "B. <p>Giới thiệu</p><u>Tổng kết</u>",
+          "C. <p>Giới thiệu</p><p>Tổng kết</p>",
+          "D. <p>Giới thiệu</p><hr><p>Tổng kết</p>"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "question": "Trong câu “Học giỏi Toán”, chỉ từ “giỏi” cần được đánh dấu nổi bật. Phương án mã HTML nào sau đây phù hợp?",
+        "options": [
+          "A. <p>Học <mark>giỏi</mark> Toán</p>",
+          "B. <p>Học <strong>giỏi</strong> Toán</p>",
+          "C. <p>Học <small>giỏi</small> Toán</p>",
+          "D. <p>Học <em>giỏi</em> Toán</p>"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "question": "Trong dòng “Lịch thi Lưu ý”, cụm “Lưu ý” cần chữ nhỏ hơn nhưng không nâng lên hoặc hạ xuống như chỉ số. Đoạn mã HTML nào phù hợp?",
+        "options": [
+          "A. <p>Lịch thi <sup>Lưu ý</sup></p>",
+          "B. <p>Lịch thi <small>Lưu ý</small></p>",
+          "C. <p>Lịch thi <strong>Lưu ý</strong></p>",
+          "D. <p>Lịch thi <sub>Lưu ý</sub></p>"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "question": "Bạn An cần hiển thị “Học trực tuyến” với màu xanh lá và cỡ chữ 20px. Phương án mã HTML nào sau đây thực hiện đúng?",
+        "options": [
+          "A. <p style=\"color:blue;font-size:18px\">Học trực tuyến</p>",
+          "B. <p style=\"color:green;font-size:18px\">Học trực tuyến</p>",
+          "C. <p style=\"color:red;font-size:20px\">Học trực tuyến</p>",
+          "D. <p style=\"color:green;font-size:20px\">Học trực tuyến</p>"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "question": "Trong câu “Giữ sức khỏe”, chỉ cụm “sức khỏe” cần vừa in đậm vừa có màu đỏ. Phương án mã HTML nào sau đây đúng?",
+        "options": [
+          "A. <p>Giữ <strong><span style=\"color:blue\">sức khỏe</span></strong></p>",
+          "B. <p>Giữ <strong><span style=\"color:red\">sức khỏe</span></strong></p>",
+          "C. <p>Giữ <em><span style=\"color:red\">sức khỏe</span></em></p>",
+          "D. <p><strong>Giữ <span style=\"color:red\">sức khỏe</span></strong></p>"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "question": "Xét mã <div><h2>Góc Văn học</h2><p>Đọc <em>sách</em></p></div>. Phương án nào sau đây xác định đúng quan hệ cha – con trực tiếp?",
+        "options": [
+          "A. Con của <p> là <h2>, <em>; con của <div> là <p>.",
+          "B. Con của <div> là <h2>, <em>; con của <p> là <h2>.",
+          "C. Con của <div> là <h2>, <p>; con của <p> là <em>.",
+          "D. Con của <em> là <h2>, <p>; con của <h2> là <div>."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "question": "Đoạn HTML <h2>Góc học</h2><p>Bài mới</p> được trình duyệt thể hiện theo cách nào sau đây?",
+        "options": [
+          "A. Hai đoạn văn thông thường nối nhau.",
+          "B. Tiêu đề cấp 2, tiếp theo là đoạn văn.",
+          "C. Đoạn văn trước, rồi đến tiêu đề cấp 2.",
+          "D. Hai tiêu đề cấp 2 liền nhau trên trang."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "question": "Khi trang chưa áp dụng CSS tùy chỉnh, nhận xét nào sau đây đúng về <div> và <span> trong HTML?",
+        "options": [
+          "A. Cả <div> và <span> đều tạo đoạn văn mới.",
+          "B. <span> tạo khối; <div> là phần tử nội tuyến.",
+          "C. <div> tạo khối; <span> là phần tử nội tuyến.",
+          "D. Cả <div> và <span> đều tạo tiêu đề văn bản."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "question": "Trong câu “Học tốt mỗi ngày”, chỉ từ “tốt” cần được gạch chân. Phương án mã HTML nào sau đây đúng?",
+        "options": [
+          "A. <p>Học <em>tốt</em> mỗi ngày</p>",
+          "B. <p><u>Học tốt</u> mỗi ngày</p>",
+          "C. <p>Học <mark>tốt</mark> mỗi ngày</p>",
+          "D. <p>Học <u>tốt</u> mỗi ngày</p>"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "question": "Để hiển thị công thức b₁ + b₂ với các số 1 và 2 là chỉ số dưới, phương án mã nào sau đây đúng?",
+        "options": [
+          "A. <p>b<small>1</small> + b<small>2</small></p>",
+          "B. <p>b<sub>1</sub> + b<sup>2</sup></p>",
+          "C. <p>b<sub>1</sub> + b<sub>2</sub></p>",
+          "D. <p>b<sup>1</sup> + b<sup>2</sup></p>"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "question": "Bạn Mai muốn viết tiêu đề cấp 3 “Ngày hội sách”, bên dưới là đoạn “Mời bạn ghé thăm”. Phương án mã nào sau đây đúng?",
+        "options": [
+          "A. <h3>Ngày hội sách</h3><h3>Mời bạn ghé thăm</h3>",
+          "B. <h2>Ngày hội sách</h2><p>Mời bạn ghé thăm</p>",
+          "C. <p>Ngày hội sách</p><h3>Mời bạn ghé thăm</h3>",
+          "D. <h3>Ngày hội sách</h3><p>Mời bạn ghé thăm</p>"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "question": "Bạn Bình muốn chữ “Kiên trì” màu xanh lam và in nghiêng. Phương án mã HTML nào sau đây phù hợp?",
+        "options": [
+          "A. <p style=\"color:blue\"><strong>Kiên trì</strong></p>",
+          "B. <p style=\"color:blue\"><em>Kiên trì</em></p>",
+          "C. <p style=\"color:green\"><strong>Kiên trì</strong></p>",
+          "D. <p style=\"color:red\"><em>Kiên trì</em></p>"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "question": "Một trang web cần hiển thị cả CO₂ và y² với vị trí chỉ số chính xác. Phương án mã HTML nào sau đây đúng?",
+        "options": [
+          "A. <p>CO<sup>2</sup>O và y<sup>2</sup></p>",
+          "B. <p>CO<sup>2</sup>O và y<sub>2</sub></p>",
+          "C. <p>CO<sub>2</sub>O và y<sup>2</sup></p>",
+          "D. <p>CO<sub>2</sub>O và y<sub>2</sub></p>"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "question": "Xét mã <head><title>Nhật ký</title></head><body><div><h2>Thể thao</h2><p>Chơi <em>khỏe</em></p></div></body>. Phương án nào sau đây nêu đúng tên trên thẻ trình duyệt và từ được in nghiêng?",
+        "options": [
+          "A. Tab “Thể thao”; in nghiêng “khỏe”.",
+          "B. Tab “Nhật ký”; in nghiêng “khỏe”.",
+          "C. Tab “Nhật ký”; in nghiêng “Chơi”.",
+          "D. Tab “Thể thao”; in nghiêng “Chơi”."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "question": "Một trang web cần tiêu đề cấp 2 “Ngày hội”, tiếp theo là đường kẻ ngang và đoạn “Mời bạn đến”. Phương án mã nào sau đây đúng?",
+        "options": [
+          "A. <h2>Ngày hội</h2><hr><p>Mời bạn đến</p>",
+          "B. <h2>Ngày hội</h2><p>Mời bạn đến</p><hr>",
+          "C. <h2>Ngày hội</h2><br><p>Mời bạn đến</p>",
+          "D. <p>Ngày hội</p><hr><h2>Mời bạn đến</h2>"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "question": "Bạn Hà muốn đặt hai câu “Học chăm chỉ” và “Rèn luyện hằng ngày” thành hai đoạn văn riêng trong cùng một khối. Mã HTML nào sau đây phù hợp?",
+        "options": [
+          "A. <div><p>Học chăm chỉ</p><p>Rèn luyện hằng ngày</p></div>",
+          "B. <div><span>Học chăm chỉ</span><span>Rèn luyện hằng ngày</span></div>",
+          "C. <div><h2>Học chăm chỉ</h2><h2>Rèn luyện hằng ngày</h2></div>",
+          "D. <p><div>Học chăm chỉ</div><div>Rèn luyện hằng ngày</div></p>"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "question": "Một chú thích “Thông báo gấp” cần có cỡ chữ nhỏ hơn mặc định; riêng từ “gấp” màu đỏ. Phương án mã HTML nào sau đây đúng?",
+        "options": [
+          "A. <p><small>Thông báo gấp</small><span style=\"color:red\">!</span></p>",
+          "B. <p><small>Thông báo <span style=\"color:blue\">gấp</span></small></p>",
+          "C. <p>Thông báo <span style=\"color:red\">gấp</span></p>",
+          "D. <p><small>Thông báo <span style=\"color:red\">gấp</span></small></p>"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "question": "Trang web cần hiển thị “Rèn luyện bền bỉ” với cỡ chữ 18px; chỉ từ “bền bỉ” vừa in đậm vừa màu xanh lam. Đoạn mã nào sau đây đáp ứng đúng?",
+        "options": [
+          "A. <p style=\"font-size:18px\"><strong>Rèn luyện bền bỉ</strong></p>",
+          "B. <p style=\"font-size:18px\">Rèn luyện <strong style=\"color:green\">bền bỉ</strong></p>",
+          "C. <p style=\"font-size:18px\">Rèn luyện <em style=\"color:blue\">bền bỉ</em></p>",
+          "D. <p style=\"font-size:18px\">Rèn luyện <strong style=\"color:blue\">bền bỉ</strong></p>"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "question": "Xét mã <p style=\"color:red\">Mừng <strong style=\"color:blue\">ngày hội</strong></p>. Phương án nào sau đây mô tả đúng kết quả hiển thị?",
+        "options": [
+          "A. “Mừng” màu đỏ; “ngày hội” màu xanh lam và in nghiêng.",
+          "B. “Mừng” màu xanh lam; “ngày hội” màu đỏ và in đậm.",
+          "C. “Mừng” màu xanh lam; “ngày hội” màu đỏ và in nghiêng.",
+          "D. “Mừng” màu đỏ; “ngày hội” màu xanh lam và in đậm."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "question": "Khi khai báo style=\"color:rgb(0,0,200)\", văn bản thường được hiển thị bằng màu nào sau đây?",
+        "options": [
+          "A. Màu xanh lam.",
+          "B. Màu xanh lá.",
+          "C. Màu đỏ tươi.",
+          "D. Màu vàng nhạt."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "question": "Trong thông báo “Lịch thi: thứ Sáu”, chỉ cụm “thứ Sáu” cần có màu đỏ, các từ còn lại giữ màu mặc định. Mã HTML nào sau đây đúng?",
+        "options": [
+          "A. <p><span style=\"color:red\">Lịch thi:</span> thứ Sáu</p>",
+          "B. <p>Lịch thi: <span style=\"color:blue\">thứ Sáu</span></p>",
+          "C. <p style=\"color:red\">Lịch thi: thứ Sáu</p>",
+          "D. <p>Lịch thi: <span style=\"color:red\">thứ Sáu</span></p>"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "question": "Một khối nội dung cần tiêu đề cấp 3 “Câu lạc bộ” và hai đoạn “Ghi danh” và “Sinh hoạt”. Mã HTML nào sau đây đáp ứng đúng?",
+        "options": [
+          "A. <div><p>Câu lạc bộ</p><h3>Ghi danh</h3><p>Sinh hoạt</p></div>",
+          "B. <p><h3>Câu lạc bộ</h3><p>Ghi danh</p><p>Sinh hoạt</p></p>",
+          "C. <div><h3>Câu lạc bộ</h3><p>Ghi danh</p><h3>Sinh hoạt</h3></div>",
+          "D. <div><h3>Câu lạc bộ</h3><p>Ghi danh</p><p>Sinh hoạt</p></div>"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "question": "Trong câu “Chúng em chăm ngoan”, chỉ cụm “chăm ngoan” cần vừa in đậm vừa in nghiêng. Phương án mã HTML nào sau đây đúng?",
+        "options": [
+          "A. <p>Chúng em <i><u>chăm ngoan</u></i></p>",
+          "B. <p>Chúng em <b><u>chăm ngoan</u></b></p>",
+          "C. <p>Chúng em <b><i>chăm ngoan</i></b></p>",
+          "D. <p><b><i>Chúng em</i></b> chăm ngoan</p>"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "question": "Trong câu “Mừng 26/3”, chỉ phần “26/3” cần vừa được đánh dấu nổi bật vừa in đậm. Phương án mã HTML nào sau đây đúng?",
+        "options": [
+          "A. <p><mark>Mừng <strong>26/3</strong></mark></p>",
+          "B. <p>Mừng <mark><em>26/3</em></mark></p>",
+          "C. <p>Mừng <mark><strong>26/3</strong></mark></p>",
+          "D. <p>Mừng <strong>26/3</strong></p>"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "question": "Để trình bày câu “Vinh danh tập thể” với cỡ chữ 16px, chỉ cụm “tập thể” vừa in đậm vừa được đánh dấu nổi bật, mã nào sau đây đúng?",
+        "options": [
+          "A. <p style=\"font-size:16px\">Vinh danh <strong>tập thể</strong></p>",
+          "B. <p style=\"font-size:16px\">Vinh danh <mark><strong>tập thể</strong></mark></p>",
+          "C. <p style=\"font-size:16px\"><mark>Vinh danh <strong>tập thể</strong></mark></p>",
+          "D. <p style=\"font-size:16px\">Vinh danh <mark><em>tập thể</em></mark></p>"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "question": "Xét mã <body><div><h3>Góc nghệ thuật</h3><p>Vẽ <em>tranh</em></p></div><p>Hãy tham gia</p></body>. Phương án nào sau đây xác định đúng các phần tử con trực tiếp của <body> và phần tử cha trực tiếp của <em>?",
+        "options": [
+          "A. Con của <body>: <div>, <p>; cha của <em>: <div>.",
+          "B. Con của <body>: <div>, <em>; cha của <em>: <p>. Câu 1 2 3 4 5 6 7 8 9 Đáp án D C C A A B B A C Câu 10 11 12 13 14 15 16 17 18 Đáp án A C B A D C D C A Câu 19 20 21 22 23 24 25 26 27 Đáp án D B B D C B B D A",
+          "C. Con của <body>: <div>, <p>; cha của <em>: <p>."
+        ],
+        "correct": 2,
+        "explanation": ""
+      }
+    ]
+  },
+  {
+    "id": "olm-chu-de-f-bai-7-5266658803",
+    "lessonId": "5266658803",
+    "title": "OLM: Chủ đề F- Bài 7",
+    "subject": "Tin Học",
+    "grade": "Lớp 12",
+    "durationMinutes": 80,
+    "difficulty": "Luyện tập OLM",
+    "source": "OLM",
+    "teacher": null,
+    "deadline": "2026-11-02 22:00:00",
+    "tags": [
+      "OLM",
+      "Tin Học",
+      "Lớp 12",
+      "Trắc nghiệm OLM"
+    ],
+    "description": "Bài tập trực tuyến OLM: Chủ đề F- Bài 7. Môn Tin Học - Lớp 12. Tổng số 55 câu hỏi có đáp án và lời giải chi tiết.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Các thẻ HTML được viết trong cặp dấu:",
+        "options": [
+          "A. “<”, ”>”",
+          "B. “{“, “}”",
+          "C. “[“, “]”",
+          "D. “(“, “)"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "question": "HTML bao gồm mấy thành phần chính?",
+        "options": [
+          "A. 1.",
+          "B. 3.",
+          "C. 2.",
+          "D. 4."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "question": "Phát biểu nào sau đây là SAI khi xét về cấu tạo phần tử HTML",
+        "options": [
+          "A. Phần tử HTML có thể hiểu là toàn bộ phần thẻ và nội dung của thẻ.",
+          "B. Phần tử HTML gồm thẻ bắt đầu và thẻ kết thúc.",
+          "C. Phần tử HTML là khái niệm cơ bản của trang html.",
+          "D. Phần tử HTML được định nghĩa bởi thẻ bắt đầu, thẻ kết thúc và phần nội dung nằm giữa cặp thẻ này."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "question": "Hãy chọn phần tử HTML trong các phương án sau.",
+        "options": [
+          "A. align = \"center\"",
+          "B.  <span> Xin chào </span>",
+          "C. <table border=“1”>",
+          "D. </html>"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "question": "Có bao nhiêu loại thẻ HTML?",
+        "options": [
+          "A. 3.",
+          "B. 2.",
+          "C. 1.",
+          "D. 4."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "question": "Trang web được viết bằng ngôn ngữ HTML có phần mở rộng là",
+        "options": [
+          "A. html hoặc htm.",
+          "B. docx.",
+          "C. doc.",
+          "D. xlsx."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "question": "Trong các thẻ sau đây, thẻ nào có chức năng mô tả tên của trang web?",
+        "options": [
+          "A. <body>",
+          "B. <title>",
+          "C. <head>",
+          "D. <meta>"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "question": "Phương án nào là thẻ đơn trong các thẻ HTML sau đây?",
+        "options": [
+          "A. <hr/>",
+          "B. <body>",
+          "C. <p>",
+          "D. </hr>"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "question": "Phương án nào là thẻ kết thúc trong các thẻ sau?",
+        "options": [
+          "A. </body>",
+          "B. </hr>",
+          "C. <b>",
+          "D. <html>"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "question": "Cây HTML",
+        "options": [
+          "A. có hơn một phần tử gốc trong đó là body.",
+          "B. có phần tử gốc là head.",
+          "C. chỉ có một phần tử gốc là html.",
+          "D. có nhiều phần tử gốc."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "question": "Trình duyệt web",
+        "options": [
+          "A. không thể hiển thị các video có định dạng mp4.",
+          "B. chỉ dùng để hiển thị văn bản trong trang web.",
+          "C. dùng để soạn thảo ngôn ngữ HTML.",
+          "D. có chức năng hiển thị nội dung trang web đúng định dạng được thiết lập."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "question": "Trong các thẻ sau đây, thẻ nào có chức năng khai báo bộ ký tự mã hóa văn bản trang web?",
+        "options": [
+          "A. <a>",
+          "B. <p>",
+          "C. <meta>",
+          "D. <body>"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "question": "Hãy chọn thẻ đánh dấu HTML trong các phương án sau.",
+        "options": [
+          "A. color:red",
+          "B. <div> nội dung </div>",
+          "C. <p> Xin chao</p>",
+          "D. <body>"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "question": "Phương án nào sau đây là thẻ đóng của thẻ <html>?",
+        "options": [
+          "A. </u>",
+          "B. </body>",
+          "C. </html>",
+          "D. </b>"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "question": "Trong các thẻ sau đây, thẻ nào có chức năng mô tả tên của trang web?",
+        "options": [
+          "A. <title>",
+          "B. <head>",
+          "C. <meta>",
+          "D. <p>"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "question": "Hãy chọn thẻ đánh dấu HTML trong các phương án sau.",
+        "options": [
+          "A. <p> Xin chao</p>",
+          "B. style=“color:red”",
+          "C. <div> nội dung </div>",
+          "D. <body>"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "question": "Thẻ <head> thường được dùng để chứa thẻ nào sau đây?",
+        "options": [
+          "A. <body>",
+          "B. <html>",
+          "C. <title>",
+          "D. <!DOCTYPE html>"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "question": "Cây HTML có bao nhiêu phần tử gốc?",
+        "options": [
+          "A. 2.",
+          "B. 1.",
+          "C. 3.",
+          "D. 4."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "question": "Phần tử <title> dùng để làm gì?",
+        "options": [
+          "A. Khai báo tệp văn bản có định dạng html.",
+          "B. Mô tả tên trang web.",
+          "C. Mô tả mộ đoạn văn bản.",
+          "D. Mô tả thông tin cần bổ sung của trang web."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "question": "Cấu trúc cơ bản của tệp HTML có dạng như một cây thông tin các phần tử HTML. Quan hệ cha – con của các nút trên cây được mô tả bằng sự lồng nhau của các phần tử (hay thẻ) HTML. Gốc của cây HTML chính là phần tử",
+        "options": [
+          "A. <body>",
+          "B. <html>",
+          "C. <head>",
+          "D. <title>"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "question": "Phần tử <head> thường chứa phần tử nào sau đây?",
+        "options": [
+          "A. <html>",
+          "B. <title>",
+          "C. <html> và <body>",
+          "D. <body>"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "question": "Phần mềm nào sau đây không phải là phần mềm dùng để soạn thảo HTML?",
+        "options": [
+          "A. Notepad++.",
+          "B. Notepad.",
+          "C. Microsoft Word.",
+          "D. Sublime Text."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "question": "Trang web nào sau đây hỗ trợ soạn thảo HTML trực tuyến?",
+        "options": [
+          "A. https://www.w3schools.com",
+          "B. https://www.youtube.com",
+          "C. https://www.sublimetext.com",
+          "D. https://www.google.com"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "question": "Phần mềm nào sau đây là phần mềm soạn thảo HTML?",
+        "options": [
+          "A. Visual Studio Code.",
+          "B. Opera.",
+          "C. Google Chrome.",
+          "D. Cốc Cốc."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "question": "Phần mềm nào sau đây là phần mềm soạn thảo HTML?",
+        "options": [
+          "A. Google Chrome.",
+          "B. Opera.",
+          "C. Cốc Cốc.",
+          "D. Sublime Text."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "question": "Phương án nào sau đây là trình duyệt web?",
+        "options": [
+          "A. Sublime Text.",
+          "B. Notepad++.",
+          "C. Visual Studio Code.",
+          "D. Google Chrome."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "question": "Cú pháp nào sau đây là thuộc tính của thẻ?",
+        "options": [
+          "A. giá_trị=tên_thuộc_tính.",
+          "B. tên_thuộc_tính=giá_trị.",
+          "C. tên_thuộc_tính=\"giá trị\".",
+          "D. giá trị=\"tên_thuộc_tính\"."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "question": "Chọn cấu trúc định dạng thuộc tính kết hợp với thẻ đúng?",
+        "options": [
+          "A. <tên thẻ> thuộc tính = “giá trị” Nội dung</tên thẻ>",
+          "B. <tên thẻ thuộc tính = “giá trị”>Nội dung</tên thẻ>",
+          "C. <tên thẻ thuộc tính:“giá trị”>Nội dung</tên thẻ>",
+          "D. <tên thẻ thuộc tính = giá trị>Nội dung</tên thẻ>"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 29,
+        "question": "Ý nghĩa của thẻ <strong> khi sử dụng định dạng dòng văn bản?",
+        "options": [
+          "A. In đậm dòng văn bản.",
+          "B. Tạo gạch chân đoạn văn bản.",
+          "C. In nghiên dòng văn bản.",
+          "D. Tạo dòng văn bản chỉ số trên."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 30,
+        "question": "Trong html, phát biểu nào sau đây là sai về định dạng thuộc tính cho thẻ?",
+        "options": [
+          "A. Thuộc tính của thẻ phải nằm trong thẻ kết thúc.",
+          "B. Nếu có nhiều thuộc tính định dạng một nội dung của thẻ thì các thuộc tính được viết ngăn cách bởi dấu cách.",
+          "C. Không nhất thiết tất cả các thẻ khi soạn html điều phải xác định thuộc tính.",
+          "D. Thuộc tính phải nằm trong thẻ đầu."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 31,
+        "question": "Đoạn lệnh sau hiển thị trên trang web như thế nào?",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 32,
+        "question": "Cấu trúc nào sau đây dùng định dạng phông chữ cho đoạn văn bản.",
+        "options": [
+          "A. <p style = “color: red” >trường THPT Trung An </p>",
+          "B. <p style = “font-family: Brush Script MT”> trường THPT Trung An </p>",
+          "C. <p style = “font-size: 14px” > trường THPT Trung An </p>",
+          "D. <p style = “text-align: center” > trường THPT Trung An </p>"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 33,
+        "question": "Cho đoạn HTML trong hình bên dưới\nKết quả hiển thị có mức tiêu đề nhỏ nhất ở thẻ",
+        "options": [
+          "A. h3.",
+          "B. h1.",
+          "C. h2.",
+          "D. h4."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 34,
+        "question": "Trong các thẻ sau đây, phương án nào thẻ tiêu đề văn bản?",
+        "options": [
+          "A. <a>",
+          "B. <span>",
+          "C. <h1>",
+          "D. <p>"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 35,
+        "question": "Hãy chọn phát biểu sai khi nói về ý nghĩa của thẻ <b> và <strong>.",
+        "options": [
+          "A. Thẻ <strong> dùng để nhấn mạnh, thẻ <b> chỉ muốn trang trí là in đậm nội dung.",
+          "B. Tùy vào mục đích sử dụng, giúp máy chủ tìm kiếm xác định các nội dung chính trong trang web.",
+          "C. Kết quả hiển thị trên trình duyệt của hai thẻ trên là hoàn toàn giống nhau.",
+          "D. Thẻ <b> dùng để nhấn mạnh, <strong> dùng để trang trí nội dung in đậm."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 36,
+        "question": "Cho đoạn HTML sau\nHãy chọn phát biểu đúng khi nói đến kết quả hiển thị trên trình duyệt.",
+        "options": [
+          "A. Kết quả hiển thị gồm hai dòng văn bản.",
+          "B. Kết quả hiển thị gồm hai dòng văn bản, trong đó \"Học lập trình\" có màu đỏ.",
+          "C. Kết quả hiển thị trên trình duyệt gồm một dòng văn bản, tất cả đều màu đỏ.",
+          "D. Gồm một dòng văn bản, \"HTML cơ bản\" có màu đỏ."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 37,
+        "question": "Cho phần tử HTML sau\nPhương án nào sau đây là kết quả hiển thị trên trình duyệt?",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 38,
+        "question": "Phương án nào sau đây là thẻ HTML?",
+        "options": [
+          "A. align = \"center\"",
+          "B. <html>",
+          "C. <p> Nội dung</p>",
+          "D. <div> nội dung </div>"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 39,
+        "question": "Phương án nào sau đây là phần tử HTML?",
+        "options": [
+          "A. <p> Nội dung</p>",
+          "B. thuộc tính =\"giá trị\"",
+          "C. align = \"center\"",
+          "D. <html>"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 40,
+        "question": "Cho đoạn HTML sau\nKết quả hiển thị trên trình duyệt của đoạn HTML trên gồm bao nhiêu dòng văn bản?",
+        "options": [
+          "A. 3.",
+          "B. 2.",
+          "C. 4.",
+          "D. 1."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 41,
+        "question": "Cho kết quả trên trình duyệt như sau:\nHãy chọn phần tử HTML hiển thị đúng kết quả như trên.",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 42,
+        "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn thẻ HTML để được kết quả như trên.",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 43,
+        "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn phần tử HTML để được kết quả như trên.",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 44,
+        "question": "Thuộc tính định dạng của thẻ được đặt ở",
+        "options": [
+          "A. phía sau phần tên của thẻ bắt đầu.",
+          "B. phía trước phần tên của thẻ bắt đầu.",
+          "C. giữa hai thẻ \"< > \" và \"</>\".",
+          "D. phía sau phần tên của thẻ kết thúc."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 45,
+        "question": "Hãy chọn kết quả hiển thị trên trình duyệt của phần tử HTML sau:",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 46,
+        "question": "Cho đoạn HTML sau\nKết quả hiển thị trên trình duyệt của đoạn HTML trên gồm bao nhiêu dòng văn bản?",
+        "options": [
+          "A. 1.",
+          "B. 4.",
+          "C. 2.",
+          "D. 3."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 47,
+        "question": "Cho đoạn mã HTML sau:\nKết quả hiển thị có mức tiêu đề lớn nhất là",
+        "options": [
+          "A. Lớp 12A",
+          "B. Tổ 1",
+          "C. Tổ 2",
+          "D. Môn Tin học"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 48,
+        "question": "Trong các thẻ sau đây, thẻ nào dùng định dạng tiêu đề văn bản?",
+        "options": [
+          "A. <h3>",
+          "B. <span>",
+          "C. <a>",
+          "D. <p>"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 49,
+        "question": "Thuộc tính nào sau đây dùng để định dạng font chữ trong HTML?",
+        "options": [
+          "A. style=\"font-family:arial\"",
+          "B. style=\"font-size:arial\"",
+          "C. style=\"font-style:arial\"",
+          "D. style=\"font-weight:arial\""
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 50,
+        "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn phần tử HTML để được kết quả như trên.",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 51,
+        "question": "Phương án nào sau đây là thẻ cha của đoạn mã HTML sau?",
+        "options": [
+          "A. <br>",
+          "B. <a>",
+          "C. <p>",
+          "D. <u>"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 52,
+        "question": "Cho đoạn mã HTML sau:\nKết quả hiển thị có mức tiêu đề nhỏ nhất là",
+        "options": [
+          "A. Tổ 1",
+          "B. Môn Tin học",
+          "C. Tổ 2",
+          "D. Lớp 12A"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 53,
+        "question": "Thẻ <strong> có chức năng",
+        "options": [
+          "A. in đậm, ý nghĩa nhấn mạnh nội dung.",
+          "B. in nghiêng đoạn văn bản.",
+          "C. tô đậm giống như thẻ <u>.",
+          "D. gạch chân văn bản."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 54,
+        "question": "Trong các thẻ sau đây, thẻ nào dùng để định dạng đoạn văn bản?",
+        "options": [
+          "A. <p>",
+          "B. <span>",
+          "C. <a>",
+          "D. <h3>"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 55,
+        "question": "Đoạn lệnh HTML nào sau đây là đúng để hiển thị kết quả sau trên trình duyệt?\nHợp kim titan cứng nhất thế giới được tạo bằng công nghệ in 3D.",
+        "options": [
+          "A. Hợp kim <i>titan</i> cứng nhất thế giới được tạo bằng <h3>công nghệ in 3D</h3>.",
+          "B. Hợp kim <em>titan</em> cứng nhất thế giới được tạo bằng <strong>công nghệ in 3D<strong>.",
+          "C. Hợp kim <em>titan</em> cứng nhất thế giới được tạo bằng <h1>công nghệ in 3D<h1>.",
+          "D. Hợp kim <p><em>titan</em></p> cứng nhất thế giới được tạo bằng <b>công nghệ in 3D<b>."
+        ],
+        "correct": 1,
+        "explanation": ""
+      }
+    ]
+  },
+  {
+    "id": "olm-chu-de-f-bai-8-5266667968",
+    "lessonId": "5266667968",
+    "title": "OLM: Chủ đề F- Bài 8",
+    "subject": "Tin Học",
+    "grade": "Lớp 12",
+    "durationMinutes": 45,
+    "difficulty": "Luyện tập OLM",
+    "source": "OLM",
+    "teacher": null,
+    "deadline": "0",
+    "tags": [
+      "OLM",
+      "Tin Học",
+      "Lớp 12",
+      "Trắc nghiệm OLM"
+    ],
+    "description": "Bài tập trực tuyến OLM: Chủ đề F- Bài 8. Môn Tin Học - Lớp 12. Tổng số 31 câu hỏi có đáp án và lời giải chi tiết.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Cú pháp nào sau đây là thuộc tính của thẻ?",
+        "options": [
+          "A. tên_thuộc_tính=\"giá trị\".",
+          "B. giá_trị=tên_thuộc_tính.",
+          "C. tên_thuộc_tính=giá_trị.",
+          "D. giá trị=\"tên_thuộc_tính\"."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "question": "Chọn cấu trúc định dạng thuộc tính kết hợp với thẻ đúng?",
+        "options": [
+          "A. <tên thẻ> thuộc tính = “giá trị” Nội dung</tên thẻ>",
+          "B. <tên thẻ thuộc tính:“giá trị”>Nội dung</tên thẻ>",
+          "C. <tên thẻ thuộc tính = “giá trị”>Nội dung</tên thẻ>",
+          "D. <tên thẻ thuộc tính = giá trị>Nội dung</tên thẻ>"
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "question": "Ý nghĩa của thẻ <strong> khi sử dụng định dạng dòng văn bản?",
+        "options": [
+          "A. In đậm dòng văn bản.",
+          "B. Tạo dòng văn bản chỉ số trên.",
+          "C. Tạo gạch chân đoạn văn bản.",
+          "D. In nghiên dòng văn bản."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "question": "Trong html, phát biểu nào sau đây là sai về định dạng thuộc tính cho thẻ?",
+        "options": [
+          "A. Thuộc tính phải nằm trong thẻ đầu.",
+          "B. Thuộc tính của thẻ phải nằm trong thẻ kết thúc.",
+          "C. Nếu có nhiều thuộc tính định dạng một nội dung của thẻ thì các thuộc tính được viết ngăn cách bởi dấu cách.",
+          "D. Không nhất thiết tất cả các thẻ khi soạn html điều phải xác định thuộc tính."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "question": "Đoạn lệnh sau hiển thị trên trang web như thế nào?",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "question": "Cấu trúc nào sau đây dùng định dạng phông chữ cho đoạn văn bản.",
+        "options": [
+          "A. <p style = “font-size: 14px” > trường THPT Trung An </p>",
+          "B. <p style = “font-family: Brush Script MT”> trường THPT Trung An </p>",
+          "C. <p style = “color: red” >trường THPT Trung An </p>",
+          "D. <p style = “text-align: center” > trường THPT Trung An </p>"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "question": "Cho đoạn HTML trong hình bên dưới\nKết quả hiển thị có mức tiêu đề nhỏ nhất ở thẻ",
+        "options": [
+          "A. h4.",
+          "B. h2.",
+          "C. h1.",
+          "D. h3."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "question": "Trong các thẻ sau đây, phương án nào thẻ tiêu đề văn bản?",
+        "options": [
+          "A. <p>",
+          "B. <a>",
+          "C. <span>",
+          "D. <h1>"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "question": "Hãy chọn phát biểu sai khi nói về ý nghĩa của thẻ <b> và <strong>.",
+        "options": [
+          "A. Kết quả hiển thị trên trình duyệt của hai thẻ trên là hoàn toàn giống nhau.",
+          "B. Thẻ <b> dùng để nhấn mạnh, <strong> dùng để trang trí nội dung in đậm.",
+          "C. Thẻ <strong> dùng để nhấn mạnh, thẻ <b> chỉ muốn trang trí là in đậm nội dung.",
+          "D. Tùy vào mục đích sử dụng, giúp máy chủ tìm kiếm xác định các nội dung chính trong trang web."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "question": "Cho đoạn HTML sau\nHãy chọn phát biểu đúng khi nói đến kết quả hiển thị trên trình duyệt.",
+        "options": [
+          "A. Kết quả hiển thị trên trình duyệt gồm một dòng văn bản, tất cả đều màu đỏ.",
+          "B. Kết quả hiển thị gồm hai dòng văn bản, trong đó \"Học lập trình\" có màu đỏ.",
+          "C. Kết quả hiển thị gồm hai dòng văn bản.",
+          "D. Gồm một dòng văn bản, \"HTML cơ bản\" có màu đỏ."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "question": "Cho phần tử HTML sau\nPhương án nào sau đây là kết quả hiển thị trên trình duyệt?",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "question": "Phương án nào sau đây là thẻ HTML?",
+        "options": [
+          "A. <div> nội dung </div>",
+          "B. <html>",
+          "C. <p> Nội dung</p>",
+          "D. align = \"center\""
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "question": "Phương án nào sau đây là phần tử HTML?",
+        "options": [
+          "A. <p> Nội dung</p>",
+          "B. <html>",
+          "C. align = \"center\"",
+          "D. thuộc tính =\"giá trị\""
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "question": "Cho đoạn HTML sau\nKết quả hiển thị trên trình duyệt của đoạn HTML trên gồm bao nhiêu dòng văn bản?",
+        "options": [
+          "A. 4.",
+          "B. 2.",
+          "C. 1.",
+          "D. 3."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "question": "Cho kết quả trên trình duyệt như sau:\nHãy chọn phần tử HTML hiển thị đúng kết quả như trên.",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn thẻ HTML để được kết quả như trên.",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn phần tử HTML để được kết quả như trên.",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "question": "Thuộc tính định dạng của thẻ được đặt ở",
+        "options": [
+          "A. phía sau phần tên của thẻ kết thúc.",
+          "B. phía sau phần tên của thẻ bắt đầu.",
+          "C. giữa hai thẻ \"< > \" và \"</>\".",
+          "D. phía trước phần tên của thẻ bắt đầu."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "question": "Hãy chọn kết quả hiển thị trên trình duyệt của phần tử HTML sau:",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "question": "Cho đoạn HTML sau\nKết quả hiển thị trên trình duyệt của đoạn HTML trên gồm bao nhiêu dòng văn bản?",
+        "options": [
+          "A. 3.",
+          "B. 1.",
+          "C. 2.",
+          "D. 4."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "question": "Cho đoạn mã HTML sau:\nKết quả hiển thị có mức tiêu đề lớn nhất là",
+        "options": [
+          "A. Lớp 12A",
+          "B. Tổ 2",
+          "C. Tổ 1",
+          "D. Môn Tin học"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "question": "Trong các thẻ sau đây, thẻ nào dùng định dạng tiêu đề văn bản?",
+        "options": [
+          "A. <h3>",
+          "B. <p>",
+          "C. <span>",
+          "D. <a>"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "question": "Thuộc tính nào sau đây dùng để định dạng font chữ trong HTML?",
+        "options": [
+          "A. style=\"font-style:arial\"",
+          "B. style=\"font-weight:arial\"",
+          "C. style=\"font-size:arial\"",
+          "D. style=\"font-family:arial\""
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn phần tử HTML để được kết quả như trên.",
+        "options": [
+          "C. \t   D."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "question": "Phương án nào sau đây là thẻ cha của đoạn mã HTML sau?",
+        "options": [
+          "A. <u>",
+          "B. <p>",
+          "C. <br>",
+          "D. <a>"
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "question": "Cho đoạn mã HTML sau:\nKết quả hiển thị có mức tiêu đề nhỏ nhất là",
+        "options": [
+          "A. Tổ 1",
+          "B. Môn Tin học",
+          "C. Lớp 12A",
+          "D. Tổ 2"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "question": "Thẻ <strong> có chức năng",
+        "options": [
+          "A. gạch chân văn bản.",
+          "B. in đậm, ý nghĩa nhấn mạnh nội dung.",
+          "C. in nghiêng đoạn văn bản.",
+          "D. tô đậm giống như thẻ <u>."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "question": "Trong các thẻ sau đây, thẻ nào dùng để định dạng đoạn văn bản?",
+        "options": [
+          "A. <h3>",
+          "B. <a>",
+          "C. <span>",
+          "D. <p>"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 29,
+        "question": "Đoạn lệnh HTML nào sau đây là đúng để hiển thị kết quả sau trên trình duyệt?\nHợp kim titan cứng nhất thế giới được tạo bằng công nghệ in 3D.",
+        "options": [
+          "A. Hợp kim <em>titan</em> cứng nhất thế giới được tạo bằng <strong>công nghệ in 3D<strong>.",
+          "B. Hợp kim <em>titan</em> cứng nhất thế giới được tạo bằng <h1>công nghệ in 3D<h1>.",
+          "C. Hợp kim <p><em>titan</em></p> cứng nhất thế giới được tạo bằng <b>công nghệ in 3D<b>.",
+          "D. Hợp kim <i>titan</i> cứng nhất thế giới được tạo bằng <h3>công nghệ in 3D</h3>."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 30,
+        "question": "Một thầy giáo muốn đưa thông tin liên hệ của mình lên website của nhà trường với nội dung và định dạng như sau:\nTHÔNG TIN LIÊN HỆ\nHọ tên: Nguyễn Văn Long\nChức vụ: Giáo viên\nFax: 0919.29.39.49                                                                                    Điện thoại: 0919.29.39.49\nSau khi xem nội dung, các học sinh đã đưa ra các ý kiến của mình về mã HTML thầy giáo đã sử dụng để hiển thị thông tin như trên.",
+        "options": [
+          "A. Tiêu đề được in hoa, in đậm và gạch chân.",
+          "B. Đoạn mã sau cho phép căn giữa nội dung dòng tiêu đề “THÔNG TIN LIÊN HỆ”<p text-align=\"center\">THÔNG TIN LIÊN HỆ</p>",
+          "C. Để hiển thị nội dung dòng cuối cùng, sử dụng mã lệnh HTML sau: Fax: <b style=\"color:#999999\">0919.29.39.49</b>   Điện thoại: <b style=\"color:#999999\">0919.29.39.49</b>",
+          "D. Sử dụng thẻ <hr> để hiển thị dòng gạch dưới nội dung tiêu đề “THÔNG TIN LIÊN HỆ”."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 31,
+        "question": "Một học sinh đã viết đoạn mã HTML có nội dung như sau.\nMột số bạn đưa ra các phát biểu dưới đây về kết quả của đoạn mã này.",
+        "options": [
+          "A. Có một đường kẻ ngang để phân tách nội dung trong trang HTML.",
+          "B. Thuộc tính style trong đoạn mã trên được sử dụng để thiết lập định dạng cho văn bản trong thẻ <p>.",
+          "C. Cụm từ “Thảo luận” có kích thước nhỏ hơn đoạn văn “Trường THPT Nguyễn Việt Dũng”.",
+          "D. Thuộc tính style=\"color:blue\" trong thẻ <p> sẽ thay đổi màu nền của đoạn văn bản thành màu xanh dương."
+        ],
+        "correct": 0,
+        "explanation": ""
+      }
+    ]
   }
 ]
