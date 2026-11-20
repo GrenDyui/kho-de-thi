@@ -2695,17 +2695,16 @@
     "lessonId": "5326085312",
     "title": "OLM: LUYỆN TẬP CHƯƠNG 2 KHÍ LÝ TƯỞNG",
     "subject": "Vật Lý",
-    "grade": "Lớp 12",
+    "grade": 12,
     "durationMinutes": 90,
     "difficulty": "Luyện tập OLM",
     "source": "OLM",
-    "teacher": null,
+    "teacher": "Lê Thị Phượng",
     "deadline": "2026-11-22 15:25:00",
     "tags": [
       "OLM",
       "Vật Lý",
-      "Lớp 12",
-      "Trắc nghiệm OLM"
+      "GV: Lê Thị Phượng"
     ],
     "description": "Bài tập trực tuyến OLM: LUYỆN TẬP CHƯƠNG 2 KHÍ LÝ TƯỞNG. Môn Vật Lý - Lớp 12. Tổng số 81 câu hỏi có đáp án và lời giải chi tiết.",
     "questions": [
@@ -2869,7 +2868,10 @@
         "id": 14,
         "question": "Trong các hệ thức sau đây, hệ thức nào không phù hợp với định luật Boyle?",
         "options": [
-          "C.  \t   D."
+          "A. $V∼p.$",
+          "B. $p∼\\frac{1}{V}.$",
+          "C. $V∼\\frac{1}{p}.$",
+          "D. ${p}_{1}{V}_{1}={p}_{2}{V}_{2}.$"
         ],
         "correct": 0,
         "explanation": ""
@@ -2926,10 +2928,10 @@
         "id": 19,
         "question": "Hệ thức nào sau đây là của định luật Bôi-lơ?",
         "options": [
-          "A.   = hằng số.",
+          "A. = hằng số.",
           "B. pV = hằng số.",
-          "C. p12 = p21.",
-          "D.  = hằng số."
+          "C. p1 $V$ 2 = p2 $V$ 1.",
+          "D. = hằng số."
         ],
         "correct": 1,
         "explanation": ""
@@ -2972,7 +2974,7 @@
       },
       {
         "id": 23,
-        "question": "Biểu thức sau p11 = p22 biểu diễn quá trình",
+        "question": "Biểu thức sau p1 $V$ 1 = p2 $V$ 2 biểu diễn quá trình",
         "options": [
           "A. đẳng áp.",
           "B. đẳng nhiệt.",
@@ -2998,10 +3000,14 @@
         "id": 25,
         "question": "(VD) Nung nóng một lượng không khí trong điều kiện đẳng áp, người ta thấy nhiệt độ của nó tăng thêm 3 oC, thể tích tăng thêm 1%. Nhiệt độ ban đầu của lượng không khí bằng",
         "options": [
-          "A. 30 oC.",
-          "B. 25 oC.",
-          "C. 35 oC.",
-          "D. 27 oC."
+          "A. 30 o",
+          "C. ",
+          "B. 25 o",
+          "C. ",
+          "C. 35 o",
+          "C. ",
+          "D. 27 o",
+          "C. "
         ],
         "correct": 3,
         "explanation": ""
@@ -3010,18 +3016,24 @@
         "id": 26,
         "question": "Hệ thức nào sau đây không phù hợp với quá trình đẳng áp?",
         "options": [
-          "C.   hằng số.\t   D."
+          "A. $V∼T.$",
+          "B. $\\frac{{V}_{1}}{{T}_{1}}=\\frac{{V}_{2}}{{T}_{2}}.$",
+          "C. $\\frac{V}{T}=$   hằng số.",
+          "D. $V∼p.$"
         ],
-        "correct": 0,
+        "correct": 3,
         "explanation": ""
       },
       {
         "id": 27,
         "question": "Đồ thị nào sau đây phù hợp với định luật Charles?",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 1,
         "explanation": ""
       },
       {
@@ -3040,7 +3052,8 @@
         "id": 29,
         "question": "Định luật Sác lơ nói về mối liên hệ giữa hai thông số trạng thái nào dưới đây?",
         "options": [
-          "A. Áp suất p và nhiệt độ t0C.",
+          "A. Áp suất p và nhiệt độ t0",
+          "C. ",
           "B. Áp suất p và nhiệt độ tuyệt đối T(K)",
           "C. Thể tích V và nhiệt độ tuyệt đối T (K).",
           "D. Áp suất p và thể tích V."
@@ -3050,7 +3063,7 @@
       },
       {
         "id": 30,
-        "question": "Trong hệ tọa độ ( ,  ), đường biểu điễn nào sau đây là đường đẳng áp?",
+        "question": "Trong hệ tọa độ ( $V$  ,  $T$  ), đường biểu điễn nào sau đây là đường đẳng áp?",
         "options": [
           "A. Đường thẳng song song với trục tung.",
           "B. Đường thẳng kéo dài đi qua gốc tọa độ.",
@@ -3088,9 +3101,12 @@
         "id": 33,
         "question": "Người ta làm nóng đẳng áp một lượng khí lí tưởng, đại lượng nào sau đây là không đổi?",
         "options": [
-          "C.  \t   D."
+          "A. $\\frac{p}{T}.$",
+          "B. $pV.$",
+          "C. $\\frac{V}{T}.$",
+          "D. $VT.$"
         ],
-        "correct": 0,
+        "correct": 2,
         "explanation": ""
       },
       {
@@ -3121,7 +3137,10 @@
         "id": 36,
         "question": "Hệ thức nào dưới đây là phù hợp với định luật Charles?",
         "options": [
-          "C.  \t   D."
+          "A. $\\frac{{V}_{1}}{{T}_{1}}=\\frac{{V}_{2}}{{T}_{2}}.$",
+          "B. ${V}_{1}.{T}_{1}={V}_{2}.{T}_{2}.$",
+          "C. $\\frac{{p}_{1}}{{V}_{1}}=\\frac{{p}_{2}}{{V}_{2}}.$",
+          "D. ${p}_{1}{V}_{1}={p}_{2}{V}_{2}.$"
         ],
         "correct": 0,
         "explanation": ""
@@ -3250,10 +3269,10 @@
         "id": 47,
         "question": "Đồ thị biểu diễn hai đường đẳng nhiệt của cùng một lượng khí lí tưởng biểu diễn như hình vẽ. Mối quan hệ về nhiệt độ của hai đường đẳng nhiệt này là:",
         "options": [
-          "A. 2 ≤ T1",
-          "B. 2 > T1",
-          "C. 2 = T1",
-          "D. 2 < T1"
+          "A. $T$ 2 ≤ T1",
+          "B. $T$ 2 > T1",
+          "C. $T$ 2 = T1",
+          "D. $T$ 2 < T1"
         ],
         "correct": 1,
         "explanation": ""
@@ -3310,27 +3329,36 @@
         "id": 52,
         "question": "Đồ thị nào sau đây biểu diễn đúng định luật Boyle?",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 3,
         "explanation": ""
       },
       {
         "id": 53,
         "question": "Đồ thị nào dưới đây không phù hợp với quá trình đẳng nhiệt?",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 2,
         "explanation": ""
       },
       {
         "id": 54,
-        "question": "Gọi  và  là áp suất và khối lượng riêng của một khối khí ở trạng thái ban đầu;  và  là áp suất và khối lượng riêng của khối khí đó ở trạng thái sau khi nén. Coi rằng nhiệt độ của khối khí đó không thay đổi trong suốt quá trình nén, khi đó ta có hệ thức nào dưới đây?",
+        "question": "Gọi  ${p}_{1}$  và  ${D}_{1}$  là áp suất và khối lượng riêng của một khối khí ở trạng thái ban đầu;  ${p}_{2}$  và  ${D}_{2}$  là áp suất và khối lượng riêng của khối khí đó ở trạng thái sau khi nén. Coi rằng nhiệt độ của khối khí đó không thay đổi trong suốt quá trình nén, khi đó ta có hệ thức nào dưới đây?",
         "options": [
-          "C.  \t   D."
+          "A. $\\frac{{p}_{1}}{{D}_{2}}=\\frac{{p}_{2}}{{D}_{1}}$",
+          "B. ${p}_{1}{D}_{1}={p}_{2}{D}_{2}.$",
+          "C. ${p}_{1}{p}_{2}={D}_{1}{D}_{2}.$",
+          "D. $\\frac{{p}_{1}}{{p}_{2}}=\\frac{{D}_{1}}{{D}_{2}}.$"
         ],
-        "correct": 0,
+        "correct": 3,
         "explanation": ""
       },
       {
@@ -3468,187 +3496,234 @@
       {
         "id": 66,
         "question": "Trong các nhận định sau đây về cấu trúc chất khí, hãy cho biết câu nào đúng, câu nào sai?",
-        "options": [
-          "A. Chất khí chiếm toàn bộ thể tích của bình chứa",
-          "B. Chuyển động của các hạt phấn hoa trong cốc chứa nước được quan sát bằng kính hiển vi được gọi là chuyển động Brown",
-          "C. Chất khí dễ nén. Khi áp suất tác dụng lên một lượng khí tăng thì thể tích khí tăng đang kể.",
-          "D. Khoảng giữa các phân tử khí rất lớn so với kích thước của chúng do đó giữa các phân tử khí chỉ có lực hút."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Chất khí chiếm toàn bộ thể tích của bình chứa   b) Chuyển động của các hạt phấn hoa trong cốc chứa nước được quan sát bằng kính hiển vi được gọi là chuyển động Brown   c) Chất khí dễ nén. Khi áp suất tác dụng lên một lượng khí tăng thì thể tích khí tăng đang kể.   d) Khoảng giữa các phân tử khí rất lớn so với kích thước của chúng do đó giữa các phân tử khí chỉ có lực hút.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 67,
         "question": "Xét tốc độ chuyển động của phân tử và áp suất chất khí",
-        "options": [
-          "A. . # Nguyên nhân gây ra áp suất chất khí tác dụng lên thành bình là do các phân tử khí khi chuyển động hỗn loạn không ngừng đã va chạm liên tục vào thành bình và tác dụng lực lên thành bình.",
-          "B. . # Tốc độ trung bình v̅ của n phân tử khí có các tốc độ v₁, v₂, ..., vₙ được xác định bằng trung bình cộng tốc độ của các phân tử: v̅ = (v₁ + v₂ + ... + vₙ)/n.",
-          "C. Khi quan sát các hạt bụi nhỏ lơ lửng trong không khí ở cửa sổ có ánh nắng chiếu qua, ta thấy chúng chuyển động không ngừng. Chuyển động của hạt bụi này chính là chuyển động Brown dưới tác dụng va chạm của các phân tử không khí.",
-          "D. . # Ở điều kiện tiêu chuẩn (0°C và 1,01.10⁵ Pa), các phân tử khí oxygen chuyển động với tốc độ trung bình vào khoảng 400 m/s. Điều này chứng tỏ tại một thời điểm xác định, tất cả mọi phân tử khí oxygen trong bình đều chuyển động đúng với tốc độ bằng 400 m/s."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": ". # Nguyên nhân gây ra áp suất chất khí tác dụng lên thành bình là do các phân tử khí khi chuyển động hỗn loạn không ngừng đã va chạm liên tục vào thành bình và tác dụng lực lên thành bình.   b) . # Tốc độ trung bình v̅ của n phân tử khí có các tốc độ v₁, v₂, ..., vₙ được xác định bằng trung bình cộng tốc độ của các phân tử: v̅ = (v₁ + v₂ + ... + vₙ)/n.   c)  Khi quan sát các hạt bụi nhỏ lơ lửng trong không khí ở cửa sổ có ánh nắng chiếu qua, ta thấy chúng chuyển động không ngừng. Chuyển động của hạt bụi này chính là chuyển động Brown dưới tác dụng va chạm của các phân tử không khí.   d) . # Ở điều kiện tiêu chuẩn (0°C và 1,01.10⁵ Pa), các phân tử khí oxygen chuyển động với tốc độ trung bình vào khoảng 400 m/s. Điều này chứng tỏ tại một thời điểm xác định, tất cả mọi phân tử khí oxygen trong bình đều chuyển động đúng với tốc độ bằng 400 m/s.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 68,
         "question": "Theo mô hình động học phân tử chất khí và khí lí tưởng.",
-        "options": [
-          "A. . # Khí lí tưởng coi các phân tử khí là các chất điểm và bỏ qua lực tương tác giữa các phân tử khi chúng chưa va chạm.",
-          "B. . # Các chất khí tồn tại trong thực tế (khí thực như O₂, N₂, CO₂) luôn tuân theo hoàn toàn chính xác mô hình khí lí tưởng ở mọi điều kiện nhiệt độ rất thấp và áp suất rất cao.",
-          "C. . # Trong mô hình khí lí tưởng, các va chạm giữa phân tử khí với nhau và va chạm giữa phân tử khí với thành bình được coi là va chạm hoàn toàn đàn hồi.",
-          "D. . # Một khối lượng khí xác định được giữ ở nhiệt độ không đổi trong một xi-lanh kín. Bằng cách đẩy pít-tông làm giảm thể tích bình chứa đi một nửa (V₂ = V₁/2), mật độ phân tử khí (số phân tử trong một đơn vị thể tích) tăng lên gấp 2 lần. Do đó, số va chạm của các phân tử khí lên một đơn vị diện tích thành bình trong một đơn vị thời gian tăng lên gấp 2 lần, làm cho áp suất khí tác dụng lên thành bình tăng lên 2 lần."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": ". # Khí lí tưởng coi các phân tử khí là các chất điểm và bỏ qua lực tương tác giữa các phân tử khi chúng chưa va chạm.   b) . # Các chất khí tồn tại trong thực tế (khí thực như O₂, N₂, CO₂) luôn tuân theo hoàn toàn chính xác mô hình khí lí tưởng ở mọi điều kiện nhiệt độ rất thấp và áp suất rất cao.   c) . # Trong mô hình khí lí tưởng, các va chạm giữa phân tử khí với nhau và va chạm giữa phân tử khí với thành bình được coi là va chạm hoàn toàn đàn hồi.   d) . # Một khối lượng khí xác định được giữ ở nhiệt độ không đổi trong một xi-lanh kín. Bằng cách đẩy pít-tông làm giảm thể tích bình chứa đi một nửa (V₂ = V₁/2), mật độ phân tử khí (số phân tử trong một đơn vị thể tích) tăng lên gấp 2 lần. Do đó, số va chạm của các phân tử khí lên một đơn vị diện tích thành bình trong một đơn vị thời gian tăng lên gấp 2 lần, làm cho áp suất khí tác dụng lên thành bình tăng lên 2 lần.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 69,
         "question": "Trong thí nghiệm quan sát chuyển động Brown của các hạt khói lơ lửng trong không khí bằng kính hiển vi (chiếu sáng qua ống thủy tinh đựng khói)",
-        "options": [
-          "A. . #Xét cùng một chất ở thể khí và thể lỏng ở cùng điều kiện nhiệt độ và áp suất. Khối lượng riêng của nước lỏng lớn gấp khoảng 1000 lần khối lượng riêng của hơi nước, ta có thể suy ra khoảng cách trung bình giữa các phân tử ở thể khí lớn gấp khoảng 10 lần khoảng cách trung bình giữa các phân tử ở thể lỏng.",
-          "B. . # Khi chiếu sáng đun nóng không khí trong ống thủy tinh, các hạt khói chuyển động chậm lại vì khoảng cách giữa các phân tử không khí tăng lên làm lực va chạm yếu đi.",
-          "C. . # Khoảng cách trung bình giữa các phân tử chất khí rất lớn so với kích thước của chúng.",
-          "D. . # Chuyển động của các hạt khói trong không khí là chuyển động Brown."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": ". #Xét cùng một chất ở thể khí và thể lỏng ở cùng điều kiện nhiệt độ và áp suất. Khối lượng riêng của nước lỏng lớn gấp khoảng 1000 lần khối lượng riêng của hơi nước, ta có thể suy ra khoảng cách trung bình giữa các phân tử ở thể khí lớn gấp khoảng 10 lần khoảng cách trung bình giữa các phân tử ở thể lỏng.    b) . # Khi chiếu sáng đun nóng không khí trong ống thủy tinh, các hạt khói chuyển động chậm lại vì khoảng cách giữa các phân tử không khí tăng lên làm lực va chạm yếu đi.   c) . # Khoảng cách trung bình giữa các phân tử chất khí rất lớn so với kích thước của chúng.   d) . # Chuyển động của các hạt khói trong không khí là chuyển động Brown.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 70,
         "question": "Một bọt khí có thể tích 1,5 cm3 được tạo ra bởi một tàu ngầm đang lặn ở độ sâu 100 m dưới mực nước biển. Giả sử nhiệt độ của bọt khí là không đổi. Cho khối lượng riêng của nước biển là ρ = 1,00.103 kg/m3. Áp suất khí quyển là ρ0 = 1,00.105 Pa, g = 10 m/s2.",
-        "options": [
-          "A. Áp suất của bọt khí ở độ sâu 100m dưới mực nước biển là 11,0.105 Pa.",
-          "B. Khi bọt khí nổi lên mặt nước, áp suất của bọt khí nhỏ hơn áp suất khí quyển p0 = 1,00.105 Pa",
-          "C. Vì nhiệt độ của bọt khí là không đổi nên có thể áp dụng định luật Boyle đối với trạng thái ở trên mặt nước và dưới mặt nước 100 m.",
-          "D. Khi bọt khí nổi lên mặt nước thì sẽ có thể tích là 16,5 cm3."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Áp suất của bọt khí ở độ sâu 100m dưới mực nước biển là 11,0.105 Pa.   b) Khi bọt khí nổi lên mặt nước, áp suất của bọt khí nhỏ hơn áp suất khí quyển p0 = 1,00.105 Pa   c) Vì nhiệt độ của bọt khí là không đổi nên có thể áp dụng định luật Boyle đối với trạng thái ở trên mặt nước và dưới mặt nước 100 m.   d) Khi bọt khí nổi lên mặt nước thì sẽ có thể tích là 16,5 cm3.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 71,
         "question": "Một bơm tay có chiều cao  đường kính  Người ta dùng bơm này để đưa không khí vào trong săm xe đạp (ban đầu chưa có không khí). Biết thời gian mỗi lần bơm là  và áp suất bằng áp suất khí quyển bằng  trong khi bơm xem như nhiệt độ của không khí không đổi. Sau thời gian bơm là t thì săm có thể tích  và có áp suất  .",
-        "options": [
-          "A. Thể tích của mỗi lần bơm không khí vào săm xe đạp là",
-          "B. Có thể áp dụng định luật Boyle cho quá trình biến đổi trạng thái này.",
-          "C. Thể tích khí cần bơm vào săm xe là",
-          "D. Giá trị của thời gian t xấp xĩ bằng"
-        ],
-        "correct": 1,
-        "explanation": ""
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Thể tích của mỗi lần bơm không khí vào săm xe đạp là     b) Có thể áp dụng định luật Boyle cho quá trình biến đổi trạng thái này.   c) Thể tích khí cần bơm vào săm xe là     d) Giá trị của thời gian t xấp xĩ bằng",
+            "correct": false
+          }
+        ]
       },
       {
         "id": 72,
         "question": "Một khối khí khi đặt ở điều kiện nhiệt độ không đổi thì có sự biến thiên của thể tích theo áp suất như hình vẽ",
-        "options": [
-          "A. Quá trình biến đổi trạng thái của khối khí này là dãn nở đẳng nhiệt.",
-          "B. Khi áp suất khối khí có giá trị 0,50 kN/m2 thì thể tích khối khí là 4,8 m3.",
-          "C. Khi áp suất khối khí thay đổi từ 0,5 kN/m2 đến 1,5 kN/m2 thì thể tích của khối khí tăng một lượng 3,2 m3.",
-          "D. Nếu áp suất khí tăng thêm 20% so với áp suất ban đầu thì thể tích của khối khí sau khi giãn nở bằng 3,5m3"
-        ],
-        "correct": 1,
-        "explanation": ""
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Quá trình biến đổi trạng thái của khối khí này là dãn nở đẳng nhiệt.   b) Khi áp suất khối khí có giá trị 0,50 kN/m2 thì thể tích khối khí là 4,8 m3.   c) Khi áp suất khối khí thay đổi từ 0,5 kN/m2 đến 1,5 kN/m2 thì thể tích của khối khí tăng một lượng 3,2 m3.   d) Nếu áp suất khí tăng thêm 20% so với áp suất ban đầu thì thể tích của khối khí sau khi giãn nở bằng 3,5m3",
+            "correct": false
+          }
+        ]
       },
       {
         "id": 73,
         "question": "Một quả bóng có dung tích  Người ta bơm 45 lần không khí ở áp suất  vào bóng. Mỗi lần bơm được  không khí. Coi quả bóng trước khi bơm không có không khí và trong khi bơm nhiệt độ của không khí không thay đổi.",
-        "options": [
-          "A. Định luật Boyle được áp dụng cho quá trình biến đổi trạng thái này.",
-          "B. Sau 45 lần bơm thể tích không khí người ta đưa vào quả bóng là",
-          "C. Sau khi bơm cả thể tích và áp suất của không khí trong quả bóng đều thay đổi.",
-          "D. Sau 45 lần bơm áp suất cuối cùng của khối khí là"
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Định luật Boyle được áp dụng cho quá trình biến đổi trạng thái này.   b) Sau 45 lần bơm thể tích không khí người ta đưa vào quả bóng là     c) Sau khi bơm cả thể tích và áp suất của không khí trong quả bóng đều thay đổi.   d) Sau 45 lần bơm áp suất cuối cùng của khối khí là",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 74,
         "question": "Một lượng khí có thể tích 240 cm3 chứa trong một xilanh có pittong đóng kín, diện tích của đáy pit-tông là 24 cm2 (Hình vẽ). Áp suất khí trong xi lanh bằng áp suất ngoài và bằng 100 kPa. Bỏ qua ma sát giữa pit-tông và thành xilanh. Coi các quá trình xảy ra là đẳng nhiệt.",
-        "options": [
-          "A. Khi pit-tông dịch chuyển sang trái 2 cm thì thể tích khí lúc này là 288 cm3.",
-          "B. Khi pit-tông dịch chuyển sang phải 2 cm thể tích khí lúc này là 192 cm3.",
-          "C. Để dịch chuyển pit tông sang trái 2 cm cần một lực 60 N.",
-          "D. Để dịch chuyển pit-tông sang phải 2 cm cần một lực 40 N"
-        ],
-        "correct": 2,
-        "explanation": ""
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Khi pit-tông dịch chuyển sang trái 2 cm thì thể tích khí lúc này là 288 cm3.   b) Khi pit-tông dịch chuyển sang phải 2 cm thể tích khí lúc này là 192 cm3.   c) Để dịch chuyển pit tông sang trái 2 cm cần một lực 60 N.   d) Để dịch chuyển pit-tông sang phải 2 cm cần một lực 40 N",
+            "correct": false
+          }
+        ]
       },
       {
         "id": 75,
         "question": "Trong thí nghiệm minh họa định luật Charles được mô tả ở sách giáo khoa, bộ dụng cụ gồm: xi lanh thủy tinh dung tích 50 mL (có pit-tông), nhiệt kế điện tử, nút cao su bịt kín đầu ra xi lanh, các cốc thủy tinh chứa nước đá, nước ấm, nước nóng và dầu bôi trơn. Các bước thực hiện như sau:\n• Bước 1: Tra dầu bôi trơn vào pit-tông, điều chỉnh pit-tông ở mức 30 mL, bịt kín đầu ra bằng nút cao su.\n• Bước 2: Ghi nhận nhiệt độ phòng t (°C) và thể tích khí ban đầu V (mL).\n• Bước 3: Nhúng xi lanh vào các cốc nước đá, nước ấm, nước nóng. Sau mỗi khoảng thời gian 3 phút, đọc chỉ số t (°C) và V (mL).",
-        "options": [
-          "A. Trong suốt quá trình biến đổi trạng thái của lượng khí nhốt trong xi lanh, thông số trạng thái được giữ không đổi là áp suất p.",
-          "B. Thao tác tra một chút dầu bôi trơn vào pit-tông có tác dụng làm giảm ma sát giữa pit-tông và thành xi lanh, giúp pit-tông di chuyển dễ dàng để áp suất khí trong xi lanh luôn cân bằng với áp suất khí quyển bên ngoài.",
-          "C. Khi nhúng xi lanh vào các cốc nước, việc chờ khoảng 3 phút mới đọc chỉ số V và t nhằm mục đích đảm bảo khối khí trong xi lanh đạt trạng thái cân bằng nhiệt với nước trong cốc.",
-          "D. Số liệu đo ở nhiệt độ phòng thu được t1 = 24,5 °C ứng với V1 = 30 mL. Khi nhúng xi lanh vào cốc nước nóng có nhiệt độ t2 = 59,3 °C, nếu quá trình biến đổi tuân theo đúng định luật Charles thì thể tích khí V2 đo được xấp xỉ 35 mL."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Trong suốt quá trình biến đổi trạng thái của lượng khí nhốt trong xi lanh, thông số trạng thái được giữ không đổi là áp suất p.   b)  Thao tác tra một chút dầu bôi trơn vào pit-tông có tác dụng làm giảm ma sát giữa pit-tông và thành xi lanh, giúp pit-tông di chuyển dễ dàng để áp suất khí trong xi lanh luôn cân bằng với áp suất khí quyển bên ngoài.   c)  Khi nhúng xi lanh vào các cốc nước, việc chờ khoảng 3 phút mới đọc chỉ số V và t nhằm mục đích đảm bảo khối khí trong xi lanh đạt trạng thái cân bằng nhiệt với nước trong cốc.   d)  Số liệu đo ở nhiệt độ phòng thu được t1 = 24,5 °C ứng với V1 = 30 mL. Khi nhúng xi lanh vào cốc nước nóng có nhiệt độ t2 = 59,3 °C, nếu quá trình biến đổi tuân theo đúng định luật Charles thì thể tích khí V2 đo được xấp xỉ 35 mL.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 76,
         "question": "Một khối lượng khí lí tưởng xác định biến đổi trạng thái đẳng áp từ trạng thái (1) có thể tích V1 = 2 lít, nhiệt độ t1 = 27°C sang trạng thái (2) có thể tích V2 = 4 lít, nhiệt độ t2 được biểu diễn bằng đồ thị V - T như hình 1.\nHình 1.",
-        "options": [
-          "A. Trong hệ tọa độ V - T, đường đẳng áp là một đường thẳng có phương kéo dài đi qua gốc tọa độ O.",
-          "B. Dựa vào đồ thị, quá trình biến đổi từ trạng thái (1) sang trạng thái (2) là quá trình giãn nở đẳng áp, trong đó thể tích của khí tăng tỉ lệ thuận với nhiệt độ tuyệt đối T.",
-          "C. Trong hệ tọa độ V - t (thể tích V theo nhiệt độ Celsius t), đường biểu diễn quá trình đẳng áp cũng là đường thẳng kéo dài đi qua gốc tọa độ O (0°C).",
-          "D. Dựa vào số liệu trên đồ thị Hình 1, nhiệt độ t2 của khối khí ở trạng thái (2) ứng với thể tích V2 = 4 lít bằng 327°C."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Trong hệ tọa độ V - T, đường đẳng áp là một đường thẳng có phương kéo dài đi qua gốc tọa độ O.   b) Dựa vào đồ thị, quá trình biến đổi từ trạng thái (1) sang trạng thái (2) là quá trình giãn nở đẳng áp, trong đó thể tích của khí tăng tỉ lệ thuận với nhiệt độ tuyệt đối T.   c) Trong hệ tọa độ V - t (thể tích V theo nhiệt độ Celsius t), đường biểu diễn quá trình đẳng áp cũng là đường thẳng kéo dài đi qua gốc tọa độ O (0°C).   d) Dựa vào số liệu trên đồ thị Hình 1, nhiệt độ t2 của khối khí ở trạng thái (2) ứng với thể tích V2 = 4 lít bằng 327°C.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 77,
         "question": "Hai đường đẳng áp (1) và (2) của cùng một khối lượng khí lí tưởng xác định được biểu diễn trong hệ tọa độ V - T như Hình 2, ứng với các giá trị áp suất p1 và p2.\nHình 2.",
-        "options": [
-          "A. Ứng với các giá trị áp suất khác nhau của cùng một khối lượng khí xác định, ta có các đường đẳng áp khác nhau trong hệ tọa độ V - T.",
-          "B. Đường đẳng áp nằm ở phía trên (1) trong hệ tọa độ V - T ứng với giá trị áp suất lớn hơn, do đó ta có p1 > p2.",
-          "C. Khi biểu diễn hai quá trình đẳng áp này trong hệ tọa độ p - V, hai đường đẳng áp (1) và (2) trở thành hai đường thẳng song song với trục thể tích V.",
-          "D. Khối khí ở trạng thái 1 có áp suất p1 = 1 atm, thể tích V1 = 3 lít, nhiệt độ t1 = 27°C. Khối khí biến đổi đẳng áp đến trạng thái 2 có thể tích V2 = 4,5 lít; nhiệt độ t2 = 40,5°C"
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Ứng với các giá trị áp suất khác nhau của cùng một khối lượng khí xác định, ta có các đường đẳng áp khác nhau trong hệ tọa độ V - T.   b)  Đường đẳng áp nằm ở phía trên (1) trong hệ tọa độ V - T ứng với giá trị áp suất lớn hơn, do đó ta có p1 > p2.   c)  Khi biểu diễn hai quá trình đẳng áp này trong hệ tọa độ p - V, hai đường đẳng áp (1) và (2) trở thành hai đường thẳng song song với trục thể tích V.   d)  Khối khí ở trạng thái 1 có áp suất p1 = 1 atm, thể tích V1 = 3 lít, nhiệt độ t1 = 27°C. Khối khí biến đổi đẳng áp đến trạng thái 2 có thể tích V2 = 4,5 lít; nhiệt độ t2 = 40,5°C",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 78,
         "question": "Xét một khối lượng khí lí tưởng xác định biến đổi trạng thái trong điều kiện áp suất giữ không đổi.",
-        "options": [
-          "A. Quá trình biến đổi trạng thái của một khối lượng khí xác định khi áp suất giữ không đổi được gọi là quá trình đẳng áp.",
-          "B. Trong quá trình đẳng áp của một khối lượng khí xác định, thể tích V của khí tỉ lệ thuận với nhiệt độ tuyệt đối T theo hệ thức    hay   .",
-          "C. Khi đun nóng đẳng áp một khối khí lí tưởng từ nhiệt độ t1 = 27°C lên nhiệt độ t2 = 327°C, vì nhiệt độ theo thang Celsius tăng lên 12 lần nên thể tích của khối khí cũng tăng lên đúng 12 lần.",
-          "D. Ban đầu một khối khí trong xilanh ở nhiệt độ t1 = 27°C có thể tích V1 = 150 cm³. Nếu đun nóng đẳng áp khối khí đó đến khi thể tích đạt V2 = 200 cm³ thì nhiệt độ t2 của khối khí sau khi đun nóng là 127°C."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Quá trình biến đổi trạng thái của một khối lượng khí xác định khi áp suất giữ không đổi được gọi là quá trình đẳng áp.   b)  Trong quá trình đẳng áp của một khối lượng khí xác định, thể tích V của khí tỉ lệ thuận với nhiệt độ tuyệt đối T theo hệ thức  $\\frac{V}{T}=hằng số$    hay   $\\frac{{V}_{1}}{{T}_{1}}=\\frac{{V}_{2}}{{T}_{2}}$  .   c)  Khi đun nóng đẳng áp một khối khí lí tưởng từ nhiệt độ t1 = 27°C lên nhiệt độ t2 = 327°C, vì nhiệt độ theo thang Celsius tăng lên 12 lần nên thể tích của khối khí cũng tăng lên đúng 12 lần.   d)  Ban đầu một khối khí trong xilanh ở nhiệt độ t1 = 27°C có thể tích V1 = 150 cm³. Nếu đun nóng đẳng áp khối khí đó đến khi thể tích đạt V2 = 200 cm³ thì nhiệt độ t2 của khối khí sau khi đun nóng là 127°C.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 79,
         "question": "Cho một khối khí dãn nở đẳng áp từ nhiệt độ t1 = 32 0C đến nhiệt độ t2 = 117 0C, thể tích của khối khi tăng thêm 1,7 lít. Xác định thể tích khối khí sau khi dãn nở là bao nhiêu lít. (Kết quả làm tròn đến hàng phần mười)",
         "options": [
-          "A. [7,8]"
+          "Đáp số: 7,8"
         ],
         "correct": 0,
-        "explanation": "Đáp án chính xác: [7,8]"
+        "explanation": "",
+        "type": "short_answer",
+        "correctAnswer": "7,8"
       },
       {
         "id": 80,
         "question": "Ở 270C thể tích của một lượng khí là 6 lít. Khi áp suất không đổi thì thể tích của lượng khí đó ở nhiệt độ 2270C là bao nhiêu lít? (kết quả chỉ lấy phần nguyên).",
         "options": [
-          "A. [10]"
+          "Đáp số: 10"
         ],
         "correct": 0,
-        "explanation": "Đáp án chính xác: [10]"
+        "explanation": "",
+        "type": "short_answer",
+        "correctAnswer": "10"
       },
       {
         "id": 81,
         "question": "nhiệt độ  thể tích của một khối khí là 30 lít. Khi áp suất không đổi, thể tích của khí đó ở  là bao nhiêu lít? (kết quả chỉ lấy phần nguyên).",
         "options": [
-          "A. [45]"
+          "Đáp số: 45"
         ],
         "correct": 0,
-        "explanation": "Đáp án chính xác: [45]"
+        "explanation": "",
+        "type": "short_answer",
+        "correctAnswer": "45"
       }
-    ]
+    ],
+    "duration": 90,
+    "isSchool": false
   },
   {
     "id": "olm-on-kiem-tra-thuong-xuyen-lan-2-bai-7-nh-26-27-5317753412",
@@ -6035,18 +6110,16 @@
   {
     "id": "olm-luyen-tap-dia-li-dia-phuong-khoi-12-5323204448",
     "title": "OLM: LUYỆN TẬP ĐỊA LÍ ĐỊA PHƯƠNG KHỐI 12",
-    "subject": "Địa Lí",
-    "grade": "Lớp 12",
-    "duration": 50,
-    "teacher": "Bộ môn Địa Lí",
+    "subject": "Giáo Dục Địa Phương",
+    "grade": 12,
+    "duration": 45,
+    "teacher": "Đoàn Thị Diểm",
     "source": "OLM",
     "isSchool": false,
     "tags": [
       "OLM",
-      "Địa Lí",
-      "Địa lí địa phương",
-      "Khối 12",
-      "An Giang"
+      "Giáo Dục Địa Phương",
+      "Tự động trích xuất"
     ],
     "questions": [
       {
@@ -6059,13 +6132,11 @@
           "D. Nông trường, lâm trường, khu kinh tế."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Trang trại, vùng chuyên canh, vùng sản xuất nông nghiệp tập trung..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 2,
-        "question": "Loại hình trang trại chiếm số lượng chủ yếu ở khu vực Kiên Giang cũ năm 2023 là",
+        "question": "L o ạ i hình trang t r ạ i ch i ế m s ố l ư ợ ng c h ủ y ế u ở khu v ự c Kiên Giang c ũ n ă m 2023 là",
         "options": [
           "A. Trang trại chăn nuôi.",
           "B. Trang trại tổng hợp.",
@@ -6073,13 +6144,11 @@
           "D. Trang trại nuôi trồng thủy sản."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Trang trại trồng trọt..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 3,
-        "question": "Năm 2023, khu vực Kiên Giang cũ có tổng số trang trại là",
+        "question": "N ă m 2023, khu v ự c Kiên Giang c ũ có t ổ ng s ố trang t r ạ i là",
         "options": [
           "A. 899 trang trại.",
           "B. 930 trang trại.",
@@ -6087,13 +6156,11 @@
           "D. 1 062 trang trại."
         ],
         "correct": 3,
-        "explanation": "Đáp án đúng là D: 1 062 trang trại..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 4,
-        "question": "Địa phương có số lượng trang trại nhiều nhất trong các huyện được thống kê ở khu vực Kiên Giang cũ năm 2023 là",
+        "question": "Đ ị a p h ư ơ ng có s ố l ư ợ ng trang t r ạ i nh i ề u n h ấ t trong các hu y ệ n đư ợ c t h ố ng kê ở khu v ự c Kiên Giang c ũ n ă m 2023 là",
         "options": [
           "A. Kiên Lương.",
           "B. Hòn Đất.",
@@ -6101,13 +6168,11 @@
           "D. Giang Thành."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Giồng Riềng..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 5,
-        "question": "Đến năm 2020, khu vực Kiên Giang cũ đã xây dựng bao nhiêu cánh đồng lớn?",
+        "question": "Đ ế n n ă m 2020, khu v ự c Kiên Giang c ũ đ ã xây d ự ng bao nhiêu cánh đ ồ ng l ớ n?",
         "options": [
           "A. 50 cánh đồng.",
           "B. 75 cánh đồng.",
@@ -6115,13 +6180,11 @@
           "D. 125 cánh đồng."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: 100 cánh đồng..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 6,
-        "question": "Các địa phương phát triển nuôi biển tập trung của tỉnh An Giang là",
+        "question": "Các đ ị a p h ư ơ ng phát tr i ể n nuôi b i ể n t ậ p trung c ủ a t ỉ nh An Giang là",
         "options": [
           "A. Phú Quốc, Kiên Hải, Thổ Châu.",
           "B. Tân Hiệp, Giồng Riềng, Gò Quao.",
@@ -6129,13 +6192,11 @@
           "D. Châu Thành, Gò Quao, Vĩnh Thuận."
         ],
         "correct": 0,
-        "explanation": "Đáp án đúng là A: Phú Quốc, Kiên Hải, Thổ Châu..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 7,
-        "question": "Hai hình thức tổ chức lãnh thổ công nghiệp chủ yếu của tỉnh An Giang là",
+        "question": "Hai hình t h ứ c t ổ c h ứ c lãnh t h ổ công ngh i ệ p c h ủ y ế u c ủ a t ỉ nh An Giang là",
         "options": [
           "A. Khu chế xuất và khu kinh tế.",
           "B. Khu công nghiệp và cụm công nghiệp.",
@@ -6143,13 +6204,11 @@
           "D. Khu công nghệ cao và khu thương mại."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Khu công nghiệp và cụm công nghiệp..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 8,
-        "question": "Đầu năm 2024, khu vực Kiên Giang cũ có bao nhiêu cụm công nghiệp được phê duyệt quy hoạch chi tiết và giao chủ trương đầu tư?",
+        "question": "Đ ầ u n ă m 2024, khu v ự c Kiên Giang c ũ có bao nhiêu c ụ m công ngh i ệ p đư ợ c phê du y ệ t quy h o ạ ch chi t i ế t và giao c h ủ t r ư ơ ng đ ầ u t ư ?",
         "options": [
           "A. 2 cụm.",
           "B. 3 cụm.",
@@ -6157,13 +6216,11 @@
           "D. 9 cụm."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: 3 cụm..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 9,
-        "question": "Khu công nghiệp nào sau đây đã đi vào hoạt động trên địa bàn tỉnh An Giang?",
+        "question": "Khu công ngh i ệ p nào sau đ ây đ ã đ i vào h o ạ t đ ộ ng trên đ ị a bàn t ỉ nh An Giang?",
         "options": [
           "A. Khu công nghiệp Xẻo Rô.",
           "B. Khu công nghiệp Hội An.",
@@ -6171,13 +6228,11 @@
           "D. Khu công nghiệp Kiên Lương II."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Khu công nghiệp Bình Hòa..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 10,
-        "question": "Ngành nghề nào sau đây là ngành nghề đầu tư chủ yếu tại các khu công nghiệp của tỉnh An Giang?",
+        "question": "Ngành ng h ề nào sau đ ây là ngành ng h ề đ ầ u t ư c h ủ y ế u t ạ i các khu công ngh i ệ p c ủ a t ỉ nh An Giang?",
         "options": [
           "A. Khai thác than đá.",
           "B. Chế biến nông sản, thủy sản xuất khẩu.",
@@ -6185,13 +6240,11 @@
           "D. Khai thác dầu khí ngoài khơi."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Chế biến nông sản, thủy sản xuất khẩu..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 11,
-        "question": "Các hình thức tổ chức lãnh thổ nông nghiệp chủ yếu trên địa bàn tỉnh An Giang bao gồm những loại hình nào?",
+        "question": "Các hình t h ứ c t ổ c h ứ c lãnh t h ổ nông ngh i ệ p c h ủ y ế u trên đ ị a bàn t ỉ nh An Giang bao g ồ m n h ữ ng l o ạ i hình nào?",
         "options": [
           "A. Khu công nghiệp, cụm công nghiệp, khu công nghệ cao.",
           "B. Trang trại, vùng chuyên canh, vùng sản xuất nông nghiệp tập trung.",
@@ -6199,13 +6252,11 @@
           "D. Làng nghề truyền thống, trang trại tổng hợp, khu công nghệ sinh học."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Trang trại, vùng chuyên canh, vùng sản xuất nông nghiệp tập trung..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 12,
-        "question": "Hình thức tổ chức lãnh công nghiệp chủ yếu ở An Giang là",
+        "question": "Hình t h ứ c t ổ c h ứ c lãnh công ngh i ệ p c h ủ y ế u ở An Giang là",
         "options": [
           "A. vùng cây ăn quả.",
           "B. nuôi trồng và chế biến thủy sản.",
@@ -6213,13 +6264,11 @@
           "D. trang trại nuôi tôm."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: cụm công nghiệp và khu công nghiệp..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 13,
-        "question": "Ở An Giang, hình thức tổ chức nào sau đây không thuộc về tổ chức lãnh thổ nông nghiệp?",
+        "question": "Ở An Giang , hình t h ứ c t ổ c h ứ c nào sau đ ây không th u ộ c v ề t ổ c h ứ c lãnh t h ổ nông ngh i ệ p?",
         "options": [
           "A. Vùng sản xuất nông nghiệp tập trung.",
           "B. Trang trại.",
@@ -6227,13 +6276,11 @@
           "D. Vùng chuyên canh."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Khu công nghiệp..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 14,
-        "question": "Trong tổ chức lãnh thổ nông nghiệp ở An Giang, loại hình trang trại nào là chủ yếu?",
+        "question": "Trong t ổ c h ứ c lãnh t h ổ nông ngh i ệ p ở An Giang, l o ạ i hình trang t r ạ i nào là c h ủ y ế u?",
         "options": [
           "A. Nuôi trồng thuỷ sản.",
           "B. Trồng trọt.",
@@ -6241,13 +6288,11 @@
           "D. Chăn nuôi."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Trồng trọt..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 15,
-        "question": "Vai trò nào sau đây không đúng đối với hình thức tổ chức lãnh thổ nông nghiệp ở An Giang?",
+        "question": "Vai trò nào sau đ ây không đ úng đ ố i v ớ i hình t h ứ c t ổ c h ứ c lãnh t h ổ nông ngh i ệ p ở An Giang?",
         "options": [
           "A. Góp phần tăng trưởng kinh tế ngành nông nghiệp.",
           "B. Sản xuất hàng hoá tập trung.",
@@ -6255,13 +6300,11 @@
           "D. Làm gia tăng giá trị sản xuất công nghiệp."
         ],
         "correct": 3,
-        "explanation": "Đáp án đúng là D: Làm gia tăng giá trị sản xuất công nghiệp..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 16,
-        "question": "Vai trò nào sau đây không đúng đối với hình thức tổ chức lãnh thổ công nghiệp ở An Giang?",
+        "question": "Vai trò nào sau đ ây không đ úng đ ố i v ớ i hình t h ứ c t ổ c h ứ c lãnh t h ổ công ngh i ệ p ở An Giang?",
         "options": [
           "A. Góp phần tăng trưởng kinh tế ngành nông nghiệp.",
           "B. Đẩy mạnh xuất khẩu, tăng nguồn thu ngân sách.",
@@ -6269,13 +6312,11 @@
           "D. Làm gia tăng giá trị sản xuất công nghiệp, đóng góp vào GRDP."
         ],
         "correct": 0,
-        "explanation": "Đáp án đúng là A: Góp phần tăng trưởng kinh tế ngành nông nghiệp..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 17,
-        "question": "Trên địa bàn tỉnh An Giang hiện nay có tổng cộng bao nhiêu khu công nghiệp (sau khi sáp nhập)?",
+        "question": "Trên đ ị a bàn t ỉ nh An Giang h i ệ n nay có t ổ ng c ộ ng bao nhiêu khu công ngh i ệ p (sau khi sáp n h ậ p)?",
         "options": [
           "A. 8 khu công nghiệp.",
           "B. 10 khu công nghiệp.",
@@ -6283,13 +6324,11 @@
           "D. 12 khu công nghiệp."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: 11 khu công nghiệp..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 18,
-        "question": "Trong số các khu công nghiệp của tỉnh, khu công nghiệp nào có số lượng dự án và lực lượng lao động lớn nhất đã đi vào hoạt động (22.447 lao động)?",
+        "question": "Trong s ố các khu công ngh i ệ p c ủ a t ỉ nh, khu công ngh i ệ p nào có s ố l ư ợ ng d ự án và l ự c l ư ợ ng lao đ ộ ng l ớ n n h ấ t đ ã đ i vào h o ạ t đ ộ ng (22.447 lao đ ộ ng)?",
         "options": [
           "A. KCN Thạnh Lộc.",
           "B. KCN Bình Hòa.",
@@ -6297,13 +6336,11 @@
           "D. KCN Xuân Tô."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: KCN Bình Hòa..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 19,
-        "question": "Đến năm 2020, tỉnh (khu vực Kiên Giang cũ) đã xây dựng bao nhiêu \"Cánh đồng lớn\" gắn với chuỗi liên kết sản xuất – tiêu thụ lúa gạo?",
+        "question": "Đ ế n n ă m 2020, t ỉ nh (khu v ự c Kiên Giang c ũ ) đ ã xây d ự ng bao nhiêu \"Cánh đ ồ ng l ớ n\" g ắ n v ớ i ch u ỗ i liên k ế t s ả n x u ấ t – tiêu t h ụ lúa g ạ o?",
         "options": [
           "A. 50 \"Cánh đồng lớn\".",
           "B. 80 \"Cánh đồng lớn\".",
@@ -6311,13 +6348,11 @@
           "D. 120 \"Cánh đồng lớn\"."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: 100 \"Cánh đồng lớn\"..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 20,
-        "question": "Trong giai đoạn 2017–2023, doanh thu bình quân hàng năm của các doanh nghiệp trong Khu công nghiệp Thạnh Lộc đạt khoảng bao nhiêu?",
+        "question": "Trong giai đ o ạ n 201 7 – 2023, doanh thu bình quân hàng n ă m c ủ a các doanh ngh i ệ p trong Khu công ngh i ệ p T h ạ nh L ộ c đ ạ t kh o ả ng bao nhiêu?",
         "options": [
           "A. Khoảng 1.500 tỉ đồng/năm.",
           "B. Khoảng 3.200 tỉ đồng/năm.",
@@ -6325,13 +6360,11 @@
           "D. Khoảng 10.000 tỉ đồng/năm."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Khoảng 5.884 tỉ đồng/năm..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 21,
-        "question": "[Biết] Hiện tượng nào phản ánh xu hướng biến đổi khí hậu, thay vì biến động thời tiết trong thời gian ngắn?",
+        "question": "[B i ế t] H i ệ n t ư ợ ng nào p h ả n ánh xu h ư ớ ng b i ế n đ ổ i khí h ậ u, thay vì b i ế n đ ộ ng t h ờ i t i ế t trong t h ờ i gian n g ắ n?",
         "options": [
           "A. Thời tiết hôm nay nắng hơn so với thời tiết hôm qua.",
           "B. Nhiệt độ trung bình tăng lên trong một thời gian dài.",
@@ -6339,13 +6372,11 @@
           "D. Nhiệt độ buổi trưa cao hơn nhiệt độ lúc sáng sớm."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Nhiệt độ trung bình tăng lên trong một thời gian dài..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 22,
-        "question": "[Biết] Hiện tượng nào gắn với băng tan trên quy mô lớn?",
+        "question": "[B i ế t] H i ệ n t ư ợ ng nào g ắ n v ớ i b ă ng tan trên quy mô l ớ n?",
         "options": [
           "A. Mực nước ao giảm do bơm nước phục vụ tưới cây.",
           "B. Mực nước biển hạ xuống theo chu kì thủy triều.",
@@ -6353,13 +6384,11 @@
           "D. Mực nước sông tăng ngay sau một trận mưa lớn."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Mực nước biển trung bình có xu hướng dâng lên..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 23,
-        "question": "[Biết] Nhóm khí nào là khí nhà kính?",
+        "question": "[B i ế t] Nhóm khí nào là khí nhà kính?",
         "options": [
           "A. Nhóm gồm hydrogen, oxygen và nitrogen.",
           "B. Nhóm gồm oxygen, nitrogen và khí argon.",
@@ -6367,13 +6396,11 @@
           "D. Nhóm gồm helium, neon và khí argon."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Nhóm gồm carbon dioxide, methane và nitrous oxide..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 24,
-        "question": "[Biết] Nguyên nhân chủ yếu gây biến đổi khí hậu hiện nay là gì?",
+        "question": "[B i ế t] Nguyên nhân c h ủ y ế u gây b i ế n đ ổ i khí h ậ u h i ệ n nay là gì?",
         "options": [
           "A. Những biến động tự nhiên trong hoạt động núi lửa.",
           "B. Những thay đổi tự nhiên trong hoạt động của Mặt Trời.",
@@ -6381,13 +6408,11 @@
           "D. Các hoạt động của con người làm gia tăng khí nhà kính."
         ],
         "correct": 3,
-        "explanation": "Đáp án đúng là D: Các hoạt động của con người làm gia tăng khí nhà kính..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 25,
-        "question": "[Biết] Công trình khẩn cấp khắc phục hạn hán, xâm nhập mặn ven sông Cái Bé được triển khai tại địa bàn nào?",
+        "question": "[B i ế t] Công trình k h ẩ n c ấ p k h ắ c p h ụ c h ạ n hán, xâm n h ậ p m ặ n ven sông Cái Bé đư ợ c tr i ể n khai t ạ i đ ị a bàn nào?",
         "options": [
           "A. Châu Thành, khu vực ven sông Cái Bé.",
           "B. Hà Tiên, khu vực bãi biển Vịnh Thuận Yên.",
@@ -6395,13 +6420,11 @@
           "D. Hòn Đất, khu vực canh tác lúa thông minh."
         ],
         "correct": 0,
-        "explanation": "Đáp án đúng là A: Châu Thành, khu vực ven sông Cái Bé..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 26,
-        "question": "[Biết] Biểu hiện nào đang gây áp lực đến cấp nước sạch ở vùng ven biển An Giang?",
+        "question": "[B i ế t] B i ể u h i ệ n nào đ ang gây áp l ự c đ ế n c ấ p n ư ớ c s ạ ch ở vùng ven b i ể n An Giang?",
         "options": [
           "A. Nước sông tăng lên sau những đợt mưa lớn trong mùa.",
           "B. Nguồn nước biến động do nhu cầu sử dụng trong ngày.",
@@ -6409,13 +6432,11 @@
           "D. Nước mặn xâm nhập ngày càng sâu vào vùng nội địa."
         ],
         "correct": 3,
-        "explanation": "Đáp án đúng là D: Nước mặn xâm nhập ngày càng sâu vào vùng nội địa..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 27,
-        "question": "[Biết] Vào mùa khô, vùng đất thấp ven biển dễ gặp tình trạng nào?",
+        "question": "[B i ế t] Vào mùa khô, vùng đ ấ t t h ấ p ven b i ể n d ễ g ặ p tình t r ạ ng nào?",
         "options": [
           "A. Dư nguồn nước ngọt đồng thời giảm mức độ nhiễm mặn.",
           "B. Giảm nhiễm mặn do dòng nước ngọt tăng mạnh mùa khô.",
@@ -6423,13 +6444,11 @@
           "D. Ngập nước ngọt kéo dài do lượng mưa thường xuyên lớn."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Thiếu nguồn nước ngọt đồng thời gia tăng nhiễm mặn..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 28,
-        "question": "[Biết] Tuyến đê biển nào được nêu trong các công trình ứng phó biến đổi khí hậu của địa phương?",
+        "question": "[B i ế t] Tu y ế n đ ê b i ể n nào đư ợ c nêu trong các công trình ứ ng phó b i ế n đ ổ i khí h ậ u c ủ a đ ị a p h ư ơ ng?",
         "options": [
           "A. Tuyến đê biển Phú Quốc – Thổ Chu.",
           "B. Tuyến đê biển An Biên – An Minh.",
@@ -6437,13 +6456,11 @@
           "D. Tuyến đê biển Châu Thành – Gò Quao."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Tuyến đê biển An Biên – An Minh..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 29,
-        "question": "[Biết] Dự án kè chống sạt lở bãi biển Vịnh Thuận Yên gắn với địa danh nào?",
+        "question": "[B i ế t] D ự án kè c h ố ng s ạ t l ở bãi b i ể n V ị nh Th u ậ n Yên g ắ n v ớ i đ ị a danh nào?",
         "options": [
           "A. Hà Tiên.",
           "B. Châu Thành.",
@@ -6451,13 +6468,11 @@
           "D. Rạch Giá."
         ],
         "correct": 0,
-        "explanation": "Đáp án đúng là A: Hà Tiên..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 30,
-        "question": "[Biết] Dự án đường ven biển được nêu trong danh mục kêu gọi đầu tư giai đoạn 2021–2025 nằm ở đâu?",
+        "question": "[B i ế t] D ự án đư ờ ng ven b i ể n đư ợ c nêu trong danh m ụ c kêu g ọ i đ ầ u t ư giai đ o ạ n 202 1 – 2025 n ằ m ở đ âu?",
         "options": [
           "A. Phía đông đảo Phú Quốc.",
           "B. Phía tây đảo Phú Quốc.",
@@ -6465,13 +6480,11 @@
           "D. Phía bắc khu vực Gò Quao."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Phía tây đảo Phú Quốc..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 31,
-        "question": "Việc phát triển các trang trại và vùng chuyên canh có ý nghĩa chủ yếu nào đối với nông nghiệp tỉnh An Giang?",
+        "question": "V i ệ c phát tr i ể n các trang t r ạ i và vùng chuyên canh có ý ng h ĩ a c h ủ y ế u nào đ ố i v ớ i nông ngh i ệ p t ỉ nh An Giang?",
         "options": [
           "A. Làm giảm quy mô sản xuất hàng hóa.",
           "B. Thúc đẩy sản xuất tập trung, nâng cao năng suất và hiệu quả kinh tế.",
@@ -6479,13 +6492,11 @@
           "D. Làm tăng tình trạng sản xuất nhỏ lẻ, manh mún."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Thúc đẩy sản xuất tập trung, nâng cao năng suất và hiệu quả kinh tế..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Thông hiểu"
+        "explanation": ""
       },
       {
         "id": 32,
-        "question": "Việc chuyển từ nuôi tôm quảng canh sang nuôi công nghiệp, bán công nghiệp ở khu vực Tứ giác Long Xuyên chủ yếu nhằm",
+        "question": "V i ệ c chu y ể n t ừ nuôi tôm q u ả ng canh sang nuôi công ngh i ệ p, bán công ngh i ệ p ở khu v ự c T ứ giác Long Xuyên c h ủ y ế u n h ằ m",
         "options": [
           "A. Giảm khả năng ứng dụng khoa học – công nghệ.",
           "B. Mở rộng diện tích nuôi tự nhiên không kiểm soát.",
@@ -6493,13 +6504,11 @@
           "D. Hạn chế liên kết với thị trường tiêu thụ."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Nâng cao năng suất, chất lượng và hiệu quả nuôi trồng thủy sản..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Thông hiểu"
+        "explanation": ""
       },
       {
         "id": 33,
-        "question": "Các cánh đồng lớn ở khu vực Kiên Giang cũ gắn với chuỗi liên kết sản xuất – tiêu thụ lúa gạo nhằm mục đích chủ yếu nào?",
+        "question": "Các cánh đ ồ ng l ớ n ở khu v ự c Kiên Giang c ũ g ắ n v ớ i ch u ỗ i liên k ế t s ả n x u ấ t – tiêu t h ụ lúa g ạ o n h ằ m m ụ c đ ích c h ủ y ế u nào?",
         "options": [
           "A. Tăng sản xuất tự cung tự cấp.",
           "B. Giảm sự tham gia của doanh nghiệp.",
@@ -6507,13 +6516,11 @@
           "D. Hạn chế áp dụng tiến bộ khoa học – kỹ thuật."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Ổn định đầu ra và nâng cao giá trị sản phẩm lúa gạo..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Thông hiểu"
+        "explanation": ""
       },
       {
         "id": 34,
-        "question": "Vì sao các khu công nghiệp và cụm công nghiệp góp phần thúc đẩy chuyển dịch cơ cấu kinh tế của tỉnh An Giang?",
+        "question": "Vì sao các khu công ngh i ệ p và c ụ m công ngh i ệ p góp p h ầ n thúc đ ẩ y chu y ể n d ị ch c ơ c ấ u kinh t ế c ủ a t ỉ nh An Giang?",
         "options": [
           "A. Tăng tỉ trọng nông nghiệp tự cung tự cấp.",
           "B. Thu hút đầu tư, mở rộng sản xuất công nghiệp và tạo thêm việc làm.",
@@ -6521,13 +6528,11 @@
           "D. Hạn chế phát triển cơ sở hạ tầng."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Thu hút đầu tư, mở rộng sản xuất công nghiệp và tạo thêm việc làm..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Thông hiểu"
+        "explanation": ""
       },
       {
         "id": 35,
-        "question": "Việc các trang trại chăn nuôi chuyển từ quy mô nông hộ sang trang trại tập trung có tác dụng chủ yếu nào sau đây?",
+        "question": "V i ệ c các trang t r ạ i c h ă n nuôi chu y ể n t ừ quy mô nông h ộ sang trang t r ạ i t ậ p trung có tác d ụ ng c h ủ y ế u nào sau đ ây?",
         "options": [
           "A. Tăng nguy cơ dịch bệnh trong khu dân cư.",
           "B. Hạn chế khả năng kiểm soát chất thải.",
@@ -6535,13 +6540,11 @@
           "D. Làm giảm khả năng tổ chức sản xuất hàng hóa."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Thuận lợi cho ứng dụng công nghệ, kiểm soát dịch bệnh và bảo vệ môi trường..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Thông hiểu"
+        "explanation": ""
       },
       {
         "id": 36,
-        "question": "Hệ thống công trình thủy lợi nào phối hợp vận hành nhằm điều tiết mặn, ngọt hỗ trợ cho các vùng sản xuất nông nghiệp của tỉnh?",
+        "question": "H ệ t h ố ng công trình t h ủ y l ợ i nào p h ố i h ợ p v ậ n hành n h ằ m đ i ề u t i ế t m ặ n, n g ọ t h ỗ t r ợ cho các vùng s ả n x u ấ t nông ngh i ệ p c ủ a t ỉ nh?",
         "options": [
           "A. Hệ thống cống Cái Lớn – Cái Bé.",
           "B. Hệ thống kênh Thoại Hà.",
@@ -6549,13 +6552,11 @@
           "D. Hệ thống kênh Vĩnh Tế."
         ],
         "correct": 0,
-        "explanation": "Đáp án đúng là A: Hệ thống cống Cái Lớn – Cái Bé..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 37,
-        "question": "Ngành kinh tế mũi nhọn nào ở An Giang gắn liền với lợi thế sinh thái của hệ thống sông Tiền và sông Hậu, tạo nên các vùng nuôi trồng thủy sản tập trung lớn (đặc biệt là cá tra)?",
+        "question": "Ngành kinh t ế m ũ i n h ọ n nào ở An Giang g ắ n l i ề n v ớ i l ợ i t h ế sinh thái c ủ a h ệ t h ố ng sông T i ề n và sông H ậ u, t ạ o nên các vùng nuôi t r ồ ng t h ủ y s ả n t ậ p trung l ớ n ( đ ặ c b i ệ t là cá tra)?",
         "options": [
           "A. Du lịch sinh thái.",
           "B. Khai thác khoáng sản kim loại và vật liệu xây dựng sâu.",
@@ -6563,13 +6564,11 @@
           "D. Nuôi trồng và chế biến thủy sản xuất khẩu."
         ],
         "correct": 3,
-        "explanation": "Đáp án đúng là D: Nuôi trồng và chế biến thủy sản xuất khẩu..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 38,
-        "question": "Hình thức tổ chức lãnh thổ nông nghiệp nào góp phần quan trọng trong việc chuyển từ sản xuất nhỏ lẻ, manh mún sang sản xuất hàng hóa tập trung?",
+        "question": "Hình t h ứ c t ổ c h ứ c lãnh t h ổ nông ngh i ệ p nào góp p h ầ n quan t r ọ ng trong v i ệ c chu y ể n t ừ s ả n x u ấ t n h ỏ l ẻ , manh mún sang s ả n x u ấ t hàng hóa t ậ p trung?",
         "options": [
           "A. Hộ gia đình tự túc.",
           "B. Trang trại, vùng chuyên canh, vùng sản xuất nông nghiệp tập trung.",
@@ -6577,13 +6576,11 @@
           "D. Khai thác tự nhiên."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Trang trại, vùng chuyên canh, vùng sản xuất nông nghiệp tập trung..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 39,
-        "question": "Định hướng phát triển vùng chăn nuôi tập trung tại vùng Tứ giác Long Xuyên ưu tiên những đối tượng và mô hình nào?",
+        "question": "Đ ị nh h ư ớ ng phát tr i ể n vùng c h ă n nuôi t ậ p trung t ạ i vùng T ứ giác Long Xuyên ư u tiên n h ữ ng đ ố i t ư ợ ng và mô hình nào?",
         "options": [
           "A. Chăn nuôi gia cầm quy mô nông hộ nhỏ lẻ.",
           "B. Trang trại vừa và lớn, hợp tác xã chăn nuôi trâu, bò, heo, gà, vịt.",
@@ -6591,13 +6588,11 @@
           "D. Trang trại chuyên nuôi chim yến lấy tổ."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Trang trại vừa và lớn, hợp tác xã chăn nuôi trâu, bò, heo, gà, vịt..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 40,
-        "question": "Mô hình trang trại nuôi tôm công nghiệp – bán công nghiệp tập trung phát triển mạnh chủ yếu ở vùng nào trên địa bàn tỉnh?",
+        "question": "Mô hình trang t r ạ i nuôi tôm công ngh i ệ p – bán công ngh i ệ p t ậ p trung phát tr i ể n m ạ nh c h ủ y ế u ở vùng nào trên đ ị a bàn t ỉ nh?",
         "options": [
           "A. Vùng bán đảo Cà Mau.",
           "B. Vùng Tây Sông Hậu.",
@@ -6605,13 +6600,11 @@
           "D. Đồng Tháp Mười."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Vùng Tứ giác Long Xuyên..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 41,
-        "question": "Theo định hướng phát triển, vùng sản xuất lúa hữu cơ tập trung chủ yếu ở những khu vực nào? (",
+        "question": "Theo đ ị nh h ư ớ ng phát tr i ể n, vùng s ả n x u ấ t lúa h ữ u c ơ t ậ p trung c h ủ y ế u ở n h ữ ng khu v ự c nào? (",
         "options": [
           "A. Châu Thành, Rạch Giá, Phú Quốc",
           "B. An Minh, An Biên, Vĩnh Thuận, U Minh Thượng, Gò Quao, Hòn Đất.",
@@ -6619,13 +6612,11 @@
           "D. Giang Thành, Tân Hiệp, Châu Thành."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: An Minh, An Biên, Vĩnh Thuận, U Minh Thượng, Gò Quao, Hòn Đất..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 42,
-        "question": "[Hiểu] Vì sao hoạt động sản xuất, xả thải có thể góp phần gây biến đổi khí hậu?",
+        "question": "[H i ể u] Vì sao h o ạ t đ ộ ng s ả n x u ấ t, x ả t h ả i có t h ể góp p h ầ n gây b i ế n đ ổ i khí h ậ u?",
         "options": [
           "A. Gia tăng khí nhà kính làm nhiệt độ không khí tăng lên.",
           "B. Gia tăng khí nhà kính làm giảm khả năng giữ nhiệt khí quyển.",
@@ -6633,13 +6624,11 @@
           "D. Phát thải khí nhà kính chủ yếu làm thay đổi hướng dòng sông."
         ],
         "correct": 0,
-        "explanation": "Đáp án đúng là A: Gia tăng khí nhà kính làm nhiệt độ không khí tăng lên..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 43,
-        "question": "[Hiểu] Chế độ mưa biến động thất thường gây tác động nào đến tài nguyên nước?",
+        "question": "[H i ể u] C h ế đ ộ m ư a b i ế n đ ộ ng t h ấ t t h ư ờ ng gây tác đ ộ ng nào đ ế n tài nguyên n ư ớ c?",
         "options": [
           "A. Giúp nước mặn rút dần khỏi mọi khu vực ven biển.",
           "B. Giúp lượng nước ngọt phân bố ổn định giữa các mùa.",
@@ -6647,13 +6636,11 @@
           "D. Làm lượng nước ngầm tăng đều trong suốt cả năm."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Gia tăng nguy cơ lũ mùa mưa và thiếu nước mùa khô..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 44,
-        "question": "[Hiểu] Vì sao xâm nhập mặn ảnh hưởng đến nông nghiệp vùng thấp ven biển?",
+        "question": "[H i ể u] Vì sao xâm n h ậ p m ặ n ả nh h ư ở ng đ ế n nông ngh i ệ p vùng t h ấ p ven b i ể n?",
         "options": [
           "A. Làm tăng nguồn nước ngọt dùng cho tưới trong mùa khô.",
           "B. Giúp các giống cây nước ngọt thích nghi ngay với mặn.",
@@ -6661,13 +6648,11 @@
           "D. Gây thiếu nước ngọt và nhiễm mặn đất sản xuất."
         ],
         "correct": 3,
-        "explanation": "Đáp án đúng là D: Gây thiếu nước ngọt và nhiễm mặn đất sản xuất..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 45,
-        "question": "[Hiểu] Khô hạn kéo dài ảnh hưởng đến đa dạng sinh học rừng tràm như thế nào?",
+        "question": "[H i ể u] Khô h ạ n kéo dài ả nh h ư ở ng đ ế n đ a d ạ ng sinh h ọ c r ừ ng tràm n h ư t h ế nào?",
         "options": [
           "A. Tăng nguy cơ cháy rừng, làm mất nơi sống của sinh vật.",
           "B. Chủ yếu làm tăng diện tích đất ngập nước quanh năm.",
@@ -6675,13 +6660,11 @@
           "D. Chủ yếu làm tăng nguồn giống thủy sản trong rừng."
         ],
         "correct": 0,
-        "explanation": "Đáp án đúng là A: Tăng nguy cơ cháy rừng, làm mất nơi sống của sinh vật..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 46,
-        "question": "[Hiểu] Nước mặn xâm nhập ảnh hưởng đến nguồn lợi thủy sản nước ngọt như thế nào?",
+        "question": "[H i ể u] N ư ớ c m ặ n xâm n h ậ p ả nh h ư ở ng đ ế n ng u ồ n l ợ i t h ủ y s ả n n ư ớ c n g ọ t n h ư t h ế nào?",
         "options": [
           "A. Tăng lượng giống tự nhiên của mọi loài trong khu vực.",
           "B. Mở rộng nơi sống thích hợp của các loài nước ngọt.",
@@ -6689,13 +6672,11 @@
           "D. Thu hẹp nơi sống và làm giảm nguồn giống tự nhiên."
         ],
         "correct": 3,
-        "explanation": "Đáp án đúng là D: Thu hẹp nơi sống và làm giảm nguồn giống tự nhiên..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 47,
-        "question": "[Hiểu] Vì sao cần nâng cấp hệ thống thoát nước tại đô thị ven biển?",
+        "question": "[H i ể u] Vì sao c ầ n nâng c ấ p h ệ t h ố ng thoát n ư ớ c t ạ i đ ô t h ị ven b i ể n?",
         "options": [
           "A. Giảm tình trạng ngập lụt và cải thiện khả năng thoát nước.",
           "B. Trực tiếp làm giảm lượng khí nhà kính của các nhà máy.",
@@ -6703,13 +6684,11 @@
           "D. Trực tiếp làm giảm cường độ bão ngoài vùng biển xa."
         ],
         "correct": 0,
-        "explanation": "Đáp án đúng là A: Giảm tình trạng ngập lụt và cải thiện khả năng thoát nước..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 48,
-        "question": "[Hiểu] Khôi phục rừng phòng hộ ven biển góp phần ứng phó với tác động nào?",
+        "question": "[H i ể u] Khôi p h ụ c r ừ ng phòng h ộ ven b i ể n góp p h ầ n ứ ng phó v ớ i tác đ ộ ng nào?",
         "options": [
           "A. Hạn chế tác động của sóng và tình trạng xói lở bờ biển.",
           "B. Trực tiếp điều chỉnh lượng mưa theo nhu cầu cây trồng.",
@@ -6717,13 +6696,11 @@
           "D. Trực tiếp ngăn toàn bộ khí thải từ các khu công nghiệp."
         ],
         "correct": 0,
-        "explanation": "Đáp án đúng là A: Hạn chế tác động của sóng và tình trạng xói lở bờ biển..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 49,
-        "question": "[Hiểu] Một vùng ven biển có nước mặn theo mùa, trong khi sản xuất lúa cần nước ngọt. Địa phương đề xuất luân canh lúa – tôm. Cơ sở thích ứng của mô hình này là gì?",
+        "question": "[H i ể u] M ộ t vùng ven b i ể n có n ư ớ c m ặ n theo mùa, trong khi s ả n x u ấ t lúa c ầ n n ư ớ c n g ọ t. Đ ị a p h ư ơ ng đ ề x u ấ t luân canh lúa – tôm. C ơ s ở thích ứ ng c ủ a mô hình này là gì?",
         "options": [
           "A. Giảm vai trò của việc theo dõi nguồn nước trong sản xuất.",
           "B. Duy trì cùng một hoạt động sản xuất khi độ mặn thay đổi.",
@@ -6731,13 +6708,11 @@
           "D. Bố trí cơ cấu sản xuất phù hợp biến động nguồn nước theo mùa."
         ],
         "correct": 3,
-        "explanation": "Đáp án đúng là D: Bố trí cơ cấu sản xuất phù hợp biến động nguồn nước theo mùa..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 50,
-        "question": "[Hiểu] Việc xây khu neo đậu tránh trú bão có ý nghĩa nào?",
+        "question": "[H i ể u] V i ệ c xây khu neo đ ậ u tránh trú bão có ý ng h ĩ a nào?",
         "options": [
           "A. Trực tiếp ngăn nước mặn xâm nhập vào đồng ruộng.",
           "B. Tạo nơi trú tránh, giảm rủi ro cho tàu thuyền khi có bão.",
@@ -6745,13 +6720,11 @@
           "D. Trực tiếp giảm nguy cơ cháy rừng vào mùa khô."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Tạo nơi trú tránh, giảm rủi ro cho tàu thuyền khi có bão..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 51,
-        "question": "Một địa phương thuộc vùng Tứ giác Long Xuyên có điều kiện thuận lợi để phát triển chăn nuôi trâu, bò, heo và gia cầm. Hình thức tổ chức sản xuất phù hợp nhất là",
+        "question": "M ộ t đ ị a p h ư ơ ng th u ộ c vùng T ứ giác Long Xuyên có đ i ề u k i ệ n th u ậ n l ợ i đ ể phát tr i ể n c h ă n nuôi trâu, bò, heo và gia c ầ m. Hình t h ứ c t ổ c h ứ c s ả n x u ấ t phù h ợ p n h ấ t là",
         "options": [
           "A. Chăn nuôi nhỏ lẻ trong khu dân cư.",
           "B. Phát triển trang trại chăn nuôi tập trung quy mô vừa và lớn.",
@@ -6759,13 +6732,11 @@
           "D. Không cần liên kết giữa các cơ sở chăn nuôi."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Phát triển trang trại chăn nuôi tập trung quy mô vừa và lớn..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Vận dụng"
+        "explanation": ""
       },
       {
         "id": 52,
-        "question": "Một trang trại nuôi tôm ở tỉnh An Giang muốn nâng cao chất lượng sản phẩm và mở rộng thị trường xuất khẩu. Giải pháp phù hợp nhất là",
+        "question": "M ộ t trang t r ạ i nuôi tôm ở t ỉ nh An Giang m u ố n nâng cao c h ấ t l ư ợ ng s ả n p h ẩ m và m ở r ộ ng t h ị t r ư ờ ng x u ấ t k h ẩ u. G i ả i pháp phù h ợ p n h ấ t là",
         "options": [
           "A. Tiếp tục nuôi theo phương thức truyền thống, không kiểm soát chất lượng.",
           "B. Tăng mật độ nuôi nhưng không đầu tư xử lí môi trường.",
@@ -6773,13 +6744,11 @@
           "D. Chỉ tập trung tăng sản lượng, không quan tâm đến chất lượng."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Áp dụng quy trình VietGAP, GlobalGAP hoặc tiêu chuẩn ASC..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Vận dụng"
+        "explanation": ""
       },
       {
         "id": 53,
-        "question": "Một địa phương có thế mạnh về sản xuất lúa gạo và nguồn nguyên liệu nông sản dồi dào. Ngành nghề nào sau đây phù hợp nhất để ưu tiên thu hút đầu tư vào cụm công nghiệp?",
+        "question": "M ộ t đ ị a p h ư ơ ng có t h ế m ạ nh v ề s ả n x u ấ t lúa g ạ o và ng u ồ n nguyên l i ệ u nông s ả n d ồ i dào. Ngành ng h ề nào sau đ ây phù h ợ p n h ấ t đ ể ư u tiên thu hút đ ầ u t ư vào c ụ m công ngh i ệ p?",
         "options": [
           "A. Chế biến lương thực, thực phẩm và nông sản.",
           "B. Khai thác than đá.",
@@ -6787,13 +6756,11 @@
           "D. Khai thác dầu khí."
         ],
         "correct": 0,
-        "explanation": "Đáp án đúng là A: Chế biến lương thực, thực phẩm và nông sản..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Vận dụng"
+        "explanation": ""
       },
       {
         "id": 54,
-        "question": "Một trang trại chăn nuôi heo ở An Giang đang gây ô nhiễm môi trường do chất thải chưa được xử lí. Giải pháp phù hợp nhất là",
+        "question": "M ộ t trang t r ạ i c h ă n nuôi heo ở An Giang đ ang gây ô nh i ễ m môi t r ư ờ ng do c h ấ t t h ả i c h ư a đư ợ c x ử lí. G i ả i pháp phù h ợ p n h ấ t là",
         "options": [
           "A. Tiếp tục mở rộng đàn vật nuôi.",
           "B. Xả trực tiếp nước thải ra môi trường.",
@@ -6801,13 +6768,11 @@
           "D. Chuyển chất thải sang khu dân cư lân cận."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Đầu tư hệ thống xử lí chất thải rắn, nước thải và mùi hôi..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Vận dụng"
+        "explanation": ""
       },
       {
         "id": 55,
-        "question": "Để phát triển khu công nghiệp bền vững, đồng thời nâng cao chất lượng cuộc sống của người dân, tỉnh An Giang cần ưu tiên giải pháp nào?",
+        "question": "Đ ể phát tr i ể n khu công ngh i ệ p b ề n v ữ ng, đ ồ ng t h ờ i nâng cao c h ấ t l ư ợ ng c u ộ c s ố ng c ủ a n g ư ờ i dân, t ỉ nh An Giang c ầ n ư u tiên g i ả i pháp nào?",
         "options": [
           "A. Thu hút đầu tư bằng mọi giá, không quan tâm đến môi trường.",
           "B. Phát triển công nghiệp gắn với xử lí chất thải, bảo vệ môi trường và chăm lo đời sống người lao động.",
@@ -6815,13 +6780,11 @@
           "D. Hạn chế đào tạo nghề cho người lao động địa phương."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Phát triển công nghiệp gắn với xử lí chất thải, bảo vệ môi trường và chăm lo đời sống người lao động..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Vận dụng"
+        "explanation": ""
       },
       {
         "id": 56,
-        "question": "Hình thức tổ chức lãnh thổ nông nghiệp nào đang đóng vai trò chủ đạo trong việc nâng cao giá trị gia tăng và sức cạnh tranh cho mặt hàng lúa gạo ở An Giang? (VD)",
+        "question": "Hình t h ứ c t ổ c h ứ c lãnh t h ổ nông ngh i ệ p nào đ ang đ óng vai trò c h ủ đ ạ o trong v i ệ c nâng cao giá t r ị gia t ă ng và s ứ c c ạ nh tranh cho m ặ t hàng lúa g ạ o ở An Giang? (VD)",
         "options": [
           "A. Các trang trại chăn nuôi gia súc quy mô nhỏ mang tính tự cung tự cấp.",
           "B. Khu công nghệ sinh học tập trung chuyên nghiên cứu cây lâm nghiệp.",
@@ -6829,13 +6792,11 @@
           "D. Mô hình cánh đồng lớn (cánh đồng mẫu lớn) gắn với liên kết chuỗi giá trị."
         ],
         "correct": 3,
-        "explanation": "Đáp án đúng là D: Mô hình cánh đồng lớn (cánh đồng mẫu lớn) gắn với liên kết chuỗi giá trị..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 57,
-        "question": "Định hướng nuôi trồng thủy sản theo vùng sinh thái và thích ứng với biến đổi khí hậu trên địa bàn tỉnh không bao gồm loại hình nào sau đây? (VD)",
+        "question": "Đ ị nh h ư ớ ng nuôi t r ồ ng t h ủ y s ả n theo vùng sinh thái và thích ứ ng v ớ i b i ế n đ ổ i khí h ậ u trên đ ị a bàn t ỉ nh không bao g ồ m l o ạ i hình nào sau đ ây? (VD)",
         "options": [
           "A. Nuôi tôm nước lợ và nuôi cua biển.",
           "B. Nuôi nhuyễn thể và nuôi thủy sản lồng bè.",
@@ -6843,13 +6804,11 @@
           "D. Nuôi cá hồi, cá tầm nước lạnh vùng núi cao."
         ],
         "correct": 3,
-        "explanation": "Đáp án đúng là D: Nuôi cá hồi, cá tầm nước lạnh vùng núi cao..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 58,
-        "question": "Khó khăn lớn nhất trong việc tổ chức lãnh thổ nông nghiệp tại An Giang dưới tác động của biến đổi khí hậu toàn cầu là gì? (VD)",
+        "question": "Khó k h ă n l ớ n n h ấ t trong v i ệ c t ổ c h ứ c lãnh t h ổ nông ngh i ệ p t ạ i An Giang d ư ớ i tác đ ộ ng c ủ a b i ế n đ ổ i khí h ậ u toàn c ầ u là gì? (VD)",
         "options": [
           "A. Đất đai bị nhiễm mặn nặng nề trong tỉnh suốt quanh năm.",
           "B. Đất đai bị nhiễm phèn nặng nề trong tỉnh suốt quanh năm.",
@@ -6857,13 +6816,11 @@
           "D. Tình trạng hạn hán, thiếu nước ngọt, ngập lụt và xâm nhập mặn."
         ],
         "correct": 3,
-        "explanation": "Đáp án đúng là D: Tình trạng hạn hán, thiếu nước ngọt, ngập lụt và xâm nhập mặn..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 59,
-        "question": "Các hình thức tổ chức lãnh thổ nông nghiệp và công nghiệp mang lại ý nghĩa kinh tế quan trọng nào cho tỉnh An Giang? (VD)",
+        "question": "Các hình t h ứ c t ổ c h ứ c lãnh t h ổ nông ngh i ệ p và công ngh i ệ p mang l ạ i ý ng h ĩ a kinh t ế quan t r ọ ng nào cho t ỉ nh An Giang? (VD)",
         "options": [
           "A. Thúc đẩy chuyển dịch cơ cấu kinh tế, tăng giá trị hàng hóa và giải quyết việc làm.",
           "B. Thay thế hoàn toàn sản xuất nông nghiệp bằng sản xuất công nghiệp nặng.",
@@ -6871,13 +6828,11 @@
           "D. Tập trung toàn bộ lực lượng lao động vào khu vực thành thị."
         ],
         "correct": 0,
-        "explanation": "Đáp án đúng là A: Thúc đẩy chuyển dịch cơ cấu kinh tế, tăng giá trị hàng hóa và giải quyết việc làm..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 60,
-        "question": "[Vận dụng] Một hộ ven biển có đất nhiễm mặn vào mùa khô, nguồn nước ngọt thuận lợi hơn vào mùa mưa. Hộ muốn điều chỉnh sản xuất theo điều kiện thực tế. Phương án nào phù hợp nhất?",
+        "question": "[ V ậ n d ụ ng] M ộ t h ộ ven b i ể n có đ ấ t nh i ễ m m ặ n vào mùa khô, ng u ồ n n ư ớ c n g ọ t th u ậ n l ợ i h ơ n vào mùa m ư a. H ộ m u ố n đ i ề u c h ỉ nh s ả n x u ấ t theo đ i ề u k i ệ n t h ự c t ế . P h ư ơ ng án nào phù h ợ p n h ấ t?",
         "options": [
           "A. Mở rộng nuôi cá nước ngọt khi nguồn nước mặn kéo dài.",
           "B. Dùng một giống lúa và giữ lịch gieo trồng cho mọi điều kiện.",
@@ -6885,13 +6840,11 @@
           "D. Tăng thêm vụ lúa cần nhiều nước ngọt trong mùa nhiễm mặn."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Luân canh lúa – tôm theo độ mặn và nguồn nước từng mùa..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 61,
-        "question": "[Vận dụng] Một đoạn bờ biển bị xói lở, rừng ngập mặn suy giảm khiến sinh kế ven bờ bị ảnh hưởng. Giải pháp sinh thái nào phù hợp nhất để giảm tác động này?",
+        "question": "[ V ậ n d ụ ng] M ộ t đ o ạ n b ờ b i ể n b ị xói l ở , r ừ ng n g ậ p m ặ n suy g i ả m kh i ế n sinh k ế ven b ờ b ị ả nh h ư ở ng. G i ả i pháp sinh thái nào phù h ợ p n h ấ t đ ể g i ả m tác đ ộ ng này?",
         "options": [
           "A. Bổ sung biển giới thiệu về giá trị du lịch của vùng ven biển.",
           "B. Cải tạo hệ thống thoát nước mưa tại các khu đô thị nội địa.",
@@ -6899,13 +6852,11 @@
           "D. Trồng cây cảnh dọc các tuyến đường ở trung tâm khu dân cư."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Khôi phục rừng phòng hộ tại khu vực ven biển bị suy giảm..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 62,
-        "question": "[Vận dụng] Sau các trận mưa lớn, một khu dân cư ven biển thường xuyên ngập do hệ thống thoát nước hoạt động kém. Nguồn lực trước mắt cần ưu tiên cho giải pháp nào?",
+        "question": "[ V ậ n d ụ ng] Sau các t r ậ n m ư a l ớ n, m ộ t khu dân c ư ven b i ể n t h ư ờ ng xuyên n g ậ p do h ệ t h ố ng thoát n ư ớ c h o ạ t đ ộ ng kém. Ng u ồ n l ự c t r ư ớ c m ắ t c ầ n ư u tiên cho g i ả i pháp nào?",
         "options": [
           "A. Nâng cấp khu neo đậu tàu cá nằm cách xa điểm ngập.",
           "B. Nâng cấp hệ thống để cải thiện khả năng tiêu thoát nước.",
@@ -6913,13 +6864,11 @@
           "D. Mở rộng diện tích cây xanh ở khu đất ngoài vùng dân cư."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Nâng cấp hệ thống để cải thiện khả năng tiêu thoát nước..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 63,
-        "question": "[Vận dụng] Nhóm học sinh thực hiện dự án tìm hiểu sinh kế thích ứng tại An Biên. Đối tượng khảo sát nào phù hợp?",
+        "question": "[ V ậ n d ụ ng] Nhóm h ọ c sinh t h ự c h i ệ n d ự án tìm h i ể u sinh k ế thích ứ ng t ạ i An Biên. Đ ố i t ư ợ ng k h ả o sát nào phù h ợ p?",
         "options": [
           "A. Khảo sát cơ sở lưu trú về cách bố trí phòng cho du khách.",
           "B. Khảo sát cửa hàng vật tư về cách trưng bày hàng hóa.",
@@ -6927,13 +6876,11 @@
           "D. Khảo sát hộ chuyên trồng lúa nước ngọt không xét độ mặn."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Khảo sát hộ áp dụng mô hình tôm – lúa thích ứng nguồn nước..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 64,
-        "question": "[Vận dụng] Một nhóm lập dự án nhưng các thành viên chưa biết phải làm gì. Nhóm cần bổ sung nội dung nào?",
+        "question": "[ V ậ n d ụ ng] M ộ t nhóm l ậ p d ự án n h ư ng các thành viên c h ư a b i ế t p h ả i làm gì. Nhóm c ầ n b ổ sung n ộ i dung nào?",
         "options": [
           "A. Tăng số trang giới thiệu chung về nhóm thực hiện.",
           "B. Bổ sung ảnh trang trí cho phần mở đầu của bản kế hoạch.",
@@ -6941,13 +6888,11 @@
           "D. Thống nhất màu bìa của sản phẩm báo cáo cuối dự án."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Giao nhiệm vụ cụ thể cho từng thành viên trong nhóm..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 65,
-        "question": "[Vận dụng] Sau khi khảo sát mô hình thích ứng với hạn mặn, nhóm học sinh cần làm gì để hoàn tất dự án?",
+        "question": "[ V ậ n d ụ ng] Sau khi k h ả o sát mô hình thích ứ ng v ớ i h ạ n m ặ n, nhóm h ọ c sinh c ầ n làm gì đ ể hoàn t ấ t d ự án?",
         "options": [
           "A. Kể lại lịch trình đi thực tế của các thành viên nhóm.",
           "B. Tổng hợp dữ liệu, phân tích và báo cáo kết quả khảo sát.",
@@ -6955,13 +6900,11 @@
           "D. Lưu lại ảnh chụp mà chưa tổng hợp nội dung khảo sát."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Tổng hợp dữ liệu, phân tích và báo cáo kết quả khảo sát..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 66,
-        "question": "[Vận dụng] Một xã ven biển thiếu nước sạch vào mùa khô do xâm nhập mặn. Khi lựa chọn công trình ứng phó, phương án nào đáp ứng trực tiếp nhu cầu của người dân?",
+        "question": "[ V ậ n d ụ ng] M ộ t xã ven b i ể n th i ế u n ư ớ c s ạ ch vào mùa khô do xâm n h ậ p m ặ n. Khi l ự a c h ọ n công trình ứ ng phó, p h ư ơ ng án nào đ áp ứ ng t r ự c t i ế p nhu c ầ u c ủ a n g ư ờ i dân?",
         "options": [
           "A. Tăng khả năng thoát nước mưa tại các tuyến đường chính.",
           "B. Nâng cấp khu neo đậu tránh trú bão dành cho tàu đánh cá.",
@@ -6969,13 +6912,11 @@
           "D. Mở rộng các tuyến giao thông đến điểm du lịch ven biển."
         ],
         "correct": 2,
-        "explanation": "Đáp án đúng là C: Bảo đảm cấp nước sạch kết hợp kiểm soát xâm nhập mặn..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 67,
-        "question": "[Vận dụng] Nhóm học sinh muốn góp phần ứng phó biến đổi khí hậu bằng hành động thực tế tại trường. Hoạt động nào phù hợp nhất?",
+        "question": "[ V ậ n d ụ ng] Nhóm h ọ c sinh m u ố n góp p h ầ n ứ ng phó b i ế n đ ổ i khí h ậ u b ằ ng hành đ ộ ng t h ự c t ế t ạ i t r ư ờ ng. H o ạ t đ ộ ng nào phù h ợ p n h ấ t?",
         "options": [
           "A. Trang trí lớp học bằng những hình ảnh thiên nhiên.",
           "B. Thống kê số phòng học và bàn ghế trong trường.",
@@ -6983,13 +6924,11 @@
           "D. Trồng, chăm sóc cây xanh kết hợp tái chế vật liệu."
         ],
         "correct": 3,
-        "explanation": "Đáp án đúng là D: Trồng, chăm sóc cây xanh kết hợp tái chế vật liệu..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 68,
-        "question": "[Vận dụng] Tổng lượng mưa ở Rạch Giá năm 2019 là 2 403,3 mm, năm 2020 là 2 391,5 mm. Năm 2020 giảm bao nhiêu so với 2019?",
+        "question": "[ V ậ n d ụ ng] T ổ ng l ư ợ ng m ư a ở R ạ ch Giá n ă m 2019 là 2 403,3 mm, n ă m 2020 là 2 391,5 mm. N ă m 2020 g i ả m bao nhiêu so v ớ i 2019?",
         "options": [
           "A. 11,8 mm.",
           "B. 1,18 mm.",
@@ -6997,13 +6936,11 @@
           "D. 118,0 mm."
         ],
         "correct": 0,
-        "explanation": "Đáp án đúng là A: 11,8 mm..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 69,
-        "question": "[Vận dụng] Nhóm học sinh thiết kế tờ rơi cho xã thường thiếu nước ngọt khi mùa khô có xâm nhập mặn. Thông điệp nào định hướng hành động phù hợp nhất?",
+        "question": "[ V ậ n d ụ ng] Nhóm h ọ c sinh th i ế t k ế t ờ r ơ i cho xã t h ư ờ ng th i ế u n ư ớ c n g ọ t khi mùa khô có xâm n h ậ p m ặ n. Thông đ i ệ p nào đ ị nh h ư ớ ng hành đ ộ ng phù h ợ p n h ấ t?",
         "options": [
           "A. Điều chỉnh sử dụng nước sau khi nguồn cung đã bị gián đoạn.",
           "B. Tiết kiệm nước ngọt, theo dõi và chủ động thích ứng hạn mặn.",
@@ -7011,13 +6948,11 @@
           "D. Mở rộng diện tích sản xuất để bù phần năng suất bị suy giảm."
         ],
         "correct": 1,
-        "explanation": "Đáp án đúng là B: Tiết kiệm nước ngọt, theo dõi và chủ động thích ứng hạn mặn..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       },
       {
         "id": 70,
-        "question": "[Vận dụng] Một khu neo đậu tàu cá đã xuống cấp, trong khi địa phương thường chịu ảnh hưởng của bão. Để giảm rủi ro trực tiếp cho tàu thuyền, cần ưu tiên phương án nào?",
+        "question": "[ V ậ n d ụ ng] M ộ t khu neo đ ậ u tàu cá đ ã x u ố ng c ấ p, trong khi đ ị a p h ư ơ ng t h ư ờ ng c h ị u ả nh h ư ở ng c ủ a bão. Đ ể g i ả m r ủ i ro t r ự c t i ế p cho tàu thu y ề n, c ầ n ư u tiên p h ư ơ ng án nào?",
         "options": [
           "A. Nâng cấp khu neo đậu để tăng khả năng tránh trú bão.",
           "B. Bổ sung biển hướng dẫn khách đến các điểm du lịch ven biển.",
@@ -7025,9 +6960,7 @@
           "D. Tổ chức thêm tuyến tham quan bằng tàu trong mùa du lịch."
         ],
         "correct": 0,
-        "explanation": "Đáp án đúng là A: Nâng cấp khu neo đậu để tăng khả năng tránh trú bão..",
-        "qType_label": "Trắc nghiệm 4 phương án",
-        "level": "Nhận biết"
+        "explanation": ""
       }
     ]
   },
@@ -7036,17 +6969,16 @@
     "lessonId": "5172524987",
     "title": "OLM: 9-TN-TLAI2-25-26",
     "subject": "Tin Học",
-    "grade": "Lớp 12",
+    "grade": 12,
     "durationMinutes": 45,
     "difficulty": "Luyện tập OLM",
     "source": "OLM",
-    "teacher": null,
+    "teacher": "LÝ THỊ THẮM",
     "deadline": "0",
     "tags": [
       "OLM",
       "Tin Học",
-      "Lớp 12",
-      "Trắc nghiệm OLM"
+      "GV: LÝ THỊ THẮM"
     ],
     "description": "Bài tập trực tuyến OLM: 9-TN-TLAI2-25-26. Môn Tin Học - Lớp 12. Tổng số 30 câu hỏi có đáp án và lời giải chi tiết.",
     "questions": [
@@ -7054,22 +6986,22 @@
         "id": 1,
         "question": "Để tạo danh sách có thứ tự trong HTML, ta sử dụng thẻ nào?",
         "options": [
-          "A. <ul>",
-          "B. <li>",
-          "C. <table>",
-          "D. <ol>"
+          "A. <table>",
+          "B. <ol>",
+          "C. <ul>",
+          "D. <li>"
         ],
-        "correct": 3,
+        "correct": 1,
         "explanation": "Sai – <ul> dùng cho danh sách không thứ tự.\nĐúng – <ol> tạo danh sách có thứ tự.\nSai – <li> chỉ định từng mục trong danh sách.\nSai – <table> dùng để tạo bảng, không phải danh sách."
       },
       {
         "id": 2,
         "question": "Trong HTML, thẻ nào dùng để xác định từng mục trong danh sách?",
         "options": [
-          "A. <tr>",
+          "A. <ul>",
           "B. <li>",
-          "C. <ol>",
-          "D. <ul>"
+          "C. <tr>",
+          "D. <ol>"
         ],
         "correct": 1,
         "explanation": "Đúng – <li> (list item) xác định từng mục trong danh sách.\nSai – <ol> tạo danh sách có thứ tự, không phải từng mục.\nSai – <ul> tạo danh sách không thứ tự.\nSai – <tr> dùng trong bảng để tạo hàng."
@@ -7078,21 +7010,21 @@
         "id": 3,
         "question": "Để tạo bảng trong HTML, thẻ nào được sử dụng?",
         "options": [
-          "A. <tr>",
-          "B. <table>",
-          "C. <td>",
-          "D. <th>"
+          "A. <table>",
+          "B. <th>",
+          "C. <tr>",
+          "D. <td>"
         ],
-        "correct": 1,
+        "correct": 0,
         "explanation": "Đúng – <table> là thẻ chính để tạo bảng.\nSai – <tr> tạo hàng trong bảng.\nSai – <td> tạo ô dữ liệu trong bảng.\nSai – <th> tạo ô tiêu đề trong bảng."
       },
       {
         "id": 4,
         "question": "Trong bảng HTML, thẻ nào dùng để tạo một hàng mới?",
         "options": [
-          "A. <ul>",
-          "B. <td>",
-          "C. <th>",
+          "A. <th>",
+          "B. <ul>",
+          "C. <td>",
           "D. <tr>"
         ],
         "correct": 3,
@@ -7102,22 +7034,22 @@
         "id": 5,
         "question": "Để tạo ô dữ liệu trong bảng HTML, ta dùng thẻ nào?",
         "options": [
-          "A. <ol>",
-          "B. <tr>",
-          "C. <td>",
-          "D. <th>"
+          "A. <td>",
+          "B. <th>",
+          "C. <tr>",
+          "D. <ol>"
         ],
-        "correct": 2,
+        "correct": 0,
         "explanation": "Sai – <tr> tạo hàng, không phải ô dữ liệu.\nĐúng – <td> (table data) tạo ô dữ liệu.\nSai – <th> tạo ô tiêu đề.\nSai – <ol> tạo danh sách có thứ tự."
       },
       {
         "id": 6,
         "question": "Nếu muốn tạo ô tiêu đề trong bảng HTML, ta dùng thẻ nào?",
         "options": [
-          "A. <tr>",
-          "B. <td>",
+          "A. <td>",
+          "B. <li>",
           "C. <th>",
-          "D. <li>"
+          "D. <tr>"
         ],
         "correct": 2,
         "explanation": "Sai – <td> tạo ô dữ liệu thường.\nSai – <tr> tạo hàng.\nĐúng – <th> tạo ô tiêu đề.\nSai – <li> dùng cho danh sách."
@@ -7126,21 +7058,21 @@
         "id": 7,
         "question": "Để tạo danh sách không thứ tự trong HTML, ta dùng thẻ nào?",
         "options": [
-          "A. <ol>",
-          "B. <ul>",
-          "C. <table>",
-          "D. <li>"
+          "A. <ul>",
+          "B. <ol>",
+          "C. <li>",
+          "D. <table>"
         ],
-        "correct": 1,
+        "correct": 0,
         "explanation": "Sai – <ol> tạo danh sách có thứ tự.\nĐúng – <ul> tạo danh sách không thứ tự.\nSai – <li> chỉ định từng mục trong danh sách.\nSai – <table> tạo bảng."
       },
       {
         "id": 8,
         "question": "Trong HTML, thẻ <caption> có chức năng gì khi tạo bảng?",
         "options": [
-          "A. Tạo ô dữ liệu trong bảng.",
-          "B. Tạo hàng trong bảng.",
-          "C. Tạo danh sách có thứ tự.",
+          "A. Tạo danh sách có thứ tự.",
+          "B. Tạo ô dữ liệu trong bảng.",
+          "C. Tạo hàng trong bảng.",
           "D. Tạo tiêu đề cho bảng."
         ],
         "correct": 3,
@@ -7151,11 +7083,11 @@
         "question": "Để tạo danh sách lồng nhau (nested list), ta cần:",
         "options": [
           "A. Đặt <li> bên trong <caption>.",
-          "B. Đặt <tr> bên trong <td>.",
-          "C. Đặt <ul> hoặc <ol> bên trong một <li>.",
+          "B. Đặt <ul> hoặc <ol> bên trong một <li>.",
+          "C. Đặt <tr> bên trong <td>.",
           "D. Đặt <table> bên trong <tr>."
         ],
-        "correct": 2,
+        "correct": 1,
         "explanation": "Đúng – Danh sách lồng nhau được tạo bằng cách đặt <ul> hoặc <ol> trong <li>.\nSai – <tr> không đặt trong <td>.\nSai – <table> không đặt trong <tr>.\nSai – <caption> chỉ tạo tiêu đề bảng, không chứa <li>."
       },
       {
@@ -7163,57 +7095,57 @@
         "question": "Để gộp nhiều cột trong bảng HTML, ta dùng thuộc tính nào?",
         "options": [
           "A. align",
-          "B. rowspan",
-          "C. border",
-          "D. colspan"
+          "B. colspan",
+          "C. rowspan",
+          "D. border"
         ],
-        "correct": 3,
+        "correct": 1,
         "explanation": "Sai – rowspan gộp nhiều hàng.\nĐúng – colspan gộp nhiều cột.\nSai – align dùng để căn chỉnh nội dung.\nSai – border tạo đường viền cho bảng."
       },
       {
         "id": 11,
         "question": "Muốn tạo bảng có tiêu đề “Danh sách học sinh” hiển thị phía trên bảng, ta cần thẻ nào?",
         "options": [
-          "A. <caption>",
-          "B. <h1>",
-          "C. <title>",
-          "D. <thead>"
+          "A. <title>",
+          "B. <thead>",
+          "C. <caption>",
+          "D. <h1>"
         ],
-        "correct": 0,
+        "correct": 2,
         "explanation": "Sai – <thead> tạo phần đầu bảng, không phải tiêu đề.\nĐúng – <caption> tạo tiêu đề cho bảng.\nSai – <title> hiển thị tiêu đề trên tab trình duyệt.\nSai – <h1> hiển thị tiêu đề trong nội dung trang, không gắn với bảng."
       },
       {
         "id": 12,
         "question": "Để tạo bảng có 2 hàng, mỗi hàng gồm 3 ô dữ liệu, ta cần bao nhiêu thẻ <td>?",
         "options": [
-          "A. 9",
-          "B. 3",
-          "C. 6",
-          "D. 2"
+          "A. 3",
+          "B. 9",
+          "C. 2",
+          "D. 6"
         ],
-        "correct": 2,
+        "correct": 3,
         "explanation": "Sai – 2 ô không đủ.\nSai – 3 ô chỉ cho một hàng.\nĐúng – 2 hàng × 3 ô = 6 thẻ <td>.\nSai – 9 ô là thừa."
       },
       {
         "id": 13,
         "question": "Khi muốn gộp 2 ô theo chiều dọc trong bảng HTML, ta dùng thuộc tính nào?",
         "options": [
-          "A. align=\"center\"",
+          "A. rowspan=\"2\"",
           "B. colspan=\"2\"",
           "C. merge=\"2\"",
-          "D. rowspan=\"2\""
+          "D. align=\"center\""
         ],
-        "correct": 3,
+        "correct": 0,
         "explanation": "Sai – colspan gộp theo chiều ngang.\nĐúng – rowspan gộp theo chiều dọc.\nSai – HTML không có thuộc tính merge.\nSai – align chỉ căn chỉnh nội dung."
       },
       {
         "id": 14,
         "question": "Để tạo danh sách có thứ tự bắt đầu từ số 5, ta dùng cú pháp nào?",
         "options": [
-          "A. <ol begin=\"5\">",
+          "A. <ul start=\"5\">",
           "B. <ol start=\"5\">",
-          "C. <ul start=\"5\">",
-          "D. <li start=\"5\">"
+          "C. <li start=\"5\">",
+          "D. <ol begin=\"5\">"
         ],
         "correct": 1,
         "explanation": "Đúng – <ol start=\"5\"> bắt đầu từ số 5.\nSai – <ul> không có thứ tự số.\nSai – <li> không có thuộc tính start.\nSai – HTML không có thuộc tính begin."
@@ -7223,8 +7155,8 @@
         "question": "Muốn tạo danh sách có thứ tự bằng chữ cái La Mã (I, II, III…), ta dùng thuộc tính nào?",
         "options": [
           "A. type=\"I\"",
-          "B. type=\"A\"",
-          "C. type=\"1\"",
+          "B. type=\"1\"",
+          "C. type=\"A\"",
           "D. type=\"i\""
         ],
         "correct": 0,
@@ -7234,12 +7166,12 @@
         "id": 16,
         "question": "Trong bảng HTML, muốn tạo phần đầu bảng chứa tiêu đề cột, ta dùng thẻ nào?",
         "options": [
-          "A. <caption>",
-          "B. <thead>",
-          "C. <tbody>",
-          "D. <tfoot>"
+          "A. <tfoot>",
+          "B. <caption>",
+          "C. <thead>",
+          "D. <tbody>"
         ],
-        "correct": 1,
+        "correct": 2,
         "explanation": "Đúng – <thead> chứa tiêu đề cột.\nSai – <tbody> chứa nội dung chính.\nSai – <tfoot> chứa phần cuối bảng.\nSai – <caption> tạo tiêu đề bảng, không phải phần đầu."
       },
       {
@@ -7248,10 +7180,10 @@
         "options": [
           "A. <ul type=\"disc\">",
           "B. <ul type=\"circle\">",
-          "C. <ul type=\"dot\">",
-          "D. <ul type=\"square\">"
+          "C. <ul type=\"square\">",
+          "D. <ul type=\"dot\">"
         ],
-        "correct": 3,
+        "correct": 2,
         "explanation": "Sai – circle tạo ký hiệu hình tròn rỗng.\nĐúng – square tạo ký hiệu hình vuông.\nSai – disc tạo hình tròn đặc.\nSai – HTML không có dot."
       },
       {
@@ -7259,47 +7191,47 @@
         "question": "Nếu muốn tạo bảng có đường viền dày 2 pixel, ta dùng cú pháp nào?",
         "options": [
           "A. <table border-style=\"2\">",
-          "B. <table border-width=\"2\">",
-          "C. <table border=\"2\">",
-          "D. <table border-size=\"2\">"
+          "B. <table border=\"2\">",
+          "C. <table border-size=\"2\">",
+          "D. <table border-width=\"2\">"
         ],
-        "correct": 2,
+        "correct": 1,
         "explanation": "Đúng – border=\"2\" tạo đường viền dày 2 pixel.\nSai – HTML không có thuộc tính border-width.\nSai – Không có border-size.\nSai – Không có border-style với giá trị số."
       },
       {
         "id": 19,
         "question": "Để căn giữa nội dung trong ô dữ liệu bảng, ta dùng thuộc tính nào?",
         "options": [
-          "A. align=\"right\"",
-          "B. align=\"left\"",
-          "C. align=\"center\"",
-          "D. align=\"justify\""
+          "A. align=\"center\"",
+          "B. align=\"right\"",
+          "C. align=\"justify\"",
+          "D. align=\"left\""
         ],
-        "correct": 2,
+        "correct": 0,
         "explanation": "Sai – căn trái.\nSai – căn phải.\nĐúng – align=\"center\" căn giữa nội dung.\nSai – justify căn đều hai bên."
       },
       {
         "id": 20,
         "question": "Khi muốn tạo danh sách có thứ tự bằng chữ cái thường (a, b, c…), ta dùng cú pháp nào?",
         "options": [
-          "A. <ol type=\"a\">",
-          "B. <ol type=\"I\">",
-          "C. <ol type=\"i\">",
-          "D. <ol type=\"A\">"
+          "A. <ol type=\"I\">",
+          "B. <ol type=\"A\">",
+          "C. <ol type=\"a\">",
+          "D. <ol type=\"i\">"
         ],
-        "correct": 0,
+        "correct": 2,
         "explanation": "Đúng – type=\"a\" tạo danh sách bằng chữ cái thường.\nSai – A tạo chữ cái in hoa.\nSai – i tạo số La Mã thường.\nSai – I tạo số La Mã in hoa."
       },
       {
         "id": 21,
         "question": "Muốn tạo bảng có 3 cột, trong đó cột đầu tiên là tiêu đề, ta cần thẻ nào trong hàng đầu tiên?",
         "options": [
-          "A. <th>",
+          "A. <td>",
           "B. <tr>",
-          "C. <caption>",
-          "D. <td>"
+          "C. <th>",
+          "D. <caption>"
         ],
-        "correct": 0,
+        "correct": 2,
         "explanation": "Sai – <td> tạo ô dữ liệu thường.\nĐúng – <th> tạo ô tiêu đề cho cột.\nSai – <tr> tạo hàng, không phải ô.\nSai – <caption> tạo tiêu đề bảng, không phải tiêu đề cột."
       },
       {
@@ -7307,9 +7239,9 @@
         "question": "Khi muốn tạo bảng có phần cuối ghi chú “Tổng kết”, ta dùng thẻ nào?",
         "options": [
           "A. <caption>",
-          "B. <thead>",
+          "B. <tbody>",
           "C. <tfoot>",
-          "D. <tbody>"
+          "D. <thead>"
         ],
         "correct": 2,
         "explanation": "Đúng – <tfoot> tạo phần cuối bảng.\nSai – <thead> tạo phần đầu bảng.\nSai – <tbody> chứa nội dung chính.\nSai – <caption> tạo tiêu đề bảng."
@@ -7318,12 +7250,12 @@
         "id": 23,
         "question": "Để tạo danh sách có thứ tự hiển thị bằng chữ cái in hoa (A, B, C…), ta dùng cú pháp nào?",
         "options": [
-          "A. <ol type=\"i\">",
-          "B. <ol type=\"I\">",
-          "C. <ol type=\"A\">",
-          "D. <ol type=\"a\">"
+          "A. <ol type=\"a\">",
+          "B. <ol type=\"A\">",
+          "C. <ol type=\"I\">",
+          "D. <ol type=\"i\">"
         ],
-        "correct": 2,
+        "correct": 1,
         "explanation": "Sai – a hiển thị chữ cái thường.\nĐúng – A hiển thị chữ cái in hoa.\nSai – i hiển thị số La Mã thường.\nSai – I hiển thị số La Mã in hoa."
       },
       {
@@ -7331,57 +7263,57 @@
         "question": "Muốn tạo bảng có 4 hàng, mỗi hàng gồm 2 ô dữ liệu, ta cần bao nhiêu thẻ <tr> và <td>?",
         "options": [
           "A. 2 <tr> và 4 <td>",
-          "B. 4 <tr> và 8 <td>",
-          "C. 8 <tr> và 16 <td>",
-          "D. 1 <tr> và 2 <td>"
+          "B. 8 <tr> và 16 <td>",
+          "C. 1 <tr> và 2 <td>",
+          "D. 4 <tr> và 8 <td>"
         ],
-        "correct": 1,
+        "correct": 3,
         "explanation": "Đúng – 4 hàng cần 4 <tr>, mỗi hàng 2 ô → 8 <td>.\nSai – chỉ có 2 hàng.\nSai – số lượng thẻ quá nhiều.\nSai – chỉ tạo được 1 hàng."
       },
       {
         "id": 25,
         "question": "Khi muốn tạo danh sách có thứ tự bắt đầu bằng chữ cái “C”, ta dùng cú pháp nào?",
         "options": [
-          "A. <ol type=\"A\" start=\"3\">",
+          "A. <ol type=\"I\" start=\"3\">",
           "B. <ol type=\"1\" start=\"3\">",
           "C. <ol type=\"a\" start=\"3\">",
-          "D. <ol type=\"I\" start=\"3\">"
+          "D. <ol type=\"A\" start=\"3\">"
         ],
-        "correct": 0,
+        "correct": 3,
         "explanation": "Đúng – type=\"A\" tạo chữ cái in hoa, start=\"3\" bắt đầu từ C.\nSai – a tạo chữ cái thường.\nSai – I tạo số La Mã in hoa.\nSai – 1 tạo số thường."
       },
       {
         "id": 26,
         "question": "Trong bảng HTML, muốn gộp 3 ô theo chiều ngang, ta dùng cú pháp nào?",
         "options": [
-          "A. <td align=\"3\">",
-          "B. <td rowspan=\"3\">",
-          "C. <td colspan=\"3\">",
-          "D. <td merge=\"3\">"
+          "A. <td colspan=\"3\">",
+          "B. <td merge=\"3\">",
+          "C. <td rowspan=\"3\">",
+          "D. <td align=\"3\">"
         ],
-        "correct": 2,
+        "correct": 0,
         "explanation": "Đúng – colspan=\"3\" gộp 3 ô theo chiều ngang.\nSai – rowspan gộp theo chiều dọc.\nSai – HTML không có merge.\nSai – align chỉ căn chỉnh nội dung."
       },
       {
         "id": 27,
         "question": "Để tạo danh sách không thứ tự với ký hiệu hình tròn rỗng, ta dùng cú pháp nào?",
         "options": [
-          "A. <ul type=\"disc\">",
-          "B. <ul type=\"circle\">",
-          "C. <ul type=\"dot\">",
-          "D. <ul type=\"square\">"
+          "A. <ul type=\"square\">",
+          "B. <ul type=\"dot\">",
+          "C. <ul type=\"disc\">",
+          "D. <ul type=\"circle\">"
         ],
-        "correct": 1,
+        "correct": 3,
         "explanation": "Sai – disc tạo hình tròn đặc.\nĐúng – circle tạo hình tròn rỗng.\nSai – square tạo hình vuông.\nSai – HTML không có dot."
       },
       {
         "id": 28,
         "question": "Khi muốn tạo bảng có phần nội dung chính nằm trong thẻ nào?",
         "options": [
-          "A. <tfoot>",
+          "A. <caption>",
           "B. <tbody>",
           "C. <thead>",
-          "D. <caption>"
+          "D. <tfoot>"
         ],
         "correct": 1,
         "explanation": "Sai – <thead> tạo phần đầu bảng.\nĐúng – <tbody> chứa nội dung chính.\nSai – <tfoot> tạo phần cuối bảng.\nSai – <caption> tạo tiêu đề bảng."
@@ -7391,43 +7323,44 @@
         "question": "Muốn tạo danh sách lồng nhau, trong đó danh sách con là danh sách có thứ tự, ta cần cú pháp nào?",
         "options": [
           "A. <ul><ol>...</ol></ul>",
-          "B. <ul><li><ol>...</ol></li></ul>",
-          "C. <ol><li><ul>...</ul></li></ol>",
-          "D. <ol><ul>...</ul></ol>"
+          "B. <ol><ul>...</ul></ol>",
+          "C. <ul><li><ol>...</ol></li></ul>",
+          "D. <ol><li><ul>...</ul></li></ol>"
         ],
-        "correct": 1,
+        "correct": 2,
         "explanation": "Đúng – danh sách cha <ul>, trong <li> có danh sách con <ol>.\nSai – danh sách cha là <ol>, không đúng yêu cầu.\nSai – không có <li> bao quanh.\nSai – không có cấu trúc hợp lệ."
       },
       {
         "id": 30,
         "question": "Khi muốn tạo bảng có đường viền màu đỏ, ta cần kết hợp với thuộc tính nào?",
         "options": [
-          "A. <table border=\"1\" color=\"red\">",
+          "A. <table border=\"1\" bordercolor=\"blue\">",
           "B. <table border=\"red\">",
-          "C. <table border=\"1\" bordercolor=\"blue\">",
+          "C. <table border=\"1\" color=\"red\">",
           "D. <table border=\"1\" style=\"border-color:red;\">"
         ],
         "correct": 3,
         "explanation": "Đúng – dùng CSS style=\"border-color:red;\".\nSai – border không nhận giá trị màu.\nSai – HTML không có thuộc tính color cho bảng.\nSai – bordercolor là cú pháp cũ, không chuẩn."
       }
-    ]
+    ],
+    "duration": 45,
+    "isSchool": false
   },
   {
     "id": "olm-bai-9-tao-danh-sach-bang-5314987581",
     "lessonId": "5314987581",
     "title": "OLM: Bài 9-Tạo danh sách-bảng",
     "subject": "Tin Học",
-    "grade": "Lớp 12",
+    "grade": 12,
     "durationMinutes": 40,
     "difficulty": "Luyện tập OLM",
     "source": "OLM",
-    "teacher": null,
+    "teacher": "LÝ THỊ THẮM",
     "deadline": "0",
     "tags": [
       "OLM",
       "Tin Học",
-      "Lớp 12",
-      "Trắc nghiệm OLM"
+      "GV: LÝ THỊ THẮM"
     ],
     "description": "Bài tập trực tuyến OLM: Bài 9-Tạo danh sách-bảng. Môn Tin Học - Lớp 12. Tổng số 25 câu hỏi có đáp án và lời giải chi tiết.",
     "questions": [
@@ -7471,9 +7404,12 @@
         "id": 4,
         "question": "Cho đoạn HTML như hình bên dưới\nHãy chọn kết quả đúng khi hiển thị trên trình duyệt.",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 1,
         "explanation": ""
       },
       {
@@ -7504,25 +7440,34 @@
         "id": 7,
         "question": "Cho đoạn HTML như hình bên\nHãy chọn kết quả hiển thị đúng trên trình duyệt.",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 1,
         "explanation": ""
       },
       {
         "id": 8,
         "question": "Cho đoạn mã HTML sau\nHãy chọn kết quả đúng khi hiển thị trên trình duyệt.",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 1,
         "explanation": ""
       },
       {
         "id": 9,
         "question": "Cho đoạn mã HTML sau\nHãy chọn kết quả hiển thị đúng trên trình duyệt.",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
         "correct": 0,
         "explanation": ""
@@ -7543,18 +7488,24 @@
         "id": 11,
         "question": "Cho đoạn mã HTML như sau :\nHãy chọn đúng kết quả hiển thị trên trình duyệt .",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 2,
         "explanation": ""
       },
       {
         "id": 12,
         "question": "Cho đoạn mã HTML sau:\nHãy chọn kết quả hiển thị đúng trên trình duyệt.",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 1,
         "explanation": ""
       },
       {
@@ -7626,14 +7577,17 @@
           "C. Bảng trên có 3 hàng.",
           "D. Ô STT được canh giữa và in đậm."
         ],
-        "correct": 2,
+        "correct": 3,
         "explanation": ""
       },
       {
         "id": 19,
         "question": "Đoạn mã HTML sau đây cho kết quả nào?",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
         "correct": 0,
         "explanation": ""
@@ -7641,93 +7595,112 @@
       {
         "id": 20,
         "question": "Cho đoạn mã nguồn HTML như sau:",
-        "options": [
-          "A. Thẻ ảnh sử dụng sai thuộc tính xác định địa chỉ ảnh.",
-          "B. Cần bổ sung thêm một cặp thẻ <td></td> cho dòng đầu tiên của bảng.",
-          "C. Chương trình sẽ hiển thị văn bản trong 1 bảng có 2 hàng và mỗi hàng có 2 cột.",
-          "D. Trong ô đầu tiên của dòng thứ 2, các món ăn được liệt kê theo một danh sách xác định thứ tự, bắt đầu bằng 1."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Thẻ ảnh sử dụng sai thuộc tính xác định địa chỉ ảnh.   b) Cần bổ sung thêm một cặp thẻ <td></td> cho dòng đầu tiên của bảng.   c) Chương trình sẽ hiển thị văn bản trong 1 bảng có 2 hàng và mỗi hàng có 2 cột.   d) Trong ô đầu tiên của dòng thứ 2, các món ăn được liệt kê theo một danh sách xác định thứ tự, bắt đầu bằng 1.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 21,
         "question": "Một nhóm sinh viên thực hiện trang web kinh doanh thức uống online như hình bên.\nMột bạn đưa ra nhận xét về cách làm như sau:",
-        "options": [
-          "A. Trang menu trên được sử dụng chức năng định dạng danh sách mô tả.",
-          "B. Order là một liên kết, khi nhấn vào sẽ giúp khách hàng đặt hàng. Thẻ liên kết này được nằm trong mục mô tả của từng loại thức uống.",
-          "C. Nội dung giới thiệu về thức uống, giá và Order được đặt trong hai thẻ <dd>.",
-          "D. Dùng thẻ <ul> để định dạng danh sách cho tên thức uống."
-        ],
-        "correct": 1,
-        "explanation": ""
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Trang menu trên được sử dụng chức năng định dạng danh sách mô tả.   b) Order là một liên kết, khi nhấn vào sẽ giúp khách hàng đặt hàng. Thẻ liên kết này được nằm trong mục mô tả của từng loại thức uống.   c) Nội dung giới thiệu về thức uống, giá và Order được đặt trong hai thẻ <dd>.   d) Dùng thẻ <ul> để định dạng danh sách cho tên thức uống.",
+            "correct": false
+          }
+        ]
       },
       {
         "id": 22,
         "question": "TF] Cho một bảng như hình bên.\nMột học sinh đưa ra các nhận định sau:",
-        "options": [
-          "A. Nội dung trên được sử dụng định dạng bảng có thuộc tính border.",
-          "B. Giá trị của thuộc tính rowspan ở ô Môn Tin học phải được xác định trước nghĩa là phải biết được số lượng học sinh trong bảng điểm.",
-          "C. Các nội dung Môn Tin học, STT, Họ tên, Điểm GK nằm hai thẻ <th> và </th> được mặc định là không in đậm, canh lề trái nên cần được thêm các thuộc tính định dạng.",
-          "D. Các nội dung số thứ tự, họ tên, điểm của từng học sinh nằm trong thẻ <td> và </td>."
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Nội dung trên được sử dụng định dạng bảng có thuộc tính border.   b) Giá trị của thuộc tính rowspan ở ô Môn Tin học phải được xác định trước nghĩa là phải biết được số lượng học sinh trong bảng điểm.   c) Các nội dung Môn Tin học, STT, Họ tên, Điểm GK nằm hai thẻ <th> và </th> được mặc định là không in đậm, canh lề trái nên cần được thêm các thuộc tính định dạng.   d) Các nội dung số thứ tự, họ tên, điểm của từng học sinh nằm trong thẻ <td> và </td>.",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 23,
         "question": "Lớp 12A đang dự định tạo một trang web giúp cả lớp xem thông tin thời khóa biểu của lớp mình. Thời khóa biểu được hiển thị tương tự như mẫu bên dưới:\nMột học sinh nhận định như sau:",
-        "options": [
-          "A. Các ô từng tiết học được nằm trong thẻ <td>, mặc định được canh giữa.",
-          "B. Để định dạng tương tự như mẫu trên và buổi sáng học 5 tiết,  tại ô B.Sáng dùng thuộc tính colspan=\"6\".",
-          "C. Các ô có nội dung là tiêu đề của bảng được nằm trong thẻ <th>.",
-          "D. Dùng chức năng tạo table có thuộc tính border để tạo bảng thời khóa biểu trên."
-        ],
-        "correct": 3,
-        "explanation": ""
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Các ô từng tiết học được nằm trong thẻ <td>, mặc định được canh giữa.   b) Để định dạng tương tự như mẫu trên và buổi sáng học 5 tiết,  tại ô B.Sáng dùng thuộc tính colspan=\"6\".   c) Các ô có nội dung là tiêu đề của bảng được nằm trong thẻ <th>.   d) Dùng chức năng tạo table có thuộc tính border để tạo bảng thời khóa biểu trên.",
+            "correct": false
+          }
+        ]
       },
       {
         "id": 24,
         "question": "Một nhóm người dùng tìm hiểu về sự phát triển của trí tuệ nhân tạo A.I., mọi người đã trình bày trang web theo mẫu bên:\nMột học sinh nhận định như sau:",
-        "options": [
-          "A. Danh sách không có thứ tự được nằm bên trong mỗi mục của danh sách có thứ tự.",
-          "B. Để thêm liên kết vào nội dung Chat GPT ở mục 1 thì thẻ <a href=\"https://chatgpt.com\" target=\"_blank\">Chat GPT:</a> phải đặt ngay sau thẻ <li> đầu tiên của danh sách không có thứ tự.",
-          "C. Sản phẩm trên là sự kết hợp của danh sách có thứ tự và danh sách không có thứ tự.",
-          "D. Dùng thẻ <ul> để định dạng các dòng có nội dung là Chat GPT, OpenAI Sora:"
-        ],
+        "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Danh sách không có thứ tự được nằm bên trong mỗi mục của danh sách có thứ tự.   b) Để thêm liên kết vào nội dung Chat GPT ở mục 1 thì thẻ <a href=\"https://chatgpt.com\" target=\"_blank\">Chat GPT:</a> phải đặt ngay sau thẻ <li> đầu tiên của danh sách không có thứ tự.   c) Sản phẩm trên là sự kết hợp của danh sách có thứ tự và danh sách không có thứ tự.   d) Dùng thẻ <ul> để định dạng các dòng có nội dung là Chat GPT, OpenAI Sora:",
+            "correct": true
+          }
+        ]
       },
       {
         "id": 25,
         "question": "Một nhóm học sinh đang dự định tạo một trang web đơn giản để hiển thị điểm của các thành viên. Cả nhóm quyết định dùng chức năng table trong ngôn ngữ HTML để thực hiện việc làm trên, mọi người quyết định lên ý tưởng như hình bên dưới.\nMọi người nhận định việc làm như sau:",
-        "options": [
-          "A. Các nội dung từ hàng thứ hai trở đi là dữ liệu của bảng, chúng được nằm trong thẻ <dt>, mặc định canh lề trái.",
-          "B. Bảng trên định dạng có thuộc tính boder.",
-          "C. Ở hàng cuối cùng, dùng thuộc tính rowspan=“4” và thuộc tính style=“text-align:right;”.",
-          "D. Các nội dung ở hàng tiêu đề đầu tiên được nằm trong thẻ <td>."
-        ],
-        "correct": 1,
-        "explanation": ""
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Các nội dung từ hàng thứ hai trở đi là dữ liệu của bảng, chúng được nằm trong thẻ <dt>, mặc định canh lề trái.   b) Bảng trên định dạng có thuộc tính boder.   c) Ở hàng cuối cùng, dùng thuộc tính rowspan=“4” và thuộc tính style=“text-align:right;”.    d) Các nội dung ở hàng tiêu đề đầu tiên được nằm trong thẻ <td>.",
+            "correct": false
+          }
+        ]
       }
-    ]
+    ],
+    "duration": 45,
+    "isSchool": false
   },
   {
     "id": "olm-on-kttx-5328901765",
     "lessonId": "5328901765",
     "title": "OLM: ÔN KTTX",
     "subject": "Tin Học",
-    "grade": "Lớp 12",
+    "grade": 12,
     "durationMinutes": 40,
     "difficulty": "Luyện tập OLM",
     "source": "OLM",
-    "teacher": null,
+    "teacher": "LÝ THỊ THẮM",
     "deadline": "0",
     "tags": [
       "OLM",
       "Tin Học",
-      "Lớp 12",
-      "Trắc nghiệm OLM"
+      "GV: LÝ THỊ THẮM"
     ],
     "description": "Bài tập trực tuyến OLM: ÔN KTTX. Môn Tin Học - Lớp 12. Tổng số 27 câu hỏi có đáp án và lời giải chi tiết.",
     "questions": [
@@ -8054,24 +8027,25 @@
         "correct": 0,
         "explanation": ""
       }
-    ]
+    ],
+    "duration": 45,
+    "isSchool": false
   },
   {
     "id": "olm-chu-de-f-bai-7-5266658803",
     "lessonId": "5266658803",
     "title": "OLM: Chủ đề F- Bài 7",
     "subject": "Tin Học",
-    "grade": "Lớp 12",
+    "grade": 12,
     "durationMinutes": 80,
     "difficulty": "Luyện tập OLM",
     "source": "OLM",
-    "teacher": null,
+    "teacher": "LÝ THỊ THẮM",
     "deadline": "2026-11-02 22:00:00",
     "tags": [
       "OLM",
       "Tin Học",
-      "Lớp 12",
-      "Trắc nghiệm OLM"
+      "GV: LÝ THỊ THẮM"
     ],
     "description": "Bài tập trực tuyến OLM: Chủ đề F- Bài 7. Môn Tin Học - Lớp 12. Tổng số 55 câu hỏi có đáp án và lời giải chi tiết.",
     "questions": [
@@ -8116,7 +8090,7 @@
         "question": "Hãy chọn phần tử HTML trong các phương án sau.",
         "options": [
           "A. align = \"center\"",
-          "B.  <span> Xin chào </span>",
+          "B. <span> Xin chào </span>",
           "C. <table border=“1”>",
           "D. </html>"
         ],
@@ -8439,9 +8413,12 @@
         "id": 31,
         "question": "Đoạn lệnh sau hiển thị trên trang web như thế nào?",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 2,
         "explanation": ""
       },
       {
@@ -8508,7 +8485,10 @@
         "id": 37,
         "question": "Cho phần tử HTML sau\nPhương án nào sau đây là kết quả hiển thị trên trình duyệt?",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
         "correct": 0,
         "explanation": ""
@@ -8553,27 +8533,36 @@
         "id": 41,
         "question": "Cho kết quả trên trình duyệt như sau:\nHãy chọn phần tử HTML hiển thị đúng kết quả như trên.",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 1,
         "explanation": ""
       },
       {
         "id": 42,
         "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn thẻ HTML để được kết quả như trên.",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 3,
         "explanation": ""
       },
       {
         "id": 43,
         "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn phần tử HTML để được kết quả như trên.",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 3,
         "explanation": ""
       },
       {
@@ -8592,9 +8581,12 @@
         "id": 45,
         "question": "Hãy chọn kết quả hiển thị trên trình duyệt của phần tử HTML sau:",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 1,
         "explanation": ""
       },
       {
@@ -8649,9 +8641,12 @@
         "id": 50,
         "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn phần tử HTML để được kết quả như trên.",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 3,
         "explanation": ""
       },
       {
@@ -8704,8 +8699,9 @@
       },
       {
         "id": 55,
-        "question": "Đoạn lệnh HTML nào sau đây là đúng để hiển thị kết quả sau trên trình duyệt?\nHợp kim titan cứng nhất thế giới được tạo bằng công nghệ in 3D.",
+        "question": "Đoạn lệnh HTML nào sau đây là đúng để hiển thị kết quả sau trên trình duyệt?",
         "options": [
+          "D. ",
           "A. Hợp kim <i>titan</i> cứng nhất thế giới được tạo bằng <h3>công nghệ in 3D</h3>.",
           "B. Hợp kim <em>titan</em> cứng nhất thế giới được tạo bằng <strong>công nghệ in 3D<strong>.",
           "C. Hợp kim <em>titan</em> cứng nhất thế giới được tạo bằng <h1>công nghệ in 3D<h1>.",
@@ -8714,24 +8710,25 @@
         "correct": 1,
         "explanation": ""
       }
-    ]
+    ],
+    "duration": 45,
+    "isSchool": false
   },
   {
     "id": "olm-chu-de-f-bai-8-5266667968",
     "lessonId": "5266667968",
     "title": "OLM: Chủ đề F- Bài 8",
     "subject": "Tin Học",
-    "grade": "Lớp 12",
+    "grade": 12,
     "durationMinutes": 45,
     "difficulty": "Luyện tập OLM",
     "source": "OLM",
-    "teacher": null,
+    "teacher": "LÝ THỊ THẮM",
     "deadline": "0",
     "tags": [
       "OLM",
       "Tin Học",
-      "Lớp 12",
-      "Trắc nghiệm OLM"
+      "GV: LÝ THỊ THẮM"
     ],
     "description": "Bài tập trực tuyến OLM: Chủ đề F- Bài 8. Môn Tin Học - Lớp 12. Tổng số 31 câu hỏi có đáp án và lời giải chi tiết.",
     "questions": [
@@ -8787,7 +8784,10 @@
         "id": 5,
         "question": "Đoạn lệnh sau hiển thị trên trang web như thế nào?",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
         "correct": 0,
         "explanation": ""
@@ -8856,9 +8856,12 @@
         "id": 11,
         "question": "Cho phần tử HTML sau\nPhương án nào sau đây là kết quả hiển thị trên trình duyệt?",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 2,
         "explanation": ""
       },
       {
@@ -8901,7 +8904,10 @@
         "id": 15,
         "question": "Cho kết quả trên trình duyệt như sau:\nHãy chọn phần tử HTML hiển thị đúng kết quả như trên.",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
         "correct": 0,
         "explanation": ""
@@ -8910,18 +8916,24 @@
         "id": 16,
         "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn thẻ HTML để được kết quả như trên.",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 3,
         "explanation": ""
       },
       {
         "id": 17,
         "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn phần tử HTML để được kết quả như trên.",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
-        "correct": 0,
+        "correct": 1,
         "explanation": ""
       },
       {
@@ -8940,7 +8952,10 @@
         "id": 19,
         "question": "Hãy chọn kết quả hiển thị trên trình duyệt của phần tử HTML sau:",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
         "correct": 0,
         "explanation": ""
@@ -8997,7 +9012,10 @@
         "id": 24,
         "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn phần tử HTML để được kết quả như trên.",
         "options": [
-          "C. \t   D."
+          "A. ",
+          "B. ",
+          "C. ",
+          "D. "
         ],
         "correct": 0,
         "explanation": ""
@@ -9052,8 +9070,9 @@
       },
       {
         "id": 29,
-        "question": "Đoạn lệnh HTML nào sau đây là đúng để hiển thị kết quả sau trên trình duyệt?\nHợp kim titan cứng nhất thế giới được tạo bằng công nghệ in 3D.",
+        "question": "Đoạn lệnh HTML nào sau đây là đúng để hiển thị kết quả sau trên trình duyệt?",
         "options": [
+          "D. ",
           "A. Hợp kim <em>titan</em> cứng nhất thế giới được tạo bằng <strong>công nghệ in 3D<strong>.",
           "B. Hợp kim <em>titan</em> cứng nhất thế giới được tạo bằng <h1>công nghệ in 3D<h1>.",
           "C. Hợp kim <p><em>titan</em></p> cứng nhất thế giới được tạo bằng <b>công nghệ in 3D<b>.",
@@ -9065,25 +9084,530 @@
       {
         "id": 30,
         "question": "Một thầy giáo muốn đưa thông tin liên hệ của mình lên website của nhà trường với nội dung và định dạng như sau:\nTHÔNG TIN LIÊN HỆ\nHọ tên: Nguyễn Văn Long\nChức vụ: Giáo viên\nFax: 0919.29.39.49                                                                                    Điện thoại: 0919.29.39.49\nSau khi xem nội dung, các học sinh đã đưa ra các ý kiến của mình về mã HTML thầy giáo đã sử dụng để hiển thị thông tin như trên.",
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Tiêu đề được in hoa, in đậm và gạch chân.   b) Đoạn mã sau cho phép căn giữa nội dung dòng tiêu đề “THÔNG TIN LIÊN HỆ”<p text-align=\"center\">THÔNG TIN LIÊN HỆ</p>   c) Để hiển thị nội dung dòng cuối cùng, sử dụng mã lệnh HTML sau: Fax: <b style=\"color:#999999\">0919.29.39.49</b>   Điện thoại: <b style=\"color:#999999\">0919.29.39.49</b>   d) Sử dụng thẻ <hr> để hiển thị dòng gạch dưới nội dung tiêu đề “THÔNG TIN LIÊN HỆ”.",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "question": "Một học sinh đã viết đoạn mã HTML có nội dung như sau.\nMột số bạn đưa ra các phát biểu dưới đây về kết quả của đoạn mã này.",
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Có một đường kẻ ngang để phân tách nội dung trong trang HTML.   b) Thuộc tính style trong đoạn mã trên được sử dụng để thiết lập định dạng cho văn bản trong thẻ <p>.   c) Cụm từ “Thảo luận” có kích thước nhỏ hơn đoạn văn “Trường THPT Nguyễn Việt Dũng”.   d) Thuộc tính style=\"color:blue\" trong thẻ <p> sẽ thay đổi màu nền của đoạn văn bản thành màu xanh dương.",
+            "correct": true
+          }
+        ]
+      }
+    ],
+    "duration": 45,
+    "isSchool": false
+  },
+  {
+    "id": "olm-kiem-tra-dinh-ki-dia-li-dia-phuong-12-5327197350",
+    "title": "OLM: KIỂM TRA ĐỊNH KÌ ĐỊA LÍ ĐỊA PHƯƠNG 12",
+    "subject": "Giáo Dục Địa Phương",
+    "grade": 12,
+    "duration": 65,
+    "teacher": "Đoàn Thị Diểm",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Giáo Dục Địa Phương",
+      "Tự động trích xuất"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Các hình thức tổ chức lãnh thổ nông nghiệp chủ yếu của tỉnh An Giang là",
         "options": [
-          "A. Tiêu đề được in hoa, in đậm và gạch chân.",
-          "B. Đoạn mã sau cho phép căn giữa nội dung dòng tiêu đề “THÔNG TIN LIÊN HỆ”<p text-align=\"center\">THÔNG TIN LIÊN HỆ</p>",
-          "C. Để hiển thị nội dung dòng cuối cùng, sử dụng mã lệnh HTML sau: Fax: <b style=\"color:#999999\">0919.29.39.49</b>   Điện thoại: <b style=\"color:#999999\">0919.29.39.49</b>",
-          "D. Sử dụng thẻ <hr> để hiển thị dòng gạch dưới nội dung tiêu đề “THÔNG TIN LIÊN HỆ”."
+          "A. Hộ gia đình, hợp tác xã, doanh nghiệp.",
+          "B. Trang trại, vùng chuyên canh, vùng sản xuất nông nghiệp tập trung.",
+          "C. Khu công nghiệp, cụm công nghiệp, khu chế xuất.",
+          "D. Nông trường, lâm trường, khu kinh tế."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "question": "Khu công ngh i ệ p nào sau đ ây đ ã đ i vào h o ạ t đ ộ ng trên đ ị a bàn t ỉ nh An Giang?",
+        "options": [
+          "A. Khu công nghiệp Xẻo Rô.",
+          "B. Khu công nghiệp Hội An.",
+          "C. Khu công nghiệp Bình Hòa.",
+          "D. Khu công nghiệp Kiên Lương II."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "question": "Ngành ng h ề nào sau đ ây là ngành ng h ề đ ầ u t ư c h ủ y ế u t ạ i các khu công ngh i ệ p c ủ a t ỉ nh An Giang?",
+        "options": [
+          "A. Khai thác than đá.",
+          "B. Chế biến nông sản, thủy sản xuất khẩu.",
+          "C. Sản xuất ô tô quy mô lớn.",
+          "D. Khai thác dầu khí ngoài khơi."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "question": "Ở An Giang , hình t h ứ c t ổ c h ứ c nào sau đ ây không th u ộ c v ề t ổ c h ứ c lãnh t h ổ nông ngh i ệ p?",
+        "options": [
+          "A. Vùng sản xuất nông nghiệp tập trung.",
+          "B. Trang trại.",
+          "C. Khu công nghiệp.",
+          "D. Vùng chuyên canh."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "question": "Trong t ổ c h ứ c lãnh t h ổ nông ngh i ệ p ở An Giang, l o ạ i hình trang t r ạ i nào là c h ủ y ế u?",
+        "options": [
+          "A. Nuôi trồng thuỷ sản.",
+          "B. Trồng trọt.",
+          "C. Trang trại tổng hợp.",
+          "D. Chăn nuôi."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "question": "Trên đ ị a bàn t ỉ nh An Giang h i ệ n nay có t ổ ng c ộ ng bao nhiêu khu công ngh i ệ p (sau khi sáp n h ậ p)?",
+        "options": [
+          "A. 8 khu công nghiệp.",
+          "B. 10 khu công nghiệp.",
+          "C. 11 khu công nghiệp.",
+          "D. 12 khu công nghiệp."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "question": "[B i ế t] H i ệ n t ư ợ ng nào p h ả n ánh xu h ư ớ ng b i ế n đ ổ i khí h ậ u, thay vì b i ế n đ ộ ng t h ờ i t i ế t trong t h ờ i gian n g ắ n?",
+        "options": [
+          "A. Thời tiết hôm nay nắng hơn so với thời tiết hôm qua.",
+          "B. Nhiệt độ trung bình tăng lên trong một thời gian dài.",
+          "C. Lượng mưa của một trận mưa lớn hơn trận mưa trước.",
+          "D. Nhiệt độ buổi trưa cao hơn nhiệt độ lúc sáng sớm."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "question": "[B i ế t] H i ệ n t ư ợ ng nào g ắ n v ớ i b ă ng tan trên quy mô l ớ n?",
+        "options": [
+          "A. Mực nước ao giảm do bơm nước phục vụ tưới cây.",
+          "B. Mực nước biển hạ xuống theo chu kì thủy triều.",
+          "C. Mực nước biển trung bình có xu hướng dâng lên.",
+          "D. Mực nước sông tăng ngay sau một trận mưa lớn."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "question": "[B i ế t] Nhóm khí nào là khí nhà kính?",
+        "options": [
+          "A. Nhóm gồm hydrogen, oxygen và nitrogen.",
+          "B. Nhóm gồm oxygen, nitrogen và khí argon.",
+          "C. Nhóm gồm carbon dioxide, methane và nitrous oxide.",
+          "D. Nhóm gồm helium, neon và khí argon."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "question": "[B i ế t] Nguyên nhân c h ủ y ế u gây b i ế n đ ổ i khí h ậ u h i ệ n nay là gì?",
+        "options": [
+          "A. Những biến động tự nhiên trong hoạt động núi lửa.",
+          "B. Những thay đổi tự nhiên trong hoạt động của Mặt Trời.",
+          "C. Những biến đổi tự nhiên của hệ thống khí hậu Trái Đất.",
+          "D. Các hoạt động của con người làm gia tăng khí nhà kính."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "question": "[B i ế t] B i ể u h i ệ n nào đ ang gây áp l ự c đ ế n c ấ p n ư ớ c s ạ ch ở vùng ven b i ể n An Giang?",
+        "options": [
+          "A. Nước sông tăng lên sau những đợt mưa lớn trong mùa.",
+          "B. Nguồn nước biến động do nhu cầu sử dụng trong ngày.",
+          "C. Mực nước thay đổi theo chu kì thủy triều hằng ngày.",
+          "D. Nước mặn xâm nhập ngày càng sâu vào vùng nội địa."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "question": "[B i ế t] Vào mùa khô, vùng đ ấ t t h ấ p ven b i ể n d ễ g ặ p tình t r ạ ng nào?",
+        "options": [
+          "A. Dư nguồn nước ngọt đồng thời giảm mức độ nhiễm mặn.",
+          "B. Giảm nhiễm mặn do dòng nước ngọt tăng mạnh mùa khô.",
+          "C. Thiếu nguồn nước ngọt đồng thời gia tăng nhiễm mặn.",
+          "D. Ngập nước ngọt kéo dài do lượng mưa thường xuyên lớn."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "question": "Vì sao các khu công ngh i ệ p và c ụ m công ngh i ệ p góp p h ầ n thúc đ ẩ y chu y ể n d ị ch c ơ c ấ u kinh t ế c ủ a t ỉ nh An Giang?",
+        "options": [
+          "A. Tăng tỉ trọng nông nghiệp tự cung tự cấp.",
+          "B. Thu hút đầu tư, mở rộng sản xuất công nghiệp và tạo thêm việc làm.",
+          "C. Làm giảm nhu cầu lao động trong các ngành kinh tế.",
+          "D. Hạn chế phát triển cơ sở hạ tầng."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "question": "Ngành kinh t ế m ũ i n h ọ n nào ở An Giang g ắ n l i ề n v ớ i l ợ i t h ế sinh thái c ủ a h ệ t h ố ng sông T i ề n và sông H ậ u, t ạ o nên các vùng nuôi t r ồ ng t h ủ y s ả n t ậ p trung l ớ n ( đ ặ c b i ệ t là cá tra)?",
+        "options": [
+          "A. Du lịch sinh thái.",
+          "B. Khai thác khoáng sản kim loại và vật liệu xây dựng sâu.",
+          "C. Trồng cây công nghiệp lâu năm vùng cao nguyên.",
+          "D. Nuôi trồng và chế biến thủy sản xuất khẩu."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "question": "[H i ể u] Vì sao h o ạ t đ ộ ng s ả n x u ấ t, x ả t h ả i có t h ể góp p h ầ n gây b i ế n đ ổ i khí h ậ u?",
+        "options": [
+          "A. Gia tăng khí nhà kính làm nhiệt độ không khí tăng lên.",
+          "B. Gia tăng khí nhà kính làm giảm khả năng giữ nhiệt khí quyển.",
+          "C. Phát thải khí nhà kính chủ yếu gây biến động thủy triều.",
+          "D. Phát thải khí nhà kính chủ yếu làm thay đổi hướng dòng sông."
         ],
         "correct": 0,
         "explanation": ""
       },
       {
-        "id": 31,
-        "question": "Một học sinh đã viết đoạn mã HTML có nội dung như sau.\nMột số bạn đưa ra các phát biểu dưới đây về kết quả của đoạn mã này.",
+        "id": 16,
+        "question": "[H i ể u] Vì sao xâm n h ậ p m ặ n ả nh h ư ở ng đ ế n nông ngh i ệ p vùng t h ấ p ven b i ể n?",
         "options": [
-          "A. Có một đường kẻ ngang để phân tách nội dung trong trang HTML.",
-          "B. Thuộc tính style trong đoạn mã trên được sử dụng để thiết lập định dạng cho văn bản trong thẻ <p>.",
-          "C. Cụm từ “Thảo luận” có kích thước nhỏ hơn đoạn văn “Trường THPT Nguyễn Việt Dũng”.",
-          "D. Thuộc tính style=\"color:blue\" trong thẻ <p> sẽ thay đổi màu nền của đoạn văn bản thành màu xanh dương."
+          "A. Làm tăng nguồn nước ngọt dùng cho tưới trong mùa khô.",
+          "B. Giúp các giống cây nước ngọt thích nghi ngay với mặn.",
+          "C. Làm lịch gieo trồng ổn định hơn bất kể điều kiện nước.",
+          "D. Gây thiếu nước ngọt và nhiễm mặn đất sản xuất."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "question": "[H i ể u] Vì sao c ầ n nâng c ấ p h ệ t h ố ng thoát n ư ớ c t ạ i đ ô t h ị ven b i ể n?",
+        "options": [
+          "A. Giảm tình trạng ngập lụt và cải thiện khả năng thoát nước.",
+          "B. Trực tiếp làm giảm lượng khí nhà kính của các nhà máy.",
+          "C. Thay thế nhiệm vụ cung cấp nước sạch cho người dân.",
+          "D. Trực tiếp làm giảm cường độ bão ngoài vùng biển xa."
         ],
         "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "question": "[H i ể u] Khôi p h ụ c r ừ ng phòng h ộ ven b i ể n góp p h ầ n ứ ng phó v ớ i tác đ ộ ng nào?",
+        "options": [
+          "A. Hạn chế tác động của sóng và tình trạng xói lở bờ biển.",
+          "B. Trực tiếp điều chỉnh lượng mưa theo nhu cầu cây trồng.",
+          "C. Thay thế hệ thống cấp nước sạch tại đô thị ven biển.",
+          "D. Trực tiếp ngăn toàn bộ khí thải từ các khu công nghiệp."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "question": "[H i ể u] V i ệ c xây khu neo đ ậ u tránh trú bão có ý ng h ĩ a nào?",
+        "options": [
+          "A. Trực tiếp ngăn nước mặn xâm nhập vào đồng ruộng.",
+          "B. Tạo nơi trú tránh, giảm rủi ro cho tàu thuyền khi có bão.",
+          "C. Thay thế công trình cấp nước sinh hoạt tại các đô thị.",
+          "D. Trực tiếp giảm nguy cơ cháy rừng vào mùa khô."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "question": "M ộ t trang t r ạ i nuôi tôm ở t ỉ nh An Giang m u ố n nâng cao c h ấ t l ư ợ ng s ả n p h ẩ m và m ở r ộ ng t h ị t r ư ờ ng x u ấ t k h ẩ u. G i ả i pháp phù h ợ p n h ấ t là",
+        "options": [
+          "A. Tiếp tục nuôi theo phương thức truyền thống, không kiểm soát chất lượng.",
+          "B. Tăng mật độ nuôi nhưng không đầu tư xử lí môi trường.",
+          "C. Áp dụng quy trình VietGAP, GlobalGAP hoặc tiêu chuẩn ASC.",
+          "D. Chỉ tập trung tăng sản lượng, không quan tâm đến chất lượng."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "question": "Khó k h ă n l ớ n n h ấ t trong v i ệ c t ổ c h ứ c lãnh t h ổ nông ngh i ệ p t ạ i An Giang d ư ớ i tác đ ộ ng c ủ a b i ế n đ ổ i khí h ậ u toàn c ầ u là gì? (VD)",
+        "options": [
+          "A. Đất đai bị nhiễm mặn nặng nề trong tỉnh suốt quanh năm.",
+          "B. Đất đai bị nhiễm phèn nặng nề trong tỉnh suốt quanh năm.",
+          "C. Sự xuất hiện thường xuyên của bão nhiệt đới trực tiếp hàng năm.",
+          "D. Tình trạng hạn hán, thiếu nước ngọt, ngập lụt và xâm nhập mặn."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "question": "[ V ậ n d ụ ng] Sau các t r ậ n m ư a l ớ n, m ộ t khu dân c ư ven b i ể n t h ư ờ ng xuyên n g ậ p do h ệ t h ố ng thoát n ư ớ c h o ạ t đ ộ ng kém. Ng u ồ n l ự c t r ư ớ c m ắ t c ầ n ư u tiên cho g i ả i pháp nào?",
+        "options": [
+          "A. Nâng cấp khu neo đậu tàu cá nằm cách xa điểm ngập.",
+          "B. Nâng cấp hệ thống để cải thiện khả năng tiêu thoát nước.",
+          "C. Cải tạo cảnh quan tại những điểm du lịch của địa phương.",
+          "D. Mở rộng diện tích cây xanh ở khu đất ngoài vùng dân cư."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "question": "[ V ậ n d ụ ng] M ộ t khu neo đ ậ u tàu cá đ ã x u ố ng c ấ p, trong khi đ ị a p h ư ơ ng t h ư ờ ng c h ị u ả nh h ư ở ng c ủ a bão. Đ ể g i ả m r ủ i ro t r ự c t i ế p cho tàu thu y ề n, c ầ n ư u tiên p h ư ơ ng án nào?",
+        "options": [
+          "A. Nâng cấp khu neo đậu để tăng khả năng tránh trú bão.",
+          "B. Bổ sung biển hướng dẫn khách đến các điểm du lịch ven biển.",
+          "C. Cải tạo cảnh quan tại khu vực kinh doanh hải sản gần bến.",
+          "D. Tổ chức thêm tuyến tham quan bằng tàu trong mùa du lịch."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "question": "Hình t h ứ c t ổ c h ứ c lãnh công ngh i ệ p c h ủ y ế u ở An Giang là",
+        "options": [
+          "A. vùng cây ăn quả.",
+          "B. nuôi trồng và chế biến thủy sản.",
+          "C. cụm công nghiệp và khu công nghiệp.",
+          "D. trang trại nuôi tôm."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "question": "Hai hình t h ứ c t ổ c h ứ c lãnh t h ổ công ngh i ệ p c h ủ y ế u c ủ a t ỉ nh An Giang là",
+        "options": [
+          "A. Khu chế xuất và khu kinh tế.",
+          "B. Khu công nghiệp và cụm công nghiệp.",
+          "C. Nhà máy và xí nghiệp.",
+          "D. Khu công nghệ cao và khu thương mại."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "question": "V i ệ c các trang t r ạ i c h ă n nuôi chu y ể n t ừ quy mô nông h ộ sang trang t r ạ i t ậ p trung có tác d ụ ng c h ủ y ế u nào sau đ ây?",
+        "options": [
+          "A. Tăng nguy cơ dịch bệnh trong khu dân cư.",
+          "B. Hạn chế khả năng kiểm soát chất thải.",
+          "C. Thuận lợi cho ứng dụng công nghệ, kiểm soát dịch bệnh và bảo vệ môi trường.",
+          "D. Làm giảm khả năng tổ chức sản xuất hàng hóa."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "question": "M ộ t đ ị a p h ư ơ ng có t h ế m ạ nh v ề s ả n x u ấ t lúa g ạ o và ng u ồ n nguyên l i ệ u nông s ả n d ồ i dào. Ngành ng h ề nào sau đ ây phù h ợ p n h ấ t đ ể ư u tiên thu hút đ ầ u t ư vào c ụ m công ngh i ệ p?",
+        "options": [
+          "A. Chế biến lương thực, thực phẩm và nông sản.",
+          "B. Khai thác than đá.",
+          "C. Sản xuất thiết bị hàng không.",
+          "D. Khai thác dầu khí."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "question": "M ộ t trang t r ạ i c h ă n nuôi heo ở An Giang đ ang gây ô nh i ễ m môi t r ư ờ ng do c h ấ t t h ả i c h ư a đư ợ c x ử lí. G i ả i pháp phù h ợ p n h ấ t là",
+        "options": [
+          "A. Tiếp tục mở rộng đàn vật nuôi.",
+          "B. Xả trực tiếp nước thải ra môi trường.",
+          "C. Đầu tư hệ thống xử lí chất thải rắn, nước thải và mùi hôi.",
+          "D. Chuyển chất thải sang khu dân cư lân cận."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 29,
+        "question": "Đ ể phát tr i ể n khu công ngh i ệ p b ề n v ữ ng, đ ồ ng t h ờ i nâng cao c h ấ t l ư ợ ng c u ộ c s ố ng c ủ a n g ư ờ i dân, t ỉ nh An Giang c ầ n ư u tiên g i ả i pháp nào?",
+        "options": [
+          "A. Thu hút đầu tư bằng mọi giá, không quan tâm đến môi trường.",
+          "B. Phát triển công nghiệp gắn với xử lí chất thải, bảo vệ môi trường và chăm lo đời sống người lao động.",
+          "C. Chỉ tập trung tăng số lượng nhà máy.",
+          "D. Hạn chế đào tạo nghề cho người lao động địa phương."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 30,
+        "question": "Hình t h ứ c t ổ c h ứ c lãnh t h ổ nông ngh i ệ p nào đ ang đ óng vai trò c h ủ đ ạ o trong v i ệ c nâng cao giá t r ị gia t ă ng và s ứ c c ạ nh tranh cho m ặ t hàng lúa g ạ o ở An Giang? (VD)",
+        "options": [
+          "A. Các trang trại chăn nuôi gia súc quy mô nhỏ mang tính tự cung tự cấp.",
+          "B. Khu công nghệ sinh học tập trung chuyên nghiên cứu cây lâm nghiệp.",
+          "C. Các vùng chuyên canh cây công nghiệp dài ngày như cao su và cà phê.",
+          "D. Mô hình cánh đồng lớn (cánh đồng mẫu lớn) gắn với liên kết chuỗi giá trị."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 31,
+        "question": "V i ệ c chu y ể n t ừ nuôi tôm q u ả ng canh sang nuôi công ngh i ệ p, bán công ngh i ệ p ở khu v ự c T ứ giác Long Xuyên c h ủ y ế u n h ằ m",
+        "options": [
+          "A. Giảm khả năng ứng dụng khoa học – công nghệ.",
+          "B. Mở rộng diện tích nuôi tự nhiên không kiểm soát.",
+          "C. Nâng cao năng suất, chất lượng và hiệu quả nuôi trồng thủy sản.",
+          "D. Hạn chế liên kết với thị trường tiêu thụ."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 32,
+        "question": "[ V ậ n d ụ ng] M ộ t đ o ạ n b ờ b i ể n b ị xói l ở , r ừ ng n g ậ p m ặ n suy g i ả m kh i ế n sinh k ế ven b ờ b ị ả nh h ư ở ng. G i ả i pháp sinh thái nào phù h ợ p n h ấ t đ ể g i ả m tác đ ộ ng này?",
+        "options": [
+          "A. Bổ sung biển giới thiệu về giá trị du lịch của vùng ven biển.",
+          "B. Cải tạo hệ thống thoát nước mưa tại các khu đô thị nội địa.",
+          "C. Khôi phục rừng phòng hộ tại khu vực ven biển bị suy giảm.",
+          "D. Trồng cây cảnh dọc các tuyến đường ở trung tâm khu dân cư."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 33,
+        "question": "Đ ị nh h ư ớ ng nuôi t r ồ ng t h ủ y s ả n theo vùng sinh thái và thích ứ ng v ớ i b i ế n đ ổ i khí h ậ u trên đ ị a bàn t ỉ nh không bao g ồ m l o ạ i hình nào sau đ ây? (VD)",
+        "options": [
+          "A. Nuôi tôm nước lợ và nuôi cua biển.",
+          "B. Nuôi nhuyễn thể và nuôi thủy sản lồng bè.",
+          "C. Nuôi thủy sản nước ngọt.",
+          "D. Nuôi cá hồi, cá tầm nước lạnh vùng núi cao."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 34,
+        "question": "M ộ t đ ị a p h ư ơ ng th u ộ c vùng T ứ giác Long Xuyên có đ i ề u k i ệ n th u ậ n l ợ i đ ể phát tr i ể n c h ă n nuôi trâu, bò, heo và gia c ầ m. Hình t h ứ c t ổ c h ứ c s ả n x u ấ t phù h ợ p n h ấ t là",
+        "options": [
+          "A. Chăn nuôi nhỏ lẻ trong khu dân cư.",
+          "B. Phát triển trang trại chăn nuôi tập trung quy mô vừa và lớn.",
+          "C. Chỉ phát triển chăn nuôi tự cung tự cấp.",
+          "D. Không cần liên kết giữa các cơ sở chăn nuôi."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 35,
+        "question": "[H i ể u] Khô h ạ n kéo dài ả nh h ư ở ng đ ế n đ a d ạ ng sinh h ọ c r ừ ng tràm n h ư t h ế nào?",
+        "options": [
+          "A. Tăng nguy cơ cháy rừng, làm mất nơi sống của sinh vật.",
+          "B. Chủ yếu làm tăng diện tích đất ngập nước quanh năm.",
+          "C. Tạo điều kiện cho mọi loài trong rừng sinh sản tốt hơn.",
+          "D. Chủ yếu làm tăng nguồn giống thủy sản trong rừng."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 36,
+        "question": "[H i ể u] N ư ớ c m ặ n xâm n h ậ p ả nh h ư ở ng đ ế n ng u ồ n l ợ i t h ủ y s ả n n ư ớ c n g ọ t n h ư t h ế nào?",
+        "options": [
+          "A. Tăng lượng giống tự nhiên của mọi loài trong khu vực.",
+          "B. Mở rộng nơi sống thích hợp của các loài nước ngọt.",
+          "C. Làm nguồn lợi nước ngọt ít phụ thuộc chất lượng nước.",
+          "D. Thu hẹp nơi sống và làm giảm nguồn giống tự nhiên."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 37,
+        "question": "[H i ể u] C h ế đ ộ m ư a b i ế n đ ộ ng t h ấ t t h ư ờ ng gây tác đ ộ ng nào đ ế n tài nguyên n ư ớ c?",
+        "options": [
+          "A. Giúp nước mặn rút dần khỏi mọi khu vực ven biển.",
+          "B. Giúp lượng nước ngọt phân bố ổn định giữa các mùa.",
+          "C. Gia tăng nguy cơ lũ mùa mưa và thiếu nước mùa khô.",
+          "D. Làm lượng nước ngầm tăng đều trong suốt cả năm."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 38,
+        "question": "[ V ậ n d ụ ng] Nhóm h ọ c sinh th i ế t k ế t ờ r ơ i cho xã t h ư ờ ng th i ế u n ư ớ c n g ọ t khi mùa khô có xâm n h ậ p m ặ n. Thông đ i ệ p nào đ ị nh h ư ớ ng hành đ ộ ng phù h ợ p n h ấ t?",
+        "options": [
+          "A. Điều chỉnh sử dụng nước sau khi nguồn cung đã bị gián đoạn.",
+          "B. Tiết kiệm nước ngọt, theo dõi và chủ động thích ứng hạn mặn.",
+          "C. Giữ cơ cấu cây trồng cũ để duy trì sản lượng trong mọi mùa.",
+          "D. Mở rộng diện tích sản xuất để bù phần năng suất bị suy giảm."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 39,
+        "question": "L o ạ i hình trang t r ạ i ch i ế m s ố l ư ợ ng c h ủ y ế u ở khu v ự c Kiên Giang c ũ n ă m 2023 là",
+        "options": [
+          "A. Trang trại chăn nuôi.",
+          "B. Trang trại tổng hợp.",
+          "C. Trang trại trồng trọt.",
+          "D. Trang trại nuôi trồng thủy sản."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 40,
+        "question": "Đ ị a p h ư ơ ng có s ố l ư ợ ng trang t r ạ i nh i ề u n h ấ t trong các hu y ệ n đư ợ c t h ố ng kê ở khu v ự c Kiên Giang c ũ n ă m 2023 là",
+        "options": [
+          "A. Kiên Lương.",
+          "B. Hòn Đất.",
+          "C. Giồng Riềng.",
+          "D. Giang Thành."
+        ],
+        "correct": 2,
         "explanation": ""
       }
     ]
