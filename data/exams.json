@@ -5009,7 +5009,7 @@
   {
     "id": "olm-vat-lieu-polymer-phan-4-3158092100",
     "lessonId": "3158092100",
-    "title": "OLM: VẬT LIỆU POLYMER (PHẦN 4)",
+    "title": "OLM: Vật liệu polymer (phần 4)",
     "subject": "Hóa Học",
     "grade": 12,
     "durationMinutes": 15,
@@ -5020,7 +5020,7 @@
     "tags": [
       "OLM",
       "Hóa Học",
-      "GV: OLM"
+      "Tự động trích xuất"
     ],
     "description": "Bài tập trực tuyến OLM: Vật liệu polymer (phần 4). Môn Hóa Học - Lớp 12. Tổng số 5 câu hỏi có đáp án và lời giải chi tiết.",
     "questions": [
@@ -5028,50 +5028,54 @@
         "id": 1,
         "question": "Cao su tổng hợp được điều chế bằng phản ứng nào sau đây?",
         "options": [
-          "A. Đúng",
-          "B. Sai"
+          "A. Phản ứng thủy phân.",
+          "B. Phản ứng trùng ngưng.",
+          "C. Phản ứng trùng hợp.",
+          "D. Phản ứng lên men."
         ],
-        "correct": 0,
-        "explanation": "​Cao su tổng hợp được điều chế bằng phản ứng trùng hợp và phản ứng đồng trùng hợp.Ví dụ: Cao su buna được điều chế bằng phản ứng trùng hợp buta-1,3-diene theo phương trình hóa học sau:"
+        "correct": 2,
+        "explanation": ""
       },
       {
         "id": 2,
         "question": "Polymer nào sau đây có thể tham gia phản ứng cộng với hydrogen?",
         "options": [
-          "A. Đúng",
-          "B. Sai"
+          "A. Polyethylene.",
+          "B. Polybuta-1,3-diene.",
+          "C. Poly(vinyl chloride).",
+          "D. Polyacrylonitrile."
         ],
-        "correct": 0,
-        "explanation": "​Polybuta-1,3-diene (cao su buna) có công thức cấu tạo như sau:.Bởi vì trong công thức cấu tạo của polybuta-1,3-diene còn có chứa một nối đôi kém bền nên có khả năng tham gia phản ứng cộng với hydrogen.Công thức của polyethylene, poly(vinyl chloride) và polyacrylonitrile không chứa liên kết kém bền nên không có khả năng tham gia phản ứng cộng với hydrogen."
+        "correct": 1,
+        "explanation": ""
       },
       {
         "id": 3,
-        "question": "Trong công nghiệp, polymer X được điều chế theo sơ đồ phản ứng sau:Polymer X là loại vật liệu có tính đàn hồi nên được ứng dụng trong sản xuất cao su. Tên gọi của polymer X là",
+        "question": "Trong công nghiệp, polymer X được điều chế theo sơ đồ phản ứng sau: \\(CH_2=CH-CH=CH_2\\rightarrow CH_2=CH-CHCl-CH_2Cl\\rightarrow CH_2=CH-CCl=CH_2\\rightarrow X\\) Polymer X là loại vật liệu có tính đàn hồi nên được ứng dụng trong sản xuất cao su. Tên gọi của polymer X là",
         "options": [
-          "A. Đúng",
-          "B. Sai"
+          "A. polychloroprene.",
+          "B. poly(vinyl chloride).",
+          "C. polyisoprene.",
+          "D. polybuta-1,3-diene."
         ],
         "correct": 0,
-        "explanation": "​Theo sơ đồ phản ứng, polymer X được điều chế từ chloroprene bằng phản ứng trùng hợp ⇒ X là polychloroprene.Phương trình phản ứng:"
+        "explanation": ""
       },
       {
         "id": 4,
         "question": "Cao su chloroprene thuộc loại cao su tổng hợp và có rất nhiều ưu điểm nổi trội như không cháy, bền cơ học và không tan trong dầu nên thường được dùng để bọc ống thủy lực công nghiệp, sản xuất vật dụng kháng dầu và ozone.",
         "options": [
-          "A. Cao su chloroprene có công thức hóa học là .",
-          "B. Cao su chloroprene được tổng hợp bằng phản ứng trùng hợp 3-chlorobuta-1,3-diene.",
-          "C. Chloroprene có đồng phân hình học.",
-          "D. Đun nóng cao su chloroprene với lưu huỳnh thu được cao su lưu hóa có cấu trúc mạng không gian."
+          "A. #Cao su chloroprene có công thức hóa học là .",
+          "B. #Cao su chloroprene được tổng hợp bằng phản ứng trùng hợp 3-chlorobuta-1,3-diene.",
+          "C. #Chloroprene có đồng phân hình học.",
+          "D. #Đun nóng cao su chloroprene với lưu huỳnh thu được cao su lưu hóa có cấu trúc mạng không gian."
         ],
-        "correct": 0,
-        "explanation": "- Cao su chloroprene có công thức hóa học là  ⇒ Đúng.- Cao su chloroprene được tổng hợp bằng phản ứng trùng hợp 3-chlorobuta-1,3-diene ⇒ Sai, cao su chloroprene được tổng hợp từ 2-chlorobuta-1,3-diene theo phương trình hóa học sau:- Chloroprene có đồng phân hình học ⇒ Sai, chloroprene không có đồng phân hình học cis- và trans- vì các nhóm thế cùng liên kết với nguyên tử carbon giống nhau.- Đun nóng cao su chloroprene với lưu huỳnh thu được cao su lưu hóa có cấu trúc mạng không gian ⇒ Đúng, cao su lưu hóa thu được khi đun nóng cao su thường với lưu huỳnh, từ đó hình thành các cầu nối disulfide liên kết các mạch polymer lại với nhau tạo thành mạng không gian."
+        "correct": 3,
+        "explanation": ""
       },
       {
         "id": 5,
-        "question": "Cao su buna được điều chế từ sơ đồ sau:Glucose → Ethanol → Buta-1,3-diene → Cao su buna",
-        "options": [
-          "A. [450]"
-        ],
+        "question": "Cao su buna được điều chế từ sơ đồ sau: Glucose → Ethanol → Buta-1,3-diene → Cao su buna Cần bao nhiêu kg glucose để có thể điều chế được 108 kg cao su buna (làm tròn kết quả đến chữ số hàng đơn vị)? Giả sử hiệu suất của cả quá trình là 80%. Trả lời: . Hướng dẫn giải: Ta có sơ đồ điều chế cao su buna như sau:​ \\(n_{polybuta-1,3-diene}=\\dfrac{108}{54n}=\\dfrac{2}{n}\\) kmol ⇒ \\(n_{C_6H_{12}O_6}=\\dfrac{2}{n}.\\dfrac{100}{80}.n=\\dfrac{5}{2}\\) kmol ⇒ \\(m_{C_6H_{12}O_6}=\\dfrac{5}{2}.180=450\\) kg.",
+        "options": [],
         "correct": 0,
         "explanation": ""
       }
@@ -5082,7 +5086,7 @@
   {
     "id": "olm-dai-cuong-ve-polymer-phan-2-2991021811",
     "lessonId": "2991021811",
-    "title": "OLM: ĐẠI CƯƠNG VỀ POLYMER (PHẦN 2)",
+    "title": "OLM: Đại cương về polymer (phần 2)",
     "subject": "Hóa Học",
     "grade": 12,
     "durationMinutes": 15,
@@ -5093,48 +5097,50 @@
     "tags": [
       "OLM",
       "Hóa Học",
-      "GV: OLM"
+      "Tự động trích xuất"
     ],
     "description": "Bài tập trực tuyến OLM: Đại cương về polymer (phần 2). Môn Hóa Học - Lớp 12. Tổng số 4 câu hỏi có đáp án và lời giải chi tiết.",
     "questions": [
       {
         "id": 1,
-        "question": "Polymer nào sau đây không bị thủy phân trong dung dịch H2SO4 loãng, nóng?",
+        "question": "Polymer nào sau đây không bị thủy phân trong dung dịch H 2 SO 4 loãng, nóng?",
         "options": [
-          "A. Đúng",
-          "B. Sai"
+          "A. Polyethylene.",
+          "B. Tơ capron.",
+          "C. Nylon-6,6.",
+          "D. Poly(vinyl acetate)."
         ],
         "correct": 0,
-        "explanation": "​Polyethylene không bị thủy phân trong dung dịch H2SO4 loãng, nóng.Poly(vinyl acetate) có chứa nhóm chức ester nên bị thủy phân bởi dung dịch H2SO4 loãng, nóng.Tơ capron, nylon-6,6 có chứa liên kết -CO-NH- nên bị thủy phân bởi dung dịch H2SO4 loãng, nóng."
+        "explanation": ""
       },
       {
         "id": 2,
-        "question": "Thuộc da là quá trình xử lí da của động vật để sản xuất da thuộc, là vật liệu bền hơn và khó bị phân hủy hơn. Quá trình thuộc da xử lí với HCHO là phản ứng của protein dưới tác dụng của HCHO tạo thành sản phẩm có cấu trúc không gian.",
+        "question": "Thuộc da là quá trình xử lí da của động vật để sản xuất da thuộc, là vật liệu bền hơn và khó bị phân hủy hơn. Quá trình thuộc da xử lí với HCHO là phản ứng của protein dưới tác dụng của HCHO tạo thành sản phẩm có cấu trúc không gian.",
         "options": [
-          "A. Protein thuộc loại polymer thiên nhiên.( T )",
-          "B. Sản phẩm của quá trình thuộc da là polymer.( T )",
-          "C. Phản ứng xảy ra trong quá trình thuộc da là phản ứng giữ nguyên mạch polymer.( F )",
-          "D. Phản ứng thủy phân da động vật bằng dung dịch kiềm thuộc loại phản ứng cắt mạch polymer.( T )"
+          "A. #Protein thuộc loại polymer thiên nhiên.",
+          "B. #Sản phẩm của quá trình thuộc da là polymer.",
+          "C. #Phản ứng xảy ra trong quá trình thuộc da là phản ứng giữ nguyên mạch polymer.",
+          "D. #Phản ứng thủy phân da động vật bằng dung dịch kiềm thuộc loại phản ứng cắt mạch polymer."
         ],
-        "correct": 0,
-        "explanation": "​Protein thuộc loại polymer thiên nhiên ⇒ Đúng, bởi vì protein có chứa nhiều trong cơ thể con người và động vật.Sản phẩm của quá trình thuộc da là polymer ⇒ Đúng, sản phẩm của quá trình thuộc da là polymer tồn tại ở dạng mạng không gian.Phản ứng xảy ra trong quá trình thuộc da là phản ứng giữ nguyên mạch polymer ⇒ Sai, phản ứng xảy ra trong quá trình thuộc da là phản ứng tăng mạch polymer.Phản ứng thủy phân da động vật bằng dung dịch kiềm thuộc loại phản ứng cắt mạch polymer ⇒ Đúng, bởi vì trong protein có chứa liên kết peptide. Liên kết này có thể bị phân cắt trong môi trường kiềm tạo thành các đơn vị amino acid."
+        "correct": 3,
+        "explanation": ""
       },
       {
         "id": 3,
-        "question": "Polymer X được tổng hợp theo phương trình hóa học sau:Polymer X được điều chế bằng phản ứng nào?",
+        "question": "Polymer X được tổng hợp theo phương trình hóa học sau: \\(nH_2N\\left[CH_2\\right]_6NH_2+nHOOC-\\left[CH_2\\right]_4-COOH\\overset{xt,t^o}{\\rightarrow}X+nH_2O\\) Polymer X được điều chế bằng phản ứng nào?",
         "options": [
-          "A. Đúng",
-          "B. Sai"
+          "A. Trùng hợp.",
+          "B. Trùng ngưng.",
+          "C. Ester hóa.",
+          "D. Thủy phân."
         ],
-        "correct": 0,
-        "explanation": "​Polymer X là nylon-6,6 được điều chế bằng phản ứng trùng ngưng theo phương trình hóa học sau đây:"
+        "correct": 1,
+        "explanation": ""
       },
       {
         "id": 4,
-        "question": "Cho các polymer sau: polyethylene, poly(phenol fomaldehyde), poly(vinyl chloride), polysaccharide, polybuta-1,3-diene. Có bao nhiêu polymer được điều chế từ phản ứng trùng hợp?",
-        "options": [
-          "A. [3]"
-        ],
+        "question": "Cho các polymer sau: polyethylene, poly(phenol fomaldehyde), poly(vinyl chloride), polysaccharide, polybuta-1,3-diene. Có bao nhiêu polymer được điều chế từ phản ứng trùng hợp? Trả lời: . Hướng dẫn giải: ​Polyethylene, polybuta-1,3-diene và poly(vinyl chloride) được điều chế từ phản ứng trùng hợp. Poly(phenol fomaldehyde) được điều chế bằng phản ứng trùng ngưng. Polysaccharide là polymer thiên nhiên.",
+        "options": [],
         "correct": 0,
         "explanation": ""
       }
