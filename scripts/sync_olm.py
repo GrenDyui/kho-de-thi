@@ -617,10 +617,10 @@ def crawl_blocked_exam_from_olm(
         print(f"[!] Fallback Crawler: Page request failed: {e}")
         return None
 
-    # Extract quiz IDs
-    m_quizzes = re.search(r'list_id_quiz\s*:\s*\[([\s\S]*?)\]', r.text)
+    # Extract quiz IDs (supports regular topics list_id_quiz and video lessons id_quizs)
+    m_quizzes = re.search(r'(?:list_id_quiz|id_quizs)\s*:\s*\[([\s\S]*?)\]', r.text)
     if not m_quizzes:
-        print(f"[!] Fallback Crawler: Could not find list_id_quiz in HTML.")
+        print(f"[!] Fallback Crawler: Could not find list_id_quiz or id_quizs in HTML.")
         return None
 
     quizzes = re.findall(r'["\'](\d+)["\']', m_quizzes.group(1))
