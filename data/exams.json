@@ -11406,5 +11406,242 @@
         "explanation": "Công thức chu kỳ con lắc đơn: $T = 2\\pi \\sqrt{\\frac{l}{g}} = 2\\pi \\sqrt{\\frac{1}{\\pi^2}} = 2\\text{ s}$.\n---------- HẾT ----------\nBẢNG ĐÁP ÁN TỔNG HỢP"
       }
     ]
+  },
+  {
+    "id": "olm-chuyen-de-toan-12-5337107196",
+    "title": "OLM: Chuyên đề toán 12",
+    "subject": "Toán",
+    "grade": 12,
+    "duration": 45,
+    "teacher": null,
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Toán",
+      "GV: OLM"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">PHẦN I. CÂU HỎI TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN(Mỗi câu hỏi chỉ chọn 1 phương án đúng. Các đáp án đúng được gạch chân chữ cái đầu)</div>[NB]: Trong bài toán quy hoạch tuyến tính hai biến, biểu thức  $F(x;y)=Ax+By$  dùng để tìm giá trị lớn nhất hoặc nhỏ nhất được gọi là gì?.A. Các ràng buộc.B. Hàm mục tiêu.C. Phương án tối ưu.D. Miền chấp nhận được.[HDG] Biểu thức  $F(x;y)=Ax+By$  biểu diễn đại lượng cần tối ưu (ví dụ lợi nhuận, chi phí) nên được gọi là hàm mục tiêu.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 1,
+        "explanation": "Đáp án chính thức OLM: B"
+      },
+      {
+        "id": 2,
+        "question": "[NB]: Mỗi bất phương trình trong hệ bất phương trình bậc nhất hai ẩn của bài toán quy hoạch tuyến tính được gọi là gì?.A. Một phương án cực biên.B. Một phương án tối ưu.C. Một ràng buộc.D. Hàm mục tiêu.[HDG] Theo định nghĩa, mỗi bất phương trình trong hệ biểu thị các điều kiện của bài toán được gọi là một ràng buộc.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 2,
+        "explanation": "Đáp án chính thức OLM: C"
+      },
+      {
+        "id": 3,
+        "question": "[NB]: Nếu cặp số  $({x}_{0};{y}_{0})$  là một nghiệm của hệ các ràng buộc thì  $({x}_{0};{y}_{0})$  được gọi là gì?.A. Giá trị tối ưu.B. Phương án chấp nhận được.C. Phương án vô nghiệm.D. Điểm không hợp lệ.[HDG] Cặp  $({x}_{0};{y}_{0})$  thỏa mãn tất cả các ràng buộc được gọi là một phương án chấp nhận được (hoặc phương án khả thi)..",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 1,
+        "explanation": "Đáp án chính thức OLM: B"
+      },
+      {
+        "id": 4,
+        "question": "[NB]: Nếu phương án chấp nhận được  $({x}_{0};{y}_{0})$  là một đỉnh của miền nghiệm thì điểm đó được gọi là gì?.A. Điểm cực biên (hay phương án cực biên).B. Hàm mục tiêu.C. Phương án loại trừ.D. Giá trị cực đại.[HDG] Các đỉnh của miền nghiệm đa giác hoặc miền nghiệm không bị chặn được gọi là các điểm cực biên hay phương án cực biên..",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": "Đáp án chính thức OLM: A"
+      },
+      {
+        "id": 5,
+        "question": "[TH]: Cho hàm mục tiêu  $F(x;y)=2x+3y$ . Tính giá trị của  $F$  tại phương án cực biên  $B(3;2)$ .A. 13.B. 10.C. 6.D. 12.[HDG] Thay toạ độ  $B(3;2)$  vào hàm số:  $F(3;2)=2(3)+3(2)=6+6=12$ .",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 3,
+        "explanation": "Đáp án chính thức OLM: D"
+      },
+      {
+        "id": 6,
+        "question": "[TH]: Cho miền nghiệm là đa giác có các điểm cực biên  $O(0;0),A(0;20),B(\\frac{150}{13};\\frac{200}{13}),C(18;10),D(24;0)$ .Tính giá trị của hàm mục tiêu  $F(x;y)=100x+112y$  tại điểm  $D$ .A. 2240.B. 2400.C. 2920.D. 0.[HDG] Tại điểm  $D(24;0)$ , ta có  $F(24;0)=100(24)+112(0)=2400$ [cite: 26].",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 1,
+        "explanation": "Đáp án chính thức OLM: B"
+      },
+      {
+        "id": 7,
+        "question": "[TH]: Xét bài toán quy hoạch tuyến tính có miền chấp nhận được  $S$  không là miền đa giác (không bị chặn) và hàm mục tiêu  $F(x;y)=Ax+By$  có  $A>0,B>0$ . Nếu hệ ràng buộc có chứa  $x≥0,y≥0$ , mệnh đề nào sau đây đúng?A. Bài toán có giá trị nhỏ nhất nhưng không có giá trị lớn nhất.B. Bài toán có giá trị lớn nhất nhưng không có giá trị nhỏ nhất.C. Bài toán luôn có cả giá trị lớn nhất và nhỏ nhất.D. Bài toán vô nghiệm.[HDG] Theo lí thuyết, khi  $A,B>0$  và  $x,y≥0$  trên miền không bị chặn, hàm số sẽ tăng đến vô cực khi  $x,y$  lớn, do đó chỉ có giá trị nhỏ nhất, không có giá trị lớn nhất.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": "Đáp án chính thức OLM: A"
+      },
+      {
+        "id": 8,
+        "question": "[TH]: Một xí nghiệp sản xuất hai loại sản phẩm I và II. Mỗi kilôgam sản phẩm loại I đem lại lợi nhuận 40 nghìn đồng, loại II đem lại 30 nghìn đồng. Gọi  $x,y$  lần lượt là số kg sản phẩm loại I và II được sản xuất. Hàm mục tiêu biểu diễn tổng lợi nhuận là:A.  $F(x;y)=30x+40y$ .B.  $F(x;y)=40x+30y$ .C.  $F(x;y)=70(x+y)$ .D.  $F(x;y)=x+y$ .[HDG] Tổng lợi nhuận bằng lợi nhuận sản phẩm I cộng lợi nhuận sản phẩm II, tức là  $F(x;y)=40x+30y$ .",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 1,
+        "explanation": "Đáp án chính thức OLM: B"
+      },
+      {
+        "id": 9,
+        "question": "[VD]: Tiếp nối bài toán ở Câu 8, biết mỗi kg sản phẩm loại I cần 2 kg nguyên liệu, loại II cần 4 kg nguyên liệu và xí nghiệp có tối đa 200 kg nguyên liệu. Ràng buộc về nguyên liệu được biểu diễn bằng bất phương trình nào?A.  $x+y≤200$ .B.  $2x+4y≥200$ .C.  $2x+4y≤200$ .D.  $4x+2y≤200$ .[HDG] Lượng nguyên liệu tiêu thụ là  $2x+4y$ . Do xí nghiệp chỉ có tối đa 200 kg nguyên liệu nên  $2x+4y≤200$ .",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 2,
+        "explanation": "Đáp án chính thức OLM: C"
+      },
+      {
+        "id": 10,
+        "question": "[VD]: Tìm giá trị nhỏ nhất của hàm mục tiêu  $F(x;y)=3x+4y$  với các ràng buộc:  $x≥0,y≥0,x+2y≥4,x+y≥3$ . Biết miền nghiệm có các đỉnh  $A(0;3),B(2;1),C(4;0)$ .A. 12.B. 10.C. 16.D. 9.[HDG] Tính giá trị  $F(x;y)$  tại các đỉnh:  $F(0;3)=12$ ;  $F(2;1)=3(2)+4(1)=10$ ;  $F(4;0)=12$ . Giá trị nhỏ nhất là 10.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 1,
+        "explanation": "Đáp án chính thức OLM: B"
+      },
+      {
+        "id": 11,
+        "question": "[VD]: Cho bài toán  $F(x;y)=2x+3y→min$  trên miền nghiệm không bị chặn có các điểm cực biên  $A(2;3),B(\\frac{4}{3};\\frac{5}{3}),C(3;0)$ [cite: 32]. Giá trị nhỏ nhất của  $F(x;y)$  là bao nhiêu?A. 13.B. 6.C.  $\\frac{23}{3}$ .D. 0.[HDG] Tính giá trị  $F(x;y)$  tại các đỉnh:  $F(2;3)=13$ ,  $F(\\frac{4}{3};\\frac{5}{3})=23/3≈7,67$ ,  $F(3;0)=6$ . GTNN là 6.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 1,
+        "explanation": "Đáp án chính thức OLM: B"
+      },
+      {
+        "id": 12,
+        "question": "[VD]: Trong bài toán tối ưu với hàm chi phí  $F(x;y)=90x+75y→min$  trên miền lục giác có các đỉnh  $M(100;300),N(500/3;500),P(500;500),Q(600;400),R(600;300),S(800/3;400/3)$ [cite: 28]. Phương án tối ưu  $({x}_{0};{y}_{0})$  là điểm nào?A.  $M(100;300)$ .B.  $N(500/3;500)$ .C.  $S(800/3;400/3)$ .D.  $R(600;300)$ .[HDG] Tính  $F$  tại một số đỉnh:  $F(100;300)=31500$ ;  $F(800/3;400/3)=34000$ ;  $F(600;300)=76500$ . GTNN là 31500 tại  $M(100;300)$ .\nPHẦN II. CÂU HỎI TRẮC NGHIỆM ĐÚNG/SAI(Mỗi câu hỏi có 4 ý a, b, c, d. Các ý đúng được gạch chân chữ cái đầu)",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": "Đáp án chính thức OLM: A"
+      },
+      {
+        "id": 13,
+        "question": "[TH]: Xét bài toán tối ưu với hàm mục tiêu  $F(x;y)=3x+2y→min$  trên miền nghiệm của hệ  $\\begin{cases} x-y≤1 \\\\ x+y≥3 \\\\ x≥0 \\end{cases}$ .a) Điểm  $A(2;1)$  là một phương án cực biên của bài toán.b) Điểm  $B(0;3)$  là một phương án cực biên của bài toán.c) Miền nghiệm của bài toán là một miền đa giác bị chặn.d) Giá trị tối ưu (nhỏ nhất) của bài toán là 6.[HDG]a) Đúng,  $A(2;1)$  là giao của hai đường  $x-y=1$  và  $x+y=3$  và thỏa mãn  $x≥0$ [cite: 26].b) Đúng,  $B(0;3)$  là giao của đường  $x+y=3$  và trục tung  $x=0$ , thỏa mãn  $x-y≤1$ .c) Sai, miền nghiệm là một miền không bị chặn mở rộng về hướng dương của trục Oy và Ox.d) Đúng,  $F(2;1)=8$  và  $F(0;3)=6$ . GTNN là 6.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "question": "[TH]: Xét bài toán tìm GTLN của hàm mục tiêu  $F(x;y)=60x+30y$  trên miền đa giác có các đỉnh  $O(0;0),A(1;0),B(2;1),C(2;2),D(\\frac{4}{3};\\frac{10}{3}),E(0;4)$ .a) Tại đỉnh  $A(1;0)$ , hàm mục tiêu đạt giá trị 30.b) Tại đỉnh  $B(2;1)$ , hàm mục tiêu đạt giá trị 150.c) Tại đỉnh  $C(2;2)$ , hàm mục tiêu đạt giá trị 180.d) Đoạn thẳng  $CD$  thuộc miền nghiệm và  $F(x;y)=180$  tại mọi điểm trên  $CD$ , nên bài toán có vô số phương án tối ưu.[HDG]a) Sai,  $F(1;0)=60(1)+30(0)=60$ .b) Đúng,  $F(2;1)=60(2)+30(1)=150$ .c) Đúng,  $F(2;2)=60(2)+30(2)=180$ .d) Đúng, khi hàm mục tiêu đạt GTLN trên toàn bộ một cạnh (như đoạn  $CD$ ), bài toán có vô số phương án tối ưu.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "question": "[VD]: Một công ty cần thuê xe chở 140 người và 9 tấn hàng. Xe loại A (có 10 chiếc, giá thuê 4 triệu/chiếc) chở tối đa 20 người và 0,6 tấn hàng. Xe loại B (có 9 chiếc, giá thuê 3 triệu/chiếc) chở tối đa 10 người và 1,5 tấn hàng. Gọi  $x,y$  lần lượt là số xe A và B cần thuê.a) Hàm mục tiêu thể hiện chi phí thuê xe là  $F(x;y)=4x+3y→min$ .b) Ràng buộc về tổng số người cần chở là  $20x+10y≥140$ .c) Ràng buộc về khối lượng hàng cần chở là  $0,6x+1,5y≤9$ .d) Điều kiện về số lượng xe là  $0≤x≤10$  và  $0≤y≤9$ , với  $x,y∈N$ .[HDG]a) Đúng, chi phí thuê  $x$  xe A và  $y$  xe B là  $4x+3y$ .b) Đúng, sức chở người là  $20x+10y$ , cần chở 140 người nên  $20x+10y≥140$ .c) Sai, cần chở 9 tấn hàng nên bất phương trình phải là  $0,6x+1,5y≥9$ .d) Đúng, do số lượng xe có hạn (10 xe A, 9 xe B) và phải là số tự nhiên.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "question": "[VD]: Cho biểu thức  $G(x;y)=-x+0,5y$  xác định trên miền  $S$  không bị chặn tạo bởi hệ  $\\begin{cases} x+y≥3 \\\\ 2x-y≥1 \\\\ x-2y≥-4 \\\\ y≥0 \\end{cases}$ [cite: 32]. Miền S có các điểm cực biên  $A(2;3),B(\\frac{4}{3};\\frac{5}{3}),C(3;0)$ .a) Tại điểm  $C(3;0)$ , ta có  $G(3;0)=-3$ .b) Tại điểm  $A(2;3)$ , ta có  $G(2;3)=-1$ .c) Hàm số  $G(x;y)$  có giá trị nhỏ nhất trên miền  $S$ .d) Hàm số  $G(x;y)$  đạt giá trị lớn nhất bằng  $-0,5$  tại mọi điểm nằm trên đoạn thẳng  $AB$ .[HDG]a) Đúng,  $G(3;0)=-3+0,5(0)=-3$ .b) Sai,  $G(2;3)=-2+0,5(3)=-0,5$ .c) Sai, do miền không bị chặn hướng về phía x dương (cùng  $y=0$ ),  $G(x;y)$  tiến về âm vô cực nên không có GTNN.d) Đúng,  $G(x;y)$  đạt cực đại tại cả  $A(2;3)$  và  $B(\\frac{4}{3};\\frac{5}{3})$  với giá trị  $-0,5$ , suy ra đạt GTLN trên toàn đoạn  $AB$ .\nPHẦN III. CÂU HỎI TRẢ LỜI NGẮN(Tính toán và điền đáp số đúng vào trong dấu [[]])",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "question": "[NB]: Cho hàm mục tiêu  $F(x;y)=100x+112y$ .Tính giá trị của  $F$  tại phương án cực biên có toạ độ  $(18;10)$ .[[2920]][HDG] Thay  $x=18$  và  $y=10$  vào hàm mục tiêu:  $F(18;10)=100(18)+112(10)=1800+1120=2920$ .",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "question": "[TH]: Tìm giá trị lớn nhất của hàm mục tiêu  $F(x;y)=2x+y$  trên miền nghiệm là tứ giác có các đỉnh  $O(0;0),A(0;20),B(18;10),C(24;0)$ .[[48]][HDG] Tính giá trị  $F(x;y)$  tại các đỉnh:  $F(0;0)=0$ ,  $F(0;20)=20$ ,  $F(18;10)=2(18)+10=46$ ,  $F(24;0)=2(24)+0=48$ . Giá trị lớn nhất là 48.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "question": "[TH]: Hệ bất phương trình  $\\begin{cases} x≥0,y≥0 \\\\ x+2y≤100 \\\\ 2x+y≤80 \\end{cases}$ . có tập phương án chấp nhận được là một miền đa giác. Hỏi đa giác đó có bao nhiêu điểm cực biên (đỉnh)?[[4]][HDG] Vẽ miền nghiệm: Giao của  $x=0,y=0$  là  $(0;0)$ . Giao của  $y=0$  và  $2x+y=80$  là  $(40;0)$ . Giao của  $x=0$  và  $x+2y=100$  là  $(0;50)$ . Giao của hai đường  $x+2y=100$  và  $2x+y=80$  là  $(20;40)$ . Miền nghiệm là một tứ giác. Số điểm cực biên là 4.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "question": "[VD]: Một chuyên gia dinh dưỡng lập thực đơn bằng hai thực phẩm X và Y với chi phí tương ứng là 20 nghìn đồng/100g X và 25 nghìn đồng/100g Y. Hàm chi phí mua thực phẩm là  $F(x;y)=20x+25y$ . Miền chấp nhận được có các điểm cực biên  $A(0;8),B(3;4),C(6;2),D(12;0)$ . Hỏi chi phí thấp nhất (tính bằng nghìn đồng) để mua nguyên liệu là bao nhiêu?[[160]][HDG] Lần lượt tính giá trị hàm chi phí tại các điểm cực biên:  $F(0;8)=200$ ,  $F(3;4)=20(3)+25(4)=160$ ,  $F(6;2)=20(6)+25(2)=170$ ,  $F(12;0)=240$ . Chi phí nhỏ nhất là 160 nghìn đồng.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "question": "[VD]: Cho hệ ràng buộc  $\\begin{cases} 0≤x≤2,y≥0 \\\\ 2x+y≤6 \\\\ x+2y≤8 \\\\ x≤y+1 \\end{cases}$  giới hạn một miền đa giác có các điểm cực biên  $O(0;0),A(1;0),B(2;1),C(2;2),D(\\frac{4}{3};\\frac{10}{3}),E(0;4)$ . Tìm giá trị lớn nhất của hàm mục tiêu  $F(x;y)=60x+30y$  trên miền đa giác này.[[180]][HDG] Tính giá trị  $F(x;y)$  tại các đỉnh:  $F(0;0)=0$ ,  $F(1;0)=60$ ,  $F(2;1)=150$ ,  $F(2;2)=60(2)+30(2)=180$ ,  $F(\\frac{4}{3};\\frac{10}{3})=60(4/3)+30(\\frac{10}{3})=180$ ,  $F(0;4)=120$ . GTLN là 180.",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "question": "[VD]: (Bài toán phân bón) Một loại cây cần ít nhất 18 đơn vị đạm và 6 đơn vị phosphate. Phân bón X (giá 17 trăm nghìn đồng/tạ) chứa 3 đạm và 2 phosphate; phân bón Y (giá 12 trăm nghìn đồng/tạ) chứa 6 đạm và 1 phosphate. Cần mua  $x$  tạ phân X và  $y$  tạ phân Y để chi phí  $F(x;y)=17x+12y$  (trăm nghìn đồng) là thấp nhất. Tính chi phí thấp nhất đó.[[58]][HDG] Hệ ràng buộc:  $\\begin{cases} 3x+6y≥18 \\\\ 2x+y≥6 \\\\ x≥0,y≥0 \\end{cases}$ . Rút gọn thành  $\\begin{cases} x+2y≥6 \\\\ 2x+y≥6 \\\\ x,y≥0 \\end{cases}$ .Các đỉnh (điểm cực biên) của miền nghiệm:Giao của  $x=0$  và  $2x+y=6→(0;6)$ .Giao của  $x+2y=6$  và  $2x+y=6→x=2,y=2→(2;2)$ .Giao của  $y=0$  và  $x+2y=6→(6;0)$ .Tính  $F(x;y)$ : $F(0;6)=12×6=72$ . $F(2;2)=17(2)+12(2)=34+24=58$ . $F(6;0)=17(6)=102$ .Giá trị nhỏ nhất là 58 (tương ứng 5,8 triệu đồng).",
+        "options": [
+          "A. Đúng",
+          "B. Sai"
+        ],
+        "correct": 0,
+        "explanation": ""
+      }
+    ]
   }
 ]
