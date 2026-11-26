@@ -788,6 +788,42 @@ const app = {
         `;
       }
 
+      // CASE 1B: Short Answer (Trả lời ngắn GDPT 2018)
+      if (this.isShortAnswerQuestion(q)) {
+        const expectedAns = this.getShortAnswerValue(q);
+        return `
+          ${passageHtml}
+          <div class="question-card bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+            <div class="flex items-start gap-3">
+              <span class="px-2.5 py-1 rounded-xl bg-amber-100 dark:bg-amber-950/70 text-amber-700 dark:text-amber-300 font-extrabold text-xs shrink-0">
+                Câu ${idx + 1}
+              </span>
+              <div class="text-sm font-medium text-slate-900 dark:text-slate-100 leading-relaxed flex-1">
+                ${q.question}
+                <div class="text-xs text-amber-600 dark:text-amber-400 font-semibold mt-1">Dạng Trả lời ngắn (Điền kết quả số / từ ngắn)</div>
+              </div>
+            </div>
+
+            ${this.getDiagramHtml(q)}
+
+            <div class="pt-2">
+              ${this.readerShowAnswers ? `
+                <div class="inline-flex items-center gap-2.5 px-4 py-2.5 rounded-2xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-400 dark:border-emerald-600 text-emerald-800 dark:text-emerald-200 text-sm font-bold">
+                  <i data-lucide="check-circle" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
+                  <span>Đáp án đúng: ${expectedAns || '—'}</span>
+                </div>
+              ` : `
+                <div class="px-4 py-2.5 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-dashed border-slate-300 dark:border-slate-600 text-slate-500 dark:text-slate-400 text-xs italic">
+                  Ô trả lời ngắn (bật "Hiện đáp án" để xem đáp số)
+                </div>
+              `}
+            </div>
+
+            ${explanationHtml}
+          </div>
+        `;
+      }
+
       // CASE 2: Standard 4-choice questions
       const optionsHtml = (q.options || []).map((opt, optIdx) => {
         const isCorrect = this.readerShowAnswers && q.correct === optIdx;
@@ -1543,6 +1579,54 @@ const app = {
         `;
       }
 
+      // CASE 1B: Short Answer (Trả lời ngắn GDPT 2018 - Ô nhập đáp án trực tiếp)
+      if (this.isShortAnswerQuestion(q)) {
+        const currentVal = typeof this.examUserAnswers[qId] === 'string' ? this.examUserAnswers[qId] : '';
+        return `
+          ${passageHtml}
+          <div id="exam-q-${qId}" class="bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+            <div class="flex items-start justify-between gap-3">
+              <div class="flex items-start gap-3">
+                <span class="px-2.5 py-1 rounded-xl bg-amber-100 dark:bg-amber-950/70 text-amber-700 dark:text-amber-300 font-extrabold text-xs shrink-0">
+                  Câu ${idx + 1}
+                </span>
+                <div class="text-sm font-semibold text-slate-900 dark:text-slate-100 leading-relaxed">
+                  ${q.question}
+                  <div class="text-xs text-amber-600 dark:text-amber-400 font-semibold mt-1">Dạng Trả lời ngắn (GDPT 2018 - Nhập đáp số chính xác, dùng dấu phẩy hoặc chấm đều được)</div>
+                </div>
+              </div>
+
+              <button 
+                type="button"
+                onclick="app.toggleFlagQuestion(${qId})" 
+                class="shrink-0 p-2 rounded-xl border text-xs font-semibold transition-all ${
+                  isFlagged 
+                    ? 'bg-amber-100 text-amber-700 border-amber-300 dark:bg-amber-950/60 dark:text-amber-300 dark:border-amber-800' 
+                    : 'border-slate-200 dark:border-slate-700 text-slate-400 hover:text-amber-500'
+                }"
+                title="Đánh dấu phân vân / xem lại sau"
+              >
+                <i data-lucide="bookmark" class="w-4 h-4 ${isFlagged ? 'fill-current' : ''}"></i>
+              </button>
+            </div>
+
+            ${this.getDiagramHtml(q)}
+
+            <div class="pt-2">
+              <label class="block text-xs font-semibold text-slate-500 dark:text-slate-400 mb-1.5">Câu trả lời của bạn:</label>
+              <input
+                type="text"
+                value="${this.escapeAttr(currentVal)}"
+                oninput="app.handleExamShortAnswerInput(${qId}, this.value)"
+                placeholder="Nhập đáp số (ví dụ: 61,5 hoặc 101)..."
+                autocomplete="off"
+                class="w-full sm:max-w-sm px-4 py-3 rounded-2xl border-2 border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 font-bold text-sm focus:outline-none focus:border-blue-500 focus:bg-white dark:focus:bg-slate-950 transition-all"
+              />
+            </div>
+          </div>
+        `;
+      }
+
       // CASE 2: Standard 4-choice questions
       const optionsHtml = (q.options || []).map((opt, optIdx) => {
         const isSelected = this.examUserAnswers[qId] === optIdx;
@@ -1607,6 +1691,56 @@ const app = {
     this.initLucide();
   },
 
+  isShortAnswerQuestion(q) {
+    if (!q) return false;
+    if (q.type === 'short_answer') return true;
+    return Array.isArray(q.options) && q.options.length === 1 && String(q.options[0]).includes('Đáp số:');
+  },
+
+  getShortAnswerValue(q) {
+    if (!q) return '';
+    let raw = q.correctAnswer;
+    if ((raw === undefined || raw === null || String(raw).trim() === '') && Array.isArray(q.options) && q.options[0]) {
+      raw = this.stripHtml(q.options[0]).replace(/^Đáp số:\s*/i, '').trim();
+    }
+    return String(raw || '').replace(/^[\[\(]/, '').replace(/[\]\)]$/, '').trim();
+  },
+
+  isShortAnswerMatch(userVal, expectedVal) {
+    const clean = (s) => String(s || '').trim().toLowerCase().replace(/\s+/g, '');
+    const uRaw = clean(userVal);
+    if (!uRaw) return false;
+    const variants = String(expectedVal || '').split(/\|\||\||;/).map(clean).filter(Boolean);
+    if (variants.length === 0) return false;
+    const uNorm = uRaw.replace(/,/g, '.');
+    const uNum = Number(uNorm);
+    const uIsNum = uNorm !== '' && !Number.isNaN(uNum) && Number.isFinite(uNum);
+    return variants.some(v => {
+      if (uRaw === v) return true;
+      const vNorm = v.replace(/,/g, '.');
+      if (uNorm === vNorm) return true;
+      const vNum = Number(vNorm);
+      if (uIsNum && vNorm !== '' && !Number.isNaN(vNum) && Number.isFinite(vNum)) {
+        return Math.abs(uNum - vNum) < 1e-6;
+      }
+      return false;
+    });
+  },
+
+  escapeAttr(str) {
+    return String(str || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  },
+
+  handleExamShortAnswerInput(qId, val) {
+    const trimmed = String(val || '');
+    if (trimmed.trim() === '') {
+      delete this.examUserAnswers[qId];
+    } else {
+      this.examUserAnswers[qId] = trimmed;
+    }
+    this.renderExamPalette();
+  },
+
   selectTrueFalseAnswer(qId, label, val) {
     if (!this.examUserAnswers[qId] || typeof this.examUserAnswers[qId] !== 'object') {
       this.examUserAnswers[qId] = {};
@@ -1642,6 +1776,8 @@ const app = {
       if (q.type === 'true_false' && Array.isArray(q.items)) {
         const ansObj = this.examUserAnswers[qId];
         isAnswered = ansObj && typeof ansObj === 'object' && q.items.every(it => ansObj[it.label] !== undefined);
+      } else if (this.isShortAnswerQuestion(q)) {
+        isAnswered = typeof this.examUserAnswers[qId] === 'string' && this.examUserAnswers[qId].trim() !== '';
       } else {
         isAnswered = this.examUserAnswers[qId] !== undefined;
       }
@@ -1752,9 +1888,28 @@ const app = {
           type: 'true_false',
           question: q.question,
           subReview,
-          isCorrect: subCorrect === 4,
+          isCorrect: subCorrect === q.items.length,
           subCorrect,
+          totalSub: q.items.length,
           weight,
+          explanation: q.explanation,
+          diagram: q.diagram,
+          diagramCaption: q.diagramCaption
+        };
+      }
+
+      if (this.isShortAnswerQuestion(q)) {
+        const userText = typeof this.examUserAnswers[qId] === 'string' ? this.examUserAnswers[qId].trim() : '';
+        const expectedAns = this.getShortAnswerValue(q);
+        const isCorrect = this.isShortAnswerMatch(userText, expectedAns);
+        if (isCorrect) correctCount++;
+        return {
+          questionNumber: idx + 1,
+          type: 'short_answer',
+          question: q.question,
+          userText,
+          expectedAns,
+          isCorrect,
           explanation: q.explanation,
           diagram: q.diagram,
           diagramCaption: q.diagramCaption
@@ -1813,6 +1968,75 @@ const app = {
     if (container) {
       const letters = ['A', 'B', 'C', 'D'];
       container.innerHTML = res.detailedReview.map(item => {
+        // REVIEW CASE 1: True / False GDPT 2018
+        if (item.type === 'true_false' && Array.isArray(item.subReview)) {
+          const tfBadge = item.isCorrect
+            ? `<span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300">ĐÚNG ${item.subCorrect}/${item.totalSub || item.subReview.length} (+${item.weight}đ)</span>`
+            : `<span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300">ĐÚNG ${item.subCorrect}/${item.totalSub || item.subReview.length} (+${item.weight}đ)</span>`;
+
+          const rowsHtml = item.subReview.map(sr => {
+            const uLbl = sr.userChoice === true ? 'Đúng' : (sr.userChoice === false ? 'Sai' : 'Chưa chọn');
+            const cLbl = sr.correctChoice ? 'Đúng' : 'Sai';
+            return `
+              <div class="p-3 rounded-xl border text-xs sm:text-sm flex flex-col sm:flex-row sm:items-center justify-between gap-2 ${
+                sr.isCorrect
+                  ? 'bg-emerald-50/70 dark:bg-emerald-950/30 border-emerald-400 text-slate-800 dark:text-slate-100'
+                  : 'bg-rose-50/70 dark:bg-rose-950/30 border-rose-400 text-slate-800 dark:text-slate-100'
+              }">
+                <div class="flex-1"><strong class="text-blue-600 dark:text-blue-400 mr-1">${sr.label})</strong> ${sr.text}</div>
+                <div class="flex items-center gap-2 shrink-0 text-xs font-semibold">
+                  <span class="${sr.isCorrect ? 'text-emerald-700 dark:text-emerald-300' : 'text-rose-600 dark:text-rose-400'}">Bạn: ${uLbl}</span>
+                  <span class="text-slate-400">|</span>
+                  <span class="text-emerald-700 dark:text-emerald-300">Đáp án: ${cLbl}</span>
+                </div>
+              </div>
+            `;
+          }).join('');
+
+          return `
+            <div class="bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+              <div class="flex items-start justify-between gap-3">
+                <div class="flex items-start gap-3">
+                  <span class="px-2.5 py-1 rounded-xl bg-blue-100 dark:bg-blue-950/70 text-blue-700 dark:text-blue-300 font-bold text-xs shrink-0">Câu ${item.questionNumber}</span>
+                  <div class="text-sm font-semibold text-slate-900 dark:text-slate-100 leading-relaxed">${item.question}</div>
+                </div>
+                <div class="shrink-0">${tfBadge}</div>
+              </div>
+              ${this.getDiagramHtml(item)}
+              <div class="space-y-2 pt-1">${rowsHtml}</div>
+              ${item.explanation ? `<div class="p-3.5 rounded-xl bg-blue-50/80 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-800 text-xs text-slate-700 dark:text-slate-200"><strong class="text-blue-700 dark:text-blue-300">Lời giải chi tiết:</strong> ${item.explanation}</div>` : ''}
+            </div>
+          `;
+        }
+
+        // REVIEW CASE 2: Short Answer
+        if (item.type === 'short_answer') {
+          const saBadge = item.isCorrect
+            ? `<span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300">ĐÚNG</span>`
+            : `<span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300">SAI</span>`;
+          return `
+            <div class="bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+              <div class="flex items-start justify-between gap-3">
+                <div class="flex items-start gap-3">
+                  <span class="px-2.5 py-1 rounded-xl bg-amber-100 dark:bg-amber-950/70 text-amber-700 dark:text-amber-300 font-bold text-xs shrink-0">Câu ${item.questionNumber}</span>
+                  <div class="text-sm font-semibold text-slate-900 dark:text-slate-100 leading-relaxed">${item.question}</div>
+                </div>
+                <div class="shrink-0">${saBadge}</div>
+              </div>
+              ${this.getDiagramHtml(item)}
+              <div class="flex flex-wrap items-center gap-3 pt-1 text-sm">
+                <div class="px-4 py-2 rounded-xl border ${item.isCorrect ? 'bg-emerald-50 dark:bg-emerald-950/40 border-emerald-400 text-emerald-800 dark:text-emerald-200' : 'bg-rose-50 dark:bg-rose-950/40 border-rose-400 text-rose-800 dark:text-rose-200'}">
+                  Bạn nhập: <strong>${this.escapeAttr(item.userText || 'Chưa nhập')}</strong>
+                </div>
+                <div class="px-4 py-2 rounded-xl border bg-emerald-50 dark:bg-emerald-950/40 border-emerald-400 text-emerald-800 dark:text-emerald-200">
+                  Đáp án đúng: <strong>${this.escapeAttr(item.expectedAns || '—')}</strong>
+                </div>
+              </div>
+              ${item.explanation ? `<div class="p-3.5 rounded-xl bg-blue-50/80 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-800 text-xs text-slate-700 dark:text-slate-200"><strong class="text-blue-700 dark:text-blue-300">Lời giải chi tiết:</strong> ${item.explanation}</div>` : ''}
+            </div>
+          `;
+        }
+
         const userLetter = item.userChoice !== undefined ? letters[item.userChoice] : 'Chưa chọn';
         const correctLetter = letters[item.correctChoice] || '';
 
@@ -2005,6 +2229,62 @@ const app = {
         `;
       }
 
+      // CASE 1B: Short Answer in Practice Mode (Nhập đáp án + nút Kiểm tra ngay)
+      if (this.isShortAnswerQuestion(q)) {
+        const st = this.practiceAnswers[qId];
+        const expectedAns = this.getShortAnswerValue(q);
+        const curVal = st && typeof st.value === 'string' ? st.value : '';
+        return `
+          ${passageHtml}
+          <div class="bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+            <div class="flex items-start gap-3">
+              <span class="px-2.5 py-1 rounded-xl bg-amber-100 dark:bg-amber-950/70 text-amber-700 dark:text-amber-300 font-extrabold text-xs shrink-0">
+                Câu ${idx + 1}
+              </span>
+              <div class="text-sm font-semibold text-slate-900 dark:text-slate-100 leading-relaxed">
+                ${q.question}
+                <div class="text-xs text-amber-600 dark:text-amber-400 font-semibold mt-1">Luyện tập Trả lời ngắn (Nhập đáp số rồi bấm Kiểm tra)</div>
+              </div>
+            </div>
+
+            ${this.getDiagramHtml(q)}
+
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 pt-2">
+              <input
+                id="practice-sa-input-${qId}"
+                type="text"
+                value="${this.escapeAttr(curVal)}"
+                onkeydown="if(event.key==='Enter'){app.handlePracticeShortAnswerCheck(${qId});}"
+                placeholder="Nhập đáp số (VD: 61,5)..."
+                autocomplete="off"
+                class="flex-1 sm:max-w-xs px-4 py-2.5 rounded-2xl border-2 border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 font-bold text-sm focus:outline-none focus:border-emerald-500"
+              />
+              <button
+                type="button"
+                onclick="app.handlePracticeShortAnswerCheck(${qId})"
+                class="px-5 py-2.5 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm transition-all shadow-sm"
+              >
+                Kiểm tra
+              </button>
+            </div>
+
+            ${st ? `
+              <div class="p-4 rounded-2xl border ${
+                st.isCorrect
+                  ? 'bg-emerald-50/80 dark:bg-emerald-950/30 border-emerald-300 dark:border-emerald-800 text-emerald-800 dark:text-emerald-200'
+                  : 'bg-rose-50/80 dark:bg-rose-950/30 border-rose-300 dark:border-rose-800 text-rose-800 dark:text-rose-200'
+              } space-y-1.5 text-sm">
+                <div class="font-bold flex items-center gap-2">
+                  <i data-lucide="${st.isCorrect ? 'check-circle' : 'alert-circle'}" class="w-4 h-4"></i>
+                  <span>${st.isCorrect ? 'Chính xác!' : `Chưa chính xác! Đáp án đúng là: ${this.escapeAttr(expectedAns)}`}</span>
+                </div>
+                ${q.explanation ? `<div class="text-xs text-slate-700 dark:text-slate-200 leading-relaxed pl-6">${q.explanation}</div>` : ''}
+              </div>
+            ` : ''}
+          </div>
+        `;
+      }
+
       // CASE 2: Standard 4-choice questions
       const state = this.practiceAnswers[qId];
 
@@ -2098,6 +2378,20 @@ const app = {
       isCorrect: val === correctVal
     };
 
+    this.renderPracticeQuestions();
+  },
+
+  handlePracticeShortAnswerCheck(qId) {
+    if (!this.currentExam) return;
+    const q = (this.currentExam.questions || []).find(x => (x.id || 0) === qId);
+    if (!q) return;
+    const inp = document.getElementById(`practice-sa-input-${qId}`);
+    const val = inp ? inp.value.trim() : '';
+    const expected = this.getShortAnswerValue(q);
+    this.practiceAnswers[qId] = {
+      value: val,
+      isCorrect: this.isShortAnswerMatch(val, expected)
+    };
     this.renderPracticeQuestions();
   },
 
