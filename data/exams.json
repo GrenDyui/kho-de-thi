@@ -25600,5 +25600,3229 @@
         "explanation": "${y}^{′}<0$   hay   $2x−4<0$\n$2x<4$\n$x<2$  ."
       }
     ]
+  },
+  {
+    "id": "olm-12a4-kttx-vat-li-12-lan-2-5330907488",
+    "title": "OLM: 12A4_KTTX_vật lí 12_lần 2",
+    "subject": "Vật Lý",
+    "grade": 12,
+    "duration": 30,
+    "teacher": "Bùi Quang Thái",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Vật Lý",
+      "GV: Bùi Quang Thái"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Khối lượng riêng của chất khí so với chất lỏng thường:",
+        "options": [
+          "A. Bằng nhau hoàn toàn.",
+          "B. Lớn hơn rất nhiều.",
+          "C. Nhỏ hơn rất nhiều.",
+          "D. Gần bằng nhau."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "question": "Sự va chạm của các phân tử khí lí tưởng với thành bình được coi là:",
+        "options": [
+          "A. Va chạm hoàn toàn đàn hồi.",
+          "B. Va chạm không đàn hồi.",
+          "C. Va chạm mềm.",
+          "D. Va chạm xuyên tâm."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "question": "Chuyển động Brown là chuyển động của",
+        "options": [
+          "A. Các phân tử chất khí.",
+          "B. Các phân tử chất lỏng.",
+          "C. Các hạt nhỏ lơ lửng trong chất lỏng hoặc chất khí.",
+          "D. Các nguyên tử trong cấu trúc tinh thể."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "question": "Chất khí có tính chất nào sau đây?",
+        "options": [
+          "A. Không có hình dạng và thể tích xác định.",
+          "B. Có hình dạng nhưng không có thể tích xác định.",
+          "C. Có hình dạng và thể tích xác định.",
+          "D. Có thể tích xác định nhưng không có hình dạng xác định."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "question": "Điều kiện để áp dụng định luật Boyle cho một khối khí là",
+        "options": [
+          "A. khối lượng khí thay đổi và áp suất không đổi.",
+          "B. khối lượng khí xác định và nhiệt độ giữ không đổi.",
+          "C. áp suất cực kì cao vượt quá giới hạn hóa lỏng.",
+          "D. thể tích khí giữ không đổi và nhiệt độ thay đổi."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "question": "Phát biểu nào sau đây đúng với định luật Boyle?",
+        "options": [
+          "A. Ở nhiệt độ không đổi, áp suất tỉ lệ thuận với thể tích.",
+          "B. Ở thể tích không đổi, áp suất tỉ lệ thuận với nhiệt độ.",
+          "C. Ở nhiệt độ không đổi, áp suất tỉ lệ nghịch với thể tích.",
+          "D. Ở áp suất không đổi, thể tích tỉ lệ thuận với nhiệt độ."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "question": "Định luật Boyle đúng với đối tượng nào?",
+        "options": [
+          "A. Khí lí tưởng.",
+          "B. Chất lỏng.",
+          "C. Chỉ áp dụng cho khí thực ở áp suất rất cao.",
+          "D. Chất rắn."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "question": "Hiện tượng nung nóng đẳng áp một khối khí có thể dễ quan sát bằng cách:",
+        "options": [
+          "A. Giam khí trong bình thép kín rồi đun nóng.",
+          "B. Nén pit-tông thật nhanh.",
+          "C. Giam khí trong xylanh có pit-tông di chuyển tự do rồi đun nóng.",
+          "D. Đục lỗ trên thành bình để khí thoát ra."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "question": "Đồ thị thực nghiệm theo Bảng 10.1 SGK (Hình bên dưới) cho thấy các điểm thực nghiệm thể tích V (mL) theo nhiệt độ tuyệt đối T (K) nằm trên một đường thẳng hướng về gốc toạ độ. Đồ thị này nghiệm đúng định luật nào?",
+        "options": [
+          "A. Định luật vạn vật hấp dẫn.",
+          "B. Định luật Faraday.",
+          "C. Định luật Charles.",
+          "D. Định luật Boyle."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "question": "Trong hệ tọa độ (p, T), đường đẳng áp là đường:",
+        "options": [
+          "A. Vuông góc với trục p.",
+          "B. Vuông góc với trục T.",
+          "C. Hypebol.",
+          "D. Đi qua gốc tọa độ."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "question": "Định luật Boyle có được áp dụng cho quá trình thổi bóng bay không?",
+        "options": [
+          "A. Không, vì nhiệt độ trong bóng thay đổi.",
+          "B. Không, vì khối lượng khí trong bóng thay đổi liên tục.",
+          "C. Có, vì bóng hình cầu.",
+          "D. Có, vì coi là quá trình đẳng nhiệt."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "question": "Trong thí nghiệm khảo sát quá trình đẳng nhiệt, người ta đo:",
+        "options": [
+          "A. Thể tích ở các áp suất khác nhau.",
+          "B. Khối lượng ở các thể tích khác nhau.",
+          "C. Áp suất ở các nhiệt độ khác nhau.",
+          "D. Áp suất ở các khối lượng khác nhau."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "question": "Trong quá trình dãn nở đẳng nhiệt của một lượng khí lí tưởng, đại lượng nào sau đây tăng?",
+        "options": [
+          "A. Thể tích.",
+          "B. Áp suất.",
+          "C. Khối lượng riêng.",
+          "D. Mật độ phân tử."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "question": "Một khối khí lí tưởng có p1 = 2.105 Pa, V1 = 4 lít. Biến đổi đẳng nhiệt đến khi V2 = 2 lít. Áp suất p2 là:",
+        "options": [
+          "A. 105 Pa.",
+          "B. 4.105 Pa.",
+          "C. 2.105 Pa.",
+          "D. 8.105 Pa."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "question": "Trong quá trình đẳng áp, đường biểu diễn V theo t (°C) cắt trục tung tại giá trị V0. Thể tích ở nhiệt độ t được tính bằng biểu thức:",
+        "options": [
+          "A. V = V0 - αt.",
+          "B. V = V0 + αt.",
+          "C. V = V0(1 - αt).",
+          "D. V = V0(1 + αt)."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "question": "Có một lượng khí lí tưởng ở 27°C, thể tích 2,4 lít. Để thể tích giảm còn 1,2 lít trong điều kiện áp suất không đổi thì phải làm lạnh khối khí đến nhiệt độ:",
+        "options": [
+          "A. 54 °C.",
+          "B. -150 °C.",
+          "C. 150 K.",
+          "D. 150 °C."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "question": "Một lượng khí ở nhiệt độ 300 K có thể tích 4 lít. Ở nhiệt độ 600 K và cùng áp suất, thể tích của nó là:",
+        "options": [
+          "A. 4 lít.",
+          "B. 2 lít.",
+          "C. 12 lít.",
+          "D. 8 lít."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "question": "Một khối khí ở 300 K có thể tích 6 lít. Tăng nhiệt độ đến 400 K ở áp suất không đổi, thể tích của khí sẽ là:",
+        "options": [
+          "A. 9 lít.",
+          "B. 10 lít.",
+          "C. 8 lít.",
+          "D. 7 lít."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "question": "Trong công nghệ hút chân không bảo quản thực phẩm, máy bơm rút không khí ra khỏi túi. Bao bì ni-lông xẹp lép bám chặt vào thực phẩm do:",
+        "options": [
+          "A. Định luật Charles, túi lạnh đi nên thể tích giảm.",
+          "B. Áp suất khí quyển bên ngoài lớn hơn áp suất khí bên trong túi, ép mặt bao bì bám chặt vào thực phẩm.",
+          "C. Tính đàn hồi tự nhiên của màng ni-lông tự co lại khi hết không khí.",
+          "D. Không khí bên ngoài có nhiệt độ cao hơn rất nhiều."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "question": "Một học sinh dùng bơm tay nén từ từ không khí vào trong một quả bóng cao su. Mặc dù áp suất bên trong quả bóng tăng lên, nhưng nhiệt độ của khối khí trong bóng gần như không đổi. Quá trình này có phải là quá trình đẳng nhiệt của một lượng khí xác định tuân theo định luật Boyle không?",
+        "options": [
+          "A. Có, vì thể tích của quả bóng tỉ lệ nghịch với áp suất theo định luật Boyle.",
+          "B. Không, vì khối lượng không khí bên trong quả bóng liên tục tăng lên, lượng khí không xác định.",
+          "C. Có, vì nhiệt độ của không khí bên trong quả bóng luôn được giữ không đổi.",
+          "D. Không, vì vỏ bóng cao su có tính đàn hồi nên thể tích không tỉ lệ nghịch với áp suất."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "question": "Bơm không khí từ môi trường (áp suất 1 atm) vào lốp xe. Cứ mỗi lần bơm pit-tông đưa được 0,2 lít khí vào lốp. Lốp có thể tích 2 lít. Hỏi sau 20 lần bơm, áp suất khí trong lốp là bao nhiêu? (Giả thiết trước khi bơm lốp không có khí, quá trình đẳng nhiệt).",
+        "options": [
+          "A. 3 atm.",
+          "B. 4 atm.",
+          "C. 2 atm.",
+          "D. 1 atm."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "question": "Một bình oxy y tế có thể tích 10 lít chứa khí ở áp suất 200 atm. Nếu mở van cho phun ra môi trường ngoài áp suất 1 atm (coi nhiệt độ không đổi), tổng thể tích oxy thu được ở điều kiện môi trường là bao nhiêu?",
+        "options": [
+          "A. 20 lít.",
+          "B. 1000 lít.",
+          "C. 200 lít.",
+          "D. 2000 lít."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "question": "Người ta nén đẳng nhiệt 2 lít khí lí tưởng ở áp suất 1 atm. Để thể tích giảm 0,5 lít thì áp suất phải bằng:",
+        "options": [
+          "A. 1,33 atm.",
+          "B. 0,75 atm.",
+          "C. 2,00 atm.",
+          "D. 1,50 atm."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "question": "Thể tích một khối lượng khí lí tưởng tăng 10% so với ban đầu khi nhiệt độ của nó đẳng áp tăng từ 27°C lên đến giá trị:",
+        "options": [
+          "A. 30 °C.",
+          "B. 357 °C.",
+          "C. 330 °C.",
+          "D. 57 °C."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "question": "Một bình chứa lượng khí xác định. Ban đầu khí có V1 = 2 lít, t1 = 27°C. Cần làm nóng đẳng áp khối khí đến nhiệt độ nào để thể tích V2 = 3 lít?",
+        "options": [
+          "A. 300 °C.",
+          "B. 177 °C.",
+          "C. 450 °C.",
+          "D. 45 °C."
+        ],
+        "correct": 1,
+        "explanation": ""
+      }
+    ]
+  },
+  {
+    "id": "olm-vat-lieu-polymer-phan-3-3137477708",
+    "title": "OLM: Vật liệu polymer (phần 3)",
+    "subject": "Hóa Học",
+    "grade": 12,
+    "duration": 45,
+    "teacher": "Nguyễn Văn Hậu",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Hóa Học",
+      "GV: Nguyễn Văn Hậu"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Không nên giặt quần áo dệt từ lụa tơ tằm hoặc len lông cừu bằng xà phòng có tính kiềm cao bởi vì nồng độ OH- cao sẽ",
+        "options": [
+          "A. làm thay đổi cấu trúc của sợi vải, khiến chúng bị co lại và mất kiểu dáng ban đầu.",
+          "B. gây thủy phân protein có trong tơ tằm và len làm hư hỏng vải.",
+          "C. khiến màu sắc của sợi vải bị phai và không còn đẹp.",
+          "D. làm mất đi lớp dầu tự nhiên trên sợi vải, khiến sợi vải dễ bị khô và đứt."
+        ],
+        "correct": 1,
+        "explanation": "Tơ tằm và len lông cừu chủ yếu chứa các protein như fibroin và keratin. Khi tiếp xúc với môi trường kiềm, các liên kết peptide trong protein bị thủy phân, làm suy yếu cấu trúc protein. Kết quả là sợi vải mất độ bền, trở nên giòn và dễ đứt. Do đó, giặt tơ tằm và len trong môi trường kiềm cao sẽ làm hư hỏng vải, giảm chất lượng và tuổi thọ của sản phẩm."
+      },
+      {
+        "id": 2,
+        "question": "Polymer X được dùng để sản xuất tơ có công thức cấu tạo như hình sau:\nTên gọi của polymer X là",
+        "options": [
+          "A. polyacrylonitrile.",
+          "B. polyethylene.",
+          "C. poly(vinylidene cyanide).",
+          "D. poly(vinyl chloride)."
+        ],
+        "correct": 0,
+        "explanation": "​Dựa vào công thức cấu tạo, suy ra tên gọi của polymer X là polyacrylonitrile.\nPolyethylene có công thức cấu tạo như sau:\nPoly(vinyl chloride) có công thức cấu tạo như sau:\nPoly(vinylidene cyanide) có công thức cấu tạo như sau:"
+      },
+      {
+        "id": 3,
+        "question": "Ưu điểm của tơ tự nhiên so với tơ tổng hợp là",
+        "options": [
+          "A. giá thành rẻ.",
+          "B. bền với chất giặt rửa.",
+          "C. thấm hút mồ hôi tốt.",
+          "D. độ đàn hồi cao."
+        ],
+        "correct": 2,
+        "explanation": "​Ưu điểm của tơ tự nhiên so với tơ tổng hợp là thấm hút mồ hôi tốt.\nTơ tự nhiên có giá thành cao và kém bền với chất giặt rửa hơn so với tơ tổng hợp.\nCả tơ tự nhiên và tơ tổng hợp đều có độ đàn hồi tốt."
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "question": "Tơ nylon-6,6 là loại tơ tổng hợp được điều chế từ adipic acid và hexamethylenediamine. Loại tơ này có nhiều ưu điểm nổi trội như dai, mềm mại và óng mượt nên được dùng để dệt vải, làm dây cáp, dây dù,...",
+        "items": [
+          {
+            "label": "a",
+            "text": "#Nylon-6,6 thuộc loại tơ polyamide.",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "#Hexamethylenediamine thuộc loại amine bậc 2.",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "#Tơ nylon-6,6 được điều chế bằng phản ứng trùng ngưng.",
+            "correct": true
+          },
+          {
+            "label": "d",
+            "text": "#Nylon-6,6 bền trong môi trường acid và kiềm.",
+            "correct": false
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "type": "short_answer",
+        "question": "Cho các chất sau: tơ capron; tơ nitron; nylon-6,6; cellulose; protein; nhựa PVC; tơ visco. Trong các hợp chất trên, có bao nhiêu chất mà trong công thức cấu tạo của chúng chứa liên kết -CO-NH-? Trả lời: . Hướng dẫn giải: ​Tơ capron, nylon-6,6, protein là những hợp chất tạo thành bởi các amino acid nên trong công thức cấu tạo có chứa liên kết -CO-NH-. Tơ nitron được tạo thành bởi CH 2 =CHCN bằng phản ứng trùng hợp ⇒ Không chứa liên kết -CO-NH-. Nhựa PVC được tạo thành bởi CH 2 =CHCl bằng phản ứng trùng hợp ⇒ Không chứa liên kết -CO-NH-. Tơ visco có thành phần chính là cellulose mà cellulose có công thức phân tử là (C 6 H 10 O 5 ) n ⇒ Không chứa liên kết -CO-NH-.",
+        "options": [],
+        "correctAnswer": "3",
+        "correct": 0,
+        "explanation": ""
+      }
+    ]
+  },
+  {
+    "id": "olm-de-so-3-2615548200",
+    "title": "OLM: Đề số 3",
+    "subject": "Vật Lý",
+    "grade": 12,
+    "duration": 45,
+    "teacher": "Bùi Quang Thái",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Vật Lý",
+      "GV: Bùi Quang Thái"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">Họ, tên thí sinh: .....................................................................Số báo danh: ..........................................................................</div>Tính chất nào sau đây không phải là của phân tử?",
+        "options": [
+          "A. Chuyển động hỗn loạn, không ngừng.",
+          "B. Có lúc đứng yên, có lúc chuyển động.",
+          "C. Chuyển động càng nhanh thì nhiệt độ của vật càng cao.",
+          "D. Tồn tại lực tương tác giữa các phân tử."
+        ],
+        "correct": 1,
+        "explanation": "​Các phân tử chuyển động không ngừng, chuyển động này được gọi là chuyển động nhiệt. Vì vậy đáp án B là sai."
+      },
+      {
+        "id": 2,
+        "question": "Trong ba loại chất: chất rắn, chất lỏng và chất khí, chất có thể nén được dễ dàng là",
+        "options": [
+          "A. chất khí.",
+          "B. chất rắn.",
+          "C. chất lỏng và chất khí.",
+          "D. chất lỏng."
+        ],
+        "correct": 0,
+        "explanation": "Chất khí có tính chất dễ nén, khi áp suất tác dụng lên một lượng khí tăng thì thể tích của khí giảm đáng kể.​"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "question": "Nội năng là một dạng năng lượng. Mọi vật luôn có nội năng.",
+        "items": [
+          {
+            "label": "a",
+            "text": "#Được kí hiệu bằng chữ U và có đơn vị là jun (J).",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "#Phụ thuộc vào nhiệt độ và thể tích của vật.",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": "#Giảm đi khi vật nhận nhiệt từ môi trường.",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "#Là hiệu động năng và thế năng của các phân tử cấu tạo nên vật.",
+            "correct": false
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "question": "Nếu hệ truyền nhiệt và thực hiện công thì nội năng của hệ sẽ",
+        "options": [
+          "A. tăng.",
+          "B. giảm.",
+          "C. không đổi.",
+          "D. tăng rồi giảm."
+        ],
+        "correct": 1,
+        "explanation": "Nội năng của hệ ΔU = A + Q.\nNếu hệ vừa truyền nhiệt vừa thực hiện công thì nội năng của hệ sẽ giảm."
+      },
+      {
+        "id": 5,
+        "question": "Hai vật tiếp xúc nhau ở trạng thái cân bằng nhiệt khi chúng có cùng",
+        "options": [
+          "A. khối lượng.",
+          "B. nhiệt độ.",
+          "C. kích thước.",
+          "D. nhiệt lượng."
+        ],
+        "correct": 1,
+        "explanation": "​Hai vật tiếp xúc nhau ở trạng thái cân bằng nhiệt khi chúng có cùng nhiệt độ."
+      },
+      {
+        "id": 6,
+        "question": "Nhiệt độ có độ lớn là 0,01 oC được gọi là nhiệt độ",
+        "options": [
+          "A. nóng chảy của nước.",
+          "B. sôi của nước.",
+          "C. điểm ba của nước.",
+          "D. đóng băng của nước."
+        ],
+        "correct": 2,
+        "explanation": "​Nhiệt độ mà nước tinh khiết có thể tồn tại đồng thời ở cả ba thể rắn, lỏng và hơi, trong trạng thái cân bằng nhiệt ở áp suất tiêu chuẩn (có độ lớn 0,01 oC) được gọi là nhiệt độ điểm ba của nước."
+      },
+      {
+        "id": 7,
+        "question": "Một vật được làm lạnh từ 25 oC xuống 10 oC. Nhiệt độ của vật theo thang Kelvin giảm đi",
+        "options": [
+          "A. 15 K.",
+          "B. 288 K.",
+          "C. 20 K.",
+          "D. 293 K."
+        ],
+        "correct": 0,
+        "explanation": "​Độ giảm nhiệt độ theo thang Celsius bằng độ giảm nhiệt độ theo thang Kelvin.\nNhư vậy, theo thang Kelvin nhiệt độ của vật giảm 15 K."
+      },
+      {
+        "id": 8,
+        "question": "Một nhiệt kế có phạm vi đo từ 253 K đến 1273 K, dùng để đo nhiệt độ của các lò nung. Phạm vi đo của nhiệt kế này trong thang nhiệt độ Celsius là",
+        "options": [
+          "A. -20 oC đến 1000 oC.",
+          "B. -10 oC đến 1000 oC.",
+          "C. 253 oC đến 1273 oC.",
+          "D. -253 oC đến 1273 oC."
+        ],
+        "correct": 0,
+        "explanation": "​Dựa vào công thức chuyển đổi t (oC) = T (K) - 273.\nPhạm vi đo của nhiệt kế này trong thang nhiệt độ Celsius là (253 - 273) oC đến (1273 - 273) oC nghĩa là từ -20 oC đến 1000 oC."
+      },
+      {
+        "id": 9,
+        "type": "true_false",
+        "question": "Đồ thị dưới đây mô tả sự thay đổi nhiệt độ trong quá trình nóng chảy của thiếc.",
+        "items": [
+          {
+            "label": "a",
+            "text": "#Nhiệt độ tăng dần, thiếc mềm dần rồi chuyển dần sang lỏng.",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": "#Thiếc bắt đầu nóng chảy ở nhiệt độ 232 o C.",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": "#Nhiệt độ của thiếc không thay đổi trong suốt quá trình nóng chảy.",
+            "correct": true
+          },
+          {
+            "label": "d",
+            "text": "#Khi hóa lỏng hoàn toàn, nhiệt độ của thiếc giảm dần.",
+            "correct": false
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/0808/img_teacher_2024-08-08_66b43bc415825.jpg"
+        ]
+      },
+      {
+        "id": 10,
+        "question": "​Trong thí nghiệm đo nhiệt dung riêng của nước, số chỉ nhiệt lượng mà nước trong bình nhiệt lượng kế thu được lấy từ",
+        "options": [
+          "A. bộ đo công suất nguồn điện có tích hợp chức năng đo thời gian.",
+          "B. nhiệt kế điện tử hoặc cảm biến nhiệt độ.",
+          "C. cân điện tử.",
+          "D. nhiệt lượng kế bằng nhựa có vỏ xốp, kèm dây điện trở."
+        ],
+        "correct": 0,
+        "explanation": "Số chỉ nhiệt lượng sẽ được tính thông qua công thức  $Q=P.t.$  Như vậy, để có được số chỉ của nhiệt lượng, ta cần đo gián tiếp thông qua công suất dòng điện và thời gian dòng điện chạy qua bằng dụng cụ là bộ đo công suất nguồn điện có tích hợp chức năng đo thời gian.​"
+      },
+      {
+        "id": 11,
+        "question": "Trong quá trình nóng chảy, chất rắn chuyển thành chất lỏng vì năng lượng nhiệt cung cấp làm",
+        "options": [
+          "A. giảm liên kết giữa các phân tử.",
+          "B. giảm khoảng cách giữa các phân tử.",
+          "C. tăng khối lượng của các phân tử.",
+          "D. tăng thể tích của các phân tử."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "type": "true_false",
+        "question": "Thang nhiệt độ chúng ta vẫn dùng hằng ngày là thang Celsius, được đặt theo tên của nhà khoa học Thụy Điển Anders Celsius, người đầu tiên xây dựng thang nhiệt độ này vào năm 1742.",
+        "items": [
+          {
+            "label": "a",
+            "text": "#Thang nhiệt độ Celsius có tên gọi khác là thang nhiệt độ bách phân (centigrade).",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "#Khoảng cách giữa nhiệt độ đóng băng và nhiệt độ sôi của nước tinh khiết ở áp suất tiêu chuẩn được chia làm 100 phần bằng nhau, mỗi phần là 1 độ.",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": "#Nhiệt độ trong thang Celsius được kí hiệu là chữ T, đơn vị là K.",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "#Công thức chuyển đổi từ nhiệt độ Celsius sang Kelvin là t ( o C) = T (K) + 273,15.",
+            "correct": false
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "question": "Một nhiệt kế có phạm vi đo từ 253 K đến 1273 K, dùng để đo nhiệt độ của các lò nung. Phạm vi đo của nhiệt kế này trong thang nhiệt độ Celsius là",
+        "options": [
+          "A. -20 o C đến 1000 o C.",
+          "B. -10 o C đến 1000 o C.",
+          "C. 253 o C đến 1273 o C.",
+          "D. -253 o C đến 1273 o C."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "question": "Một ấm nhôm có khối lượng 400 g chứa 0,6 lít nước đang ở nhiệt độ 30 o C. Biết nhiệt dung riêng của nhôm và nước lần lượt là c 1 = 880 J/kg.K; c 2 = 4200 J/kg.K. Nhiệt lượng tối thiểu để đun sôi nước trong ấm là",
+        "options": [
+          "A. 176400 J.",
+          "B. 24640 J.",
+          "C. 225680 J.",
+          "D. 201040 J."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "question": "Phép chuyển đổi nhiệt độ đo theo thang Kelvin sang nhiệt độ đo theo thang Celsius nào dưới đây là không đúng?",
+        "options": [
+          "A. 290 K = 17 o C.",
+          "B. 315 K = 42 o C.",
+          "C. 355 K = 80 o C.",
+          "D. 421 K = 148 o C."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "question": "Cần 6780 kJ để làm bay hơi hoàn toàn 3 kg chất lỏng, nhiệt hóa hơi riêng của chất lỏng đó là",
+        "options": [
+          "A. 0,3.10 6 J/kg.",
+          "B. 0,9.10 6 J/kg.",
+          "C. 1,4.10 6 J/kg.",
+          "D. 2,26.10 6 J/kg."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "question": "Biết nhiệt hóa hơi riêng của thủy ngân là 2,96.10 5 J/kg. Nhiệt lượng cần để làm bay hơi hoàn toàn 2 kg thủy ngân là",
+        "options": [
+          "A. 296 kJ.",
+          "B. 525 kJ.",
+          "C. 678 kJ.",
+          "D. 592 kJ."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "question": "Thế giới từng ghi nhận sự thay đổi nhiệt độ rất lớn ở một thành phố. Lúc 7 giờ sáng, nhiệt độ ngoài trời là 250 K. Một phút sau, nhiệt độ ngoài trời là 262 K. Độ tăng nhiệt độ trung bình trong một phút đó là",
+        "options": [
+          "A. 0,2 Kelvin/giây.",
+          "B. 15 Kelvin/giây.",
+          "C. 20 Kelvin/giây.",
+          "D. 0,15 Kelvin/giây."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "type": "short_answer",
+        "question": "Giá trị nhiệt độ đo được theo thang nhiệt độ Kelvin là 293 K. Theo thang Celsius, nhiệt độ này tương đương với bao nhiêu o C? Trả lời : . Hướng dẫn giải: Dựa vào công thức đổi nhiệt độ t ( o C) = T (K) - 273.​ Như vậy, 293 K tương đương với 293 - 273 = 20 o C.",
+        "options": [],
+        "correctAnswer": "20",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "question": "Cần 4600 kJ để làm bay hơi hoàn toàn 2 kg nước, nhiệt hóa hơi riêng của nước là",
+        "options": [
+          "A. 2,3.10 6 J/kg.",
+          "B. 4,6.10 6 J/kg.",
+          "C. 2,3.10 3 J/kg.",
+          "D. 4,6.10 3 J/kg."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "type": "short_answer",
+        "question": "Theo thang Celsius, nhiệt độ của một viên bi sắt vừa được nung nóng là 150 o C. Theo thang Kelvin, nhiệt độ này tương đương với bao nhiêu độ K? Trả lời : . Hướng dẫn giải: Dựa vào công thức đổi nhiệt độ T (K) = t ( o C) + 273.​ Như vậy, 150 o C tương đương với 150 + 273 = 423 K.",
+        "options": [],
+        "correctAnswer": "423",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "type": "short_answer",
+        "question": "Một lượng khí nhận nhiệt lượng 150 kJ do được đun nóng, đồng thời nhận công 600 kJ do bị nén. Độ tăng nội năng của lượng khí đó là bao nhiêu kJ? Trả lời : . Hướng dẫn giải: Định luật 1 của nhiệt động lực học ΔU = A + Q.​ Vì khối khí nhận nhiệt nên Q = 150 kJ, nhận công nên A = 600 kJ. Độ tăng nội năng của khối khí đó là ΔU = 600 + 150 = 750 kJ.",
+        "options": [],
+        "correctAnswer": "750",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "type": "short_answer",
+        "question": "Cung cấp một nhiệt lượng 45600 J để nung nóng một khối kim loại nặng 2 kg từ 10 o C lên 70 o C. Nhiệt dung riêng của khối kim loại này là bao nhiêu J/kg.K? Trả lời : . Hướng dẫn giải: ​Nhiệt dung riêng của khối kim loại là \\(c=\\dfrac{Q}{m\\Delta T}=\\dfrac{45600}{2.60}=380\\) J/kg.K.",
+        "options": [],
+        "correctAnswer": "380",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "type": "short_answer",
+        "question": "Cung cấp một nhiệt lượng 61600 J để nung nóng một khối kim loại nặng 1 kg từ 20 o C lên 90 o C. Nhiệt dung riêng của khối kim loại này là bao nhiêu J/kg.K? Trả lời : . Hướng dẫn giải: ​Nhiệt dung riêng của khối kim loại là \\(c=\\dfrac{Q}{m\\Delta T}=\\dfrac{61600}{1.70}=880\\) J/kg.K.",
+        "options": [],
+        "correctAnswer": "880",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "question": "Cần 4600 kJ để làm bay hơi hoàn toàn 2 kg nước, nhiệt hóa hơi riêng của nước là",
+        "options": [
+          "A. 2,3.106 J/kg.",
+          "B. 4,6.106 J/kg.",
+          "C. 2,3.103 J/kg.",
+          "D. 4,6.103 J/kg."
+        ],
+        "correct": 0,
+        "explanation": "Nhiệt hóa hơi riêng của nước là​\n$L=\\frac{Q}{m}=\\frac{4600}{2}=2300$  kJ/kg = 2,3.106 J/kg."
+      },
+      {
+        "id": 26,
+        "question": "Biết nhiệt hóa hơi riêng của ethanol là 8,41.105 J/kg. Nhiệt lượng cần để làm bay hơi hoàn toàn 0,5 kg ethanol là",
+        "options": [
+          "A. 420,5 J.",
+          "B. 672,8 J.",
+          "C. 672,8 kJ.",
+          "D. 420,5 kJ."
+        ],
+        "correct": 3,
+        "explanation": "Nhiệt lượng cần để làm bay hơi hoàn toàn 0,5 kg ethanol là​\n$L=\\frac{Q}{m}→Q=Lm=8,{41.10}^{5.0},5=420500$  J = 420,5 kJ."
+      },
+      {
+        "id": 27,
+        "type": "short_answer",
+        "question": "Theo thang Celsius, nhiệt độ phòng là 25 o C. Theo thang Kelvin, nhiệt độ này tương đương với bao nhiêu độ K? Trả lời: . Hướng dẫn giải: Dựa vào công thức đổi nhiệt độ T (K) = t ( o C) + 273.​ Như vậy, 25 o C tương đương với 25 + 273 = 298 K.",
+        "options": [],
+        "correctAnswer": "298",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "type": "true_false",
+        "question": "Cung cấp nhiệt lượng 1,5 J cho một khối khí trong một xilanh đặt nằm ngang. Chất khí nở ra đẩy pittong đi một đoạn 4 cm. Biết lực ma sát giữa pittong và xilanh có độ lớn là 25 N, diện tích tiết diện của pittong là 1 cm 2 . Coi pittong chuyển động thẳng đều.",
+        "items": [
+          {
+            "label": "a",
+            "text": "#Công của khối khí thực hiện là 1 J.",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "#Độ biến thiên nội năng của khối khí là 0,5 J.",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": "#Trong quá trình dãn nở, áp suất của chất khí là 2.10 5 Pa.",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "#Thể tích khí trong xilanh tăng 6 lít.",
+            "correct": false
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      }
+    ]
+  },
+  {
+    "id": "olm-on-tap-chuong-1-de-so-1-2615521682",
+    "title": "OLM: ôn tập chương 1_Đề số 1",
+    "subject": "Vật Lý",
+    "grade": 12,
+    "duration": 45,
+    "teacher": "Bùi Quang Thái",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Vật Lý",
+      "GV: Bùi Quang Thái"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "<div class=\"passage mb-4 p-3 bg-slate-50 dark:bg-slate-800/60 rounded-xl border border-slate-200 dark:border-slate-700/60 text-sm leading-relaxed\">Họ, tên thí sinh: .....................................................................Số báo danh: ..........................................................................</div>Đơn vị của nhiệt hóa hơi riêng là",
+        "options": [
+          "A. J/K.",
+          "B. J/kg.",
+          "C. J.kg/K.",
+          "D. J/kg.K."
+        ],
+        "correct": 1,
+        "explanation": "Đơn vị của nhiệt hóa hơi riêng là J/kg.​"
+      },
+      {
+        "id": 2,
+        "question": "Nhiệt hóa hơi riêng của một chất càng cao thì sẽ cần nhiều năng lượng hơn để chuyển trạng thái từ",
+        "options": [
+          "A. thể rắn sang thể lỏng.",
+          "B. thể rắn sang thể khí.",
+          "C. thể lỏng sang thể khí.",
+          "D. thể khí sang thể lỏng."
+        ],
+        "correct": 2,
+        "explanation": "Nhiệt hóa hơi riêng của một chất càng cao thì sẽ cần nhiều năng lượng hơn để chuyển trạng thái từ thể lỏng sang thể khí.​"
+      },
+      {
+        "id": 3,
+        "question": "Khi một chất đang hóa hơi ở nhiệt độ sôi, nếu ta vẫn cung cấp nhiệt lượng thì nhiệt độ của nó sẽ",
+        "options": [
+          "A. tăng lên.",
+          "B. giảm đi.",
+          "C. không thay đổi.",
+          "D. lúc đầu tăng sau đó giảm."
+        ],
+        "correct": 2,
+        "explanation": "​Trong suốt thời gian sôi, nhiệt độ của chất lỏng không thay đổi."
+      },
+      {
+        "id": 4,
+        "question": "Hệ thức ΔU = A + Q với A < 0 và Q < 0 diễn tả cho quá trình nào dưới đây của chất khí?",
+        "options": [
+          "A. Nhận công, nhận nhiệt lượng.",
+          "B. Nhận công, tỏa nhiệt lượng.",
+          "C. Thực hiện công, tỏa nhiệt lượng.",
+          "D. Thực hiện công, nhận nhiệt lượng."
+        ],
+        "correct": 2,
+        "explanation": "​\nQuy ước về dấu của A và Q trong hệ thức của định luật I nhiệt động lực học:\nQ > 0 khi vật nhận nhiệt lượng từ vật khác.\nQ < 0 khi vật truyền nhiệt lượng cho vật khác.\nA > 0 khi vật nhận công từ vật khác.\nA < 0 khi vật thực hiện công lên vật khác."
+      },
+      {
+        "id": 5,
+        "question": "Khi hai vật có nhiệt độ khác nhau tiếp xúc với nhau, nhiệt năng sẽ",
+        "options": [
+          "A. không truyền qua lại giữa hai vật.",
+          "B. truyền từ vật có nhiệt độ cao hơn sang vật có nhiệt độ thấp hơn.",
+          "C. truyền qua lại từ hai hướng.",
+          "D. truyền từ vật có nhiệt độ thấp hơn sang vật có nhiệt độ cao hơn."
+        ],
+        "correct": 1,
+        "explanation": "​Khi hai vật có nhiệt độ chênh lệch tiếp xúc nhau thì nhiệt năng truyền từ vật có nhiệt độ cao hơn sang vật có nhiệt độ thấp hơn."
+      },
+      {
+        "id": 6,
+        "question": "Đâu là công thức xác định nhiệt lượng trong quá trình truyền nhiệt để làm vật nóng chảy hoàn toàn?",
+        "options": [
+          "A. $Q=mcΔT.$",
+          "B. $Q=mλ.$",
+          "C. $Q=Pt.$",
+          "D. $Q=mL.$"
+        ],
+        "correct": 1,
+        "explanation": "​Nhiệt lượng cần để một vật rắn nóng chảy hoàn toàn tại nhiệt độ nóng chảy là  $Q=mλ$ . Trong đó,  $λ$  là nhiệt nóng chảy riêng (J/kg),  $m$  là khối lượng của chất (kg)."
+      },
+      {
+        "id": 7,
+        "question": "Trong quá trình nóng chảy, chất rắn chuyển thành chất lỏng vì năng lượng nhiệt cung cấp làm",
+        "options": [
+          "A. giảm liên kết giữa các phân tử.",
+          "B. tăng thể tích của các phân tử.",
+          "C. giảm khoảng cách giữa các phân tử.",
+          "D. tăng khối lượng của các phân tử."
+        ],
+        "correct": 0,
+        "explanation": "​Trong quá trình nóng chảy, năng lượng nhiệt cung cấp làm giảm liên kết giữa các phân tử chất rắn, làm chúng chuyển động tự do hơn và chuyển thành chất lỏng."
+      },
+      {
+        "id": 8,
+        "question": "Một người đổ nước nóng vào một chiếc cốc làm bằng kim loại và một chiếc cốc làm bằng thủy tinh. Sau một thời gian, nước trong cốc kim loại nguội nhanh hơn nước trong cốc thủy tinh. Lí do bởi vì kim loại",
+        "options": [
+          "A. có màu sắc khác với thủy tinh.",
+          "B. là chất dẫn nhiệt tốt hơn thủy tinh.",
+          "C. có nhiệt dung riêng lớn hơn thủy tinh.",
+          "D. có khối lượng lớn hơn thủy tinh."
+        ],
+        "correct": 1,
+        "explanation": "Kim loại dẫn nhiệt tốt hơn thủy tinh, do đó nhiệt lượng từ nước nóng truyền qua cốc kim loại ra ngoài không khí nhanh hơn, làm cho nước trong cốc kim loại nguội nhanh hơn.​"
+      },
+      {
+        "id": 9,
+        "type": "true_false",
+        "question": "Hình dưới là \"giản đồ chuyển thể nhiệt độ/áp suất của nước được đơn giản hóa\".",
+        "items": [
+          {
+            "label": "a",
+            "text": "#Thang nhiệt độ Celsius có nhiệt độ dùng làm mốc là nhiệt độ x và nhiệt độ z.",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "#Thang nhiệt độ Kelvin có nhiệt độ dùng làm mốc là nhiệt độ thấp nhất mà các vật có thể đạt được (nhiệt độ không tuyệt đối) và nhiệt độ y.",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": "#Ở nhiệt độ không tuyệt đối, tất cả các chất đều có động năng chuyển động nhiệt của các phân tử bằng không và thế năng của chúng là tối thiểu.",
+            "correct": true
+          },
+          {
+            "label": "d",
+            "text": "#Hiện nay, các nhà khoa học đã hạ thấp nhiệt độ đến 0 K.",
+            "correct": false
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/0904/img_teacher_2024-09-04_66d7b6958299e.jpg"
+        ]
+      },
+      {
+        "id": 10,
+        "type": "true_false",
+        "question": "Chất rắn được cấu tạo từ các hạt riêng biệt là phân tử.",
+        "items": [
+          {
+            "label": "a",
+            "text": "#Sắp xếp theo một trật tự nhất định.",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "#Lực liên kết giữa các phân tử khá yếu.",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "#Khoảng cách giữa các phân tử rất nhỏ.",
+            "correct": true
+          },
+          {
+            "label": "d",
+            "text": "#Di chuyển tự do xung quanh nhau.",
+            "correct": false
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "question": "Cần 6780 kJ để làm bay hơi hoàn toàn 3 kg chất lỏng, nhiệt hóa hơi riêng của chất lỏng đó là",
+        "options": [
+          "A. 0,3.106 J/kg.",
+          "B. 2,26.106 J/kg.",
+          "C. 1,4.106 J/kg.",
+          "D. 0,9.106 J/kg."
+        ],
+        "correct": 1,
+        "explanation": "Nhiệt hóa hơi riêng của chất lỏng đó là​\n$L=\\frac{Q}{m}=\\frac{6780000}{3}=2260000=2,{26.10}^{6}$  J/kg."
+      },
+      {
+        "id": 12,
+        "type": "true_false",
+        "question": "Thang nhiệt độ chúng ta vẫn dùng hằng ngày là thang Celsius, được đặt theo tên của nhà khoa học Thụy Điển Anders Celsius, người đầu tiên xây dựng thang nhiệt độ này vào năm 1742.",
+        "items": [
+          {
+            "label": "a",
+            "text": "#Thang nhiệt độ Celsius có tên gọi khác là thang nhiệt độ bách phân (centigrade).",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "#Khoảng cách giữa nhiệt độ đóng băng và nhiệt độ sôi của nước tinh khiết ở áp suất tiêu chuẩn được chia làm 100 phần bằng nhau, mỗi phần là 1 độ.",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": "#Nhiệt độ trong thang Celsius được kí hiệu là chữ T, đơn vị là K.",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "#Công thức chuyển đổi từ nhiệt độ Celsius sang Kelvin là t ( o C) = T (K) + 273,15.",
+            "correct": false
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "question": "Người ta thực hiện công 60 J để nén một lượng khí trong một xilanh. Nội năng của khí tăng 20 J. Phát biểu nào sau đây là đúng?",
+        "options": [
+          "A. Khối khí truyền 80 J nhiệt lượng ra ngoài môi trường.",
+          "B. Khối khí nhận 40 J nhiệt lượng từ môi trường.",
+          "C. Khối khí truyền 40 J nhiệt lượng ra ngoài môi trường.",
+          "D. Khối khí nhận 80 J nhiệt lượng từ môi trường."
+        ],
+        "correct": 2,
+        "explanation": "Nguyên lí 1 của nhiệt động lực học ΔU = A + Q.​\nKhối khí nhận công nên A = 60 J, nội năng của khí tăng nên ΔU = 20 J.\nNhư vậy: 20 = 60 + Q suy ra Q = -40 J. Dấu \"-\" thể hiện răng khối khí đã truyền ra ngoài môi trường một nhiệt lượng là 40 J."
+      },
+      {
+        "id": 14,
+        "type": "true_false",
+        "question": "Nhiệt hóa hơi riêng của một chất lỏng là nhiệt lượng cần để làm cho một kilôgam chất lỏng đó hóa hơi hoàn toàn ở nhiệt độ xác định. Xét tính đúng/sai của các thông tin liên quan đến sự hóa hơi dưới đây.",
+        "items": [
+          {
+            "label": "a",
+            "text": "Các chất lỏng đều hóa hơi ở cùng một nhiệt độ.",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": "Với một chất lỏng nhất định, nhiệt độ sôi không phụ thuộc vào áp suất trên mặt thoáng.",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "Độ lớn của nhiệt hóa hơi riêng của chất lỏng phụ thuộc vào nhiệt độ ở đó chất lỏng hóa hơi.",
+            "correct": true
+          },
+          {
+            "label": "d",
+            "text": "Với một chất lỏng nhất định, thông thường nhiệt hóa hơi riêng tăng khi nhiệt độ giảm.",
+            "correct": true
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "type": "short_answer",
+        "question": "Một khối khí được làm nóng bằng cách truyền 50 kJ cho nó. Đồng thời, nó được nén bởi lực thực hiện được công 40 kJ. Độ tăng nội năng của khối khí đó là bao nhiêu kJ? Trả lời : . Hướng dẫn giải: Định luật 1 của nhiệt động lực học ΔU = A + Q.​ Vì khối khí nhận nhiệt nên Q = 50 kJ, được nén bởi lực thực hiện công nên A = 40 kJ. Độ tăng nội năng của khối khí đó là ΔU = 40 + 50 = 90 kJ.",
+        "options": [],
+        "correctAnswer": "90",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "question": "Phép chuyển đổi nhiệt độ đo theo thang Kelvin sang nhiệt độ đo theo thang Celsius nào dưới đây là không đúng?",
+        "options": [
+          "A. 315 K = 42 oC.",
+          "B. 421 K = 148 oC.",
+          "C. 355 K = 80 oC.",
+          "D. 290 K = 17 oC."
+        ],
+        "correct": 2,
+        "explanation": "Dựa vào công thức chuyển đổi nhiệt độ T (K) = t (oC) + 273.​\nPhép đổi đúng lần lượt như sau:\n290 K = 17 oC.\n315 K = 42 oC.\n355 K = 82 oC.\n421 K = 148 oC."
+      },
+      {
+        "id": 17,
+        "question": "Người ta thực hiện công 60 J để nén một lượng khí trong một xilanh. Nội năng của khí tăng 20 J. Phát biểu nào sau đây là đúng?",
+        "options": [
+          "A. Khối khí nhận 80 J nhiệt lượng từ môi trường.",
+          "B. Khối khí truyền 80 J nhiệt lượng ra ngoài môi trường.",
+          "C. Khối khí nhận 40 J nhiệt lượng từ môi trường.",
+          "D. Khối khí truyền 40 J nhiệt lượng ra ngoài môi trường."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "type": "short_answer",
+        "question": "Giá trị nhiệt độ đo được theo thang nhiệt độ Kelvin là 293 K. Theo thang Celsius, nhiệt độ này tương đương với bao nhiêu o C? Trả lời : . Hướng dẫn giải: Dựa vào công thức đổi nhiệt độ t ( o C) = T (K) - 273.​ Như vậy, 293 K tương đương với 293 - 273 = 20 o C.",
+        "options": [],
+        "correctAnswer": "20",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "question": "Cần 6780 kJ để làm bay hơi hoàn toàn 3 kg chất lỏng, nhiệt hóa hơi riêng của chất lỏng đó là",
+        "options": [
+          "A. 0,3.10 6 J/kg.",
+          "B. 0,9.10 6 J/kg.",
+          "C. 1,4.10 6 J/kg.",
+          "D. 2,26.10 6 J/kg."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "type": "short_answer",
+        "question": "Cung cấp một nhiệt lượng 45600 J để nung nóng một khối kim loại nặng 2 kg từ 10 o C lên 70 o C. Nhiệt dung riêng của khối kim loại này là bao nhiêu J/kg.K? Trả lời : . Hướng dẫn giải: ​Nhiệt dung riêng của khối kim loại là \\(c=\\dfrac{Q}{m\\Delta T}=\\dfrac{45600}{2.60}=380\\) J/kg.K.",
+        "options": [],
+        "correctAnswer": "380",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "question": "Phép chuyển đổi nhiệt độ đo theo thang Kelvin sang nhiệt độ đo theo thang Celsius nào dưới đây là không đúng?",
+        "options": [
+          "A. 290 K = 17 o C.",
+          "B. 315 K = 42 o C.",
+          "C. 355 K = 80 o C.",
+          "D. 421 K = 148 o C."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "type": "short_answer",
+        "question": "Theo thang Celsius, nhiệt độ phòng là 25 o C. Theo thang Kelvin, nhiệt độ này tương đương với bao nhiêu độ K? Trả lời: . Hướng dẫn giải: Dựa vào công thức đổi nhiệt độ T (K) = t ( o C) + 273.​ Như vậy, 25 o C tương đương với 25 + 273 = 298 K.",
+        "options": [],
+        "correctAnswer": "298",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "question": "Một ấm nhôm chứa 1,5 lít nước ở 30 o C. Cho khối lượng riêng của nước là 1000 kg/m 3 và nhiệt lượng cần cung cấp cho 1 kg nước tăng thêm 1 o C là 4200 J/kg.K. Nhiệt lượng cần cung cấp cho nước trong ấm tăng nhiệt độ đến 90 o C là",
+        "options": [
+          "A. 672 kJ.",
+          "B. 672 J.",
+          "C. 378 J.",
+          "D. 378 kJ."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "type": "short_answer",
+        "question": "Theo thang Celsius, nhiệt độ của một viên bi sắt vừa được nung nóng là 150 o C. Theo thang Kelvin, nhiệt độ này tương đương với bao nhiêu độ K? Trả lời : . Hướng dẫn giải: Dựa vào công thức đổi nhiệt độ T (K) = t ( o C) + 273.​ Như vậy, 150 o C tương đương với 150 + 273 = 423 K.",
+        "options": [],
+        "correctAnswer": "423",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "type": "short_answer",
+        "question": "Một lượng khí nhận nhiệt lượng 220 kJ do được đun nóng, đồng thời nhận công 500 kJ do bị nén. Độ tăng nội năng của lượng khí đó là bao nhiêu kJ? Trả lời : . Hướng dẫn giải: Định luật 1 của nhiệt động lực học ΔU = A + Q.​ Vì khối khí nhận nhiệt nên Q = 220 kJ, nhận công nên A = 500 kJ. Độ tăng nội năng của khối khí đó là ΔU = 500 + 220 = 720 kJ.",
+        "options": [],
+        "correctAnswer": "720",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "question": "Nhiệt độ sôi của rượu là 80 o C. Trong thang đo Kelvin, nhiệt độ này tương đương với",
+        "options": [
+          "A. 273 K.",
+          "B. 193 K.",
+          "C. 353 K.",
+          "D. 80 K."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "question": "Nhiệt độ sôi của rượu là 80 oC. Trong thang đo Kelvin, nhiệt độ này tương đương với",
+        "options": [
+          "A. 353 K.",
+          "B. 80 K.",
+          "C. 193 K.",
+          "D. 273 K."
+        ],
+        "correct": 0,
+        "explanation": "Dựa vào công thức chuyển đổi nhiệt độ T (K) = t (oC) + 273.​\nNhư vậy 80 oC tương đương với 353 K."
+      }
+    ]
+  },
+  {
+    "id": "olm-kiem-tra-12-12a2-5261865317",
+    "title": "OLM: Kiểm tra 12-12a2",
+    "subject": "Lịch Sử",
+    "grade": 12,
+    "duration": 45,
+    "teacher": "Nguyễn Văn Phước",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Lịch Sử",
+      "GV: Nguyễn Văn Phước"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Đầu năm 1945, đâu là vấn đề cấp bách đặt ra cho các nước Đồng minh chống phát xít?",
+        "options": [
+          "A. Phân chia lại thuộc địa của các nước.",
+          "B. Tổ chức lại thế giới sau chiến tranh.",
+          "C. Thiết lập trật tự thế giới mới hai cực.",
+          "D. Phục hồi và phát triển kinh tế thế giới."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "question": "Nhằm duy trì hoà bình và an ninh thế giới sau chiến tranh, Hội nghị I-an-ta (2-1945) có quyết định quan trọng nào sau đây?",
+        "options": [
+          "A. Thành lập Ban Thư kí Liên hợp quốc.",
+          "B. Thành lập tổ chức Liên hợp quốc.",
+          "C. Thành lập tổ chức Hội Quốc liên.",
+          "D. Duy trì và mở rộng Hội Quốc liên."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "question": "Liên Hợp Quốc đề ra nguyên tắc hoạt động nào sau đây?",
+        "options": [
+          "A. Duy trì hòa bình, an ninh kinh tế thế giới.",
+          "B. Tôn trọng các nghĩa vụ quốc tế và luật pháp quốc tế.",
+          "C. Hợp tác cùng có lợi và giúp đỡ lẫn nhau.",
+          "D. Chấm dứt các cuộc chiến tranh và xung đột."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "question": "Vai trò duy trì h òa b ì nh, an ninh quốc tế của Liên hợp quốc được thể hiện thông qua hoạt động nào sau đây?",
+        "options": [
+          "A. Xây dựng chương trình hỗ trợ các nước về vốn, tri thức, kĩ thuật.",
+          "B. Đề ra mục tiêu phát triển Thiên niên kỉ nhằm xoá bỏ đói nghèo.",
+          "C. Kí điều ước quốc tế về quyền phụ nữ và trẻ em.",
+          "D. Thủ tiêu hệ thống thuộc địa của chủ nghĩa thực dân."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "question": "Trải qua hơn 70 năm hoạt động (từ 1945), Liên hợp quốc đã có nhiều vai trò, đóng góp trên các lĩnh vực, nhưng không có vai trò nào sau đây?",
+        "options": [
+          "A. Góp phần thúc đẩy quá trình phi thực dân hoá ở nhiều nơi trên thế giới.",
+          "B. Ra các văn bản, xây dựng môi trường thuận lợi thúc đẩy hợp tác quốc tế.",
+          "C. Ngăn chặn được các cuộc đối đầu Đông – Tây và xung đột trên thế giới.",
+          "D. Làm trung gian hoà giải chấm dứt xung đột và chiến tranh ở các khu vực."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "question": "Nội dung nào dưới đây phản ánh đúng về tổ chức Liên hợp quốc?",
+        "options": [
+          "A. Là tổ chức đóng vai trò quyết định trong việc giải quyết các tranh chấp quốc tế.",
+          "B. Liên hợp quốc đóng vai trò trung tâm trong việc duy trì an ninh của các quốc gia.",
+          "C. Các hoạt động gìn giữ hòa bình nhận được nhiệm vụ từ Đại hội đồng.",
+          "D. Là tổ chức liên chính phủ lớn nhất và duy nhất trên toàn cầu."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "question": "Nội dung nào sau đây là biểu hiện trực tiếp chứng tỏ Liên hợp quốc có vai trò thúc đẩy phát triển kinh tế, thương mại quốc tế?",
+        "options": [
+          "A. Thủ tiêu toàn bộ vũ khí hạt nhân trên phạm vi thế giới.",
+          "B. Ngăn chặn được mọi hành động của lực lượng khủng bố.",
+          "C. Có nhiều chương trình hỗ trợ các nước về vốn, tri thức.",
+          "D. Triển khai các hoạt động gìn giữ hoà bình ở châu Phi."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "question": "Một trong những quyết định của Hội nghị Ianta (2-1945) đã có ảnh hưởng tích cực đến tình hình thế giới sau chiến tranh, vì?",
+        "options": [
+          "A. Liên Xô và Mĩ vẫn duy trì mối quan hệ đồng minh.",
+          "B. Thay đổi mô hình trật tự thế giới mới sau chiến tranh.",
+          "C. Đưa đến sự hình thành trật tự thế giới hai cực Ianta.",
+          "D. Thúc đẩy chiến tranh thế giới thứ hai sớm kết thúc."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "question": "Tr ật tự hai cực Ianta được xác lập sau Chiến tranh thế giới hai khẳng định vị thế hàng đầu của hai cường quốc nào?",
+        "options": [
+          "A. Nga và Mĩ.",
+          "B. Liên Xô và Mĩ.",
+          "C. Liên Xô và Pháp.",
+          "D. Mĩ và Anh."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "question": "Theo quy định của Hội nghị Ianta , các vùng của châu Á thuộc phạm vi ảnh hưởng của phương Tây là",
+        "options": [
+          "A. Đông Bắc Á, Đông Nam Á, Nam Á.",
+          "B. Đông Bắc Á, Đông Nam Á, Tây Á.",
+          "C. Đông Bắc Á, Tây Á, Nam Á.",
+          "D. Tây Á, Đông Nam Á, Nam Á."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "question": "Sự kiện nào xác lập Chiến tranh lạnh bao trùm cả thế giới sau chiến tranh thế giới thứ hai?",
+        "options": [
+          "A. Học thuyết của tổng thống Truman.",
+          "B. Học thuyết của Tổng thống Ri-gân.",
+          "C. Sự ra đời của NATO và Vacsava.",
+          "D. Chiến lược cam kết và mở rộng."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "question": "Nhận xét nào sau đây là tác động của Hội nghị I-an-ta và Hội nghị Pốt-xđam (1945) đối với tình hình quốc tế?",
+        "options": [
+          "A. Tạo nên một trật tự thế giới mới giữa các nước thắng trận và bại trận.",
+          "B. Giải quyết được mâu thuẫn về vấn đề thị trường cho các cường quốc.",
+          "C. Tạo nên khuôn khổ của trật tự thế giới – trật tự nhất siêu, nhiều cực.",
+          "D. Làm thay đổi sâu sắc quan hệ quốc tế, đặc biệt là quan hệ Xô – Mỹ."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "question": "Trong giai đoạn từ năm 1945 đến đầu những năm 70 của thế kỉ XX, Trật tự thế giới hai cực I-an-ta có biểu hiện nào sau đây?",
+        "options": [
+          "A. Từ đối kháng chuyển sang đối đầu giữa hai hệ thống xã hội đối lập.",
+          "B. Xác lập và phát triển nhanh với sự đối đầu diễn ra trên nhiều lĩnh vực.",
+          "C. Phát triển mạnh và dẫn tới các cuộc chiến tranh cục bộ giữa Liên Xô – Mỹ.",
+          "D. Từ đối đầu căng thẳng chuyển sang hoà dịu và hoà hoãn Đông – Tây."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "question": "Nội dung nào sau đây phản ánh đúng tác động của sự sụp đổ Trật tự thế giới hai cực I-an-ta (1991) đến các quốc gia trên thế giới?",
+        "options": [
+          "A. Mỹ vươn lên thiết lập trật tự thế giới “đơn cực” do Mỹ làm bá chủ.",
+          "B. Một số cường quốc có vị trí ngày càng cao trong quan hệ quốc tế.",
+          "C. Các nước tư bản chủ nghĩa và xã hội chủ nghĩa xung đột gay gắt.",
+          "D. Các quốc gia chạy đua vũ trang để có vị trí trong trật tự thế giới mới."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "question": "Vì sao đến nay Mĩ vẫn không thể thực hiện ý đồ thiết lập trật tự thế giới “Đơn cực”?",
+        "options": [
+          "A. Do sự vươn lên của các cường quốc như Đức, Nhật Bản, Nga.",
+          "B. Nước Mỹ đã suy yếu một cách nghiêm trọng từ đầu thế ki XX.",
+          "C. Sự trỗi dậy của chủ nghĩa khủng bố đã ngăn cản mưu đồ của Mĩ.",
+          "D. Do có sự phát triển của phong trào đấu tranh giải phóng dân tộc."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "question": "Sau Chiến tranh Chiến tranh lạnh, trong Trật tự thế giới đa cực, sự khẳng định vai trò của các trung tâm quyền lực chứng tỏ",
+        "options": [
+          "A. khả năng chi phối quan hệ quốc tế của hệ thống xã hội chủ nghĩa.",
+          "B. sự thay đổi tương quan so sánh lực lượng trong quan hệ quốc tế.",
+          "C. Mĩ đã hoàn toàn chi phối được sự phát triển kinh tế của thế giới.",
+          "D. Liên hợp quốc là tổ chức duy nhất điều tiết quan hệ quốc tế."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "question": "Nội dung nào sau đây là bối cảnh lịch sử dẫn đến sự thành lập Hiệp hội các quốc gia Đông Nam Á (ASEAN)?",
+        "options": [
+          "A. Xu thế khu vực hoá xuất hiện, ngày càng phát triển mạnh mẽ.",
+          "B. Các nước Đông Nam Á đã hoàn thành công nghiệp hóa.",
+          "C. Xu thế toàn cầu hoá xuất hiện, ngày càng phát triển mạnh mẽ.",
+          "D. Liên Xô và Mĩ đã tuyên bố chấm dứt cuộc Chiến tranh lạnh."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "question": "Quốc gia nào sau đây thành viên sáng lập của Hiệp hội các quốc gia Đông Nam Á (ASEAN)?",
+        "options": [
+          "A. Mi-an-ma.",
+          "B. Mông Cổ.",
+          "C. Trung Quốc.",
+          "D. Ma-lai-xi-a"
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "question": "Một trong những mục đích thành lập của Hiệp hội các quốc gia Đông Nam Á (ASEAN) là",
+        "options": [
+          "A. không sử dụng vũ lực hoặc đe dọa bằng vũ lực đối với nhau.",
+          "B. giải quyết các tranh chấp quốc tế bằng biện pháp hòa bình.",
+          "C. thúc đẩy hợp tác, giúp đỡ lẫn nhau về khoa học, kĩ thuật, hành chính.",
+          "D. không can thiệp vào công việc nội bộ của bất kì nước nào."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "question": "Một trong những thành tựu quan trọng của ASEAN trong giai đoạn 1976 - 1999 là",
+        "options": [
+          "A. xây dựng thành công Cộng đồng ASEAN.",
+          "B. Phát triển mạnh hệ thống tổ chức, cơ chế hoạt động của ASEAN.",
+          "C. ASEAN ra tuyên bố về khu vực hoà bình, tự do và trung lập.",
+          "D. Hiến chương ASEAN được thông qua."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "question": "Nhận xét nào sau đây phản ánh đúng về hoạt động của Hiệp hội các quốc gia Đông Nam Á (ASEAN) trong giai đoạn 1967-1976?",
+        "options": [
+          "A. Đạt thành tựu chủ yếu trong hợp tác, phát triển kinh tế, văn hóa.",
+          "B. Hoạt động mang đậm tính chính trị, cơ cấu tổ chức hoàn thiện.",
+          "C. Hợp tác kinh tế trong nội bộ tổ chức có những tiến triển mạnh mẽ.",
+          "D. Chủ yếu tập trung giải quyết những vấn đề an ninh, chính trị."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "question": "Sự thành lập của Hiệp hội các quốc gia Đông Nam Á (ASEAN) phản ánh xu thế nào sau đây?",
+        "options": [
+          "A. Toàn cầu hoá, quốc tế hoá.",
+          "B. Trật tự đa cực nhiều trung tâm.",
+          "C. Liên kết, hợp tác khu vực.",
+          "D. Lấy phát triển kinh tế làm trọng tâm."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "question": "Văn kiện Tầm nhìn ASEAN 2020 đề xuất ý tưởng xây dựng Cộng đồng ASEAN có một trong những đặc điểm nào sau đây?",
+        "options": [
+          "A. Giữ gìn hòa bình và ổn định khu vực, từng bước tiến tới thiết lập một cơ quan nghị viện chung.",
+          "B. Nâng cao vị thế của ASEAN, bỏ kiểm soát việc đi lại của công dân qua biên giới của nhau.",
+          "C. Có nhận thức về các mối quan hệ lịch sử, gắn bó với nhau trong một bản sắc khu vực chung.",
+          "D. Xây dựng một cộng đồng hợp tác toàn diện, tiến tới sử dụng đồng tiền chung của ASEAN."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "question": "Nội dung nào sau đây là nhận xét đúng về tổ chức ASEAN?",
+        "options": [
+          "A. Có sự hợp tác liên chính phủ và mức độ liên kết ngày càng sâu rộng.",
+          "B. Thành lập khi tất cả các quốc gia trong khu vực đã giành được độc lập.",
+          "C. Có sự liên kết với Liên hợp quốc về mục tiêu xoá bỏ chủ nghĩa thực dân.",
+          "D. Nỗ lực đàm phán với Liên minh châu Âu để xoá bỏ hàng rào thuế quan."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "type": "true_false",
+        "question": "Cho đoạn tư liệu sau đây : “Trật tự thế giới mới này (đa cực) được hình thành như thế nào, còn tùy thuộc ở nhiều nhân tố: Sự phát triển về thực lực kinh tế, chính trị, quân sự của các cường quốc Mỹ, Nga, Trung Quốc, Anh, Pháp, Nhật Bản, Đức trong cuộc chạy đua về sức mạnh quốc gia tổng hợp,…; Sự lớn mạnh của lực lượng cách mạng thế giới (sự thành bại của công cuộc cải cách, đổi mới ở các nước xã hội chủ nghĩa,…); Sự phát triển của cách mạng khoa học – kĩ thuật sẽ còn tiếp tục tạo ra những “đột phá” và biến chuyển trên cục diện thế giới”. (Nguyễn Anh Thái (Chủ biên), Lịch sử thế giới hiện đại , NXB Giáo dục Việt Nam, Hà Nội, 2021, tr.424).",
+        "items": [
+          {
+            "label": "a",
+            "text": ". Đoạn tư liệu cung cấp thông tin về những biểu hiện của trật tự thế giới đa cực đang được hình thành hiện nay.",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": ". Cuộc chạy đua về sức mạnh tổng hợp của các cường quốc là một trong những nhân tố quan trọng tác động đến sự hình thành trật tự thế giới đa cực.",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": ". Mỹ, Nga, Trung Quốc là những cường quốc giữ vai trò chi phối quan hệ quốc tế trong cả trật tự hai cực I-an-ta và trật tự đa cực.",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": ". Cuộc cách mạng khoa học – kĩ thuật vừa là nguyên nhân dẫn đến sự xói mòn và sụp đổ của trật tự hai cực I-an-ta, vừa là nhân tố tác động đến sự hình thành của trật tự thế giới đa cực.",
+            "correct": true
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "type": "true_false",
+        "question": "Cho đoạn tư liệu sau đây: “Sau khi Chiến tranh lạnh kết thúc, thế giới phát triển theo những xu thế chính sau: - Xu thế đa cực (thể hiện rõ từ đầu thế kỉ XXI) - Xu thế lấy phát triển kinh tế là trung tâm: kinh tế trở thành nhân tố quyết định sức mạnh tổng hợp của từng quốc gia, đồng thời đóng vai trò trung tâm trong quan hệ quốc tế. - Xu thế đối thoại, hợp tác trong quan hệ quốc tế: quan hệ giữa các nước lớn được điều chỉnh theo hướng tăng cường đối thoại, giải quyết bất đồng và mâu thuẫn bằng thương lượng hòa bình, hợp tác cùng có lợi. - Xu thế toàn cầu hóa thể hiện ở sự phát triển mạnh mẽ của thương mại quốc tế; sự mở rộng của các công ty xuyên quốc gia; sự ra đời của các tổ chức liên kết thương mại, tài chính quốc tế,…” ( Dẫn theo Sách giáo khoa Lịch sử 12 , bộ cánh diều, tr.14)",
+        "items": [
+          {
+            "label": "a",
+            "text": ". Đoạn tư liệu cung cấp thông tin về các biểu hiện của xu thế đa cực trong quan hệ quốc tế.",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": ". Chiến tranh lạnh kết thúc làm cho kinh tế trở thành nội dung căn bản trong quan hệ quốc tế.",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": ". Nhu cầu ổn định để phát triển kinh tế và quá trình toàn cầu hóa có tác động mạnh mẽ đến xu thế đối thoại, hợp tác trong quan hệ quốc tế.",
+            "correct": true
+          },
+          {
+            "label": "d",
+            "text": ". Các xu thế phát triển của thế giới sau khi Chiến tranh lạnh chấm dứt vừa tạo ra thời cơ, vừa tạo ra thách thức cho các quốc gia, dân tộc trong quá trình phát triển.",
+            "correct": true
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "type": "true_false",
+        "question": "Cho đoạn tư liệu sau đây: “Đến năm 2020, ASEAN sẽ thiết lập được một Đông Nam Á hòa bình và ổn định, ở đó mỗi nước sống bình yên, những nguyên nhân xung đột đã được loại bỏ qua việc tôn trọng công lí, luật pháp và tăng cường tinh thần tự cường quốc gia và khu vực....toàn bộ Đông Nam Á sẽ là một cộng đồng ASEAN nhận thức được các mối liên hệ lịch sử của mình, hiểu rõ di sản văn hóa của mình và gắn bó với nhau bằng một bản sắc chung của khu vực”. ( Trích: Tầm nhìn ASEAN 2020. NXB Chính trị quốc gia, Hà Nội).",
+        "items": [
+          {
+            "label": "a",
+            "text": ". Ý tưởng xây dựng cộng đồng ASEAN được khởi nguồn từ khi tổ chức này được thành lập.",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": ". Tầm nhìn ASEAN là văn bản đầu tiên đề xuất ý tưởng xây dựng Cộng đồng ASEAN.",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": ". Tầm nhìn ASEAN là văn bản nêu rõ mục đích thành lập của tổ chức ASEAN.",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": ". Tầm nhìn ASEAN là cơ sở pháp lí của tổ chức ASEAN.",
+            "correct": false
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "type": "true_false",
+        "question": "Ch o đoạn tư liệu sau đây: “Kể từ khi thành lập đến nay, tuy gặp nhiều khó khăn, phức tạp về chính trị, kinh tế, chịu sức ép của các nước lớn từ nhiều phía, nhưng tổ chức ASEAN đã tồn tại và phát triển với nhiều triển vọng tốt đẹp ở khu vực Đông Nam Á và trên thế giới. Từ một tổ chức không tên tuổi, liên kết các quốc gia nhỏ, yếu trong khu vực để đối phó với những thách thức từ bên trong và bên ngoài, trong đó trước hết là những thách thức về an ninh và kinh tế để bảo vệ sự tồn tại của mình, ngày nay ASEAN đã trở thành một tổ chức có uy tín lớn trên thế giới.” (Nguyễn Anh Thái (chủ biên), Dịch sử thế giới hiện đại, NXB Giáo dục, Hà Nội, 2006, tr. 363)",
+        "items": [
+          {
+            "label": "a",
+            "text": "Bài học rút ra để tồn tại và phát triển của ASEAN là các nước trong khu vực cần tăng cường sự hợp tác, đoàn kết, tôn trọng nhau.",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "Trong quá trình phát triển ASEAN có nhiều điều kiện thuận lợi đề nhanh chóng trở thành tổ chức uy tín và vững mạnh.",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "Việt Nam là một trong những quốc gia tiên phong trong việc thúc đẩy đoàn kết ASEAN trước các thách thức an ninh phi truyền thống.",
+            "correct": true
+          },
+          {
+            "label": "d",
+            "text": "Một trong những thách thức trong quá trình phát triển của ASEAN chính là sự chi phối của các nước lớn trong cục diện Chiến tranh lạnh.",
+            "correct": true
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      }
+    ]
+  },
+  {
+    "id": "olm-on-tap-chuong-1-ester-lipid-5262246278",
+    "title": "OLM: ÔN TẬP CHƯƠNG 1_ESTER - LIPID",
+    "subject": "Hóa Học",
+    "grade": 12,
+    "duration": 20,
+    "teacher": "Nguyễn Văn Hậu",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Hóa Học",
+      "GV: Nguyễn Văn Hậu"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Tripalmitin là tên của chất béo nào sau đây?",
+        "options": [
+          "A. (C17H33COO)3C3H5.",
+          "B. (C17H35COO)3C3H5.",
+          "C. (C15H31COO)3C3H5.",
+          "D. (C17H31COO)3C3H5."
+        ],
+        "correct": 2,
+        "explanation": "Tripalmitin là tên của chất béo có CT là (C15H31COO)3C3H5.​"
+      },
+      {
+        "id": 2,
+        "question": "Vinyl acetate là tên gọi của ester nào sau đây?",
+        "options": [
+          "A. CH3COOC6H5.",
+          "B. CH3COOCH=CH2.",
+          "C. CH2=CHCOOCH3.",
+          "D. CH3COOCH2CH3."
+        ],
+        "correct": 1,
+        "explanation": "Vinyl acetate là tên gọi của CH3COOCH=CH2.​"
+      },
+      {
+        "id": 3,
+        "question": "Dãy sắp xếp theo thứ tự tăng dần nhiệt độ sôi là",
+        "options": [
+          "A. propanoic acid < butan-1-ol < methyl acetate.",
+          "B. methyl acetate < propanoic acid < butan-1-ol.",
+          "C. butan-1-ol < propanoic acid < methyl acetate.",
+          "D. methyl acetate < butan-1-ol < propanoic acid."
+        ],
+        "correct": 3,
+        "explanation": "​Butan-1-ol, propanoic acid, methyl acetate đều có khối lượng phân tử là 74 amu.\n- Propanoic acid có chứa nhóm carboxyl phân cực, có thể tạo được liên kết hydrogen.\n​- Butan-1-ol có chứa nhóm -OH phân cực, có thể tạo được liên kết hydrogen.\n- Methyl acetate không thể tạo được liên kết hydrogen.\nMà liên kết hydrogen trong phân tử carboxylic acid bền hơn alcohol nên thứ tự nhiệt độ sôi tăng dần sẽ là methyl acetate < butan-1-ol < propanoic acid."
+      },
+      {
+        "id": 4,
+        "question": "Ứng dụng nào sau đây không phải là của ester?",
+        "options": [
+          "A. Sản xuất dược phẩm.",
+          "B. Sản xuất tơ tổng hợp.",
+          "C. Sản xuất nước hoa.",
+          "D. Sản xuất thủy tinh."
+        ],
+        "correct": 1,
+        "explanation": "Ester không được dùng để sản xuất tơ tổng hợp.​"
+      },
+      {
+        "id": 5,
+        "question": "Chất nào sau đây là chất béo?",
+        "options": [
+          "A. (C17H35COO)3C3H5.",
+          "B. CH3(CH2)7CH=CH(CH2)7COOC2H5.",
+          "C. CH3(CH2)14COOH.",
+          "D. CH3(CH2)7CH=CH(CH2)7COOH."
+        ],
+        "correct": 0,
+        "explanation": "Chất béo là triester của glycerol và acid béo (acid béo thường dài từ 12 - 24 nguyên tử C).​\nCH3(CH2)14COOH, CH3(CH2)7CH=CH(CH2)7COOH là acid béo.\nCH3(CH2)7CH=CH(CH2)7COOC2H5 là ester."
+      },
+      {
+        "id": 6,
+        "question": "Chất nào sau đây không thuộc loại ester?",
+        "options": [
+          "A. CH3COOH.",
+          "B. HCOOCH3.",
+          "C. CH3COOCH=CH2.​",
+          "D. CH3COOCH3."
+        ],
+        "correct": 0,
+        "explanation": "​CH3COOH là carboxylic acid ⇒ không thuộc loại ester."
+      },
+      {
+        "id": 7,
+        "question": "Xà phòng và chất giặt rửa có cấu tạo gồm mấy phần?",
+        "options": [
+          "A. 3.",
+          "B. 4.",
+          "C. 1.",
+          "D. 2."
+        ],
+        "correct": 3,
+        "explanation": "​Xà phòng và chất giặt rửa có cấu tạo gồm 2 phần là đầu ưa nước và đầu kị nước."
+      },
+      {
+        "id": 8,
+        "question": "Xà phòng và chất giặt rửa đều có thể được sản xuất từ chất nào sau đây?",
+        "options": [
+          "A. Dầu lạc.",
+          "B. Dầu mỏ.",
+          "C. Chất béo.",
+          "D. Mỡ lợn."
+        ],
+        "correct": 1,
+        "explanation": "​Xà phòng và chất giặt rửa đều có thể được sản xuất từ dầu mỏ."
+      },
+      {
+        "id": 9,
+        "question": "Phần ưa nước của các chất giặt rửa thường chứa nhóm nào?​",
+        "options": [
+          "A. Sulfate.",
+          "B. Hydrocarbon.",
+          "C. Carboxylate.",
+          "D. Alkylbenzene."
+        ],
+        "correct": 0,
+        "explanation": "Phần ưa nước của chất giặt rửa tổng hợp chứa các nhóm sulfate hoặc nhóm sulfonate.​"
+      },
+      {
+        "id": 10,
+        "question": "Đặc điểm chung của chất giặt rửa và xà phòng là",
+        "options": [
+          "A. an toàn và không gây ô nhiễm môi trường.",
+          "B. được cấu tạo từ gốc hydrocarbon và nhóm carboxylate.",
+          "C. muối của sodium (potassium) của acid béo.",
+          "D. có đầu ưa nước và đầu kị nước."
+        ],
+        "correct": 3,
+        "explanation": "Đặc điểm chung của chất giặt rửa và xà phòng là đều có cấu tạo bởi một đầu ưa nước và một đầu kị nước.​"
+      },
+      {
+        "id": 11,
+        "question": "Hợp chất nào sau đây là chất giặt rửa tổng hợp?",
+        "options": [
+          "A. CH3(CH2)10CH2OSO3Na.",
+          "B. CH3(CH2)10CH2SO3H.",
+          "C. C15H31COONa.",
+          "D. (C17H35COO)3C3H5."
+        ],
+        "correct": 0,
+        "explanation": "Chất giặt rửa tổng hợp là CH3(CH2)10CH2OSO3Na.​"
+      },
+      {
+        "id": 12,
+        "question": "Đầu ưa nước của xà phòng chứa nhóm chức nào sau đây?",
+        "options": [
+          "A. -COO-.",
+          "B. C15H31-.",
+          "C. -SO3-.",
+          "D. C17H35-."
+        ],
+        "correct": 0,
+        "explanation": "Đầu ưa nước (tan được trong nước) của xà phòng có chứa nhóm carboxylate -COO-.​"
+      },
+      {
+        "id": 13,
+        "question": "Thủy phân một chất béo (trong môi trường acid) tạo thành stearic acid, palmitic acid và glycerol. Có bao nhiêu chất béo thỏa mãn điều kiện trên?",
+        "options": [
+          "A. 3.",
+          "B. 4.",
+          "C. 1.",
+          "D. 2."
+        ],
+        "correct": 1,
+        "explanation": "Có 4 chất béo thỏa mãn điều kiện trên là:​​\n​"
+      },
+      {
+        "id": 14,
+        "question": "Xà phòng hóa hoàn toàn trilinolein bằng dung dịch NaOH dư thu được 4,14 gam glycerol và m gam muối. Tính m.",
+        "options": [
+          "A. 39,51 gam.",
+          "B. 41,04 gam.",
+          "C. 40,77 gam.",
+          "D. 13,59 gam."
+        ],
+        "correct": 2,
+        "explanation": "(C17H31COO)3C3H5 + 3NaOH → 3C17H31COONa + C3H5(OH)3​\nnglycerol =  $\\frac{4,14}{92}$  = 0,045 mol​\n⇒ nmuối = 3 . 0,045 = 0,135 mol\n⇒ mmuối = 302 . 0,135 = 40,77 gam."
+      },
+      {
+        "id": 15,
+        "question": "Omega-3 có vai trò quan trọng đối với sức khỏe. Trong thai kì, các mẹ nên bổ sung omega-3 giúp phát triển thị lực, thần kinh và tăng trưởng não bộ cho trẻ. Các mẹ bầu có thể bổ sung omega-3 từ loại thực phẩm nào sau đây?",
+        "options": [
+          "A. Dầu mè.",
+          "B. Dầu olive.",
+          "C. Dầu đậu nành.",
+          "D. Dầu cá."
+        ],
+        "correct": 3,
+        "explanation": "Omega-3 có chứa nhiều trong dầu cá.​"
+      },
+      {
+        "id": 16,
+        "question": "Phát biểu nào sau đây là không đúng về chất giặt rửa?",
+        "options": [
+          "A. Có thể sản xuất được cả xà phòng và chất giặt rửa tổng hợp từ dầu mỏ.",
+          "B. Phần kị nước của chất giặt rửa tổng hợp là hydrocarbon mạch dài tương tự xà phòng.",
+          "C. Phân tử chất giặt rửa gồm hai phần là phần ưa nước và phần kị nước.",
+          "D. Chất giặt rửa tổng hợp dễ bị phân hủy sinh học hơn xà phòng."
+        ],
+        "correct": 3,
+        "explanation": "​Chất giặt rửa tổng hợp dễ bị phân hủy sinh học hơn xà phòng ⇒ sai, chất giặt rửa tổng hợp khó bị phân hủy sinh học hơn xà phòng."
+      },
+      {
+        "id": 17,
+        "question": "Ưu điểm nổi trội của chất giặt rửa tổng hợp so với xà phòng là gì?",
+        "options": [
+          "A. Khả năng tạo bọt tốt.",
+          "B. Sử dụng được với nước cứng.",
+          "C. Không gây ô nhiễm môi trường.",
+          "D. Tái sử dụng nhiều lần."
+        ],
+        "correct": 1,
+        "explanation": "​Ưu điểm nổi trội của chất giặt rửa tổng hợp so với xà phòng là có thể sử dụng với nước cứng."
+      },
+      {
+        "id": 18,
+        "question": "Tại sao phần kị nước của của xà phòng có thể thâm nhập và các vết dầu mỡ trên vật liệu?",
+        "options": [
+          "A. Phần kị nước chứa nhiều chất oxi hóa mạnh, oxi hóa dầu mỡ trên vật liệu thành các chất dễ tan trong nước.",
+          "B. Phần kị nước có khả năng bám dính rất tốt nên có thể bám vào các vết dầu mỡ trên vật liệu và lôi chúng ra ngoài.",
+          "C. Phần kị nước có khả năng phân cắt thành các mảnh nhỏ, từ đó dễ thâm nhập vào các vết dầu mỡ trên vật liệu.",
+          "D. Phần kị nước tan trong dung môi không phân cực nên có thể tan trong dầu mỡ, vì vậy nó có thể dễ dàng gắn vào dầu mỡ trên vật liệu."
+        ],
+        "correct": 3,
+        "explanation": "Phần kị nước của xà phòng có thể thâm nhập vào các vết dầu mỡ do đầu kị nước có thể tan trong dầu mỡ, dễ dàng gắn vào các vết dầu mỡ trên vật liệu. Đầu ưa nước của xà phòng tan trong nước, từ đó các vết dầu mỡ sẽ bám vào xà phòng và theo nước ra khỏi vật liệu.​"
+      },
+      {
+        "id": 19,
+        "question": "Nếu thủy phân hoàn toàn 10 kg mỡ trong NaOH thì có thể thu được tối đa bao nhiêu kg xà phòng? Biết trong loại mỡ này có chứa 45% tristearin và 55% tripalmitin về khối lượng.",
+        "options": [
+          "A. 20,15 gam.",
+          "B. 10,33 gam.",
+          "C. 20,15 kg.",
+          "D. 10,33 kg."
+        ],
+        "correct": 3,
+        "explanation": "Khối lượng tristearin là: 10 . 45% = 4,5 kg​\n⇒ ntristearin =  $\\frac{4,5}{890}$  =  $\\frac{9}{1780}$  kmol\nKhối lượng tripalmitin là: 10 . 55% = 5,5 kg\n⇒ ntripalmitin =  $\\frac{5,5}{806}$  =  $\\frac{11}{1612}$  kmol\n⇒ nglycerol = nchất béo =  $\\frac{4261}{358670}$  kmol\n⇒ nNaOH = 3 .  $\\frac{4261}{358670}$  kmol\nÁp dụng ĐLBTKL ta có:\nmchất béo + mNaOH = mmuối + mglycerol\n⇒ mmuối = mchất béo + mNaOH - mglycerol\nmmuối = 10 + 40 . 3 .  $\\frac{4261}{358670}$  -   $\\frac{4261}{358670}$  . 92 = 10,33 kg"
+      },
+      {
+        "id": 20,
+        "question": "Tiến hành đun nóng hỗn hợp gồm acetic acid và ethanol thu được 30,8 gam ester (biết hiệu suất của phản ứng là 87,5%). Khối lượng của acetic acid cần dùng là bao nhiêu?",
+        "options": [
+          "A. 42,4 gam.",
+          "B. 24 gam.",
+          "C. 35,2 gam.",
+          "D. 21 gam."
+        ],
+        "correct": 1,
+        "explanation": "​PTHH:\nCH3COOH + C2H5OH  $⇌$  CH3COOC2H5 + H2O\nnEster =  $\\frac{30,8}{88}$  = 0,35 mol\n⇒ nacid = 0,35 : 87,5% = 0,4 mol\n⇒ macid = 0,4 . 60 = 24 gam\nVậy khối lượng acetic acid cần dùng là 24 gam."
+      }
+    ]
+  },
+  {
+    "id": "olm-xac-dinh-ham-so-khi-biet-bang-bien-thien-do-thi-ham-so-3667701229",
+    "title": "OLM: Xác định hàm số khi biết bảng biến thiên, đồ thị hàm số",
+    "subject": "Toán",
+    "grade": 12,
+    "duration": 45,
+    "teacher": "Trà Ngọc Tước",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Toán",
+      "GV: Trà Ngọc Tước"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Bảng biến thiên sau đây là của hàm số nào?",
+        "options": [
+          "A. $y=\\frac{x−1}{2−x}$  .B.  $y=\\frac{x+1}{x−2}$  .C.  $y=\\frac{x+3}{2+x}$  .D.  $y=\\frac{3x+2}{x−2}$  ."
+        ],
+        "correct": 0,
+        "explanation": "Dựa vào bảng biến thiên, ta thấy:\n+ Đồ thị hàm số có tiệm cận ngang là   $y=1$  , tiệm cận đứng là   $x=2$  .\n+ Hàm số nghịch biến trên mỗi khoảng   $(−∞;2),(2;+∞)$   nên   ${y}^{′}<0     ∀x≠2$  .\nĐồ thị hàm số   $y=\\frac{x+1}{x−2}$   có tiệm cận ngang là   $y=1$  , tiệm cận đứng là   $x=2$  .\nVà   ${y}^{′}=\\frac{−3}{(x−2{)}^{2}}<0    ∀x≠2$   nên hàm số nghịch biến trên mỗi khoảng   $(−∞;2), (2;+∞)$  ."
+      },
+      {
+        "id": 2,
+        "question": "Hàm số nào sau đây có bảng biến thiên như hình vẽ?",
+        "options": [
+          "A. $y=\\frac{2x−3}{x+2}$  .B.  $y=\\frac{2x−5}{x−2}$  .C.  $y=\\frac{x+3}{x−2}$  .D.  $y=\\frac{2x−1}{x−2}$  ."
+        ],
+        "correct": 0,
+        "explanation": "Đồ thị hàm số có tiệm cận đứng là:   $x=2$   và tiệm cận ngang   $y=2$  .\nHàm số nghịch biến trên các khoảng   $(−∞;2), (2;+∞)$   nên   ${y}^{′}<0, ∀x≠2$  .\nTa chọn hàm số:   $y=\\frac{2x−1}{x−2}$  , vì   ${y}^{′}=\\frac{−3}{(x−2{)}^{2}}<0, ∀x≠2$  ."
+      },
+      {
+        "id": 3,
+        "question": "Bảng biến thiên sau là của hàm số nào dưới đây?",
+        "options": [
+          "A. $y=\\frac{{x}^{2}+2x−2}{x+1}$  .B.  $y=\\frac{{x}^{2}+2x+2}{x+1}$  .C.  $y=\\frac{{x}^{2}+2x−2}{x−1}$  .D.  $y=\\frac{{x}^{2}+2x+2}{x−1}$  ."
+        ],
+        "correct": 0,
+        "explanation": "Dựa vào bảng biến thiên ta thấy đồ thị hàm số có tiệm cận đứng là đường thẳng   $x=1$  .\nSuy ra loại  2  hàm số   $y=\\frac{{x}^{2}+2x−2}{x+1}$   và   $y=\\frac{{x}^{2}+2x+2}{x+1}$  .\nTa thấy đồ thị hàm số đi qua điểm   $(0;2)$   nên loại hàm số   $y=\\frac{{x}^{2}+2x+2}{x−1}$  .\nVậy bảng biến thiên đề bài cho là của hàm số   $y=\\frac{{x}^{2}+2x−2}{x−1}$  ."
+      },
+      {
+        "id": 4,
+        "question": "Cho hàm số   $y=\\frac{ax−1}{2x+b}$  . Biết rằng, hàm số có bảng biến thiên như hình.\nTổng   $a+b$   bằng",
+        "options": [
+          "A. 0 .B.  $−1$  .C. 1 .D. 2 ."
+        ],
+        "correct": 0,
+        "explanation": "Quan sát hình vẽ ta thấy  $x=−1$  là tiệm cận đứng;  $y=−1$  là tiệm cận ngang của đồ thị.Từ dạng cụ thể của hàm số là   $y=\\frac{ax−1}{2x+b}$   ta thấy phương trình tiệm cận đứng là   $x=−\\frac{b}{2}$  , phương trình tiệm cận ngang là   $y=\\frac{a}{2}$  .\nTừ đó suy ra   $−\\frac{b}{2}=−1; \\frac{a}{2}=−1$   hay  $a=−2;b=2$ . Do đó   $a+b=0$  ."
+      },
+      {
+        "id": 5,
+        "question": "Cho hàm số   $y=f(x)$   có bảng biến thiên như hình vẽ. Hàm số   $y=f(x)$   là hàm số nào dưới đây?",
+        "options": [
+          "A. $y={x}^{4}−2{x}^{2}−1$  .B.  $y={x}^{3}−3{x}^{2}+1$  .C.  $y=−{x}^{3}+3{x}^{2}+1$  .D.  $y=\\frac{x+2}{x−1}$  ."
+        ],
+        "correct": 0,
+        "explanation": "Từ hình vẽ ta thấy đây là dạng bảng biến thiên của một hàm số bậc ba.\nNhánh cuối cùng của đồ thị ứng với khoảng nghịch biến   $(2;+∞)$   nên hàm số có hệ số của   ${x}^{3}$   là   $a<0$  .\nDo đó, chọn hàm số   $y=−{x}^{3}+3{x}^{2}+1$  ."
+      },
+      {
+        "id": 6,
+        "question": "Hàm số nào dưới đây có bảng biến thiên như sau?",
+        "options": [
+          "A. $y={x}^{3}−3x$  .B.  $y=−{x}^{3}+3x$  .C.  $y=−{x}^{2}+2x$  .D.  $y={x}^{2}−2x$  ."
+        ],
+        "correct": 0,
+        "explanation": "Từ hình vẽ ta thấy đây là bảng biến thiên của một hàm số bậc ba.\nNhánh cuối cùng của đồ thị ứng với khoảng nghịch biến   $(1;+∞)$   nên hàm số có hệ số của   ${x}^{3}$   là   $a<0$  .\nDo đó, hàm số   $y=−{x}^{3}+3x$   thoả mãn."
+      },
+      {
+        "id": 7,
+        "question": "Bảng biến thiên dưới đây là của hàm số nào?",
+        "options": [
+          "A. $y={x}^{3}+6{x}^{2}+9x+4$  .B.  $y=−{x}^{3}+6{x}^{2}−9x+4$  .C.  $y={x}^{3}−6{x}^{2}+9x−4$  .D.  $y={x}^{3}−6{x}^{2}+9x$  ."
+        ],
+        "correct": 0,
+        "explanation": "Từ hình vẽ ta thấy đây là dạng bảng biến thiên của một hàm số bậc ba.\nNhánh cuối cùng của đồ thị ứng với khoảng đồng biến   $(3;+∞)$   nên hàm số có hệ số của   ${x}^{3}>0$   là   $a>0$  .\nĐồ thị hàm số đi qua điểm   $(1;0)$   và   $(3;−4)$   nên hàm số thỏa mãn là   $y={x}^{3}−6{x}^{2}+9x−4$  ."
+      },
+      {
+        "id": 8,
+        "question": "Đồ thị hàm số nào sau đây có hình dạng như hình vẽ?",
+        "options": [
+          "A. $y={x}^{3}+3x+1$  .B.  $y=−{x}^{3}+3x+1$  .C.  $y={x}^{3}−3x−1$  .D.  $y=−{x}^{3}−3x+1$  ."
+        ],
+        "correct": 0,
+        "explanation": "Dựa và đồ thị ta thấy hàm số đồng biến trên   $R$   và cắt trục hoành tại một điểm, cắt trục tung tại   $y=1$   nên chọn hàm số   $y={x}^{3}+3x+1$  ."
+      },
+      {
+        "id": 9,
+        "question": "Ðồ thị dưới đây là của hàm số nào?",
+        "options": [
+          "A. $y=\\frac{x−1}{2x+1}$  .B.  $y=\\frac{x+3}{2x+1}$  .C.  $y=\\frac{x+1}{2x+1}$  .D.  $y=\\frac{x}{2x+1}$  ."
+        ],
+        "correct": 0,
+        "explanation": "Nhận thấy đồ thị hàm số có tiệm cận đứng là   $x=−\\frac{1}{2}$   và tiệm cận ngang là   $y=\\frac{1}{2}$   nên hàm số có dạng   $y=\\frac{x+m}{2x+1}$  . Mà đồ thị hàm số đi qua gốc tọa độ nên hàm số là   $y=\\frac{x}{2x+1}$  ."
+      },
+      {
+        "id": 10,
+        "question": "Đường cong trong hình vẽ là đồ thị của hàm số nào dưới đây?",
+        "options": [
+          "A. $y=−{x}^{4}−3x+2$  .B.  $y={x}^{4}−{x}^{2}+2$  .C.  $y=−{x}^{3}+3x+2$  .D.  $y={x}^{3}−3x+2$  ."
+        ],
+        "correct": 0,
+        "explanation": "Đồ thị trên là đồ thị của hàm số bậc ba   $y=a{x}^{3}+b{x}^{2}+cx+d$   với   $a≠0$  .\nNhánh cuối của đồ thị đi xuống nên   $a<0$  , đồ thị có hai điểm cực trị nên   $a.c<0$  ."
+      },
+      {
+        "id": 11,
+        "question": "Hình vẽ sau là đồ thị hàm số nào dưới đây?",
+        "options": [
+          "A. $y=−{x}^{3}+{x}^{2}+2x−1$  .B.  $y=−2{x}^{3}+{x}^{2}+3x−1$  .C.  $y={x}^{3}+{x}^{2}−x−1$  .D.  $y=−{x}^{3}+{x}^{2}+x−1$  ."
+        ],
+        "correct": 0,
+        "explanation": "+ Dựa vào đồ thị, ta có   $a<0$   nên loại hàm số   $y={x}^{3}+{x}^{2}−x−1$  .\n+ Dựa vào hình vẽ, ta thấy đồ thị hàm số đi qua điểm   $(1;0)$  .\n⚡ Thay   $x=1$   vào hàm số   $y=−{x}^{3}+{x}^{2}+x−1$   được:\n$y=−{1}^{3}+{1}^{2}+1−1=0$  .\nDo đó đồ thị hàm số đi qua điểm   $(1;0)$  .\n⚡ Thay   $x=1$   vào hàm số   $y=−2{x}^{3}+{x}^{2}+3x−1$   được:\n$y=−{2.1}^{3}+{1}^{2}+3.1−1=1$  .\nĐồ thị hàm số không đi qua điểm   $(1;0)$   (loại).\n⚡ Thay   $x=1$   vào hàm số   $y=−{x}^{3}+{x}^{2}+2x−1$   được:\n$y=−{1}^{3}+{1}^{2}+2.1−1=1$  .\nĐồ thị hàm số không đi qua điểm   $(1;0)$   (loại)."
+      },
+      {
+        "id": 12,
+        "question": "Đồ thị của hàm số nào dưới đây là đường cong trong hình vẽ?",
+        "options": [
+          "A. $y={x}^{3}−3{x}^{2}−1$  .B.  $y=−{x}^{3}+3{x}^{2}−1$  .C.  $y=−{x}^{4}+2{x}^{2}−1$  .D.  $y={x}^{4}−2{x}^{2}−1$  ."
+        ],
+        "correct": 0,
+        "explanation": "Từ đồ thị ta thấy:\n+ Đây là đồ thị của hàm bậc ba   $y=a{x}^{3}+b{x}^{2}+cx+d$   với   $a≠0$  ;\n+ Nhánh cuối của đồ thị đi xuống, suy ra hệ số   $a<0$  .\nĐồ thị trên là đồ thị của hàm số   $y=−{x}^{3}+3{x}^{2}−1$  ."
+      },
+      {
+        "id": 13,
+        "question": "Hàm số nào có đồ thị như hình vẽ dưới đây?",
+        "options": [
+          "A. $y=−2{x}^{3}−3{x}^{2}+1$  .B.  $y=2{x}^{3}+3{x}^{2}+1$  .C.  $y={x}^{3}+\\frac{3}{2}{x}^{2}+1$  .D.  $y=−{x}^{3}−\\frac{3}{2}{x}^{2}+1$  ."
+        ],
+        "correct": 0,
+        "explanation": "Hàm số trên là hàm số bậc ba có hệ số   $a>0$  , loại đáp án   $y=−{x}^{3}−\\frac{3}{2}{x}^{2}+1$  ,   $y=−2{x}^{3}−3{x}^{2}+1$  .\nĐồ thị hàm số có điểm cực đại   $(−1;2)$  . Vậy chọn   $y=2{x}^{3}+3{x}^{2}+1$  ."
+      },
+      {
+        "id": 14,
+        "question": "Hàm số nào dưới đây có đồ thị như hình vẽ?",
+        "options": [
+          "A. $y=\\frac{{x}^{2}−4}{x+1}$  .B.  $y={x}^{3}−3{x}^{2}$  .C.  $y=\\frac{−x+2}{x−1}$  .D.  $y={x}^{2}−2x−3$  ."
+        ],
+        "correct": 0,
+        "explanation": "Dạng đồ thị đã cho là của hàm số phân thức bậc nhất trên bậc nhất."
+      },
+      {
+        "id": 15,
+        "question": "Đồ thị ở hình vẽ bên là đồ thị của hàm số nào sau đây?",
+        "options": [
+          "A. $y=−{x}^{3}+6{x}^{2}−9x+2$  .B.  $y=−{x}^{3}+6{x}^{2}+9x−2$  .C.  $y={x}^{3}−3{x}^{2}−2$  .D.  $y={x}^{3}−6{x}^{2}+9x−2$  ."
+        ],
+        "correct": 0,
+        "explanation": "Dựa vào đồ thị hàm số suy ra   $a>0$  ,   $d=−2$  , đồ thị hàm số đi qua các điểm   $(1;2)$  và   $(3;−2)$   nên ta có:\n$\\begin{cases} a+b+c−2=2 \\\\ 27a+9b+3c−2=−2 \\\\ 12a+2b=0 \\end{cases}$\n$⇔\\begin{cases} a=1 \\\\ b=−6 \\\\ c=9 \\end{cases}$  .\nVậy   $y={x}^{3}−6{x}^{2}+9x−2$ ."
+      },
+      {
+        "id": 16,
+        "question": "Cho hàm số   $y=\\frac{3x+a}{x+b}$   có đồ thị như hình vẽ.",
+        "options": [],
+        "correct": 0,
+        "explanation": "a) Dựa vào đồ thị hàm số, ta thấy đồ thị có đường tiệm cận đứng   $x=2$  .\nVậy phương án A đúng.\nb) Vì đồ thị hàm số có đường tiệm cận đứng   $x=2$   nên   $−b=2$\nHay   $b=−2.$\nVậy phương án B sai.\nc) Dựa vào đồ thị hàm số, ta thấy đồ thị hàm số có đi qua gốc tọa độ.\nVậy phương án C sai.\nd) Vì đồ thị hàm số đi qua gốc tọa độ nên   $a=0.$\nVậy phương án D đúng.",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Đồ thị hàm số có đường tiệm cận đứng $x=2.$",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "$b=2.$",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "Đồ thị hàm số không đi qua gốc tọa độ",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "$a=0.$",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "question": "Cho hàm số   $y=a{x}^{3}+b{x}^{2}+cx+d$  ,   $a≠0$   có đồ thị như hình vẽ.",
+        "options": [],
+        "correct": 0,
+        "explanation": "Dựa vào đồ thị suy ra   $a<0$  .\nĐồ thị hàm số cắt trục   $Ox$   tại  3  điểm và có hai cực trị.\nGiao điểm của đồ thị với trục   $Oy$   suy ra   $d>0$  .\nDựa vào cực trị ta có   ${x}_{1}.{x}_{2}=\\frac{c}{a}>0⇒c<0.$\n${x}_{1}+{x}_{2}=\\frac{−b}{a}>0⇒b>0$  .",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "$ab<0$",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "Hàm số đã cho có hai cực trị",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": "$c$ và $d$ cùng dấu",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "Đồ thị hàm số có 4 giao điểm với trục hoành",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question": "Cho hàm số   $y=f(x)=a{x}^{3}+b{x}^{2}+cx+d$   với   $a≠0$   có đồ thị như hình vẽ sau.",
+        "options": [],
+        "correct": 0,
+        "explanation": "Dựa vào đồ thị hàm số, ta thấy:\na) Hàm số đạt cực đại tại   $x=−1$  .\nVậy phương án A sai.\nb) Vì đường thẳng   $y=2$   cắt đồ thị hàm số   $y=f(x)$   tại  3  điểm phân biệt.\nNên phương trình   $f(x)=2$   có  3  nghiệm phân biệt.\nVậy phương án B đúng.\nc) Ta có:   $\\begin{cases} f(−1)=3 \\\\ f(0)=1 \\\\ f(1)=−1 \\\\ {f}^{′}(1)=0 \\end{cases}$\n$⇔\\begin{cases} −a+b−c+d=3 \\\\ d=1 \\\\ a+b+c+d=−1 \\\\ 3a+2b+c=0 \\end{cases}$\n$⇔\\begin{cases} a=1 \\\\ b=0 \\\\ c=−3 \\\\ d=1 \\end{cases}$\nDo đó   $y=f(x)={x}^{3}−3x+1$  .\nVậy phương án C sai.\nd) Đặt   $g(x)=f(4−x)+1$\n${g}^{′}(x)=−{f}^{′}(4−x)$\n${g}^{′}(x)=0$\n$⇔−{f}^{′}(4−x)=0$\n$⇔\\left[ 4−x=−1 \\\\ 4−x=1 \\right.$\n$⇔\\left[ x=5 \\\\ x=3 \\right.$\nTa có bảng biến thiên sau:\nDo đó điểm cực đại của đồ thị hàm số   $y=f(4−x)+1$   là   $(5;4)$  .\nVậy phương án D đúng.",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Hàm số đạt cực tiểu tại $x=−1$",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": "Phương trình $f(x)=2$ có 3 nghiệm phân biệt",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": "Đồ thị trên là đồ thị của hàm số $y=f(x)={x}^{3}−3x+2$",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "Điểm cực đại của đồ thị hàm số $y=f(4−x)+1$ là $(5;4)$",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question": "Cho hàm số   $y=\\frac{ax+b}{cx−2} \\left( a, b, c∈R \\right)$   có đồ thị như hình vẽ bên dưới.",
+        "options": [],
+        "correct": 0,
+        "explanation": "Tiệm cận đứng của đồ thị hàm số:   $x=\\frac{2}{c}<0⇒c<0$\nTiệm cận ngang của đồ thị hàm số:   $y=\\frac{a}{c}>0⇒a<0$  .\n$x=0$   thì   $y=−\\frac{b}{2}=0⇒b=0$  .\nVậy   $b=0$   và $ac > 0$.",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "$ac < 0$",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": "$b>0$",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "Tiệm cận đứng của đồ thị hàm số là $x=−1$",
+            "correct": true
+          },
+          {
+            "label": "d",
+            "text": "Tiệm cận ngang của đồ thị hàm số là $y=−1$",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question": "Cho hàm số   $y=\\frac{{x}^{2}+2x+5}{x+1}$  .",
+        "options": [],
+        "correct": 0,
+        "explanation": "a) ĐÚNG.\n${y}^{′}=\\frac{(2x+2)(x+1)−({x}^{2}+2x+5)}{(x+1{)}^{2}}$\n$=\\frac{{x}^{2}+2x−3}{(x+1{)}^{2}}$\nb) SAI.\n${y}^{′}=0⇔\\left[ x=1 \\\\ x=−3 \\right.$\nSuy ra đồ thị hàm số có hai điểm cực trị là   $A(1;4); B(−3;−4)$  .\nGọi phương trình đường thẳng qua hai điểm cực trị có dạng   $y=ax+b$  .\nKhi đó ta có hệ phương trình:\n$\\begin{cases} a+b=4 \\\\ −3a+b=−4⇔\\begin{cases} a=2 \\\\ b=2 \\end{cases} \\end{cases}$  .\nPhương trình đường thẳng   $AB$   là   $y=2x+2$  .\nc) ĐÚNG.\n$y=x+1+\\frac{4}{x+1}$\n$limx→±∞(y−(x+1))=limx→±∞\\frac{4}{x+1}=0$  .\n$⇒y=x+1$   là đường tiệm cận xiên của đồ thị hàm số.\nd) ĐÚNG.​\nĐồ thị của hàm số có hình vẽ như sau:",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "${y}^{′}=\\frac{{x}^{2}+2x−3}{(x+1{)}^{2}}$",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "Phương trình đường thẳng đi qua hai điểm cực trị của đồ thị hàm số là $y=2x−2$",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "Đồ thị hàm số có đường tiệm cận xiên là $y=x+1$",
+            "correct": true
+          },
+          {
+            "label": "d",
+            "text": "Đồ thị của hàm số có hình vẽ như sau:",
+            "correct": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "olm-kttx-lan-1-hk1-vat-li-12-5222931599",
+    "title": "OLM: KTTX_lần 1_HK1_Vật lí 12",
+    "subject": "Vật Lý",
+    "grade": 12,
+    "duration": 25,
+    "teacher": "Bùi Quang Thái",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Vật Lý",
+      "GV: Bùi Quang Thái"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Điều nào sau đây sai khi nói về cấu trúc của thể rắn?",
+        "options": [
+          "A. Các phân tử chỉ dao động quanh vị trí cân bằng và vị trí cân bằng này di chuyển.",
+          "B. Khoảng cách giữa các phân tử rất gần nhau.",
+          "C. Các phân tử chỉ dao động quanh vị trí cân bằng cố định.",
+          "D. Sự sắp xếp của các phân tử có trật tự."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "question": "Điều nào sau đây đúng khi nói về cấu trúc của thể khí?",
+        "options": [
+          "A. Các phân tử khí chỉ dao động quanh vị trí cân bằng.",
+          "B. Các phân tử khí chuyển động hỗn loạn, tự do mọi phía.",
+          "C. Sự sắp xếp của các phân tử có trật tự.",
+          "D. Khoảng cách giữa các phân tử khí rất gần nhau."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "question": "Nước có thể tồn tại dưới dạng thể rắn, thể lỏng, thể hơi. Trong các hình dưới đây, lần lượt các thể của nước là",
+        "options": [
+          "A. chất rắn (b) ; chất lỏng (c); chất khí (a).",
+          "B. chất rắn (a) ; chất lỏng (b); chất khí (c).",
+          "C. chất rắn (b) ; chất lỏng (c); chất khí (a).",
+          "D. chất rắn (c) ; chất lỏng (b); chất khí (a)."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "question": "Phát biểu nào sau đây sai khi nói về mô hình động học phân tử?",
+        "options": [
+          "A. Vật chất được cấu tạo từ số rất lớn các hạt có kích thước rất nhỏ gọi là phân tử.",
+          "B. Giữa các phân tử có các lực tương tác ( gồm lực hút và lực đẩy).",
+          "C. Giữa các phân tử không có khoảng cách.",
+          "D. Các phân tử chuyển động không ngừng."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "question": "Hiện tượng nào sau đây liên quan đến sự nóng chảy?",
+        "options": [
+          "A. Ly nước sau khi bỏ vào tủ lạnh một thời gian lấy ra, nước trong ly trở thành đá.",
+          "B. Nước từ biển được đưa vào các ruộng muối, dưới ánh nắng sau một thời gian nước sẽ bốc hơi chỉ còn lại muối.",
+          "C. Vào ban đêm, hơi nước trong không khí gặp lạnh ngưng tụ thành những giọt sương đọng trên lá cây.",
+          "D. Que kem lạnh để ngoài trời một lúc sau tan chảy thành nước."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "question": "Để giải thích được sự bay hơi của một chất lỏng, ý kiến nào sau đây đúng?",
+        "options": [
+          "A. Các phân tử lỏng chuyển động gần mặt thoáng có động năng đủ lớn để thoát ra khỏi bề mặt chất lỏng thành phân tử hơi.",
+          "B. Các phân từ lỏng sau một khoảng thời gian, giảm năng lượng sẽ chuyển thành phân tử hơi.",
+          "C. Do cung cấp một nhiệt lượng cho chất lỏng làm chuyển thể từ chất lỏng thành hơi.",
+          "D. Do lực tương tác đẩy giữa các phân tử lỏng với nhau nên phân tử lỏng thoát ra ngoài mặt thoáng thành phân tử hơi."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "question": "Khi cho vật A có nhiệt độ 700C tiếp xúc với vật B có nhiệt độ 200C thì kết luận nào sau đây đúng?",
+        "options": [
+          "A. Hai vật không có sự truyền năng lượng nhiệt với nhau.",
+          "B. Năng lượng nhiệt truyền từ vật A sang vật",
+          "B. C. Năng lượng nhiệt truyền từ vật B sang vật",
+          "A. D. Cả hai vật đều nhận năng lượng nhiệt từ môi trường."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "question": "Phát biểu nào sai khi một chất ở nhiệt độ không tuyệt đối",
+        "options": [
+          "A. các phân tử không va chạm.",
+          "B. chất đó có nhiệt độ 00C.",
+          "C. động năng chuyển động nhiệt của các phân tử bằng không.",
+          "D. thế năng của các phân tử là tối thiểu."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "question": "Trong thang đo Celsius, người ta đo được nhiệt độ của một vật là 320C thì trong thang đo Kelvin nhiệt đô sẽ là",
+        "options": [
+          "A. 350K.",
+          "B. 305K.",
+          "C. 32K.",
+          "D. 89,6K."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "question": "Nhà vật lí thiên văn Anders Celsius đã chọn hai mốc nhiệt độ là nhiệt độ của nước đá tinh khiết đang tan ở áp suất 1atm và nước sôi của nước tinh khiết ở áp suất 1atm. Vậy 10C trong thang Celsius bằng",
+        "options": [
+          "A. $\\frac{1}{273,16}$   của khoảng cách giữa nhiệt độ tan chảy của nước tinh khiết đóng băng và nhiệt độ sôi của nước tinh khiết (ở áp suất tiêu chuẩn).",
+          "B. $\\frac{1}{100}$   của khoảng cách giữa nhiệt độ tan chảy của nước tinh khiết đóng băng và nhiệt độ sôi của nước tinh khiết (ở áp suất tiêu chuẩn).",
+          "C. $\\frac{1}{10}$   của khoảng cách giữa nhiệt độ tan chảy của nước tinh khiết đóng băng và nhiệt độ sôi của nước tinh khiết (ở áp suất tiêu chuẩn).",
+          "D. $\\frac{1}{50}$   của khoảng cách giữa nhiệt độ tan chảy của nước tinh khiết đóng băng và nhiệt độ sôi của nước tinh khiết (ở áp suất tiêu chuẩn)."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "question": "Khi sử dụng thang đo Celsius để đo nhiệt độ của một vật, trong khoảng thời gian ngắn nhiệt độ của vật tăng thêm 250C thì trong thang đo Kelvin, nhiệt độ của vật sẽ",
+        "options": [
+          "A. tăng thêm 77K.",
+          "B. tăng thêm 298K.",
+          "C. tăng thêm 124K.",
+          "D. tăng thêm 25K."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "question": "Nội năng của một vật là",
+        "options": [
+          "A. nhiệt lượng của vật nhận được trong quá trình truyền nhiệt.",
+          "B. tổng động năng phân tử và thế năng phân tử cấu tạo nên vật.",
+          "C. công mà vật nhận được.",
+          "D. tổng động năng và thế năng của vật."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "question": "Truyền cho khối khí trong xilanh một nhiệt lượng Q đồng thời thực hiện công A lên khối khí. Kết luận nào sau đây đúng ?",
+        "options": [
+          "A. Q<0 ; A<0 ;  $ΔU<0$  .",
+          "B. Q>0 ; A>0 ;  $ΔU>0$  .",
+          "C. Q>0 ; A<0 ;  $ΔU=0$  .",
+          "D. Q<0 ; A>0 ;  $ΔU>0$  ."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "question": "Người ta truyền một nhiệt lượng 500J cho khối khí trong xilanh, đồng thời khối khí giãn nở thực hiện công 450J đẩy pittong một đoạn. Nội năng của khí sẽ",
+        "options": [
+          "A. tăng 950J.",
+          "B. giảm 50J.",
+          "C. tăng 50J.",
+          "D. giảm 950J."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "question": "Gọi λ là nhiệt nóng chảy riêng của chất rắn có khối lượng m(kg). Nhiệt lượng cần thiết cần cung cấp cho m(kg) chất rắn nóng chảy hoàn toàn ở nhiệt độ nóng chảy là",
+        "options": [
+          "A. $Q=\\frac{1}{mλ}$  .",
+          "B. $Q=\\frac{m}{λ}$  .",
+          "C. $Q=m.λ$  .",
+          "D. $Q=\\frac{λ}{m}$  ."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "question": "ho đồ thị sự thay đổi nhiệt độ theo thời gian của một vật rắn. Nhận xét nào sau đây sai ?",
+        "options": [
+          "A. Trên đoạn AB vật rắn tỏa nhiệt và đang trong quá trình nóng chảy.",
+          "B. Nhiệt độ nóng chảy của vật rắn là 2320C.",
+          "C. Trên đoạn CD chất lỏng thu nhiệt để tăng nhiệt độ.",
+          "D. Trên đoạn BC là quá trình nóng chảy của vật rắn."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "question": "Một cục đồng có khối lượng 4kg ở nhiệt độ 200C, tìm nhiệt lượng cần thiết cung cấp cho cục đồng để nhiệt độ tăng đến 800C. Biết nhiệt dung riêng của đồng là 380J/kg.K.",
+        "options": [
+          "A. 12900J.",
+          "B. 152000J.",
+          "C. 91200J.",
+          "D. 6080J."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "question": "Tìm nhiệt lượng cần thiết để chuyển nước đá 200g ở nhiệt độ 00C thành nước ở 200C. Biết nhiệt nóng chảy riêng của nước đá là 3,34.105J/kg ; nhiệt dung riêng của nước là 4200J/kg.K.",
+        "options": [
+          "A. 66800J.",
+          "B. 16800J.",
+          "C. 68300J.",
+          "D. 83600J."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "question": "Một nhiệt lượng kế bằng đồng thau khối lượng 128 g chứa 210 g nước ở nhiệt độ 8,4oC. Người ta thả một miếng kim loại khối lượng 192g đã nung nóng tới 100oC vào nhiệt lượng kế. Biết nhiệt độ khi bắt đầu có sự cân bằng nhiệt là 21,5oC. Bỏ qua sự trao đổi nhiệt với môi trường. Cho nhiệt dung riêng của nước là 4,18.103 J/kg.K; của đồng thau là 0,128.103 J/kg.K. Nhiệt dung riêng của chất làm miếng kim loại là",
+        "options": [
+          "A. 777,2J/kg.K.",
+          "B. 817,4J/kg.K.",
+          "C. 792,5J/kg.K.",
+          "D. 793,2J/kg.K."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "question": "Nhiệt kế nào sau đây hoạt động dựa trên hiện tượng dãn nở vì nhiệt của chất lỏng?",
+        "options": [
+          "A. Nhiệt kế kim loại.",
+          "B. Nhiệt kế hồng ngoại.",
+          "C. Nhiệt kế thuỷ ngân.",
+          "D. Nhiệt kế điện tử."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "question": "Nội năng của một vật phụ thuộc vào yếu tố nào sau đây?",
+        "options": [
+          "A. chỉ phụ thuộc vào khối lượng vật.",
+          "B. phụ thuộc vào nhiệt độ và thể tích của vật.",
+          "C. chỉ phụ thuộc vào nhiệt độ của vật.",
+          "D. chỉ phụ thuộc vào thể tích."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "question": "Câu nào sau đây sai khi nói về sự hóa hơi?",
+        "options": [
+          "A. Sự sôi là quá trình hóa hơi xảy ra ở bên trong và trên bền mặt chất lỏng.",
+          "B. Sự bay hơi là quá trình hóa hơi xảy ra ở trên bề mặt chất lỏng.",
+          "C. Sự bay hơi xảy ra ở nhiệt độ bất kì.",
+          "D. Sự sôi diễn ra ở nhiệt độ bất kì."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "question": "Câu nào sau đây nói về truyền nhiệt và thực hiện công là không đúng?",
+        "options": [
+          "A. Trong truyền nhiệt có sự truyền động năng từ phân tử này sang phân tử khác.",
+          "B. Trong thực hiện công có sự chuyển hoá từ nội năng thành cơ năng và ngược lại.",
+          "C. Trong truyền nhiệt có sự chuyển hoá từ cơ năng sang nội năng và ngược lại.",
+          "D. Thực hiện công là quá trình có thể làm thay đổi nội năng của vật."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "question": "Khi truyền cùng một nhiệt lượng cho hai vật có cùng khối lượng được làm từ hai chất khác nhau, trong điều kiện không xảy ra sự chuyển thể, phát biểu nào sau đây là đúng?",
+        "options": [
+          "A. Vật được làm từ chất có nhiệt dung riêng nhỏ hơn có độ biến thiên nhiệt độ lớn hơn.",
+          "B. Hai vật có độ biến thiên nhiệt độ bằng nhau.",
+          "C. Vật được làm từ chất có nhiệt dung riêng nhỏ hơn có độ biến thiên nhiệt độ nhỏ hơn.",
+          "D. Hai vật không thay đổi nhiệt độ."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "question": "Một khối khí có đặc điểm nào sau đây?",
+        "options": [
+          "A. Không có thể tích và hình dạng xác định.",
+          "B. Có hình dạng xác định nhưng không có thể tích xác định.",
+          "C. Có thể tích xác định nhưng không có hình dạng xác định.",
+          "D. Có thể tích và hình dạng xác định."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "question": "Quá trình chuyển thể từ thể lỏng sang thể rắn được gọi là",
+        "options": [
+          "A. sự đông đặc.",
+          "B. sự nóng chảy.",
+          "C. sự sôi.",
+          "D. sự hóa hơi."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "question": "Những quá trình chuyển thể nào sau đây thu nhiệt lượng?",
+        "options": [
+          "A. Đông đặc và ngưng tụ.",
+          "B. Nóng chảy và sôi.",
+          "C. Nóng chảy và ngưng tụ.",
+          "D. Đông đặc và sôi."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "question": "Hai vật X và Y tiếp xúc với nhau và nhiệt lượng tự truyền từ vật X sang vật Y. Phát biểu nào sau đây là đúng?",
+        "options": [
+          "A. Nhiệt độ ban đầu của vật X cao hơn của vật Y.",
+          "B. Vật X chứa ít nhiệt lượng hơn vật Y.",
+          "C. Vật X chứa nhiều nhiệt lượng hơn vật Y.",
+          "D. Nội năng của vật X luôn lớn hơn vật Y."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 29,
+        "question": "Hai vật rắn M và N được làm từ hai chất khác nhau, khối lượng của vật M lớn hơn của vật N. Hai vật nhận được nhiệt lượng bằng nhau, không tỏa nhiệt lượng và không chuyển thể. Độ tăng nhiệt độ của hai vật bằng nhau. Phát biểu nào sau đây là đúng?",
+        "options": [
+          "A. Nhiệt dung riêng của vật M nhỏ hơn nhiệt dung riêng của vật N.",
+          "B. Nhiệt độ ban đầu của hai vật bằng nhau.",
+          "C. Nhiệt độ ban đầu của vật M cao hơn nhiệt độ ban đầu của vật N.",
+          "D. Nhiệt dung riêng của vật M lớn hơn nhiệt dung riêng của vật N."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 30,
+        "question": "Trong phương pháp trộn dùng nhiệt lượng kế (thả khối nước đá ở  ${t}_{đ}$  < 00C) vào nước ấm ở  ${t}_{n}$  sao cho sau cân bằng hệ chỉ có nước ở  ${t}_{cb}>{0}^{0}C$  , phương trình cân bằng nhiệt theo lý thuyết là",
+        "options": [
+          "A. ${m}_{đ}.{c}_{đ}\\left( 0−{t}_{đ} \\right)+{m}_{đ}.λ={m}_{n}.{c}_{n}({t}_{n}−{t}_{cb})$  .",
+          "B. ${m}_{đ}.{c}_{đ}\\left( 0−{t}_{đ} \\right) + {m}_{đ}.λ+{m}_{đ}.{c}_{n}\\left( {t}_{cb}−0 \\right)={m}_{n}.{c}_{n}({t}_{n}−{t}_{cb})$  .",
+          "C. ${m}_{đ}.λ+ {m}_{đ}.{c}_{n}\\left( {t}_{cb}−0 \\right)={m}_{n}.{c}_{n}({t}_{n}−{t}_{cb})$  .",
+          "D. ${m}_{đ}.{c}_{đ}\\left( {t}_{cb}−{t}_{đ} \\right)={m}_{n}.{c}_{n}({t}_{n}−{t}_{cb})$  ."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 31,
+        "question": "Một học sinh để một cốc chứa nước đá ở 00C ngoài không khí trong phòng thí nghiệm để khảo sát quá trình truyền nhiệt từ môi trường. Ban đầu, khối lượng nước đá trong cốc là m1 = 250g. Sau khoảng thời gian t=20 phút, người ta gạn hết phần nước tan ra thì thấy khối lượng nước đá còn lại trong cốc là m2=196g. Biết nhiệt nóng chảy riêng của nước đá là λ =3,34.105J/kg. Coi tốc độ truyền nhiệt từ môi trường vào cốc là không đổi trong suốt quá trình. Công suất truyền nhiệt trung bình của môi trường lên khối nước đá là",
+        "options": [
+          "A. 24,32W.",
+          "B. 15,03W.",
+          "C. 28,56W.",
+          "D. 16,98W."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 32,
+        "question": "Trong quá trình nóng chảy của chất rắn kết tinh, mặc dù vật vẫn liên tục nhận nhiệt lượng từ nguồn cung cấp nhưng nhiệt độ của nó lại không đổi. Nguyên nhân là vì nhiệt lượng này được sử dụng để",
+        "options": [
+          "A. làm giảm động năng trung bình của các phân tử để duy trì trạng thái lỏng.",
+          "B. làm tăng vận tốc chuyển động nhiệt hỗn loạn của các phân tử chất rắn.",
+          "C. giải phóng năng lượng liên kết và làm giảm khoảng cách giữa các hạt.",
+          "D. phá vỡ mạng tinh thể chất rắn và làm tăng thế năng tương tác giữa các phân tử."
+        ],
+        "correct": 3,
+        "explanation": ""
+      }
+    ]
+  },
+  {
+    "id": "olm-on-luyen-chuong-1-vat-li-nhiet-2-5223163706",
+    "title": "OLM: Ôn luyện chương 1. Vật lí nhiệt 2",
+    "subject": "Vật Lý",
+    "grade": 12,
+    "duration": 45,
+    "teacher": "Bùi Quang Thái",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Vật Lý",
+      "GV: Bùi Quang Thái"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Theo mô hình động học phân tử, giữa các phân tử",
+        "options": [
+          "A. có lực tương tác luôn là lực hút.",
+          "B. có lực tương tác bao gồm lực hút và lực đẩy.",
+          "C. có lực tương tác luôn là lực đẩy.",
+          "D. không có lực tương tác."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "question": "Theo mô hình động học phân tử, ở thể khí, các phân tử",
+        "options": [
+          "A. sắp xếp có trật tự.",
+          "B. chỉ dao động quanh vị trí cân bằng cố định.",
+          "C. dao động quanh vị trí cân bằng không cố định.",
+          "D. chuyển động hỗn loạn."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "question": "Khi hai vật được đặt tiếp xúc với nhau, năng lượng nhiệt chỉ truyền từ vật này sang vật kia nếu chúng có",
+        "options": [
+          "A. khối lượng khác nhau.",
+          "B. thể tích khác nhau.",
+          "C. nhiệt độ khác nhau.",
+          "D. thế năng khác nhau."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "question": "Công thức định luật 1 nhiệt động lực học là ΔU = Q + A, với Q là kí hiệu nhiệt lượng và A là kí hiệu",
+        "options": [
+          "A. nhiệt dung riêng.",
+          "B. công.",
+          "C. nhiệt độ.",
+          "D. nội năng."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "question": "Trong hệ đơn vị SI, đơn vị của nhiệt dung riêng là",
+        "options": [
+          "A. J/(kg.K).",
+          "B. J/°C.",
+          "C. J/K.",
+          "D. J/kg."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "question": "Nội năng của một vật xác định không đổi khi",
+        "options": [
+          "A. nhiệt độ của vật thay đổi.",
+          "B. vật truyền năng lượng nhiệt cho vật khác.",
+          "C. thể tích của vật thay đổi.",
+          "D. nhiệt độ và thể tích của vật không đổi."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "question": "Khi đúc một vật bằng đồng, quá trình chuyển từ thể lỏng thành thể rắn là quá trình",
+        "options": [
+          "A. nóng chảy.",
+          "B. ngưng tụ.",
+          "C. hóa hơi.",
+          "D. đông đặc."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "question": "Điểm sôi của nước theo thang độ Kelvin là bao nhiêu?",
+        "options": [
+          "A. 373 K.",
+          "B. -100 K.",
+          "C. 273 K.",
+          "D. 100 K."
+        ],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "question": "Quy ước dấu nào sau đây phù hợp với định luật I của Nhiệt động lực học?",
+        "options": [
+          "A. Vật nhận công: A < 0; vật nhận nhiệt lượng: Q < 0.",
+          "B. Vật thực hiện công: A < 0; vật truyền nhiệt lượng: Q < 0.",
+          "C. Vật thực hiện công: A > 0; vật truyền nhiệt lượng: Q > 0.",
+          "D. Vật nhận công: A < 0; vật nhận nhiệt lượng: Q > 0."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "question": "Đơn vị nào sau đây là đơn vị của nhiệt nóng chảy riêng của vật rắn?",
+        "options": [
+          "A. Jun (J).",
+          "B. Jun trên kilôgam độ (J/kg.độ).",
+          "C. Jun trên kilôgam (J/kg).",
+          "D. Jun trên độ (J/độ)."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "question": "Người ta cung cấp cho khí trong một xilanh nằm ngang nhiệt lượng 2 J. Khí nở ra đẩy pit-tông đi một đoạn 5 cm với một lực có độ lớn là 20 N. Độ biến thiên nội năng của khí là:",
+        "options": [
+          "A. 0,5 J.",
+          "B. 1 J.",
+          "C. 1,5 J.",
+          "D. 2 J."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "question": "Nhiệt lượng cần cung cấp cho 0,5 kg nước ở 0°C đến khi nó sôi là bao nhiêu? Biết nhiệt dung riêng của nước là 4180 J/(kg.K).",
+        "options": [
+          "A. 3.105 J.",
+          "B. 5.105 J.",
+          "C. 2,09.105 J.",
+          "D. 4,18.105 J."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "question": "Nhiệt lượng cần cung cấp cho 2 kg nước đá ở nhiệt độ 0°C là bao nhiêu để chuyển lên nhiệt độ 60°C. Biết nhiệt dung riêng của nước là 4200 J/(kg.K), nhiệt nóng chảy riêng của nước đá là 3,4.105 J/kg.",
+        "options": [
+          "A. 1,548.106 J.",
+          "B. 0,72.106 J.",
+          "C. 2,254.106 J.",
+          "D. 1,184.106 J."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "question": "Thời gian cần thiết để làm nóng chảy hoàn toàn 2 kg đồng có nhiệt độ ban đầu 30°C, trong một lò nung điện có công suất 20000 W. Biết chỉ có 50% năng lượng tiêu thụ của lò được dùng vào việc làm đồng nóng lên và nóng chảy hoàn toàn ở nhiệt độ không đổi là 1085°C. Biết nhiệt dung riêng của đồng là 385 J/(kg.K); nhiệt nóng chảy riêng của đồng là 1,8.10^5 J/kg.",
+        "options": [
+          "A. 62,125 s.",
+          "B. 117,235 s.",
+          "C. 54,25 s.",
+          "D. 52,65 s."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "question": "Một ấm đun nước bằng nhôm có khối lượng 400 g, chứa 3 lít nước được đun trên bếp. Khi nhận nhiệt lượng 740 kJ thì ấm đạt đến nhiệt độ 80°C. Nhiệt độ ban đầu của ấm và nước là bao nhiêu? Biết nhiệt dung riêng của nhôm là 880 J/(kg.K), nhiệt dung riêng của nước là 4190 J/(kg.K). Coi nhiệt lượng mà ấm toả ra bên ngoài là không đáng kể.",
+        "options": [
+          "A. 37,2°C.",
+          "B. 22,7°C.",
+          "C. 16,7°C.",
+          "D. 45,2°C."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "question": "Nhiệt lượng cần cung cấp cho 5 kg nước đá ở 0°C chuyển thành nước ở cùng nhiệt độ đó là bao nhiêu? Biết nhiệt nóng chảy riêng của nước đá là 3,5.105 J/kg.",
+        "options": [
+          "A. 16.105 J.",
+          "B. 17.105 J.",
+          "C. 15.105 J.",
+          "D. 17,5.105 J."
+        ],
+        "correct": 3,
+        "explanation": "Q = m.λ = 5 . 3,5.105 = 17,5.105 J."
+      },
+      {
+        "id": 17,
+        "question": "Người ta thực hiện công 100 J để nén khí trong một xilanh. Biết khí truyền ra môi trường xung quanh nhiệt lượng 30 J, độ biến thiên nội năng của khí là:",
+        "options": [
+          "A. 100 J.",
+          "B. 70 J.",
+          "C. 30 J.",
+          "D. 130 J."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "question": "Nhiệt hóa hơi riêng của nước là 2,3.106 J/kg. Câu nào dưới đây là đúng?",
+        "options": [
+          "A. Một kilôgam nước sẽ tỏa ra một lượng nhiệt là 2,3.106 J khi bay hơi hoàn toàn ở nhiệt độ sôi.",
+          "B. Một lượng nước bất kì cần thu một lượng nhiệt là 2,3.106 J để bay hơi hoàn toàn.",
+          "C. Mỗi kilôgam nước cần thu một lượng nhiệt là 2,3.106 J để bay hơi hoàn toàn ở nhiệt độ sôi.",
+          "D. Một kilôgam nước cần thu một lượng nhiệt là 2,3.106 J để bay hơi hoàn toàn."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "question": "Hãy tìm ý không đúng với mô hình động học phân tử trong các ý sau:",
+        "options": [
+          "A. Các phân tử chuyển động không ngừng.",
+          "B. Giữa các phân tử có lực tương tác gọi là lực liên kết phân tử.",
+          "C. Tốc độ chuyển động của các phân tử cấu tạo nên vật càng lớn thì thể tích của vật càng lớn.",
+          "D. Các chất được cấu tạo từ các hạt riêng biệt là phân tử."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "question": "Một cục nước đá có khối lượng 2 kg đang ở nhiệt độ -4°C. Biết nhiệt dung riêng của nước đá là 2100 J/(kg.K), nhiệt nóng chảy riêng của nước đá là 3,4.105 J/kg, nhiệt dung riêng của nước là 4180 J/(kg.K), nhiệt hóa hơi riêng của nước là 2,3.106 J/kg. Nhiệt lượng cần thiết để cung cấp cho cục nước đá từ -4°C đến khi hóa hơi hoàn toàn là",
+        "options": [
+          "A. 4134200 J.",
+          "B. 6132800 J.",
+          "C. 5632400 J.",
+          "D. 3432900 J."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "type": "true_false",
+        "question": "Khi nói về đặc điểm của các chất rắn, chất lỏng, chất khí: tương tác (chỉ khi là khí lý tưởng mới bỏ qua hoàn toàn).",
+        "items": [
+          {
+            "label": "a",
+            "text": "#Các phân tử thể lỏng có khoảng cách giữa chúng nhỏ hơn trong thể rắn.",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": "#Các phân tử trong thể khí tự do di chuyển và không bị ràng buộc bởi lực tương tác giữa chúng.",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "#Vật ở thể lỏng không có thể tích riêng, nhưng có hình dạng riêng.",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "#Vật ở thể rắn có thể tích và hình dạng riêng, rất khó nén.",
+            "correct": true
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "type": "true_false",
+        "question": "Tiến hành đo nhiệt dung riêng của nước với các dụng cụ sau: Biến thế nguồn (1), bộ đo công suất nguồn nhiệt (2), Nhiệt kế điện tử hoặc cảm biến nhiệt độ (3), Nhiệt lượng kế (4), cân điện tử (5), các dây nối…",
+        "items": [
+          {
+            "label": "a",
+            "text": "#Độ lớn của nhiệt lượng cần cung cấp cho nước để làm tăng nhiệt độ của nó phụ thuộc vào khối lượng của nước, tính chất của nước, nhiệt dung riêng của nước.",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "#Để xác định nhiệt dung riêng của nước cần đo đại lượng nhiệt lượng cần truyền cho nước, khối lượng nước và độ tăng nhiệt độ của nước.",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": "#Nhiệt lượng mà nước trong bình nhiệt lượng kế thu được đến từ nguồn nhiệt bên ngoài, thường là từ quá trình nhiệt đổi hoặc từ một nguồn nhiệt khác như lửa, máy nhiệt, hoặc các nguồn nhiệt khác. [S]",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "#Các bước để đo nhiệt lượng mà nước thu được trong bình nhiệt lượng kế: Đo lượng nước; Đo nhiệt độ ban đầu của nước; Tính toán nhiệt lượng bằng công thức Q = P.t; Đánh giá kết quả.",
+            "correct": true
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "type": "true_false",
+        "question": "Khi nói về nhiệt độ, thang nhiệt độ, nhiệt kế: nở vì nhiệt của chất lỏng, chất khí, sự biến đổi điện trở, bức xạ nhiệt...).",
+        "items": [
+          {
+            "label": "a",
+            "text": "#Cơ sở chế tạo các loại dụng cụ đo nhiệt độ là sự nở vì nhiệt của chất rắn.",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": "#Nhiệt độ cho biết trạng thái cân bằng nhiệt của các vật tiếp xúc nhau và chiều truyền nhiệt năng.",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": "#Trong phòng thí nghiệm có thể nhận biết một phản ứng thu nhiệt hoặc toả nhiệt bằng cách đo nhiệt độ của phản ứng bằng một nhiệt kế.",
+            "correct": true
+          },
+          {
+            "label": "d",
+            "text": "#Theo bản tin thời tiết phát lúc 19h50 ngày 27/02/2022 thì nhiệt độ trung bình ngày - đêm trong ngày 28/02/2022 tại Hà Nội là 25°C – 17°C. Sự chênh lệch nhiệt độ này trong thang đo Kelvin là 9K.",
+            "correct": false
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "type": "true_false",
+        "question": "Dùng bếp điện để đun một ấm nhôm khối lượng 600 g đựng 1,5 lít nước ở nhiệt độ 20°C. Sau 35 phút đã có 20% lượng nước trong ấm hoá hơi ở nhiệt độ sôi 100°C. Biết có 100% nhiệt lượng mà bếp toả ra được dùng vào việc đun ấm nước. Nhiệt dung riêng của nhôm là 880 J/(kg.K), của nước là 4200 J/(kg.K), nhiệt hoá hơi riêng của nước ở nhiệt độ sôi 100°C là 2,26.10 6 J/kg. Khối lượng riêng của nước là 1000 kg/m 3 .",
+        "items": [
+          {
+            "label": "a",
+            "text": "#Nhiệt lượng cần thu vào của nước từ 20°C đến 100°C là 504000 J.",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "#Lượng nước đã hoá hơi là 0,03 kg.",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "#Nhiệt lượng mà bếp điện cung cấp để đun sôi nước là 1224240 J.",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "#Nhiệt lượng trung bình mà bếp điện cung cấp cho ấm nước trong mỗi giây là 675,22 J.",
+            "correct": false
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "type": "short_answer",
+        "question": "Người ta cung cấp một nhiệt lượng 2 J cho chất khí đựng trong một xilanh đặt nằm ngang. Khí nở ra đẩy pittông đi một đoạn 4 cm. Biết lực ma sát giữa pittông và xilanh có độ lớn 10 N. Tính độ biến thiên nội năng của khí (theo đơn vị J)? Trả lời :",
+        "options": [],
+        "correctAnswer": "1,6",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "type": "short_answer",
+        "question": "Một bình nhôm khối lượng 0,5 kg ở nhiệt độ 20°C. Nhiệt lượng cần cung cấ p là x.10 4 J để nó tăng lên đến 50°C. Biết nhiệt dung riêng củ a nhôm là 0,92.10 3 J/(kg.K). Tìm giá trị của x? (kết quả làm tròn đến hàng phần trăm) Trả lời :",
+        "options": [],
+        "correctAnswer": "1,38",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "type": "short_answer",
+        "question": "Lấy 0,01 kg hơi nước ở 100°C cho ngưng tụ trong bình nhiệt lượng kế chứa 0,2 kg nước ở 9,5°C; nhiệt độ cuối cùng là 40°C. Cho nhiệt dung riêng của nước là c = 4180 J/(kg.K). Nhiệt hóa hơi riêng của nước bằng bao nhiêu (theo đơn vị 10 6 J/kg, làm tròn đến hàng phần mười)? Trả lời :",
+        "options": [],
+        "correctAnswer": "2,3",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "type": "short_answer",
+        "question": "Một ấm đun nước có công suất 500 W chứa 1 lít nước ở 20°C (giả thiết 1 lít = 1 kg). Cho nhiệt dung riêng và nhiệt hoá hơi riêng của nước lần lượ t là 4180 J/(kg.K) và 2,0.10 6 J/kg. Tính thời gian cần thiết để đun nước trong ấm đạt đến nhiệt độ sôi 100°C theo đơn vị phút (kết quả làm tròn đến hàng phần trăm)? Trả lời :",
+        "options": [],
+        "correctAnswer": "11,15",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 29,
+        "type": "short_answer",
+        "question": "Để xác định nhiệt độ của một lò nung, người ta đưa vào lò một miếng sắt có khối lượng 22,3 g. Khi miếng sắt có nhiệt độ bằng nhiệt độ của lò, người ta lấy ra và thả ngay vào một nhiệt lượng kế có khối lượng 200 g có chứa 450 g nước ở nhiệt độ 15°C thì nhiệt độ của nước trong nhiệt lượng kế tăng lên đến 22,5°C. Cho nhiệt dung riêng của sắt là 478 J/(kg.K); của chất làm nhiệt lượng kế là 418 J/(kg.K); của nướ c là 4,18.10 3 J/(kg.K). Nhiệt độ của lò là bao nhiêu °C (kết quả làm tròn đến hàng đơn vị)? Trả lời :",
+        "options": [],
+        "correctAnswer": "1405",
+        "correct": 0,
+        "explanation": ""
+      }
+    ]
+  },
+  {
+    "id": "olm-xac-dinh-tiem-can-khi-biet-cong-thuc-ham-so-3668625171",
+    "title": "OLM: Xác định tiệm cận khi biết công thức hàm số",
+    "subject": "Toán",
+    "grade": 12,
+    "duration": 45,
+    "teacher": "Trà Ngọc Tước",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Toán",
+      "GV: Trà Ngọc Tước"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Đồ thị hàm số  $y=\\frac{3x+1}{x−1}$  có tâm đối xứng là",
+        "options": [
+          "A. $I(3; 1)$  .B.  $I(1; 3)$  .C.  $I(−1; 3)$  .D.  $I(−1; 1)$  ."
+        ],
+        "correct": 0,
+        "explanation": "⚡  $limx→1+ \\frac{3x+1}{x−1}=+∞$  nên đường thẳng  $x=1$  là tiệm cận đứng của đồ thị hàm số.\n⚡  $limx→±∞ \\frac{3x+1}{x−1}=3$  nên đường thẳng  $y=3$  là tiệm cận ngang của đồ thị hàm số.\nĐồ thị hàm số không có tiệm cận xiên.\nDo đó điểm đối xứng của đồ thị là  $I(1; 3)$  ."
+      },
+      {
+        "id": 2,
+        "question": "Cho hàm số  $y=\\frac{f(x)}{g(x)}$  với  $f(x)≠g(x)≠0$  , có  $limx→+∞ f(x)=1$  và  $limx→+∞ g(x)=−1$  . Khẳng định nào sau đây đúng?",
+        "options": [
+          "A. Đồ thị hàm số đã cho không có tiệm cận ngang.B. Đồ thị hàm số đã cho có hai tiệm cận ngang là các đường thẳng  $y=1$  và  $y=−1$  .C. Đồ thị hàm số đã cho có đúng một tiệm cận ngang.D. Đồ thị hàm số một tiệm cận ngang là  $y=−1$  ."
+        ],
+        "correct": 0,
+        "explanation": "Ta có:  $limx→+∞ y=\\frac{limx→+∞ f(x)}{limx→+∞ g(x)}=\\frac{1}{−1}=−1$  suy ra  $y=−1$  là tiệm cận ngang.\nChưa thể khẳng định tiệm cận ngang còn lại vì chưa biết  $limx→−∞ \\frac{f(x)}{g(x)}$  ."
+      },
+      {
+        "id": 3,
+        "question": "Đồ thị của hàm số dưới đây không có tiệm cận ngang?",
+        "options": [
+          "A. $y=\\frac{x+2}{{x}^{2}+1}$  .B.  $y=\\frac{1}{x+2}$  .C.  $y=\\frac{{x}^{2}−1}{x+2}$  .D.  $y=\\frac{x+2}{x+1}$  ."
+        ],
+        "correct": 0,
+        "explanation": "⚡  $limx→±∞ \\frac{x+2}{{x}^{2}+1}=0$  nên đồ thị hàm số có tiệm cận ngang  $y=0$  .\n⚡  $limx→±∞ \\frac{x+2}{x+1}=1$  nên đồ thị hàm số có tiệm cận ngang  $y=1$  .\n⚡  $limx→±∞ \\frac{{x}^{2}−1}{x+2}=±∞$  nên đồ thị hàm số không có tiệm cận ngang.\n⚡  $limx→±∞ \\frac{1}{x+2}=0$  nên đồ thị hàm số có tiệm cận ngang  $y=0$  ."
+      },
+      {
+        "id": 4,
+        "question": "Đồ thị hàm số  $y=\\frac{x+2}{3x+9}$  có đường tiệm cận đứng là  $x=a$  và đường tiệm cận ngang là  $y=b$  . Giá trị của số nguyên m nhỏ nhất thỏa mãn  $m≥a+b$  là",
+        "options": [
+          "A. $−1$  .B. 0 .C.  $−3$  .D.  $−2$  ."
+        ],
+        "correct": 0,
+        "explanation": "⚡Chú ý:Đồ thị hàm số  $y=\\frac{ax+b}{cx+d}$  nếu  $ad−bc≠0, a≠0$  thì có tiệm cận đứng là  $x=\\frac{−d}{c}$  và tiệm cận ngang  $y=\\frac{a}{c}$  .\nVậy đồ thị hàm số  $y=\\frac{x+2}{3x+9}$  có đường tiệm cận đứng là  $x=−3$  và đường tiệm cận ngang là  $y=\\frac{1}{3}$\nNên  $a=−3, b=\\frac{1}{3}$\nDo đó  $m≥a+b$\n$⇔m≥−\\frac{8}{3}$\n$⇒$  Giá trị nguyên nhỏ nhất là  $m=−2$  ."
+      },
+      {
+        "id": 5,
+        "question": "Gọi I là giao điểm của hai đường tiệm cận của đồ thị hàm số  $y=\\frac{2x−1}{5+x}$  . Tọa độ điểm I là",
+        "options": [
+          "A. $I(1; 2)$  .B.  $I(2; −5)$  .C.  $I(−5; 2)$  .D.  $(−1; 2)$  ."
+        ],
+        "correct": 0,
+        "explanation": "Ta có:\n⚡  $limx→±∞ \\frac{2x−1}{5+x}=2$\nĐồ thị hàm số có tiệm cận ngang là  $y=2$  .\n⚡  $limx→(−5)+ \\frac{2x−1}{5+x}=−∞$\nĐồ thị hàm số có tiệm cận đứng là  $x=−5$  .\nĐồ thị hàm số không có tiệm cận ngang.\nDo đó I là giao của hai đường thẳng  $x=−5$  và  $y=2$  . Khi đó  $I(−5;2)$  ."
+      },
+      {
+        "id": 6,
+        "question": "Tiệm cận ngang của đồ thị hàm số  $y=\\frac{2x−3}{x+1}$  là đường thẳng có phương trình",
+        "options": [
+          "A. $x=−1$  .B.  $y=−1$  .C.  $x=2$  .D.  $y=2$  ."
+        ],
+        "correct": 0,
+        "explanation": "Tập xác định:  $D=R∖\\left\\{ −1 \\right\\}$  .\nTa có  $limyx→+∞ =limx→+∞ \\frac{2x−3}{x+1}=2  ;  limyx→−∞ =limx→−∞ \\frac{2x−3}{x+1}=2$  .\nSuy ra  $y=2$  là tiệm cận ngang của đồ thị hàm số."
+      },
+      {
+        "id": 7,
+        "question": "Đồ thị hàm số  $y=\\frac{−3x+1}{x+2}$  có các đường tiệm cận đứng, tiệm cận ngang lần lượt là",
+        "options": [
+          "A. $x=−2, y=3.$",
+          "B. $x=−2, y=−3.$",
+          "C. $x=−2, y=1.$",
+          "D. $x=2, y=1.$"
+        ],
+        "correct": 1,
+        "explanation": "Tập xác định:  $D=R∖{−2}$\nTa có:  $limx→+∞ \\frac{−3x+1}{x+2}=−3.$\nDo đó đường thẳng  $y=−3$  là tiệm cận ngang của đồ thị.\n$limx→(−2)+ \\frac{−3x+1}{x+2}=−∞$\nNên đường thẳng  $x=−2$  là tiệm cận đứng của đồ thị."
+      },
+      {
+        "id": 8,
+        "question": "Tiệm cận ngang của đồ thị hàm số  $y=\\frac{2x−1}{x−1}$  có phương trình là",
+        "options": [
+          "A. $x=1$  .B.  $x=2$  .C.  $y=1$  .D.  $y=2$  ."
+        ],
+        "correct": 0,
+        "explanation": "Ta xét giới hạn:\n${lim}_{x→+∞}\\frac{2x−1}{x−1}=2$\n${lim}_{x→−∞}\\frac{2x−1}{x−1}=2$\nVậy tiệm cận ngang của đồ thị hàm số là đường thẳng  $y=2$  ."
+      },
+      {
+        "id": 9,
+        "question": "Tiệm cận đứng của đồ thị hàm số  $y=\\frac{2{x}^{2}−3x−1}{x−2}$  là",
+        "options": [
+          "A. $y=2$  .B.  $x=−2$  .C.  $x=2$  .D.  $y=−\\frac{1}{2}$  ."
+        ],
+        "correct": 0,
+        "explanation": "$limx→2+ \\frac{2{x}^{2}−3x−1}{x−2}=+∞$  và  $limx→2− \\frac{2{x}^{2}−3x−1}{x−2}=−∞$  nên  $x=2$  là tiệm cận đứng của đồ thị hàm số đã cho."
+      },
+      {
+        "id": 10,
+        "question": "Đường tiệm cận ngang của đồ thị hàm số  $y=\\frac{2x−1}{\\sqrt{4{x}^{2}+1}}$  là",
+        "options": [
+          "A. $y=1$  .B.  $x=1$  .C.  $x=1$  ;  $x=−1$  .D.  $y=1$  ;  $y=−1$  ."
+        ],
+        "correct": 0,
+        "explanation": "⚡ $limx→+∞\\frac{2x−1}{\\sqrt{4{x}^{2}+1}}=limx→+∞ \\frac{2−\\frac{1}{x}}{\\sqrt{4+\\frac{1}{{x}^{2}}}}=1$  ;\n⚡ $limx→−∞\\frac{2x−1}{\\sqrt{4{x}^{2}+1}}=limx→−∞ \\frac{2−\\frac{1}{x}}{−\\sqrt{4+\\frac{1}{{x}^{2}}}}=−1$  .\nVậy đồ thị hàm số có hai đường tiệm cận ngang là  $y=1$  và  $y=−1$  ."
+      },
+      {
+        "id": 11,
+        "question": "Cho hàm số  $y=f(x)$  liên tục và xác định trên  $R$  có  $limx→+∞ f(x)=0$  và  $limx→−∞ f(x)=+∞$  . Khẳng định nào sau đây đúng?",
+        "options": [
+          "A. Đồ thị hàm số  $y=f(x)$  có một tiệm cận đứng là đường thẳng  $y=0$  .B. Đồ thị hàm số  $y=f(x)$  không có tiệm cận ngang.C. Đồ thị hàm số  $y=f(x)$  có một tiệm cận ngang là trục hoành.D. Đồ thị hàm số  $y=f(x)$  nằm phía trên trục hoành."
+        ],
+        "correct": 0,
+        "explanation": "Vì  $limx→+∞ f(x)=0$  và  $limx→−∞ f(x)=+∞$  nên đồ thị hàm số chỉ có một tiệm cận ngang là trục hoành."
+      },
+      {
+        "id": 12,
+        "question": "Đồ thị hàm số  $y=\\frac{{x}^{2}−5x+6}{{x}^{2}−4}$  có tiệm cận đứng là",
+        "options": [
+          "A. $x=2$  .B.  $x=1$  .C.  $x=2$  và  $x=−2$  .D.  $x=−2$  ."
+        ],
+        "correct": 0,
+        "explanation": "Ta có  $y=\\frac{{x}^{2}−5x+6}{{x}^{2}−4}=\\frac{(x−2)(x−3)}{(x−2)(x+2)}=\\frac{x−3}{x+2}$\n$limx→(−2)+ \\frac{x−3}{x+2}=−∞$  nên  $x=−2$  là tiệm cận đứng của đồ thị hàm số."
+      },
+      {
+        "id": 13,
+        "question": "Tiệm cận xiên của đồ thị hàm số  $y=\\frac{−{x}^{2}−2x+5}{x+2}$  là",
+        "options": [
+          "A. $y=−x+2.$",
+          "B. $y=−x+3.$",
+          "C. $y=−x.$",
+          "D. $y=−x+1.$"
+        ],
+        "correct": 2,
+        "explanation": "Ta có  $y=f(x)=\\frac{−{x}^{2}−2x+5}{x+2}=−x+\\frac{5}{x+2}.$\nKhi đó,  $limx→+∞ \\left[ f(x)+x \\right]=limx→+∞ \\frac{5}{x+2}=0$\nHoặc  $limx→−∞ \\left[ f(x)+x \\right]=limx→−∞ \\frac{5}{x+2}=0$\nNên đường thẳng  $y=−x$  là tiệm cận xiên của đồ thị hàm số đã cho."
+      },
+      {
+        "id": 14,
+        "question": "Cho hàm số  $y=\\frac{{x}^{2}−x−1}{x−2}$  .",
+        "options": [],
+        "correct": 0,
+        "explanation": "Ta có:  $y=\\frac{{x}^{2}−x−1}{x−2}=x+1+\\frac{1}{x−2}$\n$limx→2− y=−∞;$\n$limx→2+ y=+∞$\n$limx→+∞ \\left[ y−\\left( x+1 \\right) \\right]=0;$\n$limx→−∞ \\left[ y−\\left( x+1 \\right) \\right]=0$  .\nDo đó đồ thị hàm số có tiệm cận đứng là:  $x=2$  .\nTiệm cận xiên là  $y=x+1$  .",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "$y=2$ là tiệm cận ngang của đồ thị hàm số đã cho",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": "Đồ thị hàm số đã cho có 3 đường tiệm cận",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "Tiệm cận đứng của đồ thị hàm số trên là $x=−2$",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "Tiệm cận xiên của đồ thị hàm số có hệ số góc là 1",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question": "Cho hàm số  $y=f(x)=\\frac{2{x}^{2}+3x−5}{x+3}$  có đồ thị (C ) , biết đồ thị có tiệm cận xiên là đường thẳng  $Δ:y=ax+b$  .",
+        "options": [],
+        "correct": 0,
+        "explanation": "⚡Khẳng định 1:\nGiả sử đồ thị (C) có tiệm cận xiên là đường thẳng  $y=ax+b$  , khi đó:\n$a=limx→+∞ \\frac{f(x)}{x}$\n$=limx→+∞ \\frac{2{x}^{2}+3x−5}{x(x+3)}$\n$=limx→+∞ \\frac{2{x}^{2}+3x−5}{{x}^{2}+3x}=2$\nKhi đó  $b=limx→+∞ \\frac{2{x}^{2}+3x−5}{x+3}−2x$\n$=limx→+∞ \\frac{−3x−5}{x+3}=−3$\nTương tự,  $a=limx→−∞ \\frac{f(x)}{x}=2$  ,\n$b=limx→−∞ \\frac{2{x}^{2}+3x−5}{x+3}−2x$\n$=limx→−∞ \\frac{−3x−5}{x+3}=−3$\nĐồ thị (C) có tiệm cận xiên là đường thẳng  $y=2x−3$  .\nGiao điểm của  $Δ:y=2x−3$  và Ox là điểm  $I\\left( \\frac{3}{2};0 \\right)$  , thấy  ${x}_{I}=\\frac{3}{2}<2$  .\n⚡Khẳng định 2:\nTa có:  $limx→(−3)+ \\frac{2{x}^{2}+3x−5}{x+3}=+∞$  nên  $x=−3$  là tiệm cận đứng của đồ thị (C) .\nGiao điểm của hai đường tiệm cận  $x=−3$  và  $y=2x−3$  là  $I(−3;−9)$  .\n⚡Khẳng định 3:\nTa có:  $Δ∩Ox=A\\left( \\frac{3}{2};0 \\right), Δ∩Oy=B(0;−3)$  .\nSuy ra  ${S}_{ABO}=\\frac{12.}{O}A.OB=\\frac{12.}{\\frac{32.3}{=}}\\frac{9}{4}<3$  .\n⚡Khẳng định 4:\nHàm số  $y=2x−3$  đồng biến trên  $R$  suy ra giá trị lớn nhất trên  $[0;3]$  là  $2·3−3=3$  .",
+        "type": "true_false",
+        "items": [
+          {
+            "label": "a",
+            "text": "Giao điểm của $Δ$ và trục Ox có hoành độ lớn hơn 2",
+            "correct": false
+          },
+          {
+            "label": "b",
+            "text": "Giao điểm của $Δ$ và tiệm cận đứng của (C ) có tọa độ là $(−3;−9)$",
+            "correct": true
+          },
+          {
+            "label": "c",
+            "text": "Gọi $A=Δ∩Ox$ , $B=Δ∩Oy$ ta có ${S}_{OAB}>3$",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "Giá trị lớn nhất của hàm số $y=ax+b$ trên $[0;3]$ là 4",
+            "correct": false
+          }
+        ]
+      }
+    ]
   }
 ]
