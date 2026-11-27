@@ -5303,7 +5303,13 @@
           "A. [4132]"
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/1031/img_teacher_2024-10-31_6722fa9a55a6b.jpg",
+          "https://cdn3.olm.vn/upload/img_teacher/1031/img_teacher_2024-10-31_6722faddd9bd9.jpg",
+          "https://cdn3.olm.vn/upload/img/0227/img_2025-02-27_67bfcc74cb8da.jpg",
+          "https://cdn3.olm.vn/upload/img_teacher/1031/img_teacher_2024-10-31_6722fc0998673.jpg"
+        ]
       },
       {
         "id": 6,
@@ -5390,7 +5396,10 @@
         "question": "Cao su buna được điều chế từ sơ đồ sau: Glucose → Ethanol → Buta-1,3-diene → Cao su buna Cần bao nhiêu kg glucose để có thể điều chế được 108 kg cao su buna (làm tròn kết quả đến chữ số hàng đơn vị)? Giả sử hiệu suất của cả quá trình là 80%. Trả lời: . Hướng dẫn giải: Ta có sơ đồ điều chế cao su buna như sau:​ \\(n_{polybuta-1,3-diene}=\\dfrac{108}{54n}=\\dfrac{2}{n}\\) kmol ⇒ \\(n_{C_6H_{12}O_6}=\\dfrac{2}{n}.\\dfrac{100}{80}.n=\\dfrac{5}{2}\\) kmol ⇒ \\(m_{C_6H_{12}O_6}=\\dfrac{5}{2}.180=450\\) kg.",
         "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/1112/img_teacher_2024-11-12_6732b642c1a03.jpg"
+        ]
       }
     ],
     "duration": 45,
@@ -6097,7 +6106,10 @@
         "id": 1,
         "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  $A(3;−2;5)$  . Hình chiếu vuông góc của điểm A trên mặt phẳng (Oxz) là",
         "options": [
-          "A. $M(0;2;5)$  .B.  $M(3;0;5)$  .C.  $M(0;−2;5)$  .D.  $M(3;−2;0)$  ."
+          "A. $M(0;2;5)$.",
+          "B. $M(3;0;5)$.",
+          "C. $M(0;−2;5)$.",
+          "D. $M(3;−2;0)$."
         ],
         "correct": 0,
         "explanation": "Để tìm tọa độ hình chiếu của điểm  $A(3;−2;5)$  lên mặt phẳng (Oxz) ta chỉ cần giữ nguyên hoành độ và cao độ, cho tung độ bằng 0 .\nDo đó hình chiếu của A có tọa độ  $(3;0;5)$  ."
@@ -6106,7 +6118,10 @@
         "id": 2,
         "question": "Trong không gian Oxyz, cho hai điểm  $A(−1; 2; 5)$  ,  $B(3; −6; 3)$  . Hình chiếu vuông góc của trung điểm I của đoạn AB trên mặt phẳng (Oyz) là điểm nào dưới đây?",
         "options": [
-          "A. $P(3; 0; 0)$  .B.  $M(0; −2; 4)$  .C.  $Q(0; 0; 5)$  .D.  $N(3; −1; 5)$  ."
+          "A. $P(3; 0; 0)$.",
+          "B. $M(0; −2; 4)$.",
+          "C. $Q(0; 0; 5)$.",
+          "D. $N(3; −1; 5)$."
         ],
         "correct": 0,
         "explanation": "Tọa độ trung điểm I của đoạn AB :  $I(1; −2; 4)$\nTọa độ hình chiếu của I mặt phẳng (Oyz) :  $M(0; −2; 4)$  ."
@@ -6115,7 +6130,10 @@
         "id": 3,
         "question": "Trong không gian với hệ trục tọa độ O x y z , cho điểm M(x ; y ; z) . Khẳng định nào sau đâyđúng?",
         "options": [
-          "A. Nếu  $M’$  đối xứng với M qua mặt phẳng (O x z) thì  $M’(x;y;−z)$  .B. Nếu  $M’$  đối xứng với M qua O y thì  $M’(x;y;−z)$  .C. Nếu  $M’$  đối xứng với M qua mặt phẳng (O x y) thì  $M’(x;y;−z)$  .D. Nếu  $M’$  đối xứng với M qua gốc tọa độ O thì  $M(2x;2y;0)$  ."
+          "A. Nếu  $M’$  đối xứng với M qua mặt phẳng (O x z) thì  $M’(x;y;−z)$.",
+          "B. Nếu  $M’$  đối xứng với M qua O y thì  $M’(x;y;−z)$.",
+          "C. Nếu  $M’$  đối xứng với M qua mặt phẳng (O x y) thì  $M’(x;y;−z)$.",
+          "D. Nếu  $M’$  đối xứng với M qua gốc tọa độ O thì  $M(2x;2y;0)$."
         ],
         "correct": 0,
         "explanation": "Nếu  $M’$  đối xứng với M qua mặt phẳng (O x z) thì  $M’(x;−y;z)$  . Do đó phương án A sai.\nNếu  $M’$  đối xứng với M qua  O y thì  $M’(−x;y;−z)$  . Do đó phương án B sai.\nNếu  $M’$  đối xứng với M qua gốc tọa độ O thì  $M’(−x;−y;−z)$  . Do đó phương án D sai."
@@ -6124,7 +6142,10 @@
         "id": 4,
         "question": "Trong không gian với hệ tọa độ Oxyz, cho hai điểm  $M(3;−2;3), I(1;0;4).$  Tọa độ điểm N sao cho I là trung điểm của đoạn MN là",
         "options": [
-          "A. $N\\left( 2;−1;\\frac{7}{2} \\right)$  .B.  $N(−1;2;5)$  .C.  $N(5;−4;2)$  .D.  $N(0;1;2)$  ."
+          "A. $N\\left( 2;−1;\\frac{7}{2} \\right)$.",
+          "B. $N(−1;2;5)$.",
+          "C. $N(5;−4;2)$.",
+          "D. $N(0;1;2)$."
         ],
         "correct": 0,
         "explanation": "Giả sử N(x;y;z) .\nDo I là trung điểm của MN nên  $\\begin{cases} {x}_{I}=\\frac{{x}_{M}+{x}_{N}}{2} \\\\ {y}_{I}=\\frac{{y}_{M}+{y}_{N}}{2} \\\\ {z}_{I}=\\frac{{z}_{M}+{z}_{N}}{2} \\end{cases}$\n$⇔\\begin{cases} {x}_{N}=2{x}_{I}−{x}_{M} \\\\ {y}_{N}=2{y}_{I}−{y}_{M} \\\\ {z}_{N}=2{z}_{I}−{z}_{M} \\end{cases}⇔\\begin{cases} {x}_{N}=−1 \\\\ {y}_{N}=2 \\\\ {z}_{N}=5 \\end{cases}⇒N(−1;2;5)$  ."
@@ -6133,7 +6154,10 @@
         "id": 5,
         "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  $M(1;1−\\sqrt{2};2+\\sqrt{5})$  . Tọa độ điểm  ${M}^{′}∈(Oxz)$  sao cho độ dài đoạn thẳng  $M{M}^{′}$  ngắn nhất là",
         "options": [
-          "A. ${M}^{′}(1;0;2+\\sqrt{5})$  .B.  ${M}^{′}(1;1−\\sqrt{2};0)$  .C.  ${M}^{′}(0;1−\\sqrt{2};2+\\sqrt{5})$  .D.  ${M}^{′}(1;1+\\sqrt{2};2−\\sqrt{5})$  ."
+          "A. ${M}^{′}(1;0;2+\\sqrt{5})$.",
+          "B. ${M}^{′}(1;1−\\sqrt{2};0)$.",
+          "C. ${M}^{′}(0;1−\\sqrt{2};2+\\sqrt{5})$.",
+          "D. ${M}^{′}(1;1+\\sqrt{2};2−\\sqrt{5})$."
         ],
         "correct": 0,
         "explanation": "$M{M}^{′}$  ngắn nhất khi điểm  ${M}^{′}$  là hình chiếu của điểm M trên mặt phẳng (Oxz)\n$⇒{M}^{′}(1;0;2+\\sqrt{5})$  ."
@@ -6142,7 +6166,10 @@
         "id": 6,
         "question": "Trong không gian Oxyz , cho hình hộp  $ABCD.{A}^{′}{B}^{′}{C}^{′}{D}^{′}$  . Biết  $A(1;0;1)$  ,  ${C}^{′}(4;5;−5)$  . Tọa độ tâm I của hình hộp đó là",
         "options": [
-          "A. $I\\left( \\frac{5}{2};\\frac{5}{2};−2 \\right)$  .B.  $I\\left( \\frac{5}{2};\\frac{5}{2};2 \\right)$  .C.  $I\\left( −\\frac{5}{2};\\frac{5}{2};−2 \\right)$  .D.  $I(5;5;−2)$  ."
+          "A. $I\\left( \\frac{5}{2};\\frac{5}{2};−2 \\right)$.",
+          "B. $I\\left( \\frac{5}{2};\\frac{5}{2};2 \\right)$.",
+          "C. $I\\left( −\\frac{5}{2};\\frac{5}{2};−2 \\right)$.",
+          "D. $I(5;5;−2)$."
         ],
         "correct": 0,
         "explanation": "Ta có I là trung điểm của  $A{C}^{′}$  suy ra tọa độ điểm  $I\\left( \\frac{5}{2};\\frac{5}{2};−2 \\right)$  ."
@@ -6151,7 +6178,10 @@
         "id": 7,
         "question": "Trong không gian Oxyz , cho hai điểm  $A(1;2;−1)$  và  $B(2;4;1)$  . Trọng tâm của tam giác OAB có tọa độ là",
         "options": [
-          "A. $(3;6;0)$  .B.  $(1;3;0)$  .C.  $(−1;−2;0)$  .D.  $(1;2;0)$  ."
+          "A. $(3;6;0)$.",
+          "B. $(1;3;0)$.",
+          "C. $(−1;−2;0)$.",
+          "D. $(1;2;0)$."
         ],
         "correct": 0,
         "explanation": "$G\\left( \\frac{0+1+2}{3};\\frac{0+2+4}{3};\\frac{0−1+1}{3} \\right)$\n$⇒G(1;2;0)$  ."
@@ -6160,7 +6190,10 @@
         "id": 8,
         "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  $A(1;1;2)$  . Tọa độ điểm  ${A}^{′}∈(Oxy)$  sao cho độ dài đoạn thẳng  $A{A}^{′}$  ngắn nhất là",
         "options": [
-          "A. ${A}^{′}(−1;1;0)$  .B.  ${A}^{′}(2;2;0)$  .C.  ${A}^{′}(2;−1;2)$  .D.  ${A}^{′}(1;1;0)$  ."
+          "A. ${A}^{′}(−1;1;0)$.",
+          "B. ${A}^{′}(2;2;0)$.",
+          "C. ${A}^{′}(2;−1;2)$.",
+          "D. ${A}^{′}(1;1;0)$."
         ],
         "correct": 0,
         "explanation": "$A{A}^{′}$  ngắn nhất khi điểm  ${A}^{′}$  là hình chiếu của điểm A trên mặt phẳng (Oxy)\n$⇒{A}^{′}(1;1;0)$  ."
@@ -6169,7 +6202,10 @@
         "id": 9,
         "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  $M(1;−\\sqrt{2};\\sqrt{3})$  . Tọa độ của điểm  ${M}^{′}∈Ox$  sao cho độ dài đoạn thẳng  $M{M}^{′}$  ngắn nhất là",
         "options": [
-          "A. ${M}^{′}(−1;0;0)$  .B.  ${M}^{′}(1;0;0)$  .C.  ${M}^{′}(1;0;\\sqrt{3})$  .D.  ${M}^{′}(1;−\\sqrt{2};0)$  ."
+          "A. ${M}^{′}(−1;0;0)$.",
+          "B. ${M}^{′}(1;0;0)$.",
+          "C. ${M}^{′}(1;0;\\sqrt{3})$.",
+          "D. ${M}^{′}(1;−\\sqrt{2};0)$."
         ],
         "correct": 0,
         "explanation": "$M{M}^{′}$  ngắn nhất khi điểm  ${M}^{′}$  là hình chiếu của điểm M trên trục Ox\n$⇒{M}^{′}(1;0;0)$  ."
@@ -6178,7 +6214,10 @@
         "id": 10,
         "question": "Trong không gian với hệ tọa độ Oxyz , cho bốn điểm  $A(2;0;0), B(0;2;0), C(0;0;2)$  và  $D(2;2;2)$  . Gọi  $M, N$  lần lượt là trung điểm của AB và CD . Tọa độ trung điểm I của MN là",
         "options": [
-          "A. $I(1;1;0)$  .B.  $I(1;1;1)$  .C.  $I(1;−1;2)$  .D.  $I\\left( \\frac{1}{2};\\frac{1}{2};1 \\right)$  ."
+          "A. $I(1;1;0)$.",
+          "B. $I(1;1;1)$.",
+          "C. $I(1;−1;2)$.",
+          "D. $I\\left( \\frac{1}{2};\\frac{1}{2};1 \\right)$."
         ],
         "correct": 0,
         "explanation": "Ta có  $M, N$  lần lượt là trung điểm của AB và CD nên  $M(1;1;0), N(1;1;2)$  , từ đó suy ra trung điểm của MN là  $I(1;1;1)$  ."
@@ -6187,7 +6226,10 @@
         "id": 11,
         "question": "Trong không gian với hệ tọa độ Oxyz , cho  $OM=(1;5;2)$  ,  $ON=(3;7;−4)$  . Gọi P là điểm đối xứng với M qua N . Tọa độ điểm P là",
         "options": [
-          "A. $P(2;6;−1)$  .B.  $P(5;9;−10)$  .C.  $P(5;9;−3)$  .D.  $P(7;9;−10)$  ."
+          "A. $P(2;6;−1)$.",
+          "B. $P(5;9;−10)$.",
+          "C. $P(5;9;−3)$.",
+          "D. $P(7;9;−10)$."
         ],
         "correct": 0,
         "explanation": "Ta có:  $OM=(1;5;2)⇒M(1;5;2)$  ,\n$ON=(3;7;−4)⇒N(3;7;−4)$  .\nVì P là điểm đối xứng với M qua N nên N là trung điểm của MP nên ta suy ra được\n$\\begin{cases} {x}_{P}=2{x}_{N}−{x}_{M}=5 \\\\ {y}_{P}=2{y}_{N}−{y}_{M}=9 \\\\ {z}_{P}=2{z}_{N}−{z}_{M}=−10 \\end{cases}⇒P(5;9;−10)$  ."
@@ -6196,7 +6238,10 @@
         "id": 12,
         "question": "Trong không gian O x y z , cho hai điểm  $A(2;3;−1)$  và  $B(−4;1;9)$  . Trung điểm I của đoạn thẳng A B có tọa độ là",
         "options": [
-          "A. $(−1;2;4)$  .B.  $(−6;−2;10)$  .C.  $(−2;4;8)$  .D.  $(1;−2;−4)$  ."
+          "A. $(−1;2;4)$.",
+          "B. $(−6;−2;10)$.",
+          "C. $(−2;4;8)$.",
+          "D. $(1;−2;−4)$."
         ],
         "correct": 0,
         "explanation": "Áp dụng công thức trung điểm  $I=\\left( \\frac{{x}_{A}+{x}_{B}}{2};\\frac{{y}_{A}+{y}_{B}}{2};\\frac{{z}_{A}+{z}_{B}}{2} \\right)=(−1;2;4)$  .​"
@@ -6205,7 +6250,10 @@
         "id": 13,
         "question": "Cho tứ diện ABCD có G là trọng tâm tam giác BCD . Mệnh đề nào sau đâysai?",
         "options": [
-          "A. $AG−AB=GC+GD$  .B.  $GB+GC+GD=0$  .C.  $AB+AC+AD=3AG$  .D.  $AB+AC+AD=4AG$  ."
+          "A. $AG−AB=GC+GD$.",
+          "B. $GB+GC+GD=0$.",
+          "C. $AB+AC+AD=3AG$.",
+          "D. $AB+AC+AD=4AG$."
         ],
         "correct": 0,
         "explanation": "Vì G là trọng tâm tam giác BCD nên  $GB+GC+GD=0$  .\nDo đó  $AB+AC+AD=3AG$  ."
@@ -6214,7 +6262,10 @@
         "id": 14,
         "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  $M(1+\\sqrt{2};2;1−\\sqrt{2})$  . Tọa độ điểm  ${M}^{′}∈(Oyz)$  sao cho độ dài đoạn thẳng  $M{M}^{′}$  ngắn nhất là",
         "options": [
-          "A. ${M}^{′}(1+\\sqrt{2};0;1−\\sqrt{2})$  .B.  ${M}^{′}(0;−2;1+\\sqrt{2})$  .C.  ${M}^{′}(0;−2;1−\\sqrt{2})$  .D.  ${M}^{′}(0;2;1−\\sqrt{2})$  ."
+          "A. ${M}^{′}(1+\\sqrt{2};0;1−\\sqrt{2})$.",
+          "B. ${M}^{′}(0;−2;1+\\sqrt{2})$.",
+          "C. ${M}^{′}(0;−2;1−\\sqrt{2})$.",
+          "D. ${M}^{′}(0;2;1−\\sqrt{2})$."
         ],
         "correct": 0,
         "explanation": "$M{M}^{′}$  ngắn nhất khi điểm  ${M}^{′}$  là hình chiếu của điểm M trên mặt phẳng (Oyz) .\n$⇒{M}^{′}(0;2;1−\\sqrt{2})$  ."
@@ -6223,7 +6274,10 @@
         "id": 15,
         "question": "Trong không gian Oxyz , cho hình hộp chữ nhật  $ABCD.A’B’C’D’$  có đỉnh  $A’$  trùng với gốc O và các đỉnh  $D’,B’,A$  lần lượt thuộc các tia Ox , Oy , Oz như hình vẽ. Giả sử đỉnh C có toạ độ là  $(2;3;4)$  đối với hệ toạ độ Oxyz . Khi đó toạ độ điểm B là",
         "options": [
-          "A. $B(0;2;4)$  .B.  $B(2;4;0)$  .C.  $B(0;3;4)$  .D.  $B(3;0;4)$  ."
+          "A. $B(0;2;4)$.",
+          "B. $B(2;4;0)$.",
+          "C. $B(0;3;4)$.",
+          "D. $B(3;0;4)$."
         ],
         "correct": 0,
         "explanation": "Ta có B là hình chiếu của C lên mặt phẳng (Oyz) suy ra  $B(0;3;4).$"
@@ -6232,7 +6286,10 @@
         "id": 16,
         "question": "Trong không gian với hệ tọa độ Oxyz , cho điểm  $M(1;2;−\\sqrt{3})$  . Điểm  ${M}^{′}∈Oz$  sao cho độ dài đoạn thẳng  $M{M}^{′}$  ngắn nhất có tọa độ là",
         "options": [
-          "A. ${M}^{′}(0;0;\\sqrt{3})$  .B.  ${M}^{′}(1;0;−\\sqrt{3})$  .C.  ${M}^{′}(0;0;−\\sqrt{3})$  .D.  ${M}^{′}(0;2;−\\sqrt{3})$  ."
+          "A. ${M}^{′}(0;0;\\sqrt{3})$.",
+          "B. ${M}^{′}(1;0;−\\sqrt{3})$.",
+          "C. ${M}^{′}(0;0;−\\sqrt{3})$.",
+          "D. ${M}^{′}(0;2;−\\sqrt{3})$."
         ],
         "correct": 0,
         "explanation": "$M{M}^{′}$  ngắn nhất khi điểm  ${M}^{′}$  là hình chiếu của điểm M trên trục Oz\n$⇒{M}^{′}(0;0;−\\sqrt{3})$  ."
@@ -6253,7 +6310,10 @@
         "id": 18,
         "question": "Trong không gian với hệ tọa độ Oxyz , cho hình chữ nhật OKMN .\nTọa độ đỉnh M của hình chữ nhật là",
         "options": [
-          "A. $M\\left( 1;2; 0 \\right)$  .B.  $M\\left( 1; 2; 2 \\right)$  .C.  $M\\left( 0; 2; 2 \\right)$  .D.  $M\\left( −1;− 2; −2 \\right)$  ."
+          "A. $M\\left( 1;2; 0 \\right)$.",
+          "B. $M\\left( 1; 2; 2 \\right)$.",
+          "C. $M\\left( 0; 2; 2 \\right)$.",
+          "D. $M\\left( −1;− 2; −2 \\right)$."
         ],
         "correct": 0,
         "explanation": "Hình chữ nhật OKMN nên N là hình chiếu của M trên mặt phẳng (Oxy) , K là hình chiếu của M trên trục Oz , do đó tọa độ đỉnh M là:  $M\\left( 1; 2; 2 \\right)$  .​"
@@ -6355,7 +6415,10 @@
           "D. $A(0;11,9;1,1)$  ."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/0919/img_teacher_2024-09-19_66ebe9c9c3807.jpg"
+        ]
       },
       {
         "id": 3,
@@ -7593,67 +7656,72 @@
         "id": 1,
         "question": "Trong thẻ tạo danh sách có thứ tự, thuộc tính start dùng để",
         "options": [
-          "A. xác định giá trị bắt đầu đánh số.",
-          "B. xác định số lượng các thẻ <li>.",
+          "A. kết thúc danh sách không có thứ tự.",
+          "B. xác định giá trị bắt đầu đánh số.",
           "C. thay đổi ký hiệu đầu dòng.",
-          "D. kết thúc danh sách không có thứ tự."
+          "D. xác định số lượng các thẻ <li>."
         ],
-        "correct": 0,
+        "correct": 1,
         "explanation": ""
       },
       {
         "id": 2,
         "question": "Trong thẻ tạo danh sách có thứ tự, thuộc tính start mặc định là số",
         "options": [
-          "A. thập phân.",
-          "B. nguyên.",
-          "C. 0.",
-          "D. 1."
+          "A. nguyên.",
+          "B. thập phân.",
+          "C. 1.",
+          "D. 0."
         ],
-        "correct": 3,
+        "correct": 2,
         "explanation": ""
       },
       {
         "id": 3,
         "question": "Để thêm thông tin cá nhân vào một mục trong trang web, bạn nên sử dụng thẻ nào để tạo danh sách các thông tin đó?",
         "options": [
-          "A. <table>",
-          "B. <ul> và <li>",
-          "C. <p>",
+          "A. <ul> và <li>",
+          "B. <p>",
+          "C. <table>",
           "D. <div>"
-        ],
-        "correct": 1,
-        "explanation": ""
-      },
-      {
-        "id": 4,
-        "question": "Cho đoạn HTML như hình bên dưới\nHãy chọn kết quả đúng khi hiển thị trên trình duyệt.",
-        "options": [
-          "A. B.",
-          "C. D."
         ],
         "correct": 0,
         "explanation": ""
       },
       {
+        "id": 4,
+        "question": "Cho đoạn HTML như hình bên dưới Hãy chọn kết quả đúng khi hiển thị trên trình duyệt.",
+        "options": [
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId5.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId6.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId7.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId8.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
+        ],
+        "correct": 3,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId4.png"
+        ]
+      },
+      {
         "id": 5,
         "question": "Trong HTML, danh sách mô tả được bắt đầu bằng thẻ",
         "options": [
-          "A. <td>",
-          "B. <dt>",
-          "C. <dl>",
-          "D. <dd>"
+          "A. <dt>",
+          "B. <dd>",
+          "C. <td>",
+          "D. <dl>"
         ],
-        "correct": 2,
+        "correct": 3,
         "explanation": ""
       },
       {
         "id": 6,
         "question": "Nội dung mô tả của một mục trong danh sách mô tả được đặt trong thẻ",
         "options": [
-          "A. <td>",
-          "B. <dt>",
-          "C. <dl>",
+          "A. <dt>",
+          "B. <dl>",
+          "C. <td>",
           "D. <dd>"
         ],
         "correct": 3,
@@ -7661,119 +7729,150 @@
       },
       {
         "id": 7,
-        "question": "Cho đoạn HTML như hình bên\nHãy chọn kết quả hiển thị đúng trên trình duyệt.",
+        "question": "Cho đoạn HTML như hình bên Hãy chọn kết quả hiển thị đúng trên trình duyệt.",
         "options": [
-          "A. B.",
-          "C. D."
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId10.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId11.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId12.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId13.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
-        "correct": 0,
-        "explanation": ""
+        "correct": 3,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId9.png"
+        ]
       },
       {
         "id": 8,
-        "question": "Cho đoạn mã HTML sau\nHãy chọn kết quả đúng khi hiển thị trên trình duyệt.",
+        "question": "Cho đoạn mã HTML sau Hãy chọn kết quả đúng khi hiển thị trên trình duyệt.",
         "options": [
-          "A. B.",
-          "C. D."
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId15.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId16.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId17.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId18.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
-        "correct": 0,
-        "explanation": ""
+        "correct": 1,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId14.png"
+        ]
       },
       {
         "id": 9,
-        "question": "Cho đoạn mã HTML sau\nHãy chọn kết quả hiển thị đúng trên trình duyệt.",
+        "question": "Cho đoạn mã HTML sau Hãy chọn kết quả hiển thị đúng trên trình duyệt.",
         "options": [
-          "A. B.",
-          "C. D."
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId20.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId11.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId21.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId22.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId19.png"
+        ]
       },
       {
         "id": 10,
         "question": "Trong thẻ tạo danh sách không có thứ tự, thuộc tính list-style-type dùng để",
         "options": [
-          "A. xác định số lượng các thẻ <li>.",
-          "B. xác định giá trị bắt đầu đánh số.",
-          "C. thay đổi ký tự đầu dòng.",
+          "A. thay đổi ký tự đầu dòng.",
+          "B. xác định số lượng các thẻ <li>.",
+          "C. xác định giá trị bắt đầu đánh số.",
           "D. kết thúc danh sách không có thứ tự."
-        ],
-        "correct": 2,
-        "explanation": ""
-      },
-      {
-        "id": 11,
-        "question": "Cho đoạn mã HTML như sau :\nHãy chọn đúng kết quả hiển thị trên trình duyệt .",
-        "options": [
-          "A. B.",
-          "C. D."
-        ],
-        "correct": 2,
-        "explanation": ""
-      },
-      {
-        "id": 12,
-        "question": "Cho đoạn mã HTML sau:\nHãy chọn kết quả hiển thị đúng trên trình duyệt.",
-        "options": [
-          "A. B.",
-          "C. D."
         ],
         "correct": 0,
         "explanation": ""
       },
       {
+        "id": 11,
+        "question": "Cho đoạn mã HTML như sau : Hãy chọn đúng kết quả hiển thị trên trình duyệt .",
+        "options": [
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId24.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId25.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId26.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId27.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
+        ],
+        "correct": 3,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId23.png"
+        ]
+      },
+      {
+        "id": 12,
+        "question": "Cho đoạn mã HTML sau: Hãy chọn kết quả hiển thị đúng trên trình duyệt.",
+        "options": [
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId29.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId30.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId31.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId32.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
+        ],
+        "correct": 2,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId28.png"
+        ]
+      },
+      {
         "id": 13,
         "question": "Thuộc tính định dạng rowspan=\"3\" có chức năng",
         "options": [
-          "A. mở rộng toàn bộ các ô ở các",
+          "A. ghép 3 ô kề nhau ở các hàng thành một ô.",
           "B. ghép 3 ô kề nhau ở các cột thành một ô.",
-          "C. ghép 3 ô kề nhau ở các hàng thành một ô.",
+          "C. mở rộng toàn bộ các ô ở các",
           "D. mở rộng toàn bộ các ô ở các hàng."
         ],
-        "correct": 2,
+        "correct": 0,
         "explanation": ""
       },
       {
         "id": 14,
         "question": "Thuộc tính định dạng colspan=\"3\" có chức năng",
         "options": [
-          "A. mở rộng toàn bộ các ô ở các hàng.",
-          "B. mở rộng toàn bộ các ô ở các cột.",
-          "C. ghép 3 ô kề nhau ở các cột thành một ô.",
-          "D. ghép 3 ô kề nhau ở các hàng thành một ô."
-        ],
-        "correct": 2,
-        "explanation": ""
-      },
-      {
-        "id": 15,
-        "question": "Cho đoạn HTML sau:\nHãy chọn phát biểu đúng khi nói về kết quả hiển thị trên trình duyệt.",
-        "options": [
-          "A. Bảng trên có chiều cao là 300px.",
-          "B. Bảng trên có một hàng.",
-          "C. Một trong các ô tiêu đề của bảng là ô có giá trị \"Họ tên\".",
-          "D. \"Nguyễn Văn An\" có kết quả in đậm."
-        ],
-        "correct": 2,
-        "explanation": ""
-      },
-      {
-        "id": 16,
-        "question": "Cho đoạn mã HTML sau:\nHãy chọn phát biểu đúng khi nói về kết quả hiển thị trên trình duyệt.",
-        "options": [
-          "A. Bảng trên có một hàng.",
-          "B. Bảng trên có chiều rộng là 300px.",
-          "C. \"Nguyễn Văn An\" có kết quả in đậm.",
-          "D. Một trong các tiêu đề của bảng là ô có giá trị \"Nguyễn Văn An\"."
+          "A. ghép 3 ô kề nhau ở các hàng thành một ô.",
+          "B. ghép 3 ô kề nhau ở các cột thành một ô.",
+          "C. mở rộng toàn bộ các ô ở các cột.",
+          "D. mở rộng toàn bộ các ô ở các hàng."
         ],
         "correct": 1,
         "explanation": ""
       },
       {
+        "id": 15,
+        "question": "Cho đoạn HTML sau: Hãy chọn phát biểu đúng khi nói về kết quả hiển thị trên trình duyệt.",
+        "options": [
+          "A. Bảng trên có một hàng.",
+          "B. Bảng trên có chiều cao là 300px.",
+          "C. Một trong các ô tiêu đề của bảng là ô có giá trị \"Họ tên\".",
+          "D. \"Nguyễn Văn An\" có kết quả in đậm."
+        ],
+        "correct": 2,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId33.png"
+        ]
+      },
+      {
+        "id": 16,
+        "question": "Cho đoạn mã HTML sau: Hãy chọn phát biểu đúng khi nói về kết quả hiển thị trên trình duyệt.",
+        "options": [
+          "A. Bảng trên có chiều rộng là 300px.",
+          "B. Bảng trên có một hàng.",
+          "C. Một trong các tiêu đề của bảng là ô có giá trị \"Nguyễn Văn An\".",
+          "D. \"Nguyễn Văn An\" có kết quả in đậm."
+        ],
+        "correct": 0,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId33.png"
+        ]
+      },
+      {
         "id": 17,
         "question": "Thuộc tính định dạng colspan=\"5\" có chức năng",
         "options": [
-          "A. ghép 5 ô kề nhau  ở các hàng thành một ô.",
+          "A. ghép 5 ô kề nhau ở các hàng thành một ô.",
           "B. mở rộng toàn bộ các ô ở các hàng.",
           "C. mở rộng toàn bộ các ô ở các cột.",
           "D. ghép 5 ô kề nhau ở các cột thành một ô."
@@ -7783,25 +7882,33 @@
       },
       {
         "id": 18,
-        "question": "Cho đoạn mã HTML như sau:\nHãy chọn phát biểu ĐÚNG.",
+        "question": "Cho đoạn mã HTML như sau: Hãy chọn phát biểu ĐÚNG .",
         "options": [
-          "A. Hàng đầu tiên của bảng là tiêu đề bảng.",
-          "B. Mặc định, các nội dung từ hàng thứ hai được canh giữa và in đậm.",
-          "C. Bảng trên có 3 hàng.",
-          "D. Ô STT được canh giữa và in đậm."
+          "A. Ô STT được canh giữa và in đậm.",
+          "B. Bảng trên có 3 hàng.",
+          "C. Hàng đầu tiên của bảng là tiêu đề bảng.",
+          "D. Mặc định, các nội dung từ hàng thứ hai được canh giữa và in đậm."
         ],
-        "correct": 3,
-        "explanation": ""
+        "correct": 1,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId34.png"
+        ]
       },
       {
         "id": 19,
         "question": "Đoạn mã HTML sau đây cho kết quả nào?",
         "options": [
-          "A. B.",
-          "C. D."
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId36.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId37.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId38.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId39.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId35.png"
+        ]
       },
       {
         "id": 20,
@@ -7831,7 +7938,10 @@
         ],
         "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId40.png"
+        ]
       },
       {
         "id": 21,
@@ -7861,7 +7971,10 @@
         ],
         "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId41.png"
+        ]
       },
       {
         "id": 22,
@@ -7891,7 +8004,10 @@
         ],
         "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId42.png"
+        ]
       },
       {
         "id": 23,
@@ -7921,7 +8037,10 @@
         ],
         "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId43.png"
+        ]
       },
       {
         "id": 24,
@@ -7951,7 +8070,10 @@
         ],
         "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId44.png"
+        ]
       },
       {
         "id": 25,
@@ -7981,7 +8103,10 @@
         ],
         "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1109/f5314987581-1794230712947_2_rId45.png"
+        ]
       }
     ],
     "duration": 45,
@@ -8714,13 +8839,16 @@
         "id": 31,
         "question": "Đoạn lệnh sau hiển thị trên trang web như thế nào?",
         "options": [
-          "A. ",
-          "B. ",
-          "C. ",
-          "D. "
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId6.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId7.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId8.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId9.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
-        "correct": 2,
-        "explanation": ""
+        "correct": 0,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId5.png"
+        ]
       },
       {
         "id": 32,
@@ -8732,7 +8860,10 @@
           "D. <p style = “text-align: center” > trường THPT Trung An </p>"
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId10.png"
+        ]
       },
       {
         "id": 33,
@@ -8744,7 +8875,10 @@
           "D. h4."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId11.png"
+        ]
       },
       {
         "id": 34,
@@ -8780,19 +8914,25 @@
           "D. Gồm một dòng văn bản, \"HTML cơ bản\" có màu đỏ."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId12.png"
+        ]
       },
       {
         "id": 37,
         "question": "Cho phần tử HTML sau\nPhương án nào sau đây là kết quả hiển thị trên trình duyệt?",
         "options": [
-          "A. ",
-          "B. ",
-          "C. ",
-          "D. "
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId14.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId15.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId16.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId17.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
-        "correct": 0,
-        "explanation": ""
+        "correct": 3,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId13.png"
+        ]
       },
       {
         "id": 38,
@@ -8828,43 +8968,55 @@
           "D. 1."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId18.png"
+        ]
       },
       {
         "id": 41,
         "question": "Cho kết quả trên trình duyệt như sau:\nHãy chọn phần tử HTML hiển thị đúng kết quả như trên.",
         "options": [
-          "A. ",
-          "B. ",
-          "C. ",
-          "D. "
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId20.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId21.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId22.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId23.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
-        "correct": 1,
-        "explanation": ""
+        "correct": 2,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId19.png"
+        ]
       },
       {
         "id": 42,
         "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn thẻ HTML để được kết quả như trên.",
         "options": [
-          "A. ",
-          "B. ",
-          "C. ",
-          "D. "
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId25.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId26.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId27.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId28.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
-        "correct": 3,
-        "explanation": ""
+        "correct": 0,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId24.png"
+        ]
       },
       {
         "id": 43,
         "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn phần tử HTML để được kết quả như trên.",
         "options": [
-          "A. ",
-          "B. ",
-          "C. ",
-          "D. "
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId30.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId31.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId32.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId33.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId29.png"
+        ]
       },
       {
         "id": 44,
@@ -8882,13 +9034,16 @@
         "id": 45,
         "question": "Hãy chọn kết quả hiển thị trên trình duyệt của phần tử HTML sau:",
         "options": [
-          "A. ",
-          "B. ",
-          "C. ",
-          "D. "
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId35.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId36.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId37.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId38.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
-        "correct": 1,
-        "explanation": ""
+        "correct": 3,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId34.png"
+        ]
       },
       {
         "id": 46,
@@ -8900,7 +9055,10 @@
           "D. 3."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId39.png"
+        ]
       },
       {
         "id": 47,
@@ -8912,7 +9070,10 @@
           "D. Môn Tin học"
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId40.png"
+        ]
       },
       {
         "id": 48,
@@ -8942,13 +9103,16 @@
         "id": 50,
         "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn phần tử HTML để được kết quả như trên.",
         "options": [
-          "A. ",
-          "B. ",
-          "C. ",
-          "D. "
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId42.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId43.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId44.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId45.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId41.png"
+        ]
       },
       {
         "id": 51,
@@ -8960,7 +9124,10 @@
           "D. <u>"
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId46.png"
+        ]
       },
       {
         "id": 52,
@@ -8972,7 +9139,10 @@
           "D. Lớp 12A"
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266658803-1792663629168_2_rId40.png"
+        ]
       },
       {
         "id": 53,
@@ -9037,24 +9207,24 @@
         "id": 1,
         "question": "Cú pháp nào sau đây là thuộc tính của thẻ?",
         "options": [
-          "A. tên_thuộc_tính=\"giá trị\".",
-          "B. giá_trị=tên_thuộc_tính.",
-          "C. tên_thuộc_tính=giá_trị.",
-          "D. giá trị=\"tên_thuộc_tính\"."
+          "A. giá_trị=tên_thuộc_tính.",
+          "B. tên_thuộc_tính=\"giá trị\".",
+          "C. giá trị=\"tên_thuộc_tính\".",
+          "D. tên_thuộc_tính=giá_trị."
         ],
-        "correct": 0,
+        "correct": 1,
         "explanation": ""
       },
       {
         "id": 2,
-        "question": "Chọn cấu trúc định dạng thuộc tính kết hợp với thẻ đúng?",
+        "question": "Chọn cấu trúc định dạng thuộc tính kết hợp với thẻ đúng ?",
         "options": [
-          "A. <tên thẻ> thuộc tính = “giá trị” Nội dung</tên thẻ>",
-          "B. <tên thẻ thuộc tính:“giá trị”>Nội dung</tên thẻ>",
-          "C. <tên thẻ thuộc tính = “giá trị”>Nội dung</tên thẻ>",
-          "D. <tên thẻ thuộc tính = giá trị>Nội dung</tên thẻ>"
+          "A. <tên thẻ thuộc tính = “giá trị”>Nội dung </tên thẻ>",
+          "B. <tên thẻ thuộc tính = giá trị>Nội dung </tên thẻ>",
+          "C. <tên thẻ thuộc tính:“giá trị”>Nội dung </tên thẻ>",
+          "D. <tên thẻ> thuộc tính = “giá trị” Nội dung </tên thẻ>"
         ],
-        "correct": 2,
+        "correct": 0,
         "explanation": ""
       },
       {
@@ -9062,9 +9232,9 @@
         "question": "Ý nghĩa của thẻ <strong> khi sử dụng định dạng dòng văn bản?",
         "options": [
           "A. In đậm dòng văn bản.",
-          "B. Tạo dòng văn bản chỉ số trên.",
-          "C. Tạo gạch chân đoạn văn bản.",
-          "D. In nghiên dòng văn bản."
+          "B. In nghiên dòng văn bản.",
+          "C. Tạo dòng văn bản chỉ số trên.",
+          "D. Tạo gạch chân đoạn văn bản."
         ],
         "correct": 0,
         "explanation": ""
@@ -9073,67 +9243,78 @@
         "id": 4,
         "question": "Trong html, phát biểu nào sau đây là sai về định dạng thuộc tính cho thẻ?",
         "options": [
-          "A. Thuộc tính phải nằm trong thẻ đầu.",
-          "B. Thuộc tính của thẻ phải nằm trong thẻ kết thúc.",
-          "C. Nếu có nhiều thuộc tính định dạng một nội dung của thẻ thì các thuộc tính được viết ngăn cách bởi dấu cách.",
-          "D. Không nhất thiết tất cả các thẻ khi soạn html điều phải xác định thuộc tính."
+          "A. Nếu có nhiều thuộc tính định dạng một nội dung của thẻ thì các thuộc tính được viết ngăn cách bởi dấu cách.",
+          "B. Thuộc tính phải nằm trong thẻ đầu.",
+          "C. Không nhất thiết tất cả các thẻ khi soạn html điều phải xác định thuộc tính.",
+          "D. Thuộc tính của thẻ phải nằm trong thẻ kết thúc."
         ],
-        "correct": 1,
+        "correct": 3,
         "explanation": ""
       },
       {
         "id": 5,
         "question": "Đoạn lệnh sau hiển thị trên trang web như thế nào?",
         "options": [
-          "A. B.",
-          "C. D."
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId5.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId6.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId7.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId8.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId4.png"
+        ]
       },
       {
         "id": 6,
         "question": "Cấu trúc nào sau đây dùng định dạng phông chữ cho đoạn văn bản.",
         "options": [
-          "A. <p style = “font-size: 14px” > trường THPT Trung An </p>",
-          "B. <p style = “font-family: Brush Script MT”> trường THPT Trung An </p>",
-          "C. <p style = “color: red” >trường THPT Trung An </p>",
-          "D. <p style = “text-align: center” > trường THPT Trung An </p>"
+          "A. <p style = “ color: red ” >trường THPT Trung An </p>",
+          "B. <p style = “ font-family: Brush Script MT ”> trường THPT Trung An </p>",
+          "C. <p style = “ font-size: 14px ” > trường THPT Trung An </p>",
+          "D. <p style = “ text-align: center ” > trường THPT Trung An </p>"
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId9.png"
+        ]
       },
       {
         "id": 7,
-        "question": "Cho đoạn HTML trong hình bên dưới\nKết quả hiển thị có mức tiêu đề nhỏ nhất ở thẻ",
+        "question": "Cho đoạn HTML trong hình bên dưới Kết quả hiển thị có mức tiêu đề nhỏ nhất ở thẻ",
         "options": [
-          "A. h4.",
-          "B. h2.",
+          "A. h3.",
+          "B. h4.",
           "C. h1.",
-          "D. h3."
+          "D. h2."
         ],
-        "correct": 0,
-        "explanation": ""
+        "correct": 1,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId10.png"
+        ]
       },
       {
         "id": 8,
         "question": "Trong các thẻ sau đây, phương án nào thẻ tiêu đề văn bản?",
         "options": [
-          "A. <p>",
-          "B. <a>",
-          "C. <span>",
-          "D. <h1>"
+          "A. <a>",
+          "B. <p>",
+          "C. <h1>",
+          "D. <span>"
         ],
-        "correct": 3,
+        "correct": 2,
         "explanation": ""
       },
       {
         "id": 9,
         "question": "Hãy chọn phát biểu sai khi nói về ý nghĩa của thẻ <b> và <strong>.",
         "options": [
-          "A. Kết quả hiển thị trên trình duyệt của hai thẻ trên là hoàn toàn giống nhau.",
+          "A. Thẻ <strong> dùng để nhấn mạnh, thẻ <b> chỉ muốn trang trí là in đậm nội dung.",
           "B. Thẻ <b> dùng để nhấn mạnh, <strong> dùng để trang trí nội dung in đậm.",
-          "C. Thẻ <strong> dùng để nhấn mạnh, thẻ <b> chỉ muốn trang trí là in đậm nội dung.",
+          "C. Kết quả hiển thị trên trình duyệt của hai thẻ trên là hoàn toàn giống nhau.",
           "D. Tùy vào mục đích sử dụng, giúp máy chủ tìm kiếm xác định các nội dung chính trong trang web."
         ],
         "correct": 1,
@@ -9141,34 +9322,42 @@
       },
       {
         "id": 10,
-        "question": "Cho đoạn HTML sau\nHãy chọn phát biểu đúng khi nói đến kết quả hiển thị trên trình duyệt.",
+        "question": "Cho đoạn HTML sau Hãy chọn phát biểu đúng khi nói đến kết quả hiển thị trên trình duyệt.",
         "options": [
-          "A. Kết quả hiển thị trên trình duyệt gồm một dòng văn bản, tất cả đều màu đỏ.",
+          "A. Kết quả hiển thị gồm hai dòng văn bản.",
           "B. Kết quả hiển thị gồm hai dòng văn bản, trong đó \"Học lập trình\" có màu đỏ.",
-          "C. Kết quả hiển thị gồm hai dòng văn bản.",
-          "D. Gồm một dòng văn bản, \"HTML cơ bản\" có màu đỏ."
+          "C. Gồm một dòng văn bản, \"HTML cơ bản\" có màu đỏ.",
+          "D. Kết quả hiển thị trên trình duyệt gồm một dòng văn bản, tất cả đều màu đỏ."
         ],
-        "correct": 3,
-        "explanation": ""
+        "correct": 2,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId11.png"
+        ]
       },
       {
         "id": 11,
-        "question": "Cho phần tử HTML sau\nPhương án nào sau đây là kết quả hiển thị trên trình duyệt?",
+        "question": "Cho phần tử HTML sau Phương án nào sau đây là kết quả hiển thị trên trình duyệt?",
         "options": [
-          "A. B.",
-          "C. D."
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId13.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId14.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId15.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId16.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
-        "correct": 2,
-        "explanation": ""
+        "correct": 3,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId12.png"
+        ]
       },
       {
         "id": 12,
         "question": "Phương án nào sau đây là thẻ HTML?",
         "options": [
-          "A. <div> nội dung </div>",
+          "A. align = \"center\"",
           "B. <html>",
-          "C. <p> Nội dung</p>",
-          "D. align = \"center\""
+          "C. <div> nội dung </div>",
+          "D. <p> Nội dung</p>"
         ],
         "correct": 1,
         "explanation": ""
@@ -9177,64 +9366,82 @@
         "id": 13,
         "question": "Phương án nào sau đây là phần tử HTML?",
         "options": [
-          "A. <p> Nội dung</p>",
-          "B. <html>",
-          "C. align = \"center\"",
-          "D. thuộc tính =\"giá trị\""
+          "A. align = \"center\"",
+          "B. <p> Nội dung</p>",
+          "C. thuộc tính =\"giá trị\"",
+          "D. <html>"
         ],
-        "correct": 0,
+        "correct": 1,
         "explanation": ""
       },
       {
         "id": 14,
-        "question": "Cho đoạn HTML sau\nKết quả hiển thị trên trình duyệt của đoạn HTML trên gồm bao nhiêu dòng văn bản?",
+        "question": "Cho đoạn HTML sau Kết quả hiển thị trên trình duyệt của đoạn HTML trên gồm bao nhiêu dòng văn bản?",
         "options": [
-          "A. 4.",
-          "B. 2.",
-          "C. 1.",
-          "D. 3."
+          "A. 1.",
+          "B. 4.",
+          "C. 3.",
+          "D. 2."
         ],
-        "correct": 3,
-        "explanation": ""
+        "correct": 2,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId17.png"
+        ]
       },
       {
         "id": 15,
-        "question": "Cho kết quả trên trình duyệt như sau:\nHãy chọn phần tử HTML hiển thị đúng kết quả như trên.",
+        "question": "Cho kết quả trên trình duyệt như sau: Hãy chọn phần tử HTML hiển thị đúng kết quả như trên.",
         "options": [
-          "A. B.",
-          "C. D."
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId19.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId20.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId21.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId22.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
-        "correct": 0,
-        "explanation": ""
+        "correct": 2,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId18.png"
+        ]
       },
       {
         "id": 16,
-        "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn thẻ HTML để được kết quả như trên.",
+        "question": "Cho kết quả hiển thị trên trình duyệt như sau: Hãy chọn thẻ HTML để được kết quả như trên.",
         "options": [
-          "A. B.",
-          "C. D."
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId24.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId25.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId26.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId27.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId23.png"
+        ]
       },
       {
         "id": 17,
-        "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn phần tử HTML để được kết quả như trên.",
+        "question": "Cho kết quả hiển thị trên trình duyệt như sau: Hãy chọn phần tử HTML để được kết quả như trên.",
         "options": [
-          "A. B.",
-          "C. D."
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId29.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId30.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId31.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId32.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
-        "correct": 0,
-        "explanation": ""
+        "correct": 3,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId28.png"
+        ]
       },
       {
         "id": 18,
         "question": "Thuộc tính định dạng của thẻ được đặt ở",
         "options": [
-          "A. phía sau phần tên của thẻ kết thúc.",
+          "A. giữa hai thẻ \"< > \" và \"</>\".",
           "B. phía sau phần tên của thẻ bắt đầu.",
-          "C. giữa hai thẻ \"< > \" và \"</>\".",
-          "D. phía trước phần tên của thẻ bắt đầu."
+          "C. phía trước phần tên của thẻ bắt đầu.",
+          "D. phía sau phần tên của thẻ kết thúc."
         ],
         "correct": 1,
         "explanation": ""
@@ -9243,121 +9450,143 @@
         "id": 19,
         "question": "Hãy chọn kết quả hiển thị trên trình duyệt của phần tử HTML sau:",
         "options": [
-          "A. B.",
-          "C. D."
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId34.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId35.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId36.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId37.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
-        "correct": 0,
-        "explanation": ""
+        "correct": 3,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId33.png"
+        ]
       },
       {
         "id": 20,
-        "question": "Cho đoạn HTML sau\nKết quả hiển thị trên trình duyệt của đoạn HTML trên gồm bao nhiêu dòng văn bản?",
+        "question": "Cho đoạn HTML sau Kết quả hiển thị trên trình duyệt của đoạn HTML trên gồm bao nhiêu dòng văn bản?",
         "options": [
-          "A. 3.",
-          "B. 1.",
-          "C. 2.",
-          "D. 4."
+          "A. 1.",
+          "B. 4.",
+          "C. 3.",
+          "D. 2."
         ],
-        "correct": 2,
-        "explanation": ""
+        "correct": 3,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId38.png"
+        ]
       },
       {
         "id": 21,
-        "question": "Cho đoạn mã HTML sau:\nKết quả hiển thị có mức tiêu đề lớn nhất là",
+        "question": "Cho đoạn mã HTML sau: Kết quả hiển thị có mức tiêu đề lớn nhất là",
         "options": [
           "A. Lớp 12A",
           "B. Tổ 2",
-          "C. Tổ 1",
-          "D. Môn Tin học"
+          "C. Môn Tin học",
+          "D. Tổ 1"
         ],
-        "correct": 3,
-        "explanation": ""
+        "correct": 2,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId39.png"
+        ]
       },
       {
         "id": 22,
         "question": "Trong các thẻ sau đây, thẻ nào dùng định dạng tiêu đề văn bản?",
         "options": [
-          "A. <h3>",
-          "B. <p>",
-          "C. <span>",
-          "D. <a>"
+          "A. <a>",
+          "B. <span>",
+          "C. <h3>",
+          "D. <p>"
         ],
-        "correct": 0,
+        "correct": 2,
         "explanation": ""
       },
       {
         "id": 23,
         "question": "Thuộc tính nào sau đây dùng để định dạng font chữ trong HTML?",
         "options": [
-          "A. style=\"font-style:arial\"",
-          "B. style=\"font-weight:arial\"",
-          "C. style=\"font-size:arial\"",
-          "D. style=\"font-family:arial\""
+          "A. style=\"font-size:arial\"",
+          "B. style=\"font-style:arial\"",
+          "C. style=\"font-family:arial\"",
+          "D. style=\"font-weight:arial\""
         ],
-        "correct": 3,
+        "correct": 2,
         "explanation": ""
       },
       {
         "id": 24,
-        "question": "Cho kết quả hiển thị trên trình duyệt như sau:\nHãy chọn phần tử HTML để được kết quả như trên.",
+        "question": "Cho kết quả hiển thị trên trình duyệt như sau: Hãy chọn phần tử HTML để được kết quả như trên.",
         "options": [
-          "A. B.",
-          "C. D."
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId41.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId42.png\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId43.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId44.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
-        "correct": 0,
-        "explanation": ""
+        "correct": 3,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId40.png"
+        ]
       },
       {
         "id": 25,
         "question": "Phương án nào sau đây là thẻ cha của đoạn mã HTML sau?",
         "options": [
-          "A. <u>",
-          "B. <p>",
-          "C. <br>",
-          "D. <a>"
+          "A. <br>",
+          "B. <u>",
+          "C. <a>",
+          "D. <p>"
         ],
-        "correct": 1,
-        "explanation": ""
+        "correct": 3,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId45.png"
+        ]
       },
       {
         "id": 26,
-        "question": "Cho đoạn mã HTML sau:\nKết quả hiển thị có mức tiêu đề nhỏ nhất là",
+        "question": "Cho đoạn mã HTML sau: Kết quả hiển thị có mức tiêu đề nhỏ nhất là",
         "options": [
-          "A. Tổ 1",
+          "A. Lớp 12A",
           "B. Môn Tin học",
-          "C. Lớp 12A",
+          "C. Tổ 1",
           "D. Tổ 2"
         ],
-        "correct": 0,
-        "explanation": ""
+        "correct": 2,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1022/f5266667968-1792663750493_2_rId39.png"
+        ]
       },
       {
         "id": 27,
         "question": "Thẻ <strong> có chức năng",
         "options": [
-          "A. gạch chân văn bản.",
-          "B. in đậm, ý nghĩa nhấn mạnh nội dung.",
-          "C. in nghiêng đoạn văn bản.",
+          "A. in đậm, ý nghĩa nhấn mạnh nội dung.",
+          "B. in nghiêng đoạn văn bản.",
+          "C. gạch chân văn bản.",
           "D. tô đậm giống như thẻ <u>."
         ],
-        "correct": 1,
+        "correct": 0,
         "explanation": ""
       },
       {
         "id": 28,
         "question": "Trong các thẻ sau đây, thẻ nào dùng để định dạng đoạn văn bản?",
         "options": [
-          "A. <h3>",
-          "B. <a>",
-          "C. <span>",
-          "D. <p>"
+          "A. <span>",
+          "B. <p>",
+          "C. <h3>",
+          "D. <a>"
         ],
-        "correct": 3,
+        "correct": 1,
         "explanation": ""
       },
       {
         "id": 29,
-        "question": "Đoạn lệnh HTML nào sau đây là đúng để hiển thị kết quả sau trên trình duyệt?\nHợp kim titan cứng nhất thế giới được tạo bằng công nghệ in 3D.",
+        "question": "Đoạn lệnh HTML nào sau đây là đúng để hiển thị kết quả sau trên trình duyệt? Hợp kim titan cứng nhất thế giới được tạo bằng công nghệ in 3D .",
         "options": [
           "A. Hợp kim <em>titan</em> cứng nhất thế giới được tạo bằng <strong>công nghệ in 3D<strong>.",
           "B. Hợp kim <em>titan</em> cứng nhất thế giới được tạo bằng <h1>công nghệ in 3D<h1>.",
@@ -13532,39 +13761,51 @@
     "questions": [
       {
         "id": 1,
-        "question": "Hiện tượng thực tế nào dưới đây không đúng khi nói về lực liên kết giữa các phân tử ở thể khí, thể lỏng và thể rắn?",
+        "question": "Hiện tượng thực tế nào dưới đây không đúng khi nói về lực liên kết giữa các phân tử ở thể khí, thể lỏng và thể rắn?",
         "options": [
-          "A. Các vật rắn như cốc hoặc bình nước có hình dạng cụ thể vì lực liên kết giữa các phân tử chất rắn rất lớn, giúp chúng giữ hình dạng cố định.B. Khi đổ nước vào cốc, nước có hình dạng phụ thuộc vào vật chứa vì lực liên kết giữa các phân tử chất lỏng lớn hơn so với chất khí.C. Khi thả một quả bóng bay vào không khí, quả bóng giữ nguyên hình dạng, chứng tỏ lực liên kết giữa các phân tử khí rất mạnh.D. Hơi nước bay ra từ vòi ấm khi nước sôi nhưng nhanh chóng biến mất và không còn thấy rõ vì các phân tử hơi nước bị phá vỡ liên kết và hòa lẫn vào không khí."
+          "A. Hơi nước bay ra từ vòi ấm khi nước sôi nhưng nhanh chóng biến mất và không còn thấy rõ vì các phân tử hơi nước bị phá vỡ liên kết và hòa lẫn vào không khí.",
+          "B. Khi đổ nước vào cốc, nước có hình dạng phụ thuộc vào vật chứa vì lực liên kết giữa các phân tử chất lỏng lớn hơn so với chất khí.",
+          "C. Các vật rắn như cốc hoặc bình nước có hình dạng cụ thể vì lực liên kết giữa các phân tử chất rắn rất lớn, giúp chúng giữ hình dạng cố định.",
+          "D. Khi thả một quả bóng bay vào không khí, quả bóng giữ nguyên hình dạng, chứng tỏ lực liên kết giữa các phân tử khí rất mạnh."
         ],
-        "correct": 0,
-        "explanation": "Khi thả một quả bóng bay vào không khí, quả bóng giữ nguyên hình dạng không phải vì lực liên kết giữa các phân tử khí bên trong quả bóng mạnh, mà là do lực căng bề mặt của lớp cao su của quả bóng."
+        "correct": 3,
+        "explanation": ""
       },
       {
         "id": 2,
         "question": "Đâu không phải là tính chất của chất khí?",
         "options": [
-          "A. Gây ra áp suất lên thành bình chứa.B. Không thay đổi áp suất khi nhiệt độ thay đổi.C. Có hình dạng và thể tích của bình chứa nó.D. Dễ bị nén, có khối lượng riêng nhỏ hơn nhiều so với chất lỏng và chất rắn."
+          "A. Có hình dạng và thể tích của bình chứa nó.",
+          "B. Dễ bị nén, có khối lượng riêng nhỏ hơn nhiều so với chất lỏng và chất rắn.",
+          "C. Không thay đổi áp suất khi nhiệt độ thay đổi.",
+          "D. Gây ra áp suất lên thành bình chứa."
         ],
-        "correct": 0,
-        "explanation": "​Chất khí có ba tính chất sau:\n- Có hình dạng và thể tích của bình chứa nó. Có khối lượng riêng nhỏ hơn nhiều so với chất lỏng và chất rắn.- Dễ bị nén.- Gây ra áp suất lên thành bình chứa nó. Khi nhiệt độ tăng, áp suất khí tác dụng lên thành bình tăng."
+        "correct": 2,
+        "explanation": ""
       },
       {
         "id": 3,
-        "question": "Số phân tử có trong 2 g nước (H2O) là",
+        "question": "Số phân tử có trong 2 g nước (H 2 O) là",
         "options": [
-          "A. 6,68.1022.B. 2,02.1023.C. 6,02.1023.D. 2,28.1022."
+          "A. 6,68.10 22 .",
+          "B. 6,02.10 23 .",
+          "C. 2,28.10 22 .",
+          "D. 2,02.10 23 ."
         ],
         "correct": 0,
-        "explanation": "Số mol nước là​\n$n=\\frac{2}{18}=\\frac{1}{9}$  mol\nSố phân tử có trong 2 g nước là\n$N=n.{N}_{A}=\\frac{1}{9}.6,{02.10}^{23}=6,{68.10}^{22}$ ."
+        "explanation": ""
       },
       {
         "id": 4,
-        "question": "Nhận xét nào sau đây về các phân tử khí lí tưởng là không đúng?",
+        "question": "Nhận xét nào sau đây về các phân tử khí lí tưởng là không đúng ?",
         "options": [
-          "A. Tương tác khi va chạm với nhau.B. Có lực tương tác đáng kể khi không va chạm.C. Được coi là các chất điểm.D. Tương tác khi va chạm với thành bình."
+          "A. Được coi là các chất điểm.",
+          "B. Có lực tương tác đáng kể khi không va chạm.",
+          "C. Tương tác khi va chạm với nhau.",
+          "D. Tương tác khi va chạm với thành bình."
         ],
-        "correct": 0,
-        "explanation": "​Các phân tử khí lí tưởng không tương tác với nhau khi chưa va chạm."
+        "correct": 1,
+        "explanation": ""
       },
       {
         "id": 5,
@@ -13599,7 +13840,7 @@
       {
         "id": 6,
         "type": "short_answer",
-        "question": "Số phân tử có trong m (g) nước (H 2 O) là 1,505.10 23 . Khối lượng m có giá trị là bao nhiêu gam? Đáp án: . Hướng dẫn giải: Số mol nước là​ \\(n=\\dfrac{1,505.10^{23}}{6,02.10^{23}}=0,25\\) mol. Khối lượng nước là \\(m=n.M=0,25.18=4,5\\) gam.",
+        "question": "Số phân tử có trong m (g) nước (H 2 O) là 1,505.10 23 . Khối lượng m có giá trị là bao nhiêu gam (làm tròn kết quả đến chữ số hàng phần mười)? Đáp án: . Hướng dẫn giải: Số mol nước là​ \\(n=\\dfrac{1,505.10^{23}}{6,02.10^{23}}=0,25\\) mol. Khối lượng nước là \\(m=n.M=0,25.18=4,5\\) gam.",
         "options": [],
         "correctAnswer": "4,5",
         "correct": 0,
@@ -14434,7 +14675,10 @@
         "id": 1,
         "question": "Trong không gian cho hai vectơ  $a$  và  $b$  thỏa mãn  $\\left| a \\right|=3,$   $\\left| b \\right|=2$  và  $a.b=−3.$  Góc giữa hai vectơ  $a$  và  $b$  là",
         "options": [
-          "A. $α={45}^{∘}$  .B.  $α={30}^{∘}$  .C.  $α={60}^{∘}$  .D.  $α={120}^{∘}$  ."
+          "A. $α={45}^{∘}$.",
+          "B. $α={30}^{∘}$.",
+          "C. $α={60}^{∘}$.",
+          "D. $α={120}^{∘}$."
         ],
         "correct": 0,
         "explanation": "Ta có  $a.b=\\left| a \\right|.\\left| b \\right|.cos(a,b)$\n$⇒cos(a,b)=\\frac{a.b}{\\left| a \\right|.\\left| b \\right|}=\\frac{−3}{3.2}=−\\frac{1}{2}$\n$⇒(a,b)={120}^{∘}$  ."
@@ -14443,7 +14687,10 @@
         "id": 2,
         "question": "Trong không gian cho hai vectơ  $a$  và  $b$  khác  $0$  . Số đo góc  $α$  giữa hai vectơ  $a$  và  $b$  khi  $a.b=−\\left| a \\right|.\\left| b \\right|$  bằng",
         "options": [
-          "A. $α={0}^{∘}$  .B.  $α={90}^{∘}$  .C.  $α={45}^{∘}$  .D.  $α={180}^{∘}$  ."
+          "A. $α={0}^{∘}$.",
+          "B. $α={90}^{∘}$.",
+          "C. $α={45}^{∘}$.",
+          "D. $α={180}^{∘}$."
         ],
         "correct": 0,
         "explanation": "Theo giả thiết  $a.b=−\\left| a \\right|.\\left| b \\right|$  , suy ra  $cos(a,b)=−1$\n$⇒(a,b)={180}^{∘}$  ."
@@ -14452,7 +14699,10 @@
         "id": 3,
         "question": "Cho hai vectơ  $u,v$  có  $|u|=3, |v|=4$  và góc giữa hai vectơ  $u,v$  bằng  ${60}^{∘}$  . Tích vô hướng  $u.v$  bằng",
         "options": [
-          "A. 12 .B.  $−6$  .C. 6 .D.  $−12$  ."
+          "A. 12.",
+          "B. $−6$.",
+          "C. 6.",
+          "D. $−12$."
         ],
         "correct": 0,
         "explanation": "Ta có  $u.v=|u|.|v|.cos(u,v)=3.4.cos{60}^{∘}=6$  ."
@@ -14461,8 +14711,10 @@
         "id": 4,
         "question": "Cho hình lập phương  $ABCD.{A}^{′}{B}^{′}{C}^{′}{D}^{′}$  có độ dài cạnh là a . Khi đó  $AB.AD$  bằng",
         "options": [
-          "A. ${a}^{2}$  .B.  $0.$",
-          "C. a .D.  $\\frac{{a}^{2}}{2}$  ."
+          "A. ${a}^{2}$.",
+          "B. $0.$",
+          "C. a.",
+          "D. $\\frac{{a}^{2}}{2}$."
         ],
         "correct": 0,
         "explanation": "Do  $AB⊥AD$  nên  $(AB,AD)={90}^{∘}$   $⇒$   $AB.AD=0$  ."
@@ -14471,7 +14723,10 @@
         "id": 5,
         "question": "Cho hình hộp chữ nhật  $ABCD.{A}^{′}{B}^{′}{C}^{′}{D}^{′}$  . Mệnh đề nào sau đâyđúng?",
         "options": [
-          "A. $AB.BA′=0$  .B.  $AB.AB′=0$  .C.  $AB.BB′=0$  .D.  $AB.A′B′=0$  ."
+          "A. $AB.BA′=0$.",
+          "B. $AB.AB′=0$.",
+          "C. $AB.BB′=0$.",
+          "D. $AB.A′B′=0$."
         ],
         "correct": 0,
         "explanation": "$AB⊥B{B}^{′}⇒AB.BB′=0$  ."
@@ -14480,7 +14735,10 @@
         "id": 6,
         "question": "Cho hình chóp S.ABC có  $AB=4$  ,  $BAC={60}^{∘}$  và  $AB.AC=6$  . Khi đó độ dài  $AC$  là",
         "options": [
-          "A. 3 .B. 6 .C. 4 .D. 12 ."
+          "A. 3.",
+          "B. 6.",
+          "C. 4.",
+          "D. 12."
         ],
         "correct": 0,
         "explanation": "Ta có:  $AB.AC=AB.AC.cosBAC$   $⇔6=4.AC.cos{60}^{∘}⇔AC=3$  .\nDo đó  $|AC|=AC=3$  ."
@@ -14489,7 +14747,10 @@
         "id": 7,
         "question": "Trong không gian cho  $a$  và  $b$  là hai vectơ cùng hướng và đều khác vectơ  $0$  . Mệnh đề nào sau đâyđúng?",
         "options": [
-          "A. $a.b=−\\left| a \\right|.\\left| b \\right|$  .B.  $a.b=0$  .C.  $a.b=−1$  .D.  $a.b=\\left| a \\right|.\\left| b \\right|$  ."
+          "A. $a.b=−\\left| a \\right|.\\left| b \\right|$.",
+          "B. $a.b=0$.",
+          "C. $a.b=−1$.",
+          "D. $a.b=\\left| a \\right|.\\left| b \\right|$."
         ],
         "correct": 0,
         "explanation": "Do  $a$  và  $b$  là hai vectơ cùng hướng nên  $(a,b)={0}^{∘}$\n$⇒cos(a,b)=1$  .\nVậy  $a.b=\\left| a \\right|.\\left| b \\right|$  ."
@@ -14498,7 +14759,10 @@
         "id": 8,
         "question": "Cho hình lập phương  $ABCD.{A}_{1}{B}_{1}{C}_{1}{D}_{1}$  có cạnh a . Gọi M là trung điểm AD . Giá trị  $B1M.BD1$  là",
         "options": [
-          "A. ${a}^{2}$  .B.  $\\frac{1}{2}{a}^{2}$  .C.  $\\frac{3}{2}{a}^{2}$  .D.  $\\frac{3}{4}{a}^{2}$  ."
+          "A. ${a}^{2}$.",
+          "B. $\\frac{1}{2}{a}^{2}$.",
+          "C. $\\frac{3}{2}{a}^{2}$.",
+          "D. $\\frac{3}{4}{a}^{2}$."
         ],
         "correct": 0,
         "explanation": "Ta có:  $B1M.BD1=(B1B+BA+AM)(BA+AD+DD1)$\n$=B1B.DD1+{BA}^{2}+AM.AD=−{a}^{2}+{a}^{2}+\\frac{{a}^{2}}{2}=\\frac{{a}^{2}}{2}$  ."
@@ -14507,7 +14771,10 @@
         "id": 9,
         "question": "Cho tứ diện đều ABCD . Góc giữa hai vectơ  $AB$  và  $CD$  bằng",
         "options": [
-          "A. ${60}^{∘}$  .B.  ${30}^{∘}$  .C.  ${90}^{∘}$  .D.  ${120}^{∘}$  ."
+          "A. ${60}^{∘}$.",
+          "B. ${30}^{∘}$.",
+          "C. ${90}^{∘}$.",
+          "D. ${120}^{∘}$."
         ],
         "correct": 0,
         "explanation": "Vì ABCD là tứ diện đều nên  $ΔABC, ΔABD$  là các tam giác đều.\nTa có $\\overrightarrow{AB}.\\overrightarrow{CD}=\\overrightarrow{AB}.(\\overrightarrow{AD}-\\overrightarrow{AC})=\\overrightarrow{AB}.\\overrightarrow{AD}-\\overrightarrow{AB}.\\overrightarrow{AC}=AB.AD.\\cos 60{}^\\circ -AB.AC.\\cos 60{}^\\circ =0$.\nSuy ra  $AB⊥ CD$  ."
@@ -14516,7 +14783,10 @@
         "id": 10,
         "question": "Trong không gian cho hai vectơ  $a,b$  thỏa mãn:  $\\left| a \\right|=4;\\left| b \\right|=3;\\left| a−b \\right|=4$  . Gọi  $α$  là góc giữa hai vectơ  $a,b$  . Khẳng định nào sau đâyđúng?",
         "options": [
-          "A. $α={30}^{∘}$  .B.  $cosα=\\frac{3}{8}$  .C.  $α={60}^{∘}$  .D.  $cosα=\\frac{1}{3}$  ."
+          "A. $α={30}^{∘}$.",
+          "B. $cosα=\\frac{3}{8}$.",
+          "C. $α={60}^{∘}$.",
+          "D. $cosα=\\frac{1}{3}$."
         ],
         "correct": 0,
         "explanation": "Ta có  $(a−b{)}^{2}={\\left| a \\right|}^{2}+{\\left| b \\right|}^{2}−2a.b⇒a.b=\\frac{9}{2}.$\nDo đó:  $cosα=\\frac{a.b}{\\left| a \\right|.\\left| b \\right|}=\\frac{\\frac{9}{2}}{12}=\\frac{3}{8}$  ."
@@ -14526,7 +14796,8 @@
         "question": "Trong không gian cho hai vectơ  $a,b$  thỏa mãn:  $\\left| a \\right|=26;\\left| b \\right|=28;\\left| a+b \\right|=48$  . Độ dài vectơ  $a−b$  bằng",
         "options": [
           "A. $9.$",
-          "B. $\\sqrt{618}$  .C.  $25.$",
+          "B. $\\sqrt{618}$.",
+          "C. $25.$",
           "D. $\\sqrt{616}$  ."
         ],
         "correct": 3,
@@ -14536,7 +14807,10 @@
         "id": 12,
         "question": "Cho tứ diện ABCD có  $AB=AC=AD$  và  $BAC=BAD={60}^{∘}$  . Số đo góc giữa cặp vectơ  $AB$  và  $CD$  bằng",
         "options": [
-          "A. ${90}^{∘}$  .B.  ${45}^{∘}$  .C.  ${120}^{∘}$  .D.  ${60}^{∘}$  ."
+          "A. ${90}^{∘}$.",
+          "B. ${45}^{∘}$.",
+          "C. ${120}^{∘}$.",
+          "D. ${60}^{∘}$."
         ],
         "correct": 0,
         "explanation": "Ta có:  $AB.CD=AB.(AD−AC)=AB.AD−AB.AC$\n$=AB.AD.cos{60}^{∘}−AB.AC.cos{60}^{∘}=0$\n$⇒(AB,CD)={90}^{∘}$  ."
@@ -14545,7 +14819,10 @@
         "id": 13,
         "question": "Cho hình lập phương ABCD.EFGH có cạnh bằng 7 . Giá trị của  $AB.EG$  là",
         "options": [
-          "A. 343 .B.  $\\frac{7\\sqrt{3}}{3}$  .C. 49 .D. 7 ."
+          "A. 343.",
+          "B. $\\frac{7\\sqrt{3}}{3}$.",
+          "C. 49.",
+          "D. 7."
         ],
         "correct": 0,
         "explanation": "Ta có:  $AC=AB+AD$\n$⇒AB.EG=AB.AC$\n$=AB.(AB+AD)$\n$={AB}^{2}+AB.AD$\n$={7}^{2}=49$  .​"
@@ -14554,7 +14831,10 @@
         "id": 14,
         "question": "Cho hình lập phương ABCD.EFGH có cạnh bằng a . Ta có  $AB.EG$  bằng",
         "options": [
-          "A. ${a}^{2}$  .B.  $\\frac{{a}^{2}\\sqrt{2}}{2}$  .C.  ${a}^{2}\\sqrt{3}$  .D.  ${a}^{2}\\sqrt{2}$  ."
+          "A. ${a}^{2}$.",
+          "B. $\\frac{{a}^{2}\\sqrt{2}}{2}$.",
+          "C. ${a}^{2}\\sqrt{3}$.",
+          "D. ${a}^{2}\\sqrt{2}$."
         ],
         "correct": 0,
         "explanation": "$AB.EG=AB.(EF+EH)=AB.EF+AB.EH$   $={AB}^{2}+AB.AD  (EH=AD)={a}^{2}$  (do  $AB⊥AD$  )."
@@ -14718,7 +14998,10 @@
         "id": 1,
         "question": "Cho tứ diện SABC có  $M, N, P$  lần lượt là trung điểm của  $SA, SB, SC$  . Khẳng định nào dưới đâyđúng?",
         "options": [
-          "A. $AB=\\frac{1}{2}\\left( PN−PM \\right)$  .B.  $AB=2\\left( PN−PM \\right)$  .C.  $AB=PN−PM$  .D.  $AB=2\\left( PM−PN \\right)$  ."
+          "A. $AB=\\frac{1}{2}\\left( PN−PM \\right)$.",
+          "B. $AB=2\\left( PN−PM \\right)$.",
+          "C. $AB=PN−PM$.",
+          "D. $AB=2\\left( PM−PN \\right)$."
         ],
         "correct": 0,
         "explanation": "Ta có:  $AB=2MN$   $=2\\left( PN−PM \\right)$  ."
@@ -14727,7 +15010,10 @@
         "id": 2,
         "question": "Cho hình lập phương  $ABCD.{A}_{1}{B}_{1}{C}_{1}{D}_{1}$  có tâm O . Đẳng thức nào sau đây đúng?",
         "options": [
-          "A. $AO=\\frac{1}{3}\\left( AB+AD+AA1 \\right)$  .B.  $AO=\\frac{1}{2}\\left( AB+AD+AA1 \\right)$  .C.  $AO=\\frac{2}{3}\\left( AB+AD+AA1 \\right)$  .D.  $AO=\\frac{1}{4}\\left( AB+AD+AA1 \\right)$  ."
+          "A. $AO=\\frac{1}{3}\\left( AB+AD+AA1 \\right)$.",
+          "B. $AO=\\frac{1}{2}\\left( AB+AD+AA1 \\right)$.",
+          "C. $AO=\\frac{2}{3}\\left( AB+AD+AA1 \\right)$.",
+          "D. $AO=\\frac{1}{4}\\left( AB+AD+AA1 \\right)$."
         ],
         "correct": 0,
         "explanation": "Theo quy tắc hình hộp:\n$AC1=AB+AD+AA1$\nMà  $AO=\\frac{1}{2}AC1$  nên:\n$AO=\\frac{1}{2}\\left( AB+AD+AA1 \\right)$  .​"
@@ -14736,7 +15022,10 @@
         "id": 3,
         "question": "Cho hình hộp ABCD.EFGH . Khi đó  $AB−EH$  là",
         "options": [
-          "A. $EG$  .B.  $BH$  .C.  $DB$  .D.  $BD$  ."
+          "A. $EG$.",
+          "B. $BH$.",
+          "C. $DB$.",
+          "D. $BD$."
         ],
         "correct": 0,
         "explanation": "Do ABCD.EFGH là hình hộp nên  $EH=AD$  và hai vectơ  $EH, AD$  cùng hướng nên  $EH=AD$  .\nTa có  $AB−EH=AB−AD=DB$  ."
@@ -14745,7 +15034,10 @@
         "id": 4,
         "question": "Cho hình lập phương  $ABCD.{A}^{′}{B}^{′}{C}^{′}{D}^{′}$  cạnh a . Độ dài vectơ  $x=A′C′−A′A$  theo a bằng bao nhiêu?",
         "options": [
-          "A. $\\frac{a\\sqrt{3}}{2}$  .B.  $a\\sqrt{2}$  .C.  $a\\sqrt{6}$  .D.  $a\\sqrt{3}$  ."
+          "A. $\\frac{a\\sqrt{3}}{2}$.",
+          "B. $a\\sqrt{2}$.",
+          "C. $a\\sqrt{6}$.",
+          "D. $a\\sqrt{3}$."
         ],
         "correct": 0,
         "explanation": "Ta có  $x=A′C′−A′A=AC′$  .\nDo đó  $|x|=|AC′|=A{C}^{′}=a\\sqrt{3}$  ."
@@ -14754,7 +15046,10 @@
         "id": 5,
         "question": "Cho hình lập phương  $ABCD.{A}^{′}{B}^{′}{C}^{′}{D}^{′}$  . Gọi O là tâm của hình lập phương. Khẳng định nào sau đây làđúng?",
         "options": [
-          "A. $AO=\\frac{1}{4}(AB+AD+AA′)$  .B.  $AO=\\frac{1}{3}(AB+AD+AA′)$  .C.  $AO=\\frac{2}{3}(AB+AD+AA′)$  .D.  $AO=\\frac{1}{2}(AB+AD+AA′)$  ."
+          "A. $AO=\\frac{1}{4}(AB+AD+AA′)$.",
+          "B. $AO=\\frac{1}{3}(AB+AD+AA′)$.",
+          "C. $AO=\\frac{2}{3}(AB+AD+AA′)$.",
+          "D. $AO=\\frac{1}{2}(AB+AD+AA′)$."
         ],
         "correct": 0,
         "explanation": "Ta có  $AC’=AB+AD+AA’$\nMặt khác O là trung điểm  $AC’⇒AO=\\frac{1}{2}AC’=\\frac{1}{2}(AB+AD+AA’)$  ."
@@ -14764,7 +15059,8 @@
         "question": "Cho tứ diện ABCD . Gọi G là trọng tâm tam giác $ABC. Giá trị của  k  thích hợp điền vào đẳng thức vectơ  \\overrightarrow{DA}+\\overrightarrow{DB}+\\overrightarrow{DC}=k\\overrightarrow{DG}$ là",
         "options": [
           "A. $k=2.$",
-          "B. $k=\\frac{1}{2}$  .C.  $k=3.$",
+          "B. $k=\\frac{1}{2}$.",
+          "C. $k=3.$",
           "D. $k=\\frac{1}{3}$  ."
         ],
         "correct": 0,
@@ -14774,7 +15070,10 @@
         "id": 7,
         "question": "Cho hình hộp  $ABCD.{A}^{′}{B}^{′}{C}^{′}{D}^{′}$  có đáy ABCD hình bình hành tâm O . Khi đó  $2.AO$  bằng vectơ nào sau đây?",
         "options": [
-          "A. $AD$  .B.  $A′C$  .C.  $AC$  .D.  $AB$  ."
+          "A. $AD$.",
+          "B. $A′C$.",
+          "C. $AC$.",
+          "D. $AB$."
         ],
         "correct": 0,
         "explanation": "Trong hình hộp  $ABCD.{A}^{′}{B}^{′}{C}^{′}{D}^{′}$  , ta có  $AC$  và  $AO$  cùng hướng và  $AC=2AO$  .\nDo đó  $AC=2AO.$"
@@ -14783,7 +15082,10 @@
         "id": 8,
         "question": "Trong không gian, cho hình hộp  $ABCD.{A}^{′}{B}^{′}{C}^{′}{D}^{′}$  . Mệnh đề nào dưới đâysai?",
         "options": [
-          "A. $AC′=AB+AD+AA′$  .B.  $BD=BA+BC+BB′$  .C.  $CA′=CB+CD+CC′$  .D.  $C′A′=C′B′+C′D′$  ."
+          "A. $AC′=AB+AD+AA′$.",
+          "B. $BD=BA+BC+BB′$.",
+          "C. $CA′=CB+CD+CC′$.",
+          "D. $C′A′=C′B′+C′D′$."
         ],
         "correct": 0,
         "explanation": "+ Đáp án A đúng.\nTheo quy tắc hình hộp:\n$AC′=AB+AD+AA′$  .\n+ Đáp án C đúng.\nTheo quy tắc hình hộp:\n$CA′=CB+CD+CC′$  .\n+ Đáp án D đúng.\nTheo quy tắc hình bình hành:\n$C′A′=C′B′+C′D′$  .\n+ Đáp án B sai.\nTheo quy tắc hình hộp:\n$BD′=BA+BC+BB′$  ."
@@ -14792,7 +15094,9 @@
         "id": 9,
         "question": "Cho hình lập phương  $ABCD.{A}^{′}{B}^{′}{C}^{′}{D}^{′}$  . Vectơ nào sau đây có điểm đầu và điểm cuối là đỉnh của hình lập phương  $ABCD.{A}^{′}{B}^{′}{C}^{′}{D}^{′}$  và bằng  $AD$  ?",
         "options": [
-          "A. $AB$  .​​B.  $B′C′$  .C.  $DA$  .D.  $CB$  ."
+          "A. $AB$  .​​B.  $B′C′$",
+          "C. $DA$",
+          "D. $CB$."
         ],
         "correct": 0,
         "explanation": "Do  $ABCD.{A}^{′}{B}^{′}{C}^{′}{D}^{′}$  là hình lập phương nên ta có  $AD={B}^{′}{C}^{′}$\nTa thấy  $AD$  và  $B′C′$  cùng hướng nên  $AD=B′C′$  ."
@@ -14801,7 +15105,10 @@
         "id": 10,
         "question": "Trong không gian cho ba vectơ  $a,b,c$  không đồng phẳng. Khẳng định nào dưới đâyđúng?",
         "options": [
-          "A. $x=a−2b+4c$ và  $y=3a−3b+2c$  và  $z=2a−3b−3c$  đồng phẳng.B.  $x=a+b+2c$ và  $y=2a−3b−6c$  và  $z=−a+3b+6c$  đồng phẳng.C.  $x=a+b−c$ và  $y=2a−b+3c$  và  $z=−a−b+2c$  đồng phẳng.D.  $x=a+b+c$ và  $y=2a−3b+c$  và  $z=−a+3b+3c$  đồng phẳng."
+          "A. $x=a−2b+4c$ và  $y=3a−3b+2c$  và  $z=2a−3b−3c$  đồng phẳng.",
+          "B. $x=a+b+2c$ và  $y=2a−3b−6c$  và  $z=−a+3b+6c$  đồng phẳng.",
+          "C. $x=a+b−c$ và  $y=2a−b+3c$  và  $z=−a−b+2c$  đồng phẳng.",
+          "D. $x=a+b+c$ và  $y=2a−3b+c$  và  $z=−a+3b+3c$  đồng phẳng."
         ],
         "correct": 0,
         "explanation": "Ta có  $x,y,z$  đồng phẳng khi và chỉ khi  $∃m,n:x=my+nz$  .\nVới  $\\begin{cases} x=a+b+2c \\\\ y=2a−3b−6c \\\\ z=−a+3b+6c \\end{cases}⇒x=\\frac{4}{3}y+\\frac{5}{3}z⇒x,y,z$  đồng phẳng."
@@ -14810,7 +15117,10 @@
         "id": 11,
         "question": "Cho hình lăng trụ  $ABC.A’B’C’$  . Đặt  $AA’=a$  ,  $AB=b$  ,  $AC=c$  . Gọi  ${G}^{′}$  là trọng tâm của tam giác  $A’B’C’$  , khi đó  $AG′$  bằng",
         "options": [
-          "A. $\\frac{1}{3}(3a+b+c)$  .B.  $\\frac{1}{3}(a+b+3c)$  .C.  $\\frac{1}{3}(a+b+c)$  .D.  $\\frac{1}{3}(a+3b+c)$  ."
+          "A. $\\frac{1}{3}(3a+b+c)$.",
+          "B. $\\frac{1}{3}(a+b+3c)$.",
+          "C. $\\frac{1}{3}(a+b+c)$.",
+          "D. $\\frac{1}{3}(a+3b+c)$."
         ],
         "correct": 0,
         "explanation": "Gọi I là trung điểm  $B’C’$  . Vì  ${G}^{′}$  là trọng tâm tam giác  $A’B’C’$  nên  $A’G′=\\frac{2}{3}A’I$  .\nMặt khác  $AG′=AA’+A’G′=AA’+\\frac{2}{3}A’I=AA’+\\frac{1}{3}(A’B’+A’C’)$\n$=AA’+\\frac{1}{3}(AB+AC)=\\frac{1}{3}(3AA’+AB+AC)=\\frac{1}{3}(3a+b+c)$  ."
@@ -14819,7 +15129,10 @@
         "id": 12,
         "question": "Cho hình hộp  $ABCD.{A}^{′}{B}^{′}{C}^{′}{D}^{′}$  . Đặt  $AB=a$  ,  $AD=b$  ,  $AA′=c$  . Phân tích vectơ  $AC′$  theo  $a,b,c$  được kết quả là",
         "options": [
-          "A. $AC′=a+b−c$  .B.  $AC′=a+b+c$  .C.  $AC′=a−b+c$  .D.  $AC′=−a+b+c$  ."
+          "A. $AC′=a+b−c$.",
+          "B. $AC′=a+b+c$.",
+          "C. $AC′=a−b+c$.",
+          "D. $AC′=−a+b+c$."
         ],
         "correct": 0,
         "explanation": "Ta có  $AC’=AA’+AC=AA’+AB+AD=a+b+c$  ."
@@ -14828,7 +15141,10 @@
         "id": 13,
         "question": "Trong không gian cho hình hộp  $ABCD.A’B’C’D’$  . Mệnh đề nào dưới đâysai?",
         "options": [
-          "A. $CA’=CB+CD+CC’$  .B.  $BD’=BA+BD+BB’$  .C.  $AC’=AB+AD+AA’$  .D.  $CA=CB+CD$  ."
+          "A. $CA’=CB+CD+CC’$.",
+          "B. $BD’=BA+BD+BB’$.",
+          "C. $AC’=AB+AD+AA’$.",
+          "D. $CA=CB+CD$."
         ],
         "correct": 0,
         "explanation": "Áp dụng quy tắc hình hộp, ta có  $CA′=CB+CD+CC’;AC’=AB+AD+AA’$  và  $BD’=BA+BC+BB’$  .\nÁp dụng quy tắc hình bình hành ta có  $CA=CB+CD$  ."
@@ -14837,7 +15153,10 @@
         "id": 14,
         "question": "Cho tứ diện ABCD . Đặt  $AB=a$  ,  $AC=b$  ,  $AD=c$  . Gọi M là trung điểm của đoạn BC . Đẳng thức nào dưới đâyđúng?",
         "options": [
-          "A. $DM=\\frac{1}{2}(a+2b−c)$  .B.  $DM=\\frac{1}{2}(a−2b+c)$  .C.  $DM=\\frac{1}{2}(a+b−2c)$  .D.  $DM=\\frac{1}{2}(2a+b−c)$  ."
+          "A. $DM=\\frac{1}{2}(a+2b−c)$.",
+          "B. $DM=\\frac{1}{2}(a−2b+c)$.",
+          "C. $DM=\\frac{1}{2}(a+b−2c)$.",
+          "D. $DM=\\frac{1}{2}(2a+b−c)$."
         ],
         "correct": 0,
         "explanation": "Vì M là trung điểm của  $BC⇒BM=\\frac{1}{2}BC$  .\nMặt khác  $DM=DA+AB+BM=AB−AD+\\frac{1}{2}BC$\n$=AB−AD+\\frac{1}{2}(BA+AC)=\\frac{1}{2}AB+\\frac{1}{2}AC−AD$   $=\\frac{1}{2}a+\\frac{1}{2}b−c=\\frac{1}{2}(a+b−2c)$  ."
@@ -14846,7 +15165,10 @@
         "id": 15,
         "question": "Cho hình hộp  $ABCD.A’B’C’D’$  tâm O . Gọi I là tâm của hình bình hành ABCD . Đặt  $AC’=u$  ,  $CA’=v$  ,  $BD’=x$  ,  $DB’=y$  . Khi đó",
         "options": [
-          "A. $2OI=−\\frac{1}{4}(u+v+x+y)$  .B.  $2OI=\\frac{1}{4}(u+v+x+y)$  .C.  $2OI=−\\frac{1}{2}(u+v+x+y)$  .D.  $2OI=\\frac{1}{2}(u+v+x+y)$  ."
+          "A. $2OI=−\\frac{1}{4}(u+v+x+y)$.",
+          "B. $2OI=\\frac{1}{4}(u+v+x+y)$.",
+          "C. $2OI=−\\frac{1}{2}(u+v+x+y)$.",
+          "D. $2OI=\\frac{1}{2}(u+v+x+y)$."
         ],
         "correct": 0,
         "explanation": "Gọi  $M, N$  lần lượt là trung điểm của AB,CD\n$⇒\\begin{cases} OA+OB=2OM \\\\ OC+OD=2ON \\end{cases}$  .\nVì I là trung điểm của MN nên  $OM+ON=2OI$\n$⇒2OI=\\frac{1}{2}(OA+OB+OC+OD)$\n$=\\frac{1}{2}\\left( −\\frac{1}{2}AC’−\\frac{1}{2}CA’−\\frac{1}{2}BD’−\\frac{1}{2}DB’ \\right)$\n$=−\\frac{1}{4}(u+v+x+y)$  ."
@@ -14855,7 +15177,10 @@
         "id": 16,
         "question": "Cho hình lăng trụ  $ABC.{A}^{′}{B}^{′}{C}^{′}$  , M là trung điểm của  $B{B}^{′}$  . Đặt  $CA=a$  ,  $CB=b$  ,  $AA′=c$  .Biết  $AM=m.a+n.b+k.c$  . Giá trị của  $m+n+6k$  là",
         "options": [
-          "A. $−1$  .B. 5 .C. 2 .D. 3 ."
+          "A. $−1$.",
+          "B. 5.",
+          "C. 2.",
+          "D. 3."
         ],
         "correct": 0,
         "explanation": "Ta có:\n$AM=AB+BM$\n$=CB−CA+\\frac{1}{2}BB′$\n$=CB−CA+\\frac{1}{2}AA′$\n$=b−a+\\frac{1}{2}c$  .\n$⇒m=−1; n=1; k=\\frac{1}{2}$\n$⇒m+n+6k=−1+1+6.\\frac{1}{2}=3$  ."
@@ -14864,7 +15189,10 @@
         "id": 17,
         "question": "Cho hình lăng trụ  $ABC.A’B’C’$  . Đặt  $AA’=a$  ,  $AB=b$  ,  $AC=c$  . Biểu diễn vectơ  $B’C$  theo  $a, b, c$  được",
         "options": [
-          "A. $B′C=a+b+c$  .B.  $B′C=−a−b+c$  .C.  $B′C=a+b−c$  .D.  $B′C=−a+b−c$  ."
+          "A. $B′C=a+b+c$.",
+          "B. $B′C=−a−b+c$.",
+          "C. $B′C=a+b−c$.",
+          "D. $B′C=−a+b−c$."
         ],
         "correct": 0,
         "explanation": "Vì  $BB’C’C$  là hình bình hành\n$⇒B’C=B’C’+B’B=BC−AA’$\n$=−AA′+BA+AC=−AA′−AB+AC$   $=−a−b+c$  ."
@@ -14968,20 +15296,26 @@
         ],
         "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0630/img_2025-06-30_6862e75e36f6c.jpg"
+        ]
       },
       {
         "id": 2,
-        "question": "Đường chéo của hình vuông cạnh bằng 1 có độ dài là",
+        "question": "Đường chéo của hình vuông cạnh bằng $1$ có độ dài là",
         "options": [
-          "A. 2 .B.  $\\frac{\\sqrt{3}}{2}$  .C.  $\\sqrt{2}$  .D.  $\\sqrt{3}$  ."
+          "A. $\\sqrt2$.",
+          "B. $\\sqrt3$.",
+          "C. $2$.",
+          "D. $\\dfrac{\\sqrt3}2$."
         ],
         "correct": 0,
         "explanation": ""
       },
       {
         "id": 3,
-        "question": "Cho hình lập phương cạnh 1 có  ${B}^{′}{D}^{′}=\\sqrt{2}$  .\nTam giác  $A{D}^{′}{B}^{′}$  là tam giác( đều ,  vuông ,  tù) .",
+        "question": "Cho hình lập phương cạnh $1$ có $B'D' = \\sqrt2$. Tam giác $AD'B'$ là tam giác đều || vuông || tù .",
         "options": [
           "A. Đúng",
           "B. Sai"
@@ -15040,7 +15374,10 @@
           "D. $MD$  ."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0630/img_2025-06-30_6862dad3905f6.jpg"
+        ]
       },
       {
         "id": 4,
@@ -15869,12 +16206,12 @@
         "id": 9,
         "question": "Cặp ký hiệu nào sau đây được dùng để viết các thẻ lệnh trong HTML?",
         "options": [
-          "A. ( )",
-          "B. [ ]",
-          "C. { }",
-          "D. < >"
+          "A. <div>",
+          "B. <img>",
+          "C. <h1>",
+          "D. <p>"
         ],
-        "correct": 3,
+        "correct": 1,
         "explanation": ""
       },
       {
@@ -16883,7 +17220,10 @@
         "id": 1,
         "question": "Hợp chất cao phân tử là",
         "options": [
-          "A. hợp chất hữu cơ có cấu trúc phức tạp gồm nhiều chuỗi polypeptide đơn giản.B. hợp chất có khối lượng phân tử lớn, được tạo thành từ nhiều mắt xích khác nhau.C. hợp chất có khối lượng phân tử lớn và cấu trúc của chúng lặp đi lặp lại nhiều lần mắt xích cơ bản.D. hợp chất đa phân có cấu trúc mạch không phân nhánh và gồm nhiều các mắt xích lớn liên kết với nhau."
+          "A. hợp chất hữu cơ có cấu trúc phức tạp gồm nhiều chuỗi polypeptide đơn giản.",
+          "B. hợp chất có khối lượng phân tử lớn, được tạo thành từ nhiều mắt xích khác nhau.",
+          "C. hợp chất có khối lượng phân tử lớn và cấu trúc của chúng lặp đi lặp lại nhiều lần mắt xích cơ bản.",
+          "D. hợp chất đa phân có cấu trúc mạch không phân nhánh và gồm nhiều các mắt xích lớn liên kết với nhau."
         ],
         "correct": 0,
         "explanation": "​Hợp chất cao phân tử là hợp chất có khối lượng phân tử lớn và cấu trúc của chúng lặp đi lặp lại nhiều lần mắt xích cơ bản."
@@ -16892,7 +17232,10 @@
         "id": 2,
         "question": "Thủy phân hoàn toàn protein chỉ thu được chất nào sau đây?",
         "options": [
-          "A. Insulin.B. α - amino acid.C. Lipid.D. Nucleic acid."
+          "A. Insulin.",
+          "B. α - amino acid.",
+          "C. Lipid.",
+          "D. Nucleic acid."
         ],
         "correct": 0,
         "explanation": "​Thủy phân hoàn toàn protein chỉ thu được α - amino acid."
@@ -16901,7 +17244,10 @@
         "id": 3,
         "question": "Loại protein nào sau đây thường cấu tạo nên cơ bắp?",
         "options": [
-          "A. Hemoglobin.B. Collagen.C. Myosin.D. Albumin."
+          "A. Hemoglobin.",
+          "B. Collagen.",
+          "C. Myosin.",
+          "D. Albumin."
         ],
         "correct": 0,
         "explanation": "Myosin là loại protein cấu tạo nên cơ bắp.​"
@@ -16910,7 +17256,10 @@
         "id": 4,
         "question": "Protein trong cơ thể sinh vật được cấu tạo từ khoảng",
         "options": [
-          "A. 20 α-amino acid.B. 15 α-amino acid.C. 30 α-amino acid.D. 10 α-amino acid."
+          "A. 20 α-amino acid.",
+          "B. 15 α-amino acid.",
+          "C. 30 α-amino acid.",
+          "D. 10 α-amino acid."
         ],
         "correct": 0,
         "explanation": "​Protein trong cơ thể sinh vật được cấu tạo từ khoảng 20 α-amino acid."
@@ -16919,7 +17268,10 @@
         "id": 5,
         "question": "Khi bị nhiễm độc kim loại nặng bởi muối chì và muối thủy ngân,... Để giảm bớt nguy hiểm, ta nên sử dụng thực phẩm nào sau đây?​",
         "options": [
-          "A. Bánh mì.B. Khoai lang.C. Sữa.D. Nước muối."
+          "A. Bánh mì.",
+          "B. Khoai lang.",
+          "C. Sữa.",
+          "D. Nước muối."
         ],
         "correct": 0,
         "explanation": "​Khi bị nhiễm độc kim loại nặng bởi muối chì và muối thủy ngân,... Để giảm bớt nguy hiểm, ta nên uống sữa. Bởi vì sữa là một loại protein, protein sẽ đông tụ và tách khỏi dung dịch khi thêm muối của các kim loại nặng như chì, thủy ngân,… Vì vậy uống sữa khi bị ngộ độc muối chì, muối thủy ngân sẽ thành kết tủa và thải được ra ngoài."
@@ -16928,7 +17280,10 @@
         "id": 6,
         "question": "Protein có khả năng tham gia phản ứng",
         "options": [
-          "A. thủy phân.B. trùng ngưng.C. hydrate hóa.D. trùng hợp."
+          "A. thủy phân.",
+          "B. trùng ngưng.",
+          "C. hydrate hóa.",
+          "D. trùng hợp."
         ],
         "correct": 0,
         "explanation": "​Protein có khả năng tham gia phản ứng thủy phân."
@@ -16937,7 +17292,10 @@
         "id": 7,
         "question": "Protein không có vai trò nào sau đây?",
         "options": [
-          "A. Xây dựng tế bào.B. Bổ sung acid amin.C. Điều hòa thân nhiệt.D. Vận chuyển các chất."
+          "A. Xây dựng tế bào.",
+          "B. Bổ sung acid amin.",
+          "C. Điều hòa thân nhiệt.",
+          "D. Vận chuyển các chất."
         ],
         "correct": 0,
         "explanation": "​Protein đóng vai trò xây dựng tế bào, bổ sung các acid amine thiết yếu và vận chuyển các chất trong cơ thể."
@@ -16946,7 +17304,10 @@
         "id": 8,
         "question": "Hiện tượng đông tụ protein xảy ra do",
         "options": [
-          "A. mạch protein dãn nở bởi nhiệt.B. các α - amino acidn bám dính lại với nhau.C. cấu tạo ban đầu của protein bị biến đổi.D. các α - amino acid bị thủy phân tạo thành kết tủa."
+          "A. mạch protein dãn nở bởi nhiệt.",
+          "B. các α - amino acidn bám dính lại với nhau.",
+          "C. cấu tạo ban đầu của protein bị biến đổi.",
+          "D. các α - amino acid bị thủy phân tạo thành kết tủa."
         ],
         "correct": 0,
         "explanation": "​Hiện tượng đông tụ protein xảy ra do cấu tạo ban đầu của protein bị biến đổi."
@@ -16955,7 +17316,10 @@
         "id": 9,
         "question": "Khi tiến hành thí nghiệm với nitric acid đặc, nếu không cẩn thận có thể bị dính nitric acid vào tay. Khi đó, tại chỗ dính nitric acid, da tay bị chuyển thành",
         "options": [
-          "A. màu tím.B. màu hồng.C. màu vàng.D. màu đen."
+          "A. màu tím.",
+          "B. màu hồng.",
+          "C. màu vàng.",
+          "D. màu đen."
         ],
         "correct": 0,
         "explanation": "​Khi tiến hành thí nghiệm với nitric acid đặc, nếu không cẩn thận có thể bị dính nitric acid vào tay. Khi đó, tại chỗ dính nitric acid, da tay bị chuyển thành màu vàng."
@@ -16964,7 +17328,10 @@
         "id": 10,
         "question": "Khi thủy phân hoàn toàn protein trong dung dịch NaOH, thu được hỗn hợp sản phẩm có dạng nào sau đây?",
         "options": [
-          "A. H2N-CH(R)-COONa.B. H3N-CH2-CH(R)-COONa.C. H3N-CH(R)-COONa.D. H2N-CH2-CH(R)-COOH."
+          "A. H2N-CH(R)-COONa.",
+          "B. H3N-CH2-CH(R)-COONa.",
+          "C. H3N-CH(R)-COONa.",
+          "D. H2N-CH2-CH(R)-COOH."
         ],
         "correct": 0,
         "explanation": "​Khi thủy phân hoàn toàn protein trong dung dịch NaOH, thu được hỗn hợp sản phẩm có dạng H2N-CH(R)-COONa."
@@ -16973,7 +17340,10 @@
         "id": 11,
         "question": "Enzyme đóng vai trò là chất gì trong các phản ứng sinh hóa?",
         "options": [
-          "A. Chất tham gia.B. Chất xúc tác.C. Chất điều hòa.D. Chất sản phẩm."
+          "A. Chất tham gia.",
+          "B. Chất xúc tác.",
+          "C. Chất điều hòa.",
+          "D. Chất sản phẩm."
         ],
         "correct": 0,
         "explanation": "​Enzyme đóng vai trò là chất xúc tác trong các phản ứng sinh hóa."
@@ -16991,7 +17361,10 @@
         "id": 13,
         "question": "Ứng dụng nào sau đây là của enzyme?",
         "options": [
-          "A. Sản xuất thủy tinh.B. Sản xuất chất dẻo.C. Sản xuất thực phẩm.D. Sản xuất cao su."
+          "A. Sản xuất thủy tinh.",
+          "B. Sản xuất chất dẻo.",
+          "C. Sản xuất thực phẩm.",
+          "D. Sản xuất cao su."
         ],
         "correct": 0,
         "explanation": "​Ứng dụng của enzyme là sản xuất thực phẩm."
@@ -17056,10 +17429,13 @@
         "id": 1,
         "question": "Để giảm bớt nguy hiểm khi bị nhiễm độc kim loại nặng (muối chì và muối thủy ngân), ta nên sử dụng thực phẩm nào sau đây?​",
         "options": [
-          "A. Nước muối.B. Khoai lang.C. Bánh mì.D. Sữa."
+          "A. Sữa.",
+          "B. Nước muối.",
+          "C. Bánh mì.",
+          "D. Khoai lang."
         ],
         "correct": 0,
-        "explanation": "​Để giảm bớt nguy hiểm khi bị nhiễm độc kim loại nặng (muối chì và muối thủy ngân), ta nên uống sữa. Bởi vì sữa là một loại thực phẩm giàu protein. Khi uống sữa, các ion kim loại nặng như Pb, Hg sẽ bị đông tụ, giúp giảm bớt nguy hiểm khi bị nhiễm độc."
+        "explanation": ""
       },
       {
         "id": 2,
@@ -17095,10 +17471,13 @@
         "id": 3,
         "question": "Enzyme nào sau đây có khả năng hỗ trợ tiêu hóa protein?",
         "options": [
-          "A. Amylase.B. Protease.C. Lipase.D. Lactase."
+          "A. Protease.",
+          "B. Lipase.",
+          "C. Amylase.",
+          "D. Lactase."
         ],
         "correct": 0,
-        "explanation": "​Protease là enzyme có khả năng hỗ trợ tiêu hóa protein.\nLipase là enzyme có khả năng hỗ trợ tiêu hóa lipid.\nAmylase là enzyme có khả năng hỗ trợ tiêu hóa tinh bột.\nLactase là enzyme có khả năng hỗ trợ tiêu hóa đường lactose."
+        "explanation": ""
       },
       {
         "id": 4,
@@ -17130,20 +17509,28 @@
         "id": 1,
         "question": "Công thức chung của các α-amino acid là",
         "options": [
-          "A. B.",
-          "C. D."
+          "A. <img src=\"https://cdn3.olm.vn/upload/img/1224/img_2024-12-24_676a12890067f.jpg\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/img/1224/img_2024-12-24_676a12c3af85b.jpg\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/img/1224/img_2024-12-24_676a1309bb8b3.jpg\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/img/1224/img_2024-12-24_676a1339c139d.jpg\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
-        "correct": 0,
-        "explanation": "Các α-amino acid có nhóm amino ở vị trí α ⇒ Công thức chung của các α-amino acid là"
+        "correct": 2,
+        "explanation": ""
       },
       {
         "id": 2,
-        "question": "Valine (hình dưới đây) là một amino acid thiết yếu cho cơ thể.\nDanh pháp thay thế của Val là",
+        "question": "Valine (hình dưới đây) là một amino acid thiết yếu cho cơ thể. Danh pháp thay thế của Val là",
         "options": [
-          "A. 4-methyl-2-aminobutanoic acid.B. 2-amino-4-methylbutanoic acid.C. 2-aminopentanoic acid.D. 2-amino-3-methylbutanoic acid."
+          "A. 2-amino-3-methylbutanoic acid.",
+          "B. 2-amino-4-methylbutanoic acid.",
+          "C. 4-methyl-2-aminobutanoic acid.",
+          "D. 2-aminopentanoic acid."
         ],
         "correct": 0,
-        "explanation": "​Danh pháp thay thế của Valine là 2-amino-3-methylbutanoic acid."
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/1224/img_2024-12-24_676a141ae2b22.jpg"
+        ]
       },
       {
         "id": 3,
@@ -17205,10 +17592,13 @@
         "id": 1,
         "question": "Amino acid nào sau đây làm quỳ tím chuyển sang màu đỏ?",
         "options": [
-          "A. Gly.B. Glu.C. Val.D. Ala."
+          "A. Gly.",
+          "B. Ala.",
+          "C. Glu.",
+          "D. Val."
         ],
-        "correct": 0,
-        "explanation": "​Glu có chứa hai nhóm -COOH nên có khả năng làm quỳ tím hóa đỏ.\nGly, Val và Ala là ba amino acid không có khả năng làm quỳ tím chuyển màu."
+        "correct": 2,
+        "explanation": ""
       },
       {
         "id": 2,
@@ -17238,7 +17628,10 @@
         ],
         "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/1014/img_teacher_2024-10-14_670c8a2f5748b.jpg"
+        ]
       },
       {
         "id": 3,
@@ -17253,10 +17646,13 @@
         "id": 4,
         "question": "Hợp chất hữu cơ nào sau đây có khả năng tham gia phản ứng trùng ngưng?",
         "options": [
-          "A. CH2=CH2.B. CH3-CHO.C. H2N-[CH2]6-COOH.D. CH $≡$ CH."
+          "A. H 2 N-[CH 2 ] 6 -COOH.",
+          "B. CH 2 =CH 2 .",
+          "C. CH \\(\\equiv\\) CH.",
+          "D. CH 3 -CHO."
         ],
         "correct": 0,
-        "explanation": "​H2N-[CH2]6-COOH là amino acid có khả năng tham gia phản ứng trùng ngưng."
+        "explanation": ""
       },
       {
         "id": 5,
@@ -17596,10 +17992,10 @@
         "id": 10,
         "question": "Trong các thiết bị dưới đây, thiết bị nào là Router?",
         "options": [
-          "A. ",
-          "B. ",
-          "C. ",
-          "D. "
+          "A. <img src=\"https://cdn3.olm.vn/upload/2026/1006/f5224898753-1791300480221_2_rId4.png\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/2026/1006/f5224898753-1791300480221_2_rId5.jpeg\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/2026/1006/f5224898753-1791300480221_2_rId6.png\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/2026/1006/f5224898753-1791300480221_2_rId7.jpeg\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
         "correct": 0,
         "explanation": ""
@@ -17986,7 +18382,10 @@
         ],
         "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1006/f5224898753-1791300480221_2_rId8.png"
+        ]
       },
       {
         "id": 40,
@@ -18420,7 +18819,7 @@
           "A. Trí tuệ nhân tạo là khả năng của máy tính thực hiện các công việc cần trí tuệ như của con người.",
           "B. AI mạnh là loại AI có thể tự động học hỏi và giải quyết bất kỳ vấn đề nào mà không cần sự can thiệp của con người.",
           "C. MYCIN là một ví dụ của AI mạnh vì nó có khả năng chẩn đoán bệnh mà không cần sự hỗ trợ từ con người.",
-          "D. Học máy là lĩnh vực nghiên cứu làm cho máy tính có khả năng học từ dữ liệu. Câu 11: Cho hộp thoại giao tiếp giữa con người và ChatGPT như hình bên. Hãy cho biết hộp thoại thể hiện đặc trưng nổi bật nào của AI? A. Khả năng ngôn ngữ. B. Khả năng nhận thức. C. Khả năng học. D. Khả năng suy luận."
+          "D. Học máy là lĩnh vực nghiên cứu làm cho máy tính có khả năng học từ dữ liệu. Câu 11: Cho hộp thoại giao tiếp giữa con người và ChatGPT như hình bên. Hãy cho biết hộp thoại thể hiện đặc trưng nổi bật nào của AI? A. Khả năng ngôn ngữ. B. Khả năng nhận thức. C. Khả năng học. D. Khả năng suy luận. <img src=\"https://cdn3.olm.vn/upload/2026/1006/f5224904851-1791300552222_2_rId4.png\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
         "correct": 2,
         "explanation": ""
@@ -20025,21 +20424,27 @@
     "questions": [
       {
         "id": 1,
-        "question": "Tên viết tắt của H2N-CH(CH3)-CO-NH-CH2-CO-NH-CH(CH3)-COOH là​ gì?",
+        "question": "Tên viết tắt của H 2 N-CH(CH 3 )-CO-NH-CH 2 -CO-NH-CH(CH 3 )-COOH là​ gì?",
         "options": [
-          "A. Ala - Gly - Ala.B. Gly - Ala - Gly.C. Val - Gly - Ala.D. Ala - Gly - Val."
+          "A. Ala - Gly - Ala.",
+          "B. Val - Gly - Ala.",
+          "C. Ala - Gly - Val.",
+          "D. Gly - Ala - Gly."
         ],
         "correct": 0,
-        "explanation": "​H2N-CH(CH3)-CO-NH-CH2-CO-NH-CH(CH3)-COOH có cấu tạo như sau:\n- Đầu N và đầu C đều là Ala.\n- Có chứa cả amino acid có tên là Gly.\n⇒ Tên viết tắt của hợp chất trên là​ Ala - Gly - Ala."
+        "explanation": ""
       },
       {
         "id": 2,
         "question": "Thủy phân một tetrapeptide thu được hỗn hợp sản phẩm: Gly - Tyr - Val, Tyr - Val, Val - Ala. Tetrapeptide đó có tên là gì?",
         "options": [
-          "A. Val - Tyr - Gly - Ala.B. Gly - Tyr - Val - Tyr.C. Val - Val - Gly - Tyr.D. Gly - Tyr - Val - Ala."
+          "A. Gly - Tyr - Val - Ala.",
+          "B. Val - Val - Gly - Tyr.",
+          "C. Gly - Tyr - Val - Tyr.",
+          "D. Val - Tyr - Gly - Ala."
         ],
         "correct": 0,
-        "explanation": "​Thủy phân một tetrapeptide thu được hỗn hợp sản phẩm: Gly - Tyr - Val, Tyr - Val, Val - Ala\n⇒ Tetrapeptide đó là Gly - Tyr - Val - Ala."
+        "explanation": ""
       },
       {
         "id": 3,
@@ -20069,7 +20474,10 @@
         ],
         "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/1224/img_2024-12-24_676a15768024c.jpg"
+        ]
       },
       {
         "id": 4,
@@ -23469,7 +23877,10 @@
           "D. $y=\\dfrac{x+1}{x}$."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/0112/105-1768183986433.png"
+        ]
       },
       {
         "id": 6,
@@ -23481,7 +23892,10 @@
           "D. "
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0613/img_2025-06-13_684b944a2677c.jpg"
+        ]
       },
       {
         "id": 7,
@@ -23493,7 +23907,10 @@
           "D. $y=-x^3-3x+1$."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/0502/img_teacher_2024-05-02_6633c547002d8_5.png"
+        ]
       },
       {
         "id": 8,
@@ -23529,7 +23946,10 @@
           "D. $a>0,\\,c>0>b$."
         ],
         "correct": 1,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0529/img_2025-05-29_6837bcc03586b.jpg"
+        ]
       },
       {
         "id": 11,
@@ -23589,7 +24009,10 @@
         ],
         "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0421/img_2025-04-21_6805ced744d4b.jpg"
+        ]
       },
       {
         "id": 13,
@@ -23655,7 +24078,11 @@
         "options": [],
         "correctAnswer": "10,4",
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/1111/img_teacher_2024-11-11_6731b0fb16cf1.jpg",
+          "https://cdn3.olm.vn/upload/img_teacher/1111/img_teacher_2024-11-11_6731b2d47edd8.jpg"
+        ]
       }
     ]
   },
@@ -23676,135 +24103,189 @@
     "questions": [
       {
         "id": 1,
-        "question": "Cho hàm số  $y=\\frac{x−2}{x+3}$  . Mệnh đề nào sau đây đúng?",
+        "question": "Hàm số $y=2x^3-9x^2+12x+2\\,017$ nghịch biến trên khoảng nào sau đây?",
         "options": [
-          "A. Hàm số đồng biến trên khoảng  $(−∞;+∞)$  .B. Hàm số đồng biến trên từng khoảng xác định.C. Hàm số nghịch biến trên từng khoảng xác định.D. Hàm số nghịch biến trên khoảng  $(−∞;+∞)$  ."
+          "A. $(2;+\\infty)$.",
+          "B. $(2\\,021;2\\,022)$.",
+          "C. $(-\\infty ;1)$.",
+          "D. $(1;2)$."
         ],
-        "correct": 0,
-        "explanation": "Tập xác định:  $D=R∖{−3}$  .\n${y}^{′}=\\frac{5}{(x+3{)}^{2}}>0, ∀x∈D$  .\nVậy hàm số đồng biến trên các khoảng  $(−∞;−3)$  và  $(−3;+∞)$  ."
+        "correct": 3,
+        "explanation": ""
       },
       {
         "id": 2,
-        "question": "Cho hàm số  $y=\\sqrt[3]{({x}^{2}−4{)}^{2}}$  có đồ thị như hình vẽ sau.\nKhoảng nghịch biến của hàm số trên là",
+        "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như hình vẽ: Giá trị nhỏ nhất của hàm số $y = f(x)$ trên đoạn $[-1;2]$ là",
         "options": [
-          "A. $(0;2)$  .B.  $(2;+∞)$  .C.  $(−2;0)$  .D.  $(−2;2)$  ."
+          "A. $2$.",
+          "B. $1$.",
+          "C. $0$.",
+          "D. $-3$."
         ],
-        "correct": 0,
-        "explanation": "Từ đồ thị suy ra: Hàm số nghịch biến trên mỗi khoảng  $(−∞;−2)$  và  $(0;2)$  ."
+        "correct": 3,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/0805/img_teacher_2024-08-05_66b087b5b50aa.jpg"
+        ]
       },
       {
         "id": 3,
-        "question": "Số điểm cực đại của đồ thị hàm số  $y={x}^{4}+100$  là",
+        "question": "Giá trị nhỏ nhất của hàm số $y={{x}^{4}}-{{x}^{2}}+13$ trên đoạn $\\left[ -2;3 \\right]$ là",
         "options": [
-          "A. 1 .B. 3 .C. 0 .D. 2 ."
+          "A. $m=\\dfrac{51}{4}$.",
+          "B. $m=\\dfrac{51}{2}$.",
+          "C. $m=\\dfrac{49}{4}$.",
+          "D. $m=13$."
         ],
         "correct": 0,
-        "explanation": "Tập xác định  $D=R$  .\nĐạo hàm  ${y}^{′}=4{x}^{3}$  , nên  ${y}^{′}=0⇔x=0$\nPhương trình  ${y}^{′}=0$  có 1 nghiệm lại có hệ số  $a=1>0$  nên lập bảng biến thiên:\nTa thấy hàm số chỉ có cực tiểu mà không có cực đại."
+        "explanation": ""
       },
       {
         "id": 4,
-        "question": "Cho hàm số  $y=f(x)$  xác định và liên tục trên khoảng  $\\left( −∞;\\frac{1}{2} \\right)$  và  $\\left( \\frac{1}{2};+∞ \\right)$  . Đồ thị hàm số  $y=f(x)$  là đường cong trong hình vẽ.\nKhẳng định nào sau đây đúng?",
+        "question": "Tiệm cận đứng của đồ thị hàm số $y=\\dfrac{x}{x^2-1}$ là",
         "options": [
-          "A. $max1;2 f\\left( x \\right)=2$  .B.  $max3;4 f\\left( x \\right)=f\\left( 4 \\right)$  .C.  $max−2;1 f\\left( x \\right)=0$  .D.  $max−3;0 f\\left( x \\right)=f\\left( −3 \\right)$  ."
+          "A. $x=1$; $x=-1$.",
+          "B. $x=1$.",
+          "C. $x=-1$.",
+          "D. $y=0$."
         ],
         "correct": 0,
-        "explanation": "Quan sát đồ thị hàm số  $y=f\\left( x \\right)$  ta thấy: Đồ thị hàm số đi xuống từ trái qua phải trên  $\\left( −∞;\\frac{1}{2} \\right)$  và  $\\left( \\frac{1}{2};+∞ \\right)$  nên hàm số nghịch biến trên các khoảng  $\\left( −∞;\\frac{1}{2} \\right)$  và  $\\left( \\frac{1}{2};+∞ \\right)$  .\nTrên  $\\left[ 1;2 \\right]$  hàm số liên tục, nghịch biến và  $f\\left( 1 \\right)>f\\left( 2 \\right)=2$  nên phương án \"  $max1;2 f\\left( x \\right)=2$  \" sai.\nTrên  $\\left[ −2;1 \\right]$  hàm số gián đoạn tại  $x=\\frac{1}{2}$  nên phương án \"  $max−2;1 f\\left( x \\right)=0$  \" sai.\nTrên  $\\left[ 3;4 \\right]$  hàm số liên tục, nghịch biến và  $f\\left( 3 \\right)>f\\left( 4 \\right)$  nên phương án \"  $max3;4 f\\left( x \\right)=f\\left( 4 \\right)$  \" sai.\nTrên đoạn  $\\left[ −3;0 \\right]$ hàm số liên tục, nghịch biến và  $f\\left( −3 \\right)>f\\left( 0 \\right)$  nên  $max−3;0 f\\left( x \\right)=f\\left( −3 \\right)$  ."
+        "explanation": ""
       },
       {
         "id": 5,
-        "question": "Cho hàm số  $y=f(x)$  xác định trên  $R∖\\left\\{ −1;1 \\right\\}$  , liên tục trên mỗi khoảng xác định và có bảng biến thiên như sau:\nSố đường tiệm cận ngang của đồ thị hàm số  $y=f(x)$  là",
+        "question": "Tâm đối xứng của đồ thị hàm số $y=\\dfrac{5x+1}{x-1}$ là điểm nào trong các điểm có tọa độ dưới đây?",
         "options": [
-          "A. 4 .B. 2C. 0D. 1 ."
+          "A. $(1;5)$.",
+          "B. $(1;-1)$.",
+          "C. $(1;2)$.",
+          "D. $(-1;10)$."
         ],
         "correct": 0,
-        "explanation": "Nhìn bảng biến thiên thấy ngay đồ thị có tiệm cận ngang  $y=−2$  và  $y=2$  ."
+        "explanation": ""
       },
       {
         "id": 6,
-        "question": "Số điểm có tọa độ là các số nguyên thuộc đồ thị hàm số  $y=\\frac{x+3}{x+2}$  là",
+        "question": "Hàm số nào dưới đây có đồ thị là đường cong trong hình vẽ?",
         "options": [
-          "A. 2 .B. 1 .C. 3 .D. 4 ."
+          "A. $y=x^3+3x^2+4$.",
+          "B. $y=x^4+3x^2-4$.",
+          "C. $y=x^3+3x^2-4$.",
+          "D. $y=\\dfrac{2x+1}{3x-5}$."
         ],
-        "correct": 0,
-        "explanation": "Ta có:  $y=\\frac{x+3}{x+2}=\\frac{x+2}{x+2}+\\frac{1}{x+2}=1+\\frac{1}{x+2}$  .\nĐể y là số nguyên thì  $x+2$  là ước của 1 .\nMà 1 có hai ước nguyên là  $±1$  .\nVậy có 2 giá trị của x thỏa mãn."
+        "correct": 2,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/0809/img_teacher_2024-08-09_66b585a13fc21.jpg"
+        ]
       },
       {
         "id": 7,
-        "question": "Cho hàm số  $f(x)=a{x}^{3}+b{x}^{2}+cx+d$   $(a, b, c, d∈R, a≠0)$  có đồ thị như hình vẽ. Mệnh đề nào sau đây đúng?",
+        "question": "Đường cong nào dưới đây là đồ thị của hàm số $y=\\dfrac{x+1}{1-x}$?",
         "options": [
-          "A. $a<0$  ,  $b<0$  ,  $c=0$  ,  $d<0$  .B.  $a>0$  ,  $b>0$  ,  $c=0$  ,  $d<0$  .C.  $a>0$  ,  $b<0$  ,  $c=0$  ,  $d<0$  .D.  $a>0$  ,  $b>0$  ,  $c>0$   $d<0$  ."
+          "A. <img src=\"https://cdn3.olm.vn/upload/img/0423/img_2025-04-23_68086ec234f56.jpg\" alt=\"Hình A\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "B. <img src=\"https://cdn3.olm.vn/upload/img/0423/img_2025-04-23_68086eca66cc7.jpg\" alt=\"Hình B\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "C. <img src=\"https://cdn3.olm.vn/upload/img/0423/img_2025-04-23_68086ee255682.jpg\" alt=\"Hình C\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>",
+          "D. <img src=\"https://cdn3.olm.vn/upload/img/0514/img_2025-05-14_682470871c8de.jpg\" alt=\"Hình D\" loading=\"lazy\" class=\"inline-block max-h-40 rounded-lg bg-white p-1 my-1 border border-slate-200\"/>"
         ],
-        "correct": 0,
-        "explanation": "+ Đồ thị cắt trục tung tại  $y=d<0$  nên  $d<0$  .\n+ Khi  $x→+∞$  thì  $y→+∞$  nên  $a>0$\n+ Đồ thị có 2 điểm cực trị  $x=−1$  và  $x=0$  nên đạo hàm  ${y}^{′}=3a{x}^{2}+2bx+c$  phải có 2 nghiệm là  $−1$  và 0 , do đó  $c=0$  và  $3a−2b=0$  , suy ra  $b>0$  .\nVậy  $a>0; b>0; c=0; d<0$  ."
+        "correct": 3,
+        "explanation": ""
       },
       {
         "id": 8,
-        "question": "Hàm số nào có đồ thị như hình vẽ dưới đây?",
+        "question": "Hàm số $y=x^3-3x^2-1$ đạt cực trị tại các điểm nào sau đây?",
         "options": [
-          "A. $y=2{x}^{3}+3{x}^{2}+1$  .B.  $y={x}^{3}+\\frac{3}{2}{x}^{2}+1$  .C.  $y=−{x}^{3}−\\frac{3}{2}{x}^{2}+1$  .D.  $y=−2{x}^{3}−3{x}^{2}+1$  ."
+          "A. $x=0, \\, x=2$.",
+          "B. $x=\\pm 1$.",
+          "C. $x=\\pm 2$.",
+          "D. $x=0, \\, x=1$."
         ],
         "correct": 0,
-        "explanation": "Hàm số trên là hàm số bậc ba có hệ số  $a>0$  loại đáp án  $y=−{x}^{3}−\\frac{3}{2}{x}^{2}+1$  ,  $y=−2{x}^{3}−3{x}^{2}+1$  .\nĐồ thị hàm số có điểm cực đại  $(−1;2)$  . Vậy chọn  $y=2{x}^{3}+3{x}^{2}+1$  ."
+        "explanation": ""
       },
       {
         "id": 9,
-        "question": "Đường cong ở hình bên là đồ thị của hàm số nào dưới đây?",
+        "question": "Cho hàm số $y=f(x)$ có đạo hàm trên $\\mathbb{R}$ và có bảng biến thiên như sau: Giá trị cực đại của hàm số đã cho bằng",
         "options": [
-          "A. $y=−{x}^{3}+1$  .B.  $y=−{x}^{3}−x$  .C.  $y={x}^{3}−x$  .D.  $y={x}^{3}−1$  ."
+          "A. $0$.",
+          "B. $-5$.",
+          "C. $3$.",
+          "D. $2$."
         ],
-        "correct": 0,
-        "explanation": "Đồ thị hàm số có hệ số  $a>0$  và đi qua điểm  $\\left( 0; −1 \\right)$  hay  $x=0⇒y=−1$  nên ta chọn hàm số  $y={x}^{3}−1$  ."
+        "correct": 3,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/0816/img_teacher_2024-08-16_66beb9b6e3239.jpg"
+        ]
       },
       {
         "id": 10,
-        "question": "Đồ thị hàm số  $y=\\frac{x+1}{4x−1}$  có đường tiệm cận ngang là đường thẳng nào dưới đây?",
+        "question": "Cho hàm số $y=f(x)$ xác định trên $\\mathbb{R}$, có đồ thị như hình vẽ. Mệnh đề nào sau đây đúng?",
         "options": [
-          "A. $x=−1$  .B.  $y=−1$  .C.  $y=\\frac{1}{4}$  .D.  $x=\\frac{1}{4}$  ."
+          "A. Hàm số nghịch biến trên $(-\\infty ; +\\infty)$.",
+          "B. Hàm số đồng biến trên $(-\\infty ; +\\infty)$.",
+          "C. Hàm số nghịch biến trên $(-\\infty;\\,0)$.",
+          "D. Hàm số nghịch biến trên $(0;\\,1)$."
         ],
-        "correct": 0,
-        "explanation": "Tập xác định:  $D=R∖\\left\\{ \\frac{1}{4} \\right\\}$\nTa thấy  $limx→±∞ y=\\frac{1}{4}$\nSuy ra tiệm cận ngang của đồ thị hàm số đã cho là  $y=\\frac{1}{4}.$"
+        "correct": 1,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/0827/img_teacher_2024-08-27_66cd97c5e61c3.jpg"
+        ]
       },
       {
         "id": 11,
-        "question": "Cho hàm số  $y=f\\left( x \\right)$  có bảng biến thiên như hình vẽ.\nĐiểm cực tiểu của đồ thị hàm số là",
+        "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như sau: Đồ thị của hàm số trên có số đường tiệm cận là",
         "options": [
-          "A. $\\left( 2;4 \\right)$  .B.  $\\left( 0;2 \\right)$  .C.  $\\left( 2;0 \\right)$  .D.  $\\left( 4;2 \\right)$  ."
+          "A. $3$.",
+          "B. $1$.",
+          "C. $4$.",
+          "D. $2$."
         ],
         "correct": 0,
-        "explanation": "Dựa vào bảng biến thiên, ta có điểm cực tiểu của đồ thị hàm số có tọa độ là  $\\left( 0;2 \\right)$  ."
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0423/img_2025-04-23_680863bc8656b.jpg"
+        ]
       },
       {
         "id": 12,
-        "question": "Gọi M , m lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số  $y=\\frac{{x}^{2}+5}{x−2}$  trên  $\\left[ −2;1 \\right]$  . Giá trị của  $M+2m$  bằng",
+        "question": "Cho hàm số $y=\\dfrac{bx-c}{x-a}$ ($a\\ne 0$ và $a$, $b$, $c\\in \\mathbb{R}$) có đồ thị như hình vẽ. Khẳng định nào dưới đây đúng?",
         "options": [
-          "A. $−8$  .B.  $−10$  .C.  $−14$  .D.  $−2$  ."
+          "A. $a>0$, $b<0$, $c-ab<0$.",
+          "B. $a>0$, $b>0$, $c-ab<0$.",
+          "C. $a<0$, $b>0$, $c-ab<0$.",
+          "D. $a<0$, $b<0$, $c-ab>0$."
         ],
-        "correct": 0,
-        "explanation": "Hàm số  $y=\\frac{{x}^{2}+5}{x−2}$  có TXĐ:  $R​​∖​​\\left\\{ 2 \\right\\}$  , vậy hàm số liên tục trên  $\\left[ −2;1 \\right]$  .\n${y}^{′}=\\frac{{x}^{2}−4x−5}{{\\left( x−2 \\right)}^{2}}$  ,\n${y}^{′}=0⇔\\left[ x=−1 \\\\ x=5 \\right.]$  .\nDo  $x∈\\left[ −2;1 \\right]$  nên  $x=−1$  .\n$y\\left( −2 \\right)=−\\frac{9}{4}$  ,  $y\\left( −1 \\right)=−2$  ,  $y\\left( −2 \\right)=−6$\n$⇒min−2;1 y=−6$  ,  $max−2;1 y=−2⇒T=−14$  ."
+        "correct": 1,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0422/img_2025-04-22_680751715d2c3.jpg"
+        ]
       },
       {
         "id": 13,
         "type": "true_false",
-        "question": "Diện tích gieo trồng (để đạt năng suất tối ưu) của một giống lúa mới được mô hình hóa bởi hàm số $A(x) = x^3 - 12x^2 + 36x + 20$ (ha), với $x$ là số năm kể từ lúc thử nghiệm, $0 \\le x \\le 5$.",
+        "question": "Cho hàm số $f(x) = \\dfrac{x^2 + 3}{x - 1}$ trên đoạn $[2; 4]$.",
         "items": [
           {
             "label": "a",
-            "text": "#Hàm số $A(x)$ đạt cực đại tại $x = 2$.",
-            "correct": true
-          },
-          {
-            "label": "b",
-            "text": "#Hàm số $A(x)$ đạt cực tiểu tại $x = 6$.",
+            "text": "#Tập xác định của hàm số trên đoạn đã cho là $D = [1; 4]$.",
             "correct": false
           },
           {
+            "label": "b",
+            "text": "#Đạo hàm của hàm số là $f'(x) = \\dfrac{x^2 - 2x - 3}{(x - 1)^2}$.",
+            "correct": true
+          },
+          {
             "label": "c",
-            "text": "#Trong $5$ năm đầu, diện tích gieo trồng lớn nhất đạt được là $52$ ha.",
+            "text": "#Hàm số đạt cực tiểu tại $x = 3$.",
             "correct": true
           },
           {
             "label": "d",
-            "text": "#Hàm số nghịch biến trên khoảng $(2; \\, 5)$.",
+            "text": "#Giá trị lớn nhất của hàm số trên đoạn $[2; 4]$ là $7$.",
             "correct": true
           }
         ],
@@ -23815,27 +24296,27 @@
       {
         "id": 14,
         "type": "true_false",
-        "question": "Cho hàm số $y=f(x )=\\dfrac{2x^2+3x-5}{x+3}$ có đồ thị $(C )$, biết đồ thị có tiệm cận xiên là đường thẳng $\\Delta:y=ax+b$.",
+        "question": "Cho hàm số $y=\\dfrac{x+2}{x-2}$ có đồ thị $(C)$.",
         "items": [
           {
             "label": "a",
-            "text": "#Giao điểm của $\\Delta$ và trục $Ox$ có hoành độ lớn hơn $2$.",
-            "correct": false
-          },
-          {
-            "label": "b",
-            "text": "#Giao điểm của $\\Delta$ và tiệm cận đứng của $(C )$ có tọa độ là $(-3;-9 )$.",
+            "text": "#Đồ thị $(C)$ có đường tiệm cận đứng $x=2$.",
             "correct": true
           },
           {
+            "label": "b",
+            "text": "#Đồ thị $(C)$ nhận điểm $I(1;1)$ làm tâm đối xứng.",
+            "correct": false
+          },
+          {
             "label": "c",
-            "text": "#Gọi $A=\\Delta\\cap Ox$, $B=\\Delta\\cap Oy$ ta có $S_{OAB}>3$.",
+            "text": "#Đường thẳng đường thẳng $d:y=x-1$ cắt đồ thị $(C )$ tại $2$ điểm phân biệt có độ dài bằng $4\\sqrt{5}.$",
             "correct": false
           },
           {
             "label": "d",
-            "text": "#Giá trị lớn nhất của hàm số $y=ax+b$ trên $[ 0;3]$ là $4$.",
-            "correct": false
+            "text": "#Gọi $M$ là điểm bất kì thuộc đồ thị $(C )$. Khi đó tổng khoảng cách từ điểm $M$ đến hai đường tiệm cận của đồ thị $(C )$ đạt giá trị nhỏ nhất bằng $4.$",
+            "correct": true
           }
         ],
         "options": [],
@@ -23845,26 +24326,26 @@
       {
         "id": 15,
         "type": "true_false",
-        "question": "Cho hàm số bậc ba $y = f(x)$ liên tục trên $\\mathbb{R}$ và có đồ thị như hình vẽ dưới đây:",
+        "question": "Cho hàm số $y=f(x)=x^{3}-3x+1$.",
         "items": [
           {
             "label": "a",
-            "text": "#Đạo hàm của hàm số bằng $0$ tại $x = -1$ và $x = 1$.",
+            "text": "#$f'(x)=3x^{2}-3$.",
             "correct": true
           },
           {
             "label": "b",
-            "text": "#Giá trị cực tiểu của hàm số bằng $-1$ và giá trị cực đại bằng $3$.",
-            "correct": true
-          },
-          {
-            "label": "c",
-            "text": "#Đồ thị hàm số có hai đường tiệm cận ngang là $y = -1$ và $y = 3$.",
+            "text": "#$f'(x)=0$ có đúng $1$ nghiệm trên $[-2; \\, 1]$.",
             "correct": false
           },
           {
+            "label": "c",
+            "text": "#$f(1)=f(-2)=-1$.",
+            "correct": true
+          },
+          {
             "label": "d",
-            "text": "#Tâm đối xứng của đồ thị là điểm $I(0; \\, 1)$ và tiếp tuyến của đồ thị tại tâm đối xứng tạo với hai trục tọa độ một tam giác có diện tích bằng $\\dfrac{1}{6}$.",
+            "text": "#Giá trị lớn nhất của $f(x)$ trên $[-2; \\, 1]$ bằng $3$.",
             "correct": true
           }
         ],
@@ -23900,59 +24381,73 @@
         ],
         "options": [],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/0319/img_teacher_2025-03-19_67d9ad4cd256d.jpg"
+        ]
       },
       {
         "id": 17,
+        "type": "short_answer",
+        "question": "Trong hệ trục toạ độ $(Oxy)$, cho đồ thị hàm số $(C)$: $y=\\dfrac{x^2+x+1}{x+1}$ $(x>-1)$ mô tả chuyển động của một chiếc thuyền trên biển, một trạm phát sóng đặt tại điểm $I(-1;-1)$. Biết hoành độ điểm $M$ thuộc đồ thị $(C)$ mà tại đó thuyền thu được sóng tốt nhất là $x_0=\\dfrac{1}{\\sqrt[n]{a}}-b$ (Loại trừ các điều kiện ảnh hưởng đến việc thu phát sóng). Tính $a.n+b$. Trả lời: Hướng dẫn giải: $M\\in (C)\\Rightarrow M\\Big(x_0; x_0+\\dfrac{1}{x_0+1}\\Big)$ với $x_0>-1$. $IM^2=(x_0+1)^2+\\Big(x_0+1+\\dfrac{1}{x_0+1}\\Big)^2=2(x_0+1)^2+\\dfrac{1}{(x_0+1)^2}+2$. Đặt $t=(x_0+1)^2,t>0$ thì $IM^2=2t+2+\\dfrac{1}{t}$. Xét hàm $y=2t+2+\\dfrac{1}{t}$, $t>0$ Ta có $y’=2-\\dfrac{1}{t^2}$, $y'=0\\Leftrightarrow t=\\dfrac{1}{\\sqrt{2}}$ Để thuyền thu được sóng tốt nhất $\\Leftrightarrow IM$ ngắn nhất $\\Leftrightarrow x_0=\\dfrac{1}{\\sqrt[4]{2}}-1$ Vậy $n=4$; $a=2$; $b=1\\Rightarrow a.n+b=9$.",
+        "options": [],
+        "correctAnswer": "9",
+        "correct": 0,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0522/img_2025-05-22_682e983643cbe.jpg"
+        ]
+      },
+      {
+        "id": 18,
         "type": "short_answer",
         "question": "Giả sử chi phí tiền xăng $C$ (đồng) phụ thuộc tốc độ trung bình $v$(km/h) theo công thức: $C(v)=\\dfrac{16\\,000}{v}+\\dfrac{5}{2}v$ $(0<v\\le 120)$ Để biểu diễn trực quan sự thay đổi của $C(v)$ theo $v$, người ta đã vẽ đồ thị hàm số $C(v)$ như hình bên. Tài xế xe tải lái xe với tốc độ trung bình là bao nhiêu để tiết kiệm tiền xăng nhất? Trả lời: Hướng dẫn giải: Tập xác định: $D=(0;120]$. Ta có: $C'(v)=-\\dfrac{16\\,000}{v^2}+\\dfrac{5}{2}=\\dfrac{5(v-80)(v+80)}{2v^2}$ $C'(v)=0\\Leftrightarrow v=-80$ (loại) hoặc $v=80$ (TM). Trên khoảng $(0;80)$, $C'(v)<0$ nên hàm số nghịch biến. Trên khoảng $(80;120)$, $C'(v)>0$ nên hàm số đồng biến. Vậy hàm số đạt cực tiểu tại $v=80$; $C_{CT}=C(80)=400$. Giới hạn vô cực và tiệm cận: $\\underset{v\\to {{0}^{+}}}{\\mathop{\\lim }}\\,C(v)=\\underset{v\\to {{0}^{+}}}{\\mathop{\\lim }}\\,\\Big(\\dfrac{16000}{v}+\\dfrac{5}{2}v\\Big)=+\\infty $ nên đường thẳng $v=0$ là tiệm cận đứng của đồ thị hàm số. Bảng biến thiên: Đồ thị hàm số có điểm cực tiểu $(80;400)$ và đi qua các điểm $(40;500)$, $(100;410)$, $\\Big(120;\\dfrac{1\\,300}{3}\\Big)$ như hình. Quan sát đồ thị hàm số, ta nhận thấy hàm số đạt GTNN khi $v=80$ và GTNN là $400$. Như vậy, để tiết kiệm tiền xăng nhất, tài xế nên chạy xe với tốc độ trung bình là $80$ km/h.",
         "options": [],
         "correctAnswer": "80",
         "correct": 0,
-        "explanation": ""
-      },
-      {
-        "id": 18,
-        "type": "short_answer",
-        "question": "Một hộ làm nghề dệt vải lụa tơ tằm sản xuất mỗi ngày được $x$ mét vải lụa $(1 \\leq x \\leq 20)$. Tổng chi phí sản xuất $x$ mét vải lụa cho bởi hàm chi phí $C(x)=\\dfrac{23}{36} x^{3}+x^{2}+200$ (tính bằng nghìn đồng). Giá của vải lụa tơ tằm là $300$ nghìn đồng/mét và giả sử hộ luôn bán hết số sản phẩm làm ra trong một ngày. Để đạt lợi nhuận tối đa thì mỗi ngày thì hộ cần sản xuất bao nhiêu mét vải lụa? Trả lời: Hướng dẫn giải: Doanh thu mỗi ngày là $300 x$ (nghìn đồng) Lợi nhuận mỗi ngày là $L(x)=300 x-\\Big(\\dfrac{23}{36} x^{3}+x^{2}+200\\Big)=-\\dfrac{23}{36} x^{3}-x^{2}+300 x-200$. Bài toán trở thành tìm giá trị lớn nhất của hàm số $L(x)$ trên đoạn $[1 ; 20]$. $L’(x)=-\\dfrac{23}{12} x^{2}-2 x+300$ $L’(x)=0 \\Leftrightarrow\\left[\\begin{aligned}x=12 \\\\ x=-\\dfrac{300}{23}\\end{aligned}\\right.$. $L(1)=\\dfrac{3\\,541}{36} ; L(12)=2152 ; L(20)=\\dfrac{2\\,600}{9}$ Mỗi ngày, lợi nhuận tối đa của hộ đó là $2\\,152$ nghìn đồng khi sản xuất $12$ mét vải.",
-        "options": [],
-        "correctAnswer": "12",
-        "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0519/img_2025-05-19_682ae08376e6f.jpg",
+          "https://cdn3.olm.vn/upload/img/0519/img_2025-05-19_682ae2c04b602.jpg",
+          "https://cdn3.olm.vn/upload/img/0519/img_2025-05-19_682ae9060e82f.jpg"
+        ]
       },
       {
         "id": 19,
         "type": "short_answer",
-        "question": "Sự thay đổi dân số của một thị trấn sau $t$ năm ($0 \\le t \\le 6$) được mô hình hóa bởi $P(t) = 1 \\, 000 + 300t^2 - 50t^3$ (người). Dân số tăng nhanh nhất (tốc độ tăng là cực đại) vào năm thứ mấy? Trả lời: Hướng dẫn giải: Tốc độ tăng dân số là đạo hàm của hàm số $P(t)$, ký hiệu là $v(t) = P'(t) = 600t - 150t^2$. Bài toán yêu cầu tìm giá trị $t$ để tốc độ $v(t)$ đạt cực đại. Ta xét tiếp đạo hàm $v'(t) = 600 - 300t$. $v'(t) = 0 \\Leftrightarrow 600 - 300t = 0 \\Leftrightarrow t = 2$. t v'(t) v(t) 0 2 6 + 0 − 0 600 −1800 Dựa vào bảng xét dấu, tốc độ $v(t)$ đạt cực đại tại $t = 2$. Vậy dân số tăng nhanh nhất vào năm thứ $2$.",
+        "question": "Một người muốn gò một chiếc hộp hình hộp chữ nhật **không** nắp từ một tấm tôn hình vuông cạnh $12$ cm bằng cách cắt $4$ hình vuông nhỏ ở $4$ góc và gập lên. Thể tích lớn nhất của chiếc hộp là bao nhiêu cm 3 ? Trả lời: Hướng dẫn giải: Gọi cạnh hình vuông nhỏ cắt đi là $x$ (cm), điều kiện $0 \\lt x \\lt 6$. Khi gập lên, chiếc hộp có đáy là hình vuông cạnh $12 - 2x$ (cm) và chiều cao là $x$ (cm). Thể tích hộp là $V(x) = x(12 - 2x)^2 = 4x(6 - x)^2 = 4(x^3 - 12x^2 + 36x)$. Đạo hàm $V'(x) = 4(3x^2 - 24x + 36) = 12(x^2 - 8x + 12)$. $V'(x) = 0 \\Leftrightarrow x^2 - 8x + 12 = 0 \\Leftrightarrow x = 6$ (loại) hoặc $x = 2$ (thỏa mãn). Lập bảng biến thiên trên $(0; \\, 6)$, ta thấy $V(x)$ đạt cực đại tại $x = 2$. x V'(x) V(x) 0 2 6 + 0 − 0 128 0 Thể tích lớn nhất là $V(2) = 2(12 - 4)^2 = 128$ cm 3 .",
         "options": [],
-        "correctAnswer": "2",
+        "correctAnswer": "128",
         "correct": 0,
         "explanation": ""
       },
       {
         "id": 20,
         "type": "short_answer",
-        "question": "Nồng độ một loại thuốc trong máu của bệnh nhân sau $t$ giờ kể từ khi tiêm được tính bởi hàm số $C(t) = \\dfrac{8t}{t^2 + 4}$ (mg/L). Hàm số này đạt cực đại tại $t = 2$ và nồng độ sẽ giảm dần sau đó. Khi thời gian trôi đi đủ lâu ($t \\to +\\infty$), đồ thị hàm số $C(t)$ nhận đường thẳng $y = b$ làm tiệm cận ngang. Giá trị của $b$ bằng bao nhiêu? Trả lời: Hướng dẫn giải: Hàm số có tập xác định $t \\ge 0$. Ta có đạo hàm $C'(t) = \\dfrac{8(t^2 + 4) - 8t \\cdot 2t}{(t^2 + 4)^2} = \\dfrac{32 - 8t^2}{(t^2 + 4)^2}$. Cho $C'(t) = 0 \\Leftrightarrow 32 - 8t^2 = 0 \\Leftrightarrow t = 2$ (do $t \\ge 0$). Ta có $C(0) = 0, \\, C(2) = 2$ và $\\displaystyle \\lim_{t \\to +\\infty} C(t) = \\displaystyle \\lim_{t \\to +\\infty} \\dfrac{8t}{t^2 + 4} = 0$. Bảng biến thiên: t C'(t) C(t) 0 2 +∞ + 0 − 0 2 0 Vậy đường tiệm cận ngang của đồ thị hàm số là $y = 0$. Suy ra $b = 0$. Tức là khi thời gian đủ dài, nồng độ thuốc tiến về $0$ (thể hiện việc thuốc bị đào thải hoàn toàn khỏi cơ thể).",
+        "question": "Một bể chứa $2$ m$^3$ nước tinh khiết. Người ta bơm vào bể đó nước muối có nồng độ không đổi với tốc độ $20$ lít/phút. Biết rằng nồng độ muối trong bể sau $t$ phút (tính bằng tỉ số của khối lượng muối trong bể và thể tích nước trong bể, đơn vị: gam/lít) là một hàm số $f(t )$, thời gian $t$ tính bằng phút. Biết rằng tiệm cận ngang của đồ thị hàm số $y = f(t)$ là $y=10$. Tính nồng độ muối trong bể sau khi bơm được $1$ giờ. (làm tròn kết quả đến hàng phần trăm, đơn vị gam/lít) Trả lời: Hướng dẫn giải: Giả sử nước muối bơm vào có nồng độ $a$ gam/lít. Sau $t$ phút, ta có khối lượng muối trong bể là $20at$ (gam). Thể tích của lượng nước trong bể sau $t$ phút là $2\\,000+20t$ (lít). Vậy nồng độ muối sau $t$ phút là: $f(t)=\\dfrac{20at}{2\\,000+20t}=\\dfrac{at}{100+t}$ (gam/lít) $\\underset{t\\to \\,+\\infty }{\\mathop{\\lim }}\\,f(t)=\\underset{t\\to \\,+\\infty }{\\mathop{\\lim }}\\,\\dfrac{at}{100+t}=a$ nên đồ thị hàm số $y=f(t)$ có phương trình tiệm cận ngang là $y=a=10$. Từ đó hàm số nồng độ muối trong bể sau khi bơm được $t$ phút là $f(t)=\\dfrac{10t}{100+t}$. Nồng độ muối sau $1$ giờ bơm là $f(60)=\\dfrac{10.60}{100+60}=3,75$ gam/lít.",
         "options": [],
-        "correctAnswer": "0",
+        "correctAnswer": "3,75",
         "correct": 0,
         "explanation": ""
       },
       {
         "id": 21,
         "type": "short_answer",
-        "question": "Người ta làm chiếc thùng phi dạng hình trụ, kín hai đáy, với thể tích theo yêu cầu là $2\\pi $ m 3 . Khi thùng phi có bán kính đáy là $R$ m và chiều cao là $h$ m thì khi làm sẽ tiết kiệm vật liệu nhất. Tính $R + h$? Trả lời: Hướng dẫn giải: Từ giả thiết ta có: $V=\\pi R^2h=2\\pi \\Rightarrow h=\\dfrac{2}{R^2}$. Diện tích toàn phần của thùng phi là: ${{S}_{tp}}=2\\pi Rh+2\\pi R^2=2\\pi (R^2+\\dfrac{2}{R})$. Xét hàm số $f(R)=R^2+\\dfrac{2}{R}$ với $R\\in (0;+\\infty)$. Ta có: $f'(R)=2R-\\dfrac{2}{R^2}=\\dfrac{2(R^3-1)}{R^2}$ $f'(R)=0\\Leftrightarrow R=1$ Lập bảng biến thiên suy ra diện tích toàn phần đạt giá trị nhỏ nhất khi $R=1\\Rightarrow h=2$. Vậy để tiết kiệm vật liệu nhất khi làm thùng phi thì $R=1$ m, $h=2$ m.",
+        "question": "Từ một khúc gỗ tròn hình trụ có đường kính bằng $40$ cm, cần xẻ thành một chiếc xà có thiết diện ngang là hình vuông và bốn miếng phụ được tô màu xám như hình vẽ dưới đây. Tìm chiều rộng $x$ (đơn vị cm) của miếng phụ để diện tích sử dụng theo thiết diện ngang là lớn nhất. ( kết quả làm tròn đến hàng phần trăm ) Trả lời: Hướng dẫn giải: ​Diện tích sử dụng theo tiết diện ngang là $S = S_{MNPQ} + 4xy$ Cạnh hình vuông $ MN = \\dfrac{MP}{\\sqrt{2}} = \\dfrac{40}{\\sqrt{2}} = 20\\sqrt{2} $ (cm) $\\Rightarrow S = (20\\sqrt{2})^2 + 4xy = 800 + 4xy \\quad (1)$ Ta có $2x = AB - MN = AB - 20\\sqrt{2} < BD - 20\\sqrt{2} = 40 - 20\\sqrt{2}$ $\\Rightarrow 0 < x < 20 - 10\\sqrt{2}$ Lại có $AB^2 + AD^2 = BD^2 = 40^2 $ $\\Rightarrow (2x + 20\\sqrt{2})^2 + y^2 = 1\\,600$ $\\Rightarrow y^2 = 800 - 80x\\sqrt{2} - 4x^2 $ $\\Rightarrow y = \\sqrt{800 - 80x\\sqrt{2} - 4x^2}$ Thế vào (1) $\\Rightarrow S = 800 + 4x\\sqrt{800 - 80x\\sqrt{2} - 4x^2}$ $= 800 + 4\\sqrt{800x^2 - 80x^3\\sqrt{2} - 4x^4}$ Xét hàm số $ f(x) = 800x^2 - 80x^3\\sqrt{2} - 4x^4 $. Với $ x \\in (0; 20 - 10\\sqrt{2}) $ có $f'(x) = 1\\,600x - 240x^2\\sqrt{2} - 16x^3$ $= 16x \\left(100 - 15x\\sqrt{2} - x^2\\right)$ Ta có $\\left\\{ \\begin{aligned}& x \\in (0; 20 - 10\\sqrt{2}) \\\\& f'(x) = 0 \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} &x \\in (0; 20 - 10\\sqrt{2}) \\\\ &16x \\left(100 - 15x\\sqrt{2} - x^2\\right) = 0 \\end{aligned}\\right.$ $\\Leftrightarrow x = \\dfrac{5\\sqrt{34} - 15\\sqrt{2}}{2} \\approx 3,97$. Vậy chiều rộng của miếng phụ là $3,97$ cm để diện tích sử dụng theo tiết diện ngang là lớn nhất.",
         "options": [],
-        "correctAnswer": "3",
+        "correctAnswer": "3,97",
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/1111/img_teacher_2024-11-11_6731a8a528a19.jpg"
+        ]
       },
       {
         "id": 22,
         "type": "short_answer",
-        "question": "Giá trị của tham số $m$ để đồ thị hàm số $y = x^{4} - 2mx^{2} + 2m + m^{4}$ có $3$ điểm cực trị tạo thành một tam giác đều bằng bao nhiêu? Làm tròn kết quả đến chữ số thập phân thứ hai. Trả lời: Hướng dẫn giải: Đạo hàm $y' = 4x^{3} - 4mx = 4x(x^{2} - m)$. Để đồ thị hàm số có $3$ điểm cực trị, phương trình $y' = 0$ phải có $3$ nghiệm phân biệt, tức là $m \\gt 0$. Các điểm cực trị của đồ thị là $A(0; \\, 2m + m^{4})$, $B(\\sqrt{m}; \\, m^{4} - m^{2} + 2m)$ và $C(-\\sqrt{m}; \\, m^{4} - m^{2} + 2m)$. Tam giác $ABC$ là tam giác cân tại đỉnh $A$ (do tính đối xứng của đồ thị hàm số chẵn qua trục tung). Gọi $H$ là trung điểm của $BC$ (chính là hình chiếu của $A$ xuống đoạn $BC$). Độ dài $BC = 2\\sqrt{m}$ và đường cao $AH = |y_{A} - y_{B}| = m^{2}$. Để tam giác $ABC$ đều, đường cao $AH$ phải bằng $\\dfrac{\\sqrt{3}}{2}$ cạnh đáy $BC$. Nghĩa là: $AH = \\dfrac{\\sqrt{3}}{2} BC \\Leftrightarrow m^{2} = \\dfrac{\\sqrt{3}}{2} \\cdot 2\\sqrt{m} \\Leftrightarrow m^{2} = \\sqrt{3m}$. Bình phương hai vế: $m^{4} = 3m \\Leftrightarrow m(m^{3} - 3) = 0$. Vì điều kiện $m \\gt 0$ nên $m^{3} = 3 \\Leftrightarrow m = \\sqrt[3]{3}$.",
+        "question": "Với giá trị nào của tham số $m$ thì đồ thị hàm số $y=x^4-2(m-1)x^2+m^4-3m^2+2 \\, 017$ có ba điểm cực trị tạo thành một tam giác có diện tích bằng $32$? Trả lời: Hướng dẫn giải: Ta có $y'=4x^3-4(m-1)x=4x(x^2-m+1)$; $y'=0\\Leftrightarrow \\left[ \\begin{aligned} & x=0 \\\\ & x^2=m-1 \\\\ \\end{aligned} \\right.$. Hàm số có $3$ cực trị khi và chỉ khi $y'=0$ có ba nghiệm phân biệt $\\Leftrightarrow m-1>0\\Leftrightarrow m>1$ (*). Khi đó tọa độ ba cực trị là: $\\left\\{ \\begin{aligned} & A(0;m^4-3m^2+2\\,017) \\\\ & B(-\\sqrt{m-1};m^4-4m^2+2m+2016) \\\\ & C(\\sqrt{m-1};m^4-4m^2+2m+2016) \\\\ \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & AB=AC=\\sqrt{m-1+(m-1)^4} \\\\ & BC=2\\sqrt{m-1} \\\\ \\end{aligned} \\right.$ Suy ra tam giác $ABC$ cân tại $A$, gọi $AH$ đường cao hạ từ đỉnh $A$, ta có $AH=(m-1)^2$. Suy ra $S_{\\Delta ABC}=\\dfrac{1}{2}AH.BC=(m-1)^2 \\sqrt{(m-1)}=32$ $\\Leftrightarrow (m-1)^5=1024\\Leftrightarrow m-1=4\\Leftrightarrow m=5$. Kết hợp điều kiện (*) $\\Rightarrow m=5$.",
         "options": [],
-        "correctAnswer": "1,44",
+        "correctAnswer": "5",
         "correct": 0,
         "explanation": ""
       }
@@ -24393,7 +24888,10 @@
           "B. âm."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0831/img_2025-08-31_68b3d9f45457a.jpg"
+        ]
       }
     ]
   },
@@ -25341,7 +25839,10 @@
           "D. $y=−1$  ."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0831/img_2025-08-31_68b473d947036.jpg"
+        ]
       },
       {
         "id": 2,
@@ -25447,7 +25948,10 @@
           "D. C ."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0901/img_2025-09-01_68b51f58b40dd.jpg"
+        ]
       },
       {
         "id": 2,
@@ -25520,7 +26024,10 @@
           "D. $x=0$   và   $y=−4$  ."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/0512/screenshot-2026-05-12-223858-1778600349807.png"
+        ]
       },
       {
         "id": 4,
@@ -25532,7 +26039,10 @@
           "D. $x=0$  ."
         ],
         "correct": 2,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/0131/12026-00157-1769822979864.png"
+        ]
       }
     ]
   },
@@ -25561,7 +26071,10 @@
           "D. $(−∞;2)$  ."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/0129/12026-00153-1769677123393.png"
+        ]
       },
       {
         "id": 2,
@@ -25573,7 +26086,10 @@
           "D. $(−∞;0)$  ."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/0129/12026-00154-1769677352135.png"
+        ]
       },
       {
         "id": 3,
@@ -25585,7 +26101,10 @@
           "D. nghịch biến."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/0129/12026-00155-1769677520567.png"
+        ]
       },
       {
         "id": 4,
@@ -25955,7 +26474,10 @@
           "D. poly(vinyl chloride)."
         ],
         "correct": 0,
-        "explanation": "​Dựa vào công thức cấu tạo, suy ra tên gọi của polymer X là polyacrylonitrile.\nPolyethylene có công thức cấu tạo như sau:\nPoly(vinyl chloride) có công thức cấu tạo như sau:\nPoly(vinylidene cyanide) có công thức cấu tạo như sau:"
+        "explanation": "​Dựa vào công thức cấu tạo, suy ra tên gọi của polymer X là polyacrylonitrile.\nPolyethylene có công thức cấu tạo như sau:\nPoly(vinyl chloride) có công thức cấu tạo như sau:\nPoly(vinylidene cyanide) có công thức cấu tạo như sau:",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/1024/img_teacher_2024-10-24_6719b343ccbff.jpg"
+        ]
       },
       {
         "id": 3,
@@ -27519,7 +28041,10 @@
         "id": 1,
         "question": "Bảng biến thiên sau đây là của hàm số nào?",
         "options": [
-          "A. $y=\\frac{x−1}{2−x}$  .B.  $y=\\frac{x+1}{x−2}$  .C.  $y=\\frac{x+3}{2+x}$  .D.  $y=\\frac{3x+2}{x−2}$  ."
+          "A. $y=\\frac{x−1}{2−x}$.",
+          "B. $y=\\frac{x+1}{x−2}$.",
+          "C. $y=\\frac{x+3}{2+x}$.",
+          "D. $y=\\frac{3x+2}{x−2}$."
         ],
         "correct": 0,
         "explanation": "Dựa vào bảng biến thiên, ta thấy:\n+ Đồ thị hàm số có tiệm cận ngang là   $y=1$  , tiệm cận đứng là   $x=2$  .\n+ Hàm số nghịch biến trên mỗi khoảng   $(−∞;2),(2;+∞)$   nên   ${y}^{′}<0     ∀x≠2$  .\nĐồ thị hàm số   $y=\\frac{x+1}{x−2}$   có tiệm cận ngang là   $y=1$  , tiệm cận đứng là   $x=2$  .\nVà   ${y}^{′}=\\frac{−3}{(x−2{)}^{2}}<0    ∀x≠2$   nên hàm số nghịch biến trên mỗi khoảng   $(−∞;2), (2;+∞)$  ."
@@ -27528,7 +28053,10 @@
         "id": 2,
         "question": "Hàm số nào sau đây có bảng biến thiên như hình vẽ?",
         "options": [
-          "A. $y=\\frac{2x−3}{x+2}$  .B.  $y=\\frac{2x−5}{x−2}$  .C.  $y=\\frac{x+3}{x−2}$  .D.  $y=\\frac{2x−1}{x−2}$  ."
+          "A. $y=\\frac{2x−3}{x+2}$.",
+          "B. $y=\\frac{2x−5}{x−2}$.",
+          "C. $y=\\frac{x+3}{x−2}$.",
+          "D. $y=\\frac{2x−1}{x−2}$."
         ],
         "correct": 0,
         "explanation": "Đồ thị hàm số có tiệm cận đứng là:   $x=2$   và tiệm cận ngang   $y=2$  .\nHàm số nghịch biến trên các khoảng   $(−∞;2), (2;+∞)$   nên   ${y}^{′}<0, ∀x≠2$  .\nTa chọn hàm số:   $y=\\frac{2x−1}{x−2}$  , vì   ${y}^{′}=\\frac{−3}{(x−2{)}^{2}}<0, ∀x≠2$  ."
@@ -27537,7 +28065,10 @@
         "id": 3,
         "question": "Bảng biến thiên sau là của hàm số nào dưới đây?",
         "options": [
-          "A. $y=\\frac{{x}^{2}+2x−2}{x+1}$  .B.  $y=\\frac{{x}^{2}+2x+2}{x+1}$  .C.  $y=\\frac{{x}^{2}+2x−2}{x−1}$  .D.  $y=\\frac{{x}^{2}+2x+2}{x−1}$  ."
+          "A. $y=\\frac{{x}^{2}+2x−2}{x+1}$.",
+          "B. $y=\\frac{{x}^{2}+2x+2}{x+1}$.",
+          "C. $y=\\frac{{x}^{2}+2x−2}{x−1}$.",
+          "D. $y=\\frac{{x}^{2}+2x+2}{x−1}$."
         ],
         "correct": 0,
         "explanation": "Dựa vào bảng biến thiên ta thấy đồ thị hàm số có tiệm cận đứng là đường thẳng   $x=1$  .\nSuy ra loại  2  hàm số   $y=\\frac{{x}^{2}+2x−2}{x+1}$   và   $y=\\frac{{x}^{2}+2x+2}{x+1}$  .\nTa thấy đồ thị hàm số đi qua điểm   $(0;2)$   nên loại hàm số   $y=\\frac{{x}^{2}+2x+2}{x−1}$  .\nVậy bảng biến thiên đề bài cho là của hàm số   $y=\\frac{{x}^{2}+2x−2}{x−1}$  ."
@@ -27546,7 +28077,10 @@
         "id": 4,
         "question": "Cho hàm số   $y=\\frac{ax−1}{2x+b}$  . Biết rằng, hàm số có bảng biến thiên như hình.\nTổng   $a+b$   bằng",
         "options": [
-          "A. 0 .B.  $−1$  .C. 1 .D. 2 ."
+          "A. 0.",
+          "B. $−1$.",
+          "C. 1.",
+          "D. 2."
         ],
         "correct": 0,
         "explanation": "Quan sát hình vẽ ta thấy  $x=−1$  là tiệm cận đứng;  $y=−1$  là tiệm cận ngang của đồ thị.Từ dạng cụ thể của hàm số là   $y=\\frac{ax−1}{2x+b}$   ta thấy phương trình tiệm cận đứng là   $x=−\\frac{b}{2}$  , phương trình tiệm cận ngang là   $y=\\frac{a}{2}$  .\nTừ đó suy ra   $−\\frac{b}{2}=−1; \\frac{a}{2}=−1$   hay  $a=−2;b=2$ . Do đó   $a+b=0$  ."
@@ -27555,7 +28089,10 @@
         "id": 5,
         "question": "Cho hàm số   $y=f(x)$   có bảng biến thiên như hình vẽ. Hàm số   $y=f(x)$   là hàm số nào dưới đây?",
         "options": [
-          "A. $y={x}^{4}−2{x}^{2}−1$  .B.  $y={x}^{3}−3{x}^{2}+1$  .C.  $y=−{x}^{3}+3{x}^{2}+1$  .D.  $y=\\frac{x+2}{x−1}$  ."
+          "A. $y={x}^{4}−2{x}^{2}−1$.",
+          "B. $y={x}^{3}−3{x}^{2}+1$.",
+          "C. $y=−{x}^{3}+3{x}^{2}+1$.",
+          "D. $y=\\frac{x+2}{x−1}$."
         ],
         "correct": 0,
         "explanation": "Từ hình vẽ ta thấy đây là dạng bảng biến thiên của một hàm số bậc ba.\nNhánh cuối cùng của đồ thị ứng với khoảng nghịch biến   $(2;+∞)$   nên hàm số có hệ số của   ${x}^{3}$   là   $a<0$  .\nDo đó, chọn hàm số   $y=−{x}^{3}+3{x}^{2}+1$  ."
@@ -27564,7 +28101,10 @@
         "id": 6,
         "question": "Hàm số nào dưới đây có bảng biến thiên như sau?",
         "options": [
-          "A. $y={x}^{3}−3x$  .B.  $y=−{x}^{3}+3x$  .C.  $y=−{x}^{2}+2x$  .D.  $y={x}^{2}−2x$  ."
+          "A. $y={x}^{3}−3x$.",
+          "B. $y=−{x}^{3}+3x$.",
+          "C. $y=−{x}^{2}+2x$.",
+          "D. $y={x}^{2}−2x$."
         ],
         "correct": 0,
         "explanation": "Từ hình vẽ ta thấy đây là bảng biến thiên của một hàm số bậc ba.\nNhánh cuối cùng của đồ thị ứng với khoảng nghịch biến   $(1;+∞)$   nên hàm số có hệ số của   ${x}^{3}$   là   $a<0$  .\nDo đó, hàm số   $y=−{x}^{3}+3x$   thoả mãn."
@@ -27573,7 +28113,10 @@
         "id": 7,
         "question": "Bảng biến thiên dưới đây là của hàm số nào?",
         "options": [
-          "A. $y={x}^{3}+6{x}^{2}+9x+4$  .B.  $y=−{x}^{3}+6{x}^{2}−9x+4$  .C.  $y={x}^{3}−6{x}^{2}+9x−4$  .D.  $y={x}^{3}−6{x}^{2}+9x$  ."
+          "A. $y={x}^{3}+6{x}^{2}+9x+4$.",
+          "B. $y=−{x}^{3}+6{x}^{2}−9x+4$.",
+          "C. $y={x}^{3}−6{x}^{2}+9x−4$.",
+          "D. $y={x}^{3}−6{x}^{2}+9x$."
         ],
         "correct": 0,
         "explanation": "Từ hình vẽ ta thấy đây là dạng bảng biến thiên của một hàm số bậc ba.\nNhánh cuối cùng của đồ thị ứng với khoảng đồng biến   $(3;+∞)$   nên hàm số có hệ số của   ${x}^{3}>0$   là   $a>0$  .\nĐồ thị hàm số đi qua điểm   $(1;0)$   và   $(3;−4)$   nên hàm số thỏa mãn là   $y={x}^{3}−6{x}^{2}+9x−4$  ."
@@ -27582,7 +28125,10 @@
         "id": 8,
         "question": "Đồ thị hàm số nào sau đây có hình dạng như hình vẽ?",
         "options": [
-          "A. $y={x}^{3}+3x+1$  .B.  $y=−{x}^{3}+3x+1$  .C.  $y={x}^{3}−3x−1$  .D.  $y=−{x}^{3}−3x+1$  ."
+          "A. $y={x}^{3}+3x+1$.",
+          "B. $y=−{x}^{3}+3x+1$.",
+          "C. $y={x}^{3}−3x−1$.",
+          "D. $y=−{x}^{3}−3x+1$."
         ],
         "correct": 0,
         "explanation": "Dựa và đồ thị ta thấy hàm số đồng biến trên   $R$   và cắt trục hoành tại một điểm, cắt trục tung tại   $y=1$   nên chọn hàm số   $y={x}^{3}+3x+1$  ."
@@ -27591,7 +28137,10 @@
         "id": 9,
         "question": "Ðồ thị dưới đây là của hàm số nào?",
         "options": [
-          "A. $y=\\frac{x−1}{2x+1}$  .B.  $y=\\frac{x+3}{2x+1}$  .C.  $y=\\frac{x+1}{2x+1}$  .D.  $y=\\frac{x}{2x+1}$  ."
+          "A. $y=\\frac{x−1}{2x+1}$.",
+          "B. $y=\\frac{x+3}{2x+1}$.",
+          "C. $y=\\frac{x+1}{2x+1}$.",
+          "D. $y=\\frac{x}{2x+1}$."
         ],
         "correct": 0,
         "explanation": "Nhận thấy đồ thị hàm số có tiệm cận đứng là   $x=−\\frac{1}{2}$   và tiệm cận ngang là   $y=\\frac{1}{2}$   nên hàm số có dạng   $y=\\frac{x+m}{2x+1}$  . Mà đồ thị hàm số đi qua gốc tọa độ nên hàm số là   $y=\\frac{x}{2x+1}$  ."
@@ -27600,7 +28149,10 @@
         "id": 10,
         "question": "Đường cong trong hình vẽ là đồ thị của hàm số nào dưới đây?",
         "options": [
-          "A. $y=−{x}^{4}−3x+2$  .B.  $y={x}^{4}−{x}^{2}+2$  .C.  $y=−{x}^{3}+3x+2$  .D.  $y={x}^{3}−3x+2$  ."
+          "A. $y=−{x}^{4}−3x+2$.",
+          "B. $y={x}^{4}−{x}^{2}+2$.",
+          "C. $y=−{x}^{3}+3x+2$.",
+          "D. $y={x}^{3}−3x+2$."
         ],
         "correct": 0,
         "explanation": "Đồ thị trên là đồ thị của hàm số bậc ba   $y=a{x}^{3}+b{x}^{2}+cx+d$   với   $a≠0$  .\nNhánh cuối của đồ thị đi xuống nên   $a<0$  , đồ thị có hai điểm cực trị nên   $a.c<0$  ."
@@ -27609,7 +28161,10 @@
         "id": 11,
         "question": "Hình vẽ sau là đồ thị hàm số nào dưới đây?",
         "options": [
-          "A. $y=−{x}^{3}+{x}^{2}+2x−1$  .B.  $y=−2{x}^{3}+{x}^{2}+3x−1$  .C.  $y={x}^{3}+{x}^{2}−x−1$  .D.  $y=−{x}^{3}+{x}^{2}+x−1$  ."
+          "A. $y=−{x}^{3}+{x}^{2}+2x−1$.",
+          "B. $y=−2{x}^{3}+{x}^{2}+3x−1$.",
+          "C. $y={x}^{3}+{x}^{2}−x−1$.",
+          "D. $y=−{x}^{3}+{x}^{2}+x−1$."
         ],
         "correct": 0,
         "explanation": "+ Dựa vào đồ thị, ta có   $a<0$   nên loại hàm số   $y={x}^{3}+{x}^{2}−x−1$  .\n+ Dựa vào hình vẽ, ta thấy đồ thị hàm số đi qua điểm   $(1;0)$  .\n⚡ Thay   $x=1$   vào hàm số   $y=−{x}^{3}+{x}^{2}+x−1$   được:\n$y=−{1}^{3}+{1}^{2}+1−1=0$  .\nDo đó đồ thị hàm số đi qua điểm   $(1;0)$  .\n⚡ Thay   $x=1$   vào hàm số   $y=−2{x}^{3}+{x}^{2}+3x−1$   được:\n$y=−{2.1}^{3}+{1}^{2}+3.1−1=1$  .\nĐồ thị hàm số không đi qua điểm   $(1;0)$   (loại).\n⚡ Thay   $x=1$   vào hàm số   $y=−{x}^{3}+{x}^{2}+2x−1$   được:\n$y=−{1}^{3}+{1}^{2}+2.1−1=1$  .\nĐồ thị hàm số không đi qua điểm   $(1;0)$   (loại)."
@@ -27618,7 +28173,10 @@
         "id": 12,
         "question": "Đồ thị của hàm số nào dưới đây là đường cong trong hình vẽ?",
         "options": [
-          "A. $y={x}^{3}−3{x}^{2}−1$  .B.  $y=−{x}^{3}+3{x}^{2}−1$  .C.  $y=−{x}^{4}+2{x}^{2}−1$  .D.  $y={x}^{4}−2{x}^{2}−1$  ."
+          "A. $y={x}^{3}−3{x}^{2}−1$.",
+          "B. $y=−{x}^{3}+3{x}^{2}−1$.",
+          "C. $y=−{x}^{4}+2{x}^{2}−1$.",
+          "D. $y={x}^{4}−2{x}^{2}−1$."
         ],
         "correct": 0,
         "explanation": "Từ đồ thị ta thấy:\n+ Đây là đồ thị của hàm bậc ba   $y=a{x}^{3}+b{x}^{2}+cx+d$   với   $a≠0$  ;\n+ Nhánh cuối của đồ thị đi xuống, suy ra hệ số   $a<0$  .\nĐồ thị trên là đồ thị của hàm số   $y=−{x}^{3}+3{x}^{2}−1$  ."
@@ -27627,7 +28185,10 @@
         "id": 13,
         "question": "Hàm số nào có đồ thị như hình vẽ dưới đây?",
         "options": [
-          "A. $y=−2{x}^{3}−3{x}^{2}+1$  .B.  $y=2{x}^{3}+3{x}^{2}+1$  .C.  $y={x}^{3}+\\frac{3}{2}{x}^{2}+1$  .D.  $y=−{x}^{3}−\\frac{3}{2}{x}^{2}+1$  ."
+          "A. $y=−2{x}^{3}−3{x}^{2}+1$.",
+          "B. $y=2{x}^{3}+3{x}^{2}+1$.",
+          "C. $y={x}^{3}+\\frac{3}{2}{x}^{2}+1$.",
+          "D. $y=−{x}^{3}−\\frac{3}{2}{x}^{2}+1$."
         ],
         "correct": 0,
         "explanation": "Hàm số trên là hàm số bậc ba có hệ số   $a>0$  , loại đáp án   $y=−{x}^{3}−\\frac{3}{2}{x}^{2}+1$  ,   $y=−2{x}^{3}−3{x}^{2}+1$  .\nĐồ thị hàm số có điểm cực đại   $(−1;2)$  . Vậy chọn   $y=2{x}^{3}+3{x}^{2}+1$  ."
@@ -27636,7 +28197,10 @@
         "id": 14,
         "question": "Hàm số nào dưới đây có đồ thị như hình vẽ?",
         "options": [
-          "A. $y=\\frac{{x}^{2}−4}{x+1}$  .B.  $y={x}^{3}−3{x}^{2}$  .C.  $y=\\frac{−x+2}{x−1}$  .D.  $y={x}^{2}−2x−3$  ."
+          "A. $y=\\frac{{x}^{2}−4}{x+1}$.",
+          "B. $y={x}^{3}−3{x}^{2}$.",
+          "C. $y=\\frac{−x+2}{x−1}$.",
+          "D. $y={x}^{2}−2x−3$."
         ],
         "correct": 0,
         "explanation": "Dạng đồ thị đã cho là của hàm số phân thức bậc nhất trên bậc nhất."
@@ -27645,7 +28209,10 @@
         "id": 15,
         "question": "Đồ thị ở hình vẽ bên là đồ thị của hàm số nào sau đây?",
         "options": [
-          "A. $y=−{x}^{3}+6{x}^{2}−9x+2$  .B.  $y=−{x}^{3}+6{x}^{2}+9x−2$  .C.  $y={x}^{3}−3{x}^{2}−2$  .D.  $y={x}^{3}−6{x}^{2}+9x−2$  ."
+          "A. $y=−{x}^{3}+6{x}^{2}−9x+2$.",
+          "B. $y=−{x}^{3}+6{x}^{2}+9x−2$.",
+          "C. $y={x}^{3}−3{x}^{2}−2$.",
+          "D. $y={x}^{3}−6{x}^{2}+9x−2$."
         ],
         "correct": 0,
         "explanation": "Dựa vào đồ thị hàm số suy ra   $a>0$  ,   $d=−2$  , đồ thị hàm số đi qua các điểm   $(1;2)$  và   $(3;−2)$   nên ta có:\n$\\begin{cases} a+b+c−2=2 \\\\ 27a+9b+3c−2=−2 \\\\ 12a+2b=0 \\end{cases}$\n$⇔\\begin{cases} a=1 \\\\ b=−6 \\\\ c=9 \\end{cases}$  .\nVậy   $y={x}^{3}−6{x}^{2}+9x−2$ ."
@@ -27851,7 +28418,10 @@
           "D. chất rắn (c) ; chất lỏng (b); chất khí (a)."
         ],
         "correct": 3,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1006/f5222931599-1791300345730_2_rId5.png"
+        ]
       },
       {
         "id": 4,
@@ -28007,7 +28577,10 @@
           "D. Trên đoạn BC là quá trình nóng chảy của vật rắn."
         ],
         "correct": 0,
-        "explanation": ""
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/2026/1006/f5222931599-1791300345730_2_rId6.png"
+        ]
       },
       {
         "id": 17,
@@ -28644,7 +29217,10 @@
         "id": 1,
         "question": "Đồ thị hàm số  $y=\\frac{3x+1}{x−1}$  có tâm đối xứng là",
         "options": [
-          "A. $I(3; 1)$  .B.  $I(1; 3)$  .C.  $I(−1; 3)$  .D.  $I(−1; 1)$  ."
+          "A. $I(3; 1)$.",
+          "B. $I(1; 3)$.",
+          "C. $I(−1; 3)$.",
+          "D. $I(−1; 1)$."
         ],
         "correct": 0,
         "explanation": "⚡  $limx→1+ \\frac{3x+1}{x−1}=+∞$  nên đường thẳng  $x=1$  là tiệm cận đứng của đồ thị hàm số.\n⚡  $limx→±∞ \\frac{3x+1}{x−1}=3$  nên đường thẳng  $y=3$  là tiệm cận ngang của đồ thị hàm số.\nĐồ thị hàm số không có tiệm cận xiên.\nDo đó điểm đối xứng của đồ thị là  $I(1; 3)$  ."
@@ -28653,7 +29229,10 @@
         "id": 2,
         "question": "Cho hàm số  $y=\\frac{f(x)}{g(x)}$  với  $f(x)≠g(x)≠0$  , có  $limx→+∞ f(x)=1$  và  $limx→+∞ g(x)=−1$  . Khẳng định nào sau đây đúng?",
         "options": [
-          "A. Đồ thị hàm số đã cho không có tiệm cận ngang.B. Đồ thị hàm số đã cho có hai tiệm cận ngang là các đường thẳng  $y=1$  và  $y=−1$  .C. Đồ thị hàm số đã cho có đúng một tiệm cận ngang.D. Đồ thị hàm số một tiệm cận ngang là  $y=−1$  ."
+          "A. Đồ thị hàm số đã cho không có tiệm cận ngang.",
+          "B. Đồ thị hàm số đã cho có hai tiệm cận ngang là các đường thẳng  $y=1$  và  $y=−1$.",
+          "C. Đồ thị hàm số đã cho có đúng một tiệm cận ngang.",
+          "D. Đồ thị hàm số một tiệm cận ngang là  $y=−1$."
         ],
         "correct": 0,
         "explanation": "Ta có:  $limx→+∞ y=\\frac{limx→+∞ f(x)}{limx→+∞ g(x)}=\\frac{1}{−1}=−1$  suy ra  $y=−1$  là tiệm cận ngang.\nChưa thể khẳng định tiệm cận ngang còn lại vì chưa biết  $limx→−∞ \\frac{f(x)}{g(x)}$  ."
@@ -28662,7 +29241,10 @@
         "id": 3,
         "question": "Đồ thị của hàm số dưới đây không có tiệm cận ngang?",
         "options": [
-          "A. $y=\\frac{x+2}{{x}^{2}+1}$  .B.  $y=\\frac{1}{x+2}$  .C.  $y=\\frac{{x}^{2}−1}{x+2}$  .D.  $y=\\frac{x+2}{x+1}$  ."
+          "A. $y=\\frac{x+2}{{x}^{2}+1}$.",
+          "B. $y=\\frac{1}{x+2}$.",
+          "C. $y=\\frac{{x}^{2}−1}{x+2}$.",
+          "D. $y=\\frac{x+2}{x+1}$."
         ],
         "correct": 0,
         "explanation": "⚡  $limx→±∞ \\frac{x+2}{{x}^{2}+1}=0$  nên đồ thị hàm số có tiệm cận ngang  $y=0$  .\n⚡  $limx→±∞ \\frac{x+2}{x+1}=1$  nên đồ thị hàm số có tiệm cận ngang  $y=1$  .\n⚡  $limx→±∞ \\frac{{x}^{2}−1}{x+2}=±∞$  nên đồ thị hàm số không có tiệm cận ngang.\n⚡  $limx→±∞ \\frac{1}{x+2}=0$  nên đồ thị hàm số có tiệm cận ngang  $y=0$  ."
@@ -28671,7 +29253,10 @@
         "id": 4,
         "question": "Đồ thị hàm số  $y=\\frac{x+2}{3x+9}$  có đường tiệm cận đứng là  $x=a$  và đường tiệm cận ngang là  $y=b$  . Giá trị của số nguyên m nhỏ nhất thỏa mãn  $m≥a+b$  là",
         "options": [
-          "A. $−1$  .B. 0 .C.  $−3$  .D.  $−2$  ."
+          "A. $−1$.",
+          "B. 0.",
+          "C. $−3$.",
+          "D. $−2$."
         ],
         "correct": 0,
         "explanation": "⚡Chú ý:Đồ thị hàm số  $y=\\frac{ax+b}{cx+d}$  nếu  $ad−bc≠0, a≠0$  thì có tiệm cận đứng là  $x=\\frac{−d}{c}$  và tiệm cận ngang  $y=\\frac{a}{c}$  .\nVậy đồ thị hàm số  $y=\\frac{x+2}{3x+9}$  có đường tiệm cận đứng là  $x=−3$  và đường tiệm cận ngang là  $y=\\frac{1}{3}$\nNên  $a=−3, b=\\frac{1}{3}$\nDo đó  $m≥a+b$\n$⇔m≥−\\frac{8}{3}$\n$⇒$  Giá trị nguyên nhỏ nhất là  $m=−2$  ."
@@ -28680,7 +29265,10 @@
         "id": 5,
         "question": "Gọi I là giao điểm của hai đường tiệm cận của đồ thị hàm số  $y=\\frac{2x−1}{5+x}$  . Tọa độ điểm I là",
         "options": [
-          "A. $I(1; 2)$  .B.  $I(2; −5)$  .C.  $I(−5; 2)$  .D.  $(−1; 2)$  ."
+          "A. $I(1; 2)$.",
+          "B. $I(2; −5)$.",
+          "C. $I(−5; 2)$.",
+          "D. $(−1; 2)$."
         ],
         "correct": 0,
         "explanation": "Ta có:\n⚡  $limx→±∞ \\frac{2x−1}{5+x}=2$\nĐồ thị hàm số có tiệm cận ngang là  $y=2$  .\n⚡  $limx→(−5)+ \\frac{2x−1}{5+x}=−∞$\nĐồ thị hàm số có tiệm cận đứng là  $x=−5$  .\nĐồ thị hàm số không có tiệm cận ngang.\nDo đó I là giao của hai đường thẳng  $x=−5$  và  $y=2$  . Khi đó  $I(−5;2)$  ."
@@ -28689,7 +29277,10 @@
         "id": 6,
         "question": "Tiệm cận ngang của đồ thị hàm số  $y=\\frac{2x−3}{x+1}$  là đường thẳng có phương trình",
         "options": [
-          "A. $x=−1$  .B.  $y=−1$  .C.  $x=2$  .D.  $y=2$  ."
+          "A. $x=−1$.",
+          "B. $y=−1$.",
+          "C. $x=2$.",
+          "D. $y=2$."
         ],
         "correct": 0,
         "explanation": "Tập xác định:  $D=R∖\\left\\{ −1 \\right\\}$  .\nTa có  $limyx→+∞ =limx→+∞ \\frac{2x−3}{x+1}=2  ;  limyx→−∞ =limx→−∞ \\frac{2x−3}{x+1}=2$  .\nSuy ra  $y=2$  là tiệm cận ngang của đồ thị hàm số."
@@ -28710,7 +29301,10 @@
         "id": 8,
         "question": "Tiệm cận ngang của đồ thị hàm số  $y=\\frac{2x−1}{x−1}$  có phương trình là",
         "options": [
-          "A. $x=1$  .B.  $x=2$  .C.  $y=1$  .D.  $y=2$  ."
+          "A. $x=1$.",
+          "B. $x=2$.",
+          "C. $y=1$.",
+          "D. $y=2$."
         ],
         "correct": 0,
         "explanation": "Ta xét giới hạn:\n${lim}_{x→+∞}\\frac{2x−1}{x−1}=2$\n${lim}_{x→−∞}\\frac{2x−1}{x−1}=2$\nVậy tiệm cận ngang của đồ thị hàm số là đường thẳng  $y=2$  ."
@@ -28719,7 +29313,10 @@
         "id": 9,
         "question": "Tiệm cận đứng của đồ thị hàm số  $y=\\frac{2{x}^{2}−3x−1}{x−2}$  là",
         "options": [
-          "A. $y=2$  .B.  $x=−2$  .C.  $x=2$  .D.  $y=−\\frac{1}{2}$  ."
+          "A. $y=2$.",
+          "B. $x=−2$.",
+          "C. $x=2$.",
+          "D. $y=−\\frac{1}{2}$."
         ],
         "correct": 0,
         "explanation": "$limx→2+ \\frac{2{x}^{2}−3x−1}{x−2}=+∞$  và  $limx→2− \\frac{2{x}^{2}−3x−1}{x−2}=−∞$  nên  $x=2$  là tiệm cận đứng của đồ thị hàm số đã cho."
@@ -28728,7 +29325,10 @@
         "id": 10,
         "question": "Đường tiệm cận ngang của đồ thị hàm số  $y=\\frac{2x−1}{\\sqrt{4{x}^{2}+1}}$  là",
         "options": [
-          "A. $y=1$  .B.  $x=1$  .C.  $x=1$  ;  $x=−1$  .D.  $y=1$  ;  $y=−1$  ."
+          "A. $y=1$.",
+          "B. $x=1$.",
+          "C. $x=1$  ;  $x=−1$.",
+          "D. $y=1$  ;  $y=−1$."
         ],
         "correct": 0,
         "explanation": "⚡ $limx→+∞\\frac{2x−1}{\\sqrt{4{x}^{2}+1}}=limx→+∞ \\frac{2−\\frac{1}{x}}{\\sqrt{4+\\frac{1}{{x}^{2}}}}=1$  ;\n⚡ $limx→−∞\\frac{2x−1}{\\sqrt{4{x}^{2}+1}}=limx→−∞ \\frac{2−\\frac{1}{x}}{−\\sqrt{4+\\frac{1}{{x}^{2}}}}=−1$  .\nVậy đồ thị hàm số có hai đường tiệm cận ngang là  $y=1$  và  $y=−1$  ."
@@ -28737,7 +29337,10 @@
         "id": 11,
         "question": "Cho hàm số  $y=f(x)$  liên tục và xác định trên  $R$  có  $limx→+∞ f(x)=0$  và  $limx→−∞ f(x)=+∞$  . Khẳng định nào sau đây đúng?",
         "options": [
-          "A. Đồ thị hàm số  $y=f(x)$  có một tiệm cận đứng là đường thẳng  $y=0$  .B. Đồ thị hàm số  $y=f(x)$  không có tiệm cận ngang.C. Đồ thị hàm số  $y=f(x)$  có một tiệm cận ngang là trục hoành.D. Đồ thị hàm số  $y=f(x)$  nằm phía trên trục hoành."
+          "A. Đồ thị hàm số  $y=f(x)$  có một tiệm cận đứng là đường thẳng  $y=0$.",
+          "B. Đồ thị hàm số  $y=f(x)$  không có tiệm cận ngang.",
+          "C. Đồ thị hàm số  $y=f(x)$  có một tiệm cận ngang là trục hoành.",
+          "D. Đồ thị hàm số  $y=f(x)$  nằm phía trên trục hoành."
         ],
         "correct": 0,
         "explanation": "Vì  $limx→+∞ f(x)=0$  và  $limx→−∞ f(x)=+∞$  nên đồ thị hàm số chỉ có một tiệm cận ngang là trục hoành."
@@ -28746,7 +29349,10 @@
         "id": 12,
         "question": "Đồ thị hàm số  $y=\\frac{{x}^{2}−5x+6}{{x}^{2}−4}$  có tiệm cận đứng là",
         "options": [
-          "A. $x=2$  .B.  $x=1$  .C.  $x=2$  và  $x=−2$  .D.  $x=−2$  ."
+          "A. $x=2$.",
+          "B. $x=1$.",
+          "C. $x=2$  và  $x=−2$.",
+          "D. $x=−2$."
         ],
         "correct": 0,
         "explanation": "Ta có  $y=\\frac{{x}^{2}−5x+6}{{x}^{2}−4}=\\frac{(x−2)(x−3)}{(x−2)(x+2)}=\\frac{x−3}{x+2}$\n$limx→(−2)+ \\frac{x−3}{x+2}=−∞$  nên  $x=−2$  là tiệm cận đứng của đồ thị hàm số."
@@ -28842,117 +29448,156 @@
     "questions": [
       {
         "id": 1,
-        "question": "Cho tứ diện   $SABC$   có   $M, N, P$   lần lượt là trung điểm của   $SA, SB, SC$  . Khẳng định nào dưới đây đúng?",
+        "question": "Trong không gian $Oxyz$, cho hai vectơ $\\overrightarrow{u}=(-1 ; 1 ; 3)$ và $\\overrightarrow{v}=(-2 ; 1 ;-3)$. Giá trị của $|2 \\overrightarrow{u}-3 \\overrightarrow{v}|$ là",
         "options": [
-          "A. $AB=2\\left( PM−PN \\right)$  .B.  $AB=2\\left( PN−PM \\right)$  .C.  $AB=PN−PM$  .D.  $AB=\\frac{1}{2}\\left( PN−PM \\right)$  ."
+          "A. $\\sqrt{242}$.",
+          "B. $\\sqrt{216}$.",
+          "C. $\\sqrt{152}$.",
+          "D. $\\sqrt{322}$."
         ],
         "correct": 0,
-        "explanation": "Ta có:   $AB=2MN$   $=2\\left( PN−PM \\right)$  ."
+        "explanation": ""
       },
       {
         "id": 2,
-        "question": "Cho hình lăng trụ $ABC.A’B’C’$. Đặt   $AA’=a$  ,   $AB=b$  ,   $AC=c$  . Biểu diễn vectơ   $B’C$   theo   $a, b, c$   được",
+        "question": "Trong không gian $Oxyz$, gọi $\\overrightarrow{i},\\,\\overrightarrow{j},\\,\\overrightarrow{k}$ là các vectơ đơn vị. Cho hai vectơ $\\overrightarrow{a}=3\\overrightarrow{i}+2\\overrightarrow{j}+5\\overrightarrow{k}$ và $\\overrightarrow{b}=-3\\overrightarrow{i}+4\\overrightarrow{j}+5\\overrightarrow{k}$, vectơ $\\overrightarrow{a}+\\overrightarrow{b}$ có tọa độ là",
         "options": [
-          "A. $B′C=a+b−c$  .B.  $B′C=−a+b−c$  .C.  $B′C=−a−b+c$  .D.  $B′C=a+b+c$  ."
+          "A. $(6;\\,0;1\\,0 )$.",
+          "B. $(0;\\,6;\\,10 )$.",
+          "C. $(-2;\\,-1;\\,1 )$.",
+          "D. $(4;\\,1;\\,1 )$."
         ],
-        "correct": 0,
-        "explanation": "Vì $BB’C’C$ là hình bình hành\n$⇒B’C=B’C’+B’B=BC−AA’$\n$=−AA′+BA+AC=−AA′−AB+AC$   $=−a−b+c$  ."
+        "correct": 1,
+        "explanation": ""
       },
       {
         "id": 3,
-        "question": "Trong không gian với hệ tọa độ   $Oxyz$  , cho   $u=2i+3j−k$  , khi đó tọa độ vectơ   $u$   là",
+        "question": "Trong không gian với hệ tọa độ $Oxyz,$ cho ba điểm $A( 2;-1;3)$, $B( 0;1;5)$ và $C( 1;m-1;2)$ ($m$ là tham số). Với giá trị nào của tham số $m$ thì tam giác $ABC$ vuông tại $A$?",
         "options": [
-          "A. $(2;−3;−1)$  .B.  $(2;3;1)$  .",
-          "C. $(2;3;−1)$  .D.  $(−2; 3; 1)$  ."
+          "A. $m=0$.",
+          "B. $m=-1$.",
+          "C. $m=1$.",
+          "D. $m=2$."
         ],
-        "correct": 2,
-        "explanation": "Theo định nghĩa ta có   $i=(1;0;0)$  ,   $j=(0;1;0)$   và   $k=(0;0;1)$  .\nDo đó,   $u=2i+3j−k⇔u=(2;3;−1)$  ."
+        "correct": 0,
+        "explanation": ""
       },
       {
         "id": 4,
-        "question": "Trong không gian   $Oxyz$  , cho hai điểm   $A(2;3;4)$   và   $B(3;0;1)$  . Độ dài của vectơ   $AB$   bằng",
+        "question": "Trong không gian với hệ tọa độ $Oxyz$, cho hai điểm $A(-1;1;-2 ),\\,B(1;3;0 )$. Khi đó tọa độ $\\overrightarrow{AB}$ bằng",
         "options": [
-          "A. $13.$",
-          "B. $19.$",
-          "C. $\\sqrt{13}.$",
-          "D. $\\sqrt{19}.$"
+          "A. $\\overrightarrow{AB}=(-2;-2;-2 )$.",
+          "B. $\\overrightarrow{AB}=(0;2;-1 )$.",
+          "C. $\\overrightarrow{AB}=(2;2;2 )$.",
+          "D. $\\overrightarrow{AB}=(0;4;-2 )$."
         ],
-        "correct": 3,
-        "explanation": "Ta có   $AB=(1;−3;−3)⇒|AB|=\\sqrt{19}$  .​"
+        "correct": 2,
+        "explanation": ""
       },
       {
         "id": 5,
-        "question": "Trong không gian với hệ tọa độ   $Oxyz$  , cho điểm   $M(1;2;−\\sqrt{3})$  . Điểm   ${M}^{′}∈Oz$   sao cho độ dài đoạn thẳng   $M{M}^{′}$   ngắn nhất có tọa độ là",
+        "question": "Cho tứ diện đều $ABCD$ có cạnh bằng $a$ và $M$ là trung điểm của cạnh $CD$. Giá trị của $\\overrightarrow{AB} \\cdot \\overrightarrow{AM}$ bằng A B C D M",
         "options": [
-          "A. ${M}^{′}(0;0;−\\sqrt{3})$  .B.  ${M}^{′}(0;0;\\sqrt{3})$  .",
-          "C. ${M}^{′}(1;0;−\\sqrt{3})$  .D.  ${M}^{′}(0;2;−\\sqrt{3})$  ."
+          "A. $a^2$.",
+          "B. $0$.",
+          "C. $\\dfrac{a^2}{2}$.",
+          "D. $\\dfrac{a^2\\sqrt{3}}{4}$."
         ],
-        "correct": 0,
-        "explanation": "$M{M}^{′}$   ngắn nhất khi điểm   ${M}^{′}$   là hình chiếu của điểm   $M$   trên trục   $Oz$\n$⇒{M}^{′}(0;0;−\\sqrt{3})$  ."
+        "correct": 2,
+        "explanation": ""
       },
       {
         "id": 6,
-        "question": "Môt chiếc khinh khí cầu bay lên từ địa điểm cho trước. Sau khoảng thời gian bay, chiếc khinh khí cầu cách địa điểm xuất phát   $2,5$   km về hướng nam và   $1,7$   km về hướng đông, đồng thời cách mặt đất là   $0,6$   km. Chọn hệ trục toạ độ   $Oxyz$   với gốc   $O$   đặt tại điểm xuất phát của chiếc khinh khí cầu, mặt phẳng   $(Oxy)$   trùng với mặt đất, trục   $Ox$   hướng về nam, trục   $Oy$   hướng về phía đông và trục   $Oz$   hướng thẳng đứng lên trời, đơn vị đo lấy theo ki-lô-mét.\nKhoảng cách từ địa điểm xuất phát đến địa điểm hiện tại của khinh khí cầu gần nhất với giá trị nào sau đây là",
+        "question": "Trong không gian với hệ toạ độ $Oxyz$, cho các điểm $M( 1;\\,-2;\\,3)$, $N( 3;\\,0;\\,-1)$ và điểm $I$ là trung điểm của $MN$. Mệnh đề nào sau đây đúng?",
         "options": [
-          "A. $4,11$   km.B.  $2,05$   km.C.  $3,08$   km.D.  $3,15$   km."
+          "A. $\\overrightarrow{OI}=4\\overrightarrow{i}-2\\overrightarrow{j}+2\\overrightarrow{k}$.",
+          "B. $\\overrightarrow{OI}=2\\overrightarrow{i}-\\overrightarrow{j}+2\\overrightarrow{k}$.",
+          "C. $\\overrightarrow{OI}=4\\overrightarrow{i}-2\\overrightarrow{j}+\\overrightarrow{k}$.",
+          "D. $\\overrightarrow{OI}=2\\overrightarrow{i}-\\overrightarrow{j}+\\overrightarrow{k}$."
         ],
-        "correct": 0,
-        "explanation": "Với hệ trục toạ độ đã chọn thì vị trí hiện tại của khinh khí cầu là   $A(2,5; 1,7; 0,6)$  .\nKhi đó khoảng cách từ địa điểm xuất phát đến địa điểm hiện tại của khinh khí cầu là:\n$OA=\\sqrt{2,{5}^{2}+1,{7}^{2}+0,{6}^{2}}≈3,08$   (km)."
+        "correct": 3,
+        "explanation": ""
       },
       {
         "id": 7,
-        "question": "Cho hai vectơ   $u,v$   có   $|u|=3, |v|=4$   và góc giữa hai vectơ   $u,v$   bằng   ${60}^{∘}$  . Tích vô hướng   $u.v$   bằng",
+        "question": "Cho hình hộp $ABCD.{A}'{B}'{C}'{D}'$, có đáy $ABCD$ hình bình hành tâm $O$. Khi đó $2\\overrightarrow{AO}$ bằng vectơ nào dưới đây?",
         "options": [
-          "A. $−12$  .B. 6 .C. 12 .D.  $−6$  ."
+          "A. $\\overrightarrow{AC}$.",
+          "B. $\\overrightarrow{AD}$.",
+          "C. $\\overrightarrow{{A}'C}$.",
+          "D. $\\overrightarrow{AB}$."
         ],
         "correct": 0,
-        "explanation": "Ta có   $u.v=|u|.|v|.cos(u,v)=3.4.cos{60}^{∘}=6$  ."
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/1022/img_teacher_2024-10-22_6717139a57a4d.jpg"
+        ]
       },
       {
         "id": 8,
-        "question": "Cho hình chóp   $S.ABCD$   có đáy   $ABCD$   là hình bình hành tâm   $O$  . Khẳng định nào sau đây đúng?",
+        "question": "Trong không gian $Oxyz$, cho hai vectơ $\\overrightarrow{u}=(1 ; m-1 ; 4)$ và $\\overrightarrow{v}=(1 ; 3 ; 2 n)$. Biết $\\overrightarrow{u}=\\overrightarrow{v}$, khi đó giá trị của $m ; n$ lần lượt là",
         "options": [
-          "A. $SA+SB+SC+SD=4SO$  .B.  $SA+SB+SC+SD=\\frac{1}{2}SO$  .C.  $SA+SB+SC+SD=\\frac{1}{4}SO$  .D.  $SA+SB+SC+SD=2SO$  ."
+          "A. $4$ và $2$.",
+          "B. $2$ và $2$.",
+          "C. $4$ và $4$.",
+          "D. $2$ và $4$."
         ],
         "correct": 0,
-        "explanation": "Theo quy tắc hình bình hành\n$SA+SC=2SO$  .\n$SB+SD=2SO$  .\nSuy ra\n$SA+SB+SC+SD=4SO$  ."
+        "explanation": ""
       },
       {
         "id": 9,
-        "question": "Trong không gian với hệ tọa độ   $Oxyz$  , cho hình hộp chữ nhật   $ABCD.{A}^{′}{B}^{′}{C}^{′}{D}^{′}$  có điểm   $A$   trùng với gốc tọa độ   $O$  , điểm   $B$   nằm trên tia   $Ox$  , điểm   $D$   nằm trên tia   $Oy$  , điểm   ${A}^{′}$  nằm trên tia   $Oz$  .Biết   $AB=2, AD=4, A{A}^{′}=3$  . Gọi tọa độ của   ${C}^{′}$   là   $(a; b; c)$   khi đó biểu thức   $a+b−c$   có giá trị là",
+        "question": "Trong không gian với hệ tọa độ $Oxyz$, cho $A(1 ; 1 ; 2), \\, B(2 ;-1 ; 1)$ và $C(3 ; 2 ;-3)$. Để $ABCD$ là hình bình hành thì tọa độ điểm $D$ là",
         "options": [
-          "A. 3 .B.  $−4$  .C. 9 .D. 6 ."
+          "A. $(4 ; 0 ;-4)$.",
+          "B. $(0 ;-2 ; 6)$.",
+          "C. $(4 ; 2 ;-4)$.",
+          "D. $(2 ; 4 ;-2)$."
         ],
-        "correct": 0,
-        "explanation": "Theo giả thiết có   $AB=2i; AD=4 j; AA′=3k;$\nÁp dụng quy tắc hình hộp ta có:   $AC′=AB+AD+AA′=2i+4j+3k$  .\nDo đó điểm   ${C}^{′}$   có tọa độ là   $(2; 4; 3)$  .\nVậy   $a+b−c=2+4−3=3$  ."
+        "correct": 3,
+        "explanation": ""
       },
       {
         "id": 10,
-        "question": "Trong không gian với hệ tọa độ   $Oxyz$  , cho ba điểm   $A(−1;−2;3)$  ,   $B(0;3;1)$   và   $C(4;2;2)$  . Côsin của góc   $BAC$   bằng",
+        "question": "Cho hình lăng trụ $ABC.A'B'C'$, $M$ là trung điểm của $BB'$. Đặt $\\overrightarrow{CA}=\\overrightarrow{a}$, $\\overrightarrow{CB}=\\overrightarrow{b}$, $\\overrightarrow{AA'}=\\overrightarrow{c}$ .Biết $\\overrightarrow{AM}=m.\\overrightarrow{a}+n.\\overrightarrow{b}+k.\\overrightarrow{c}$. Giá trị của $m+n+6k$ là",
         "options": [
-          "A. $\\frac{9}{2\\sqrt{35}}$  .",
-          "B. $−\\frac{9}{2\\sqrt{35}}$  .C.  $\\frac{9}{\\sqrt{35}}$  .D.  $−\\frac{9}{\\sqrt{35}}$  ."
+          "A. $3$.",
+          "B. $2$.",
+          "C. $5$.",
+          "D. $-1$."
         ],
         "correct": 0,
-        "explanation": "Ta có   $AB=(1;5;−2);AC=(5;4;−1)$  .\n$cosBAC=\\frac{AB.AC}{|AB|.|AC|}=\\frac{5+20+2}{\\sqrt{30}.\\sqrt{42}}=\\frac{9}{2\\sqrt{35}}$  ."
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/0917/img_teacher_2024-09-17_66e93d9691a01.jpg"
+        ]
       },
       {
         "id": 11,
-        "question": "Trong không gian   $Oxyz$  , cho vectơ   $a=(−3;2;1)$   và điểm   $A(4;6;−3)$  . Tọa độ điểm   $B$   thỏa mãn   $AB=a$   là",
+        "question": "Trong không gian $Oxyz$cho ba điểm $A(1;\\,1;\\,1 )$, $B(5;\\,-1;\\,2 )$, $C(3;\\,2;\\,-4 )$. Tọa độ điểm $M$ thỏa mãn $\\overrightarrow{MA}+2\\overrightarrow{MB}-\\overrightarrow{MC}=\\overrightarrow{0}$ là",
         "options": [
-          "A. $(1;8;−2)$  .B.  $(−1;−8;2)$  .C.  $(7;4;−4)$  .D.  $(−7;−4;4)$  ."
+          "A. $M\\Big(4;\\,-\\dfrac{3}{2};\\,\\dfrac{9}{2} \\Big)$.",
+          "B. $M\\Big(4;\\,-\\dfrac{3}{2};\\,-\\dfrac{9}{2} \\Big)$.",
+          "C. $M\\Big(4;\\,\\dfrac{3}{2};\\,\\dfrac{9}{2} \\Big)$.",
+          "D. $M\\Big(-4;\\,-\\dfrac{3}{2};\\,\\dfrac{9}{2} \\Big)$."
         ],
         "correct": 0,
-        "explanation": "Gọi   $B(x;y;z)$  .\nTa có   $AB=(x−4;y−6;z+3)$  .\nKhi đó   $AB=a⇔\\begin{cases} x−4=−3 \\\\ y−6=2 \\\\ z+3=1 \\end{cases}⇔\\begin{cases} x=1 \\\\ y=8 \\\\ z=−2 \\end{cases}$  ."
+        "explanation": ""
       },
       {
         "id": 12,
-        "question": "Trong không gian với hệ tọa độ   $Oxyz$  , cho   $A(2; 1; −3)$  ,   $B(0; −2; 5)$   và   $C(1; 1; 3)$  . Tọa độ điểm   $D$   sao cho tứ giác   $ABCD$   là hình bình hành là",
+        "question": "Căn lều gỗ được phác thảo dưới dạng một hình lăng trụ đứng tam giác $OAB.O'A'B'$ với hệ trục toạ độ $Oxyz$ như hình vẽ (đơn vị đo lấy theo centimét). Hai điểm $A'$ và $B'$ có tọa độ lần lượt là $(240;\\,450;\\,0 )$ và $(120;\\,450;\\,300)$. Mỗi căn lều gỗ có chiều dài là $a$ cm, chiều rộng là $b$ cm, mỗi cạnh bên của mặt tiền có độ dài là $c$ cm. Giá trị $a+b+c$ là",
         "options": [
-          "A. $D(3; 4; 5)$  .B.  $D(3; 4; −5)$  .C.  $D(−3; 4; −5)$  .D.  $D(3; −4; −5)$  ."
+          "A. $1\\,013$.",
+          "B. $1\\,113$.",
+          "C. $1\\,103$.",
+          "D. $1\\,213$."
         ],
         "correct": 0,
-        "explanation": "Gọi   $D(a; b; c)$   là tọa độ điểm cần tìm. Ta có   $AB=(−2; −3; 8); DC=(1−a; 1−b; 3−c)$\nTứ giác   $ABCD$   là hình bình hành khi và chỉ khi   $AB=DC$\n$⇔\\begin{cases} 1−a=−2 \\\\ 1−b=−3 \\\\ 3−c=8 \\end{cases}⇔\\begin{cases} a=3 \\\\ b=4 \\\\ c=−5 \\end{cases}$  .\nVậy   $D(3; 4; −5)$  ."
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/0919/img_teacher_2024-09-19_66ebebc079f2f.jpg"
+        ]
       },
       {
         "id": 13,
@@ -29205,10 +29850,10 @@
         "id": 4,
         "question": "Em cần viết đoạn mã HTML như thế nào để tạo đường liên kết từ hình ảnh tháp Eiffel được lưu trong tệp có đường dẫn images/eiffel.jpg tới trang info.html?",
         "options": [
-          "A. <a href=\"info.html\" src=\"images/eiffel.jpg\"></a>.",
-          "B. <img src=\"images/eiffel.jpg\"><a href=\"info.html\"></a>.",
-          "C. <a href=\"info.html\"><img src=\"images/eiffel.jpg\"></a>.",
-          "D. <a src=\"info.html\"><img href=\"images/eiffel.jpg\"></a>."
+          "A. <image>.",
+          "B. <pic>.",
+          "C. <img>.",
+          "D. <photo>."
         ],
         "correct": 2,
         "explanation": ""
@@ -29217,10 +29862,10 @@
         "id": 5,
         "question": "Thuộc tính nào của thẻ dùng để chỉ định nơi mở tài liệu được liên kết (VD: mở tài liệu trong một tab mới, mở tài liệu trong khung hiện tại,…)?",
         "options": [
-          "A. rel.",
-          "B. type.",
-          "C. target.",
-          "D. open."
+          "A. <a href=\"info.html\" src=\"images/eiffel.jpg\"></a>.",
+          "B. <img src=\"images/eiffel.jpg\"><a href=\"info.html\"></a>.",
+          "C. <a href=\"info.html\"><img src=\"images/eiffel.jpg\"></a>.",
+          "D. <a src=\"info.html\"><img href=\"images/eiffel.jpg\"></a>."
         ],
         "correct": 2,
         "explanation": ""
