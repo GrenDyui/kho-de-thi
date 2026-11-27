@@ -28824,5 +28824,479 @@
         ]
       }
     ]
+  },
+  {
+    "id": "olm-de-so-1-vecto-trong-khong-gian-3836971510",
+    "title": "OLM: Đề số 1: Vectơ trong không gian",
+    "subject": "Toán",
+    "grade": 12,
+    "duration": 45,
+    "teacher": "Nguyễn Hoàng Trung",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Toán",
+      "GV: Nguyễn Hoàng Trung"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Cho tứ diện   $SABC$   có   $M, N, P$   lần lượt là trung điểm của   $SA, SB, SC$  . Khẳng định nào dưới đây đúng?",
+        "options": [
+          "A. $AB=2\\left( PM−PN \\right)$  .B.  $AB=2\\left( PN−PM \\right)$  .C.  $AB=PN−PM$  .D.  $AB=\\frac{1}{2}\\left( PN−PM \\right)$  ."
+        ],
+        "correct": 0,
+        "explanation": "Ta có:   $AB=2MN$   $=2\\left( PN−PM \\right)$  ."
+      },
+      {
+        "id": 2,
+        "question": "Cho hình lăng trụ $ABC.A’B’C’$. Đặt   $AA’=a$  ,   $AB=b$  ,   $AC=c$  . Biểu diễn vectơ   $B’C$   theo   $a, b, c$   được",
+        "options": [
+          "A. $B′C=a+b−c$  .B.  $B′C=−a+b−c$  .C.  $B′C=−a−b+c$  .D.  $B′C=a+b+c$  ."
+        ],
+        "correct": 0,
+        "explanation": "Vì $BB’C’C$ là hình bình hành\n$⇒B’C=B’C’+B’B=BC−AA’$\n$=−AA′+BA+AC=−AA′−AB+AC$   $=−a−b+c$  ."
+      },
+      {
+        "id": 3,
+        "question": "Trong không gian với hệ tọa độ   $Oxyz$  , cho   $u=2i+3j−k$  , khi đó tọa độ vectơ   $u$   là",
+        "options": [
+          "A. $(2;−3;−1)$  .B.  $(2;3;1)$  .",
+          "C. $(2;3;−1)$  .D.  $(−2; 3; 1)$  ."
+        ],
+        "correct": 2,
+        "explanation": "Theo định nghĩa ta có   $i=(1;0;0)$  ,   $j=(0;1;0)$   và   $k=(0;0;1)$  .\nDo đó,   $u=2i+3j−k⇔u=(2;3;−1)$  ."
+      },
+      {
+        "id": 4,
+        "question": "Trong không gian   $Oxyz$  , cho hai điểm   $A(2;3;4)$   và   $B(3;0;1)$  . Độ dài của vectơ   $AB$   bằng",
+        "options": [
+          "A. $13.$",
+          "B. $19.$",
+          "C. $\\sqrt{13}.$",
+          "D. $\\sqrt{19}.$"
+        ],
+        "correct": 3,
+        "explanation": "Ta có   $AB=(1;−3;−3)⇒|AB|=\\sqrt{19}$  .​"
+      },
+      {
+        "id": 5,
+        "question": "Trong không gian với hệ tọa độ   $Oxyz$  , cho điểm   $M(1;2;−\\sqrt{3})$  . Điểm   ${M}^{′}∈Oz$   sao cho độ dài đoạn thẳng   $M{M}^{′}$   ngắn nhất có tọa độ là",
+        "options": [
+          "A. ${M}^{′}(0;0;−\\sqrt{3})$  .B.  ${M}^{′}(0;0;\\sqrt{3})$  .",
+          "C. ${M}^{′}(1;0;−\\sqrt{3})$  .D.  ${M}^{′}(0;2;−\\sqrt{3})$  ."
+        ],
+        "correct": 0,
+        "explanation": "$M{M}^{′}$   ngắn nhất khi điểm   ${M}^{′}$   là hình chiếu của điểm   $M$   trên trục   $Oz$\n$⇒{M}^{′}(0;0;−\\sqrt{3})$  ."
+      },
+      {
+        "id": 6,
+        "question": "Môt chiếc khinh khí cầu bay lên từ địa điểm cho trước. Sau khoảng thời gian bay, chiếc khinh khí cầu cách địa điểm xuất phát   $2,5$   km về hướng nam và   $1,7$   km về hướng đông, đồng thời cách mặt đất là   $0,6$   km. Chọn hệ trục toạ độ   $Oxyz$   với gốc   $O$   đặt tại điểm xuất phát của chiếc khinh khí cầu, mặt phẳng   $(Oxy)$   trùng với mặt đất, trục   $Ox$   hướng về nam, trục   $Oy$   hướng về phía đông và trục   $Oz$   hướng thẳng đứng lên trời, đơn vị đo lấy theo ki-lô-mét.\nKhoảng cách từ địa điểm xuất phát đến địa điểm hiện tại của khinh khí cầu gần nhất với giá trị nào sau đây là",
+        "options": [
+          "A. $4,11$   km.B.  $2,05$   km.C.  $3,08$   km.D.  $3,15$   km."
+        ],
+        "correct": 0,
+        "explanation": "Với hệ trục toạ độ đã chọn thì vị trí hiện tại của khinh khí cầu là   $A(2,5; 1,7; 0,6)$  .\nKhi đó khoảng cách từ địa điểm xuất phát đến địa điểm hiện tại của khinh khí cầu là:\n$OA=\\sqrt{2,{5}^{2}+1,{7}^{2}+0,{6}^{2}}≈3,08$   (km)."
+      },
+      {
+        "id": 7,
+        "question": "Cho hai vectơ   $u,v$   có   $|u|=3, |v|=4$   và góc giữa hai vectơ   $u,v$   bằng   ${60}^{∘}$  . Tích vô hướng   $u.v$   bằng",
+        "options": [
+          "A. $−12$  .B. 6 .C. 12 .D.  $−6$  ."
+        ],
+        "correct": 0,
+        "explanation": "Ta có   $u.v=|u|.|v|.cos(u,v)=3.4.cos{60}^{∘}=6$  ."
+      },
+      {
+        "id": 8,
+        "question": "Cho hình chóp   $S.ABCD$   có đáy   $ABCD$   là hình bình hành tâm   $O$  . Khẳng định nào sau đây đúng?",
+        "options": [
+          "A. $SA+SB+SC+SD=4SO$  .B.  $SA+SB+SC+SD=\\frac{1}{2}SO$  .C.  $SA+SB+SC+SD=\\frac{1}{4}SO$  .D.  $SA+SB+SC+SD=2SO$  ."
+        ],
+        "correct": 0,
+        "explanation": "Theo quy tắc hình bình hành\n$SA+SC=2SO$  .\n$SB+SD=2SO$  .\nSuy ra\n$SA+SB+SC+SD=4SO$  ."
+      },
+      {
+        "id": 9,
+        "question": "Trong không gian với hệ tọa độ   $Oxyz$  , cho hình hộp chữ nhật   $ABCD.{A}^{′}{B}^{′}{C}^{′}{D}^{′}$  có điểm   $A$   trùng với gốc tọa độ   $O$  , điểm   $B$   nằm trên tia   $Ox$  , điểm   $D$   nằm trên tia   $Oy$  , điểm   ${A}^{′}$  nằm trên tia   $Oz$  .Biết   $AB=2, AD=4, A{A}^{′}=3$  . Gọi tọa độ của   ${C}^{′}$   là   $(a; b; c)$   khi đó biểu thức   $a+b−c$   có giá trị là",
+        "options": [
+          "A. 3 .B.  $−4$  .C. 9 .D. 6 ."
+        ],
+        "correct": 0,
+        "explanation": "Theo giả thiết có   $AB=2i; AD=4 j; AA′=3k;$\nÁp dụng quy tắc hình hộp ta có:   $AC′=AB+AD+AA′=2i+4j+3k$  .\nDo đó điểm   ${C}^{′}$   có tọa độ là   $(2; 4; 3)$  .\nVậy   $a+b−c=2+4−3=3$  ."
+      },
+      {
+        "id": 10,
+        "question": "Trong không gian với hệ tọa độ   $Oxyz$  , cho ba điểm   $A(−1;−2;3)$  ,   $B(0;3;1)$   và   $C(4;2;2)$  . Côsin của góc   $BAC$   bằng",
+        "options": [
+          "A. $\\frac{9}{2\\sqrt{35}}$  .",
+          "B. $−\\frac{9}{2\\sqrt{35}}$  .C.  $\\frac{9}{\\sqrt{35}}$  .D.  $−\\frac{9}{\\sqrt{35}}$  ."
+        ],
+        "correct": 0,
+        "explanation": "Ta có   $AB=(1;5;−2);AC=(5;4;−1)$  .\n$cosBAC=\\frac{AB.AC}{|AB|.|AC|}=\\frac{5+20+2}{\\sqrt{30}.\\sqrt{42}}=\\frac{9}{2\\sqrt{35}}$  ."
+      },
+      {
+        "id": 11,
+        "question": "Trong không gian   $Oxyz$  , cho vectơ   $a=(−3;2;1)$   và điểm   $A(4;6;−3)$  . Tọa độ điểm   $B$   thỏa mãn   $AB=a$   là",
+        "options": [
+          "A. $(1;8;−2)$  .B.  $(−1;−8;2)$  .C.  $(7;4;−4)$  .D.  $(−7;−4;4)$  ."
+        ],
+        "correct": 0,
+        "explanation": "Gọi   $B(x;y;z)$  .\nTa có   $AB=(x−4;y−6;z+3)$  .\nKhi đó   $AB=a⇔\\begin{cases} x−4=−3 \\\\ y−6=2 \\\\ z+3=1 \\end{cases}⇔\\begin{cases} x=1 \\\\ y=8 \\\\ z=−2 \\end{cases}$  ."
+      },
+      {
+        "id": 12,
+        "question": "Trong không gian với hệ tọa độ   $Oxyz$  , cho   $A(2; 1; −3)$  ,   $B(0; −2; 5)$   và   $C(1; 1; 3)$  . Tọa độ điểm   $D$   sao cho tứ giác   $ABCD$   là hình bình hành là",
+        "options": [
+          "A. $D(3; 4; 5)$  .B.  $D(3; 4; −5)$  .C.  $D(−3; 4; −5)$  .D.  $D(3; −4; −5)$  ."
+        ],
+        "correct": 0,
+        "explanation": "Gọi   $D(a; b; c)$   là tọa độ điểm cần tìm. Ta có   $AB=(−2; −3; 8); DC=(1−a; 1−b; 3−c)$\nTứ giác   $ABCD$   là hình bình hành khi và chỉ khi   $AB=DC$\n$⇔\\begin{cases} 1−a=−2 \\\\ 1−b=−3 \\\\ 3−c=8 \\end{cases}⇔\\begin{cases} a=3 \\\\ b=4 \\\\ c=−5 \\end{cases}$  .\nVậy   $D(3; 4; −5)$  ."
+      },
+      {
+        "id": 13,
+        "type": "true_false",
+        "question": "Một nhà kho gồm nền nhà $O A B C$, bốn bức tường và hai mái nhà đều là hình chữ nhật gắn trong hệ trục tọa độ $Oxyz$ như hình vẽ bên (đơn vị trên mỗi trục là mét).",
+        "items": [
+          {
+            "label": "a",
+            "text": "#Điểm $K(2 ; 10 ; 4)$ là trung điểm của $E F$.",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "#Tọa độ của điểm $A(5 ; 0 ; 0)$.",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "#Trên đường thẳng vuông góc với nền nhà tại điểm $K$, người ta treo một bóng đèn ở vị trí $H$ cách vị trí $K$ một đoạn bằng $0,5$ m. Khi đó khoảng cách từ bóng đèn $H$ đến nền nhà là $4$ m.",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "#Điểm $I(0 ; 2 ; 1)$ là vị trí bật công tắc của bóng đèn. Độ dài ngắn nhất của đường dây điện bắt từ $I$ tới $H$ là $a$ (mét). Khi đó $a$ lớn hơn $9,5$ (biết đường dây điện thuộc mặt phẳng $(O M Q C)$ và $(MEFQ)$).",
+            "correct": true
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0610/img_2025-06-10_68480189c22d1.jpg"
+        ]
+      },
+      {
+        "id": 14,
+        "type": "true_false",
+        "question": "Trong không gian $Oxyz$, cho $A(2;-1;0)$ và $B(1;1;-3)$.",
+        "items": [
+          {
+            "label": "a",
+            "text": "#$\\overrightarrow{OA}=(2;-1;0)$.",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "#$\\overrightarrow{OB}=\\overrightarrow{i}+\\overrightarrow{j}+\\overrightarrow{3k}$.",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "#$\\overrightarrow{BA}=(1;2;3)$.",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "#$M\\in (Oxy)$ sao cho $A,M,B$ thẳng hàng có toạ độ $M\\Big(\\dfrac{4}{3};\\dfrac{1}{3};0\\Big)$.",
+            "correct": false
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "type": "true_false",
+        "question": "Trong không gian với hệ trục tọa độ $Oxyz$, cho ba vectơ $\\overrightarrow{a}(1;2;3 );\\overrightarrow{b}(2;2;-1 );\\overrightarrow{c}(4;0;-4 )$.",
+        "items": [
+          {
+            "label": "a",
+            "text": "#Tọa độ của vectơ $\\overrightarrow{x}=\\overrightarrow{a}+\\overrightarrow{b}$ là $\\overrightarrow{x}=(3;4;2)$.",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "#Tọa độ của vectơ $\\overrightarrow{y}=\\overrightarrow{a}+\\overrightarrow{c}$ là $\\overrightarrow{y}=(5;2;1)$.",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "#Tọa độ của vectơ $\\overrightarrow{z}=\\overrightarrow{b}+\\overrightarrow{c}$ là $\\overrightarrow{z}=(6;-2;-5)$.",
+            "correct": false
+          },
+          {
+            "label": "d",
+            "text": "#Vectơ $\\overrightarrow{k}=(7;4;-2)$ thỏa mãn đẳng thức $\\overrightarrow{k}=\\overrightarrow{a}+\\overrightarrow{b}+\\overrightarrow{c}$.",
+            "correct": true
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "type": "true_false",
+        "question": "Cho hình lăng trụ tam giác $ABC.{A}'{B}'{C}'$.",
+        "items": [
+          {
+            "label": "a",
+            "text": "#$ \\overrightarrow{AA'}+\\overrightarrow{BB'}=2\\overrightarrow{CC'}$.",
+            "correct": true
+          },
+          {
+            "label": "b",
+            "text": "#$\\overrightarrow{AB}-\\overrightarrow{CC'}-\\overrightarrow{A'B'}=\\overrightarrow{BB'}$.",
+            "correct": false
+          },
+          {
+            "label": "c",
+            "text": "#$ \\overrightarrow{BB'}+2\\overrightarrow{BC} +\\overrightarrow{AA'} =2 \\overrightarrow{BC'}$.",
+            "correct": true
+          },
+          {
+            "label": "d",
+            "text": "#$\\overrightarrow{AB'}+\\overrightarrow{BA}+2\\overrightarrow{CC'}=3\\overrightarrow{BB'}$.",
+            "correct": true
+          }
+        ],
+        "options": [],
+        "correct": 0,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/0918/img_teacher_2024-09-18_66ea434781ee6.jpg"
+        ]
+      },
+      {
+        "id": 17,
+        "type": "short_answer",
+        "question": "Trong không gian chọn hệ trục tọa độ cho trước, đơn vị đo lấy kilômét, ra đã phát hiện một máy bay di chuyển với vận tốc và hướng không đối từ điểm $A(500 ; 200 ; 8)$ đến điểm $N(800 ; 100 ; 10)$ trong $20$ phút. Nếu máy bay tiếp tục giữ nguyên vận tốc và hướng bay thì tọa độ của máy bay sau $5$ phút tiếp theo bằng $(a ; b ; c)$ với $a \\in \\mathbb{N}$. Tính $a$. Trả lời: Hướng dẫn giải: Gọi $M(a ; b ; c)$ là vị trí cần tìm. Theo đề bài, ta có: $\\overrightarrow{A M}=\\dfrac{5}{4} \\overrightarrow{A N} $ $\\Leftrightarrow\\left\\{\\begin{aligned} a-500=\\dfrac{5}{4}(800-500) \\\\ b-200=\\dfrac{5}{4}(100-200) \\\\ c-8=\\dfrac{5}{4}(10-8)\\end{aligned} \\right.$ $\\Leftrightarrow\\left\\{\\begin{aligned}a=875 \\\\ b=75 \\\\ c=\\dfrac{21}{2}\\end{aligned} \\Rightarrow a=875\\right.$.",
+        "options": [],
+        "correctAnswer": "875",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "type": "short_answer",
+        "question": "Trong không gian cho $\\overrightarrow{a}, \\overrightarrow{b}$ có $(\\overrightarrow{a}+2 \\overrightarrow{b})$ vuông góc với vectơ $(5 \\overrightarrow{a}-4 \\overrightarrow{b})$ và $|\\overrightarrow{a}|=|\\overrightarrow{b}|$. Tính $\\cos (\\overrightarrow{a}, \\overrightarrow{b})$, làm tròn kết quả đến hàng phần mười. Trả lời: Hướng dẫn giải: Vì $(\\overrightarrow{a}+2 \\overrightarrow{b})$ vuông góc với vectơ $(5 \\overrightarrow{a}-4 \\overrightarrow{b})$ nên $(\\overrightarrow{a}+2 \\overrightarrow{b}) .(5 \\overrightarrow{a}-4 \\overrightarrow{b})=0$ $ \\Leftrightarrow 5 \\overrightarrow{a}^2-8 \\overrightarrow{b}^2+6 \\overrightarrow{a} . \\overrightarrow{b}=0 \\Leftrightarrow \\overrightarrow{a} . \\overrightarrow{b}=\\dfrac{-5 \\overrightarrow{a}^2+8 \\overrightarrow{b}^2}{6}$ Ta có $|\\overrightarrow{a}|=|\\overrightarrow{b}| \\Leftrightarrow|\\overrightarrow{a}|^2=|\\overrightarrow{b}|^2$ Suy ra $\\overrightarrow{a} . \\overrightarrow{b}=\\dfrac{3 \\overrightarrow{a}^2}{6}$. $\\cos (\\overrightarrow{a}, \\overrightarrow{b})=\\dfrac{\\overrightarrow{a}. \\overrightarrow{b}}{|\\overrightarrow{a}|.|\\overrightarrow{b}|}=\\dfrac{\\dfrac{3 \\overrightarrow{a}^2}{6}}{\\overrightarrow{a}^2}=\\dfrac{1}{2}$.",
+        "options": [],
+        "correctAnswer": "0,5",
+        "correct": 0,
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "type": "short_answer",
+        "question": "Người ta thường dùng cẩu trục tháp (như hình vẽ) để vận chuyển vật liệu xây dựng; thân tháp vuông góc với mặt đất, cần nâng vuông gọ́c thân tháp dùng để làm điểm tựa nâng vật liệu, trên cần nâng có bộ phận gọi là xe con, có thể chạy dọc cần nâng nhằm di chuyển vật liệu. Ban đầu vật liệu ở mặt đất, cẩu trục dùng móc cẩu nâng vật liệu lên cao theo phương thẳng đứng và cao hơn $1$ m so với vị trí cần đặt, sau đó giữ nguyên độ cao và cẩu trục quay cần nâng một góc $\\alpha \\in (0^\\circ ; 180^\\circ)$ sao cho quỹ đạo tạo thành một cung tròn cho đến khi mặt phẳng $(P)$ chứa cần nâng và điểm cần đặt vuông góc với mặt đất (vật liệu và điểm cần đặt cùng nằm trên một nửa mặt phẳng $(P)$ so với thân tháp). Tiếp đến điều chỉnh xe con nhằm di chuyển và hạ vật liệu xuống $1$ m theo phương thẳng đứng đúng vị trí cần đặt. Giả sử rằng trong không gian với hệ trục tọa độ $O x y z$, thân tháp là trục $O z$ và mặt đất là mặt phẳng $O x y$ (đơn vị tính bằng mét); vị trí ban đầu của vật liệu là điểm $A(6 ; 8 ; 0)$ và vị trí cần đặt vật liệu là điểm $B(4 ;-3 ; 15)$. Tính quãng đường vật liệu đã di chuyển (kết quả làm tròn đến hàng phần mười của đơn vị mét). Trả lời: Hướng dẫn giải: Gọi $B’(4 ;-3 ; 0)$ là hình chiếu của $B$ trên $O x y$. Ta có: $\\overrightarrow{O A}=(6 ; 8 ; 0) \\Rightarrow O A=10$, khi đó quỹ đạo chuyển động của vật liệu sau khi được nâng lên là một cung tròn của đường tròn có bán kính bằng $10$. Ta có: $\\overrightarrow{O A} .\\overrightarrow{O B’}=0 \\Rightarrow O A \\perp O B’$ nên góc ở tâm của độ dài cung tròn vật liệu sẽ đi $90^{\\circ}$, vậy độ dài cung tròn vật liệu sẽ đi là $\\dfrac{2 .10 .\\pi}{4}=5 \\pi$. Do phải nâng vật cao hơn vị trí cần hạ là $1$ m nên tổng chiều cao vật được nâng lên sẽ là $z_{B}+1=16$. Quãng đường xe con di chuyển từ vị trí được nâng đến vị trí để hạ vật liệu là $O A-d(B, O z)=10-5=5$. Do hạ vật xuống $1$ m sao với vị trí cần đặt nên tổng quãng đường vật di chuyển là: $T=5 \\pi+16+5+1 \\approx 37,7$ (m).",
+        "options": [],
+        "correctAnswer": "37,7",
+        "correct": 0,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0606/img_2025-06-06_6842a9360bf4c.jpg"
+        ]
+      },
+      {
+        "id": 20,
+        "type": "short_answer",
+        "question": "Hình vẽ trên minh hoạ một chiếc đèn được treo cách trần nhà là $0,5$ m, cách hai tường lần lượt là $1,2$ m và $1,6$ m. Hai bức tường vuông góc với nhau và cùng vuông góc với trần nhà. Người ta di chuyển chiếc đèn đó đến vị trí mới cách trần nhà là $0,4$ m, cách hai tường đều là $1,5$ m. Vị trí mới của bóng đèn cách vị trí ban đầu là bao nhiêu mét? (Làm tròn kết quả đến chữ số thập phân thứ hai) Trả lời: Hướng dẫn giải: Ta đặt hệ trục tọa độ như hình vẽ. Ta thấy tọa độ của bóng đèn ban đầu là $A (1,2;1,6,-0,5)$. Tọa độ mới của bóng đèn là $B (1,5;1,5;-0,4)$. Khoảng cách giữa vị trí mới và vị trí cũ bằng độ dài của vectơ $\\overrightarrow{AB}$. $\\overrightarrow{AB} = (0,3;-0,1;0,1)$. Vậy $| \\overrightarrow{AB} | = \\sqrt{0,3^2 + (-0,1)^2 + 0,1^2} = \\dfrac{\\sqrt{11}}{10} \\approx 0,33$ m.",
+        "options": [],
+        "correctAnswer": "0,33",
+        "correct": 0,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img_teacher/0523/img_teacher_2024-05-23_664eaddb76802_1.png",
+          "https://cdn3.olm.vn/upload/img_teacher/0523/img_teacher_2024-05-23_664eaed47750a_1.png"
+        ]
+      },
+      {
+        "id": 21,
+        "type": "short_answer",
+        "question": "Trong không gian, cho hình lập phương $ABCD.A’B’C’D’$ biết rằng $\\overrightarrow{AN}=-4\\overrightarrow{AB}+k\\overrightarrow{AA’}-2\\overrightarrow{AD}$ $(k\\in \\mathbb{R})$ và $\\overrightarrow{AM}=2\\overrightarrow{AB}+\\overrightarrow{AA’}-3\\overrightarrow{AD}$. Tìm giá trị $k$ thích hợp để $\\overrightarrow{AN}\\bot \\overrightarrow{AM}$. Trả lời: Hướng dẫn giải: Vì $ABCD.A’B’C’D’$ là hình lập phương nên $AB=AA’=AD$ Các vectơ $\\overrightarrow{AB}$, $\\overrightarrow{AA’}$, $\\overrightarrow{AD}$ đôi một vuông góc với nhau. Do đó: $\\overrightarrow{AB}.\\overrightarrow{AA’}=0$; $\\overrightarrow{AB}.\\overrightarrow{AD}=0$; $\\overrightarrow{AA’}.\\overrightarrow{AD}=0$. Để $\\overrightarrow{AN}\\bot \\overrightarrow{AM}$ thì $\\overrightarrow{AN}.\\overrightarrow{AM}=0$ $\\Leftrightarrow (-4\\overrightarrow{AB}+k\\overrightarrow{AA’}-2\\overrightarrow{AD}).(2\\overrightarrow{AB}+\\overrightarrow{AA’}-3\\overrightarrow{AD})=0$ $\\Leftrightarrow -8\\overrightarrow{AB}.\\overrightarrow{AB}-4\\overrightarrow{AB}.\\overrightarrow{AA’}+12\\overrightarrow{AB}.\\overrightarrow{AD}+k\\overrightarrow{AA’}.(2\\overrightarrow{AB}+\\overrightarrow{AA’}-3\\overrightarrow{AD})-2\\overrightarrow{AD}.(2\\overrightarrow{AB}+\\overrightarrow{AA’}-3\\overrightarrow{AD})=0$ $\\Leftrightarrow -8{{(\\overrightarrow{AB})}^{2}}-0+0+2k\\overrightarrow{AA’}.\\overrightarrow{AB}+k\\overrightarrow{AA’}.\\overrightarrow{AA’}-3k \\overrightarrow{AA’}.\\overrightarrow{AD}-4\\overrightarrow{AD}.\\overrightarrow{AB}-2\\overrightarrow{AD}.\\overrightarrow{AA’}+6\\overrightarrow{AD}.\\overrightarrow{AD}=0$ $\\Leftrightarrow -8(\\overrightarrow{AB})^2-0+0+0+k(\\overrightarrow{AA’})^2-0-0-0+6(\\overrightarrow{AD})^2=0$ $\\Leftrightarrow -8AB^2+kAA’^2+6AD^2=0$ (mà $AB=AA’=AD$) $\\Leftrightarrow -8AB^2+kAB^2+6AB^2=0\\Leftrightarrow (-8+k+6)AB^2=0$ $\\Leftrightarrow -8+k+6=0\\Leftrightarrow k-2=0\\Leftrightarrow k=2$. Vậy giá trị $k$ thích hợp để $\\overrightarrow{AN}\\bot \\overrightarrow{AM}$ là $k=2$.",
+        "options": [],
+        "correctAnswer": "2",
+        "correct": 0,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0527/img_2025-05-27_683526ac92c2e.jpg"
+        ]
+      },
+      {
+        "id": 22,
+        "type": "short_answer",
+        "question": "Một kiến trúc sư muốn xây dựng một tòa nhà biểu tượng độc lạ cho thành phố. Trên bản thiết kế tòa nhà có hình dạng là một khối lăng trụ tam giác đều, có cạnh bên bằng cạnh đáy và dài $300$ mét . Kiến trúc sư muốn xây dựng một cây cầu $MN$ bắc xuyên tòa nhà và cây cầu này sẽ được dát vàng với đơn giá $5$ tỉ đồng trên $1$ mét dài. Vì vậy để đáp ứng bài toán kinh tế, kiến trúc sư phải chọn vị trí cây cầu sao cho $MN$ ngắn nhất. Khi đó giá xây cây cầu này hết bao nhiêu tỉ đồng? Trả lời: Hướng dẫn giải: Chọn hệ trục tọa độ $Oxyz$ như hình vẽ ($O$ là trung điểm của $BC$). Ta có: $A'( 0;\\,-150\\sqrt{3};\\,300 ),$ $B( 150;\\,0;\\,0 ),$ $C( -150;\\,0;\\,0 ),$ ${C}'( -150;\\,0;\\,300 ),$ $\\overrightarrow{CA'}=( 150;\\,-150\\sqrt{3};\\,300)$, $\\overrightarrow{BC'}=( -300;\\,0;\\,300 )$ Gọi $m,n$ thỏa mãn $\\left\\{ \\begin{aligned} &\\overrightarrow{CM}=m\\overrightarrow{CA'} \\\\ & \\overrightarrow{BN}=n\\overrightarrow{BC'} \\end{aligned} \\right.$ ta có $M(-150+150m;\\,-150\\sqrt{3}m;\\,300m )$, $N( 150-300n;\\,0;\\,300n )$ $\\Rightarrow \\overrightarrow{MN}=(-150m-300n+300;\\,150\\sqrt{3}m;\\,300n-300m)$. Đường thẳng $MN$ là đường vuông góc chung của $A'C$ và $BC'$ nên: $\\left\\{ \\begin{aligned} & \\overrightarrow{MN}.\\overrightarrow{CA'}=0 \\\\ & \\overrightarrow{MN}.\\overrightarrow{BC'}=0 \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & -4m+n=-1 \\\\ & -m+4n=2 \\end{aligned} \\right.$ $\\Leftrightarrow \\left\\{ \\begin{aligned} & m=\\dfrac{2}{5} \\\\ & n=\\dfrac{3}{5} \\end{aligned} \\right.$ $\\Rightarrow \\overrightarrow{MN}=( 60;\\,60\\sqrt{3};\\,60) \\Rightarrow MN=60\\sqrt{5}$ Số tiền xây cầu là: $T=60\\sqrt{5}.5\\approx 671$ tỉ đồng.",
+        "options": [],
+        "correctAnswer": "671",
+        "correct": 0,
+        "explanation": "",
+        "images": [
+          "https://cdn3.olm.vn/upload/img/0710/img_2025-07-10_686f852cb340e.jpg",
+          "https://cdn3.olm.vn/upload/img/0710/img_2025-07-10_686f8459779bd.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "olm-10trac-nghiem1-t-5172532192",
+    "title": "OLM: 10Trắc nghiệm1-T",
+    "subject": "Tin Học",
+    "grade": 12,
+    "duration": 45,
+    "teacher": "LÝ THỊ THẮM",
+    "source": "OLM",
+    "isSchool": false,
+    "tags": [
+      "OLM",
+      "Tin Học",
+      "GV: LÝ THỊ THẮM"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Đoạn mã HTML dùng để tạo liên kết tới trang web https://www.google.com/ là",
+        "options": [
+          "A. <a domain=\"https://www.google.com/\">Google</a>.",
+          "B. <a url=\"https://www.google.com/\">Google</a>.",
+          "C. <a href=\"https://www.google.com/\">Google</a>.",
+          "D. <a link=\"https://www.google.com/\">Google</a>."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "question": "Đoạn mã HTML dùng để tạo liên kết từ trang homepage.html tới trang product.html trong thư mục project là",
+        "options": [
+          "A. <a href=\"project/homepage.html\">Product List</a>.",
+          "B. <a href=\"project/product.html\">Product List</a>.",
+          "C. <a link=\"project/product.html\">Product List</a>.",
+          "D. <a url=\"project/product\">Product List</a>."
+        ],
+        "correct": 1,
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "question": "Khi tạo liên kết tới một vị trí cụ thể trong cùng trang web, em cần tạo phần tử HTML có thuộc tính gì tại vị trí được liên kết đến?",
+        "options": [
+          "A. Thuộc tính target.",
+          "B. Thuộc tính src.",
+          "C. Thuộc tính id.",
+          "D. Thuộc tính class."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "question": "Em cần viết đoạn mã HTML như thế nào để tạo đường liên kết từ hình ảnh tháp Eiffel được lưu trong tệp có đường dẫn images/eiffel.jpg tới trang info.html?",
+        "options": [
+          "A. <a href=\"info.html\" src=\"images/eiffel.jpg\"></a>.",
+          "B. <img src=\"images/eiffel.jpg\"><a href=\"info.html\"></a>.",
+          "C. <a href=\"info.html\"><img src=\"images/eiffel.jpg\"></a>.",
+          "D. <a src=\"info.html\"><img href=\"images/eiffel.jpg\"></a>."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "question": "Thuộc tính nào của thẻ dùng để chỉ định nơi mở tài liệu được liên kết (VD: mở tài liệu trong một tab mới, mở tài liệu trong khung hiện tại,…)?",
+        "options": [
+          "A. rel.",
+          "B. type.",
+          "C. target.",
+          "D. open."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "question": "Thẻ nào trong HTML được dùng để tạo liên kết?",
+        "options": [
+          "A. <i>.",
+          "B. <b>.",
+          "C. <a>.",
+          "D. <l>."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "question": "Trường hợp liên kết nào sau đây là liên kết ngoài?",
+        "options": [
+          "A. Liên kết tới trang web thuộc thư mục khác, dưới hai (hay nhiều) cấp.",
+          "B. Liên kết tới vị trí khác trong cùng trang web.",
+          "C. Liên kết từ một trang web tới một trang web khác trên Internet.",
+          "D. Liên kết tới trang web cùng thư mục."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "question": "Trong trường hợp trang web liên kết tới thuộc thư mục khác và ở mức trên, ta sử dụng các kí tự nào khi viết đường dẫn?",
+        "options": [
+          "A. \"..\".",
+          "B. \"/..\".",
+          "C. \"../\".",
+          "D. \"./\"."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "question": "Thẻ HTML nào dùng để hiển thị ảnh trong trang web?",
+        "options": [
+          "A. <photo>.",
+          "B. <pic>.",
+          "C. <img>.",
+          "D. <image>."
+        ],
+        "correct": 2,
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "question": "Phát biểu nào sau đây sai?",
+        "options": [
+          "A. Đường dẫn tương đối không yêu cầu giao thức hay tên miền mà chỉ cần tên đường dẫn.",
+          "B. Siêu văn bản là loại văn bản mà nội dung của nó không chỉ chứa văn bản mà còn có thể chứa nhiều dạng dữ liệu khác như âm thanh, hình ảnh,… và đặc biệt là chứa các siêu liên kết tới siêu văn bản khác.",
+          "C. Có hai loại URL chính là đường dẫn tuyệt đối và đường dẫn tương đối.",
+          "D. Các tệp có phần mở rộng .txt là các siêu văn bản."
+        ],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "question": "Phát biểu nào sau đây đúng?",
+        "options": [
+          "A. Thuộc tính id được gọi là mã định danh đoạn.",
+          "B. Khi sử dụng liên kết trên mạng Internet (mà tài liệu không nằm trên máy chủ của mình), em cần phải sử dụng đường dẫn tương đối.",
+          "C. Liên kết trong sử dụng đường dẫn tuyệt đối.",
+          "D. Liên kết ngoài sử dụng đường dẫn tương đối."
+        ],
+        "correct": 0,
+        "explanation": ""
+      }
+    ]
   }
 ]
